@@ -555,14 +555,18 @@ def collect_press() -> list[dict]:
 
 
 def format_press_digest(items: list[dict]) -> str:
-    lines = ["<b>📰 Пресса об ALTA banka</b>", ""]
+    blocks = ["<b>📰 Пресса об ALTA banka</b>"]
     for it in items[:PRESS_MAX_PER_POST]:
-        lines.append(f"• <b>{html.escape(it['outlet'])}</b>: "
-                     f"<a href=\"{html.escape(it['url'])}\">{html.escape(it['title'])}</a>"
-                     + (f"  <i>{tags_line(it.get('tags', []))}</i>" if it.get("tags") else ""))
-    lines += ["", "<i>Подборка публикаций СМИ по темам процедуры. Проверяйте по первоисточникам: "
-                  "официальные сообщения AOD, NBS и банка публикуются здесь отдельно.</i>"]
-    return "\n".join(lines)
+        head = f"<b>{html.escape(it['outlet'])}</b>" + (f" · {it['date']}" if it.get("date") else "")
+        body = f"<a href=\"{html.escape(it['url'])}\">{html.escape(it['title'])}</a>"
+        llm = it.get("llm") or {}
+        if llm.get("summary_ru"):
+            body += "\n" + html.escape(llm["summary_ru"][0])
+        tags = f"<i>{tags_line(it['tags'])}</i>" if it.get("tags") else ""
+        blocks.append("\n".join(x for x in (head, body, tags) if x))
+    blocks.append("<i>Подборка публикаций СМИ по темам процедуры. Проверяйте по первоисточникам: "
+                  "официальные сообщения AOD, NBS и банка публикуются здесь отдельно.</i>")
+    return "\n\n".join(blocks)
 
 
 # --- Telegram-каналы (публичное веб-превью t.me/s/…) --------------------------
@@ -620,13 +624,20 @@ def collect_telegram() -> list[dict]:
 
 
 def format_tg_digest(items: list[dict]) -> str:
-    lines = ["<b>💬 Telegram-каналы об ALTA (неофициально)</b>", ""]
+    blocks = ["<b>💬 Telegram-каналы об ALTA (неофициально)</b>"]
     for it in items[:PRESS_MAX_PER_POST]:
-        lines.append(f"• <b>{html.escape(it['outlet'])}</b> {it['date']}: {html.escape(it['title'])} "
-                     f"<a href=\"{html.escape(it['url'])}\">→</a>"
-                     + (f"  <i>{tags_line(it.get('tags', []))}</i>" if it.get("tags") else ""))
-    lines += ["", "<i>Сообщения каналов, не проверены. Решения принимайте по официальным источникам.</i>"]
-    return "\n".join(lines)
+        head = f"<b>{html.escape(it['outlet'])}</b>" + (f" · {it['date']}" if it.get("date") else "")
+        llm = it.get("llm") or {}
+        text = llm.get("title_ru") or it["title"]
+        if llm.get("summary_ru"):
+            text += "\n" + html.escape(llm["summary_ru"][0])
+        else:
+            text = html.escape(text)
+        body = f"{text} <a href=\"{html.escape(it['url'])}\">→ открыть</a>"
+        tags = f"<i>{tags_line(it['tags'][:4])}</i>" if it.get("tags") else ""
+        blocks.append("\n".join(x for x in (head, body, tags) if x))
+    blocks.append("<i>Сообщения каналов, не проверены. Решения принимайте по официальным источникам.</i>")
+    return "\n\n".join(blocks)
 
 
 # --- Telegram ---------------------------------------------------------------
