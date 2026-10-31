@@ -2,14 +2,14 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:58:37+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-10-31T18:01:14+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T18:01:00+00:00",
-   "elapsed_s": 143,
+   "at": "2026-10-31T18:01:45+00:00",
+   "elapsed_s": 31,
    "llm_calls": 0,
    "msgs": 0
   },
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   }
  },
