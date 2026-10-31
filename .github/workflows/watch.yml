@@ -9,6 +9,10 @@ on:
         description: "Опубликовать эти ссылки принудительно (через запятую)"
         required: false
         default: ""
+      backfill:
+        description: "Выложить подборки прессы/Telegram за 48 ч, включая уже виденное (1 = да)"
+        required: false
+        default: ""
 
 permissions:
   contents: write
@@ -36,6 +40,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           FORCE_URLS: ${{ github.event.inputs.force_urls }}
+          BACKFILL: ${{ github.event.inputs.backfill }}
         run: python watch.py
 
       - name: Save state

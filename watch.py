@@ -31,7 +31,7 @@ TIMEOUT = 25
 UA = "Mozilla/5.0 (compatible; alta-watch/1.0; +https://github.com)"
 
 # Что считаем относящимся к делу: Alta / Алта в любом регистре, кириллица и латиница.
-KEYWORD_RE = re.compile(r"(?<![a-zа-яё])(alta|алта)(?![a-zа-яё])", re.IGNORECASE)
+KEYWORD_RE = re.compile(r"(?<![a-zа-яё])(alta|алта|альт[аыеуой]?)(?![a-zа-яё])", re.IGNORECASE)
 
 AOD_PAGES = [
     "https://www.aod.rs/",
@@ -324,6 +324,60 @@ def parse_article(url: str) -> dict | None:
     }
 
 
+# --- тематический фильтр ------------------------------------------------------
+# Публикация считается относящейся к делу, если упоминает Alta И хотя бы одну
+# тему процесса. Темы становятся тегами в посте.
+
+TOPICS: list[tuple[str, re.Pattern]] = [
+    ("выплаты", re.compile(
+        r"isplat|исплат|выплат|payout|osiguran|осигуран|застрахован|50[.\s]?000|deponent|депонент|"
+        r"вкладчик|depozit|депозит|вклад|štedn|штедн|štediš|штедиш", re.I)),
+    ("суд", re.compile(
+        r"stečaj|stecaj|стечај|банкрот|bankrot|privredni sud|привредни суд|решењ|rešenj|решени[ея] суда|"
+        r"ročišt|рочишт|upravnik|управник|управляющ|likvidac|ликвидац", re.I)),
+    ("требования", re.compile(
+        r"potraživanj|potrazivanj|потраживањ|требован|poverila|поверила|poverioc|повериоц|кредитор|"
+        r"prijav[aeu]|пријав|стечајна маса|stečajn[aeu] mas", re.I)),
+    ("регулятор", re.compile(
+        r"\bnbs\b|\bнбс\b|narodn[ae] bank|народн[ае] банк|народн\w* банк|\baod\b|\bаод\b|agencij\w* za osiguranje|"
+        r"агенциј\w* за осигурање|агентств\w* по страхован|dozvol\w* za rad|дозвол\w* за рад|лиценз|licenc", re.I)),
+    ("клиенты", re.compile(
+        r"kredit|кредит|platni promet|платни промет|платеж|kartic|картиц|банковск\w* карт|račun|рачун|"
+        r"\bсч[её]т|trajn\w* nalog|zarad[ae]|зарад[ае]|зарплат|\beps\b|\bепс\b|komunal|комунал|alta ?pay|"
+        r"klijent|клијент|клиент|ekspozitur|експозитур|отделени|aplikacij|апликациј|приложени", re.I)),
+    ("активы", re.compile(
+        r"imovin|имовин|актив[ыа]|istrag|истраг|расследован|tužila|тужила|прокурат|blokad|блокад|"
+        r"transfer|трансфер|вывод\w* (денег|средств|капитал)|iznos\w* novca|iznošenj|изношењ|skoplj|скопљ|"
+        r"moskv|москв|milion|милион|миллион", re.I)),
+    ("банки", re.compile(
+        r"udruženj\w* banaka|удружењ\w* банака|ostal\w* bana?k|друг\w* банк|bankarsk\w* sistem|банкарск\w* систем|"
+        r"банковск\w* систем|stabilnost|стабилност|стабильност|poštansk\w* štedionic|поштанск\w* штедионic|"
+        r"почтов\w* сберкасс|banka isplatila|банка исплатила|банк-выплатчик", re.I)),
+    # только имя владельца — само по себе не повод для публикации
+    ("владелец", re.compile(r"macur|мацур|макур|akcionar|акционар|vlasnik|власник|владел", re.I)),
+    ("сроки", re.compile(
+        r"\brok\b|rokov|\bрок\b|роков|\bсрок|deadline|ponedelj|понедељ|понедельник|radnih dana|радних дана|"
+        r"рабочих дн", re.I)),
+]
+BIO_RE = re.compile(r"ko je |ко је |biografij|биографиј|kako je nastal|како је настал|menjačnic|мењачниц|"
+                    r"imperij|империј|od menjačnice|од мењачнице|kako je izgradio|како је изградио", re.I)
+
+
+def classify(text: str) -> tuple[bool, list[str]]:
+    """→ (относится к делу?, теги). Нужны упоминание Alta и хотя бы одна тема, кроме чисто биографических."""
+    if not KEYWORD_RE.search(text):
+        return False, []
+    tags = [name for name, rx in TOPICS if rx.search(text)]
+    substantive = [t for t in tags if t != "владелец"]
+    if BIO_RE.search(text[:200]) and len(substantive) < 2:
+        return False, tags
+    return bool(substantive) or len(tags) >= 2, tags
+
+
+def tags_line(tags: list[str]) -> str:
+    return " ".join("#" + t for t in tags)
+
+
 # --- пресса (RSS проверенных изданий) ---------------------------------------
 
 PRESS_FEEDS = [
@@ -378,7 +432,8 @@ def collect_press() -> list[dict]:
             pub = parse_pubdate(_rss_field(raw, "pubDate"))
             if not (title and link.startswith("http")):
                 continue
-            if not (KEYWORD_RE.search(title) or KEYWORD_RE.search(desc)):
+            ok, tags = classify(title + " " + desc)
+            if not ok:
                 continue
             if pub and pub.timestamp() < cutoff:
                 continue
@@ -389,6 +444,7 @@ def collect_press() -> list[dict]:
                 "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
                 "kind": "press",
                 "relevant": True,
+                "tags": tags,
             })
             n += 1
         log(f"пресса {outlet}: {n} про Alta")
@@ -396,12 +452,76 @@ def collect_press() -> list[dict]:
 
 
 def format_press_digest(items: list[dict]) -> str:
-    lines = ["<b>📰 Пресса об ALTA banka</b>"]
+    lines = ["<b>📰 Пресса об ALTA banka</b>", ""]
     for it in items[:PRESS_MAX_PER_POST]:
         lines.append(f"• <b>{html.escape(it['outlet'])}</b>: "
-                     f"<a href=\"{html.escape(it['url'])}\">{html.escape(it['title'])}</a>")
-    lines.append("<i>Подборка публикаций СМИ по ключевому слову. Проверяйте по первоисточникам: "
-                 "официальные сообщения AOD, NBS и банка публикуются здесь отдельно.</i>")
+                     f"<a href=\"{html.escape(it['url'])}\">{html.escape(it['title'])}</a>"
+                     + (f"  <i>{tags_line(it.get('tags', []))}</i>" if it.get("tags") else ""))
+    lines += ["", "<i>Подборка публикаций СМИ по темам процедуры. Проверяйте по первоисточникам: "
+                  "официальные сообщения AOD, NBS и банка публикуются здесь отдельно.</i>"]
+    return "\n".join(lines)
+
+
+# --- Telegram-каналы (публичное веб-превью t.me/s/…) --------------------------
+# Только каналы: у групп и чатов превью сообщений не показывает.
+
+TG_CHANNELS = ["novisadaily", "Serbia", "volna_srbjia", "novostiserbii"]
+TG_MAX_AGE_H = 48
+TG_SNIPPET = 220
+
+
+def collect_telegram() -> list[dict]:
+    items: list[dict] = []
+    cutoff = datetime.now(timezone.utc).timestamp() - TG_MAX_AGE_H * 3600
+    for ch in TG_CHANNELS:
+        text = get(f"https://t.me/s/{ch}")
+        if not text or "tgme_widget_message" not in text:
+            log(f"telegram @{ch}: превью не прочиталось")
+            continue
+        soup = BeautifulSoup(text, "html.parser")
+        n = 0
+        for msg in soup.select("div.tgme_widget_message[data-post]"):
+            post = msg.get("data-post", "")
+            if any(it["url"].endswith("/" + post) for it in items):
+                continue
+            body_el = msg.select_one(".tgme_widget_message_text")
+            if not body_el or "/" not in post:
+                continue
+            body = body_el.get_text(" ", strip=True)
+            ok, tags = classify(body)
+            if not ok:
+                continue
+            t_el = msg.select_one("time[datetime]")
+            pub = None
+            if t_el:
+                try:
+                    pub = datetime.fromisoformat(t_el["datetime"].replace("Z", "+00:00"))
+                except ValueError:
+                    pub = None
+            if pub and pub.timestamp() < cutoff:
+                continue
+            snippet = body[:TG_SNIPPET].rsplit(" ", 1)[0] + ("…" if len(body) > TG_SNIPPET else "")
+            items.append({
+                "url": f"https://t.me/{post}",
+                "title": snippet,
+                "outlet": "@" + post.split("/")[0],
+                "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
+                "kind": "telegram",
+                "relevant": True,
+                "tags": tags,
+            })
+            n += 1
+        log(f"telegram @{ch}: {n} по теме")
+    return items
+
+
+def format_tg_digest(items: list[dict]) -> str:
+    lines = ["<b>💬 Telegram-каналы об ALTA (неофициально)</b>", ""]
+    for it in items[:PRESS_MAX_PER_POST]:
+        lines.append(f"• <b>{html.escape(it['outlet'])}</b> {it['date']}: {html.escape(it['title'])} "
+                     f"<a href=\"{html.escape(it['url'])}\">→</a>"
+                     + (f"  <i>{tags_line(it.get('tags', []))}</i>" if it.get("tags") else ""))
+    lines += ["", "<i>Сообщения каналов, не проверены. Решения принимайте по официальным источникам.</i>"]
     return "\n".join(lines)
 
 
@@ -527,8 +647,8 @@ def main() -> int:
                 seen[u] = rec
         for it in ready_items:
             seen.setdefault(it["url"], {"first_seen": now, "posted": False, "seeded": True})
-        for it in collect_press():
-            seen.setdefault(it["url"], {"first_seen": now, "posted": False, "seeded": True, "kind": "press"})
+        for it in collect_press() + collect_telegram():
+            seen.setdefault(it["url"], {"first_seen": now, "posted": False, "seeded": True, "kind": it["kind"]})
         check_aod_proceedings(state)  # только выставить флаг, если Alta уже там
         state["seeded"] = True
         save_state(state)
@@ -592,22 +712,37 @@ def main() -> int:
         else:
             log(f"Не отправилось, повторим позже: {u}")
 
-    # 4) Пресса: все новые статьи за запуск — одним постом-подборкой
-    press_new = [it for it in collect_press() if it["url"] not in seen]
-    if press_new:
-        text = format_press_digest(press_new)
+    # 4) Пресса и Telegram: новые публикации за запуск — одной подборкой каждая.
+    #    BACKFILL=1 → выложить и те, что бот уже видел, но не публиковал (после пересева).
+    backfill = os.environ.get("BACKFILL", "").lower() in ("1", "true", "yes")
+
+    def is_new(it: dict) -> bool:
+        rec = seen.get(it["url"])
+        if rec is None:
+            return True
+        return backfill and not rec.get("posted")
+
+    for collector, formatter, label in (
+        (collect_press, format_press_digest, "пресса"),
+        (collect_telegram, format_tg_digest, "telegram"),
+    ):
+        fresh = [it for it in collector() if is_new(it)]
+        if not fresh:
+            continue
+        text = formatter(fresh)
         if dry:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
             ok = True
         else:
             ok = tg_send(token, chat_id, text)
         if ok:
-            for it in press_new[:PRESS_MAX_PER_POST]:
-                seen[it["url"]] = {"first_seen": now, "posted": True, "kind": "press",
-                                   "title": it["title"][:120]}
+            for it in fresh[:PRESS_MAX_PER_POST]:
+                seen[it["url"]] = {"first_seen": now, "posted": True, "kind": it["kind"],
+                                   "title": it["title"][:120], "tags": it.get("tags", [])}
             posted += 1
+            time.sleep(1.5)
         else:
-            log("Подборка прессы не отправилась, повторим позже")
+            log(f"Подборка ({label}) не отправилась, повторим позже")
 
     save_state(state)
     log(f"Готово. Опубликовано: {posted}")
