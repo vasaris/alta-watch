@@ -607,6 +607,15 @@
    "posted": false,
    "seeded": true
   },
+  "https://forbes.n1info.rs/vesti/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
+   "first_seen": "2026-10-31T12:26:11+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "банки"
+   ],
+   "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
+  },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
@@ -757,6 +766,15 @@
     "активы"
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
+  },
+  "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
+   "first_seen": "2026-10-31T12:26:11+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "сроки"
+   ],
+   "title": "Zaposleni u Alta banci: Do ponedeljka bilo sve regularno, od utorka krenulo masovno prebacivanje novca"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
