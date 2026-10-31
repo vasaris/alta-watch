@@ -15,7 +15,12 @@ alta-watch: следит за официальными сообщениями и
   dup         — перепечатка без новых фактов
   rejected    — не по теме / слабое / старое
   signal      — не опубликовано, отправлено владельцу как сигнал (непроверенное)
+
+Остальные разделы состояния: recent (суть опубликованного за сутки), pending (накопитель подборок),
+retry_items (метаданные отложенной прессы — чтобы повтор не зависел от короткой RSS-ленты),
+facts (реестр фактов процедуры без срока жизни), flags, signals, health (здоровье источников, алерты).
 """
+import base64
 import hashlib
 import html
 import json
@@ -23,9 +28,12 @@ import os
 import re
 import sys
 import time
+import unicodedata
 import warnings
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 
 import requests
 from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning, NavigableString
@@ -42,20 +50,54 @@ if DRY_RUN:
     # сухой прогон никогда не пишет в боевое состояние
     STATE_FILE = Path("state/dry_run_state.json")
 
+VERSION = "2.1"
 TIMEOUT = 25
-UA = "Mozilla/5.0 (compatible; alta-watch/2.0; +https://github.com/vasaris/alta-watch)"
+UA = f"Mozilla/5.0 (compatible; alta-watch/{VERSION}; +https://github.com/vasaris/alta-watch)"
 RETRIES = 2
 RETRY_PAUSE = 3
 RUN_BUDGET_S = 240              # бот сам останавливается и сохраняет состояние
 _T0 = time.monotonic()
+LOCAL_TZ = ZoneInfo("Europe/Belgrade")
 
 # Общие бюджеты на прогон (для всех контуров вместе)
 LLM_MAX_CALLS = 10              # вызовов модели всего
 LLM_RESERVE_OFFICIAL = 4        # из них резерв для официальных материалов
 MSG_MAX = 8                     # сообщений в канал всего (посты + подборки)
+PRESS_POSTS_PER_RUN = 3         # отдельных постов прессы за прогон; остальное — в подборку
 QUARANTINE_PER_RUN = 10         # сколько карантинных материалов пересматриваем за прогон
 RETRY_MAX_ATTEMPTS = 5          # после этого — карантин
 FLOOD_LIMIT = 20                # больше «новых» сразу из одного источника = сбой чтения → карантин
+RETRY_ITEM_MAX_AGE_H = 48       # отложенная пресса старше — забываем
+# Причины откладывания, в которых материал не виноват: попытки не считаем
+SYSTEMIC_REASONS = {"llm_budget", "llm_down", "msg_budget"}
+
+# Здоровье и алерты владельцу
+SOURCE_FAIL_RUNS = 3            # подряд неудачных чтений критичного источника до алерта
+ALERT_REPEAT_H = 6              # повтор одного и того же алерта не чаще
+DAILY_REPORT_HOUR = 9           # ежедневный отчёт в админ-чат (Europe/Belgrade)
+
+# Сканы: PDF без текстового слоя отдаём модели как документ
+SCAN_MAX_PAGES = 12
+SCAN_MAX_BYTES = 8_000_000
+
+# Дешёвая дедупликация заголовков до вызова модели
+NEAR_DUP_JACCARD = 0.85
+NEGATION_TOKENS = {"ne", "nije", "nece", "nema", "nisu", "не", "нет", "нема", "није", "неће", "нису"}
+
+# Реестр фактов процедуры (ключи фиксированы, значения — из официальных источников)
+FACT_KEYS = [
+    "court_decision_date",      # дата решения суда об открытии банкротства
+    "payout_bank",              # банк-выплатчик
+    "payout_start",             # дата начала выплат
+    "payout_locations",         # где выплачивают
+    "payout_documents",         # какие документы нужны
+    "nonresidents",             # особенности для нерезидентов / валютных вкладов
+    "claims_deadline",          # срок подачи требований кредиторов (сверх 50 000)
+    "claims_procedure",         # как подавать требования
+    "bankruptcy_manager",       # управляющий
+    "license_revoked_date",     # дата отзыва лицензии
+    "other",
+]
 
 # Что считаем относящимся к делу: Alta / Алта / Альта
 KEYWORD_RE = re.compile(r"(?<![a-zа-яё])(alta|алта|альт[аыеуой]?)(?![a-zа-яё])", re.IGNORECASE)
@@ -73,7 +115,10 @@ AOD_NOTICE_FILE_RE = re.compile(r"/uploads/dokumenti/oglas/[^\s\"'<>#?]+\.(?:pdf
 NOTICE_KEYWORD_RE = re.compile(r"(alta|алта|исплат|isplat|осигуран|osiguran|депон|depon)", re.I)
 NOTICE_SINCE = datetime(2026, 10, 30, tzinfo=timezone.utc)   # объявления старше — никогда
 AOD_PROCEEDINGS_PAGE = "https://www.aod.rs/clan/stecajlikv/postupci_utoku"
+AOD_RECHECK_MAX = 3             # сколько последних новостей AOD перечитываем на изменения
 
+ALTA_HOSTS = {"altabanka.rs", "www.altabanka.rs"}
+NBS_HOSTS = {"www.nbs.rs", "nbs.rs"}
 ALTA_PAGES = ["https://altabanka.rs/saopstenje/", "https://altabanka.rs/vesti/"]
 ALTA_LINK_RE = re.compile(r"https?://(?:www\.)?altabanka\.rs/([a-z0-9][a-z0-9-]{3,})/?(?=[\"'\s<>#?])", re.I)
 ALTA_SKIP_SLUGS = {
@@ -81,8 +126,8 @@ ALTA_SKIP_SLUGS = {
     "e-banking", "m-banking", "karijera", "medija-centar", "dokumenti", "lokacije", "en",
     "wp-content", "wp-admin", "wp-json", "feed", "tag", "category", "author", "page",
 }
-ALTA_RECHECK: set[str] = set()
 ALTA_RECHECK_MAX = 5
+RECHECK: set[str] = set()       # уже виденные официальные страницы, которые перечитываем на изменения
 
 NBS_RSS = ("https://www.nbs.rs/system/modules/yu.nbs.news/elements/responsive/"
            "RSSnews.xml?kategorija=158&lang=sr_RS&konverzija=no")
@@ -203,15 +248,74 @@ def parse_ddmmyyyy(s: str) -> datetime | None:
         return None
 
 
+def host_of(url: str) -> str:
+    try:
+        return (urlparse(url).hostname or "").lower()
+    except ValueError:
+        return ""
+
+
+def is_aod(url: str) -> bool:
+    return host_of(url) in AOD_HOSTS
+
+
+def is_nbs(url: str) -> bool:
+    return host_of(url) in NBS_HOSTS
+
+
+def is_alta_site(url: str) -> bool:
+    return host_of(url) in ALTA_HOSTS
+
+
+def press_hosts() -> set[str]:
+    return {host_of(f["url"]) for f in PRESS_FEEDS}
+
+
+def parse_iso(s: str) -> float | None:
+    try:
+        return datetime.fromisoformat(s).timestamp()
+    except (TypeError, ValueError):
+        return None
+
+
+def title_tokens(title: str) -> set[str]:
+    """Слова заголовка без диакритики и пунктуации; короткие слова (не/ne) сохраняем."""
+    t = unicodedata.normalize("NFKD", str(title or "").lower())
+    t = "".join(ch for ch in t if not unicodedata.combining(ch)).replace("đ", "dj")
+    return {w for w in re.split(r"[^\w]+", t) if len(w) >= 2 or w.isdigit()}
+
+
+def near_dup(title: str, others: list[tuple[str, str]]) -> str | None:
+    """Перепечатка того же заголовка? Возвращает url совпавшего материала.
+    Совпадение: Жаккар по словам >= порога, одинаковые числа и одинаковые отрицания."""
+    a = title_tokens(title)
+    if len(a) < 4:
+        return None
+    nums_a = {w for w in a if w.isdigit()}
+    neg_a = a & NEGATION_TOKENS
+    for other_title, other_url in others:
+        b = title_tokens(other_title)
+        if not b:
+            continue
+        j = len(a & b) / len(a | b)
+        if j < NEAR_DUP_JACCARD:
+            continue
+        if {w for w in b if w.isdigit()} != nums_a or (b & NEGATION_TOKENS) != neg_a:
+            continue
+        return other_url
+    return None
+
+
 # =============================================================================
 # ХРАНИЛИЩЕ
 # =============================================================================
 
-STATE_KEYS = ("seeded", "seen", "recent", "pending", "flags", "signals", "health")
+STATE_KEYS = ("seeded", "seen", "recent", "pending", "flags", "signals", "health", "retry_items", "facts")
 
 
 def empty_state() -> dict:
-    return {"seeded": False, "seen": {}, "recent": [], "pending": {}, "flags": {}, "signals": [], "health": {}}
+    return {"seeded": False, "seen": {}, "recent": [], "pending": {}, "flags": {}, "signals": [], "health": {},
+            "retry_items": {}, "facts": {}}
 
 
 def load_state() -> dict:
@@ -262,6 +366,17 @@ def migrate_state(st: dict) -> None:
         n += 1
     if n:
         log(f"миграция состояния: {n} записей получили статус")
+    # v2.0 → v2.1: пресса, попавшая в карантин из-за простоя модели и уже выпавшая из лент,
+    # без сохранённых метаданных не восстановится — закрываем явно, чтобы не висела в отчётах
+    lost = 0
+    for u, rec in st.get("seen", {}).items():
+        if (rec.get("status") == "quarantine" and rec.get("kind") in ("press", "telegram")
+                and str(rec.get("reason", "")).startswith("retry_exhausted:llm") and u not in st.get("retry_items", {})):
+            rec["status"], rec["reason"] = "rejected", "lost_in_outage"
+            rec["updated"] = now_iso()
+            lost += 1
+    if lost:
+        log(f"миграция состояния: {lost} материалов прессы потеряны в простое модели, закрыты как lost_in_outage")
 
 
 def save_state(state: dict) -> None:
@@ -281,8 +396,10 @@ def mark(state: dict, url: str, status: str, **extra) -> dict:
     rec["status"] = status
     rec["posted"] = status == "sent"
     rec["updated"] = now_iso()
-    rec.update(extra)
+    rec.update({k: v for k, v in extra.items() if v is not None})
     state["seen"][url] = rec
+    if status not in ("retry", "quarantine"):
+        state.get("retry_items", {}).pop(url, None)   # решение принято — из очереди повторов убираем
     return rec
 
 
@@ -294,14 +411,61 @@ def is_candidate(state: dict, url: str) -> bool:
     return rec.get("status") in ("retry", "quarantine")
 
 
-def bump_retry(state: dict, url: str, reason: str, **extra) -> None:
+RETRY_ITEM_FIELDS = ("url", "title", "title_src", "outlet", "source", "tier", "ts", "date", "kind", "tags")
+
+
+def bump_retry(state: dict, url: str, reason: str, item: dict | None = None, **extra) -> str:
+    """Откладываем материал. Системные причины (нет модели, кончился бюджет) попытки не считают:
+    материал в них не виноват. Возвращает новый статус."""
     rec = state["seen"].get(url) or {}
-    attempts = int(rec.get("attempts", 0)) + 1
+    base = reason.split(":")[0]
+    systemic = base in SYSTEMIC_REASONS
+    attempts = int(rec.get("attempts", 0)) + (0 if systemic else 1)
+    if item is not None and item.get("kind") in ("press", "telegram"):
+        # метаданные храним отдельно: через час статья выпадет из короткой RSS-ленты
+        state.setdefault("retry_items", {})[url] = {k: item.get(k) for k in RETRY_ITEM_FIELDS if item.get(k) is not None}
+    if rec.get("status") == "quarantine":
+        mark(state, url, "quarantine", attempts=attempts, reason=rec.get("reason") or reason, last_reason=reason, **extra)
+        return "quarantine"
     if attempts >= RETRY_MAX_ATTEMPTS:
         mark(state, url, "quarantine", attempts=attempts, reason=f"retry_exhausted:{reason}", **extra)
         log(f"карантин после {attempts} попыток ({reason}): {url}")
-    else:
-        mark(state, url, "retry", attempts=attempts, reason=reason, **extra)
+        return "quarantine"
+    mark(state, url, "retry", attempts=attempts, reason=reason, **extra)
+    return "retry"
+
+
+def was_fresh_when_seen(rec: dict | None, ts: float | None, max_age_s: float) -> bool:
+    """Свежесть прессы считаем на момент первого обнаружения, а не на момент повтора:
+    статья, отложенная из-за простоя модели, не должна «устареть» в очереди."""
+    if ts is None:
+        return False
+    if rec is None:
+        return ts >= time.time() - max_age_s
+    first = parse_iso(rec.get("first_seen", "")) or time.time()
+    return ts >= first - max_age_s
+
+
+def retry_items_for(state: dict, kind: str, collected: list[dict]) -> list[dict]:
+    """Добавляем к собранному отложенные материалы, которых в лентах уже нет."""
+    have = {it["url"] for it in collected}
+    out = list(collected)
+    cutoff = time.time() - RETRY_ITEM_MAX_AGE_H * 3600
+    for u, meta in list(state.get("retry_items", {}).items()):
+        if meta.get("kind") != kind or u in have:
+            continue
+        rec = state["seen"].get(u)
+        if rec is None or rec.get("status") not in ("retry", "quarantine"):
+            state["retry_items"].pop(u, None)
+            continue
+        if (meta.get("ts") or 0) < cutoff:
+            mark(state, u, "rejected", reason="expired", kind=kind)
+            continue
+        it = dict(meta)
+        it.setdefault("relevant", True)
+        it.setdefault("tags", [])
+        out.append(it)
+    return out
 
 
 def flood_guard(state: dict, label: str, urls: list[str]) -> list[str]:
@@ -316,7 +480,8 @@ def flood_guard(state: dict, label: str, urls: list[str]) -> list[str]:
 
 
 def quarantine_slice(state: dict, urls: list[str]) -> list[str]:
-    """Из кандидатов: все новые/retry + не больше QUARANTINE_PER_RUN карантинных."""
+    """Из кандидатов: все новые/retry + не больше QUARANTINE_PER_RUN карантинных
+    + уже опубликованные/засеянные страницы из RECHECK (перечитываем на изменения)."""
     out, q = [], 0
     for u in urls:
         rec = state["seen"].get(u)
@@ -325,6 +490,8 @@ def quarantine_slice(state: dict, urls: list[str]) -> list[str]:
         elif rec.get("status") == "quarantine" and q < QUARANTINE_PER_RUN:
             out.append(u)
             q += 1
+        elif u in RECHECK and rec.get("status") in ("sent", "seeded"):
+            out.append(u)
     return out
 
 
@@ -339,10 +506,16 @@ def collect_aod() -> list[str]:
         text = get(page)
         if not text:
             continue
+        page_urls: list[str] = []
         for m in AOD_LINK_RE.finditer(text):
             u = f"https://www.aod.rs/clan/vest/vest_forma/{m.group(1)}"
+            if u not in page_urls:
+                page_urls.append(u)
             if u not in urls:
                 urls.append(u)
+        if page.endswith("sve_vesti"):
+            # последние новости перечитываем: AOD может дописать сообщение по прежнему адресу
+            RECHECK.update(page_urls[:AOD_RECHECK_MAX])
     log(f"AOD вести: {len(urls)} ссылок")
     return urls
 
@@ -437,8 +610,8 @@ def collect_alta() -> list[str]:
                 urls.append(u)
                 page_urls.append(u)
         if "saopstenje" in page:
-            ALTA_RECHECK.update(page_urls[:ALTA_RECHECK_MAX])
-    log(f"altabanka.rs: {len(urls)} ссылок, перепроверяем {len(ALTA_RECHECK)}")
+            RECHECK.update(page_urls[:ALTA_RECHECK_MAX])
+    log(f"altabanka.rs: {len(urls)} ссылок, перепроверяем всего {len(RECHECK)}")
     return urls
 
 
@@ -517,57 +690,85 @@ def parse_article(url: str) -> dict | None:
             date = f"{m.group(1)}.{m.group(2)}.{m.group(3)}"
 
     excerpt = full[:MAX_EXCERPT].rsplit(" ", 1)[0] + "…" if len(full) > MAX_EXCERPT else full
-    is_alta_site = "altabanka.rs" in url
+    alta = is_alta_site(url)
+    paras_unique = list(dict.fromkeys(paras))
     return {
         "url": url, "title": title, "date": date, "excerpt": excerpt,
-        "relevant": is_alta_site or bool(KEYWORD_RE.search(title) or KEYWORD_RE.search(body_text)),
+        "relevant": alta or bool(KEYWORD_RE.search(title) or KEYWORD_RE.search(body_text)),
         "hash": hashlib.sha1((title + "\n" + full).encode("utf-8")).hexdigest()[:16],
-        "kind": "alta_site" if is_alta_site else "news",
-        "source": "alta_site" if is_alta_site else ("aod_news" if "aod.rs" in url else "nbs"),
+        # отпечатки абзацев: при перечитывании находим именно добавленный текст
+        "paras": [hashlib.sha1(p.encode("utf-8")).hexdigest()[:10] for p in paras_unique],
+        "paras_text": paras_unique,
+        "kind": "alta_site" if alta else "news",
+        "source": "alta_site" if alta else ("aod_news" if is_aod(url) else "nbs"),
         "full_text": full[:LLM_MAX_CHARS],
         "truncated": len(full) > LLM_MAX_CHARS,
     }
 
 
-def document_text(url: str, max_chars: int = LLM_MAX_CHARS) -> str | None:
-    """None — не скачался (повторим); "" — текста нет (скан или неподдерживаемый формат)."""
+def added_paragraphs(old_paras: list[str] | None, item: dict) -> list[str]:
+    """Абзацы, которых не было при прошлом чтении страницы."""
+    if not old_paras:
+        return []
+    old = set(old_paras)
+    return [t for h, t in zip(item.get("paras", []), item.get("paras_text", [])) if h not in old]
+
+
+def document_text(url: str, max_chars: int = LLM_MAX_CHARS) -> dict | None:
+    """None — не скачался (повторим). Иначе {"text", "format", "pdf": bytes|None, "pages"}:
+    text == "" означает, что текстового слоя нет (скан) или формат не поддерживается."""
     r = fetch(url)
     if r is None:
         return None
     data = r.content
+    out = {"text": "", "format": "other", "pdf": None, "pages": 0}
     if len(data) > 25_000_000:
         log(f"WARN документ слишком большой, пропускаю: {url}")
-        return ""
+        out["format"] = "too_big"
+        return out
     text = ""
     try:
         if data[:5] == b"%PDF-":
             from io import BytesIO
             from pypdf import PdfReader
+            out["format"] = "pdf"
             reader = PdfReader(BytesIO(data))
+            out["pages"] = len(reader.pages)
             parts = []
             for page in reader.pages[:8]:
                 parts.append(page.extract_text() or "")
                 if sum(len(p) for p in parts) > max_chars:
                     break
             text = "\n".join(parts)
+            if len(re.sub(r"\s+", "", text)) < 40:
+                text = ""   # практически пустой слой — это скан
+                if len(data) <= SCAN_MAX_BYTES and out["pages"] <= SCAN_MAX_PAGES:
+                    out["pdf"] = data
         elif data[:2] == b"PK":
             import zipfile
             from io import BytesIO
             with zipfile.ZipFile(BytesIO(data)) as z:
                 if "word/document.xml" not in z.namelist():
-                    return ""
+                    out["format"] = "zip"
+                    return out
+                out["format"] = "docx"
                 xml = z.read("word/document.xml").decode("utf-8", "ignore")
             xml = re.sub(r"</w:p>", "\n", xml)
             text = html.unescape(re.sub(r"<[^>]+>", "", xml))
+        elif data[:8] == b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1":
+            out["format"] = "doc"
+            log(f"документ в старом формате .doc, текст не извлекаем: {url}")
+            return out
         else:
-            log(f"документ неподдерживаемого формата (старый .doc?): {url}")
-            return ""
+            log(f"документ неподдерживаемого формата: {url}")
+            return out
     except Exception as e:  # noqa: BLE001
         log(f"WARN текст из документа не извлёкся {url}: {type(e).__name__}")
-        return ""
+        return out
     text = re.sub(r"[ \t]+", " ", text)
     text = re.sub(r"\n{2,}", "\n", text).strip()
-    return text[:max_chars]
+    out["text"] = text[:max_chars]
+    return out
 
 
 # =============================================================================
@@ -658,7 +859,7 @@ def collect_press() -> tuple[list[dict], dict]:
             if ts and ts < cutoff:
                 continue
             items.append({
-                "url": norm_url(link), "title": title, "outlet": feed["name"], "source": feed["id"],
+                "url": norm_url(link), "title": title, "title_src": title, "outlet": feed["name"], "source": feed["id"],
                 "tier": feed["tier"], "ts": ts,
                 "date": datetime.fromtimestamp(ts, timezone.utc).astimezone().strftime("%d.%m.%Y %H:%M") if ts else "",
                 "kind": "press", "relevant": True, "tags": tags,
@@ -704,7 +905,7 @@ def collect_telegram() -> list[dict]:
                 continue
             snippet = body[:TG_SNIPPET].rsplit(" ", 1)[0] + ("…" if len(body) > TG_SNIPPET else "")
             items.append({
-                "url": f"https://t.me/{post}", "title": snippet, "full_text": body[:LLM_MAX_CHARS],
+                "url": f"https://t.me/{post}", "title": snippet, "title_src": snippet, "full_text": body[:LLM_MAX_CHARS],
                 "outlet": "@" + post.split("/")[0], "source": "tg:" + post.split("/")[0], "tier": "telegram",
                 "ts": ts, "date": datetime.fromtimestamp(ts, timezone.utc).astimezone().strftime("%d.%m.%Y %H:%M") if ts else "",
                 "kind": "telegram", "relevant": True, "tags": tags,
@@ -719,7 +920,12 @@ def collect_telegram() -> list[dict]:
 # =============================================================================
 
 LLM_CALLS = 0
+LLM_DOWN: str | None = None     # причина, по которой модель в этом прогоне недоступна (billing/auth/...)
+LLM_NET_FAILS = 0               # подряд сетевых ошибок к API
+LLM_OK = False                  # был ли в этом прогоне хотя бы один успешный ответ
 RECENT: list[dict] = []
+FACTS_VIEW: dict = {}
+PENDING_VIEW: dict = {}
 
 LLM_SYSTEM = (
     "Ты редактор русскоязычного Telegram-канала для вкладчиков ALTA banka a.d. Beograd (Сербия). "
@@ -745,10 +951,35 @@ LLM_SYSTEM = (
     '  "action": "что сделать вкладчику ALTA, одна фраза, ТОЛЬКО если это прямо сказано в материале" или null,\n'
     '  "unverified": true/false — опирается ли материал на слухи, анонимные источники, заявления политиков или '
     'обвинения без подтверждения регулятора/документа,\n'
-    '  "tags": ["до 4 из: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"]\n'
+    '  "tags": ["до 4 из: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"],\n'
+    '  "facts": [{"key": "...", "value": "..."}] — ТОЛЬКО для официального источника и ТОЛЬКО факты, прямо '
+    'названные в тексте (ключи: ' + ", ".join(FACT_KEYS) + '; value — короткая строка с датой/названием/условием '
+    'как в оригинале, по-русски); для прессы и если фактов нет — [].\n'
     "}\n"
+    "Если текст нечитаем или относится не к ALTA banka Beograd — subject \"other\", relevance 0.\n"
     "Не додумывай фактов. Не давай юридических советов. Пиши только кириллицей и латиницей."
 )
+
+
+def llm_mark_down(reason: str) -> None:
+    global LLM_DOWN
+    if LLM_DOWN is None:
+        LLM_DOWN = reason
+        log(f"ERROR модель недоступна в этом прогоне: {reason}. Дальше модель не вызываем, попытки не считаем.")
+
+
+def classify_llm_error(status: int, body: str) -> str | None:
+    """Системная ли ошибка API (виноват не материал). Возвращает причину или None."""
+    low = (body or "").lower()
+    if status in (401, 403):
+        return "auth"
+    if status == 400 and ("credit" in low or "billing" in low or "balance" in low):
+        return "billing"
+    if status == 429:
+        return "rate_limit"
+    if status in (500, 502, 503, 504, 529) or "overloaded" in low:
+        return "server"
+    return None
 
 CJK_RE = re.compile(r"[⺀-鿿가-힯豈-﫿＀-￯]+")
 
@@ -791,46 +1022,88 @@ def source_desc(item: dict) -> str:
     return "источник неизвестного типа"
 
 
-def llm_analyze(item: dict, translate: bool = False) -> dict | None:
-    """Строгий разбор ответа: неполный/невалидный ответ → None (повтор позже)."""
-    global LLM_CALLS
-    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-    if not key:
-        return None
-    text = item.get("full_text") or item.get("excerpt") or item.get("title") or ""
-    if not text.strip():
-        return None
-    recent_block = ""
+def known_context() -> str:
+    """Что модель должна считать уже известным: реестр фактов (бессрочно) + публикации за сутки + накопитель."""
+    blocks = []
+    if FACTS_VIEW:
+        names = {
+            "court_decision_date": "решение суда об открытии банкротства", "payout_bank": "банк-выплатчик",
+            "payout_start": "начало выплат", "payout_locations": "где выплачивают", "payout_documents": "документы для выплаты",
+            "nonresidents": "нерезиденты/валютные вклады", "claims_deadline": "срок подачи требований",
+            "claims_procedure": "как подавать требования", "bankruptcy_manager": "управляющий",
+            "license_revoked_date": "отзыв лицензии", "other": "прочее",
+        }
+        lines = [f"- {names.get(k, k)}: {v.get('value', '')[:200]}" for k, v in FACTS_VIEW.items() if v.get("value")]
+        if lines:
+            blocks.append("ИЗВЕСТНЫЕ ФАКТЫ ПРОЦЕДУРЫ (официально подтверждено ранее; повтор этих фактов — не новость):\n"
+                          + "\n".join(lines))
     known = RECENT[-RECENT_MAX:] + [{"text": f"(ожидает публикации) {p.get('title', '')} — {p.get('first', '')}"}
                                      for lst in PENDING_VIEW.values() for p in lst]
     if known:
-        recent_block = "УЖЕ ОПУБЛИКОВАНО ИЛИ ОЖИДАЕТ ПУБЛИКАЦИИ (новизну сверяй с этим):\n" + "\n".join(
-            f"- {r['text'][:220]}" for r in known) + "\n\n"
+        blocks.append("УЖЕ ОПУБЛИКОВАНО ИЛИ ОЖИДАЕТ ПУБЛИКАЦИИ (новизну сверяй с этим):\n"
+                      + "\n".join(f"- {r['text'][:220]}" for r in known))
+    return ("\n\n".join(blocks) + "\n\n") if blocks else ""
+
+
+def llm_analyze(item: dict, translate: bool = False) -> dict | None:
+    """Строгий разбор ответа: неполный/невалидный ответ → None (повтор позже).
+    Системная ошибка API (нет кредитов, auth, 429, 5xx) выставляет LLM_DOWN на весь прогон."""
+    global LLM_CALLS, LLM_NET_FAILS, LLM_OK
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key or LLM_DOWN:
+        return None
+    official = item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice")
+    pdf = item.get("pdf")
+    text = item.get("full_text") or item.get("excerpt") or item.get("title") or ""
+    if not text.strip() and not pdf:
+        return None
     task = (
         f"Источник: {source_desc(item)}\nЗаголовок: {item.get('title', '')}\nДата: {item.get('date', '')}\n"
-        f"Ссылка: {item.get('url', '')}\n\n" + recent_block
+        f"Ссылка: {item.get('url', '')}\n\n" + known_context()
         + ("ЗАДАНИЕ: это короткое официальное сообщение — сделай полный точный перевод на русский "
            "в поле translation_ru и, отдельно, тезисы.\n\n" if translate else
            "ЗАДАНИЕ: сделай тезисную выжимку (summary_ru); translation_ru = null.\n\n")
+        + ("Поле facts заполняй только тем, что прямо сказано в документе.\n\n" if official else
+           "Поле facts для прессы — [].\n\n")
         + ("ВНИМАНИЕ: текст документа усечён, конец может отсутствовать.\n\n" if item.get("truncated") else "")
-        + "ТЕКСТ (данные):\n" + text[:LLM_MAX_CHARS]
+        + ("ТЕКСТ: это скан без текстового слоя — читай приложенный документ. Если он нечитаем, "
+           "subject \"other\", relevance 0. Числа, даты, реквизиты — только если видны отчётливо.\n"
+           if pdf else "ТЕКСТ (данные):\n" + text[:LLM_MAX_CHARS])
     )
+    content: list[dict] | str = task
+    if pdf:
+        content = [{"type": "document", "source": {"type": "base64", "media_type": "application/pdf",
+                                                   "data": base64.b64encode(pdf).decode("ascii")}},
+                   {"type": "text", "text": task}]
     LLM_CALLS += 1
     try:
         r = requests.post(
             "https://api.anthropic.com/v1/messages",
             headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
             json={"model": LLM_MODEL, "max_tokens": 1800, "temperature": 0.2, "system": LLM_SYSTEM,
-                  "messages": [{"role": "user", "content": task}]},
-            timeout=60,
+                  "messages": [{"role": "user", "content": content}]},
+            timeout=90 if pdf else 60,
         )
-        if r.status_code != 200:
-            log(f"WARN llm {r.status_code}: {r.text[:160]}")
-            return None
+    except Exception as e:  # noqa: BLE001
+        LLM_NET_FAILS += 1
+        log(f"WARN llm failed: {type(e).__name__}")
+        if LLM_NET_FAILS >= 2:
+            llm_mark_down(f"network:{type(e).__name__}")
+        return None
+    LLM_NET_FAILS = 0
+    if r.status_code != 200:
+        snippet = re.sub(r"\s+", " ", r.text[:160])
+        log(f"WARN llm {r.status_code}: {snippet}")
+        reason = classify_llm_error(r.status_code, r.text)
+        if reason:
+            llm_mark_down(f"{reason} (HTTP {r.status_code})")
+        return None
+    try:
         body = r.json()
         if body.get("stop_reason") not in ("end_turn", "stop_sequence"):
             log(f"WARN llm stop_reason={body.get('stop_reason')}")
             return None
+        LLM_OK = True
         out = "".join(b.get("text", "") for b in body.get("content", []) if b.get("type") == "text")
         m = re.search(r"\{.*\}", out, re.S)
         if not m:
@@ -843,6 +1116,11 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
         if rel is None or nov is None or not title_ru or subject not in SUBJECTS_OK | SUBJECTS_REJECT:
             log(f"WARN llm: ответ не по схеме (relevance={data.get('relevance')}, novelty={data.get('novelty')}, subject={subject!r})")
             return None
+        facts = []
+        if official and isinstance(data.get("facts"), list):
+            for f in data["facts"][:8]:
+                if isinstance(f, dict) and f.get("key") in FACT_KEYS and str(f.get("value", "")).strip():
+                    facts.append({"key": f["key"], "value": clean_ru(f["value"])[:200]})
         return {
             "relevance": rel, "novelty": nov, "subject": subject, "title_ru": title_ru,
             "summary_ru": [clean_ru(s) for s in (data.get("summary_ru") or []) if str(s).strip()][:6],
@@ -851,13 +1129,11 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
             "action": clean_ru(data["action"]) if data.get("action") and rel >= LLM_MIN_RELEVANCE_POST else None,
             "unverified": _as_bool(data.get("unverified", False)),
             "tags": [str(t).strip().lstrip("#") for t in (data.get("tags") or []) if str(t).strip().lstrip("#") in ALLOWED_TAGS][:4],
+            "facts": facts,
         }
     except Exception as e:  # noqa: BLE001
-        log(f"WARN llm failed: {type(e).__name__}")
+        log(f"WARN llm: ответ не разобран: {type(e).__name__}")
         return None
-
-
-PENDING_VIEW: dict = {}
 
 
 def llm_budget_ok(official: bool) -> bool:
@@ -869,14 +1145,19 @@ def llm_budget_ok(official: bool) -> bool:
 def enrich(item: dict) -> dict:
     """Текст + оценка модели. Ставит item['defer'] если надо повторить позже."""
     official = item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice")
-    if item.get("kind") == "aod_notice" and not item.get("full_text"):
-        text = document_text(item["url"])
-        if text is None:
+    if item.get("kind") == "aod_notice" and not item.get("full_text") and not item.get("pdf"):
+        doc = document_text(item["url"])
+        if doc is None:
             item["defer"] = "download"
             return item
-        item["full_text"] = text
-        if not text:
-            item["no_text"] = True
+        item["full_text"] = doc["text"]
+        item["doc_format"] = doc["format"]
+        if not doc["text"]:
+            if doc["pdf"]:
+                item["pdf"] = doc["pdf"]      # скан: отдадим модели как документ
+                item["scan"] = True
+            else:
+                item["no_text"] = True        # .doc / слишком большой / неизвестный формат
     if "full_text" not in item and item.get("kind") == "press":
         art = parse_article(item["url"])
         if art is None:
@@ -887,19 +1168,22 @@ def enrich(item: dict) -> dict:
         item.setdefault("date", art.get("date", ""))
     if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
         return item  # без ключа (только DRY_RUN): решение по словарю
+    if item.get("no_text"):
+        return item  # текста нет и скан не прочитать: решение ниже по правилам
+    if LLM_DOWN:
+        item["defer"] = "llm_down"
+        return item
     if not llm_budget_ok(official):
         item["defer"] = "llm_budget"
         return item
-    if item.get("no_text"):
-        return item  # скан: модель не вызываем, решение ниже по правилам
-    translate = official and len(item.get("full_text", "")) <= LLM_TRANSLATE_OFFICIAL_UNDER
+    translate = official and not item.get("pdf") and len(item.get("full_text", "")) <= LLM_TRANSLATE_OFFICIAL_UNDER
     data = llm_analyze(item, translate=translate)
     if data:
         item["llm"] = data
         if data.get("tags"):
             item["tags"] = data["tags"]
     else:
-        item["defer"] = "llm"
+        item["defer"] = "llm_down" if LLM_DOWN else "llm"
     return item
 
 
@@ -913,6 +1197,31 @@ def remember_posted(state: dict, item: dict) -> None:
     cutoff = time.time() - RECENT_TTL_H * 3600
     rec[:] = [r for r in rec if r.get("ts", 0) >= cutoff][-RECENT_MAX:]
     RECENT[:] = rec
+
+
+def update_facts(state: dict, item: dict) -> list[str]:
+    """Реестр фактов процедуры: только из официальных источников, без срока жизни.
+    Возвращает ключи, значения которых появились или изменились."""
+    llm = item.get("llm") or {}
+    if item.get("kind") not in ("news", "alta_site", "aod_notice") or not llm.get("facts"):
+        return []
+    facts = state.setdefault("facts", {})
+    changed = []
+    for f in llm["facts"]:
+        k, v = f["key"], f["value"]
+        cur = facts.get(k)
+        if cur and cur.get("value") == v:
+            continue
+        entry = {"value": v, "url": item.get("url", ""), "at": now_iso(), "source": item.get("kind")}
+        if cur:
+            entry["history"] = (cur.get("history") or [])[-5:] + [{"value": cur.get("value"), "url": cur.get("url"), "at": cur.get("at")}]
+        facts[k] = entry
+        changed.append(k)
+    if changed:
+        log(f"реестр фактов обновлён: {', '.join(changed)}")
+    FACTS_VIEW.clear()
+    FACTS_VIEW.update(facts)
+    return changed
 
 
 # =============================================================================
@@ -985,11 +1294,11 @@ def source_label(item: dict) -> str:
         return f"📰 {item.get('outlet', 'Пресса')}"
     if kind == "telegram":
         return f"💬 {item.get('outlet', 'Telegram')}"
-    if "aod.rs" in u:
+    if is_aod(u):
         return "🏛 AOD (Агентство по страхованию вкладов)"
-    if "nbs.rs" in u:
+    if is_nbs(u):
         return "🏛 NBS (Народный банк Сербии)"
-    if "altabanka.rs" in u:
+    if is_alta_site(u):
         return "🏦 ALTA banka — сообщение банка"
     return "🏛 Официальный источник"
 
@@ -1003,7 +1312,7 @@ def format_post(item: dict, updated: bool = False) -> str:
     if item.get("date"):
         head += f" · {esc(item['date'])}"
     if updated:
-        head += " · <i>обновлено</i>"
+        head += " · <i>дополнено</i>"
     parts = [head]
     llm = item.get("llm")
     if llm:
@@ -1016,6 +1325,8 @@ def format_post(item: dict, updated: bool = False) -> str:
             parts.append("\n".join("• " + esc(s) for s in llm["summary_ru"]))
         if item.get("kind") == "alta_site":
             parts.append("<i>Позиция банка, не подтверждение регулятора.</i>")
+        if item.get("scan"):
+            parts.append("<i>Документ — скан, прочитан автоматически: цифры и даты сверяйте с оригиналом.</i>")
         if item.get("title") and item.get("kind") != "aod_proceedings":
             parts.append(f"<i>Оригинал: {esc(item['title'])}</i>")
     else:
@@ -1086,9 +1397,15 @@ def main() -> int:
     first_run = not state.get("seeded", False)
     RECENT[:] = [r for r in state.get("recent", []) if r.get("ts", 0) >= time.time() - RECENT_TTL_H * 3600]
     PENDING_VIEW = state.get("pending", {})
+    FACTS_VIEW.clear()
+    FACTS_VIEW.update(state.get("facts", {}))
     msgs_sent = 0
+    press_posts = 0
+    msg_budget_hit = False
     now = now_iso()
     health = state.setdefault("health", {})
+    alerts = health.setdefault("alerts", {})
+    fails = health.setdefault("src_fail", {})
 
     # восстановление: записи «pending» без элемента в накопителе → retry
     for u, rec in seen.items():
@@ -1096,9 +1413,46 @@ def main() -> int:
             rec["status"] = "retry"
 
     # ---- отправка ---------------------------------------------------------------
+    def tg_admin(text: str) -> None:
+        if DRY_RUN:
+            print("---- DRY RUN ADMIN ----\n" + text + "\n-----------------------")
+        elif admin_id:
+            tg_send(token, admin_id, text, no_preview=True)
+        else:
+            log(f"админ-чат не задан: {re.sub('<[^>]+>', '', text)[:160]}")
+
+    def alert(key: str, text: str) -> None:
+        """Алерт владельцу с дедупликацией: один и тот же ключ — не чаще ALERT_REPEAT_H."""
+        a = alerts.get(key)
+        if a and (time.time() - (parse_iso(a.get("last_sent", "")) or 0)) < ALERT_REPEAT_H * 3600:
+            a["n"] = a.get("n", 0) + 1
+            return
+        since = (a or {}).get("since") or now
+        alerts[key] = {"since": since, "last_sent": now_iso(), "n": (a or {}).get("n", 0) + 1}
+        tg_admin(f"🚨 <b>alta-watch: {esc(key)}</b>\n{esc(text)}\n<i>с {esc(since[:16])} UTC</i>")
+
+    def resolve(key: str, text: str) -> None:
+        a = alerts.pop(key, None)
+        if a:
+            since = parse_iso(a.get("since", "")) or time.time()
+            mins = int((time.time() - since) / 60)
+            tg_admin(f"✅ <b>alta-watch: {esc(key)} — восстановлено</b>\n{esc(text)}\n<i>простой ≈ {mins} мин</i>")
+
+    def source_ok(name: str, ok: bool, what: str) -> None:
+        """Счётчик подряд неудач критичного источника → алерт после SOURCE_FAIL_RUNS."""
+        if ok:
+            if fails.get(name):
+                fails[name] = 0
+            resolve(f"источник {name}", what)
+            return
+        fails[name] = int(fails.get(name, 0)) + 1
+        if fails[name] >= SOURCE_FAIL_RUNS:
+            alert(f"источник {name}", f"{what}: {fails[name]} прогонов подряд без результата")
+
     def send_public(text: str) -> int | None:
-        nonlocal msgs_sent
+        nonlocal msgs_sent, msg_budget_hit
         if msgs_sent >= MSG_MAX:
+            msg_budget_hit = True
             log("лимит сообщений за прогон")
             return None
         if DRY_RUN:
@@ -1115,12 +1469,7 @@ def main() -> int:
         state.setdefault("signals", []).append({"ts": now, "url": item["url"], "reason": reason,
                                                 "title": (item.get("llm") or {}).get("title_ru") or item.get("title", "")[:120]})
         state["signals"] = state["signals"][-50:]
-        if DRY_RUN:
-            print("---- DRY RUN SIGNAL ----\n" + text + "\n------------------------")
-        elif admin_id:
-            tg_send(token, admin_id, text, no_preview=True)
-        else:
-            log(f"сигнал (нет админ-чата): {reason}: {item.get('title', '')[:80]}")
+        tg_admin(text)
 
     def deliver(item: dict, updated: bool = False) -> bool:
         """Публикация с правильным порядком: отправили → записали sent+message_id → checkpoint."""
@@ -1130,24 +1479,42 @@ def main() -> int:
             return False
         llm = item.get("llm") or {}
         mark(state, item["url"], "sent", message_id=mid, sent_at=now_iso(), kind=item.get("kind"),
-             title=item.get("title", "")[:120], tags=item.get("tags", []),
-             relevance=llm.get("relevance"), novelty=llm.get("novelty"), hash=item.get("hash", ""))
+             title=item.get("title", "")[:120], title_src=(item.get("title_src") or "")[:200] or None,
+             tags=item.get("tags", []), relevance=llm.get("relevance"), novelty=llm.get("novelty"),
+             hash=item.get("hash", ""), paras=item.get("paras"))
         remember_posted(state, item)
+        update_facts(state, item)
         save_state(state)
         time.sleep(1.5)
         return True
+
+    def defer(item: dict, reason: str, label: str | None = None) -> None:
+        """Отложить материал; официальный документ, исчерпавший попытки, — сигнал владельцу."""
+        if reason == "send" and msg_budget_hit:
+            reason = "msg_budget"
+        extra = {"title": item.get("title", "")[:120]}
+        if label:
+            extra["kind"] = label
+        status = bump_retry(state, item["url"], reason, item=item, **extra)
+        official = item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice")
+        rec = seen.get(item["url"], {})
+        if status == "quarantine" and official and not rec.get("exhausted_signal"):
+            send_signal(item, f"официальный материал не обработан после {rec.get('attempts')} попыток ({reason}); проверьте вручную")
+            rec["exhausted_signal"] = now_iso()
 
     def official_gate(item: dict) -> str:
         """Решение по официальному материалу: post / signal:<reason> / reject:<reason> / defer."""
         if item.get("defer"):
             return "defer"
         if item.get("no_text"):
-            # скан без текста: публикуем только если из контекста ясно, что про Alta
-            return "post" if KEYWORD_RE.search(item.get("title", "")) else "signal:документ без текста, предмет неясен"
+            # текста нет и скан не прочитать (.doc, слишком большой файл): в канал без перевода не идёт
+            return f"signal:документ без текста ({item.get('doc_format', '?')}), нужен ручной просмотр"
         llm = item.get("llm") or {}
         if not llm:  # нет модели (DRY_RUN без ключа): по словарю
             return "post" if KEYWORD_RE.search(item.get("title", "") + " " + item.get("full_text", "")) else "reject:no_keyword"
         subj = llm.get("subject")
+        if item.get("scan") and subj not in SUBJECTS_OK:
+            return "signal:скан, предмет не определён или нечитаем"
         if subj in SUBJECTS_REJECT:
             return f"reject:предмет {subj}"
         if subj not in SUBJECTS_OK:
@@ -1157,20 +1524,30 @@ def main() -> int:
     # ---- принудительная публикация ---------------------------------------------
     force = [x.strip() for x in os.environ.get("FORCE_URLS", "").split(",") if x.strip()]
     if force:
+        allowed = AOD_HOSTS | NBS_HOSTS | ALTA_HOSTS | press_hosts()
         for u in force:
-            u = norm_url(u) + ("/" if "altabanka.rs" in u else "")
-            if re.search(r"\.(pdf|docx?)$", u, re.I):
+            u = norm_url(u) + ("/" if is_alta_site(u) else "")
+            if host_of(u) not in allowed:
+                log(f"FORCE: хост не из списка доверенных, пропускаю: {u}")
+                continue
+            if is_aod(u) and re.search(r"\.(pdf|docx?)$", u, re.I):
                 m = re.search(r"/(\d+)_\d+_oglas", u)
-                item = {"url": u, "title": f"Объявление AOD №{m.group(1)}" if m else "Документ",
+                item = {"url": u, "title": f"Объявление AOD №{m.group(1)}" if m else "Документ AOD",
                         "date": "", "excerpt": "", "relevant": True, "kind": "aod_notice", "hash": ""}
             else:
                 item = parse_article(u)
+                if item and host_of(u) in press_hosts():
+                    item["kind"] = "press"
+                    item["outlet"] = host_of(u)
             if item is None:
                 log(f"FORCE: не прочиталось {u}")
                 continue
             enrich(item)
             if item.get("defer"):
                 log(f"FORCE: отложено ({item['defer']}) {u}")
+                continue
+            if item.get("no_text"):
+                log(f"FORCE: документ без текста, в канал не идёт: {u}")
                 continue
             deliver(item)
         save_state(state)
@@ -1184,6 +1561,12 @@ def main() -> int:
     notices, notice_health = collect_aod_notices()
     health["aod_notices"] = {**notice_health, "at": now}
     health["sources"] = {"aod": len(aod_urls), "nbs": len(nbs_urls), "alta": len(alta_urls)}
+    source_ok("AOD новости", bool(aod_urls), "страницы новостей AOD не читаются")
+    source_ok("NBS", bool(nbs_urls), "RSS и запасные страницы NBS не читаются")
+    source_ok("ALTA", bool(alta_urls), "сайт банка не читается")
+    source_ok("AOD объявления", notice_health["pages_ok"] >= 1 and notice_health["files"] > 0, "листинги объявлений AOD не читаются или пусты")
+    source_ok("парсер дат AOD", notice_health["files"] == 0 or notice_health["dated"] >= notice_health["files"] * 0.5,
+              f"даты распознаны у {notice_health['dated']} из {notice_health['files']} файлов — разметка листинга изменилась?")
     if not (aod_urls or nbs_urls or alta_urls or notices):
         log("Ни один официальный источник не ответил, выходим без изменений")
         save_state(state)
@@ -1194,17 +1577,17 @@ def main() -> int:
         for u in aod_urls + nbs_urls + alta_urls:
             if u not in seen:
                 rec = mark(state, u, "seeded")
-                if u in ALTA_RECHECK:
+                if u in RECHECK:
                     it = parse_article(u)
                     if it:
-                        rec["hash"] = it["hash"]
+                        rec["hash"], rec["paras"] = it["hash"], it["paras"]
         for it in notices:
             if it["url"] not in seen:
                 mark(state, it["url"], "seeded")
         press_items, _ = collect_press()
         for it in press_items + collect_telegram():
             if it["url"] not in seen:
-                mark(state, it["url"], "seeded", kind=it["kind"])
+                mark(state, it["url"], "seeded", kind=it["kind"], title_src=it.get("title_src"))
         pres = check_aod_proceedings()
         if pres:
             state["flags"]["alta_in_proceedings_detected"] = now
@@ -1255,7 +1638,7 @@ def main() -> int:
         enrich(it)
         decision = official_gate(it)
         if decision == "defer":
-            bump_retry(state, u, it.get("defer", "defer"), title=it["title"][:120])
+            defer(it, it.get("defer", "defer"))
         elif decision.startswith("reject:"):
             mark(state, u, "rejected", reason=decision[7:], title=it["title"][:120])
             log(f"skip оглас ({decision[7:]}): {it['title'][:70]}")
@@ -1264,7 +1647,7 @@ def main() -> int:
             mark(state, u, "signal", reason=decision[7:], title=it["title"][:120])
         else:
             if not deliver(it):
-                bump_retry(state, u, "send")
+                defer(it, "send")
     save_state(state)
 
     # ---- 3) новости AOD, NBS, сайт банка ----------------------------------------------
@@ -1273,23 +1656,33 @@ def main() -> int:
             log("время вышло, остальное в следующий прогон")
             break
         rec = seen.get(u)
-        recheck = u in ALTA_RECHECK and rec is not None and rec.get("status") in ("sent", "seeded")
+        recheck = u in RECHECK and rec is not None and rec.get("status") in ("sent", "seeded")
         if rec is not None and not recheck and rec.get("status") not in ("retry", "quarantine"):
             continue
         item = parse_article(u)
         if item is None:
             if rec is None or rec.get("status") in ("retry", "quarantine"):
-                bump_retry(state, u, "download")
+                defer({"url": u, "kind": "news", "title": (rec or {}).get("title", "")}, "download")
             continue
         if recheck:
-            if rec.get("hash") and rec["hash"] != item["hash"]:
-                enrich(item)
-                if official_gate(item) == "post" and deliver(item, updated=True):
-                    pass
-                elif item.get("defer"):
-                    log(f"обновление отложено: {u}")
-            elif not rec.get("hash"):
-                rec["hash"] = item["hash"]
+            # перечитывание: публикуем «дополнено» только если появился новый абзац по теме
+            added = added_paragraphs(rec.get("paras"), item)
+            topical = [p for p in added if KEYWORD_RE.search(p) or any(rx.search(p) for _, rx in TOPICS)]
+            if rec.get("paras") and topical:
+                upd = dict(item)
+                upd["full_text"] = "\n".join(topical)[:LLM_MAX_CHARS]
+                upd["title"] = item["title"]
+                enrich(upd)
+                if upd.get("defer"):
+                    log(f"обновление отложено ({upd['defer']}): {u}")
+                    continue
+                if official_gate(upd) == "post":
+                    upd["paras"] = item["paras"]
+                    if deliver(upd, updated=True):
+                        log(f"дополнение опубликовано: {u}")
+                    continue
+            if rec.get("hash") != item["hash"] or not rec.get("paras"):
+                rec["hash"], rec["paras"] = item["hash"], item["paras"]   # запомнили версию без публикации
             continue
         if not item["relevant"]:
             mark(state, u, "rejected", reason="offtopic", title=item["title"][:120])
@@ -1297,7 +1690,7 @@ def main() -> int:
         enrich(item)
         decision = official_gate(item)
         if decision == "defer":
-            bump_retry(state, u, item.get("defer", "defer"), title=item["title"][:120])
+            defer(item, item.get("defer", "defer"))
         elif decision.startswith("reject:"):
             mark(state, u, "rejected", reason=decision[7:], title=item["title"][:120])
         elif decision.startswith("signal:"):
@@ -1305,68 +1698,99 @@ def main() -> int:
             mark(state, u, "signal", reason=decision[7:], title=item["title"][:120])
         else:
             if not deliver(item):
-                bump_retry(state, u, "send")
+                defer(item, "send")
     save_state(state)
 
     # ---- 4) пресса и Telegram ---------------------------------------------------------
     backfill = os.environ.get("BACKFILL", "").lower() in ("1", "true", "yes")
-    stale_cut = time.time() - PRESS_POST_MAX_AGE_H * 3600
     press_items, press_health = collect_press() if not out_of_time() else ([], {})
     health["press"] = press_health
     tg_items = collect_telegram() if not out_of_time() else []
+
+    def dup_candidates(label: str) -> list[tuple[str, str]]:
+        """Заголовки (в оригинале) уже решённых за сутки материалов прессы + накопителя."""
+        cutoff = time.time() - RECENT_TTL_H * 3600
+        out: list[tuple[str, str]] = []
+        for url, rec in seen.items():
+            if rec.get("kind") not in (label, "press", "telegram") or not rec.get("title_src"):
+                continue
+            if rec.get("status") not in ("sent", "pending", "dup"):
+                continue
+            if (parse_iso(rec.get("updated", "")) or 0) < cutoff:
+                continue
+            out.append((rec["title_src"], url))
+        for lst in state["pending"].values():
+            out += [(p["title_src"], p["url"]) for p in lst if p.get("title_src")]
+        return out
 
     for label, collected in (("press", press_items), ("telegram", tg_items)):
         if out_of_time():
             break
         public_digest = label == "press" or TG_PUBLIC
+        collected = retry_items_for(state, label, collected)
+        dups = dup_candidates(label)
         for it in collected:
             if out_of_time():
                 break
             u = it["url"]
             if not is_candidate(state, u):
                 continue
+            rec = seen.get(u)
             if not backfill and it.get("ts") is None:
-                mark(state, u, "rejected", reason="no_date", kind=label, title=it["title"][:120])
+                mark(state, u, "rejected", reason="no_date", kind=label, title=it["title"][:120], title_src=it.get("title_src"))
                 continue
-            if not backfill and it["ts"] < stale_cut:
-                mark(state, u, "rejected", reason="stale", kind=label, title=it["title"][:120])
+            if not backfill and not was_fresh_when_seen(rec, it.get("ts"), PRESS_POST_MAX_AGE_H * 3600):
+                mark(state, u, "rejected", reason="stale", kind=label, title=it["title"][:120], title_src=it.get("title_src"))
+                continue
+            dup_of = near_dup(it.get("title_src") or it["title"], dups)
+            if dup_of:
+                mark(state, u, "dup", reason=f"near_dup:{dup_of}", kind=label, title=it["title"][:120], title_src=it.get("title_src"))
+                log(f"перепечатка по заголовку ({label}): {it['title'][:70]}")
                 continue
             enrich(it)
             if it.get("defer"):
-                bump_retry(state, u, it["defer"], kind=label, title=it["title"][:120])
+                defer(it, it["defer"], label)
                 continue
             llm = it["llm"]
             rel, nov = llm["relevance"], llm["novelty"]
             it["title"] = llm["title_ru"]
+            common = {"kind": label, "title": it["title"][:120], "title_src": it.get("title_src"), "relevance": rel, "novelty": nov}
             if llm["subject"] in SUBJECTS_REJECT:
-                mark(state, u, "rejected", reason=f"subject:{llm['subject']}", kind=label, title=it["title"][:120])
+                mark(state, u, "rejected", reason=f"subject:{llm['subject']}", **common)
                 continue
             if nov < LLM_MIN_NOVELTY:
-                mark(state, u, "dup", relevance=rel, novelty=nov, kind=label, title=it["title"][:120])
+                mark(state, u, "dup", **common)
+                dups.append((it.get("title_src") or "", u))
                 log(f"перепечатка ({label}, nov {nov}): {it['title'][:70]}")
                 continue
             if rel < LLM_MIN_RELEVANCE_DIGEST:
-                mark(state, u, "rejected", reason="low_relevance", relevance=rel, novelty=nov, kind=label, title=it["title"][:120])
+                mark(state, u, "rejected", reason="low_relevance", **common)
                 continue
             if llm["unverified"] or not public_digest:
                 reason = "непроверенные утверждения" if llm["unverified"] else "Telegram-канал"
                 send_signal(it, reason)
-                mark(state, u, "signal", reason=reason, relevance=rel, novelty=nov, kind=label, title=it["title"][:120])
+                mark(state, u, "signal", reason=reason, **common)
                 continue
-            if rel >= LLM_MIN_RELEVANCE_POST and nov >= LLM_MIN_NOVELTY_POST:
+            important = rel >= LLM_MIN_RELEVANCE_POST and nov >= LLM_MIN_NOVELTY_POST
+            if important and press_posts < PRESS_POSTS_PER_RUN:
                 if llm.get("new_facts") and RECENT:
                     llm["summary_ru"] = llm["new_facts"]
-                if not deliver(it):
-                    bump_retry(state, u, "send", kind=label)
+                if deliver(it):
+                    press_posts += 1
+                    dups.append((it.get("title_src") or "", u))
+                else:
+                    defer(it, "send", label)
                 continue
-            # накопитель подборки
+            # накопитель подборки (важное сверх лимита постов за прогон — тоже сюда, первым номером)
             pend = state["pending"].setdefault(label, [])
             if not any(p["url"] == u for p in pend):
-                pend.append({"url": u, "title": it["title"][:200], "outlet": it.get("outlet", ""),
-                             "date": it.get("date", ""), "tags": it.get("tags", [])[:4], "kind": it["kind"],
+                pend.append({"url": u, "title": it["title"][:200], "title_src": (it.get("title_src") or "")[:200],
+                             "outlet": it.get("outlet", ""), "date": it.get("date", ""), "tags": it.get("tags", [])[:4],
+                             "kind": it["kind"], "important": important,
                              "first": (llm.get("new_facts") or llm.get("summary_ru") or [""])[0][:200],
                              "ts": time.time()})
-            mark(state, u, "pending", relevance=rel, novelty=nov, kind=label, title=it["title"][:120])
+            mark(state, u, "pending", **common)
+            dups.append((it.get("title_src") or "", u))
             PENDING_VIEW = state["pending"]
             save_state(state)
 
@@ -1376,22 +1800,63 @@ def main() -> int:
             oldest = min(p.get("ts", time.time()) for p in pend)
             due = len(pend) >= DIGEST_MIN_ITEMS or time.time() - oldest > DIGEST_MAX_WAIT_MIN * 60
             if due or backfill:
-                batch = pend[:PRESS_MAX_PER_POST]
+                ordered = sorted(pend, key=lambda p: (not p.get("important"), p.get("ts", 0)))
+                batch = ordered[:PRESS_MAX_PER_POST]
                 mid = send_public(format_digest(batch, label))
                 if mid is not None:
+                    batch_urls = {p["url"] for p in batch}
                     for p in batch:
                         mark(state, p["url"], "sent", message_id=mid, sent_at=now_iso(), kind=p["kind"],
-                             title=p["title"][:120], tags=p.get("tags", []))
+                             title=p["title"][:120], title_src=p.get("title_src") or None, tags=p.get("tags", []))
                         remember_posted(state, p)
-                    state["pending"][label] = pend[PRESS_MAX_PER_POST:]
+                    state["pending"][label] = [p for p in pend if p["url"] not in batch_urls]
                     save_state(state)
                     time.sleep(1.5)
 
-    health["last_run"] = {"at": now_iso(), "msgs": msgs_sent, "llm_calls": LLM_CALLS,
-                          "elapsed_s": int(time.monotonic() - _T0)}
+    # ---- здоровье модели: алерт при простое, уведомление о восстановлении -----------
+    if LLM_DOWN:
+        alert("модель", f"API модели недоступен: {LLM_DOWN}. Материалы ждут в очереди, попытки не считаются.")
+    elif LLM_OK:
+        resolve("модель", "модель снова отвечает, очередь разбирается")
+
+    health["last_run"] = {"at": now_iso(), "msgs": msgs_sent, "llm_calls": LLM_CALLS, "llm_down": LLM_DOWN,
+                          "elapsed_s": int(time.monotonic() - _T0), "version": VERSION}
+
+    # ---- ежедневный отчёт владельцу -------------------------------------------------------
+    local = datetime.now(LOCAL_TZ)
+    if local.hour >= DAILY_REPORT_HOUR and health.get("daily_report_date") != local.strftime("%Y-%m-%d"):
+        health["daily_report_date"] = local.strftime("%Y-%m-%d")
+        tg_admin(daily_report(state))
     save_state(state)
     log(f"Готово. Сообщений: {msgs_sent}, вызовов модели: {LLM_CALLS}, {int(time.monotonic() - _T0)} с")
     return 0
+
+
+def daily_report(state: dict) -> str:
+    """Короткая сводка за сутки для админ-чата."""
+    cutoff = time.time() - 24 * 3600
+    counts: dict[str, int] = {}
+    for rec in state["seen"].values():
+        if (parse_iso(rec.get("updated", "")) or 0) >= cutoff:
+            counts[rec.get("status", "?")] = counts.get(rec.get("status", "?"), 0) + 1
+    h = state.get("health", {})
+    aod = h.get("aod_notices", {})
+    press = h.get("press", {})
+    bad_press = [k for k, v in press.items() if not str(v).startswith("ok")]
+    pending = sum(len(v) for v in state.get("pending", {}).values())
+    facts = state.get("facts", {})
+    lines = [f"<b>📊 alta-watch v{VERSION} — сутки</b>",
+             "За 24 ч: " + ", ".join(f"{k} {v}" for k, v in sorted(counts.items())),
+             f"Очередь повторов: {len(state.get('retry_items', {}))}, накопитель подборок: {pending}, "
+             f"карантин всего: {sum(1 for r in state['seen'].values() if r.get('status') == 'quarantine')}",
+             f"AOD объявления: файлов {aod.get('files', '?')}, с датой {aod.get('dated', '?')}, страниц {aod.get('pages_ok', '?')}/2",
+             f"Источники: AOD {h.get('sources', {}).get('aod', '?')}, NBS {h.get('sources', {}).get('nbs', '?')}, "
+             f"ALTA {h.get('sources', {}).get('alta', '?')} ссылок; пресса с ошибками: {', '.join(bad_press) or 'нет'}",
+             f"Реестр фактов: {len(facts)} ключей" + (" — " + ", ".join(sorted(facts)) if facts else ""),
+             f"Активных алертов: {len(h.get('alerts', {}))}" + (" — " + ", ".join(h.get("alerts", {})) if h.get("alerts") else ""),
+             f"Последний прогон: {h.get('last_run', {}).get('at', '?')[:16]} UTC, "
+             f"{h.get('last_run', {}).get('elapsed_s', '?')} с, вызовов модели {h.get('last_run', {}).get('llm_calls', '?')}"]
+    return "\n".join(esc(x) if not x.startswith("<b>") else x for x in lines)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,8 @@
 
 Правила: seen — объединение, запись со статусом sent побеждает; recent — объединение по (url, ts);
 pending — объединение по url, исключая уже отправленные; flags — объединение, announced побеждает;
-signals — объединение по (url, ts); health — наше."""
+signals — объединение по (url, ts); health — наше; retry_items — объединение, только для url,
+которые остались retry/quarantine; facts — по ключу побеждает более поздняя запись (at)."""
 import json
 import sys
 
@@ -43,11 +44,21 @@ for k, v in b.get("flags", {}).items():
 signals = {(s.get("url"), s.get("ts")): s for s in b.get("signals", []) + a.get("signals", [])}
 signals_list = sorted(signals.values(), key=lambda s: s.get("ts", ""))[-50:]
 
+retry_items = {**b.get("retry_items", {}), **a.get("retry_items", {})}
+retry_items = {u: m for u, m in retry_items.items() if seen.get(u, {}).get("status") in ("retry", "quarantine")}
+
+facts = dict(b.get("facts", {}))
+for k, v in a.get("facts", {}).items():
+    if k not in facts or str(v.get("at", "")) >= str(facts[k].get("at", "")):
+        facts[k] = v
+
 out = {
     "seeded": bool(a.get("seeded") or b.get("seeded")),
     "seen": seen, "recent": recent_list, "pending": pending, "flags": flags,
     "signals": signals_list, "health": a.get("health") or b.get("health") or {},
+    "retry_items": retry_items, "facts": facts,
 }
 with open(out_p, "w", encoding="utf-8") as f:
     json.dump(out, f, ensure_ascii=False, indent=1, sort_keys=True)
-print(f"merged: seen {len(seen)}, recent {len(recent_list)}, pending {sum(len(v) for v in pending.values())}")
+print(f"merged: seen {len(seen)}, recent {len(recent_list)}, pending {sum(len(v) for v in pending.values())}, "
+      f"retry_items {len(retry_items)}, facts {len(facts)}")
