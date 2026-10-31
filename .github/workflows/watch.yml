@@ -47,14 +47,30 @@ jobs:
         run: python watch.py
 
       - name: Save state
+        if: always()
         run: |
           git config user.name "alta-watch bot"
           git config user.email "alta-watch@users.noreply.github.com"
-          git add state/seen.json
-          if git diff --cached --quiet; then
+          if git diff --quiet -- state/seen.json; then
             echo "Состояние не изменилось"
-          else
-            git commit -m "state: $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase
-            git push
+            exit 0
           fi
+          cp state/seen.json /tmp/ours.json
+          # до 4 попыток: берём свежий main, сливаем наше состояние с чужим, пушим
+          for i in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            python merge_state.py /tmp/ours.json state/seen.json state/seen.json
+            git add state/seen.json
+            if git diff --cached --quiet; then
+              echo "После слияния изменений нет"
+              exit 0
+            fi
+            git commit -m "state: $(date -u +'%Y-%m-%d %H:%M UTC')"
+            if git push; then
+              exit 0
+            fi
+            echo "push не прошёл (гонка), попытка $i"
+            sleep $((i * 5))
+          done
+          echo "::warning::Состояние не сохранилось после 4 попыток"

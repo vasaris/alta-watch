@@ -591,7 +591,8 @@ PRESS_FEEDS = [
     ("Beta", "https://beta.rs/rss"),
     ("BIZLife", "https://bizlife.rs/feed/"),
 ]
-PRESS_MAX_AGE_H = 48        # старше — не публикуем, даже если видим впервые
+PRESS_MAX_AGE_H = 48        # старше — не берём из ленты вообще
+PRESS_POST_MAX_AGE_H = 3    # в обычном режиме публикуем только то, что вышло за последние N часов
 PRESS_MAX_PER_POST = 10
 
 
@@ -643,6 +644,7 @@ def collect_press() -> list[dict]:
                 "url": norm_url(link),
                 "title": title,
                 "outlet": outlet,
+                "ts": pub.timestamp() if pub else None,
                 "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
                 "kind": "press",
                 "relevant": True,
@@ -711,6 +713,7 @@ def collect_telegram() -> list[dict]:
                 "url": f"https://t.me/{post}",
                 "title": snippet,
                 "full_text": body[:LLM_MAX_CHARS],
+                "ts": pub.timestamp() if pub else None,
                 "outlet": "@" + post.split("/")[0],
                 "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
                 "kind": "telegram",
@@ -849,7 +852,10 @@ def main() -> int:
         if dry:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
             return True
-        return tg_send(token, chat_id, text)
+        ok = tg_send(token, chat_id, text)
+        if ok:
+            save_state(state)  # на случай, если прогон убьют до конца
+        return ok
 
     # 0) Принудительная публикация конкретных ссылок (FORCE_URLS="url1,url2"),
     #    например чтобы задним числом выложить сообщения, вышедшие до старта бота.
@@ -993,7 +999,17 @@ def main() -> int:
         if out_of_time():
             log(f"нет времени на {label}, в следующий раз")
             break
-        fresh = [it for it in collector() if is_new(it)]
+        fresh = []
+        stale_cut = datetime.now(timezone.utc).timestamp() - PRESS_POST_MAX_AGE_H * 3600
+        for it in collector():
+            if not is_new(it):
+                continue
+            if not backfill and it.get("ts") and it["ts"] < stale_cut:
+                # впервые видим, но материал старый — запоминаем молча
+                seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
+                                   "title": it["title"][:120], "stale": True}
+                continue
+            fresh.append(it)
         if fresh and llm_on:
             # нейросеть: важное — отдельным постом с выжимкой, среднее — в подборку, остальное мимо
             keep: list[dict] = []
