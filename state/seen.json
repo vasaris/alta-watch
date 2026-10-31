@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T19:40:22+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-10-31T19:42:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T19:40:55+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-10-31T19:44:50+00:00",
+   "elapsed_s": 156,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -34,12 +34,12 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 0,
-   "AOD объявления": 0
+   "AOD новости": 1,
+   "AOD объявления": 1
   }
  },
  "pending": {},
@@ -1481,6 +1481,18 @@
    "title": "Opozicija u Severnoj Makedoniji traži od Narodne banke da uvede prinudnu upravu u Alta banku Bitolj",
    "updated": "2026-10-31T16:33:46+00:00"
   },
+  "https://nova.rs/vesti/svet/pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
+   "first_seen": "2026-10-31T19:44:45+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии мониторит ситуацию с Alta banke Bitolj на фоне краха материнской компании",
+   "title_src": "Narodna banka S. Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
+   "updated": "2026-10-31T19:44:45+00:00"
+  },
   "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
    "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
@@ -1800,6 +1812,17 @@
    "title": "Студенческий список требует расследования краха ALTA и надзора НБС",
    "title_src": "Студенческий список потребовал расследовать крах ALTA Banka и действия руководства Центробанка Сербии В официальном заявлении победивший на парламентских выборах Студенческий список поставил под сомнение качество…",
    "updated": "2026-10-31T19:10:38+00:00"
+  },
+  "https://t.me/Serbia/107393": {
+   "first_seen": "2026-10-31T19:44:50+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Директор AOD: банкротство Alta откроется 2 ноября, выплаты начнутся в течение недели",
+   "title_src": "⭕️ Официальное банкротство ALTA Banka ожидается 2 ноября Директор Агентства по страхованию депозитов Любица Пантелич сообщила⁠, что Хозяйственный суд Белграда, как ожидается, в понедельник, 2 ноября, официально откроет…",
+   "updated": "2026-10-31T19:44:50+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
