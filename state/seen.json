@@ -1,4 +1,5 @@
 {
+ "flags": {},
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -607,34 +608,55 @@
    "seeded": true
   },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
   },
   "https://n1info.rs/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор"
+   ],
+   "title": "Narodna banka Srbije oduzela dozvolu za rad Alta banci"
   },
   "https://n1info.rs/biznis/nbs-alta-banka-stedise-podignu-depozite-50000-evra": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор"
+   ],
+   "title": "NBS o oduzimanju dozvole za rad Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
   },
   "https://n1info.rs/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
   },
   "https://n1info.rs/biznis/video-redovi-ispred-ekspoziture-alta-banke-u-novom-sadu": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "(VIDEO) Redovi ispred ekspoziture Alta banke u Novom Sadu"
   },
   "https://nova.rs/vesti/biznis/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -720,6 +742,140 @@
    "posted": false,
    "seeded": true
   },
+  "https://t.me/Serbia/107349": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "⭕️ Центробанк Сербии отозвал лицензию у ALTA Banka Плохие новости с утра. Национальный банк Сербии (НБС) объявил об отзы"
+  },
+  "https://t.me/Serbia/107352": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "⭕️ В Белграде у закрытого отделения ALTA Banka собрались люди Отделения банка закрыты. На дверях банка в центре столицы "
+  },
+  "https://t.me/Serbia/107354": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "ALTA Bank: что делать, если в банке остались деньги В Сербии действует обязательное страхование банковских счетов и вкла"
+  },
+  "https://t.me/Serbia/107355": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "⭕️ У ALTA Banka отозвали лицензию. Что делать клиентам и как вернуть деньги? Национальный банк Сербии официально сообщил"
+  },
+  "https://t.me/Serbia/107356": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "регулятор",
+    "клиенты",
+    "владелец",
+    "сроки"
+   ],
+   "title": "⭕️ ALTA Bank: худший сценарий для клиентов Для владельцев обычных личных счетов самый тяжёлый финансовый сценарий — поте"
+  },
+  "https://t.me/Serbia/107357": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "клиенты",
+    "владелец"
+   ],
+   "title": "⭕️ ALTA Bank: худший сценарий для клиентов  Для владельцев обычных личных счетов самый тяжёлый финансовый сценарий — пот"
+  },
+  "https://t.me/Serbia/107358": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "⭕️ Нацбанк Сербии сообщил о разбирательствах в отношении ALTA Bank, её акционеров и руководства Национальный банк Сербии"
+  },
+  "https://t.me/novisadaily/20237": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты",
+    "банки",
+    "сроки"
+   ],
+   "title": "Национальный банк Сербии отозвал лицензию на деятельность банка ALTA Banka a.d. в Белграде Исполнительный совет Национал"
+  },
+  "https://t.me/novisadaily/20238": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "требования",
+    "регулятор",
+    "клиенты",
+    "банки",
+    "сроки"
+   ],
+   "title": "⚡️ АЛТА Банк, что делать? Пост для обсуждения ситуации с Алта Банком. По мере появления новостей и советов, буду добавля"
+  },
+  "https://t.me/novisadaily/20240": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "💰 Деньги в АЛТА-банке: порядок действий Сегодня идти в банк бессмысленно , расходимся. Приложения и карты не работают, в"
+  },
   "https://www.aod.rs/clan/vest/vest_forma/137": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
@@ -727,35 +883,158 @@
    "posted": true,
    "title": "АОД | Агенција за осигурање депозита"
   },
-  "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
-   "kind": "press",
+  "https://www.aod.rs/uploads/dokumenti/oglas/230_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "04.02.2026 Решење Привредног суда у Београду о закључењу стечајног поступка над стечајном масом „Империјал осигурања\" ад"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/231_cir_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Оглас за продају непокретности Универзал банке у стечају методом јавног прикупљања понуда (шифра продаје: Т-1/26)"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/232_cir_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Оглас за продају пакета акција, деоница и удела у власништву стечајне масе Привредне банке Београд јавним прикупљањем по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/233_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Оглас за продају акција и удела у власништву Универзал банке у стечају јавним прикупљањем понуда-тендером (шифра продаје"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/234_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Оглас за уступање потраживања стечајне масе Привредне банке Београд у стечају, уз накнаду, методом јавног прикупљања пон"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/235_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Позив за достављање понуде за израду извештаја о процени наплативости потраживања Београдске банке у стечају"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/236_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Позив за достављање понуде за израду извештаја о процени наплативости потраживања Југобанке у стечају"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/237_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": true,
+   "title": "Оглас за продају непокретности у власништву Стечајне масе Привредне банке Београд у стечају методом јавног прикупљања по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/238_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
-   "seeded": true
+   "relevant": false,
+   "title": "Јавни позив за прикупљање понуда за узимање у закуп пословног простора у Београду за потребе седишта и смештаја запослен"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/239_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Оглас за продају непокретне имовине Републике Србије јавним прикупљањем понуда (шифра продаје: Т-5/26)."
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/240_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Јавни конкурс за пријем у радни однос на неодређено време"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/240_2_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 1"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/240_3_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 2"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/240_4_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 3"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/241_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Јавни конкурс за пријем у радни однос на неодређено време"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/241_2_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 1"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/241_3_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 2"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/241_4_oglas.docx": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "Прилог 3"
+  },
+  "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
+   "first_seen": "2026-10-31T11:20:40+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-severne-makedonije-navodi-o-transferima-novca-iz-srbije-su-neproverene-tvrdnje": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "активы"
+   ],
+   "title": "Narodna banka Severne Makedonije: Navodi o transferima novca iz Srbije su neproverene tvrdnje"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор"
+   ],
+   "title": "Narodna banka Srbije oduzela dozvolu za rad Alta banci"
   },
   "https://www.danas.rs/vesti/ekonomija/nbs-o-oduzimanju-dozvole-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50-000-evra": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "требования",
+    "регулятор"
+   ],
+   "title": "NBS o oduzimanju dozvole Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
   },
   "https://www.danas.rs/vesti/ekonomija/oglasilo-se-udruzenje-banaka-srbije-u-vezi-sa-uzimanjem-dozvole-alta-banci": {
-   "first_seen": "2026-10-31T11:17:01+00:00",
+   "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
-   "posted": false,
-   "seeded": true
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
   },
   "https://www.danas.rs/vesti/ekonomija/vlasnik-alta-banka-davor-macura-biografija": {
    "first_seen": "2026-10-31T11:17:01+00:00",
