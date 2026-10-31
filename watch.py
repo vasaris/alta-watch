@@ -600,7 +600,6 @@ def collect_alta() -> list[str]:
         text = get(page)
         if not text:
             continue
-        page_urls: list[str] = []
         for m in ALTA_LINK_RE.finditer(text):
             slug = m.group(1).lower()
             if slug in ALTA_SKIP_SLUGS or slug.startswith("wp-"):
@@ -608,11 +607,17 @@ def collect_alta() -> list[str]:
             u = norm_url(f"https://altabanka.rs/{slug}/") + "/"
             if u not in urls:
                 urls.append(u)
-                page_urls.append(u)
-        if "saopstenje" in page:
-            RECHECK.update(page_urls[:ALTA_RECHECK_MAX])
+    # перечитываем не первые ссылки листинга (это меню и продуктовые страницы), а опубликованные заявления —
+    # см. recheck_alta_from_state()
     log(f"altabanka.rs: {len(urls)} ссылок, перепроверяем всего {len(RECHECK)}")
     return urls
+
+
+def recheck_alta_from_state(state: dict) -> None:
+    """В RECHECK — до ALTA_RECHECK_MAX последних опубликованных заявлений банка (по sent_at)."""
+    sent = [(rec.get("sent_at") or rec.get("updated") or "", u) for u, rec in state["seen"].items()
+            if is_alta_site(u) and rec.get("status") == "sent"]
+    RECHECK.update(u for _, u in sorted(sent, reverse=True)[:ALTA_RECHECK_MAX])
 
 
 def collect_nbs() -> list[str]:
@@ -1555,6 +1560,7 @@ def main() -> int:
         return 0
 
     # ---- сбор ---------------------------------------------------------------------
+    recheck_alta_from_state(state)
     aod_urls = collect_aod()
     nbs_urls = collect_nbs()
     alta_urls = collect_alta()
@@ -1676,11 +1682,13 @@ def main() -> int:
                 if upd.get("defer"):
                     log(f"обновление отложено ({upd['defer']}): {u}")
                     continue
-                if official_gate(upd) == "post":
+                # дополнение публикуем, только если новый текст по существу (правка меню/реквизитов сайта — нет)
+                if official_gate(upd) == "post" and (upd.get("llm") or {}).get("relevance", 0) >= LLM_MIN_RELEVANCE_DIGEST:
                     upd["paras"] = item["paras"]
                     if deliver(upd, updated=True):
                         log(f"дополнение опубликовано: {u}")
                     continue
+                log(f"страница изменилась, но дополнение несущественно — запомнил без публикации: {u}")
             if rec.get("hash") != item["hash"] or not rec.get("paras"):
                 rec["hash"], rec["paras"] = item["hash"], item["paras"]   # запомнили версию без публикации
             continue

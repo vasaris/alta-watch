@@ -422,6 +422,28 @@ class TestMainEndToEnd(unittest.TestCase):
         post, st = self.run_main(FakeResp(200, js=body))
         self.assertEqual(post.call_count, 0)
 
+    def test_recheck_ignores_trivial_changes_and_picks_sent_alta_pages(self):
+        st = json.loads(watch.STATE_FILE.read_text("utf-8"))
+        aod = "https://www.aod.rs/clan/vest/vest_forma/137"
+        v1 = (FIX / "aod_vest_v1.html").read_text("utf-8")
+        with mock.patch.object(watch, "get", return_value=v1):
+            paras = watch.parse_article(aod)["paras"]
+        st["seen"][aod] = {"status": "sent", "hash": "x", "paras": paras}
+        # заявления банка: перечитываем опубликованные, а не продуктовые страницы из меню
+        st["seen"]["https://altabanka.rs/sepa/"] = {"status": "seeded"}
+        st["seen"]["https://altabanka.rs/saopstenje-za-javnost/"] = {"status": "sent", "sent_at": "2026-10-31T10:00:00+00:00"}
+        watch.save_state(st)
+        self.feed = self.feed.replace("<item>", "<item-x>").replace("</item>", "</item-x>")
+        v2 = (FIX / "aod_vest_v2.html").read_text("utf-8")
+        orig = self.fake_get
+        self.fake_get = lambda u: v2 if u.endswith("vest_forma/137") else orig(u)
+        post, st = self.run_main(FakeResp(200, js=llm_body(relevance=2)))
+        self.assertEqual(post.call_count, 1)                       # модель спросили…
+        self.assertEqual(st["health"]["last_run"]["msgs"], 0)     # …но несущественное дополнение не публикуем
+        self.assertNotEqual(st["seen"][aod]["paras"], paras)       # новую версию запомнили
+        self.assertIn("https://altabanka.rs/saopstenje-za-javnost/", watch.RECHECK)
+        self.assertNotIn("https://altabanka.rs/sepa/", watch.RECHECK)
+
     def test_press_post_cap(self):
         many = []
         for i in range(6):
