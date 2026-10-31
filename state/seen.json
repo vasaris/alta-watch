@@ -2,16 +2,16 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:36:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-10-31T17:38:45+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T17:38:34+00:00",
-   "elapsed_s": 142,
+   "at": "2026-10-31T17:39:18+00:00",
+   "elapsed_s": 32,
    "llm_calls": 1,
-   "msgs": 0
+   "msgs": 1
   },
   "press": {
    "021": "ok:10",
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   }
  },
@@ -69,6 +69,11 @@
    "text": "От обменника к краху: взлёт и падение Alta Banka за семь лет — Хронология: Alta основана как JUBMES в 1979 году специализированной банкой для кредитования экспорта; в 1988–1987 возглавлялась Иваном Стамболичем; после распада Югославии потеряла статус и стала коммерческой банкой (с июля 1998) — Госуд",
    "ts": 1793468111.9575753,
    "url": "https://www.rts.rs/vesti/ekonomija/6073522/alta-banka-stecaj-kriza-racuni-krediti-uspon-pad-hronologija-.html"
+  },
+  {
+   "text": "Директор AOD: Хозяйственный суд Белграда откроет банкротство Alta в понедельник, выплаты начнутся через неделю — Директор AOD назвала конкретный день открытия банкротства — понедельник (3 ноября 2026). — Уточнено, что динарские вклады выплатят в динарах, валютные — в евро (ранее было только упоминан",
+   "ts": 1793468356.6494038,
+   "url": "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom"
   }
  ],
  "seeded": true,
@@ -861,12 +866,23 @@
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
    "first_seen": "2026-10-31T17:12:44+00:00",
+   "hash": "",
    "kind": "press",
-   "posted": false,
+   "message_id": 87,
+   "novelty": 6,
+   "posted": true,
    "reason": "llm_budget",
-   "status": "retry",
-   "title": "Direktorka Agencije za osiguranje depozita: U ponedeljak očekujemo zvanično otvaranje stečaja nad ALTA bankom",
-   "updated": "2026-10-31T17:29:27+00:00"
+   "relevance": 10,
+   "sent_at": "2026-10-31T17:39:16+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "сроки",
+    "регулятор"
+   ],
+   "title": "Директор AOD: Хозяйственный суд Белграда откроет банкротство Alta в понедельник, выплаты начнутся через неделю",
+   "updated": "2026-10-31T17:39:16+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-srbije-oduzela-dozvolu-alta-banci-zbog-znatnog-pogorsanja-finansijskog-stanja": {
    "first_seen": "2026-10-31T14:11:00+00:00",
