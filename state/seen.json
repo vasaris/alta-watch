@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T18:24:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-10-31T18:26:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T18:24:42+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-10-31T18:28:40+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -34,10 +34,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
-  "src_fail": {}
+  "src_fail": {
+   "AOD новости": 1,
+   "AOD объявления": 1
+  }
  },
  "pending": {},
  "recent": [
@@ -1346,6 +1349,17 @@
     "активы"
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
+  },
+  "https://nova.rs/vesti/drustvo/studenti-o-oduzimanju-dozvole-za-rad-alta-banci-nema-razloga-za-paniku-trazimo-istragu-poslovanja-i-odgovornost-nadleznih": {
+   "first_seen": "2026-10-31T18:28:40+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Студенты о крахе Alta: требуют расследования, но паники нет",
+   "title_src": "Studenti o oduzimanju dozvole za rad Alta banci: Nema razloga za paniku, tražimo istragu poslovanja i odgovornost nadležnih",
+   "updated": "2026-10-31T18:28:40+00:00"
   },
   "https://nova.rs/vesti/drustvo/zaposleni-u-alta-banci-potvrdili-da-je-povlacenje-novca-pocelo-vec-u-utorak": {
    "first_seen": "2026-10-31T17:46:48+00:00",
