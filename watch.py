@@ -48,7 +48,11 @@ AOD_NOTICE_PAGES = [
 AOD_NOTICE_FILE_RE = re.compile(r"/uploads/dokumenti/oglas/[^\s\"'<>#?]+\.(?:pdf|docx?)", re.I)
 # Для объявлений фильтр шире: любое объявление про выплаты/вкладчиков/банкротство,
 # а не только с именем банка, чтобы не пропустить «Оглас о исплати осигураних депозита».
-NOTICE_KEYWORD_RE = re.compile(r"(alta|алта|исплат|isplat|осигуран|osiguran|депон|depon|стечај|stečaj|stecaj)", re.I)
+NOTICE_KEYWORD_RE = re.compile(r"(alta|алта|исплат|isplat|осигуран|osiguran|депон|depon)", re.I)
+# объявления с датой раньше этой не публикуем (процедура Alta началась 30.10.2026)
+NOTICE_SINCE = datetime(2026, 10, 30, tzinfo=timezone.utc)
+# предохранитель: если из одного источника внезапно «новых» больше, чем это, считаем сбоем и не постим
+FLOOD_LIMIT = 20
 
 # Страница AOD со списком банков в процедуре: сигналим один раз, когда там появится Alta.
 AOD_PROCEEDINGS_PAGE = "https://www.aod.rs/clan/stecajlikv/postupci_utoku"
@@ -173,13 +177,24 @@ def collect_aod_notices() -> list[dict]:
                 if re.search(r"\b\d{2}\.\d{2}\.\d{4}\b", t):
                     break
             ctx = re.sub(r"\s+", " ", ctx)[:300]
-            m = re.search(r"\b(\d{2}\.\d{2}\.\d{4})\b", ctx)
+            m = re.search(r"\b(\d{2})\.(\d{2})\.(\d{4})\b", ctx)
+            date = f"{m.group(1)}.{m.group(2)}.{m.group(3)}" if m else ""
+            recent = False
+            if m:
+                try:
+                    d = datetime(int(m.group(3)), int(m.group(2)), int(m.group(1)), tzinfo=timezone.utc)
+                    recent = d.timestamp() >= NOTICE_SINCE.timestamp()
+                except ValueError:
+                    recent = False
+            # Старые объявления (про другие банки) не публикуем никогда.
+            # Свежие — если упомянута Alta или речь о выплатах/вкладчиках.
+            relevant = recent and bool(KEYWORD_RE.search(ctx) or NOTICE_KEYWORD_RE.search(ctx))
             items.append({
                 "url": u,
                 "title": ctx[:200],
-                "date": m.group(1) if m else "",
+                "date": date,
                 "excerpt": "",
-                "relevant": bool(NOTICE_KEYWORD_RE.search(ctx)),
+                "relevant": relevant,
                 "kind": "aod_notice",
             })
     log(f"AOD огласи: {len(items)} файлов")
@@ -804,6 +819,19 @@ def main() -> int:
     if pr and deliver(pr):
         posted += 1
         time.sleep(1.5)
+
+    # Предохранитель от потопа: слишком много «новых» сразу = источник раньше не читался.
+    def flood_guard(label: str, urls: list[str]) -> bool:
+        fresh = [u for u in urls if u not in seen]
+        if len(fresh) > FLOOD_LIMIT:
+            log(f"WARN {label}: {len(fresh)} новых сразу — похоже на сбой чтения, запоминаю без публикации")
+            for u in fresh:
+                seen[u] = {"first_seen": now, "posted": False, "flood": True}
+            return True
+        return False
+
+    flood_guard("AOD огласи", [it["url"] for it in ready_items])
+    flood_guard("страницы", page_urls)
 
     # 2) Объявления AOD
     for it in ready_items:
