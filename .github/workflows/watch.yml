@@ -6,21 +6,20 @@ on:
   workflow_dispatch:
     inputs:
       force_urls:
-        description: "Опубликовать эти ссылки принудительно (через запятую)"
+        description: "Опубликовать эти ссылки принудительно (через запятую). На время ручного прогона выключите внешний будильник."
         required: false
         default: ""
       backfill:
-        description: "Выложить подборки прессы/Telegram за 48 ч, включая уже виденное (1 = да)"
+        description: "Выложить подборки прессы за 48 ч, включая уже виденное (1 = да)"
         required: false
         default: ""
 
 permissions:
   contents: write
 
-# Автоматические запуски — одна группа (очередь из одного). Ручные с параметрами —
-# отдельная, чтобы автоматика их не вытесняла из очереди.
+# Один публикатор: все отправляющие запуски в одной очереди.
 concurrency:
-  group: alta-watch-${{ (github.event.inputs.force_urls != '' || github.event.inputs.backfill != '') && 'manual' || 'auto' }}
+  group: alta-watch-publisher
   cancel-in-progress: false
 
 jobs:
@@ -29,6 +28,8 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main          # свежий main на момент старта, а не SHA из очереди
 
       - uses: actions/setup-python@v5
         with:
@@ -37,10 +38,11 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - name: Check official sources and post news
+      - name: Check sources and post news
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          TELEGRAM_ADMIN_CHAT_ID: ${{ secrets.TELEGRAM_ADMIN_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           FORCE_URLS: ${{ github.event.inputs.force_urls }}
           BACKFILL: ${{ github.event.inputs.backfill }}
@@ -56,7 +58,6 @@ jobs:
             exit 0
           fi
           cp state/seen.json /tmp/ours.json
-          # до 4 попыток: берём свежий main, сливаем наше состояние с чужим, пушим
           for i in 1 2 3 4; do
             git fetch origin main
             git reset --hard origin/main
@@ -73,4 +74,14 @@ jobs:
             echo "push не прошёл (гонка), попытка $i"
             sleep $((i * 5))
           done
-          echo "::warning::Состояние не сохранилось после 4 попыток"
+          echo "::error::Состояние не сохранилось после 4 попыток"
+          exit 1
+
+      - name: Health ping
+        if: success()
+        env:
+          HEALTHCHECK_URL: ${{ secrets.HEALTHCHECK_URL }}
+        run: |
+          if [ -n "$HEALTHCHECK_URL" ]; then
+            curl -fsS -m 10 --retry 3 "$HEALTHCHECK_URL" > /dev/null || echo "health ping не прошёл"
+          fi
