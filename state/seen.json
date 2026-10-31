@@ -2,14 +2,14 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:42:58+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-10-31T17:44:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "last_run": {
-   "at": "2026-10-31T17:43:56+00:00",
-   "elapsed_s": 58,
+   "at": "2026-10-31T17:46:48+00:00",
+   "elapsed_s": 154,
    "llm_calls": 1,
    "msgs": 0
   },
@@ -28,8 +28,8 @@
    "rtv": "ok:20"
   },
   "sources": {
-   "alta": 105,
-   "aod": 44,
+   "alta": 109,
+   "aod": 0,
    "nbs": 36
   }
  },
@@ -1280,6 +1280,17 @@
     "активы"
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
+  },
+  "https://nova.rs/vesti/drustvo/zaposleni-u-alta-banci-potvrdili-da-je-povlacenje-novca-pocelo-vec-u-utorak": {
+   "first_seen": "2026-10-31T17:46:48+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 8,
+   "status": "signal",
+   "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
+   "updated": "2026-10-31T17:46:48+00:00"
   },
   "https://nova.rs/vesti/hronika/oglasilo-se-javno-tuzilastvo-za-organizovani-kriminal-o-slucaju-alta-banke": {
    "attempts": 84,
@@ -5439,6 +5450,12 @@
    "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
    "ts": "2026-10-31T17:42:58+00:00",
    "url": "https://n1info.rs/vesti/zaposleni-u-alta-banci-potvrdili-da-je-povlacenje-novca-pocelo-vec-u-utorak"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
+   "ts": "2026-10-31T17:44:14+00:00",
+   "url": "https://nova.rs/vesti/drustvo/zaposleni-u-alta-banci-potvrdili-da-je-povlacenje-novca-pocelo-vec-u-utorak"
   }
  ]
 }
