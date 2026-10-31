@@ -392,14 +392,6 @@ def main() -> int:
     seen: dict = state.setdefault("seen", {})
     first_run = not state.get("seeded", False)
 
-    # Страницы, которые нужно открыть и разобрать
-    page_urls = collect_aod() + collect_nbs() + collect_alta()
-    # Готовые элементы (объявления AOD — файлы, открывать не надо)
-    ready_items = collect_aod_notices()
-    if not page_urls and not ready_items:
-        log("Ни один источник не ответил, выходим без изменений")
-        return 0
-
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
     posted = 0
 
@@ -409,6 +401,33 @@ def main() -> int:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
             return True
         return tg_send(token, chat_id, text)
+
+    # 0) Принудительная публикация конкретных ссылок (FORCE_URLS="url1,url2"),
+    #    например чтобы задним числом выложить сообщения, вышедшие до старта бота.
+    force = [x.strip() for x in os.environ.get("FORCE_URLS", "").split(",") if x.strip()]
+    for u in force:
+        u = norm_url(u) + ("/" if "altabanka.rs" in u else "")
+        item = parse_article(u)
+        if item is None:
+            log(f"FORCE: не прочиталось {u}")
+            continue
+        if deliver(item):
+            seen[u] = {"first_seen": now, "posted": True, "forced": True,
+                       "title": item["title"][:120], "hash": item["hash"]}
+            posted += 1
+            time.sleep(1.5)
+    if force:
+        save_state(state)
+        log(f"FORCE: опубликовано {posted}")
+        return 0
+
+    # Страницы, которые нужно открыть и разобрать
+    page_urls = collect_aod() + collect_nbs() + collect_alta()
+    # Готовые элементы (объявления AOD — файлы, открывать не надо)
+    ready_items = collect_aod_notices()
+    if not page_urls and not ready_items:
+        log("Ни один источник не ответил, выходим без изменений")
+        return 0
 
     if first_run:
         # Первый запуск: запоминаем всё, что уже есть, ничего не публикуем,
