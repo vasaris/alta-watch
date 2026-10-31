@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T18:18:15+00:00",
+   "at": "2026-10-31T18:20:23+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T18:19:00+00:00",
-   "elapsed_s": 44,
-   "llm_calls": 0,
+   "at": "2026-10-31T18:21:17+00:00",
+   "elapsed_s": 53,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -670,7 +670,16 @@
   "https://altabanka.rs/saopstenje-za-javnost/": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
-   "hash": "e8319c328ef4fdba",
+   "hash": "78879833cb12589a",
+   "paras": [
+    "a2a23b52eb",
+    "45fab540a9",
+    "87ddb598af",
+    "72380194b0",
+    "3ff6149868",
+    "6a2faa8c60",
+    "e53fa55821"
+   ],
    "posted": true,
    "status": "sent",
    "title": "SAOPŠTENJE ZA JAVNOST - Alta Banka"
@@ -1132,6 +1141,18 @@
    "status": "rejected",
    "title": "Оппозиция Северной Македонии требует отставки главы центробанка из-за ALTA",
    "updated": "2026-10-31T17:28:40+00:00"
+  },
+  "https://n1info.rs/vesti/kolika-je-odgovornost-nbs-za-slucaj-alta-banke": {
+   "first_seen": "2026-10-31T18:21:11+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "NBS под вопросом: критика надзора перед крахом Alta Banka",
+   "title_src": "Od sve je pod kontrolom do oduzimanja dozvole u nekoliko dana: Kolika je odgovornost NBS za slučaj Alta banke?",
+   "updated": "2026-10-31T18:21:11+00:00"
   },
   "https://n1info.rs/vesti/milivojevic-zbog-afere-s-alta-bankom-odrediti-pritvor-za-jorgovanku-tabakovic-i-davora-macuru": {
    "attempts": 24,
@@ -5133,6 +5154,17 @@
    "title": "Sindikati traže zaštitu plata radnika i uloga građana u ALTA banci",
    "updated": "2026-10-31T17:06:48+00:00"
   },
+  "https://www.danas.rs/vesti/ekonomija/studenti-u-blokadi-o-alta-banci-ocuvanje-finansijske-stabilnosti-je-na-prvom-mestu": {
+   "first_seen": "2026-10-31T18:21:17+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Студенты в блокаде о Alta: капитал банка в июне был выше нормы, требуется расследование",
+   "title_src": "Studenti u blokadi o Alta banci: „Očuvanje finansijske stabilnosti je na prvom mestu“",
+   "updated": "2026-10-31T18:21:17+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/tok-nbs-alta-banka": {
    "attempts": 74,
    "first_seen": "2026-10-31T14:57:38+00:00",
@@ -5544,6 +5576,12 @@
    "title": "Сотрудники Alta Banka: снятие денег начнётся уже во вторник",
    "ts": "2026-10-31T17:48:13+00:00",
    "url": "https://www.021.rs/info/srbija/459937/zaposleni-u-alta-banci-povlacenje-novca-pocelo-vec-u-utorak"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "NBS под вопросом: критика надзора перед крахом Alta Banka",
+   "ts": "2026-10-31T18:20:23+00:00",
+   "url": "https://n1info.rs/vesti/kolika-je-odgovornost-nbs-za-slucaj-alta-banke"
   }
  ]
 }
