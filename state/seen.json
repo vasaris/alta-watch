@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T19:36:14+00:00",
+   "at": "2026-10-31T19:38:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T19:36:52+00:00",
-   "elapsed_s": 37,
-   "llm_calls": 0,
+   "at": "2026-10-31T19:38:45+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -5077,6 +5077,18 @@
    "status": "rejected",
    "title": "Šta znači likvidacija Alta banke",
    "updated": "2026-10-31T16:27:12+00:00"
+  },
+  "https://www.danas.rs/svet/narodna-banka-s-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
+   "first_seen": "2026-10-31T19:38:45+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии мониторит ситуацию с Alta banke Bitolj",
+   "title_src": "Narodna banka S. Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
+   "updated": "2026-10-31T19:38:45+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/savovic-tuzilastvo-alta-banka": {
    "attempts": 77,
