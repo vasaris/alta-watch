@@ -2,14 +2,14 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T14:46:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-10-31T14:48:54+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T14:48:42+00:00",
-   "elapsed_s": 149,
+   "at": "2026-10-31T14:49:42+00:00",
+   "elapsed_s": 47,
    "llm_calls": 6,
    "msgs": 0
   },
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   }
  },
@@ -817,14 +817,14 @@
    "updated": "2026-10-31T14:11:00+00:00"
   },
   "https://insajder.net/prenosimo/sdsm-trazi-od-narodne-banke-severne-makedonije-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
-   "attempts": 12,
+   "attempts": 13,
    "first_seen": "2026-10-31T14:10:59+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "SDSM traži od Narodne banke Severne Makedonije da uvede prinudnu upravu u Alta banku Bitolj",
-   "updated": "2026-10-31T14:44:59+00:00"
+   "updated": "2026-10-31T14:49:35+00:00"
   },
   "https://insajder.net/prenosimo/sindikati-sloga-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradana": {
    "attempts": 7,
@@ -846,14 +846,14 @@
    "updated": "2026-10-31T14:11:00+00:00"
   },
   "https://insajder.net/prenosimo/viceguverneri-nbs-traze-od-tuzilastva-da-utvrdi-okolnosti-oduzimanja-licence-alta-banci-i-eventualnu-krivicnu-odgovornost-u-nbs-tvrde-da-su-za-stanje-u-banci-saznali-tek-u-petak": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:00+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Viceguverneri NBS traže od tužilaštva da utvrdi okolnosti oduzimanja licence Alta banci i eventualnu krivičnu odgovornos",
-   "updated": "2026-10-31T14:48:39+00:00"
+   "updated": "2026-10-31T14:49:36+00:00"
   },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -961,34 +961,34 @@
    "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
   },
   "https://n1info.rs/vesti/savovic-unistavanje-dokumentacije-je-krivicno-delo-promene": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:51+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "Savović:  Nemam saosećanje prema Alta banci, TOK odranije ima formiran predmet u odnosu na njenog vlasnika",
-   "updated": "2026-10-31T14:48:31+00:00"
+   "updated": "2026-10-31T14:49:26+00:00"
   },
   "https://n1info.rs/vesti/sindikati-alta-banka-zaposleni-gradjani": {
-   "attempts": 11,
+   "attempts": 12,
    "first_seen": "2026-10-31T14:27:31+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "Sindikati: Nakon gašenja ALTA banke zaštititi plate njenih službenika i uloge građana",
-   "updated": "2026-10-31T14:48:30+00:00"
+   "updated": "2026-10-31T14:49:25+00:00"
   },
   "https://n1info.rs/vesti/tok-nbs-transfer-novca-alta-banka-inostranstvo": {
-   "attempts": 5,
+   "attempts": 6,
    "first_seen": "2026-10-31T14:38:44+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "TOK: NBS-u 27. oktobra upućen zahtev za podatke o transferima novca iz Alta banke u inostranstvo",
-   "updated": "2026-10-31T14:48:30+00:00"
+   "updated": "2026-10-31T14:49:25+00:00"
   },
   "https://nova.rs/vesti/biznis/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -1048,14 +1048,14 @@
    "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/sindikati-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradjana": {
-   "attempts": 17,
+   "attempts": 18,
    "first_seen": "2026-10-31T14:13:27+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Sindikati: Nakon gašenja Alta banke zaštititi plate njenih službenika i uloge građana",
-   "updated": "2026-10-31T14:48:36+00:00"
+   "updated": "2026-10-31T14:49:32+00:00"
   },
   "https://nova.rs/vesti/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -1087,24 +1087,24 @@
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
   },
   "https://nova.rs/vesti/hronika/oglasilo-se-javno-tuzilastvo-za-organizovani-kriminal-o-slucaju-alta-banke": {
-   "attempts": 5,
+   "attempts": 6,
    "first_seen": "2026-10-31T14:38:50+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Oglasilo se Javno tužilaštvo za organizovani kriminal o slučaju Alta banke",
-   "updated": "2026-10-31T14:48:35+00:00"
+   "updated": "2026-10-31T14:49:31+00:00"
   },
   "https://nova.rs/vesti/hronika/tuziteljka-savovic-alta-banka-sluzila-otprilike-za-pranje-nelegalnog-novca-ove-drzave-u-tok-otvoren-predmet-u-odnosu-na-vlasnika-i-direktora": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:56+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Tužiteljka Savović: \"Alta banka služila otprilike za pranje nelegalnog novca ove države, u TOK otvoren predmet u odnosu ",
-   "updated": "2026-10-31T14:48:37+00:00"
+   "updated": "2026-10-31T14:49:32+00:00"
   },
   "https://nova.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T12:53:06+00:00",
@@ -1117,14 +1117,14 @@
    "title": "Parandilović (NLS): Alta banka bila perionica novca za vrh SNS, tužilaštvo da ispita odgovornost"
   },
   "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:57+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Opozicija u Severnoj Makedoniji traži od Narodne banke da uvede prinudnu upravu u Alta banku Bitolj",
-   "updated": "2026-10-31T14:48:37+00:00"
+   "updated": "2026-10-31T14:49:33+00:00"
   },
   "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
    "first_seen": "2026-10-31T12:28:50+00:00",
@@ -1189,14 +1189,14 @@
    "status": "seeded"
   },
   "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:57+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Zahtev tužilaštvu da ispita da li je za stečaj Alta banke odgovoran i neko iz NBS",
-   "updated": "2026-10-31T14:48:38+00:00"
+   "updated": "2026-10-31T14:49:34+00:00"
   },
   "https://t.me/Serbia/107349": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -1359,24 +1359,24 @@
    "title": "⭕️ Владелец ALTA снял 37 млн евро наличными с разрешения главы Центробанка Сербии — К РАССЛЕДОВАНИЮ ПОДКЛЮЧИЛСЯ ЕВРОЮСТ "
   },
   "https://t.me/Serbia/107372": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Неделя больших политических перемен в Сербии: главные события 1. Александр Вучич признал поражение на парламентских выбо",
-   "updated": "2026-10-31T14:48:42+00:00"
+   "updated": "2026-10-31T14:49:42+00:00"
   },
   "https://t.me/Serbia/107373": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "⭕️ ОТМЕНА ПАНИКИ: ALTA Banka обещает начать выплаты клиентам уже 2 ноября ALTA Banka сообщила⁠ телеканалу N1, что выплат",
-   "updated": "2026-10-31T14:48:42+00:00"
+   "updated": "2026-10-31T14:49:42+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -1475,14 +1475,14 @@
    "title": "#НовостиСербииДайджест * * * Четыре вице-председателя Национального банка Сербии (НБС) потребовали от прокуратуры рассле"
   },
   "https://t.me/novostiserbii/17232": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Вашему бизнесу нужна поддержка? Комментарии открыты #реклама — ваша, бесплатно Дорогие подписчики Новостей Сербии, если ",
-   "updated": "2026-10-31T14:48:42+00:00"
+   "updated": "2026-10-31T14:49:42+00:00"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
@@ -1544,14 +1544,14 @@
    "title": "🫂 Сербы ответили твитер-аккаунту, который посмеялся над очередями в Alta В субботу утром популярный сербский аккаунт выл"
   },
   "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:06+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Šta znači likvidacija Alta banke",
-   "updated": "2026-10-31T14:48:42+00:00"
+   "updated": "2026-10-31T14:49:42+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
@@ -1564,24 +1564,24 @@
    "updated": "2026-10-31T14:20:03+00:00"
   },
   "https://www.021.rs/info/srbija/459868/viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:03+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Viceguverneri NBS pozvali tužilaštvo da utvrdi činjenice o oduzimanju dozvole Alta banci",
-   "updated": "2026-10-31T14:48:40+00:00"
+   "updated": "2026-10-31T14:49:38+00:00"
   },
   "https://www.021.rs/info/srbija/459869/sta-su-studenti-jos-pre-godinu-dana-pisali-o-alta-banci-gradjani-pune-kasu-privatne-banke-povezane-sa-sns-om": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:11:05+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "Šta su studenti još pre godinu dana pisali o Alta banci: \"Građani pune kasu privatne banke povezane sa SNS-om\"",
-   "updated": "2026-10-31T14:48:41+00:00"
+   "updated": "2026-10-31T14:49:40+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/100": {
    "first_seen": "2026-10-31T11:38:15+00:00",
@@ -4596,24 +4596,24 @@
    "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/sta-znaci-likvidacija-alta-banke": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:55+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "Šta znači likvidacija Alta banke",
-   "updated": "2026-10-31T14:48:34+00:00"
+   "updated": "2026-10-31T14:49:30+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/savovic-tuzilastvo-alta-banka": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:54+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
-   "updated": "2026-10-31T14:48:33+00:00"
+   "updated": "2026-10-31T14:49:29+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -4709,14 +4709,14 @@
    "updated": "2026-10-31T14:31:21+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-traze-zastitu-plata-radnika-i-uloga-gradjana-u-alta-banci": {
-   "attempts": 19,
+   "attempts": 20,
    "first_seen": "2026-10-31T14:10:52+00:00",
    "kind": "press",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "Sindikati traže zaštitu plata radnika i uloga građana u ALTA banci",
-   "updated": "2026-10-31T14:48:32+00:00"
+   "updated": "2026-10-31T14:49:28+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/viceguverneri-nbs-pozvali-tuzilastvo-da-ispita-okolnosti-zbog-kojih-je-oduzeta-dozvola-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:42:13+00:00",
