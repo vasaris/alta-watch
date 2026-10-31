@@ -2,14 +2,14 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T14:08:15+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-10-31T14:11:23+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T14:11:07+00:00",
-   "elapsed_s": 172,
+   "at": "2026-10-31T14:12:21+00:00",
+   "elapsed_s": 57,
    "llm_calls": 6,
    "msgs": 0
   },
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   }
  },
@@ -836,14 +836,14 @@
    "updated": "2026-10-31T14:11:00+00:00"
   },
   "https://insajder.net/prenosimo/viceguverneri-nbs-traze-od-tuzilastva-da-utvrdi-okolnosti-oduzimanja-licence-alta-banci-i-eventualnu-krivicnu-odgovornost-u-nbs-tvrde-da-su-za-stanje-u-banci-saznali-tek-u-petak": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:00+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Viceguverneri NBS traže od tužilaštva da utvrdi okolnosti oduzimanja licence Alta banci i eventualnu krivičnu odgovornos",
-   "updated": "2026-10-31T14:11:00+00:00"
+   "updated": "2026-10-31T14:12:12+00:00"
   },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -951,14 +951,14 @@
    "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
   },
   "https://n1info.rs/vesti/savovic-unistavanje-dokumentacije-je-krivicno-delo-promene": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:51+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Savović:  Nemam saosećanje prema Alta banci, TOK odranije ima formiran predmet u odnosu na njenog vlasnika",
-   "updated": "2026-10-31T14:10:51+00:00"
+   "updated": "2026-10-31T14:12:06+00:00"
   },
   "https://nova.rs/vesti/biznis/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -1047,14 +1047,14 @@
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
   },
   "https://nova.rs/vesti/hronika/tuziteljka-savovic-alta-banka-sluzila-otprilike-za-pranje-nelegalnog-novca-ove-drzave-u-tok-otvoren-predmet-u-odnosu-na-vlasnika-i-direktora": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:56+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Tužiteljka Savović: \"Alta banka služila otprilike za pranje nelegalnog novca ove države, u TOK otvoren predmet u odnosu ",
-   "updated": "2026-10-31T14:10:56+00:00"
+   "updated": "2026-10-31T14:12:10+00:00"
   },
   "https://nova.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T12:53:06+00:00",
@@ -1067,14 +1067,14 @@
    "title": "Parandilović (NLS): Alta banka bila perionica novca za vrh SNS, tužilaštvo da ispita odgovornost"
   },
   "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:57+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Opozicija u Severnoj Makedoniji traži od Narodne banke da uvede prinudnu upravu u Alta banku Bitolj",
-   "updated": "2026-10-31T14:10:57+00:00"
+   "updated": "2026-10-31T14:12:10+00:00"
   },
   "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
    "first_seen": "2026-10-31T12:28:50+00:00",
@@ -1139,14 +1139,14 @@
    "status": "seeded"
   },
   "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:57+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Zahtev tužilaštvu da ispita da li je za stečaj Alta banke odgovoran i neko iz NBS",
-   "updated": "2026-10-31T14:10:57+00:00"
+   "updated": "2026-10-31T14:12:12+00:00"
   },
   "https://t.me/Serbia/107349": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -1309,24 +1309,24 @@
    "title": "⭕️ Владелец ALTA снял 37 млн евро наличными с разрешения главы Центробанка Сербии — К РАССЛЕДОВАНИЮ ПОДКЛЮЧИЛСЯ ЕВРОЮСТ "
   },
   "https://t.me/Serbia/107372": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Неделя больших политических перемен в Сербии: главные события 1. Александр Вучич признал поражение на парламентских выбо",
-   "updated": "2026-10-31T14:11:07+00:00"
+   "updated": "2026-10-31T14:12:21+00:00"
   },
   "https://t.me/Serbia/107373": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "⭕️ ОТМЕНА ПАНИКИ: ALTA Banka обещает начать выплаты клиентам уже 2 ноября ALTA Banka сообщила⁠ телеканалу N1, что выплат",
-   "updated": "2026-10-31T14:11:07+00:00"
+   "updated": "2026-10-31T14:12:21+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -1425,14 +1425,14 @@
    "title": "#НовостиСербииДайджест * * * Четыре вице-председателя Национального банка Сербии (НБС) потребовали от прокуратуры рассле"
   },
   "https://t.me/novostiserbii/17232": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Вашему бизнесу нужна поддержка? Комментарии открыты #реклама — ваша, бесплатно Дорогие подписчики Новостей Сербии, если ",
-   "updated": "2026-10-31T14:11:07+00:00"
+   "updated": "2026-10-31T14:12:21+00:00"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
@@ -1494,44 +1494,44 @@
    "title": "🫂 Сербы ответили твитер-аккаунту, который посмеялся над очередями в Alta В субботу утром популярный сербский аккаунт выл"
   },
   "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:06+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Šta znači likvidacija Alta banke",
-   "updated": "2026-10-31T14:11:06+00:00"
+   "updated": "2026-10-31T14:12:19+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Alta banka se zahvalila klijentima nakon oduzimanje dozvole za rad",
-   "updated": "2026-10-31T14:11:07+00:00"
+   "updated": "2026-10-31T14:12:21+00:00"
   },
   "https://www.021.rs/info/srbija/459868/viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:03+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Viceguverneri NBS pozvali tužilaštvo da utvrdi činjenice o oduzimanju dozvole Alta banci",
-   "updated": "2026-10-31T14:11:03+00:00"
+   "updated": "2026-10-31T14:12:16+00:00"
   },
   "https://www.021.rs/info/srbija/459869/sta-su-studenti-jos-pre-godinu-dana-pisali-o-alta-banci-gradjani-pune-kasu-privatne-banke-povezane-sa-sns-om": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:05+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Šta su studenti još pre godinu dana pisali o Alta banci: \"Građani pune kasu privatne banke povezane sa SNS-om\"",
-   "updated": "2026-10-31T14:11:05+00:00"
+   "updated": "2026-10-31T14:12:18+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/100": {
    "first_seen": "2026-10-31T11:38:15+00:00",
@@ -1600,71 +1600,91 @@
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:52+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/119": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:52+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/121": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:50+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/123": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:50+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/125": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:48+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/127": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:47+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/129": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:46+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/131": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:45+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/133": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:45+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/135": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-10-31T14:11:43+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/137": {
    "first_seen": "2026-10-31T11:15:23+00:00",
@@ -1843,970 +1863,1384 @@
    "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/101_1_oglas.pdf": {
+   "date": "18.11.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца- табела 1.",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/102_1_oglas.pdf": {
+   "date": "07.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца- табела 1.",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_1_oglas.pdf": {
+   "date": "12.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_2_oglas.pdf": {
+   "date": "12.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење Одбора поверилаца",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_3_oglas.pdf": {
+   "date": "12.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Југобанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_4_oglas.pdf": {
+   "date": "12.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца- табела 1.",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/104_1_oglas.pdf": {
+   "date": "20.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/105_1_oglas.pdf": {
+   "date": "27.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/106_1_oglas.pdf": {
+   "date": "30.12.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/108_1_oglas.pdf": {
+   "date": "13.01.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/109_1_oglas.pdf": {
+   "date": "13.01.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/110_1_oglas.pdf": {
+   "date": "19.01.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/111_1_oglas.pdf": {
+   "date": "20.01.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/112_1_oglas.pdf": {
+   "date": "26.01.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/113_1_oglas.pdf": {
+   "date": "10.02.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/114_1_oglas.pdf": {
+   "date": "24.02.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/115_1_oglas.pdf": {
+   "date": "13.03.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/115_3_oglas.pdf": {
+   "date": "13.03.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење Привредног суда у Београду којим се одобрава нацрт за пету делимичну деобу стечајне масе Универзал банке а.д. Бео",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/116_1_oglas.pdf": {
+   "date": "24.03.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_1_oglas.pdf": {
+   "date": "03.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни конкурс за избор једног директора - члана Одбора директора",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_2_oglas.doc": {
+   "date": "03.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Конкурс — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_3_oglas.doc": {
+   "date": "03.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_1_oglas.doc": {
+   "date": "05.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_2_oglas.pdf": {
+   "date": "05.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни позив за достављање понуда у поступку набавке услуга пресељења архивске документације — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_3_oglas.pdf": {
+   "date": "05.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_4_oglas.pdf": {
+   "date": "05.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 2 — Прилог 3",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/119_1_oglas.pdf": {
+   "date": "16.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/120_1_oglas.pdf": {
+   "date": "16.06.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/122_1_oglas.pdf": {
+   "date": "21.07.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/123_1_oglas.pdf": {
+   "date": "27.07.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/124_1_oglas.pdf": {
+   "date": "18.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/125_1_oglas.pdf": {
+   "date": "18.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/126_1_oglas.pdf": {
+   "date": "21.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_1_oglas.doc": {
+   "date": "26.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_2_oglas.doc": {
+   "date": "26.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни конкурс за избор једног независног члана Управног одбора Агенције за осигурање депозита — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_3_oglas.doc": {
+   "date": "26.08.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/128_1_oglas.pdf": {
+   "date": "01.09.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/129_1_oglas.pdf": {
+   "date": "22.09.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/130_1_oglas.pdf": {
+   "date": "13.10.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/131_1_oglas.pdf": {
+   "date": "18.10.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/132_1_oglas.pdf": {
+   "date": "20.10.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/133_1_oglas.pdf": {
+   "date": "20.10.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/134_1_oglas.pdf": {
+   "date": "25.10.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/135_1_oglas.pdf": {
+   "date": "10.11.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/136_1_oglas.pdf": {
+   "date": "15.11.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/137_1_oglas.pdf": {
+   "date": "20.12.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/138_1_oglas.pdf": {
+   "date": "22.12.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/139_1_oglas.pdf": {
+   "date": "22.12.2023",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/13_1_oglas.pdf": {
+   "date": "16.10.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/140_1_oglas.pdf": {
+   "date": "09.01.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/141_1_oglas.pdf": {
+   "date": "26.01.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/142_1_oglas.pdf": {
+   "date": "30.01.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/143_1_oglas.pdf": {
+   "date": "01.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/144_1_oglas.pdf": {
+   "date": "02.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/145_1_oglas.pdf": {
+   "date": "05.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/146_1_oglas.pdf": {
+   "date": "07.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/147_1_oglas.pdf": {
+   "date": "09.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/148_1_oglas.pdf": {
+   "date": "09.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/148_2_oglas.pdf": {
+   "date": "09.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив акционарима Пољопривредне банке Агробанке у стечају да доставе инструкције за плаћање",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/149_1_oglas.pdf": {
+   "date": "12.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/14_1_oglas.pdf": {
+   "date": "10.10.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/150_1_oglas.pdf": {
+   "date": "19.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/151_1_oglas.pdf": {
+   "date": "23.02.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/152_1_oglas.pdf": {
+   "date": "01.03.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/153_1_oglas.pdf": {
+   "date": "21.03.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/155_1_oglas.pdf": {
+   "date": "25.03.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/156_1_oglas.pdf": {
+   "date": "17.04.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/157_1_oglas.pdf": {
+   "date": "23.04.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/158_1_oglas.pdf": {
+   "date": "26.04.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/159_1_oglas.pdf": {
+   "date": "26.04.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/15_1_oglas.pdf": {
+   "date": "02.10.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/160_1_oglas.pdf": {
+   "date": "27.04.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/161_1_oglas.pdf": {
+   "date": "14.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Тендерска документација",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/161_2_oglas.doc": {
+   "date": "14.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за шесту делимичну деобу стечајне масе Универзал банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/162_1_oglas.pdf": {
+   "date": "23.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Тендерска документација",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_1_oglas.pdf": {
+   "date": "27.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_2_oglas.doc": {
+   "date": "27.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни позив за подношење пријава у поступку избора банке исплатиоца",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_3_oglas.pdf": {
+   "date": "27.05.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Тендерска документација",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/164_1_oglas.pdf": {
+   "date": "20.06.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/165_1_oglas.pdf": {
+   "date": "28.06.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/166_1_oglas.pdf": {
+   "date": "08.07.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/166_2_oglas.doc": {
+   "date": "08.07.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/167_1_oglas.pdf": {
+   "date": "18.07.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/168_1_oglas.pdf": {
+   "date": "26.07.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/169_1_oglas.pdf": {
+   "date": "07.08.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/16_1_oglas.pdf": {
+   "date": "18.09.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/170_1_oglas.pdf": {
+   "date": "07.08.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/171_1_oglas.pdf": {
+   "date": "09.08.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/172_1_oglas.pdf": {
+   "date": "30.08.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/173_1_oglas.pdf": {
+   "date": "03.09.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/174_1_oglas.pdf": {
+   "date": "16.09.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/175_1_oglas.doc": {
+   "date": "23.09.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/176_1_oglas.pdf": {
+   "date": "30.09.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/177_1_oglas.pdf": {
+   "date": "10.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/178_1_oglas.pdf": {
+   "date": "15.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима Југобанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/178_2_oglas.pdf": {
+   "date": "15.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима стечајне масе Инвестбанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/179_1_oglas.docx": {
+   "date": "16.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/179_2_oglas.pdf": {
+   "date": "16.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Обавештење повериоцима Југобанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/17_1_oglas.pdf": {
+   "date": "18.09.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/180_1_oglas.pdf": {
+   "date": "17.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/181_1_oglas.pdf": {
+   "date": "18.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/182_1_oglas.pdf": {
+   "date": "18.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/183_1_oglas.pdf": {
+   "date": "31.10.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/184_1_oglas.pdf": {
+   "date": "06.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/185_1_oglas.pdf": {
+   "date": "15.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_1_oglas.pdf": {
+   "date": "19.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_2_oglas.doc": {
+   "date": "19.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају половног службеног возила ŠKODA SUPERB ELEGANCE 2.0 TDI",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_3_oglas.doc": {
+   "date": "19.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Moдел купопродајног уговора",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_4_oglas.doc": {
+   "date": "19.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Образац изјаве понуђача",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/187_1_oglas.pdf": {
+   "date": "21.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/188_1_oglas.pdf": {
+   "date": "25.11.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/189_1_oglas.pdf": {
+   "date": "06.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/18_1_oglas.pdf": {
+   "date": "04.09.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/190_1_oglas.pdf": {
+   "date": "12.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/190_2_oglas.pdf": {
+   "date": "12.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу МБ Унион банке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/191_1_oglas.pdf": {
+   "date": "13.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/192_1_oglas.pdf": {
+   "date": "20.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/193_1_oglas.pdf": {
+   "date": "20.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/194_1_oglas.pdf": {
+   "date": "25.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/195_1_oglas.pdf": {
+   "date": "26.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Нове Агробанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/195_2_oglas.pdf": {
+   "date": "26.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Југобанке повериоцима другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/196_1_oglas.pdf": {
+   "date": "31.12.2024",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Нове Агробанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/197_1_oglas.pdf": {
+   "date": "06.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Нове Агробанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/198_1_oglas.pdf": {
+   "date": "12.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Привредне банке Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/198_2_oglas.pdf": {
+   "date": "12.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Нове Агробанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/199_1_oglas.pdf": {
+   "date": "21.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају предмета од племетих метала у власништву банака у стечају јавним прикупљањем понуда Т-1/25",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/199_2_oglas.pdf": {
+   "date": "21.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за главну деобу стечајне масе Привредне банке Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/19_1_oglas.pdf": {
+   "date": "02.09.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/200_1_oglas.pdf": {
+   "date": "28.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине Универзал банке у стечају јавним прикупљањем понуда – тендером (шифра продаје Т-5/25)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/200_2_oglas.pdf": {
+   "date": "28.02.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају предмета од племетих метала у власништву банака у стечају јавним прикупљањем понуда Т-1/25",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/201_1_oglas.pdf": {
+   "date": "07.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине Универзал банке у стечају јавним прикупљањем понуда – тендером (шифра продаје Т-5/25)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/202_1_oglas.pdf": {
+   "date": "14.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине Универзал банке у стечају јавним прикупљањем понуда – тендером (шифра продаје Т-5/25)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/203_1_oglas.pdf": {
+   "date": "24.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине Универзал банке у стечају јавним прикупљањем понуда – тендером (шифра продаје Т-5/25)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/204_1_oglas.pdf": {
+   "date": "28.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење за главну деобу стечајне масе Привредне банке Београд повериоцима петог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/205_1_oglas.pdf": {
+   "date": "28.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење за главну деобу стечајне масе Привредне банке Београд повериоцима петог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/205_2_oglas.pdf": {
+   "date": "28.03.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине Универзал банке у стечају јавним прикупљањем понуда – тендером (шифра продаје Т-5/25)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/206_1_oglas.pdf": {
+   "date": "03.04.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење о завршној деоби стечајне масе Беобанке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/206_2_oglas.pdf": {
+   "date": "03.04.2025",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Решење за главну деобу стечајне масе Привредне банке Београд повериоцима петог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/207_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
@@ -2827,11 +3261,14 @@
    "title": "26.05.2025 Позив за достављање понуда за процену вреднсти непокретне имовине Београдске банке ад у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/20_1_oglas.pdf": {
+   "date": "24.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/210_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
@@ -2912,11 +3349,14 @@
    "title": "12.09.2025 Решење о завршној деоби Беобанке а.д. Београд у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/21_1_oglas.pdf": {
+   "date": "22.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/220_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
@@ -3030,11 +3470,14 @@
    "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/22_1_oglas.pdf": {
+   "date": "21.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/230_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -3101,11 +3544,14 @@
    "title": "Оглас за продају непокретне имовине Републике Србије јавним прикупљањем понуда (шифра продаје: Т-5/26)."
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/23_1_oglas.pdf": {
+   "date": "17.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/240_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -3164,633 +3610,894 @@
    "title": "Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/24_1_oglas.pdf": {
+   "date": "16.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/24_2_oglas.pdf": {
+   "date": "16.07.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Преузмите обавештење",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/25_1_oglas.pdf": {
+   "date": "26.06.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају непокретности Универзал банке у стечају непосредном погодбом с побољшањем (шифра продаје: Н-5/20)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/26_1_oglas.pdf": {
+   "date": "24.06.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају покретне имовине у власништву Привредне банке Београд у стечају непосредном погодбом (шифра продаје: Н-",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/27_1_oglas.pdf": {
+   "date": "19.06.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Оглас за продају имовине у власништву Југобанке а.д. Београд у стечају (шифра продаје: Н-Југобанка)",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_1_oglas.doc": {
+   "date": "26.11.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни конкурс за избор једног члана Одбора директора",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_2_oglas.doc": {
+   "date": "26.11.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Конкурс — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_3_oglas.doc": {
+   "date": "26.11.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/36_1_oglas.pdf": {
+   "date": "21.12.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/38_1_oglas.pdf": {
+   "date": "25.12.2020",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/39_1_oglas.pdf": {
+   "date": "15.01.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/40_1_oglas.pdf": {
+   "date": "22.01.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/41_1_oglas.pdf": {
+   "date": "12.03.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/42_1_oglas.pdf": {
+   "date": "17.03.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/44_1_oglas.pdf": {
+   "date": "18.03.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за трећу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/44_2_oglas.pdf": {
+   "date": "18.03.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за другу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/45_1_oglas.pdf": {
+   "date": "09.04.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за трећу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/46_1_oglas.pdf": {
+   "date": "09.04.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за трећу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/47_1_oglas.pdf": {
+   "date": "17.05.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за трећу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/49_1_oglas.pdf": {
+   "date": "25.05.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/49_2_oglas.pdf": {
+   "date": "25.05.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за трећу делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/50_1_oglas.pdf": {
+   "date": "18.06.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/51_1_oglas.pdf": {
+   "date": "25.06.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/52_1_oglas.pdf": {
+   "date": "30.06.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/53_1_oglas.pdf": {
+   "date": "02.07.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/54_1_oglas.pdf": {
+   "date": "07.07.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/55_1_oglas.pdf": {
+   "date": "17.07.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/56_1_oglas.pdf": {
+   "date": "22.07.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/57_1_oglas.pdf": {
+   "date": "14.08.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/58_1_oglas.pdf": {
+   "date": "19.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/59_1_oglas.pdf": {
+   "date": "19.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_1_oglas.pdf": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_2_oglas.doc": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_3_oglas.doc": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_1_oglas.pdf": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_2_oglas.doc": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_3_oglas.doc": {
+   "date": "27.11.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/62_1_oglas.pdf": {
+   "date": "06.12.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/63_1_oglas.pdf": {
+   "date": "10.12.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/64_1_oglas.pdf": {
+   "date": "17.12.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/65_1_oglas.pdf": {
+   "date": "21.12.2021",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/66_1_oglas.pdf": {
+   "date": "01.01.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/67_1_oglas.pdf": {
+   "date": "12.01.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/68_1_oglas.pdf": {
+   "date": "14.01.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/69_2_oglas.pdf": {
+   "date": "21.01.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/70_1_oglas.pdf": {
+   "date": "21.01.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/71_1_oglas.pdf": {
+   "date": "04.02.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/73_1_oglas.pdf": {
+   "date": "25.03.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/74_1_oglas.pdf": {
+   "date": "28.03.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/75_1_oglas.pdf": {
+   "date": "30.03.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/75_2_oglas.pdf": {
+   "date": "30.03.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за четврту делимичну деобу стечајне масе Универзал банке у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/76_1_oglas.pdf": {
+   "date": "08.04.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/77_1_oglas.pdf": {
+   "date": "12.05.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/78_1_oglas.pdf": {
+   "date": "10.06.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/79_1_oglas.pdf": {
+   "date": "10.06.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/80_1_oglas.pdf": {
+   "date": "10.06.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/82_1_oglas.pdf": {
+   "date": "15.06.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/83_1_oglas.pdf": {
+   "date": "29.06.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/84_1_oglas.pdf": {
+   "date": "11.08.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/84_2_oglas.pdf": {
+   "date": "11.08.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Позив повериоцима Европа осигурања да доставе инструкције за пренос средстава",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/85_1_oglas.pdf": {
+   "date": "19.08.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/86_1_oglas.pdf": {
+   "date": "26.08.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/87_1_oglas.pdf": {
+   "date": "05.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/88_1_oglas.pdf": {
+   "date": "16.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_1_oglas.pdf": {
+   "date": "20.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца - Табела 3",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_2_oglas.pdf": {
+   "date": "20.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Нацрт решења за пету делимичну деобу стечајне масе Југобанке а.д. Београд у стечају",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_3_oglas.pdf": {
+   "date": "20.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца другог исплатног реда",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/90_1_oglas.pdf": {
+   "date": "23.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца - Табела 3",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_1_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_2_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_3_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_1_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_2_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_3_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_4_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_5_oglas.pdf": {
+   "date": "30.09.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца - Табела 3",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/93_1_oglas.pdf": {
+   "date": "07.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/94_1_oglas.pdf": {
+   "date": "14.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/95_1_oglas.pdf": {
+   "date": "21.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_1_oglas.pdf": {
+   "date": "22.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни конкурс за избор кандидата за једног независног члана Управног одбора",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_2_oglas.doc": {
+   "date": "22.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Конкурс — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_3_oglas.doc": {
+   "date": "22.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_1_oglas.pdf": {
+   "date": "29.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Јавни конкурс за избор једног директора- члана Одбора директора",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_2_oglas.doc": {
+   "date": "29.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Конкурс — Прилог 1",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_3_oglas.doc": {
+   "date": "29.10.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Прилог 1 — Прилог 2",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/98_1_oglas.pdf": {
+   "date": "03.11.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца- табела 1.",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/99_1_oglas.pdf": {
+   "date": "07.11.2022",
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine"
+   "reason": "old",
+   "status": "rejected",
+   "title": "Листа поверилаца- табела 1.",
+   "updated": "2026-10-31T14:11:42+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/sta-znaci-likvidacija-alta-banke": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:55+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Šta znači likvidacija Alta banke",
-   "updated": "2026-10-31T14:10:55+00:00"
+   "updated": "2026-10-31T14:12:09+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/savovic-tuzilastvo-alta-banka": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:54+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
-   "updated": "2026-10-31T14:10:54+00:00"
+   "updated": "2026-10-31T14:12:08+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -3876,14 +4583,14 @@
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-traze-zastitu-plata-radnika-i-uloga-gradjana-u-alta-banci": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:10:52+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "Sindikati traže zaštitu plata radnika i uloga građana u ALTA banci",
-   "updated": "2026-10-31T14:10:52+00:00"
+   "updated": "2026-10-31T14:12:07+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/viceguverneri-nbs-pozvali-tuzilastvo-da-ispita-okolnosti-zbog-kojih-je-oduzeta-dozvola-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:42:13+00:00",
@@ -4147,24 +4854,24 @@
    "updated": "2026-10-31T14:11:02+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073500/alta-banka-ostala-bez-dozvole-pod-znakom-pitanja-poslovanje-cele-grupe--nikolic-ovo-je-veliki-potres.html": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:02+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Алта банка остала без дозволе, под знаком питања пословање целе групе – Николић: Ово је велики потрес",
-   "updated": "2026-10-31T14:11:02+00:00"
+   "updated": "2026-10-31T14:12:14+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073540/alta-banka-pokrenut-stecajni-postupak-informacije-o-pravima-klijenata-bice-blagovremeno-objavljene.html": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-10-31T14:11:01+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm_budget",
    "status": "retry",
    "title": "Алта банка: Покренут стечајни поступак, информације о правима клијената биће благовремено објављене",
-   "updated": "2026-10-31T14:11:01+00:00"
+   "updated": "2026-10-31T14:12:13+00:00"
   }
  },
  "signals": []
