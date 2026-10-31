@@ -2,15 +2,15 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:44:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-10-31T17:47:02+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T17:46:48+00:00",
-   "elapsed_s": 154,
-   "llm_calls": 1,
+   "at": "2026-10-31T17:47:36+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 0,
    "msgs": 0
   },
   "press": {
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   }
  },
