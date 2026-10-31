@@ -1,586 +1,734 @@
 {
  "flags": {},
+ "health": {
+  "aod_notices": {
+   "at": "2026-10-31T14:08:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
+  },
+  "last_run": {
+   "at": "2026-10-31T14:11:07+00:00",
+   "elapsed_s": 172,
+   "llm_calls": 6,
+   "msgs": 0
+  },
+  "press": {
+   "021": "ok:10",
+   "beta": "ok:10",
+   "bizlife": "ok:10",
+   "danas": "ok:50",
+   "forbes": "ok:50",
+   "insajder": "ok:100",
+   "n1": "ok:50",
+   "nova": "ok:50",
+   "novaekonomija": "ok:20",
+   "radar": "ok:50",
+   "rts": "ok:20",
+   "rtv": "ok:20"
+  },
+  "sources": {
+   "alta": 109,
+   "aod": 0,
+   "nbs": 36
+  }
+ },
+ "pending": {},
+ "recent": [],
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banci-nagrada-za-najbrze-rastucu-banku-u-srbiji/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-adriatic-luxury-summit/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-banke-su-pokretaci-promena-u-oblasti-digitalizacije/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-daruje-25-000-dinara-svakoj-bebi-rodjenoj-na-svetski-dan-stednje/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-deo-dijaloga-o-buducnosti-regiona-na-konferenciji-building-futures/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-dobitnik-nacionalne-nagrade-djordje-vajfert-2024-za-izuzetan-doprinos-zajednici/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-donirala-nove-kosarkaske-terene-novobeogradjanima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-donirala-paketice-za-decje-osmehe-malisani-iz-sremcice-i-decjeg-sela-uzivali-u-iznenadjenju-i-druzenju/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-kontinuirani-napadi-nece-urusiti-ono-sto-smo-godinama-gradili/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-na-konferenciji-sibos-2025-inovacije-partnerstva-i-vizija-razvoja/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-na-po-prvi-put-na-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-nastavlja-da-podrzava-sport-kroz-sponzorstvo-kk-crvena-zvezda/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-obavestenje/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-od-sada-registraciono-telo-kancelarije-za-it-i-eupravu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-otvara-novu-ekspozituru-u-cacku/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-otvara-vrata-evrope-prvi-dobili-saglasnost-za-sepa-placanja/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-otvorila-jos-jednu-ekspozituru-u-beogradu-uspesan-kraj-poslovne-godine/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-otvorila-prvu-ekspozituru-u-kraljevu-spoj-inovacija-dostupnosti-i-snazne-podrske-zajednici/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-partner-regionalne-konferencije-zensko-preduzetnistvo-u-susret-expo-2027/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-partnerstvo-kao-temelj-promene-vece-posveceno-buducnosti-i-sepa-standardima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-ponosni-partner-kk-crvena-zvezda-u-nabavci-klupskog-autobusa/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-ponosni-sponzor-28-sezone-plazma-sportskih-igara-mladih/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-postala-novi-clan-beogradske-berze/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-postala-sponzor-kolarceve-zaduzbine/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-proslavila-slavu-svetog-arhangela-mihaila-tradicija-u-cilju-ocivanja-vrednosti/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-siri-poslovnu-mrezu-otvorena-nova-ekspozitura-u-novom-pazaru/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-sponzor-nisville-jazz-festivala/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-strateski-saveznik-zenskog-preduzetnistva-i-pokretac-novih-prilika/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-u-direktnoj-korespondentskoj-saradnji-sa-jpmorgan-chase-konkurentniji-uslovi-i-brze-transakcije-u-dolarima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-u-poseti-porodilistima-sirom-srbije-12-000-dinara-svakoj-bebi-rodjenoj-na-svetski-dan-stednje/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-u-programu-moji-podaci-za-banku/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-uspesno-zavrsila-akviziciju-stopanske-banke-bitola/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-uz-decu-bez-roditeljske-zastite-na-poklon-opema-za-bebe/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-uz-sampione-srpskog-rvanja-aleksandar-komarov-najbolji-rvac-sveta-vojislav-trajkovic-najbolji-trener-srbije/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka-zlatni-sponzor-prve-regionalne-aci-fma-adria-konferencije/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-banka/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-grupa-sastanak-kongresmen-nil-dan/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-karijera/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-kosarkasi-docekali-svetske-sampione-u-basketu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-pay-grupa-ucestvuje-na-diskusiji-odgovorni-mediji-u-nacionalnom-klubu-novinara-u-vasingtonu-u-novembru-2024-godine/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-za-decje-osmehe-paketici-doneli-radost-malisanima-iz-doma-kolevka/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/alta-zimska-carolija-beogradjani-uzivali-u-besplatnom-novogodisnjem-programu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/altambank/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "102a85902d23f7f9",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/apple-pay/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/apsolutno-tu-za-vas-novo-radno-vreme-ekspozitura-alta-banke/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/bezbednost/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/brzikeskredit/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "b0f6a11afdd97e46",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/buducnost-finansija-otvoreno-strateski-i-sa-vizijom-alta-banka-na-panelu-aci-serbia/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/digitalno-bankarstvo/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "a86086197c9c5b3f",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/dr-davor-macura-i-kongresmen-dzon-molenar-razgovarali-o-transantlatskoj-poslovnoj-saradnji/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/drustvena-odgovornost/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/finansijska-trzista/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "45ab4be6f1656985",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/finansijski-izvestaji/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/fleksibilno-jednostavno-pametno/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/in-vino-veritas-alta-banka-uz-proizvodjace-i-preduzetnike-na-jednom-od-najprestiznijih-vinskih-sajmova-u-evropi/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/kastodi-i-depozitarne-usluge/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/komfor-faq/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "4f0188241e346ddb",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/komfor/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "8c6d12a3afd6a716",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/kontakt-centar-alta-banke-lider-u-efikasnosti-i-brzini-podrske-klijentima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/korisnik-ebank/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/kursna-lista-2/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/mali-biznis/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "12092ee3796f7585",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/menadzment-alta-banke/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/miceb-2025/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/najbrze-rastuca-banka-na-trzistu-srbije-drugu-godinu-zaredom/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/najveci-poslovni-forum-srbija-severna-makedonija-alta-banka-gradi-mostove-izmedju-trzista/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/naknade/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/nekretnine/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/nezaboravne-olimpijske-igre-za-korisnike-visa-kartice-alta-banke/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/nova-ekspozitura-alta-banke-u-kragujevcu-partnerstvo-briga-o-zajednici-i-pokloni-za-decu-bez-roditeljskog-staranja/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/nova-ekspozitura-alta-banke-u-tc-delta-city-mesto-gde-se-bankarstvo-prilagodjava-ljudima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/novo-radno-vreme/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/novu-nedelju-zapocinjemo-lepim-vestima-koje-nam-donosi-alta-porodica-sampiona/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/obavestenje-za-klijente-centralni-registar-elektronskih-menica/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/obavestenje-za-korisnike/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/opsti-uslovi-poslovanja/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/otvorena-ekspozitura-alta-banke-u-staroj-pazovi/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/otvorena-nova-ekspozitura-alta-banka-u-beogradu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/otvorena-nova-ekspozitura-alta-banke-u-zdanju-palate-igumanov/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/podnosenje-prigovora/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "d9367fb5cc66ba54",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/poljoprivreda/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "9683163073807a38",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/popust-na-gorivo-uz-alta-mbank-usteda-od-5-dinara-po-litru-na-nis-petrol-i-gazprom-stanicama/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/postupak-uzbunjivanja/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/praznicna-misija-alta-banke-novogodisnji-pokloni-za-decu-u-beloj-crkvi/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/prva-sepa-transakcija-u-alta-banci-srbija-postala-deo-evropskog-platnog-prometa/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/radno-vreme-na-dan-drzavnosti/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/radno-vreme-nasih-ekspozitura-tokom-praznika/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/radno-vreme-tokom-praznika/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/radno-vreme-tokom-prvomajskih-praznika/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/radno-vreme-tokom-uskrsnjih-praznika/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/sabac-dobio-novu-adresu-poverenja-alta-banka-oslonac-za-porodicu-i-lokalnu-zajednicu/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/saopstenje-za-javnost/": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
    "hash": "e8319c328ef4fdba",
    "posted": true,
+   "status": "sent",
    "title": "SAOPŠTENJE ZA JAVNOST - Alta Banka"
   },
   "https://altabanka.rs/sepa/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "hash": "06acf336691cd141",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/sigurna-online-kupovina-uz-alta-dinacard-prvi-put-u-srbiji-sa-dinacard-secure-zastitom/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/skupstina/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/stednja-sto-vise-to-bolje/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/strateski-partner-poljoprivrednika-u-srbiji-alta-banka-nagradjena-za-najbrzi-rast-u-agraru/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/stratesko-partnerstvo-alta-banke-air-serbia-i-visa-kartica-sa-dodatnim-benefitima-za-klijente/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/stratesko-sirenje-alta-banke-nova-ekspozitura-u-krusevcu-i-podrska-lokalnoj-zajednici/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/unapredjene-funkcionalnosti-dina-kartica-u-alta-banci/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/uspeh-koji-se-deli-alta-banka-otvorila-prvu-ekspozituru-u-uzicu-uz-podrsku-lokalnoj-zajednici/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/uspesno-otpocela-akcija-alta-za-decje-osmehe-alta-banka-u-beloj-crkvi-malisane-obradovala-paketicima/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/uz-podrsku-alta-banke-trziste-kapitala-srbije-u-belom-dvoru-obelezilo-35-godina-rada/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/vazno-upozorenje-pokusaji-prevare-putem-sms-poruka/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/za-grad-koji-se-voli-novi-sjaj-terena-u-bloku-28/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/zadrzite-svaki-evro-sepa-prilivi-bez-naknade-u-alta-banci/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/zajedno-za-dijasporu-alta-banka-i-nasi-privrednici-u-becu-otvaraju-novo-poglavlje-saradnje/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://altabanka.rs/zastita-podataka-o-licnosti/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://beta.rs/content/255064-narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci-a-d-beograd": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://beta.rs/content/255072-udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://beta.rs/content/255073-alta-banka-u-severnoj-makedoniji-likvidni-smo-i-nastavljamo-sa-stabilnim-poslovanjem": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://beta.rs/content/255077-viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
    "first_seen": "2026-10-31T12:35:12+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "активы"
@@ -591,45 +739,117 @@
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://forbes.n1info.rs/biznis/alta-banka-za-forbes-srbija-ekspoziture-ne-rade-obustavljene-aktivnosti-u-vezi-sa-karticama-i-prometom": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://forbes.n1info.rs/biznis/propisi/oduzeta-dozvola-za-rad-alta-banci-nocno-saopstenje-nbs-o-novoj-meri": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://forbes.n1info.rs/novac/alta-banka-drzi-3-trzista-koje-sve-kompanije-ima-davor-macura": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://forbes.n1info.rs/novac/licne-finansije/kako-do-novca-koji-imate-u-alta-banci-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://forbes.n1info.rs/vesti/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "банки"
    ],
    "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
   },
+  "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-objavila-rokove-za-isplatu-novca-klijentima-alta-banke": {
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Agencija za osiguranje depozita objavila rokove za isplatu novca klijentima Alta banke",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/alta-banka-potvrdila-pokretanje-stecaja-obustavljen-platni-promet-isplata-osiguranih-depozita-od-ponedeljka": {
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Alta banka potvrdila pokretanje stečaja: Obustavljen platni promet, isplata osiguranih depozita od ponedeljka",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/narodna-banka-srbije-oduzela-dozvolu-alta-banci-zbog-znatnog-pogorsanja-finansijskog-stanja": {
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Narodna banka Srbije oduzela dozvolu Alta banci zbog znatnog pogoršanja finansijskog stanja",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/nbs-pokrenuti-postupci-protiv-alta-banke-njenih-akcionara-i-organa-upravljanja-prava-stedisa-i-poverilaca-zasticena": {
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "NBS: Pokrenuti postupci protiv Alta banke, njenih akcionara i organa upravljanja, prava štediša i poverilaca zaštićena",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/sdsm-trazi-od-narodne-banke-severne-makedonije-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:59+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "SDSM traži od Narodne banke Severne Makedonije da uvede prinudnu upravu u Alta banku Bitolj",
+   "updated": "2026-10-31T14:10:59+00:00"
+  },
+  "https://insajder.net/prenosimo/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/viceguverneri-nbs-traze-od-tuzilastva-da-utvrdi-okolnosti-oduzimanja-licence-alta-banci-i-eventualnu-krivicnu-odgovornost-u-nbs-tvrde-da-su-za-stanje-u-banci-saznali-tek-u-petak": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:00+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Viceguverneri NBS traže od tužilaštva da utvrdi okolnosti oduzimanja licence Alta banci i eventualnu krivičnu odgovornos",
+   "updated": "2026-10-31T14:11:00+00:00"
+  },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "регулятор",
@@ -641,6 +861,7 @@
    "first_seen": "2026-10-31T12:35:12+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "банки"
@@ -651,6 +872,7 @@
    "first_seen": "2026-10-31T11:50:20+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -663,6 +885,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор"
    ],
@@ -672,6 +895,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -683,6 +907,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "банки"
@@ -693,6 +918,7 @@
    "first_seen": "2026-10-31T12:05:03+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "активы"
@@ -703,6 +929,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "клиенты"
@@ -714,6 +941,7 @@
    "kind": "press",
    "posted": true,
    "relevance": 10,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -722,65 +950,85 @@
    ],
    "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
   },
+  "https://n1info.rs/vesti/savovic-unistavanje-dokumentacije-je-krivicno-delo-promene": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:51+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Savović:  Nemam saosećanje prema Alta banci, TOK odranije ima formiran predmet u odnosu na njenog vlasnika",
+   "updated": "2026-10-31T14:10:51+00:00"
+  },
   "https://nova.rs/vesti/biznis/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/alta-banka-za-forbes-srbija-ekspoziture-ne-rade-obustavljene-aktivnosti-u-vezi-sa-karticama-i-prometom": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/banka-ne-radi-menjacnica-radi-sta-gradjani-mogu-da-procitaju-u-izlogu-ekspoziture-alta-banke": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "press",
    "posted": false,
    "relevance": 3,
+   "status": "rejected",
    "title": "Banka ne radi, menjačnica radi: Šta građani mogu da pročitaju u izlogu ekspoziture Alta banke"
   },
   "https://nova.rs/vesti/biznis/kako-do-novca-koji-imate-u-alta-banci-davora-macure-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/koje-sve-kompanije-ima-davor-macura": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/redovi-ispred-ekspoziture-alta-banke-u-novom-sadu-na-desetine-gradjana-ceka-da-podigne-novac-nakon-oduzimanja-dozvole-banci-video": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/savo-manojlovic-sta-se-sada-desava-sa-novcem-gradjana-u-alta-banci": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://nova.rs/vesti/biznis/veroljub-dugalic-preispitati-rad-narodne-banke-srbije-i-njenu-ulogu-u-slucaju-alta-banke": {
    "first_seen": "2026-10-31T12:46:13+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "банки"
@@ -791,25 +1039,48 @@
    "first_seen": "2026-10-31T12:08:26+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "активы"
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
   },
+  "https://nova.rs/vesti/hronika/tuziteljka-savovic-alta-banka-sluzila-otprilike-za-pranje-nelegalnog-novca-ove-drzave-u-tok-otvoren-predmet-u-odnosu-na-vlasnika-i-direktora": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:56+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Tužiteljka Savović: \"Alta banka služila otprilike za pranje nelegalnog novca ove države, u TOK otvoren predmet u odnosu ",
+   "updated": "2026-10-31T14:10:56+00:00"
+  },
   "https://nova.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T12:53:06+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "активы"
    ],
    "title": "Parandilović (NLS): Alta banka bila perionica novca za vrh SNS, tužilaštvo da ispita odgovornost"
   },
+  "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:57+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Opozicija u Severnoj Makedoniji traži od Narodne banke da uvede prinudnu upravu u Alta banku Bitolj",
+   "updated": "2026-10-31T14:10:57+00:00"
+  },
   "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
    "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "сроки"
    ],
@@ -819,36 +1090,42 @@
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/ko-je-davor-macura-kome-je-nbs-upravo-zatvorila-alta-banku-biznismen-blizak-sns-u-cija-se-imperija-urusava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/narodna-banka-srbije-zatvorila-alta-banku-krece-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/sta-gasenje-alta-banke-znaci-za-klijente-depoziti-tekuci-i-stedni-racuni-do-50-000-evra-bezbedni-kredite-preuzima-aod": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/viceguverneri-nbs-stvarno-stanje-u-alta-banci-drasticno-odstupalo-od-izvestaja-koje-su-nam-dostavljali": {
    "first_seen": "2026-10-31T12:20:18+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор"
    ],
@@ -858,12 +1135,24 @@
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
+  },
+  "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:57+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Zahtev tužilaštvu da ispita da li je za stečaj Alta banke odgovoran i neko iz NBS",
+   "updated": "2026-10-31T14:10:57+00:00"
   },
   "https://t.me/Serbia/107349": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -877,6 +1166,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -890,6 +1180,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -904,6 +1195,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -917,6 +1209,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -932,6 +1225,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -944,6 +1238,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -958,6 +1253,7 @@
    "kind": "telegram",
    "posted": false,
    "relevance": 3,
+   "status": "rejected",
    "title": "Слух: венгерский OTP банк с понедельника возьмет управление над ALTA. Информация нуждается в подтверждении."
   },
   "https://t.me/Serbia/107361": {
@@ -965,6 +1261,7 @@
    "kind": "telegram",
    "posted": false,
    "relevance": 3,
+   "status": "rejected",
    "title": "Огромные очереди в закрытые отделения ALTA BANKA. На видео Нови-Сад. Что делать клиентам банка мы написали тут и тут . Н"
   },
   "https://t.me/Serbia/107364": {
@@ -972,12 +1269,14 @@
    "kind": "telegram",
    "posted": false,
    "relevance": 3,
+   "status": "rejected",
    "title": "ALTA Bank: кризис ликвидности, переводы за рубеж и связи с властью. Почему все накрылось медным тазом? Официальная причи"
   },
   "https://t.me/Serbia/107366": {
    "first_seen": "2026-10-31T12:18:14+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "требования",
     "регулятор",
@@ -989,6 +1288,7 @@
    "first_seen": "2026-10-31T13:01:09+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "регулятор"
@@ -999,6 +1299,7 @@
    "first_seen": "2026-10-31T13:10:22+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "регулятор",
@@ -1007,10 +1308,31 @@
    ],
    "title": "⭕️ Владелец ALTA снял 37 млн евро наличными с разрешения главы Центробанка Сербии — К РАССЛЕДОВАНИЮ ПОДКЛЮЧИЛСЯ ЕВРОЮСТ "
   },
+  "https://t.me/Serbia/107372": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:07+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Неделя больших политических перемен в Сербии: главные события 1. Александр Вучич признал поражение на парламентских выбо",
+   "updated": "2026-10-31T14:11:07+00:00"
+  },
+  "https://t.me/Serbia/107373": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:07+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "⭕️ ОТМЕНА ПАНИКИ: ALTA Banka обещает начать выплаты клиентам уже 2 ноября ALTA Banka сообщила⁠ телеканалу N1, что выплат",
+   "updated": "2026-10-31T14:11:07+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1025,6 +1347,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "требования",
     "регулятор",
@@ -1038,6 +1361,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1052,6 +1376,7 @@
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1064,6 +1389,7 @@
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1076,6 +1402,7 @@
    "first_seen": "2026-10-31T12:42:12+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "регулятор",
@@ -1089,6 +1416,7 @@
    "first_seen": "2026-10-31T13:01:09+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "регулятор",
@@ -1096,10 +1424,21 @@
    ],
    "title": "#НовостиСербииДайджест * * * Четыре вице-председателя Национального банка Сербии (НБС) потребовали от прокуратуры рассле"
   },
+  "https://t.me/novostiserbii/17232": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:07+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Вашему бизнесу нужна поддержка? Комментарии открыты #реклама — ваша, бесплатно Дорогие подписчики Новостей Сербии, если ",
+   "updated": "2026-10-31T14:11:07+00:00"
+  },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1112,6 +1451,7 @@
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1124,6 +1464,7 @@
    "first_seen": "2026-10-31T11:31:11+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -1136,6 +1477,7 @@
    "first_seen": "2026-10-31T12:46:13+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "клиенты"
    ],
@@ -1145,1145 +1487,1595 @@
    "first_seen": "2026-10-31T13:10:22+00:00",
    "kind": "telegram",
    "posted": true,
+   "status": "sent",
    "tags": [
     "клиенты"
    ],
    "title": "🫂 Сербы ответили твитер-аккаунту, который посмеялся над очередями в Alta В субботу утром популярный сербский аккаунт выл"
   },
+  "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:06+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Šta znači likvidacija Alta banke",
+   "updated": "2026-10-31T14:11:06+00:00"
+  },
+  "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:07+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Alta banka se zahvalila klijentima nakon oduzimanje dozvole za rad",
+   "updated": "2026-10-31T14:11:07+00:00"
+  },
+  "https://www.021.rs/info/srbija/459868/viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:03+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Viceguverneri NBS pozvali tužilaštvo da utvrdi činjenice o oduzimanju dozvole Alta banci",
+   "updated": "2026-10-31T14:11:03+00:00"
+  },
+  "https://www.021.rs/info/srbija/459869/sta-su-studenti-jos-pre-godinu-dana-pisali-o-alta-banci-gradjani-pune-kasu-privatne-banke-povezane-sa-sns-om": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:05+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Šta su studenti još pre godinu dana pisali o Alta banci: \"Građani pune kasu privatne banke povezane sa SNS-om\"",
+   "updated": "2026-10-31T14:11:05+00:00"
+  },
   "https://www.aod.rs/clan/vest/vest_forma/100": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/102": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/104": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/106": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/108": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/109": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/111": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/113": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/115": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/117": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/119": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/121": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/123": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/125": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/127": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/129": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/131": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/133": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/135": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/137": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
    "hash": "d18a78a6997ba126",
    "posted": true,
+   "status": "sent",
    "title": "АОД | Агенција за осигурање депозита"
   },
   "https://www.aod.rs/clan/vest/vest_forma/53": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/54": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/55": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/56": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/58": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/60": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/64": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/65": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/66": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/67": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/68": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/71": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/72": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/74": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/77": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/79": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/83": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/85": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/87": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/89": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/91": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/94": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/97": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/clan/vest/vest_forma/98": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/101_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/102_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/103_4_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/104_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/105_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/106_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/108_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/109_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/110_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/111_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/112_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/113_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/114_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/115_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/115_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/116_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/117_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_1_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/118_4_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/119_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/120_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/122_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/123_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/124_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/125_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/126_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_1_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/127_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/128_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/129_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/130_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/131_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/132_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/133_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/134_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/135_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/136_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/137_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/138_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/139_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/13_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/140_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/141_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/142_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/143_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/144_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/145_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/146_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/147_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/148_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/148_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/149_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/14_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/150_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/151_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/152_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/153_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/155_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/156_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/157_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/158_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/159_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/15_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/160_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/161_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/161_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/162_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/163_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/164_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/165_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/166_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/166_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/167_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/168_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/169_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/16_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/170_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/171_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/172_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/173_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/174_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/175_1_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/176_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/177_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/178_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/178_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/179_1_oglas.docx": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/179_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/17_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/180_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/181_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/182_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/183_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/184_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/185_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/186_4_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/187_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/188_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/189_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/18_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/190_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/190_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/191_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/192_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/193_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/194_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/195_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/195_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/196_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/197_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/198_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/198_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/199_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/199_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/19_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/200_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/200_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/201_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/202_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/203_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/204_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/205_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/205_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/206_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/206_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/207_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "11.04.2025 Оглас за продају имовине Београдске банке у стечају и ликвидационе масе МБ Банке Ниш методом јавног прикупљањ"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/208_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "09.05.2025 Оглас за продају непокретне имовине Привредне банке Београд у стечају и Југобанке у стечају јавним прикупљање"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/209_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "26.05.2025 Позив за достављање понуда за процену вреднсти непокретне имовине Београдске банке ад у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/20_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/210_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "02.06.2025 Решење о завршној деоби стечајне масе Беобанке у стечају Позив повериоцима да доставе инструкције за плаћање"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/210_2_oglas.doc": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "02.06.2025 Решење о завршној деоби стечајне масе Беобанке у стечају Позив повериоцима да доставе инструкције за плаћање"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/211_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "06.06.2025 Оглас за продају непокретне имовине Универзал банке у стечају методом јавног прикупљања понуда (шифра продаје"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/212_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "19.06.2025 Решење о седмој делимичној деоби стечајне масе Универзал банке у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/213_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:36:12+00:00",
    "posted": true,
+   "status": "sent",
    "title": "19.06.2025 Решење о закључењу стечајног поступка над стечајном масом Инвестбанке"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/214_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "01.08.2025 Оглас за продају покретне имовине Универзал банке у стечају и Београдске банке у стечају методом јавног прику"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/215_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "21.08.2025 Решење о завршној деоби стечајне масе Рај банке у стечају Позив повериоцима да доставе инструкције за плаћање"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/215_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "21.08.2025 Решење о завршној деоби стечајне масе Рај банке у стечају Позив повериоцима да доставе инструкције за плаћање"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/216_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "21.08.2025 Решење о завршној деоби Привредне банке Београд у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/217_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "27.08.2025 Позив за достављање понуде за процену наплативости потраживања Југобанке а.д. Београд у стечају Позив за дост"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/217_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "27.08.2025 Позив за достављање понуде за процену наплативости потраживања Југобанке а.д. Београд у стечају Позив за дост"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/218_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "12.09.2025 Оглас за продају непокретне имовине Београдске банке у стечају и Универзал банке у стечају јавним прикупљањем"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/219_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "12.09.2025 Решење о завршној деоби Беобанке а.д. Београд у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/21_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/220_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:34:14+00:00",
    "posted": true,
+   "status": "sent",
    "title": "12.09.2025 Решење о закључењу стечајног поступка над стечајном масом Астра банке"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/221_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "17.10.2025 Оглас за продају непокретности у власништву Југобанке у стечају методом јавног прикупљања понуда (шифра прода"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/222_1_oglas.doc": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/222_2_oglas.doc": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/222_3_oglas.doc": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/222_4_oglas.doc": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/223_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "24.10.2025 Оглас за продају непокретне имовине у власништву Стечајне масе Привредне банке Београд у стечају јавним прику"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/224_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "21.11.2025 Оглас за продају имовине Републике Србије методом јавног прикупљања понуда (шифра продаје: Т-14/25)"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/225_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "28.11.2025 Оглас за продају непокретне имовине у власништву Београдске банке у стечају и акција/учешћа у капиталу/деониц"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/226_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "05.12.2025 Оглас за уступање потраживања Београдске банке у стечају и стечајне масе Привредне банке Београд уз накнаду, "
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/227_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "05.12.2025 Решење о главној деоби стечајне масе Нове Агробанке а.д. Београд у стечају Позив повериоцима да доставе инстр"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/227_2_oglas.docx": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "05.12.2025 Решење о главној деоби стечајне масе Нове Агробанке а.д. Београд у стечају Позив повериоцима да доставе инстр"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/228_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": true,
+   "status": "sent",
    "title": "09.12.2025 Оглас за продају покретне имовине Универзал банке у стечају, Београдске банке у стечају и Стечајне масе Привр"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/229_1_oglas.doc": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/229_2_oglas.docx": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/229_3_oglas.docx": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/229_4_oglas.docx": {
    "first_seen": "2026-10-31T11:31:11+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/22_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/230_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "04.02.2026 Решење Привредног суда у Београду о закључењу стечајног поступка над стечајном масом „Империјал осигурања\" ад"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/231_cir_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Оглас за продају непокретности Универзал банке у стечају методом јавног прикупљања понуда (шифра продаје: Т-1/26)"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/232_cir_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Оглас за продају пакета акција, деоница и удела у власништву стечајне масе Привредне банке Београд јавним прикупљањем по"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/233_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Оглас за продају акција и удела у власништву Универзал банке у стечају јавним прикупљањем понуда-тендером (шифра продаје"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/234_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Оглас за уступање потраживања стечајне масе Привредне банке Београд у стечају, уз накнаду, методом јавног прикупљања пон"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/235_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Позив за достављање понуде за израду извештаја о процени наплативости потраживања Београдске банке у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/236_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": true,
+   "status": "sent",
    "title": "Позив за достављање понуде за израду извештаја о процени наплативости потраживања Југобанке у стечају"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/237_1_oglas.pdf": {
@@ -2291,512 +3083,720 @@
    "forced": true,
    "hash": "",
    "posted": true,
+   "status": "sent",
    "title": "Объявление AOD №237"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/238_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Јавни позив за прикупљање понуда за узимање у закуп пословног простора у Београду за потребе седишта и смештаја запослен"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/239_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Оглас за продају непокретне имовине Републике Србије јавним прикупљањем понуда (шифра продаје: Т-5/26)."
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/23_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/240_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Јавни конкурс за пријем у радни однос на неодређено време"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/240_2_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 1"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/240_3_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 2"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/240_4_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/241_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Јавни конкурс за пријем у радни однос на неодређено време"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/241_2_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 1"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/241_3_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 2"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/241_4_oglas.docx": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "posted": false,
    "relevant": false,
+   "status": "rejected",
    "title": "Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/24_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/24_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/25_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/26_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/27_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_1_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/35_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/36_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/38_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/39_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/40_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/41_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/42_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/44_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/44_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/45_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/46_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/47_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/49_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/49_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/50_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/51_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/52_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/53_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/54_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/55_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/56_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/57_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/58_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/59_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/60_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/61_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/62_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/63_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/64_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/65_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/66_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/67_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/68_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/69_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/70_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/71_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/73_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/74_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/75_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/75_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/76_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/77_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/78_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/79_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/80_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/82_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/83_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/84_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/84_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/85_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/86_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/87_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/88_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/89_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/90_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/91_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_2_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_3_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_4_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/92_5_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/93_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/94_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/95_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/96_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_2_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/97_3_oglas.doc": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/98_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/99_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:38:15+00:00",
    "flood": true,
-   "posted": false
+   "posted": false,
+   "reason": "flood",
+   "status": "quarantine"
+  },
+  "https://www.danas.rs/bbc-news-serbian/sta-znaci-likvidacija-alta-banke": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:55+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Šta znači likvidacija Alta banke",
+   "updated": "2026-10-31T14:10:55+00:00"
+  },
+  "https://www.danas.rs/vesti/drustvo/savovic-tuzilastvo-alta-banka": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:54+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
+   "updated": "2026-10-31T14:10:54+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "суд",
@@ -2810,6 +3810,7 @@
    "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "банки"
@@ -2821,6 +3822,7 @@
    "kind": "press",
    "posted": true,
    "relevance": 8,
+   "status": "sent",
    "tags": [
     "выплаты",
     "требования",
@@ -2833,6 +3835,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "активы"
@@ -2843,6 +3846,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор"
    ],
@@ -2852,6 +3856,7 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "выплаты",
     "требования",
@@ -2863,29 +3868,43 @@
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "регулятор",
     "банки"
    ],
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
   },
+  "https://www.danas.rs/vesti/ekonomija/sindikati-traze-zastitu-plata-radnika-i-uloga-gradjana-u-alta-banci": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:10:52+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "Sindikati traže zaštitu plata radnika i uloga građana u ALTA banci",
+   "updated": "2026-10-31T14:10:52+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/viceguverneri-nbs-pozvali-tuzilastvo-da-ispita-okolnosti-zbog-kojih-je-oduzeta-dozvola-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:42:13+00:00",
    "kind": "press",
    "posted": false,
    "relevance": 3,
+   "status": "rejected",
    "title": "Viceguverneri NBS pozvali tužilaštvo da ispita okolnosti zbog kojih je oduzeta dozvola za rad Alta banci"
   },
   "https://www.danas.rs/vesti/ekonomija/vlasnik-alta-banka-davor-macura-biografija": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.danas.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T13:01:09+00:00",
    "kind": "press",
    "posted": true,
+   "status": "sent",
    "tags": [
     "активы"
    ],
@@ -2894,184 +3913,259 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21162": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21225": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21263": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21302": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21331": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21363": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21407": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21422": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21426": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21465": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21512": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21537": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21546": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21581": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21599": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21629": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21651": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21714": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21743": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21749": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21766": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21767": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21789": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21821": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21826": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21827": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21828": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21832": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21838": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21840": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21843": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21846": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21848": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21849": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21851": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
    "hash": "1c403c5fa71d9adb",
    "posted": true,
+   "status": "sent",
    "title": "Заштићена права поверилаца и штедиша банке и очувана стабилност финансијског сектора"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "posted": false,
-   "seeded": true
+   "seeded": true,
+   "status": "seeded"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073441/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci.html": {
+   "first_seen": "2026-10-31T14:11:02+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Народна банка Србије одузела дозволу за рад Алта банци",
+   "updated": "2026-10-31T14:11:02+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073489/nbs-zasticena-prava-poverilaca-i-stedisa-alta-banke-depoziti-osigurani-do-50000-evra.html": {
+   "first_seen": "2026-10-31T14:11:02+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "НБС: Заштићена права поверилаца и штедиша Алта банке, депозити осигурани до 50.000 евра",
+   "updated": "2026-10-31T14:11:02+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073500/alta-banka-ostala-bez-dozvole-pod-znakom-pitanja-poslovanje-cele-grupe--nikolic-ovo-je-veliki-potres.html": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:02+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Алта банка остала без дозволе, под знаком питања пословање целе групе – Николић: Ово је велики потрес",
+   "updated": "2026-10-31T14:11:02+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073540/alta-banka-pokrenut-stecajni-postupak-informacije-o-pravima-klijenata-bice-blagovremeno-objavljene.html": {
+   "attempts": 1,
+   "first_seen": "2026-10-31T14:11:01+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_budget",
+   "status": "retry",
+   "title": "Алта банка: Покренут стечајни поступак, информације о правима клијената биће благовремено објављене",
+   "updated": "2026-10-31T14:11:01+00:00"
   }
- }
+ },
+ "signals": []
 }
