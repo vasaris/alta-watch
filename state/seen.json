@@ -608,7 +608,7 @@
    "seeded": true
   },
   "https://forbes.n1info.rs/vesti/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
-   "first_seen": "2026-10-31T12:26:11+00:00",
+   "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
    "posted": true,
    "tags": [
@@ -768,7 +768,7 @@
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
   },
   "https://novaekonomija.rs/ostalo/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
-   "first_seen": "2026-10-31T12:26:11+00:00",
+   "first_seen": "2026-10-31T12:28:50+00:00",
    "kind": "press",
    "posted": true,
    "tags": [
@@ -2702,6 +2702,16 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://www.danas.rs/vesti/ekonomija/dugalic-oduzimanje-dozvole-za-rad-alta-banci-nece-direktno-uticati-na-stabilnost-bankarskog-sektora": {
+   "first_seen": "2026-10-31T12:28:50+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Dugalić: Oduzimanje dozvole za rad Alta banci neće direktno uticati na stabilnost bankarskog sektora"
   },
   "https://www.danas.rs/vesti/ekonomija/manojlovic-kreni-promeni-povracaj-uloga-vecih-od-50-000-evra-nije-zagarantovan-zavisi-od-stecaja": {
    "first_seen": "2026-10-31T11:58:13+00:00",
