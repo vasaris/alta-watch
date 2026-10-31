@@ -90,15 +90,32 @@ def log(*a):
     print(datetime.now(timezone.utc).strftime("%H:%M:%S"), *a, flush=True)
 
 
+RETRIES = 3
+RETRY_PAUSE = 4
+
+
+def fetch(url: str) -> requests.Response | None:
+    """GET с повторами: aod.rs и nbs.rs бывают медленными."""
+    last = None
+    for attempt in range(1, RETRIES + 1):
+        try:
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=(15, TIMEOUT))
+            r.raise_for_status()
+            return r
+        except Exception as e:  # noqa: BLE001
+            last = e
+            if attempt < RETRIES:
+                time.sleep(RETRY_PAUSE * attempt)
+    log(f"WARN fetch failed after {RETRIES} попыток {url}: {last}")
+    return None
+
+
 def get(url: str) -> str | None:
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
-        r.raise_for_status()
-        r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
-        return r.text
-    except Exception as e:  # noqa: BLE001
-        log(f"WARN fetch failed {url}: {e}")
+    r = fetch(url)
+    if r is None:
         return None
+    r.encoding = r.apparent_encoding if not r.encoding or r.encoding.lower() == "iso-8859-1" else r.encoding
+    return r.text
 
 
 def norm_url(u: str) -> str:
@@ -423,15 +440,13 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
         return None
 
 
-def document_text(url: str, max_chars: int = LLM_MAX_CHARS) -> str:
-    """Текст из PDF или DOCX по ссылке (объявления AOD). Пустая строка, если не вышло (скан и т.п.)."""
-    try:
-        r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
-        r.raise_for_status()
-        data = r.content
-    except Exception as e:  # noqa: BLE001
-        log(f"WARN документ не скачался {url}: {e}")
-        return ""
+def document_text(url: str, max_chars: int = LLM_MAX_CHARS) -> str | None:
+    """Текст из PDF или DOCX по ссылке (объявления AOD).
+    None — не скачался (повторим позже); "" — скачался, но текста нет (скан)."""
+    r = fetch(url)
+    if r is None:
+        return None
+    data = r.content
     text = ""
     try:
         if url.lower().endswith(".pdf") or data[:5] == b"%PDF-":
@@ -465,9 +480,13 @@ def enrich(item: dict) -> dict:
         return item
     official = item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice")
     if item.get("kind") == "aod_notice" and not item.get("full_text"):
-        item["full_text"] = document_text(item["url"])
-        if not item["full_text"]:
-            log(f"оглас без текста (скан?), публикуем как есть: {item['url']}")
+        text = document_text(item["url"])
+        if text is None:
+            item["defer"] = True  # не скачался — отложить до следующего прогона
+            return item
+        item["full_text"] = text
+        if not text:
+            log(f"оглас без текстового слоя (скан?), публикуем как есть: {item['url']}")
             return item
     if "full_text" not in item and item.get("kind") == "press":
         art = parse_article(item["url"])
@@ -796,6 +815,9 @@ def main() -> int:
     def deliver(item: dict, updated: bool = False) -> bool:
         if item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice", "press") and "llm" not in item:
             enrich(item)
+        if item.get("defer"):
+            log(f"отложено до следующего прогона (не скачалось): {item['url']}")
+            return False
         text = format_post(item, updated)
         if dry:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
