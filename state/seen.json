@@ -658,6 +658,19 @@
    ],
    "title": "(VIDEO) Redovi ispred ekspoziture Alta banke u Novom Sadu"
   },
+  "https://n1info.rs/english/news/serbia-central-bank-revokes-licence-of-belgrade-based-alta-banka": {
+   "first_seen": "2026-10-31T11:48:15+00:00",
+   "kind": "press",
+   "posted": true,
+   "relevance": 10,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "активы"
+   ],
+   "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
+  },
   "https://nova.rs/vesti/biznis/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
