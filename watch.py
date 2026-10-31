@@ -204,12 +204,17 @@ def check_aod_proceedings(state: dict) -> dict | None:
     return None
 
 
+ALTA_RECHECK: set[str] = set()   # страницы банка, которые перепроверяем на правки
+ALTA_RECHECK_MAX = 10
+
+
 def collect_alta() -> list[str]:
     urls: list[str] = []
     for page in ALTA_PAGES:
         text = get(page)
         if not text:
             continue
+        page_urls: list[str] = []
         for m in ALTA_LINK_RE.finditer(text):
             slug = m.group(1).lower()
             if slug in ALTA_SKIP_SLUGS or slug.startswith("wp-"):
@@ -217,7 +222,12 @@ def collect_alta() -> list[str]:
             u = norm_url(f"https://altabanka.rs/{slug}/") + "/"
             if u not in urls:
                 urls.append(u)
-    log(f"altabanka.rs: {len(urls)} ссылок")
+                page_urls.append(u)
+        # правки отслеживаем только у свежих заявлений (раздел «Саопштења»),
+        # иначе каждый запуск перечитывал бы весь сайт
+        if "saopstenje" in page:
+            ALTA_RECHECK.update(page_urls[:ALTA_RECHECK_MAX])
+    log(f"altabanka.rs: {len(urls)} ссылок, перепроверяем {len(ALTA_RECHECK)}")
     return urls
 
 
@@ -406,7 +416,7 @@ def main() -> int:
         for u in page_urls:
             if u not in seen:
                 rec = {"first_seen": now, "posted": False, "seeded": True}
-                if "altabanka.rs" in u:
+                if u in ALTA_RECHECK:
                     it = parse_article(u)
                     if it:
                         rec["hash"] = it["hash"]
@@ -450,8 +460,7 @@ def main() -> int:
             log("Достигнут лимит постов за запуск, остальное — в следующий раз")
             break
         rec = seen.get(u)
-        is_alta_site = "altabanka.rs" in u
-        if rec is not None and not is_alta_site:
+        if rec is not None and u not in ALTA_RECHECK:
             continue
         item = parse_article(u)
         if item is None:
