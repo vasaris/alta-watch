@@ -90,16 +90,24 @@ def log(*a):
     print(datetime.now(timezone.utc).strftime("%H:%M:%S"), *a, flush=True)
 
 
-RETRIES = 3
-RETRY_PAUSE = 4
+RETRIES = 2
+RETRY_PAUSE = 3
+RUN_BUDGET_S = 240          # сколько секунд бот работает за прогон; дальше — сохраняем и выходим
+_T0 = time.monotonic()
+
+
+def out_of_time() -> bool:
+    return time.monotonic() - _T0 > RUN_BUDGET_S
 
 
 def fetch(url: str) -> requests.Response | None:
     """GET с повторами: aod.rs и nbs.rs бывают медленными."""
     last = None
     for attempt in range(1, RETRIES + 1):
+        if out_of_time():
+            return None
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=(15, TIMEOUT))
+            r = requests.get(url, headers={"User-Agent": UA}, timeout=(10, TIMEOUT))
             r.raise_for_status()
             return r
         except Exception as e:  # noqa: BLE001
@@ -241,7 +249,7 @@ def check_aod_proceedings(state: dict) -> dict | None:
 
 
 ALTA_RECHECK: set[str] = set()   # страницы банка, которые перепроверяем на правки
-ALTA_RECHECK_MAX = 10
+ALTA_RECHECK_MAX = 5
 
 
 def collect_alta() -> list[str]:
@@ -365,6 +373,7 @@ LLM_MAX_CHARS = 7000              # сколько текста отдаём м�
 LLM_TRANSLATE_OFFICIAL_UNDER = 1800  # короткие официальные сообщения переводим целиком
 LLM_MIN_RELEVANCE_POST = 7        # отдельный пост
 LLM_MIN_RELEVANCE_DIGEST = 5      # строка в подборке
+LLM_MAX_ITEMS_PER_RUN = 8         # сколько статей прессы/телеграма разбираем моделью за прогон
 
 LLM_SYSTEM = (
     "Ты редактор русскоязычного Telegram-канала для вкладчиков ALTA banka a.d. Beograd (Сербия). "
@@ -921,7 +930,7 @@ def main() -> int:
 
     # 2) Объявления AOD
     for it in ready_items:
-        if posted >= MAX_NEW_PER_RUN:
+        if posted >= MAX_NEW_PER_RUN or out_of_time():
             break
         if it["url"] in seen:
             continue
@@ -935,8 +944,8 @@ def main() -> int:
 
     # 3) Новости AOD, NBS и сайта банка
     for u in page_urls:
-        if posted >= MAX_NEW_PER_RUN:
-            log("Достигнут лимит постов за запуск, остальное — в следующий раз")
+        if posted >= MAX_NEW_PER_RUN or out_of_time():
+            log("Лимит постов или времени за запуск, остальное — в следующий раз")
             break
         rec = seen.get(u)
         if rec is not None and u not in ALTA_RECHECK:
@@ -981,11 +990,16 @@ def main() -> int:
         (collect_press, format_press_digest, "пресса"),
         (collect_telegram, format_tg_digest, "telegram"),
     ):
+        if out_of_time():
+            log(f"нет времени на {label}, в следующий раз")
+            break
         fresh = [it for it in collector() if is_new(it)]
         if fresh and llm_on:
             # нейросеть: важное — отдельным постом с выжимкой, среднее — в подборку, остальное мимо
             keep: list[dict] = []
-            for it in fresh[:PRESS_MAX_PER_POST * 2]:
+            for it in fresh[:LLM_MAX_ITEMS_PER_RUN]:
+                if out_of_time():
+                    break
                 enrich(it)
                 rel = (it.get("llm") or {}).get("relevance", 0)
                 if it.get("llm") is None:
