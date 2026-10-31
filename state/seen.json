@@ -4,15 +4,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T18:58:13+00:00",
+   "at": "2026-10-31T19:00:55+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T19:00:42+00:00",
-   "elapsed_s": 149,
+   "at": "2026-10-31T19:03:23+00:00",
+   "elapsed_s": 148,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -38,8 +38,8 @@
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 1,
-   "AOD объявления": 1
+   "AOD новости": 2,
+   "AOD объявления": 2
   }
  },
  "pending": {},
@@ -855,6 +855,17 @@
    "title": "Политик обвиняет медиа в распространении дезинформации о банкротстве Alta",
    "title_src": "Manojlović (Kreni-promeni): Informer širi dezinformacije i paniku oko stečaja Alta banke",
    "updated": "2026-10-31T19:00:42+00:00"
+  },
+  "https://beta.rs/content/255104-miketic-slucaj-alta-banke-deluje-kao-operacija-izazivanja-krize": {
+   "first_seen": "2026-10-31T19:03:23+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Микетич: случай Alta банки выглядит как операция провокации кризиса",
+   "title_src": "Miketić: Slučaj Alta banke deluje kao operacija izazivanja krize",
+   "updated": "2026-10-31T19:03:23+00:00"
   },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
