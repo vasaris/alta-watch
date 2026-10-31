@@ -17,8 +17,10 @@ on:
 permissions:
   contents: write
 
+# Автоматические запуски — одна группа (очередь из одного). Ручные с параметрами —
+# отдельная, чтобы автоматика их не вытесняла из очереди.
 concurrency:
-  group: alta-watch
+  group: alta-watch-${{ (github.event.inputs.force_urls != '' || github.event.inputs.backfill != '') && 'manual' || 'auto' }}
   cancel-in-progress: false
 
 jobs:
