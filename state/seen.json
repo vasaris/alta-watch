@@ -577,6 +577,16 @@
    "posted": false,
    "seeded": true
   },
+  "https://beta.rs/content/255077-viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
+   "first_seen": "2026-10-31T12:32:15+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "активы"
+   ],
+   "title": "Viceguverneri NBS pozvali tužilaštvo da utvrdi činjenice o oduzimanju dozvole Alta banci"
+  },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
@@ -626,6 +636,16 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
+   "first_seen": "2026-10-31T12:32:15+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku"
   },
   "https://n1info.rs/biznis/ivan-radak-forbes-alta-banka-oduzimanje-dozvole": {
    "first_seen": "2026-10-31T11:50:20+00:00",
