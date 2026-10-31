@@ -777,6 +777,16 @@
    "posted": false,
    "seeded": true
   },
+  "https://nova.rs/vesti/biznis/veroljub-dugalic-preispitati-rad-narodne-banke-srbije-i-njenu-ulogu-u-slucaju-alta-banke": {
+   "first_seen": "2026-10-31T12:46:13+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Veroljub Dugalić: Preispitati rad Narodne banke Srbije i njenu ulogu u slučaju Alta banke"
+  },
   "https://nova.rs/vesti/biznis/viceguverneri-nbs-traze-da-tuzilastvo-pokrene-istragu-ko-je-znao-za-probleme-u-alta-banci-i-zasto-nije-reagovao": {
    "first_seen": "2026-10-31T12:08:26+00:00",
    "kind": "press",
@@ -1079,6 +1089,15 @@
     "регулятор"
    ],
    "title": "НБС отозвал лицензию у Alta banka: карты не работают, выплаты ждут решения суда"
+  },
+  "https://t.me/volna_srbjia/3301": {
+   "first_seen": "2026-10-31T12:46:13+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "клиенты"
+   ],
+   "title": "🏦 Помогите собрать карту: где сейчас открывают счета После закрытия Alta многим нужен новый банк, а свежих данных о том,"
   },
   "https://www.aod.rs/clan/vest/vest_forma/100": {
    "first_seen": "2026-10-31T11:38:15+00:00",
