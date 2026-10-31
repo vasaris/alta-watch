@@ -17,8 +17,12 @@ import time
 from datetime import datetime, timezone
 from pathlib import Path
 
+import warnings
+
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, MarkupResemblesLocatorWarning
+
+warnings.filterwarnings("ignore", category=MarkupResemblesLocatorWarning)
 
 # --- настройки --------------------------------------------------------------
 
@@ -320,6 +324,87 @@ def parse_article(url: str) -> dict | None:
     }
 
 
+# --- пресса (RSS проверенных изданий) ---------------------------------------
+
+PRESS_FEEDS = [
+    ("N1", "https://n1info.rs/feed/"),
+    ("Danas", "https://www.danas.rs/feed/"),
+    ("Nova ekonomija", "https://novaekonomija.rs/feed"),
+    ("Forbes Srbija", "https://forbes.n1info.rs/feed/"),
+    ("Nova.rs", "https://nova.rs/feed/"),
+    ("Beta", "https://beta.rs/rss"),
+    ("BIZLife", "https://bizlife.rs/feed/"),
+]
+PRESS_MAX_AGE_H = 48        # старше — не публикуем, даже если видим впервые
+PRESS_MAX_PER_POST = 10
+
+
+def _rss_field(item_xml: str, tag: str) -> str:
+    m = re.search(rf"<{tag}[^>]*>(.*?)</{tag}>", item_xml, re.S | re.I)
+    if not m:
+        return ""
+    v = m.group(1).strip()
+    v = re.sub(r"^<!\[CDATA\[(.*?)\]\]>$", r"\1", v, flags=re.S)
+    v = BeautifulSoup(v, "html.parser").get_text(" ", strip=True)
+    return html.unescape(v).strip()
+
+
+def parse_pubdate(s: str) -> datetime | None:
+    from email.utils import parsedate_to_datetime
+    try:
+        d = parsedate_to_datetime(s)
+        return d if d.tzinfo else d.replace(tzinfo=timezone.utc)
+    except Exception:  # noqa: BLE001
+        return None
+
+
+def collect_press() -> list[dict]:
+    """Статьи проверенных изданий, в которых Alta упомянута в заголовке или лиде."""
+    items: list[dict] = []
+    cutoff = datetime.now(timezone.utc).timestamp() - PRESS_MAX_AGE_H * 3600
+    for outlet, feed in PRESS_FEEDS:
+        text = get(feed)
+        if not text or "<item" not in text:
+            log(f"пресса {outlet}: лента не прочиталась")
+            continue
+        n = 0
+        for raw in re.findall(r"<item\b.*?</item>", text, re.S | re.I):
+            title = _rss_field(raw, "title")
+            link = _rss_field(raw, "link") or ""
+            if not link:
+                m = re.search(r"<link[^>]*/>\s*([^<\s]+)", raw)  # атомный вариант
+                link = m.group(1) if m else ""
+            desc = _rss_field(raw, "description")[:300]
+            pub = parse_pubdate(_rss_field(raw, "pubDate"))
+            if not (title and link.startswith("http")):
+                continue
+            if not (KEYWORD_RE.search(title) or KEYWORD_RE.search(desc)):
+                continue
+            if pub and pub.timestamp() < cutoff:
+                continue
+            items.append({
+                "url": norm_url(link),
+                "title": title,
+                "outlet": outlet,
+                "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
+                "kind": "press",
+                "relevant": True,
+            })
+            n += 1
+        log(f"пресса {outlet}: {n} про Alta")
+    return items
+
+
+def format_press_digest(items: list[dict]) -> str:
+    lines = ["<b>📰 Пресса об ALTA banka</b>"]
+    for it in items[:PRESS_MAX_PER_POST]:
+        lines.append(f"• <b>{html.escape(it['outlet'])}</b>: "
+                     f"<a href=\"{html.escape(it['url'])}\">{html.escape(it['title'])}</a>")
+    lines.append("<i>Подборка публикаций СМИ по ключевому слову. Проверяйте по первоисточникам: "
+                 "официальные сообщения AOD, NBS и банка публикуются здесь отдельно.</i>")
+    return "\n".join(lines)
+
+
 # --- Telegram ---------------------------------------------------------------
 
 
@@ -331,7 +416,7 @@ def tg_send(token: str, chat_id: str, text: str) -> bool:
                 "chat_id": chat_id,
                 "text": text,
                 "parse_mode": "HTML",
-                "disable_web_page_preview": False,
+                "disable_web_page_preview": text.startswith("<b>📰"),
             },
             timeout=TIMEOUT,
         )
@@ -442,13 +527,15 @@ def main() -> int:
                 seen[u] = rec
         for it in ready_items:
             seen.setdefault(it["url"], {"first_seen": now, "posted": False, "seeded": True})
+        for it in collect_press():
+            seen.setdefault(it["url"], {"first_seen": now, "posted": False, "seeded": True, "kind": "press"})
         check_aod_proceedings(state)  # только выставить флаг, если Alta уже там
         state["seeded"] = True
         save_state(state)
         if not dry:
             tg_send(token, chat_id,
-                    "🤖 Бот запущен. Слежу за официальными сообщениями об ALTA banka: "
-                    "aod.rs (новости и объявления), nbs.rs и сайт банка altabanka.rs. "
+                    "🤖 Бот запущен. Слежу за сообщениями об ALTA banka: официальные — aod.rs, nbs.rs "
+                    "и сайт банка; пресса — N1, Danas, Nova ekonomija, Forbes Srbija, Nova.rs, Beta, BIZLife. "
                     "Новые публикации появятся здесь автоматически.")
         log("Первый запуск: состояние засеяно")
         return 0
@@ -504,6 +591,23 @@ def main() -> int:
             time.sleep(1.5)
         else:
             log(f"Не отправилось, повторим позже: {u}")
+
+    # 4) Пресса: все новые статьи за запуск — одним постом-подборкой
+    press_new = [it for it in collect_press() if it["url"] not in seen]
+    if press_new:
+        text = format_press_digest(press_new)
+        if dry:
+            print("---- DRY RUN POST ----\n" + text + "\n----------------------")
+            ok = True
+        else:
+            ok = tg_send(token, chat_id, text)
+        if ok:
+            for it in press_new[:PRESS_MAX_PER_POST]:
+                seen[it["url"]] = {"first_seen": now, "posted": True, "kind": "press",
+                                   "title": it["title"][:120]}
+            posted += 1
+        else:
+            log("Подборка прессы не отправилась, повторим позже")
 
     save_state(state)
     log(f"Готово. Опубликовано: {posted}")
