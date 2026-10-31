@@ -374,6 +374,11 @@ LLM_TRANSLATE_OFFICIAL_UNDER = 1800  # короткие официальные �
 LLM_MIN_RELEVANCE_POST = 7        # отдельный пост
 LLM_MIN_RELEVANCE_DIGEST = 5      # строка в подборке
 LLM_MAX_ITEMS_PER_RUN = 8         # сколько статей прессы/телеграма разбираем моделью за прогон
+LLM_MIN_NOVELTY = 4               # ниже — перепечатка, не публикуем
+LLM_MIN_NOVELTY_POST = 6          # отдельный пост только если есть заметно новые факты
+DIGEST_MIN_ITEMS = 3              # подборка выходит, когда накопилось столько материалов…
+DIGEST_MAX_WAIT_MIN = 30          # …или старшему из них столько минут
+TG_MIN_CHARS = 80                 # сообщения телеграма короче — пропускаем (одни хештеги и т.п.)
 
 LLM_SYSTEM = (
     "Ты редактор русскоязычного Telegram-канала для вкладчиков ALTA banka a.d. Beograd (Сербия). "
@@ -396,7 +401,11 @@ LLM_SYSTEM = (
     '  "action": "что сделать вкладчику, одна фраза" или null, если действий не требуется,\n'
     '  "unverified": true, если материал опирается на слухи, анонимные источники или заявления политиков '
     'без подтверждения регулятора,\n'
-    '  "tags": ["до 4 тегов из списка: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"]\n'
+    '  "tags": ["до 4 тегов из списка: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"],\n'
+    '  "novelty": 0-10 — насколько материал добавляет НОВЫЕ факты к списку «уже опубликовано» (если он дан): '
+    '10 = всё новое; 0 = пересказ уже опубликованного без новых деталей; комментарии и мнения о том же '
+    'событии без новых фактов — не выше 3,\n'
+    '  "new_facts": ["только те тезисы, которых нет в уже опубликованном"]\n'
     "}\n"
     "Не додумывай фактов, которых нет в тексте. Не давай юридических советов. Если материал на русском, "
     "всё равно заполни все поля. Поле action заполняй ТОЛЬКО если материал прямо адресован вкладчикам или "
@@ -412,6 +421,11 @@ def clean_ru(s: str) -> str:
     return re.sub(r"\s{2,}", " ", CJK_RE.sub("", s)).strip()
 
 
+RECENT: list[dict] = []   # что уже опубликовано за сутки; заполняется в main из состояния
+RECENT_MAX = 40
+RECENT_TTL_H = 24
+
+
 def llm_analyze(item: dict, translate: bool = False) -> dict | None:
     key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
     if not key:
@@ -420,9 +434,13 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
     if not text.strip():
         return None
     src = source_label(item)
+    recent_block = ""
+    if RECENT:
+        recent_block = "УЖЕ ОПУБЛИКОВАНО В КАНАЛЕ (за последние сутки, новое сверяй с этим):\n" + "\n".join(
+            f"- {r['text'][:220]}" for r in RECENT[-RECENT_MAX:]) + "\n\n"
     task = (
         f"Источник: {src}\nЗаголовок: {item.get('title', '')}\nДата: {item.get('date', '')}\n"
-        f"Ссылка: {item.get('url', '')}\n\n"
+        f"Ссылка: {item.get('url', '')}\n\n" + recent_block
         + ("ЗАДАНИЕ: это короткое официальное сообщение — сделай полный точный перевод на русский "
            "в поле translation_ru и, отдельно, тезисы.\n\n" if translate else
            "ЗАДАНИЕ: сделай тезисную выжимку (summary_ru); translation_ru = null.\n\n")
@@ -450,6 +468,11 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
             return None
         data = json.loads(m.group(0))
         data["relevance"] = int(data.get("relevance", 0) or 0)
+        try:
+            data["novelty"] = int(data.get("novelty", 10) if data.get("novelty") is not None else 10)
+        except (TypeError, ValueError):
+            data["novelty"] = 10
+        data["new_facts"] = [clean_ru(str(x)) for x in (data.get("new_facts") or []) if str(x).strip()][:6]
         data["summary_ru"] = [clean_ru(str(s)) for s in (data.get("summary_ru") or []) if str(s).strip()][:6]
         data["tags"] = [str(t).strip().lstrip("#") for t in (data.get("tags") or [])][:4]
         for k in ("title_ru", "translation_ru", "action"):
@@ -523,7 +546,23 @@ def enrich(item: dict) -> dict:
         item["llm"] = data
         if data.get("tags"):
             item["tags"] = data["tags"]
+    else:
+        # модель не ответила — без перевода не публикуем, попробуем в следующий прогон
+        item["defer"] = True
     return item
+
+
+def remember_posted(state: dict, item: dict) -> None:
+    """Запомнить суть опубликованного, чтобы потом отсеивать перепечатки."""
+    llm = item.get("llm") or {}
+    bits = [llm.get("title_ru") or item.get("title", "")]
+    bits += (llm.get("new_facts") or llm.get("summary_ru") or [])[:2]
+    text = " — ".join(b for b in bits if b)[:300]
+    rec = state.setdefault("recent", [])
+    rec.append({"ts": time.time(), "text": text, "url": item.get("url", "")})
+    cutoff = time.time() - RECENT_TTL_H * 3600
+    rec[:] = [r for r in rec if r.get("ts", 0) >= cutoff][-RECENT_MAX:]
+    RECENT[:] = rec
 
 
 # --- тематический фильтр ------------------------------------------------------
@@ -837,6 +876,7 @@ def main() -> int:
 
     state = load_state()
     seen: dict = state.setdefault("seen", {})
+    RECENT[:] = [r for r in state.get("recent", []) if r.get("ts", 0) >= time.time() - RECENT_TTL_H * 3600]
     first_run = not state.get("seeded", False)
 
     now = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -851,9 +891,11 @@ def main() -> int:
         text = format_post(item, updated)
         if dry:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
+            remember_posted(state, item)
             return True
         ok = tg_send(token, chat_id, text)
         if ok:
+            remember_posted(state, item)
             save_state(state)  # на случай, если прогон убьют до конца
         return ok
 
@@ -1011,30 +1053,65 @@ def main() -> int:
                 continue
             fresh.append(it)
         if fresh and llm_on:
-            # нейросеть: важное — отдельным постом с выжимкой, среднее — в подборку, остальное мимо
-            keep: list[dict] = []
+            # нейросеть: важное и новое — отдельным постом; среднее — в накопитель подборки;
+            # перепечатки и слабое — мимо; не ответила — отложить до следующего прогона
             for it in fresh[:LLM_MAX_ITEMS_PER_RUN]:
                 if out_of_time():
                     break
+                if it["kind"] == "telegram" and len(it.get("full_text", "")) < TG_MIN_CHARS:
+                    seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
+                                       "title": it["title"][:120], "short": True}
+                    continue
                 enrich(it)
-                rel = (it.get("llm") or {}).get("relevance", 0)
-                if it.get("llm") is None:
-                    keep.append(it)  # нейросеть не ответила — оставляем словарный результат
-                elif rel >= LLM_MIN_RELEVANCE_POST and label == "пресса" and posted < MAX_NEW_PER_RUN:
+                if it.get("defer") or it.get("llm") is None:
+                    log(f"отложено ({label}): {it['title'][:60]}")
+                    continue
+                llm = it["llm"]
+                rel, nov = llm.get("relevance", 0), llm.get("novelty", 10)
+                if llm.get("title_ru"):
+                    it["title"] = llm["title_ru"]
+                if nov < LLM_MIN_NOVELTY:
+                    seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
+                                       "title": it["title"][:120], "relevance": rel, "novelty": nov, "dup": True}
+                    log(f"перепечатка ({label}, новизна {nov}/10): {it['title'][:70]}")
+                    continue
+                if rel >= LLM_MIN_RELEVANCE_POST and nov >= LLM_MIN_NOVELTY_POST and posted < MAX_NEW_PER_RUN:
+                    # в отдельном посте показываем только новые факты, если они выделены
+                    if llm.get("new_facts") and RECENT:
+                        llm["summary_ru"] = llm["new_facts"]
                     if deliver(it):
                         seen[it["url"]] = {"first_seen": now, "posted": True, "kind": it["kind"],
-                                           "title": it["title"][:120], "tags": it.get("tags", []), "relevance": rel}
+                                           "title": it["title"][:120], "tags": it.get("tags", []),
+                                           "relevance": rel, "novelty": nov}
                         posted += 1
                         time.sleep(1.5)
                 elif rel >= LLM_MIN_RELEVANCE_DIGEST:
-                    if it["llm"].get("title_ru"):
-                        it["title"] = it["llm"]["title_ru"]
-                    keep.append(it)
+                    pend = state.setdefault("pending", {}).setdefault(label, [])
+                    if not any(p["url"] == it["url"] for p in pend):
+                        pend.append({
+                            "url": it["url"], "title": it["title"][:200], "outlet": it.get("outlet", ""),
+                            "date": it.get("date", ""), "tags": it.get("tags", [])[:4], "kind": it["kind"],
+                            "first": (llm.get("new_facts") or llm.get("summary_ru") or [""])[0][:200],
+                            "ts": time.time(),
+                        })
+                    seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
+                                       "title": it["title"][:120], "relevance": rel, "novelty": nov, "pending": True}
+                    save_state(state)
                 else:
                     seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
                                        "title": it["title"][:120], "relevance": rel}
                     log(f"skip ({label}, {rel}/10): {it['title'][:70]}")
-            fresh = keep
+            fresh = []  # без модели подборка ниже не собирается: всё ушло в накопитель или отсеяно
+
+        # --- накопитель подборки: выпускаем, когда набралось DIGEST_MIN_ITEMS или старшему DIGEST_MAX_WAIT_MIN
+        pend = state.get("pending", {}).get(label, [])
+        if llm_on:
+            oldest = min((p.get("ts", time.time()) for p in pend), default=None)
+            due = len(pend) >= DIGEST_MIN_ITEMS or (oldest is not None and time.time() - oldest > DIGEST_MAX_WAIT_MIN * 60)
+            if pend and (due or backfill):
+                fresh = [{**p, "llm": {"summary_ru": [p["first"]] if p.get("first") else []}} for p in pend]
+            else:
+                fresh = []
         if not fresh:
             continue
         text = formatter(fresh)
@@ -1047,7 +1124,11 @@ def main() -> int:
             for it in fresh[:PRESS_MAX_PER_POST]:
                 seen[it["url"]] = {"first_seen": now, "posted": True, "kind": it["kind"],
                                    "title": it["title"][:120], "tags": it.get("tags", [])}
+                remember_posted(state, it)
+            if llm_on:
+                state["pending"][label] = pend[PRESS_MAX_PER_POST:]
             posted += 1
+            save_state(state)
             time.sleep(1.5)
         else:
             log(f"Подборка ({label}) не отправилась, повторим позже")
