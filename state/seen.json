@@ -670,6 +670,13 @@
    "posted": false,
    "seeded": true
   },
+  "https://nova.rs/vesti/biznis/banka-ne-radi-menjacnica-radi-sta-gradjani-mogu-da-procitaju-u-izlogu-ekspoziture-alta-banke": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "press",
+   "posted": false,
+   "relevance": 3,
+   "title": "Banka ne radi, menjačnica radi: Šta građani mogu da pročitaju u izlogu ekspoziture Alta banke"
+  },
   "https://nova.rs/vesti/biznis/kako-do-novca-koji-imate-u-alta-banci-davora-macure-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
@@ -835,6 +842,27 @@
    ],
    "title": "⭕️ Нацбанк Сербии сообщил о разбирательствах в отношении ALTA Bank, её акционеров и руководства Национальный банк Сербии"
   },
+  "https://t.me/Serbia/107360": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "relevance": 3,
+   "title": "Слух: венгерский OTP банк с понедельника возьмет управление над ALTA. Информация нуждается в подтверждении."
+  },
+  "https://t.me/Serbia/107361": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "relevance": 3,
+   "title": "Огромные очереди в закрытые отделения ALTA BANKA. На видео Нови-Сад. Что делать клиентам банка мы написали тут и тут . Н"
+  },
+  "https://t.me/Serbia/107364": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": false,
+   "relevance": 3,
+   "title": "ALTA Bank: кризис ликвидности, переводы за рубеж и связи с властью. Почему все накрылось медным тазом? Официальная причи"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -876,12 +904,166 @@
    ],
    "title": "💰 Деньги в АЛТА-банке: порядок действий Сегодня идти в банк бессмысленно , расходимся. Приложения и карты не работают, в"
   },
+  "https://t.me/novostiserbii/17226": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "ALTA Banka лишена лицензии: инструкция по возврату денег и открытию счета"
+  },
+  "https://t.me/novostiserbii/17227": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "НБС отозвал лицензию у Alta banka: карты не работают, выплаты ждут решения суда"
+  },
+  "https://t.me/volna_srbjia/3295": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "NBS отозвал лицензию ALTA banka; выплаты застрахованных вкладов начнутся в течение 7 рабочих дней после судебного решени"
+  },
+  "https://t.me/volna_srbjia/3298": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "требования",
+    "сроки"
+   ],
+   "title": "Alta закрыта: процедура выплат, сроки и срочные действия вкладчиков"
+  },
+  "https://t.me/volna_srbjia/3300": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "суд",
+    "сроки",
+    "регулятор"
+   ],
+   "title": "НБС отозвал лицензию у Alta banka: карты не работают, выплаты ждут решения суда"
+  },
   "https://www.aod.rs/clan/vest/vest_forma/137": {
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
    "hash": "d18a78a6997ba126",
    "posted": true,
    "title": "АОД | Агенција за осигурање депозита"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/218_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "12.09.2025 Оглас за продају непокретне имовине Београдске банке у стечају и Универзал банке у стечају јавним прикупљањем"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/221_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "17.10.2025 Оглас за продају непокретности у власништву Југобанке у стечају методом јавног прикупљања понуда (шифра прода"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/222_1_oglas.doc": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/222_2_oglas.doc": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/222_3_oglas.doc": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/222_4_oglas.doc": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "21.10.2025 Јавни конкурс за пријем у радни однос на неодређено време шефа Одељења за информационе технологије и опште по"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/223_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "24.10.2025 Оглас за продају непокретне имовине у власништву Стечајне масе Привредне банке Београд у стечају јавним прику"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/224_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "21.11.2025 Оглас за продају имовине Републике Србије методом јавног прикупљања понуда (шифра продаје: Т-14/25)"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/225_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "28.11.2025 Оглас за продају непокретне имовине у власништву Београдске банке у стечају и акција/учешћа у капиталу/деониц"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/226_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "05.12.2025 Оглас за уступање потраживања Београдске банке у стечају и стечајне масе Привредне банке Београд уз накнаду, "
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/227_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "05.12.2025 Решење о главној деоби стечајне масе Нове Агробанке а.д. Београд у стечају Позив повериоцима да доставе инстр"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/227_2_oglas.docx": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "05.12.2025 Решење о главној деоби стечајне масе Нове Агробанке а.д. Београд у стечају Позив повериоцима да доставе инстр"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/228_1_oglas.pdf": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": true,
+   "title": "09.12.2025 Оглас за продају покретне имовине Универзал банке у стечају, Београдске банке у стечају и Стечајне масе Привр"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/229_1_oglas.doc": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/229_2_oglas.docx": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/229_3_oglas.docx": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/229_4_oglas.docx": {
+   "first_seen": "2026-10-31T11:31:11+00:00",
+   "posted": false,
+   "relevant": false,
+   "title": "15.12.2025 Јавни конкурс за пријем у радни однос на неодређено време Прилог 1 Прилог 2 Прилог 3"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/230_1_oglas.pdf": {
    "first_seen": "2026-10-31T11:20:40+00:00",
