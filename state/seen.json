@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T19:46:22+00:00",
+   "at": "2026-10-31T19:48:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T19:46:45+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-10-31T19:48:52+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1203,6 +1203,18 @@
    "title": "Лидер DS требует ареста главы НБС Табаковић и владельца Alta Macury",
    "updated": "2026-10-31T17:28:57+00:00"
   },
+  "https://n1info.rs/vesti/narodna-banka-severna-makedonija-alta-banka-bitolj": {
+   "first_seen": "2026-10-31T19:48:48+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии мониторит Alta banka Bitolj на фоне краха материнской компании",
+   "title_src": "Narodna banka Severne Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
+   "updated": "2026-10-31T19:48:48+00:00"
+  },
   "https://n1info.rs/vesti/savovic-unistavanje-dokumentacije-je-krivicno-delo-promene": {
    "attempts": 65,
    "first_seen": "2026-10-31T14:10:51+00:00",
@@ -1823,6 +1835,17 @@
    "title": "Директор AOD: банкротство Alta откроется 2 ноября, выплаты начнутся в течение недели",
    "title_src": "⭕️ Официальное банкротство ALTA Banka ожидается 2 ноября Директор Агентства по страхованию депозитов Любица Пантелич сообщила⁠, что Хозяйственный суд Белграда, как ожидается, в понедельник, 2 ноября, официально откроет…",
    "updated": "2026-10-31T19:44:50+00:00"
+  },
+  "https://t.me/Serbia/107394": {
+   "first_seen": "2026-10-31T19:48:52+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Владелец Alta Давор Мацура, предположительно, покинул Сербию",
+   "title_src": "⭕️ Владелец ALTA Banka Давор Мацура, предположительно, покинул Сербию после отзыва лицензии у банка По неофициальной информации портала Izlaz , бизнесмен Давор Мацура, владелец ALTA Banka и один из предпринимателей,…",
+   "updated": "2026-10-31T19:48:52+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
