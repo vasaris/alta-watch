@@ -321,7 +321,110 @@ def parse_article(url: str) -> dict | None:
         "relevant": is_alta_site or bool(KEYWORD_RE.search(title) or KEYWORD_RE.search(body_text)),
         "hash": hashlib.sha1((title + "\n" + full).encode("utf-8")).hexdigest()[:16],
         "kind": "alta_site" if is_alta_site else "news",
+        "full_text": full[:LLM_MAX_CHARS],
     }
+
+
+# --- нейросеть: оценка важности и русская выжимка -------------------------------
+# Включается, если задан ANTHROPIC_API_KEY. Без ключа работает словарный фильтр.
+
+LLM_MODEL = os.environ.get("LLM_MODEL", "claude-haiku-4-5")
+LLM_MAX_CHARS = 7000              # сколько текста отдаём модели
+LLM_TRANSLATE_OFFICIAL_UNDER = 1800  # короткие официальные сообщения переводим целиком
+LLM_MIN_RELEVANCE_POST = 7        # отдельный пост
+LLM_MIN_RELEVANCE_DIGEST = 5      # строка в подборке
+
+LLM_SYSTEM = (
+    "Ты редактор русскоязычного Telegram-канала для вкладчиков ALTA banka a.d. Beograd (Сербия). "
+    "Контекст: 31.10.2026 Народный банк Сербии (NBS) отозвал у банка лицензию, начинается банкротство; "
+    "управляющий — Агентство по страхованию вкладов (AOD). Вклады застрахованы до 50 000 евро на вкладчика; "
+    "выплаты идут через банк-выплатчик, который AOD объявляет в течение 3 рабочих дней после решения "
+    "Хозяйственного суда (Privredni sud u Beogradu) об открытии банкротства, выплаты начинаются в течение "
+    "7 рабочих дней. Суммы сверх лимита заявляются как требования кредитора в процедуре банкротства.\n\n"
+    "Читателям важно: решение суда и его дата; банк-выплатчик, даты, места, документы; особенности для "
+    "нерезидентов и валютных вкладов; сроки подачи требований сверх 50 000 евро; судьба платежей в пути, "
+    "карт, кредитов, зарплат и коммунальных платежей; новости об активах и владельце, влияющие на возврат "
+    "сумм сверх лимита; заявления регуляторов о других банках.\n\n"
+    "Оцени материал и ответь СТРОГО одним JSON-объектом без пояснений:\n"
+    "{\n"
+    '  "relevance": 0-10 (10 = прямо меняет, что делать вкладчику; 0 = не о процедуре; биографии владельца, '
+    'общие рассуждения, повторы давно известного — не выше 4),\n'
+    '  "title_ru": "короткий заголовок по-русски",\n'
+    '  "summary_ru": ["3-6 тезисов по-русски, только факты из материала, цифры и даты сохранять"],\n'
+    '  "translation_ru": "полный точный перевод на русский" — ТОЛЬКО если в задании сказано перевести, иначе null,\n'
+    '  "action": "что сделать вкладчику, одна фраза" или null, если действий не требуется,\n'
+    '  "unverified": true, если материал опирается на слухи, анонимные источники или заявления политиков '
+    'без подтверждения регулятора,\n'
+    '  "tags": ["до 4 тегов из списка: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"]\n'
+    "}\n"
+    "Не додумывай фактов, которых нет в тексте. Не давай юридических советов. Если материал на русском, "
+    "всё равно заполни все поля."
+)
+
+
+def llm_analyze(item: dict, translate: bool = False) -> dict | None:
+    key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+    if not key:
+        return None
+    text = item.get("full_text") or item.get("excerpt") or item.get("title") or ""
+    if not text.strip():
+        return None
+    src = source_label(item)
+    task = (
+        f"Источник: {src}\nЗаголовок: {item.get('title', '')}\nДата: {item.get('date', '')}\n"
+        f"Ссылка: {item.get('url', '')}\n\n"
+        + ("ЗАДАНИЕ: это короткое официальное сообщение — сделай полный точный перевод на русский "
+           "в поле translation_ru и, отдельно, тезисы.\n\n" if translate else
+           "ЗАДАНИЕ: сделай тезисную выжимку (summary_ru); translation_ru = null.\n\n")
+        + "ТЕКСТ:\n" + text[:LLM_MAX_CHARS]
+    )
+    try:
+        r = requests.post(
+            "https://api.anthropic.com/v1/messages",
+            headers={"x-api-key": key, "anthropic-version": "2023-06-01", "content-type": "application/json"},
+            json={
+                "model": LLM_MODEL,
+                "max_tokens": 1500,
+                "system": LLM_SYSTEM,
+                "messages": [{"role": "user", "content": task}],
+            },
+            timeout=60,
+        )
+        if r.status_code != 200:
+            log(f"WARN llm {r.status_code}: {r.text[:200]}")
+            return None
+        out = "".join(b.get("text", "") for b in r.json().get("content", []) if b.get("type") == "text")
+        m = re.search(r"\{.*\}", out, re.S)
+        if not m:
+            log("WARN llm: нет JSON в ответе")
+            return None
+        data = json.loads(m.group(0))
+        data["relevance"] = int(data.get("relevance", 0) or 0)
+        data["summary_ru"] = [str(s).strip() for s in (data.get("summary_ru") or []) if str(s).strip()][:6]
+        data["tags"] = [str(t).strip().lstrip("#") for t in (data.get("tags") or [])][:4]
+        return data
+    except Exception as e:  # noqa: BLE001
+        log(f"WARN llm failed: {e}")
+        return None
+
+
+def enrich(item: dict) -> dict:
+    """Дополняет элемент русской выжимкой и оценкой важности, если включена нейросеть."""
+    if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
+        return item
+    official = item.get("kind") in ("news", "alta_site", "aod_proceedings")
+    if "full_text" not in item and item.get("kind") == "press":
+        art = parse_article(item["url"])
+        if art:
+            item["full_text"] = art.get("full_text", "")
+            item.setdefault("date", art.get("date", ""))
+    translate = official and len(item.get("full_text", "")) <= LLM_TRANSLATE_OFFICIAL_UNDER
+    data = llm_analyze(item, translate=translate)
+    if data:
+        item["llm"] = data
+        if data.get("tags"):
+            item["tags"] = data["tags"]
+    return item
 
 
 # --- тематический фильтр ------------------------------------------------------
@@ -504,6 +607,7 @@ def collect_telegram() -> list[dict]:
             items.append({
                 "url": f"https://t.me/{post}",
                 "title": snippet,
+                "full_text": body[:LLM_MAX_CHARS],
                 "outlet": "@" + post.split("/")[0],
                 "date": pub.astimezone().strftime("%d.%m.%Y %H:%M") if pub else "",
                 "kind": "telegram",
@@ -567,18 +671,40 @@ def source_label(item: dict) -> str:
 
 def format_post(item: dict, updated: bool = False) -> str:
     head = f"<b>{html.escape(source_label(item))}</b>"
+    if item.get("outlet") and item.get("kind") == "press":
+        head = f"<b>📰 {html.escape(item['outlet'])}</b>"
     if item.get("date"):
         head += f" · {item['date']}"
     if updated:
         head += " · <i>обновлено</i>"
     parts = [head]
-    if item.get("title"):
-        parts.append(f"<b>{html.escape(item['title'])}</b>")
-    if item.get("excerpt"):
-        parts.append(html.escape(item["excerpt"]))
+    llm = item.get("llm")
+    if llm:
+        # русская версия от нейросети
+        if llm.get("action"):
+            parts.insert(0, f"⚠️ <b>Что делать:</b> {html.escape(str(llm['action']))}")
+        parts.append(f"<b>{html.escape(llm.get('title_ru') or item.get('title', ''))}</b>")
+        if llm.get("translation_ru"):
+            parts.append(html.escape(str(llm["translation_ru"]))[:3000])
+        elif llm.get("summary_ru"):
+            parts.append("\n".join("• " + html.escape(s) for s in llm["summary_ru"]))
+        if llm.get("unverified"):
+            parts.append("❗️ <i>Содержит неподтверждённые регулятором утверждения.</i>")
+        if item.get("title") and item.get("kind") != "aod_proceedings":
+            parts.append(f"<i>Оригинал: {html.escape(item['title'])}</i>")
+    else:
+        if item.get("title"):
+            parts.append(f"<b>{html.escape(item['title'])}</b>")
+        if item.get("excerpt"):
+            parts.append(html.escape(item["excerpt"]))
     label = "Открыть документ" if item.get("kind") == "aod_notice" else "Открыть первоисточник"
-    parts.append(f'<a href="{html.escape(item["url"])}">{label}</a>')
-    parts.append("<i>Автоматическая публикация официального сообщения. Не является консультацией.</i>")
+    tail = f'<a href="{html.escape(item["url"])}">{label}</a>'
+    if item.get("tags"):
+        tail += "  " + tags_line(item["tags"])
+    parts.append(tail)
+    note = ("Автоматический пересказ. Не является консультацией, проверяйте по первоисточнику."
+            if llm else "Автоматическая публикация. Не является консультацией.")
+    parts.append(f"<i>{note}</i>")
     return "\n\n".join(parts)
 
 
@@ -601,6 +727,8 @@ def main() -> int:
     posted = 0
 
     def deliver(item: dict, updated: bool = False) -> bool:
+        if item.get("kind") in ("news", "alta_site", "aod_proceedings", "press") and "llm" not in item:
+            enrich(item)
         text = format_post(item, updated)
         if dry:
             print("---- DRY RUN POST ----\n" + text + "\n----------------------")
@@ -722,11 +850,36 @@ def main() -> int:
             return True
         return backfill and not rec.get("posted")
 
+    llm_on = bool(os.environ.get("ANTHROPIC_API_KEY", "").strip())
+
     for collector, formatter, label in (
         (collect_press, format_press_digest, "пресса"),
         (collect_telegram, format_tg_digest, "telegram"),
     ):
         fresh = [it for it in collector() if is_new(it)]
+        if fresh and llm_on:
+            # нейросеть: важное — отдельным постом с выжимкой, среднее — в подборку, остальное мимо
+            keep: list[dict] = []
+            for it in fresh[:PRESS_MAX_PER_POST * 2]:
+                enrich(it)
+                rel = (it.get("llm") or {}).get("relevance", 0)
+                if it.get("llm") is None:
+                    keep.append(it)  # нейросеть не ответила — оставляем словарный результат
+                elif rel >= LLM_MIN_RELEVANCE_POST and label == "пресса" and posted < MAX_NEW_PER_RUN:
+                    if deliver(it):
+                        seen[it["url"]] = {"first_seen": now, "posted": True, "kind": it["kind"],
+                                           "title": it["title"][:120], "tags": it.get("tags", []), "relevance": rel}
+                        posted += 1
+                        time.sleep(1.5)
+                elif rel >= LLM_MIN_RELEVANCE_DIGEST:
+                    if it["llm"].get("title_ru"):
+                        it["title"] = it["llm"]["title_ru"]
+                    keep.append(it)
+                else:
+                    seen[it["url"]] = {"first_seen": now, "posted": False, "kind": it["kind"],
+                                       "title": it["title"][:120], "relevance": rel}
+                    log(f"skip ({label}, {rel}/10): {it['title'][:70]}")
+            fresh = keep
         if not fresh:
             continue
         text = formatter(fresh)
