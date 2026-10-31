@@ -986,7 +986,7 @@
    "title": "Четыре представителя НБС потребовали расследовать обстоятельства краха ALTA Banka Они обратились⁠ к прокуратуре с требов"
   },
   "https://t.me/Serbia/107370": {
-   "first_seen": "2026-10-31T12:58:14+00:00",
+   "first_seen": "2026-10-31T13:01:09+00:00",
    "kind": "telegram",
    "posted": true,
    "tags": [
@@ -1072,6 +1072,17 @@
     "владелец"
    ],
    "title": "От обменника в Земуне до банковского скандала. История ALTA Banka #бизнес #финансы #политика #Россия #СевМакедония 31 ок"
+  },
+  "https://t.me/novostiserbii/17230": {
+   "first_seen": "2026-10-31T13:01:09+00:00",
+   "kind": "telegram",
+   "posted": true,
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "активы"
+   ],
+   "title": "#НовостиСербииДайджест * * * Четыре вице-председателя Национального банка Сербии (НБС) потребовали от прокуратуры рассле"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
@@ -2849,6 +2860,15 @@
    "kind": "press",
    "posted": false,
    "seeded": true
+  },
+  "https://www.danas.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
+   "first_seen": "2026-10-31T13:01:09+00:00",
+   "kind": "press",
+   "posted": true,
+   "tags": [
+    "активы"
+   ],
+   "title": "Parandilović (NLS): Alta banka bila perionica novca za vrh SNS, tužilaštvo da ispita odgovornost"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21162": {
    "first_seen": "2026-10-31T11:17:01+00:00",
