@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T20:57:00+00:00",
+   "at": "2026-10-31T20:58:27+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T20:57:20+00:00",
-   "elapsed_s": 19,
-   "llm_calls": 0,
+   "at": "2026-10-31T20:59:09+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1203,6 +1203,17 @@
    "title": "Оппозиция Северной Македонии требует отставки главы центробанка из-за ALTA",
    "updated": "2026-10-31T17:28:40+00:00"
   },
+  "https://n1info.rs/vesti/ivan-ninic-krivicna-prijava-tok-ministarstvo": {
+   "first_seen": "2026-10-31T20:59:04+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Адвокат Нинич объявил о подаче уголовного заявления против министерства в понедельник",
+   "title_src": "Ninić najavio krivičnu prijavu - na 238 strana - protiv jedne državne institucije",
+   "updated": "2026-10-31T20:59:04+00:00"
+  },
   "https://n1info.rs/vesti/kolika-je-odgovornost-nbs-za-slucaj-alta-banke": {
    "first_seen": "2026-10-31T18:21:11+00:00",
    "kind": "press",
@@ -2162,6 +2173,17 @@
    "title": "Дугалич: необходимо пересмотреть работу НБС и контроль над Alta банком",
    "title_src": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku",
    "updated": "2026-10-31T20:48:51+00:00"
+  },
+  "https://www.021.rs/info/srbija/459948/advokat-ninic-najavio-krivicnu-prijavu-protiv-jedne-drzavne-institucije": {
+   "first_seen": "2026-10-31T20:59:09+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Адвокат Ниниќ объявил о подаче уголовного заявления против государственного учреждения",
+   "title_src": "Advokat Ninić najavio krivičnu prijavu protiv jedne državne institucije",
+   "updated": "2026-10-31T20:59:09+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/100": {
    "first_seen": "2026-10-31T11:38:15+00:00",
