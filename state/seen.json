@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T20:40:19+00:00",
+   "at": "2026-10-31T20:42:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T20:40:41+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-10-31T20:42:44+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -878,6 +878,18 @@
    "title": "Центральный банк Северной Македонии: Alta banka Bitolj остаётся под надзором, лицензия не отозвана автоматически",
    "title_src": "Narodna banka S. Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
    "updated": "2026-10-31T19:30:45+00:00"
+  },
+  "https://beta.rs/content/255109-advokat-ninic-najavio-novu-krivicnu-prijavu-protiv-jedne-drzavne-institucije": {
+   "first_seen": "2026-10-31T20:42:44+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Адвокат Нинич объявил о новой уголовной жалобе против государственного учреждения",
+   "title_src": "Advokat Ninić najavio novu krivičnu prijavu protiv jedne državne institucije",
+   "updated": "2026-10-31T20:42:44+00:00"
   },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
