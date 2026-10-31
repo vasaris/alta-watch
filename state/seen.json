@@ -1,4 +1,26 @@
 {
  "seeded": false,
- "seen": {}
+ "seen": {
+  "https://altabanka.rs/saopstenje-za-javnost/": {
+   "first_seen": "2026-10-31T11:15:23+00:00",
+   "forced": true,
+   "hash": "e8319c328ef4fdba",
+   "posted": true,
+   "title": "SAOPŠTENJE ZA JAVNOST - Alta Banka"
+  },
+  "https://www.aod.rs/clan/vest/vest_forma/137": {
+   "first_seen": "2026-10-31T11:15:23+00:00",
+   "forced": true,
+   "hash": "d18a78a6997ba126",
+   "posted": true,
+   "title": "АОД | Агенција за осигурање депозита"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21851": {
+   "first_seen": "2026-10-31T11:15:23+00:00",
+   "forced": true,
+   "hash": "1c403c5fa71d9adb",
+   "posted": true,
+   "title": "Заштићена права поверилаца и штедиша банке и очувана стабилност финансијског сектора"
+  }
+ }
 }
