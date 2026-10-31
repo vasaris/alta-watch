@@ -423,11 +423,52 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
         return None
 
 
+def document_text(url: str, max_chars: int = LLM_MAX_CHARS) -> str:
+    """Текст из PDF или DOCX по ссылке (объявления AOD). Пустая строка, если не вышло (скан и т.п.)."""
+    try:
+        r = requests.get(url, headers={"User-Agent": UA}, timeout=TIMEOUT)
+        r.raise_for_status()
+        data = r.content
+    except Exception as e:  # noqa: BLE001
+        log(f"WARN документ не скачался {url}: {e}")
+        return ""
+    text = ""
+    try:
+        if url.lower().endswith(".pdf") or data[:5] == b"%PDF-":
+            from io import BytesIO
+            from pypdf import PdfReader
+            reader = PdfReader(BytesIO(data))
+            parts = []
+            for page in reader.pages[:6]:
+                parts.append(page.extract_text() or "")
+                if sum(len(p) for p in parts) > max_chars:
+                    break
+            text = "\n".join(parts)
+        elif url.lower().endswith((".docx", ".doc")) or data[:2] == b"PK":
+            import zipfile
+            from io import BytesIO
+            with zipfile.ZipFile(BytesIO(data)) as z:
+                xml = z.read("word/document.xml").decode("utf-8", "ignore")
+            xml = re.sub(r"</w:p>", "\n", xml)
+            text = html.unescape(re.sub(r"<[^>]+>", "", xml))
+    except Exception as e:  # noqa: BLE001
+        log(f"WARN текст из документа не извлёкся {url}: {e}")
+        return ""
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{2,}", "\n", text).strip()
+    return text[:max_chars]
+
+
 def enrich(item: dict) -> dict:
     """Дополняет элемент русской выжимкой и оценкой важности, если включена нейросеть."""
     if not os.environ.get("ANTHROPIC_API_KEY", "").strip():
         return item
-    official = item.get("kind") in ("news", "alta_site", "aod_proceedings")
+    official = item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice")
+    if item.get("kind") == "aod_notice" and not item.get("full_text"):
+        item["full_text"] = document_text(item["url"])
+        if not item["full_text"]:
+            log(f"оглас без текста (скан?), публикуем как есть: {item['url']}")
+            return item
     if "full_text" not in item and item.get("kind") == "press":
         art = parse_article(item["url"])
         if art:
@@ -753,7 +794,7 @@ def main() -> int:
     posted = 0
 
     def deliver(item: dict, updated: bool = False) -> bool:
-        if item.get("kind") in ("news", "alta_site", "aod_proceedings", "press") and "llm" not in item:
+        if item.get("kind") in ("news", "alta_site", "aod_proceedings", "aod_notice", "press") and "llm" not in item:
             enrich(item)
         text = format_post(item, updated)
         if dry:
