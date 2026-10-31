@@ -807,7 +807,12 @@ def main() -> int:
     force = [x.strip() for x in os.environ.get("FORCE_URLS", "").split(",") if x.strip()]
     for u in force:
         u = norm_url(u) + ("/" if "altabanka.rs" in u else "")
-        item = parse_article(u)
+        if re.search(r"\.(pdf|docx?)$", u, re.I):
+            m = re.search(r"/(\d+)_\d+_oglas", u)
+            item = {"url": u, "title": f"Объявление AOD №{m.group(1)}" if m else "Документ",
+                    "date": "", "excerpt": "", "relevant": True, "kind": "aod_notice", "hash": ""}
+        else:
+            item = parse_article(u)
         if item is None:
             log(f"FORCE: не прочиталось {u}")
             continue
