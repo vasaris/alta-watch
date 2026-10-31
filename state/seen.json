@@ -1,17 +1,22 @@
 {
+ "facts": {},
  "flags": {},
  "health": {
+  "alerts": {},
   "aod_notices": {
-   "at": "2026-10-31T18:14:14+00:00",
+   "at": "2026-10-31T18:16:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
+  "daily_report_date": "2026-10-31",
   "last_run": {
-   "at": "2026-10-31T18:14:48+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 1,
-   "msgs": 0
+   "at": "2026-10-31T18:16:48+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 0,
+   "llm_down": null,
+   "msgs": 0,
+   "version": "2.1"
   },
   "press": {
    "021": "ok:10",
@@ -31,7 +36,8 @@
    "alta": 109,
    "aod": 44,
    "nbs": 36
-  }
+  },
+  "src_fail": {}
  },
  "pending": {},
  "recent": [
@@ -76,6 +82,7 @@
    "url": "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom"
   }
  ],
+ "retry_items": {},
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -376,7 +383,16 @@
   },
   "https://altabanka.rs/digitalno-bankarstvo/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
-   "hash": "a86086197c9c5b3f",
+   "hash": "18c7f1d02dcce282",
+   "paras": [
+    "e448d6be79",
+    "601ed29864",
+    "ecb5ee59a6",
+    "b481f7c0fd",
+    "c8c1506139",
+    "ada180c363",
+    "05a1e42090"
+   ],
    "posted": false,
    "seeded": true,
    "status": "seeded"
@@ -395,7 +411,15 @@
   },
   "https://altabanka.rs/finansijska-trzista/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
-   "hash": "45ab4be6f1656985",
+   "hash": "4a12c961d5838957",
+   "paras": [
+    "b90b07dcc6",
+    "72bb1e2f8f",
+    "f36c695347",
+    "e0e1f23737",
+    "a3d78c2d8e",
+    "71d6dc84f0"
+   ],
    "posted": false,
    "seeded": true,
    "status": "seeded"
@@ -458,7 +482,10 @@
   },
   "https://altabanka.rs/mali-biznis/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
-   "hash": "12092ee3796f7585",
+   "hash": "6b4a3a452f4b850a",
+   "paras": [
+    "4aab8deef7"
+   ],
    "posted": false,
    "seeded": true,
    "status": "seeded"
@@ -574,7 +601,8 @@
   },
   "https://altabanka.rs/poljoprivreda/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
-   "hash": "9683163073807a38",
+   "hash": "cda087d789a67db2",
+   "paras": [],
    "posted": false,
    "seeded": true,
    "status": "seeded"
@@ -649,7 +677,24 @@
   },
   "https://altabanka.rs/sepa/": {
    "first_seen": "2026-10-31T11:17:01+00:00",
-   "hash": "06acf336691cd141",
+   "hash": "4d1a54002e08506f",
+   "paras": [
+    "e13799acfd",
+    "317d25feb5",
+    "2078ba20d9",
+    "24028bb717",
+    "efa6f93068",
+    "da07af7eca",
+    "5995cc8223",
+    "babf4db2db",
+    "11d74e0efb",
+    "46f3f2c712",
+    "02224c029a",
+    "3d8b197f71",
+    "bc03c72656",
+    "0879b6f12c",
+    "55b502e465"
+   ],
    "posted": false,
    "seeded": true,
    "status": "seeded"
@@ -1867,50 +1912,50 @@
    "first_seen": "2026-10-31T14:11:06+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Šta znači likvidacija Alta banke",
-   "updated": "2026-10-31T15:36:52+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
    "first_seen": "2026-10-31T14:11:07+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Alta banka se zahvalila klijentima nakon oduzimanje dozvole za rad",
-   "updated": "2026-10-31T14:20:03+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.021.rs/info/srbija/459868/viceguverneri-nbs-pozvali-tuzilastvo-da-utvrdi-cinjenice-o-oduzimanju-dozvole-alta-banci": {
    "attempts": 57,
    "first_seen": "2026-10-31T14:11:03+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Viceguverneri NBS pozvali tužilaštvo da utvrdi činjenice o oduzimanju dozvole Alta banci",
-   "updated": "2026-10-31T16:07:23+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.021.rs/info/srbija/459869/sta-su-studenti-jos-pre-godinu-dana-pisali-o-alta-banci-gradjani-pune-kasu-privatne-banke-povezane-sa-sns-om": {
    "attempts": 45,
    "first_seen": "2026-10-31T14:11:05+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Šta su studenti još pre godinu dana pisali o Alta banci: \"Građani pune kasu privatne banke povezane sa SNS-om\"",
-   "updated": "2026-10-31T15:43:14+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.021.rs/info/srbija/459917/tuzilastvo-od-nbs-27-oktobra-trazeni-podaci-o-transferima-novca-iz-alta-banke": {
    "attempts": 66,
    "first_seen": "2026-10-31T15:13:33+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Tužilaštvo: Od NBS 27. oktobra traženi podaci o transferima novca iz Alta banke",
-   "updated": "2026-10-31T17:27:03+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.021.rs/info/srbija/459937/zaposleni-u-alta-banci-povlacenje-novca-pocelo-vec-u-utorak": {
    "first_seen": "2026-10-31T17:50:40+00:00",
@@ -2098,6 +2143,14 @@
    "first_seen": "2026-10-31T11:15:23+00:00",
    "forced": true,
    "hash": "d18a78a6997ba126",
+   "paras": [
+    "eaccf81b16",
+    "12e3a45625",
+    "d9d18c22f5",
+    "bfd198244c",
+    "225e86984d",
+    "53496b9cb0"
+   ],
    "posted": true,
    "status": "sent",
    "title": "АОД | Агенција за осигурање депозита"
@@ -5065,10 +5118,10 @@
    "first_seen": "2026-10-31T14:13:22+00:00",
    "kind": "press",
    "posted": false,
-   "reason": "retry_exhausted:llm",
-   "status": "quarantine",
+   "reason": "lost_in_outage",
+   "status": "rejected",
    "title": "Sindikati: Nakon gašenja ALTA banke zaštititi plate njenih službenika i uloge građana",
-   "updated": "2026-10-31T14:31:21+00:00"
+   "updated": "2026-10-31T18:16:13+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-traze-zastitu-plata-radnika-i-uloga-gradjana-u-alta-banci": {
    "attempts": 84,
