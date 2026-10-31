@@ -390,8 +390,17 @@ LLM_SYSTEM = (
     '  "tags": ["до 4 тегов из списка: выплаты, суд, требования, регулятор, клиенты, активы, банки, сроки"]\n'
     "}\n"
     "Не додумывай фактов, которых нет в тексте. Не давай юридических советов. Если материал на русском, "
-    "всё равно заполни все поля."
+    "всё равно заполни все поля. Поле action заполняй ТОЛЬКО если материал прямо адресован вкладчикам или "
+    "клиентам ALTA banka и содержит конкретный порядок действий; для документов о других банках и общих "
+    "новостей — null. Пиши только кириллицей и латиницей, никаких иероглифов и других письменностей."
 )
+
+CJK_RE = re.compile(r"[⺀-鿿가-힯豈-﫿＀-￯]+")
+
+
+def clean_ru(s: str) -> str:
+    """Убирает случайные иероглифы, которые иногда вставляет модель."""
+    return re.sub(r"\s{2,}", " ", CJK_RE.sub("", s)).strip()
 
 
 def llm_analyze(item: dict, translate: bool = False) -> dict | None:
@@ -432,8 +441,14 @@ def llm_analyze(item: dict, translate: bool = False) -> dict | None:
             return None
         data = json.loads(m.group(0))
         data["relevance"] = int(data.get("relevance", 0) or 0)
-        data["summary_ru"] = [str(s).strip() for s in (data.get("summary_ru") or []) if str(s).strip()][:6]
+        data["summary_ru"] = [clean_ru(str(s)) for s in (data.get("summary_ru") or []) if str(s).strip()][:6]
         data["tags"] = [str(t).strip().lstrip("#") for t in (data.get("tags") or [])][:4]
+        for k in ("title_ru", "translation_ru", "action"):
+            if data.get(k):
+                data[k] = clean_ru(str(data[k]))
+        # «Что делать» — только для действительно важного; иначе модель выдумывает советы
+        if data["relevance"] < LLM_MIN_RELEVANCE_POST:
+            data["action"] = None
         return data
     except Exception as e:  # noqa: BLE001
         log(f"WARN llm failed: {e}")
@@ -718,7 +733,10 @@ def format_tg_digest(items: list[dict]) -> str:
 # --- Telegram ---------------------------------------------------------------
 
 
-def tg_send(token: str, chat_id: str, text: str) -> bool:
+def tg_send(token: str, chat_id: str, text: str, no_preview: bool | None = None) -> bool:
+    if no_preview is None:
+        # подборки и объявления-PDF — без карточки предпросмотра, она только занимает место
+        no_preview = text.startswith(("<b>📰", "<b>💬")) or "AOD — объявление" in text[:200]
     try:
         r = requests.post(
             f"https://api.telegram.org/bot{token}/sendMessage",
@@ -726,7 +744,7 @@ def tg_send(token: str, chat_id: str, text: str) -> bool:
                 "chat_id": chat_id,
                 "text": text,
                 "parse_mode": "HTML",
-                "disable_web_page_preview": text.startswith("<b>📰"),
+                "disable_web_page_preview": no_preview,
             },
             timeout=TIMEOUT,
         )
