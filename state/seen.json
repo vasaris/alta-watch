@@ -2,16 +2,16 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:34:19+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-10-31T17:36:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "last_run": {
-   "at": "2026-10-31T17:35:39+00:00",
-   "elapsed_s": 79,
-   "llm_calls": 6,
-   "msgs": 2
+   "at": "2026-10-31T17:38:34+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 1,
+   "msgs": 0
   },
   "press": {
    "021": "ok:10",
@@ -29,7 +29,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   }
  },
@@ -1798,11 +1798,13 @@
    "attempts": 55,
    "first_seen": "2026-10-31T15:46:08+00:00",
    "kind": "telegram",
+   "novelty": 0,
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "⚖️ «Ковчег» пожаловался в Нацбанк Сербии на банки, которые не открывают счета россиянам «Ковчег» вместе с сербским право",
-   "updated": "2026-10-31T17:35:39+00:00"
+   "relevance": 2,
+   "status": "dup",
+   "title": "«Ковчег» пожаловался в НБС на отказы банков открывать счета россиянам",
+   "updated": "2026-10-31T17:38:34+00:00"
   },
   "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
    "attempts": 43,
