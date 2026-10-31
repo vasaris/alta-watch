@@ -2,14 +2,14 @@
  "flags": {},
  "health": {
   "aod_notices": {
-   "at": "2026-10-31T17:32:14+00:00",
+   "at": "2026-10-31T17:34:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "last_run": {
-   "at": "2026-10-31T17:33:43+00:00",
-   "elapsed_s": 88,
+   "at": "2026-10-31T17:35:39+00:00",
+   "elapsed_s": 79,
    "llm_calls": 6,
    "msgs": 2
   },
@@ -59,6 +59,16 @@
    "text": "Директор AOD: вклады Alta до 50 000 евро выплатят в течение недели через банк-выплатчик — Директор AOD подтвердила, что вкладчики будут уведомлены о банке-выплатчике в кратчайший срок (в течение нескольких дней). — Выплаты ожидаются в течение недели (в рамках 7-дневного законного срока).",
    "ts": 1793468017.0342965,
    "url": "https://www.rts.rs/vesti/ekonomija/6073697/alta-banka-novac-stedise-ulog-novac-isplata-kada-depozit-agencija.html"
+  },
+  {
+   "text": "НБС подал уголовное заявление против Alta Banka и руководства в прокуратуру по организованной преступности — НБС официально подала уголовное заявление в JTOK 30.10.2026 (ранее было известно о передаче, но не о дате и официальном подтверждении JTOK) — JTOK запросила проверку не только банки, но и отв",
+   "ts": 1793468097.3206725,
+   "url": "https://www.rts.rs/vesti/ekonomija/6073690/alta-banka-jtok-nbs.html"
+  },
+  {
+   "text": "От обменника к краху: взлёт и падение Alta Banka за семь лет — Хронология: Alta основана как JUBMES в 1979 году специализированной банкой для кредитования экспорта; в 1988–1987 возглавлялась Иваном Стамболичем; после распада Югославии потеряла статус и стала коммерческой банкой (с июля 1998) — Госуд",
+   "ts": 1793468111.9575753,
+   "url": "https://www.rts.rs/vesti/ekonomija/6073522/alta-banka-stecaj-kriza-racuni-krediti-uspon-pad-hronologija-.html"
   }
  ],
  "seeded": true,
@@ -765,11 +775,13 @@
    "attempts": 55,
    "first_seen": "2026-10-31T15:36:53+00:00",
    "kind": "press",
+   "novelty": 2,
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "Alta banka: TOK traži proveru poslovanja, NBS podnela krivičnu prijavu",
-   "updated": "2026-10-31T17:33:43+00:00"
+   "relevance": 7,
+   "status": "dup",
+   "title": "JTOK получила уголовное заявление НБС против Alta Banka; запросы о переводах в иностранство",
+   "updated": "2026-10-31T17:35:30+00:00"
   },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -1597,21 +1609,25 @@
    "attempts": 79,
    "first_seen": "2026-10-31T14:53:01+00:00",
    "kind": "telegram",
+   "novelty": 2,
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "⭕️ ALTA Banka, вероятнее всего, уже не возобновит работу Объявленный Национальным банком Сербии порядок закрытия ALTA Ba",
-   "updated": "2026-10-31T17:33:43+00:00"
+   "relevance": 6,
+   "status": "dup",
+   "title": "Alta Banka вряд ли возобновит работу — НБС запустил процедуру банкротства",
+   "updated": "2026-10-31T17:35:34+00:00"
   },
   "https://t.me/Serbia/107378": {
    "attempts": 60,
    "first_seen": "2026-10-31T15:32:59+00:00",
    "kind": "telegram",
+   "novelty": 7,
    "posted": false,
-   "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "В Белграде изменился банковский счёт для оплаты электричества из-за закрытия ALTA Banka Компания Elektroprivreda Srbije ",
-   "updated": "2026-10-31T17:33:43+00:00"
+   "reason": "Telegram-канал",
+   "relevance": 6,
+   "status": "signal",
+   "title": "EPS сменила банковский счёт для оплаты электричества из-за закрытия ALTA Banka",
+   "updated": "2026-10-31T17:35:39+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -1779,14 +1795,14 @@
    "title": "🫂 Сербы ответили твитер-аккаунту, который посмеялся над очередями в Alta В субботу утром популярный сербский аккаунт выл"
   },
   "https://t.me/volna_srbjia/3304": {
-   "attempts": 54,
+   "attempts": 55,
    "first_seen": "2026-10-31T15:46:08+00:00",
    "kind": "telegram",
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
    "status": "quarantine",
    "title": "⚖️ «Ковчег» пожаловался в Нацбанк Сербии на банки, которые не открывают счета россиянам «Ковчег» вместе с сербским право",
-   "updated": "2026-10-31T17:33:43+00:00"
+   "updated": "2026-10-31T17:35:39+00:00"
   },
   "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
    "attempts": 43,
@@ -5294,21 +5310,34 @@
    "attempts": 59,
    "first_seen": "2026-10-31T15:33:52+00:00",
    "kind": "press",
+   "novelty": 2,
    "posted": false,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "Николић: Стечај Алта банке велики потрес за финансијски систем Србије",
-   "updated": "2026-10-31T17:33:42+00:00"
+   "relevance": 6,
+   "status": "dup",
+   "title": "Николич: банкротство Alta — большой потрясение для финансовой системы Сербии",
+   "updated": "2026-10-31T17:35:23+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073522/alta-banka-stecaj-kriza-racuni-krediti-uspon-pad-hronologija-.html": {
    "attempts": 66,
    "first_seen": "2026-10-31T15:21:38+00:00",
+   "hash": "",
    "kind": "press",
-   "posted": false,
+   "message_id": 86,
+   "novelty": 6,
+   "posted": true,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "Од мењачнице до стечаја – успон и пад Алта банке",
-   "updated": "2026-10-31T17:33:41+00:00"
+   "relevance": 9,
+   "sent_at": "2026-10-31T17:35:11+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "выплаты",
+    "регулятор",
+    "активы"
+   ],
+   "title": "От обменника к краху: взлёт и падение Alta Banka за семь лет",
+   "updated": "2026-10-31T17:35:11+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073540/alta-banka-pokrenut-stecajni-postupak-informacije-o-pravima-klijenata-bice-blagovremeno-objavljene.html": {
    "attempts": 15,
@@ -5323,12 +5352,23 @@
   "https://www.rts.rs/vesti/ekonomija/6073690/alta-banka-jtok-nbs.html": {
    "attempts": 59,
    "first_seen": "2026-10-31T15:33:51+00:00",
+   "hash": "",
    "kind": "press",
-   "posted": false,
+   "message_id": 85,
+   "novelty": 8,
+   "posted": true,
    "reason": "retry_exhausted:llm_budget",
-   "status": "quarantine",
-   "title": "НБС поднела кривичну пријаву ЈТОК-у против правног лица Алта банке и више одговорних",
-   "updated": "2026-10-31T17:33:40+00:00"
+   "relevance": 9,
+   "sent_at": "2026-10-31T17:34:57+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
+   "title": "НБС подал уголовное заявление против Alta Banka и руководства в прокуратуру по организованной преступности",
+   "updated": "2026-10-31T17:34:57+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073697/alta-banka-novac-stedise-ulog-novac-isplata-kada-depozit-agencija.html": {
    "attempts": 53,
@@ -5358,6 +5398,12 @@
    "title": "Вопрос о роли губернатора НБС в допущении вывоза средств из Alta Banka",
    "ts": "2026-10-31T17:32:14+00:00",
    "url": "https://nova.rs/vesti/biznis/ako-se-utvrdi-da-je-vlasnik-alta-banke-davor-macura-izneo-novac-iz-zemlje-glavno-pitanje-je-da-li-je-guvernerka-nbs-jorgovanka-tabakovic-to-svesno-omogucila"
+  },
+  {
+   "reason": "Telegram-канал",
+   "title": "EPS сменила банковский счёт для оплаты электричества из-за закрытия ALTA Banka",
+   "ts": "2026-10-31T17:34:19+00:00",
+   "url": "https://t.me/Serbia/107378"
   }
  ]
 }
