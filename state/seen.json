@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T18:18:14+00:00",
+   "at": "2026-11-01T18:20:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T18:18:45+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-01T18:20:57+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2438,6 +2438,18 @@
    "title": "Adiko banka: события с Alta не влияют на наше бизнес",
    "title_src": "Adiko banka: Dešavanja sa Alta bankom ne utiču na naše poslovanje",
    "updated": "2026-11-01T14:44:43+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460018/narodna-banka-severne-makedonije-uvela-administrativnu-upravu-u-alta-banku-bitolj": {
+   "first_seen": "2026-11-01T18:20:57+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии ввел административное управление в Alta банк Bitolj",
+   "title_src": "Narodna banka Severne Makedonije uvela administrativnu upravu u Alta banku Bitolj",
+   "updated": "2026-11-01T18:20:57+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
