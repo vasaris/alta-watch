@@ -2,18 +2,29 @@
  "facts": {},
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник AOD новости": {
+    "last_sent": "2026-11-01T20:13:15+00:00",
+    "n": 1,
+    "since": "2026-11-01T20:11:28+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-01T20:13:15+00:00",
+    "n": 1,
+    "since": "2026-11-01T20:11:28+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-01T20:08:56+00:00",
+   "at": "2026-11-01T20:11:28+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T20:11:19+00:00",
-   "elapsed_s": 143,
-   "llm_calls": 0,
+   "at": "2026-11-01T20:14:00+00:00",
+   "elapsed_s": 151,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -39,8 +50,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -1091,6 +1102,17 @@
    "status": "rejected",
    "title": "NBS: Pokrenuti postupci protiv Alta banke, njenih akcionara i organa upravljanja, prava štediša i poverilaca zaštićena",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/savet-centralne-banke-crne-gore-platnoj-instituciji-alta-pay-group-podgorica-oduzeto-odobrenje-za-pruzanje-usluga": {
+   "first_seen": "2026-11-01T20:14:00+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
+   "title_src": "Savet Centralne banke Crne Gore: Platnoj instituciji \"Alta Pay Group\" Podgorica oduzeto odobrenje za pružanje usluga",
+   "updated": "2026-11-01T20:14:00+00:00"
   },
   "https://insajder.net/prenosimo/sdsm-trazi-od-narodne-banke-severne-makedonije-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
    "attempts": 73,
