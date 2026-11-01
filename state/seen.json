@@ -4,15 +4,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T13:42:15+00:00",
+   "at": "2026-11-01T13:44:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T13:42:44+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-01T13:44:37+00:00",
+   "elapsed_s": 23,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
