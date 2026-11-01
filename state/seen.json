@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T08:58:12+00:00",
+   "at": "2026-11-01T09:00:44+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T08:58:42+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 1,
+   "at": "2026-11-01T09:01:32+00:00",
+   "elapsed_s": 47,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -42,7 +42,27 @@
    "AOD объявления": 0
   }
  },
- "pending": {},
+ "pending": {
+  "press": [
+   {
+    "date": "01.11.2026 08:59",
+    "first": "Четыре вице-губернатора НБС официально потребовали расследование возможной уголовной ответственности внутри регулятора за отзыв лицензии Alta",
+    "important": false,
+    "kind": "press",
+    "outlet": "RTS",
+    "tags": [
+     "регулятор",
+     "суд",
+     "требования",
+     "активы"
+    ],
+    "title": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
+    "title_src": "Вицегувернери траже истрагу: Ко је одговоран унутар НБС због гашења Алта банке",
+    "ts": 1793523687.63114,
+    "url": "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html"
+   }
+  ]
+ },
  "recent": [
   {
    "text": "Прокуратура по организованной преступности расследует переводы средств из Alta Banka — Прокуратура по организованной преступности расследует переводы средств из Alta Banka — Запросы направлены 27 и 29 октября; НБС ответила 30 октября с ограничениями по срокам",
@@ -2188,6 +2208,17 @@
    "title": "Студенты об Alta banci: предотвращены тяжёлые последствия для граждан Сербии, вот следующие шаги",
    "title_src": "Studenti o Alta banci: Sprečene teže posledice po građane Srbije, ovo su naredni koraci",
    "updated": "2026-11-01T06:03:04+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/459977/udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-tu-se-isticu-dva-pitanja": {
+   "first_seen": "2026-11-01T09:01:32+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Удовицкий о Alta Banka: это не произошло бы, если бы кто-то честно работал",
+   "title_src": "Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, tu se ističu dva pitanja",
+   "updated": "2026-11-01T09:01:32+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
@@ -5798,6 +5829,17 @@
    "status": "rejected",
    "title": "Алта банка: Покренут стечајни поступак, информације о правима клијената биће благовремено објављене",
    "updated": "2026-10-31T14:41:04+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html": {
+   "first_seen": "2026-11-01T09:01:27+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
+   "title_src": "Вицегувернери траже истрагу: Ко је одговоран унутар НБС због гашења Алта банке",
+   "updated": "2026-11-01T09:01:27+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073690/alta-banka-jtok-nbs.html": {
    "attempts": 59,
