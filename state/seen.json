@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T08:56:14+00:00",
+   "at": "2026-11-01T08:58:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T08:56:45+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-01T08:58:42+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1079,6 +1079,17 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://n1info.rs/biznis/alta-banka-udovicki-posteno-radio-morao-da-se-pojaca-nadzor": {
+   "first_seen": "2026-11-01T08:58:42+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Бывшая главная инспектор НБС: крах Alta произошёл из-за нечестной работы, надзор нужно было усилить раньше",
+   "title_src": "Bivša guvernerka NBS o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, morao da se pojača nadzor",
+   "updated": "2026-11-01T08:58:42+00:00"
   },
   "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
    "first_seen": "2026-10-31T12:35:12+00:00",
