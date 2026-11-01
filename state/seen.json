@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T22:36:12+00:00",
+   "at": "2026-11-01T22:38:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T22:36:37+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-01T22:38:45+00:00",
+   "elapsed_s": 30,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -45,24 +45,7 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "01.11.2026 22:05",
-    "first": "Обыск в банке начался вчера и длится минимум 30 часов на момент публикации (01.11.2026 22:05)",
-    "important": false,
-    "kind": "press",
-    "outlet": "Nova.rs",
-    "tags": [
-     "суд",
-     "регулятор",
-     "активы"
-    ],
-    "title": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
-    "title_src": "U toku pretres Alta banke Davora Macure, biznismena bliskog SNS",
-    "ts": 1793570922.0592806,
-    "url": "https://nova.rs/vesti/hronika/u-toku-pretres-alta-banke-davora-macure-biznismena-bliskog-sns"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -119,6 +102,11 @@
    "text": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
    "ts": 1793565634.7651913,
    "url": "https://n1info.rs/region/savet-centralne-banke-crne-gore-oduzeo-odobrenje-alta-pay-group-podgorica"
+  },
+  {
+   "text": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
+   "ts": 1793572723.916211,
+   "url": "https://nova.rs/vesti/hronika/u-toku-pretres-alta-banke-davora-macure-biznismena-bliskog-sns"
   }
  ],
  "retry_items": {},
@@ -1773,13 +1761,20 @@
   "https://nova.rs/vesti/hronika/u-toku-pretres-alta-banke-davora-macure-biznismena-bliskog-sns": {
    "first_seen": "2026-11-01T22:08:42+00:00",
    "kind": "press",
+   "message_id": 93,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-01T22:38:43+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы"
+   ],
    "title": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
    "title_src": "U toku pretres Alta banke Davora Macure, biznismena bliskog SNS",
-   "updated": "2026-11-01T22:08:42+00:00"
+   "updated": "2026-11-01T22:38:43+00:00"
   },
   "https://nova.rs/vesti/politika/ds-trazi-pritvor-za-jorgovanku-tabakovic-i-davora-macuru": {
    "attempts": 20,
