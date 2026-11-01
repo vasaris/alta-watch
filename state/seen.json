@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T08:48:51+00:00",
+   "at": "2026-11-01T08:50:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T08:49:20+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 1,
+   "at": "2026-11-01T08:50:47+00:00",
+   "elapsed_s": 28,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1392,6 +1392,16 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/kori-udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor": {
+   "first_seen": "2026-11-01T08:50:47+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/kori-udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor",
+   "status": "dup",
+   "title": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
+   "title_src": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
+   "updated": "2026-11-01T08:50:47+00:00"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
