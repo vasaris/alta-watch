@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T18:58:12+00:00",
+   "at": "2026-11-01T19:00:42+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T18:58:40+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-01T19:01:18+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2394,6 +2394,18 @@
    "status": "rejected",
    "title": "Вучич и Орбан записали видео о дружбе на фоне краха Alta Banka",
    "updated": "2026-10-31T17:51:33+00:00"
+  },
+  "https://t.me/volna_srbjia/3310": {
+   "first_seen": "2026-11-01T19:01:18+00:00",
+   "kind": "telegram",
+   "novelty": 3,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Сербский Twitter после краха Alta: от лозунгов к солидарности с русскими",
+   "title_src": "🇷🇸 «Предупредите своего русского»: продолжаем читать, что пишут в сербском твитере после краха Alta — там теперь собирают таблицу российских бизнесов, которым надо помочь наличными Выходные в сербском твиттере начались…",
+   "updated": "2026-11-01T19:01:18+00:00"
   },
   "https://www.021.rs/bbc/bbc/459872/sta-znaci-likvidacija-alta-banke": {
    "attempts": 43,
