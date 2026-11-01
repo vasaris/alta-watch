@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T22:20:21+00:00",
+   "at": "2026-11-01T22:22:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T22:20:54+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-01T22:22:53+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1605,6 +1605,18 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/pokret-beograd-ostaje-ko-ce-odlucivati-o-stecaju-alta-banke": {
+   "first_seen": "2026-11-01T22:22:53+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Активист требует проверки судей в деле о банкротстве Alta: конфликт интересов и миллиарды в стечае",
+   "title_src": "Pokret \"Beograd ostaje\": Ko će odlučivati o stečaju Alta banke",
+   "updated": "2026-11-01T22:22:53+00:00"
   },
   "https://nova.rs/vesti/biznis/redovi-ispred-ekspoziture-alta-banke-u-novom-sadu-na-desetine-gradjana-ceka-da-podigne-novac-nakon-oduzimanja-dozvole-banci-video": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -6381,6 +6393,12 @@
    "title": "Страхование вкладов ALTA: кто получит выплаты и в какие сроки",
    "ts": "2026-11-01T20:04:13+00:00",
    "url": "https://t.me/Serbia/107427"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Активист требует проверки судей в деле о банкротстве Alta: конфликт интересов и миллиарды в стечае",
+   "ts": "2026-11-01T22:22:14+00:00",
+   "url": "https://nova.rs/vesti/biznis/pokret-beograd-ostaje-ko-ce-odlucivati-o-stecaju-alta-banke"
   }
  ]
 }
