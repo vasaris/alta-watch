@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T13:16:13+00:00",
+   "at": "2026-11-01T13:18:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T13:16:47+00:00",
+   "at": "2026-11-01T13:18:48+00:00",
    "elapsed_s": 33,
-   "llm_calls": 0,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1665,6 +1665,18 @@
    "status": "rejected",
    "title": "Парламентские выборы в Сербии: дата и избирательные списки",
    "updated": "2026-10-31T18:14:48+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/addiko-bank-beograd-ostajemo-deo-addiko-bank-ag-nemamo-izlozenost-prema-alta-banci": {
+   "first_seen": "2026-11-01T13:18:48+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Addiko Bank Beograd: нет экспозиции к Alta banci",
+   "title_src": "Addiko Bank Beograd: Ostajemo deo Addiko Bank AG, nemamo izloženost prema Alta banci",
+   "updated": "2026-11-01T13:18:48+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:17:01+00:00",
