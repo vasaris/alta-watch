@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T18:08:13+00:00",
+   "at": "2026-11-01T18:10:59+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T18:10:48+00:00",
-   "elapsed_s": 154,
-   "llm_calls": 2,
+   "at": "2026-11-01T18:13:27+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -38,8 +38,8 @@
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -6166,6 +6166,18 @@
    "title": "Северная Македония ввела временное управление над Alta банком Битоль; лимит снятий 160 евро в неделю",
    "title_src": "Северна Македонија увела привремену управу над Алта банком Битољ",
    "updated": "2026-11-01T17:49:07+00:00"
+  },
+  "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
+   "first_seen": "2026-11-01T18:13:27+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Македонский регулятор ввел временную администрацию над Alta банком Битоль и ограничил снятия",
+   "title_src": "Северна Македонија увела привремену управу над Алта банком Битољ",
+   "updated": "2026-11-01T18:13:27+00:00"
   }
  },
  "signals": [
