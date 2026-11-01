@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T09:30:34+00:00",
+   "at": "2026-11-01T09:32:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T09:31:06+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-01T09:32:37+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -43,25 +43,7 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "01.11.2026 08:59",
-    "first": "Четыре вице-губернатора НБС официально потребовали расследование возможной уголовной ответственности внутри регулятора за отзыв лицензии Alta",
-    "important": false,
-    "kind": "press",
-    "outlet": "RTS",
-    "tags": [
-     "регулятор",
-     "суд",
-     "требования",
-     "активы"
-    ],
-    "title": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
-    "title_src": "Вицегувернери траже истрагу: Ко је одговоран унутар НБС због гашења Алта банке",
-    "ts": 1793523687.63114,
-    "url": "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -103,6 +85,11 @@
    "text": "Директор AOD: Хозяйственный суд Белграда откроет банкротство Alta в понедельник, выплаты начнутся через неделю — Директор AOD назвала конкретный день открытия банкротства — понедельник (3 ноября 2026). — Уточнено, что динарские вклады выплатят в динарах, валютные — в евро (ранее было только упоминан",
    "ts": 1793468356.6494038,
    "url": "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom"
+  },
+  {
+   "text": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
+   "ts": 1793525556.4901145,
+   "url": "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html"
   }
  ],
  "retry_items": {},
@@ -5854,13 +5841,21 @@
   "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html": {
    "first_seen": "2026-11-01T09:01:27+00:00",
    "kind": "press",
+   "message_id": 90,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-01T09:32:36+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "требования",
+    "активы"
+   ],
    "title": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
    "title_src": "Вицегувернери траже истрагу: Ко је одговоран унутар НБС због гашења Алта банке",
-   "updated": "2026-11-01T09:01:27+00:00"
+   "updated": "2026-11-01T09:32:36+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6073690/alta-banka-jtok-nbs.html": {
    "attempts": 59,
