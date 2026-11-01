@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T20:36:48+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-01T20:38:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T20:37:18+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-01T20:40:36+00:00",
+   "elapsed_s": 143,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -34,33 +34,18 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "01.11.2026 20:05",
-    "first": "Центральный банк Черногории отозвал лицензию у Alta Pay Group (платежная компания группы Alta) в Подгорице 01.11.2026",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "регулятор"
-    ],
-    "title": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
-    "title_src": "Savet Centralne banke Crne Gore oduzeo odobrenje za pružanje platnih usluga „Alta Pay Group“ Podgorica",
-    "ts": 1793563724.4893944,
-    "url": "https://n1info.rs/region/savet-centralne-banke-crne-gore-oduzeo-odobrenje-alta-pay-group-podgorica"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -112,6 +97,11 @@
    "text": "От обменника к краху: история расширения Alta Banka и владения Давора Макуры",
    "ts": 1793552431.8616576,
    "url": "https://nova.rs/vesti/biznis/dosije-alta-od-menjacnice-u-zemunu-do-banke-na-ciji-racun-placamo-eps-u-mup-u-kako-se-sirilo-poslovanje-banke-kojoj-je-nbs-oduzela-dozvolu-za-rad"
+  },
+  {
+   "text": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
+   "ts": 1793565634.7651913,
+   "url": "https://n1info.rs/region/savet-centralne-banke-crne-gore-oduzeo-odobrenje-alta-pay-group-podgorica"
   }
  ],
  "retry_items": {},
@@ -1349,13 +1339,18 @@
   "https://n1info.rs/region/savet-centralne-banke-crne-gore-oduzeo-odobrenje-alta-pay-group-podgorica": {
    "first_seen": "2026-11-01T20:08:44+00:00",
    "kind": "press",
+   "message_id": 92,
    "novelty": 8,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-01T20:40:34+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
    "title": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
    "title_src": "Savet Centralne banke Crne Gore oduzeo odobrenje za pružanje platnih usluga „Alta Pay Group“ Podgorica",
-   "updated": "2026-11-01T20:08:44+00:00"
+   "updated": "2026-11-01T20:40:34+00:00"
   },
   "https://n1info.rs/vesti/dugalic-alta-banke-mrlja-bankarski-sektor": {
    "first_seen": "2026-11-01T17:13:15+00:00",
