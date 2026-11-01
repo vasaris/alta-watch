@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T13:26:13+00:00",
+   "at": "2026-11-01T13:28:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T13:26:42+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-01T13:28:59+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -909,6 +909,18 @@
    "title": "Обзор сербской прессы на неделю 1 ноября 2026: Alta Banka среди других тем",
    "title_src": "Naslovne strane za nedelju, 1. novembar 2026. godine",
    "updated": "2026-11-01T09:44:40+00:00"
+  },
+  "https://beta.rs/content/255129-adiko-banka-desavanja-sa-alta-bankom-ne-uticu-na-nase-poslovanje-i-proces-preuzimanja-maticne-banke": {
+   "first_seen": "2026-11-01T13:28:59+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Adiko banka: крах Alta не влияет на наше бизнес и процесс поглощения",
+   "title_src": "Adiko banka: Dešavanja sa Alta bankom ne utiču na naše poslovanje i proces preuzimanja matične banke",
+   "updated": "2026-11-01T13:28:59+00:00"
   },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
