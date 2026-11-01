@@ -4,14 +4,14 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T14:03:16+00:00",
+   "at": "2026-11-01T14:04:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T14:03:48+00:00",
+   "at": "2026-11-01T14:04:45+00:00",
    "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
@@ -20,7 +20,7 @@
   },
   "press": {
    "021": "ok:10",
-   "beta": "network_error",
+   "beta": "ok:10",
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
