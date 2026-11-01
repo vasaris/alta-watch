@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T13:23:02+00:00",
+   "at": "2026-11-01T13:24:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T13:23:31+00:00",
+   "at": "2026-11-01T13:24:41+00:00",
    "elapsed_s": 28,
-   "llm_calls": 0,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -5420,6 +5420,18 @@
    "status": "rejected",
    "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
    "updated": "2026-10-31T16:49:42+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/adiko-banka-istice-da-oduzimanje-dozvole-alta-banci-ne-utice-na-njihovo-poslovanje": {
+   "first_seen": "2026-11-01T13:24:41+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Adiko banka заявила об отсутствии влияния отзыва лицензии Alta на её деятельность",
+   "title_src": "Adiko banka ističe da oduzimanje dozvole Alta banci ne utiče na njihovo poslovanje",
+   "updated": "2026-11-01T13:24:41+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
