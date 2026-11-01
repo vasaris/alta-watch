@@ -4,15 +4,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T10:04:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-01T10:06:51+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T10:06:38+00:00",
-   "elapsed_s": 144,
+   "at": "2026-11-01T10:07:29+00:00",
+   "elapsed_s": 37,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -34,12 +34,12 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 1,
-   "AOD объявления": 1
+   "AOD новости": 0,
+   "AOD объявления": 0
   }
  },
  "pending": {
@@ -1077,6 +1077,16 @@
    "status": "dup",
    "title": "JTOK запросила проверку Alta Banka и должностных лиц НБС по подозрению на отток средств за границу",
    "updated": "2026-10-31T17:33:27+00:00"
+  },
+  "https://insajder.net/prenosimo/udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor": {
+   "first_seen": "2026-11-01T10:07:29+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/kori-udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor",
+   "status": "dup",
+   "title": "Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
+   "title_src": "Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
+   "updated": "2026-11-01T10:07:29+00:00"
   },
   "https://insajder.net/prenosimo/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T14:11:00+00:00",
