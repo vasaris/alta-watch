@@ -4,15 +4,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T17:08:12+00:00",
+   "at": "2026-11-01T17:10:43+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T17:10:33+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-01T17:13:15+00:00",
+   "elapsed_s": 151,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -38,8 +38,8 @@
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -1282,6 +1282,17 @@
    "status": "rejected",
    "title": "Оппозиция Северной Македонии требует отставки главы центробанка из-за ALTA",
    "updated": "2026-10-31T17:28:40+00:00"
+  },
+  "https://n1info.rs/vesti/dugalic-alta-banke-mrlja-bankarski-sektor": {
+   "first_seen": "2026-11-01T17:13:15+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Дугалич: крах Alta — пятно на банковском секторе, но вкладчикам не о чем беспокоиться",
+   "title_src": "Dugalić o slučaju Alta banke: Mrlja na bankarski sektor - ali građani ne treba da brinu",
+   "updated": "2026-11-01T17:13:15+00:00"
   },
   "https://n1info.rs/vesti/ivan-ninic-krivicna-prijava-tok-ministarstvo": {
    "first_seen": "2026-10-31T20:59:04+00:00",
