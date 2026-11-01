@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T08:14:13+00:00",
+   "at": "2026-11-01T08:16:42+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T08:16:30+00:00",
-   "elapsed_s": 136,
-   "llm_calls": 0,
+   "at": "2026-11-01T08:19:16+00:00",
+   "elapsed_s": 153,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -38,8 +38,8 @@
    "nbs": 36
   },
   "src_fail": {
-   "AOD новости": 1,
-   "AOD объявления": 1
+   "AOD новости": 2,
+   "AOD объявления": 2
   }
  },
  "pending": {},
@@ -5808,6 +5808,17 @@
    ],
    "title": "Директор AOD: вклады Alta до 50 000 евро выплатят в течение недели через банк-выплатчик",
    "updated": "2026-10-31T17:33:37+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6073904/alta-banka-stecaj-kori-udovicki-nbs-finansijska-kriza.html": {
+   "first_seen": "2026-11-01T08:19:16+00:00",
+   "kind": "press",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Удовички: НБС должна была раньше реагировать на проблемы Alta, банковская система стабильна",
+   "title_src": "Удовички: НБС морала раније да реагује у случају Алта банке, за ширу финансијску кризу би неко требало озбиљно да се потруди",
+   "updated": "2026-11-01T08:19:16+00:00"
   }
  },
  "signals": [
