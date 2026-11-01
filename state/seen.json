@@ -2,17 +2,23 @@
  "facts": {},
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник ALTA": {
+    "last_sent": "2026-11-01T19:12:30+00:00",
+    "n": 1,
+    "since": "2026-11-01T19:10:20+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-01T19:08:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-01T19:10:20+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T19:09:14+00:00",
-   "elapsed_s": 58,
+   "at": "2026-11-01T19:13:06+00:00",
+   "elapsed_s": 165,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -34,13 +40,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 2,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
