@@ -4,15 +4,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-01T12:46:16+00:00",
+   "at": "2026-11-01T12:48:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-01",
   "last_run": {
-   "at": "2026-11-01T12:46:47+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-01T12:48:39+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -1733,6 +1733,16 @@
     "регулятор"
    ],
    "title": "Viceguverneri NBS: Stvarno stanje u Alta banci drastično odstupalo od izveštaja koje su nam dostavljali"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
+   "first_seen": "2026-11-01T12:48:39+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Zaposleni u Alta banci: Do ponedeljka bilo sve regularno, od utorka krenulo masovno prebacivanje novca",
+   "title_src": "Zaposleni u Alta banci: Do ponedeljka bilo sve regularno, od utorka krenulo masovno prebacivanje novca",
+   "updated": "2026-11-01T12:48:39+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/zbog-propasti-alta-banke-promenjen-broj-racuna-za-placanje-struje-u-beogradu-aplikacija-nedostupna": {
    "first_seen": "2026-10-31T11:17:01+00:00",
