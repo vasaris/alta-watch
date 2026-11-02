@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T11:40:35+00:00",
+   "at": "2026-11-02T11:42:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T11:41:07+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 1,
+   "at": "2026-11-02T11:43:04+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -52,7 +52,24 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "02.11.2026 11:34",
+    "first": "NBS издал специальное уведомление для обменников, работавших с Alta (дата: 2 ноября 2026)",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "регулятор",
+     "банки",
+     "сроки"
+    ],
+    "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
+    "title_src": "NBS: Menjači koji su imali ugovor sa Alta bankom da preduzmu odgovarajuće mere",
+    "ts": 1793619784.5840592,
+    "url": "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere"
+   }
+  ]
  },
  "recent": [
   {
@@ -164,6 +181,11 @@
    "text": "NBS обязал уполномоченные обменники срочно сменить банка после отзыва лицензии Alta — NBS издал специальное уведомление для обменников, работавших с Alta (дата: 2 ноября 2026) — Обменники должны сменить банка в кратчайший срок и уведомить NBS не позже следующего рабочего дня",
    "ts": 1793617483.8193257,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-ima-obavestenje-za-ovlascene-menjace-koji-su-imali-zakljucen-ugovor-sa-alta-bankom"
+  },
+  {
+   "text": "Давор Макура арестован по приказу JTOK; задержание на 48 часов — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK — Задержание определено на 48 часов",
+   "ts": 1793619775.7811222,
+   "url": "https://nova.rs/vesti/hronika/davoru-macuri-odredjeno-zadrzavanje-po-nalogu-jtok-potvrdili-njegovi-branioci-iz-advokatske-kancelarije-spahovic"
   }
  ],
  "retry_items": {},
@@ -1177,6 +1199,17 @@
    "title": "Narodna banka Srbije oduzela dozvolu Alta banci zbog znatnog pogoršanja finansijskog stanja",
    "updated": "2026-10-31T14:11:00+00:00"
   },
+  "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere": {
+   "first_seen": "2026-11-02T11:43:04+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
+   "title_src": "NBS: Menjači koji su imali ugovor sa Alta bankom da preduzmu odgovarajuće mere",
+   "updated": "2026-11-02T11:43:04+00:00"
+  },
   "https://insajder.net/prenosimo/nbs-pokrenuti-postupci-protiv-alta-banke-njenih-akcionara-i-organa-upravljanja-prava-stedisa-i-poverilaca-zasticena": {
    "first_seen": "2026-10-31T14:11:00+00:00",
    "kind": "press",
@@ -1894,6 +1927,26 @@
    "title": "Адвокат Нинич анонсирует уголовное заявление против чиновников министерства",
    "title_src": "Advokat Ninić najavio novu krivičnu prijavu protiv jedne državne institucije",
    "updated": "2026-10-31T20:46:45+00:00"
+  },
+  "https://nova.rs/vesti/hronika/davoru-macuri-odredjeno-zadrzavanje-po-nalogu-jtok-potvrdili-njegovi-branioci-iz-advokatske-kancelarije-spahovic": {
+   "first_seen": "2026-11-02T11:42:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 103,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T11:42:55+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "клиенты"
+   ],
+   "title": "Давор Макура арестован по приказу JTOK; задержание на 48 часов",
+   "title_src": "Davoru Macuri određeno zadržavanje po nalogu JTOK, potvrdili njegovi branioci iz advokatske kancelarije Spahović",
+   "updated": "2026-11-02T11:42:55+00:00"
   },
   "https://nova.rs/vesti/hronika/oglasilo-se-javno-tuzilastvo-za-organizovani-kriminal-o-slucaju-alta-banke": {
    "attempts": 84,
