@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T20:08:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T20:10:22+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T20:08:46+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-02T20:12:59+00:00",
+   "elapsed_s": 157,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -73,11 +73,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Прокуратура по организованной преступности запросила у НБС данные о переводах Alta Banka в иностранство — Дополнительный запрос от 29 октября специально о конвертации и оттоках средств Alta Banka — Уголовное заявление НБС передано TOK 30 октября по электронной почте",
-   "ts": 1793467753.4623551,
-   "url": "https://n1info.rs/vesti/tok-nbs-transfer-novca-alta-banka-inostranstvo"
-  },
   {
    "text": "Прокуратура по организованной преступности получила уголовное заявление НБС против Alta Banka и руководства — Уголовное заявление НБС против Alta Banka и руководства передано в JTOK 30.10.2026 — JTOK направила запрос в МВД и SBPOK о проверке деятельности банка и ответственных лиц НБС 30.10.2026",
    "ts": 1793467997.852869,
@@ -272,6 +267,11 @@
    "text": "Прокурор Стаменкович: деньги из Alta banke должны быть заблокированы и проверены — Прокурор Верховного обвинения Бранко Стаменкович официально заявил о необходимости блокировки всех средств Alta и проверки каждой транзакции. — Подтверждение сведений о вывозе ~380 млн евро наличными квалифицируется п",
    "ts": 1793649050.498607,
    "url": "https://insajder.net/prenosimo/tuzilac-stamenkovic-o-alta-banci-novac-mora-da-bude-blokiran-i-svaki-dinar-proveren"
+  },
+  {
+   "text": "Государственные компании (ЕПС, Телеком, Водовод) хранили деньги в Alta banke; владелец Макура арестован по подозрению в хищении €385 млн — ЕПС получила тендер на электронную инкассацию счетов за электроэнергию через Alta; годовой прибыль Alta от этого контракта ~17 млн евро; комиссия 50 динаров за п",
+   "ts": 1793650377.7652328,
+   "url": "https://nova.rs/vesti/biznis/koje-drzavne-firme-su-cuvale-novac-u-alta-banci-davora-macure"
   }
  ],
  "retry_items": {},
@@ -2084,6 +2084,26 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/koje-drzavne-firme-su-cuvale-novac-u-alta-banci-davora-macure": {
+   "first_seen": "2026-11-02T20:12:57+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 122,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-02T20:12:57+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "выплаты",
+    "требования"
+   ],
+   "title": "Государственные компании (ЕПС, Телеком, Водовод) хранили деньги в Alta banke; владелец Макура арестован по подозрению в ",
+   "title_src": "EPS, EMS, Telekom, Vodovod… : Koje državne firme su čuvale novac u Alta banci Davora Macure, kojoj je oduzeta dozvola za rad",
+   "updated": "2026-11-02T20:12:57+00:00"
   },
   "https://nova.rs/vesti/biznis/koje-sve-kompanije-ima-davor-macura": {
    "first_seen": "2026-10-31T11:17:01+00:00",
