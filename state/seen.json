@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T10:18:27+00:00",
+   "at": "2026-11-02T10:20:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T10:18:55+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-02T10:20:56+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -45,7 +45,24 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "02.11.2026 10:19",
+    "first": "Давор Макура арестован в ночь на 2 ноября 2026 года.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Nova.rs",
+    "tags": [
+     "регулятор",
+     "активы",
+     "суд"
+    ],
+    "title": "Арестован Давор Макура, владелец Alta banke",
+    "title_src": "Uhapšen Davor Macura, biznismen blizak Srpskoj naprednoj stranci i vlasnik Alta banke",
+    "ts": 1793614856.5850995,
+    "url": "https://nova.rs/vesti/hronika/uhapsen-davor-macura-biznismen-blizak-srpskoj-naprednoj-stranci-i-vlasnik-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -1885,6 +1902,17 @@
    "title": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
    "title_src": "U toku pretres Alta banke Davora Macure, biznismena bliskog SNS",
    "updated": "2026-11-01T22:38:43+00:00"
+  },
+  "https://nova.rs/vesti/hronika/uhapsen-davor-macura-biznismen-blizak-srpskoj-naprednoj-stranci-i-vlasnik-alta-banke": {
+   "first_seen": "2026-11-02T10:20:56+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Арестован Давор Макура, владелец Alta banke",
+   "title_src": "Uhapšen Davor Macura, biznismen blizak Srpskoj naprednoj stranci i vlasnik Alta banke",
+   "updated": "2026-11-02T10:20:56+00:00"
   },
   "https://nova.rs/vesti/politika/ds-trazi-pritvor-za-jorgovanku-tabakovic-i-davora-macuru": {
    "attempts": 20,
