@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T17:02:17+00:00",
+   "at": "2026-11-02T17:05:40+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T17:04:42+00:00",
-   "elapsed_s": 145,
-   "llm_calls": 0,
+   "at": "2026-11-02T17:08:08+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -64,8 +64,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -1586,6 +1586,17 @@
     "регулятор"
    ],
    "title": "NBS o oduzimanju dozvole za rad Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
+  },
+  "https://n1info.rs/biznis/nbs-informacije-o-ostvarivanju-prava-klijenti-alta-banke-mogu-da-dobiju-od-agencije-za-osiguranje-depozita": {
+   "first_seen": "2026-11-02T17:08:08+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "NBS: клиенты Alta banke могут получить информацию о правах в AOD",
+   "title_src": "NBS: Informacije o ostvarivanju prava, klijenti Alta banke mogu da dobiju od Agencije za osiguranje depozita",
+   "updated": "2026-11-02T17:08:08+00:00"
   },
   "https://n1info.rs/biznis/nbs-oduzela-dozvolu-i-platnoj-instituciji-alta-group-doo-sredstva-korisnika-platnih-usluga-su-zasticena": {
    "first_seen": "2026-11-02T16:54:45+00:00",
