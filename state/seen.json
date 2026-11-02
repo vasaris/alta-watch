@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T13:23:13+00:00",
+   "at": "2026-11-02T13:24:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T13:23:50+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-02T13:24:54+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2309,6 +2309,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/macura-iz-trezora-alta-banke-ukrao-380-miliona-evra-u-kesu-sumnja-tok": {
+   "first_seen": "2026-11-02T13:24:54+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Макура задержан утром 2 ноября; подозрение в хищении 380 млн евро наличными из тrezora",
+   "title_src": "Macura iz trezora Alta banke ukrao 380 miliona evra u kešu, sumnja TOK",
+   "updated": "2026-11-02T13:24:54+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/narodna-banka-srbije-zatvorila-alta-banku-krece-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
