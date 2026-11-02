@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T11:52:18+00:00",
+   "at": "2026-11-02T11:54:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T11:52:48+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-02T11:54:56+00:00",
+   "elapsed_s": 44,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 2,
    "version": "2.1"
   },
   "press": {
@@ -191,6 +191,16 @@
    "text": "Русские СМИ о крахе Alta banke: катастрофа для иммигрантов и предпринимателей — Русские СМИ (Komersant, Секрет фирмы, BFM.ru) активно освещают последствия краха Alta banke для русских граждан и предпринимателей. — Клиенты сообщают о невозможности открыть счета в других банках до марта 2027 года из-з",
    "ts": 1793620269.682583,
    "url": "https://www.danas.rs/svet/alta-banka-rusi"
+  },
+  {
+   "text": "NBS: депозиты защищены, банковский сектор стабилен, курс динара будет сохранён — NBS официально подтвердила, что AOD имеет необходимые средства для выплат депозитов в установленный законом срок. — NBS подтвердила решимость сохранить стабильность динара к евро, используя интервенции на валютном рынке",
+   "ts": 1793620474.552869,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21856"
+  },
+  {
+   "text": "Financial Times: ECB проверял Alta banku по подозрениям в отмывании денег; закрытие затронуло русских в Сербии — ECB (Европейский центральный банк) проводил проверку Alta banke по подозрениям в отмывании денег — новый уровень международного надзора",
+   "ts": 1793620495.2904062,
+   "url": "https://www.021.rs/info/srbija/460079/fajnensel-tajms-ecb-proveravala-srpsku-alta-banku-zbog-pranja-novca-zatvaranje-pogodilo-ruse-u-srbiji"
   }
  ],
  "retry_items": {},
@@ -3083,6 +3093,26 @@
    "title": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
    "title_src": "Tužba protiv Malog, Đedović Handanović, Macuru i čelnike EPS-a zbog računa u Alta banci",
    "updated": "2026-11-02T09:06:28+00:00"
+  },
+  "https://www.021.rs/info/srbija/460079/fajnensel-tajms-ecb-proveravala-srpsku-alta-banku-zbog-pranja-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
+   "first_seen": "2026-11-02T11:54:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 106,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T11:54:55+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки",
+    "клиенты",
+    "активы"
+   ],
+   "title": "Financial Times: ECB проверял Alta banku по подозрениям в отмывании денег; закрытие затронуло русских в Сербии",
+   "title_src": "Fajnenšel tajms: ECB proveravala srpsku Alta banku zbog pranja novca, zatvaranje pogodilo Ruse u Srbiji",
+   "updated": "2026-11-02T11:54:55+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
@@ -6724,6 +6754,28 @@
    ],
    "title": "Обавештење овлашћеним мењачима који су имали закључен уговор са Алта банком",
    "updated": "2026-11-02T10:42:06+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21856": {
+   "first_seen": "2026-11-02T11:54:34+00:00",
+   "hash": "1dcfe4d03fa49dca",
+   "kind": "news",
+   "message_id": 105,
+   "novelty": 5,
+   "paras": [
+    "a17083d684",
+    "7e77f0ebf9"
+   ],
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T11:54:34+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Осигурани депозити су заштићени, банкарски сектор је стабилан, а стабилност динара ће бити очувана",
+   "updated": "2026-11-02T11:54:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
