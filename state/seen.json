@@ -27,17 +27,28 @@
  },
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник AOD новости": {
+    "last_sent": "2026-11-02T17:10:09+00:00",
+    "n": 1,
+    "since": "2026-11-02T17:08:27+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-02T17:10:10+00:00",
+    "n": 1,
+    "since": "2026-11-02T17:08:27+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-02T17:05:40+00:00",
+   "at": "2026-11-02T17:08:27+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T17:08:08+00:00",
-   "elapsed_s": 148,
+   "at": "2026-11-02T17:10:57+00:00",
+   "elapsed_s": 149,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -64,8 +75,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -87,6 +98,23 @@
     "title_src": "Šta će biti sa Ideom, Rodom i Merkatorom nakon oduzimanja dozvole Alta banci?",
     "ts": 1793637660.3670564,
     "url": "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci"
+   },
+   {
+    "date": "02.11.2026 17:08",
+    "first": "NBS указала конкретный канал для вкладчиков — обращение напрямую в AOD за информацией о правах.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "выплаты",
+     "суд",
+     "регулятор",
+     "клиенты"
+    ],
+    "title": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
+    "title_src": "NBS se oglasila o računima u Alta banci: Evo kome građani i firme mogu da se obrate",
+    "ts": 1793639457.4252815,
+    "url": "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci"
    }
   ]
  },
@@ -6889,6 +6917,17 @@
    "title": "NBS отозвала лицензию Alta group на издание электронных денег и платные услуги",
    "title_src": "NBS oduzela dozvolu za izdavanje elektronskog novca kompaniji Alta group",
    "updated": "2026-11-02T16:40:48+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci": {
+   "first_seen": "2026-11-02T17:10:57+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
+   "title_src": "NBS se oglasila o računima u Alta banci: Evo kome građani i firme mogu da se obrate",
+   "updated": "2026-11-02T17:10:57+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/nova-rs-uhapsen-davor-macura-vlasnik-alta-banke": {
    "first_seen": "2026-11-02T10:33:08+00:00",
