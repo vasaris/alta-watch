@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T23:01:21+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T23:02:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T23:01:52+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-02T23:04:38+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3192,6 +3192,17 @@
    "title": "IDEA, Roda и Mercator продолжают работу; изменены платёжные реквизиты",
    "title_src": "Сети IDEA, Roda и Mercator заявили, что продолжают работать после закрытия ALTA Banka Компания Idea Marketi, управляющая торговыми сетями IDEA, Roda и Mercator в Сербии, уведомила деловых партнёров, что отзыв лицензии у…",
    "updated": "2026-11-02T22:36:42+00:00"
+  },
+  "https://t.me/Serbia/107469": {
+   "first_seen": "2026-11-02T23:04:38+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Air Serbia отказалась от совместной карты с ALTA Banka",
+   "title_src": "Air Serbia отказалась от совместной банковской карты с ALTA Banka Национальная авиакомпания Air Serbia объявила, что не будет реализовывать проект совместной платёжной карты с ALTA Banka после отзыва у банка лицензии.…",
+   "updated": "2026-11-02T23:04:38+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
