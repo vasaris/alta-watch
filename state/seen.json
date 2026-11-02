@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T16:44:13+00:00",
+   "at": "2026-11-02T16:46:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T16:44:39+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-02T16:47:02+00:00",
+   "elapsed_s": 46,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -6558,6 +6558,17 @@
    "status": "rejected",
    "title": "Šta znači likvidacija Alta banke",
    "updated": "2026-10-31T16:27:12+00:00"
+  },
+  "https://www.danas.rs/bbc-news-serbian/vlasnik-alta-banke-davor-macura-priveden-sumnjici-se-za-proneveru-vise-od-380-miliona-evra": {
+   "first_seen": "2026-11-02T16:47:02+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 9,
+   "status": "dup",
+   "title": "Владелец Alta banke Давор Макура задержан по подозрению в хищении ~380 млн евро",
+   "title_src": "Vlasnik Alta banke Davor Macura priveden, sumnjiči se za proneveru više od 380 miliona evra",
+   "updated": "2026-11-02T16:47:02+00:00"
   },
   "https://www.danas.rs/svet/alta-banka-rusi": {
    "first_seen": "2026-11-02T11:51:09+00:00",
