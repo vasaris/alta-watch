@@ -11,15 +11,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T11:18:13+00:00",
+   "at": "2026-11-02T11:20:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T11:18:42+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-02T11:20:50+00:00",
+   "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -1688,6 +1688,16 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/alta-banka-pod-medjunarodnom-lupom-sumnja-se-na-pranje-novca": {
+   "first_seen": "2026-11-02T11:20:50+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/fajnensel-tajms-rusi-srbija-alta-banka",
+   "status": "dup",
+   "title": "FT: Alta banka pod međunarodnom lupom zbog sumnji na pranje novca, Rusi tu čuvali svu ušteđevinu",
+   "title_src": "FT: Alta banka pod međunarodnom lupom zbog sumnji na pranje novca, Rusi tu čuvali svu ušteđevinu",
+   "updated": "2026-11-02T11:20:50+00:00"
   },
   "https://nova.rs/vesti/biznis/alta-banka-za-forbes-srbija-ekspoziture-ne-rade-obustavljene-aktivnosti-u-vezi-sa-karticama-i-prometom": {
    "first_seen": "2026-10-31T11:17:01+00:00",
