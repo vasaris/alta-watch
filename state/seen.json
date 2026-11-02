@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T22:04:12+00:00",
+   "at": "2026-11-02T22:06:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T22:04:42+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-02T22:06:43+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -3158,6 +3158,18 @@
    "title": "Financial Times: закрытие Alta banka ударило по россиянам; ECB проверял банк по подозрениям в отмывании денег",
    "title_src": "Financial Times: закрытие Alta banka особенно сильно ударило по россиянам в Сербии Британская газета Financial Times опубликовала расследование о закрытии Alta banka, который был одним из немногих сербских банков,…",
    "updated": "2026-11-02T20:32:47+00:00"
+  },
+  "https://t.me/Serbia/107466": {
+   "first_seen": "2026-11-02T22:06:43+00:00",
+   "kind": "telegram",
+   "novelty": 4,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 5,
+   "status": "signal",
+   "title": "Kreni-Promeni требует расследования вывода средств из Alta перед закрытием",
+   "title_src": "Кто успел вывести деньги из Alta banka до её закрытия? В Сербии требуют расследования Экономическая команда движения Kreni-Promeni потребовала выяснить, кто вывел крупные суммы из Alta banka незадолго до отзыва лицензии…",
+   "updated": "2026-11-02T22:06:43+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -7882,6 +7894,12 @@
    "title": "Миketić обвиняет AOD, NBS и политиков SNS в направлении денег в Alta banku",
    "ts": "2026-11-02T19:32:14+00:00",
    "url": "https://nova.rs/vesti/biznis/miketic-izneo-tvrdnje-o-vezama-alta-banke-agencije-za-osiguranje-depozita-i-ljudi-povezanih-sa-sns-om-pominje-sinisu-malog-jorgovanku-tabakovic-i-prodaju-imovine-beobanke"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Kreni-Promeni требует расследования вывода средств из Alta перед закрытием",
+   "ts": "2026-11-02T22:06:13+00:00",
+   "url": "https://t.me/Serbia/107466"
   }
  ]
 }
