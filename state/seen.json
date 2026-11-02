@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T12:11:33+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T12:12:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T12:12:01+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-02T12:14:46+00:00",
+   "elapsed_s": 145,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -41,35 +41,18 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "02.11.2026 11:34",
-    "first": "NBS издал специальное уведомление для обменников, работавших с Alta (дата: 2 ноября 2026)",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "регулятор",
-     "банки",
-     "сроки"
-    ],
-    "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
-    "title_src": "NBS: Menjači koji su imali ugovor sa Alta bankom da preduzmu odgovarajuće mere",
-    "ts": 1793619784.5840592,
-    "url": "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -206,6 +189,11 @@
    "text": "Комиссия по ценным бумагам: как крах ALTA повлияет на инвестиционные фонды — Комиссия по ценным бумагам издала официальную инструкцию 2 ноября 2026 для управляющих компаний и депозитариев — Инвесторы в фонды не подают требования в банкротство ALTA и не получают выплаты от AOD — требования подаёт сам",
    "ts": 1793620901.4964118,
    "url": "https://bizlife.rs/kako-ce-kolaps-alta-banke-uticati-na-investitore-i-njihov-novac"
+  },
+  {
+   "text": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
+   "ts": 1793621685.2639883,
+   "url": "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere"
   }
  ],
  "retry_items": {},
@@ -1242,13 +1230,20 @@
   "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere": {
    "first_seen": "2026-11-02T11:43:04+00:00",
    "kind": "press",
+   "message_id": 108,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-02T12:14:45+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки",
+    "сроки"
+   ],
    "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
    "title_src": "NBS: Menjači koji su imali ugovor sa Alta bankom da preduzmu odgovarajuće mere",
-   "updated": "2026-11-02T11:43:04+00:00"
+   "updated": "2026-11-02T12:14:45+00:00"
   },
   "https://insajder.net/prenosimo/nbs-pokrenuti-postupci-protiv-alta-banke-njenih-akcionara-i-organa-upravljanja-prava-stedisa-i-poverilaca-zasticena": {
    "first_seen": "2026-10-31T14:11:00+00:00",
