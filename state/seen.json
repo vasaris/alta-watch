@@ -11,15 +11,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T14:36:47+00:00",
+   "at": "2026-11-02T14:39:34+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T14:39:10+00:00",
-   "elapsed_s": 142,
+   "at": "2026-11-02T14:41:52+00:00",
+   "elapsed_s": 137,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -46,8 +46,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -1611,6 +1611,16 @@
     "активы"
    ],
    "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
+  },
+  "https://n1info.rs/region/direktor-agencije-za-bankarstvo-rs-alta-srbija-nikakav-uticaj": {
+   "first_seen": "2026-11-02T14:41:52+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.danas.rs/vesti/ekonomija/direktor-agencije-za-bankarstvo-rs-desavanja-s-alta-bankom-u-srbiji-nemaju-nikakav-uticaj-na-republiku-srpsku",
+   "status": "dup",
+   "title": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na RS",
+   "title_src": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na RS",
+   "updated": "2026-11-02T14:41:52+00:00"
   },
   "https://n1info.rs/region/narodna-banka-severne-makedonije-administrativna-uprava-bitolj": {
    "first_seen": "2026-11-01T18:10:39+00:00",
