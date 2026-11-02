@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T12:26:32+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T12:28:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T12:26:55+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-02T12:30:50+00:00",
+   "elapsed_s": 152,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -41,13 +41,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -199,6 +199,11 @@
    "text": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов — Обыск в банке длился два дня и завершился незадолго до момента публикации статьи",
    "ts": 1793621946.990078,
    "url": "https://insajder.net/prenosimo/advokat-davora-macure-odredeno-mu-zadrzavanje-do-48-sati-pretres-banke-trajao-dva-dana"
+  },
+  {
+   "text": "Владелец Alta banke Давор Макура арестован; обыск завершён — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов; допрос 3 ноября. — Четверо вице-губернаторов NBS обратились в Прокуратуру с требованием проверить обстоятельства отзыва лицензии и возможную уголовную ответственность N",
+   "ts": 1793622648.4799447,
+   "url": "https://www.danas.rs/bbc-news-serbian/likvidacija-alta-banke-vlasnik-macura-priveden-potvrdio-advokat-za-bbc"
   }
  ],
  "retry_items": {},
@@ -6200,6 +6205,26 @@
    "status": "rejected",
    "title": "Листа поверилаца- табела 1.",
    "updated": "2026-10-31T14:11:42+00:00"
+  },
+  "https://www.danas.rs/bbc-news-serbian/likvidacija-alta-banke-vlasnik-macura-priveden-potvrdio-advokat-za-bbc": {
+   "first_seen": "2026-11-02T12:30:48+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 110,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T12:30:48+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "банки"
+   ],
+   "title": "Владелец Alta banke Давор Макура арестован; обыск завершён",
+   "title_src": "Likvidacija Alta banke: Vlasnik Macura priveden, potvrdio advokat za BBC",
+   "updated": "2026-11-02T12:30:48+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/sta-znaci-likvidacija-alta-banke": {
    "attempts": 66,
