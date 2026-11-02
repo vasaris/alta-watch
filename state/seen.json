@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T11:48:23+00:00",
+   "at": "2026-11-02T11:50:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T11:48:57+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-02T11:51:11+00:00",
+   "elapsed_s": 49,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -186,6 +186,11 @@
    "text": "Давор Макура арестован по приказу JTOK; задержание на 48 часов — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK — Задержание определено на 48 часов",
    "ts": 1793619775.7811222,
    "url": "https://nova.rs/vesti/hronika/davoru-macuri-odredjeno-zadrzavanje-po-nalogu-jtok-potvrdili-njegovi-branioci-iz-advokatske-kancelarije-spahovic"
+  },
+  {
+   "text": "Русские СМИ о крахе Alta banke: катастрофа для иммигрантов и предпринимателей — Русские СМИ (Komersant, Секрет фирмы, BFM.ru) активно освещают последствия краха Alta banke для русских граждан и предпринимателей. — Клиенты сообщают о невозможности открыть счета в других банках до марта 2027 года из-з",
+   "ts": 1793620269.682583,
+   "url": "https://www.danas.rs/svet/alta-banka-rusi"
   }
  ],
  "retry_items": {},
@@ -6119,6 +6124,26 @@
    "status": "rejected",
    "title": "Šta znači likvidacija Alta banke",
    "updated": "2026-10-31T16:27:12+00:00"
+  },
+  "https://www.danas.rs/svet/alta-banka-rusi": {
+   "first_seen": "2026-11-02T11:51:09+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 104,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T11:51:09+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки",
+    "активы"
+   ],
+   "title": "Русские СМИ о крахе Alta banke: катастрофа для иммигрантов и предпринимателей",
+   "title_src": "„Katastrofa, juče su ljudi imali novac na računima, a danas ga više nemaju“: Ruski mediji o zatvaranju Alta banke u Srbiji",
+   "updated": "2026-11-02T11:51:09+00:00"
   },
   "https://www.danas.rs/svet/narodna-banka-s-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T19:38:45+00:00",
