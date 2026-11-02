@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T10:02:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T10:04:25+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T10:02:52+00:00",
-   "elapsed_s": 38,
-   "llm_calls": 0,
+   "at": "2026-11-02T10:06:58+00:00",
+   "elapsed_s": 152,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -34,13 +34,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -132,6 +132,11 @@
    "text": "JKP Informatika Novi Sad сменила счёт в Alta banci на новый после отзыва лицензии",
    "ts": 1793612795.6923282,
    "url": "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci"
+  },
+  {
+   "text": "Деян Гаврилович: Alta banka не работает, выплаты проведёт другой банк через AOD — Деян Гаврилович (Удружение Efektiva) подтвердил, что Alta banka не может самостоятельно выплачивать депозиты после отзыва лицензии. — AOD имеет 3 рабочих дня на объявление банка-выплатчика и уведомление вкладчиков; 7 р",
+   "ts": 1793614016.9007537,
+   "url": "https://n1info.rs/biznis/ne-cekajte-u-redovima-alta-banka-ne-radi-gavrilovic-objasnjava-ko-ce-gradjanima-isplatiti-novac-i-kada"
   }
  ],
  "retry_items": {},
@@ -1295,6 +1300,26 @@
     "регулятор"
    ],
    "title": "NBS o oduzimanju dozvole za rad Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
+  },
+  "https://n1info.rs/biznis/ne-cekajte-u-redovima-alta-banka-ne-radi-gavrilovic-objasnjava-ko-ce-gradjanima-isplatiti-novac-i-kada": {
+   "first_seen": "2026-11-02T10:06:56+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 98,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T10:06:56+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "Деян Гаврилович: Alta banka не работает, выплаты проведёт другой банк через AOD",
+   "title_src": "\"Ne čekajte u redovima, Alta banka ne radi\": Gavrilović objašnjava ko će građanima isplatiti novac i kada",
+   "updated": "2026-11-02T10:06:56+00:00"
   },
   "https://n1info.rs/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:20:40+00:00",
