@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T17:47:04+00:00",
+   "at": "2026-11-02T17:48:17+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T17:47:32+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-02T17:48:48+00:00",
+   "elapsed_s": 31,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2096,6 +2096,17 @@
    "title": "NBS: лицензия отозвана у ALTA GROUP DOO; средства пользователей защищены",
    "title_src": "Oglasila se NBS: Objavljeno kako će biti zaštićeni korisnici Alta Group nakon oduzimanja dozvole",
    "updated": "2026-11-02T16:24:35+00:00"
+  },
+  "https://nova.rs/vesti/biznis/pokrece-se-stecaj-alta-banke-nbs-uputila-klijente-kome-da-se-obrate-za-informacije": {
+   "first_seen": "2026-11-02T17:48:48+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "NBS: клиенты Alta могут обратиться в AOD за информацией о правах при банкротстве",
+   "title_src": "Pokreće se stečaj Alta banke: NBS uputila klijente kome da se obrate za informacije",
+   "updated": "2026-11-02T17:48:48+00:00"
   },
   "https://nova.rs/vesti/biznis/pokret-beograd-ostaje-ko-ce-odlucivati-o-stecaju-alta-banke": {
    "first_seen": "2026-11-01T22:22:53+00:00",
