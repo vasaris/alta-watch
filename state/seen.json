@@ -1,21 +1,28 @@
 {
- "facts": {},
+ "facts": {
+  "license_revoked_date": {
+   "at": "2026-11-02T10:42:06+00:00",
+   "source": "news",
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853",
+   "value": "30 октября 2026"
+  }
+ },
  "flags": {},
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T10:38:41+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-02T10:41:39+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T10:41:04+00:00",
-   "elapsed_s": 142,
+   "at": "2026-11-02T10:42:22+00:00",
+   "elapsed_s": 43,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -34,13 +41,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -159,6 +166,11 @@
    "text": "Арестован Давор Макура, владелец Alta banke — Давор Макура арестован в ночь на 2 ноября 2026 года",
    "ts": 1793615588.7382648,
    "url": "https://www.danas.rs/vesti/ekonomija/nova-rs-uhapsen-davor-macura-vlasnik-alta-banke"
+  },
+  {
+   "text": "NBS: уполномоченные обменники должны срочно сменить банка или ПО после отзыва лицензии Alta — Официальное уведомление NBS от 2 ноября 2026 г. адресовано уполномоченным обменникам, работавшим с ALTA банком — Обменники должны сменить банка-партнёра или ПО без задержек; срок уведомления NBS — не поздне",
+   "ts": 1793616126.804714,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853"
   }
  ],
  "retry_items": {},
@@ -6507,6 +6519,35 @@
    "posted": true,
    "status": "sent",
    "title": "Заштићена права поверилаца и штедиша банке и очувана стабилност финансијског сектора"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853": {
+   "first_seen": "2026-11-02T10:42:06+00:00",
+   "hash": "3d96760ffecd6303",
+   "kind": "news",
+   "message_id": 100,
+   "novelty": 7,
+   "paras": [
+    "a17083d684",
+    "37698cee6e",
+    "3ce28cc0fc",
+    "140d04789c",
+    "afdd9ef887",
+    "4b9de0f894",
+    "0e74ea0496",
+    "ec766d16cd",
+    "9f84d09b8c"
+   ],
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-02T10:42:06+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки",
+    "сроки"
+   ],
+   "title": "Обавештење овлашћеним мењачима који су имали закључен уговор са Алта банком",
+   "updated": "2026-11-02T10:42:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
