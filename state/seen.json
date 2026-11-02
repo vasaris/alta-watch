@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T09:13:26+00:00",
+   "at": "2026-11-02T09:14:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T09:14:01+00:00",
-   "elapsed_s": 34,
-   "llm_calls": 0,
+   "at": "2026-11-02T09:15:48+00:00",
+   "elapsed_s": 86,
+   "llm_calls": 3,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -45,7 +45,25 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "02.11.2026 09:13",
+    "first": "Уголовное заявление подано конкретно против Давора Макуры как председателя Управного совета Alta банке",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "суд",
+     "активы",
+     "регулятор",
+     "требования"
+    ],
+    "title": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
+    "title_src": "Institut Kareja podneo krivičnu prijavu zbog naplate računa za struju preko Alta banke",
+    "ts": 1793610932.1280105,
+    "url": "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -2440,6 +2458,17 @@
    "title": "Общественная помощь русским бизнесам и слухи о банке-выплатчике",
    "title_src": "🔻 ALTA Bank — помощь и прогнозы Сейчас в сетях раздуваются две противоположные точки зрения — про сербов, которые хотят помочь русским и про сербов, которые злорадствуют в связи с крушением ALTA банка. Перечислим…",
    "updated": "2026-11-01T15:44:41+00:00"
+  },
+  "https://t.me/novisadaily/20279": {
+   "first_seen": "2026-11-02T09:15:48+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "JKP Informatika и EPS переводят платежи с закрытого счёта Alta на новые реквизиты",
+   "title_src": "💰 Куда платить за коммунальные услуги \"Информатика\" сообщила жителям Нови Сада, что счёт для оплаты коммунальных услуг в АЛТА банке больше не активен и попросила оплачивать квитанции на счёт 105-999-39 . А номер счёта…",
+   "updated": "2026-11-02T09:15:48+00:00"
   },
   "https://t.me/novostiserbii/17226": {
    "first_seen": "2026-10-31T11:31:11+00:00",
@@ -5923,6 +5952,17 @@
    ],
    "title": "Dugalić: Oduzimanje dozvole za rad Alta banci neće direktno uticati na stabilnost bankarskog sektora"
   },
+  "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke": {
+   "first_seen": "2026-11-02T09:15:32+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
+   "title_src": "Institut Kareja podneo krivičnu prijavu zbog naplate računa za struju preko Alta banke",
+   "updated": "2026-11-02T09:15:32+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/ispred-alta-banke-na-novom-beogradu-uoceni-naoruzani-pripadnici-policije": {
    "attempts": 1,
    "first_seen": "2026-10-31T17:27:48+00:00",
@@ -6466,6 +6506,18 @@
    "title_src": "Северна Македонија увела привремену управу над Алта банком Битољ",
    "updated": "2026-11-01T17:49:07+00:00"
   },
+  "https://www.rts.rs/vesti/ekonomija/6074156/alta-banka-stecaj-novac-krediti-nbs.html": {
+   "first_seen": "2026-11-02T09:15:44+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Дугалић и Стевановић: почему НБС не реагировала раньше на Alta banka, нужно расследование",
+   "title_src": "Дугалић и Стевановић о Алта банци: Зашто НБС није реаговала раније, потребна истрага о наглом расту и паду",
+   "updated": "2026-11-02T09:15:44+00:00"
+  },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
    "kind": "press",
@@ -6539,6 +6591,12 @@
    "title": "Взаимопомощь вкладчиков Alta: продукты, волонтёры, поддержка бизнеса",
    "ts": "2026-11-02T07:58:52+00:00",
    "url": "https://t.me/volna_srbjia/3311"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Дугалић и Стевановић: почему НБС не реагировала раньше на Alta banka, нужно расследование",
+   "ts": "2026-11-02T09:14:22+00:00",
+   "url": "https://www.rts.rs/vesti/ekonomija/6074156/alta-banka-stecaj-novac-krediti-nbs.html"
   }
  ]
 }
