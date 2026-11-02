@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T16:52:20+00:00",
+   "at": "2026-11-02T16:54:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T16:52:43+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-02T16:54:45+00:00",
+   "elapsed_s": 31,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1586,6 +1586,17 @@
     "регулятор"
    ],
    "title": "NBS o oduzimanju dozvole za rad Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
+  },
+  "https://n1info.rs/biznis/nbs-oduzela-dozvolu-i-platnoj-instituciji-alta-group-doo-sredstva-korisnika-platnih-usluga-su-zasticena": {
+   "first_seen": "2026-11-02T16:54:45+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "NBS отозвала лицензию у Alta group DOO на электронные деньги и платные услуги",
+   "title_src": "NBS oduzela dozvolu i platnoj instituciji Alta group DOO: Sredstva korisnika platnih usluga su zaštićena",
+   "updated": "2026-11-02T16:54:45+00:00"
   },
   "https://n1info.rs/biznis/ne-cekajte-u-redovima-alta-banka-ne-radi-gavrilovic-objasnjava-ko-ce-gradjanima-isplatiti-novac-i-kada": {
    "first_seen": "2026-11-02T10:06:56+00:00",
