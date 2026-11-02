@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T17:12:33+00:00",
+   "at": "2026-11-02T17:15:21+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T17:14:53+00:00",
-   "elapsed_s": 140,
-   "llm_calls": 0,
+   "at": "2026-11-02T17:17:55+00:00",
+   "elapsed_s": 154,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -64,8 +64,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -73,11 +73,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Прокуратура по организованной преступности расследует переводы средств из Alta Banka — Прокуратура по организованной преступности расследует переводы средств из Alta Banka — Запросы направлены 27 и 29 октября; НБС ответила 30 октября с ограничениями по срокам",
-   "ts": 1793467727.458812,
-   "url": "https://n1info.rs/english/news/organised-crime-prosecution-office-investigating-money-transfers-from-alta-banka"
-  },
   {
    "text": "Вооружённая полиция у здания Alta Banka на Новом Белграде после отзыва лицензии — Вооружённые полицейские развёрнуты у здания Alta Banka на Новом Белграде 31 октября днём — Четыре вице-губернатора НБС подтвердили, что реальное состояние банка резко отличалось от поданных отчётов и выявлено только на",
    "ts": 1793467745.698017,
@@ -272,6 +267,11 @@
    "text": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
    "ts": 1793639511.1447418,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci"
+  },
+  {
+   "text": "Уголовное заявление адвоката Нинича: руководство Alta banke переводило деньги в Москву и Скопье, NBS не провела проверку — Адвокат Нинич подал уголовное заявление против Макуры и 9 членов управления Alta banke за ускоренные трансферы в Москву и Скопье с 26.10.2026. — В заявлении названы конкретные ч",
+   "ts": 1793639873.7844503,
+   "url": "https://nova.rs/vesti/biznis/krivicna-prijava-koju-je-ivan-ninic-podneo-protiv-davora-macure"
   }
  ],
  "retry_items": {},
@@ -2047,6 +2047,26 @@
    "title": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
    "title_src": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
    "updated": "2026-11-01T08:50:47+00:00"
+  },
+  "https://nova.rs/vesti/biznis/krivicna-prijava-koju-je-ivan-ninic-podneo-protiv-davora-macure": {
+   "first_seen": "2026-11-02T17:17:53+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 120,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T17:17:53+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "требования",
+    "регулятор",
+    "активы"
+   ],
+   "title": "Уголовное заявление адвоката Нинича: руководство Alta banke переводило деньги в Москву и Скопье, NBS не провела проверку",
+   "title_src": "Ubrzano prebacivali novac u Moskvu i Skoplje, Narodna banka omogućila nesmetani transfer: Šta piše u krivičnoj prijavi koju je podneo Ninić protiv Davora Macure, menadžmenta Alta banke i rukovodstva N",
+   "updated": "2026-11-02T17:17:53+00:00"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
