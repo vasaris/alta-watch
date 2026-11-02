@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T13:36:22+00:00",
+   "at": "2026-11-02T13:38:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T13:36:49+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-02T13:38:43+00:00",
+   "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -52,24 +52,7 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "02.11.2026 13:05",
-    "first": "Адвокат Макуры подтвердил явку перед прокуратурой на 3 ноября 2026.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "суд",
-     "регулятор",
-     "активы"
-    ],
-    "title": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
-    "title_src": "Advokat vlasnika Alta banke: Davor Macura sutra izlazi pred nadležno tužilaštvo, ne znamo šta mu se stavlja na teret",
-    "ts": 1793624915.6085727,
-    "url": "https://www.danas.rs/vesti/ekonomija/advokat-vlasnika-alta-banke-davor-macura-sutra-izlazi-pred-nadlezno-tuzilastvo-ne-znamo-sta-mu-se-stavlja-na-teret"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -241,6 +224,11 @@
    "text": "JTOK: арестованы владелец Alta banke и двое сотрудников по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные должности и инициалы трёх арестованных: D.M. (владелец), G.M. (директор отдела тrezora и управления готовиной), I.P. (сотрудник тrezorского отдела). — Механизм хищения: D.M. превы",
    "ts": 1793625781.3094978,
    "url": "https://insajder.net/prenosimo/jtok-o-slucaju-alta-banke-uhapsene-tri-osobe-sumnja-se-da-je-iz-trezora-neovlasceno-izneto-45-milijardi-dinara"
+  },
+  {
+   "text": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
+   "ts": 1793626722.448518,
+   "url": "https://www.danas.rs/vesti/ekonomija/advokat-vlasnika-alta-banke-davor-macura-sutra-izlazi-pred-nadlezno-tuzilastvo-ne-znamo-sta-mu-se-stavlja-na-teret"
   }
  ],
  "retry_items": {},
@@ -6466,13 +6454,20 @@
   "https://www.danas.rs/vesti/ekonomija/advokat-vlasnika-alta-banke-davor-macura-sutra-izlazi-pred-nadlezno-tuzilastvo-ne-znamo-sta-mu-se-stavlja-na-teret": {
    "first_seen": "2026-11-02T13:08:35+00:00",
    "kind": "press",
+   "message_id": 115,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-02T13:38:42+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы"
+   ],
    "title": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
    "title_src": "Advokat vlasnika Alta banke: Davor Macura sutra izlazi pred nadležno tužilaštvo, ne znamo šta mu se stavlja na teret",
-   "updated": "2026-11-02T13:08:35+00:00"
+   "updated": "2026-11-02T13:38:42+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
