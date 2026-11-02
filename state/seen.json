@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T12:17:24+00:00",
+   "at": "2026-11-02T12:18:24+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T12:17:47+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-02T12:19:08+00:00",
+   "elapsed_s": 43,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -194,6 +194,11 @@
    "text": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
    "ts": 1793621685.2639883,
    "url": "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere"
+  },
+  {
+   "text": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов — Обыск в банке длился два дня и завершился незадолго до момента публикации статьи",
+   "ts": 1793621946.990078,
+   "url": "https://insajder.net/prenosimo/advokat-davora-macure-odredeno-mu-zadrzavanje-do-48-sati-pretres-banke-trajao-dva-dana"
   }
  ],
  "retry_items": {},
@@ -1147,6 +1152,26 @@
     "банки"
    ],
    "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
+  },
+  "https://insajder.net/prenosimo/advokat-davora-macure-odredeno-mu-zadrzavanje-do-48-sati-pretres-banke-trajao-dva-dana": {
+   "first_seen": "2026-11-02T12:19:06+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 109,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T12:19:06+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "клиенты"
+   ],
+   "title": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня",
+   "title_src": "Advokat Davora Macure: Određeno mu zadržavanje do 48 sati, pretres banke trajao dva dana",
+   "updated": "2026-11-02T12:19:06+00:00"
   },
   "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-objavila-rokove-za-isplatu-novca-klijentima-alta-banke": {
    "first_seen": "2026-10-31T14:11:00+00:00",
