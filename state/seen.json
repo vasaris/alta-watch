@@ -4,14 +4,14 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T08:48:27+00:00",
+   "at": "2026-11-02T08:50:32+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T08:48:57+00:00",
+   "at": "2026-11-02T08:51:03+00:00",
    "elapsed_s": 30,
    "llm_calls": 0,
    "llm_down": null,
@@ -20,7 +20,7 @@
   },
   "press": {
    "021": "ok:10",
-   "beta": "ok:10",
+   "beta": "network_error",
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
@@ -35,13 +35,13 @@
   "sources": {
    "alta": 109,
    "aod": 44,
-   "nbs": 36
+   "nbs": 0
   },
   "src_fail": {
    "ALTA": 0,
    "AOD новости": 0,
    "AOD объявления": 0,
-   "NBS": 0
+   "NBS": 1
   }
  },
  "pending": {
