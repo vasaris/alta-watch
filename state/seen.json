@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T15:28:13+00:00",
+   "at": "2026-11-02T15:30:39+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T15:28:44+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-02T15:31:20+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2898,6 +2898,18 @@
    "title_src": "Белградская фондовая биржа приостановила доступ ALTA Banka к торгам Белградская фондовая биржа 2 ноября приостановила⁠ доступ ALTA Banka к своей торговой системе. Ограничение действует максимум пять торговых сессий — до…",
    "updated": "2026-11-02T15:19:21+00:00"
   },
+  "https://t.me/Serbia/107452": {
+   "first_seen": "2026-11-02T15:31:20+00:00",
+   "kind": "telegram",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Реклама услуг открытия счёта после закрытия Alta Banka",
+   "title_src": "🏦 Нужно срочно открыть новый банковский счёт в Сербии после закрытия Alta Banka? Если вы столкнулись с блокировкой счёта в Alta Banka и теперь ищете альтернативу, рекомендуем обратиться к проверенным сербским…",
+   "updated": "2026-11-02T15:31:20+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -3267,6 +3279,18 @@
    "title": "Alta Pay Group в Подгорице лишена лицензии",
    "title_src": "Alta Pay Group iz Podgorice ostala bez dozvole",
    "updated": "2026-11-01T20:56:39+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460107/idea-marketi-da-li-je-posle-hapsenja-davora-macure-ugrozeno-7000-zaposlenih": {
+   "first_seen": "2026-11-02T15:31:17+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Idea marketi: угрожает ли аресту Давора Макуры занятость 7000 сотрудников?",
+   "title_src": "Idea marketi: Da li je posle hapšenja Davora Macure ugroženo 7.000 zaposlenih?",
+   "updated": "2026-11-02T15:31:17+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
