@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T20:30:33+00:00",
+   "at": "2026-11-02T20:32:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T20:31:00+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-02T20:32:47+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -3147,6 +3147,17 @@
    "title": "Poštanska štedionica просит усиленный надзор NBS; рассматривается как банк-выплатчик для вкладчиков ALTA",
    "title_src": "Банк Poštanska štedionica обратился к регулятору с просьбой усилить контроль за своей ликвидностью Выплаты для вкладчиков ALTA, вероятно, будут через «Поштанку» Сербский государственный банк Poštanska štedionica…",
    "updated": "2026-11-02T18:18:44+00:00"
+  },
+  "https://t.me/Serbia/107463": {
+   "first_seen": "2026-11-02T20:32:47+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Financial Times: закрытие Alta banka ударило по россиянам; ECB проверял банк по подозрениям в отмывании денег",
+   "title_src": "Financial Times: закрытие Alta banka особенно сильно ударило по россиянам в Сербии Британская газета Financial Times опубликовала расследование о закрытии Alta banka, который был одним из немногих сербских банков,…",
+   "updated": "2026-11-02T20:32:47+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
