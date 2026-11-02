@@ -1,35 +1,46 @@
 {
  "facts": {
+  "bankruptcy_manager": {
+   "at": "2026-11-02T16:27:07+00:00",
+   "source": "news",
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
+   "value": "Агентство по страхованию вкладов (AOD)"
+  },
   "license_revoked_date": {
-   "at": "2026-11-02T16:03:56+00:00",
+   "at": "2026-11-02T16:27:07+00:00",
    "history": [
     {
      "at": "2026-11-02T10:42:06+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853",
      "value": "30 октября 2026"
+    },
+    {
+     "at": "2026-11-02T16:03:56+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858",
+     "value": "2 ноября 2026"
     }
    ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858",
-   "value": "2 ноября 2026"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
+   "value": "2 ноября 2026 (решение NBS об отзыве лицензии)"
   }
  },
  "flags": {},
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T16:22:14+00:00",
+   "at": "2026-11-02T16:24:49+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T16:24:35+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-02T16:27:20+00:00",
+   "elapsed_s": 151,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -49,12 +60,12 @@
   "sources": {
    "alta": 109,
    "aod": 0,
-   "nbs": 36
+   "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -241,6 +252,11 @@
    "text": "NBS отозвала лицензию ALTA GROUP DOO на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у ALTA GROUP DOO BEOGRAD на издание электронного денег и платные услуги (2 ноября 2026) — NBS явно указала, что ALTA GROUP DOO не является банком и не принимает депозиты, чт",
    "ts": 1793635436.2833343,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858"
+  },
+  {
+   "text": "NBS: информация о текущих счётах клиентов Alta banke и компетенции AOD — NBS официально подтверждает, что условия для открытия банкротства созданы после отзыва лицензии. — AOD опубликует уведомление о выплатах на www.aod.rs в течение 3 рабочих дней после решения суда об открытии банкротства.",
+   "ts": 1793636827.400365,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859"
   }
  ],
  "retry_items": {},
@@ -7185,6 +7201,33 @@
    ],
    "title": "Одузимање дозволе институцији електронског новца ALTA GROUP DOO BEOGRAD, средства корисника платних услуга су заштићена ",
    "updated": "2026-11-02T16:03:56+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859": {
+   "first_seen": "2026-11-02T16:27:07+00:00",
+   "hash": "d1701edda6de1daf",
+   "kind": "news",
+   "message_id": 117,
+   "novelty": 2,
+   "paras": [
+    "a17083d684",
+    "97383217b5",
+    "432a11f09d",
+    "c67acd05c7",
+    "b96e89d899",
+    "3dded2c03e"
+   ],
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T16:27:07+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Обавештење у вези с текућим рачунима клијената Алта банке",
+   "updated": "2026-11-02T16:27:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
