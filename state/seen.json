@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T10:54:18+00:00",
+   "at": "2026-11-02T10:56:18+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T10:54:49+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-02T10:57:06+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -6077,6 +6077,18 @@
    ],
    "title": "Dugalić: Oduzimanje dozvole za rad Alta banci neće direktno uticati na stabilnost bankarskog sektora"
   },
+  "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
+   "first_seen": "2026-11-02T10:57:06+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 8,
+   "status": "signal",
+   "title": "FT: ECB проверяла Alta banku за отмывание денег; закрытие особенно ударило по русским в Сербии",
+   "title_src": "FT: ECB proveravala srpsku Alta banku zbog sumnje na pranje novca, zatvaranje pogodilo Ruse u Srbiji",
+   "updated": "2026-11-02T10:57:06+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
    "kind": "press",
@@ -6802,6 +6814,12 @@
    "title": "Нацбанк отозвал лицензию Alta banka ночью 31 октября; выплаты вкладчикам до €50 000 начнутся в течение 7 рабочих дней после решения суда",
    "ts": "2026-11-02T10:00:44+00:00",
    "url": "https://t.me/volna_srbjia/3312"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "FT: ECB проверяла Alta banku за отмывание денег; закрытие особенно ударило по русским в Сербии",
+   "ts": "2026-11-02T10:56:18+00:00",
+   "url": "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji"
   }
  ]
 }
