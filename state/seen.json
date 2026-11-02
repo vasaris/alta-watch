@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T14:20:24+00:00",
+   "at": "2026-11-02T14:22:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T14:20:55+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-02T14:22:56+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -6493,6 +6493,17 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://www.danas.rs/vesti/ekonomija/direktor-agencije-za-bankarstvo-rs-desavanja-s-alta-bankom-u-srbiji-nemaju-nikakav-uticaj-na-republiku-srpsku": {
+   "first_seen": "2026-11-02T14:22:56+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Директор Агентства банковского надзора РС: события с Alta bankom в Сербии не влияют на Республику Сербскую",
+   "title_src": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na Republiku Srpsku",
+   "updated": "2026-11-02T14:22:56+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/dugalic-oduzimanje-dozvole-za-rad-alta-banci-nece-direktno-uticati-na-stabilnost-bankarskog-sektora": {
    "first_seen": "2026-10-31T12:28:50+00:00",
