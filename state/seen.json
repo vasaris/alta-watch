@@ -11,18 +11,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T11:58:14+00:00",
+   "at": "2026-11-02T12:00:46+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T11:58:52+00:00",
-   "elapsed_s": 37,
-   "llm_calls": 0,
+   "at": "2026-11-02T12:01:48+00:00",
+   "elapsed_s": 61,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -201,6 +201,11 @@
    "text": "Financial Times: ECB проверял Alta banku по подозрениям в отмывании денег; закрытие затронуло русских в Сербии — ECB (Европейский центральный банк) проводил проверку Alta banke по подозрениям в отмывании денег — новый уровень международного надзора",
    "ts": 1793620495.2904062,
    "url": "https://www.021.rs/info/srbija/460079/fajnensel-tajms-ecb-proveravala-srpsku-alta-banku-zbog-pranja-novca-zatvaranje-pogodilo-ruse-u-srbiji"
+  },
+  {
+   "text": "Комиссия по ценным бумагам: как крах ALTA повлияет на инвестиционные фонды — Комиссия по ценным бумагам издала официальную инструкцию 2 ноября 2026 для управляющих компаний и депозитариев — Инвесторы в фонды не подают требования в банкротство ALTA и не получают выплаты от AOD — требования подаёт сам",
+   "ts": 1793620901.4964118,
+   "url": "https://bizlife.rs/kako-ce-kolaps-alta-banke-uticati-na-investitore-i-njihov-novac"
   }
  ],
  "retry_items": {},
@@ -1066,6 +1071,26 @@
    "title": "Арестован Давор Макура, владелец Alta banke",
    "title_src": "Priveden vlasnik Alta banke Davor Macura",
    "updated": "2026-11-02T11:04:51+00:00"
+  },
+  "https://bizlife.rs/kako-ce-kolaps-alta-banke-uticati-na-investitore-i-njihov-novac": {
+   "first_seen": "2026-11-02T12:01:41+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 107,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-02T12:01:41+00:00",
+   "status": "sent",
+   "tags": [
+    "требования",
+    "регулятор",
+    "активы",
+    "выплаты"
+   ],
+   "title": "Комиссия по ценным бумагам: как крах ALTA повлияет на инвестиционные фонды",
+   "title_src": "Kako će kolaps ALTA banke uticati na investitore i njihov novac?",
+   "updated": "2026-11-02T12:01:41+00:00"
   },
   "https://bizlife.rs/narodna-banka-srbije-oduzela-licencu-alta-banci-sledi-stecaj": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -2621,6 +2646,17 @@
    "title": "Давор Макура арестован в ночь на 2 ноября",
    "title_src": "⭕️ ⭕️ ⭕️ В Сербии задержан Давор Мацура — владелец Alta banka Бизнесмен Давор Мацура, которого сербские СМИ связывают с Сербской прогрессивной партией (SNS), был задержан в ночь на 2 ноября, сообщает Nova.rs . Перед…",
    "updated": "2026-11-02T10:36:42+00:00"
+  },
+  "https://t.me/Serbia/107441": {
+   "first_seen": "2026-11-02T12:01:48+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
+   "title_src": "Народный банк Сербии потребовал от обменников отказаться от обслуживания через ALTA Banka Народный банк Сербии 2 ноября предписал⁠ обменным пунктам, сотрудничавшим с ALTA Banka, незамедлительно принять меры для…",
+   "updated": "2026-11-02T12:01:48+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
