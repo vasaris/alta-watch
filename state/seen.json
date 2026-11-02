@@ -27,31 +27,20 @@
  },
  "flags": {},
  "health": {
-  "alerts": {
-   "источник AOD новости": {
-    "last_sent": "2026-11-02T17:10:09+00:00",
-    "n": 1,
-    "since": "2026-11-02T17:08:27+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-02T17:10:10+00:00",
-    "n": 1,
-    "since": "2026-11-02T17:08:27+00:00"
-   }
-  },
+  "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T17:08:27+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-02T17:11:13+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T17:10:57+00:00",
-   "elapsed_s": 149,
-   "llm_calls": 1,
+   "at": "2026-11-02T17:11:52+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -70,53 +59,18 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "02.11.2026 16:37",
-    "first": "Стоимость покупки Idea, Roda, Merkator оценена в ~50,6 млн евро на основе уставного капитала Alta Ritejl.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "активы",
-     "банки",
-     "регулятор",
-     "клиенты"
-    ],
-    "title": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
-    "title_src": "Šta će biti sa Ideom, Rodom i Merkatorom nakon oduzimanja dozvole Alta banci?",
-    "ts": 1793637660.3670564,
-    "url": "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci"
-   },
-   {
-    "date": "02.11.2026 17:08",
-    "first": "NBS указала конкретный канал для вкладчиков — обращение напрямую в AOD за информацией о правах.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "выплаты",
-     "суд",
-     "регулятор",
-     "клиенты"
-    ],
-    "title": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
-    "title_src": "NBS se oglasila o računima u Alta banci: Evo kome građani i firme mogu da se obrate",
-    "ts": 1793639457.4252815,
-    "url": "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -308,6 +262,16 @@
    "text": "NBS отозвала лицензию Alta group на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у Alta group doo Beograd (не только у Alta banke) на издание электронного денег и платные услуги — NBS явно заявляет, что Alta group не является банком и не принимает депозиты —",
    "ts": 1793637648.7467978,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-oduzela-dozvolu-za-izdavanje-elektronskog-novca-kompaniji-alta-group"
+  },
+  {
+   "text": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
+   "ts": 1793639511.1446953,
+   "url": "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci"
+  },
+  {
+   "text": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
+   "ts": 1793639511.1447418,
+   "url": "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -6921,13 +6885,21 @@
   "https://www.danas.rs/vesti/ekonomija/nbs-racuni-u-alta-banci": {
    "first_seen": "2026-11-02T17:10:57+00:00",
    "kind": "press",
+   "message_id": 119,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-02T17:11:51+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты"
+   ],
    "title": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
    "title_src": "NBS se oglasila o računima u Alta banci: Evo kome građani i firme mogu da se obrate",
-   "updated": "2026-11-02T17:10:57+00:00"
+   "updated": "2026-11-02T17:11:51+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/nova-rs-uhapsen-davor-macura-vlasnik-alta-banke": {
    "first_seen": "2026-11-02T10:33:08+00:00",
@@ -6982,13 +6954,21 @@
   "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci": {
    "first_seen": "2026-11-02T16:41:00+00:00",
    "kind": "press",
+   "message_id": 119,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-02T17:11:51+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "банки",
+    "регулятор",
+    "клиенты"
+   ],
    "title": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
    "title_src": "Šta će biti sa Ideom, Rodom i Merkatorom nakon oduzimanja dozvole Alta banci?",
-   "updated": "2026-11-02T16:41:00+00:00"
+   "updated": "2026-11-02T17:11:51+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/studenti-u-blokadi-o-alta-banci-ocuvanje-finansijske-stabilnosti-je-na-prvom-mestu": {
    "first_seen": "2026-10-31T18:21:17+00:00",
