@@ -11,15 +11,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T12:34:25+00:00",
+   "at": "2026-11-02T12:37:09+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T12:36:57+00:00",
-   "elapsed_s": 152,
+   "at": "2026-11-02T12:39:37+00:00",
+   "elapsed_s": 148,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -46,8 +46,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -209,6 +209,11 @@
    "text": "JTOK: владелец Alta banke и двое сотрудников арестованы по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные имена и должности трёх арестованных лиц: D.M. (владелец), G.M. (директор отдела тrezora), I.P. (сотрудник тrezora). — Сумма подозреваемого хищения: около 45 млрд динаров.",
    "ts": 1793623015.8747194,
    "url": "https://nova.rs/vesti/hronika/oglasio-se-jtok-o-hapsenju-davora-macure-i-jos-dve-osobe"
+  },
+  {
+   "text": "Прокуратура: задержаны три сотрудника Alta banke, подозреваются в хищении ~45 млрд динаров — Официальное объявление Прокуратуры по организованной преступности о трёх аресте (2 ноября 2026, 12:37). — Конкретное обвинение D.M. в хищении ~45 млрд динаров из тrezora банка путём превышения полномочий.",
+   "ts": 1793623176.4704347,
+   "url": "https://n1info.rs/vesti/uhapsene-tri-osobe-sumnja-se-da-je-davor-macura-izneo-iz-banke-45-milijardi-dinara"
   }
  ],
  "retry_items": {},
@@ -1729,6 +1734,26 @@
    ],
    "title": "Прокуратура по организованной преступности запросила у НБС данные о переводах Alta Banka в иностранство",
    "updated": "2026-10-31T17:29:13+00:00"
+  },
+  "https://n1info.rs/vesti/uhapsene-tri-osobe-sumnja-se-da-je-davor-macura-izneo-iz-banke-45-milijardi-dinara": {
+   "first_seen": "2026-11-02T12:39:36+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 112,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T12:39:36+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор",
+    "требования"
+   ],
+   "title": "Прокуратура: задержаны три сотрудника Alta banke, подозреваются в хищении ~45 млрд динаров",
+   "title_src": "Slučaj \"Alta\": Uhapšene tri osobe, sumnja se da je Davor Macura izneo iz banke 45 milijardi dinara",
+   "updated": "2026-11-02T12:39:36+00:00"
   },
   "https://n1info.rs/vesti/video-naoruzani-pripadnici-policije-ispred-alta-banke-na-novom-beogradu": {
    "attempts": 59,
