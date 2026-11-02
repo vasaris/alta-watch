@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T14:54:16+00:00",
+   "at": "2026-11-02T14:56:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T14:54:52+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-02T14:56:45+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2311,6 +2311,18 @@
    "status": "dup",
    "title": "Alta banka до отзыва лицензии подала в суд на бывшую прокурора Паунович за ущерб репутации",
    "updated": "2026-10-31T17:31:30+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/kako-je-guvernerka-govorila-pre-samo-mesec-dana-nijedna-banka-bilo-mala-ili-velika-nije-postedjena-nadzora": {
+   "first_seen": "2026-11-02T14:56:45+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Требования профсоюза «Opstanak» к министрам здравоохранения и труда",
+   "title_src": "Kako je guvernerka govorila pre samo mesec dana: „Nijedna banka, bilo mala ili velika, nije pošteđena nadzora“",
+   "updated": "2026-11-02T14:56:45+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/ko-je-davor-macura-kome-je-nbs-upravo-zatvorila-alta-banku-biznismen-blizak-sns-u-cija-se-imperija-urusava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
