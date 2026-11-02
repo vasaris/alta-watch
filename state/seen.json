@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T09:42:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T09:44:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T09:42:51+00:00",
-   "elapsed_s": 34,
-   "llm_calls": 0,
+   "at": "2026-11-02T09:46:41+00:00",
+   "elapsed_s": 147,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -34,52 +34,18 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "02.11.2026 09:13",
-    "first": "Уголовное заявление подано конкретно против Давора Макуры как председателя Управного совета Alta банке",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "суд",
-     "активы",
-     "регулятор",
-     "требования"
-    ],
-    "title": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
-    "title_src": "Institut Kareja podneo krivičnu prijavu zbog naplate računa za struju preko Alta banke",
-    "ts": 1793610932.1280105,
-    "url": "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke"
-   },
-   {
-    "date": "02.11.2026 09:33",
-    "first": "JKP Informatika Novi Sad официально объявила о смене счёта с 31 октября 2026",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "выплаты",
-     "регулятор",
-     "сроки"
-    ],
-    "title": "JKP Informatika Novi Sad сменила счёт в Alta banci на новый после отзыва лицензии",
-    "title_src": "Informatika Novi Sad promenila broj računa za uplate nakon oduzimanje dozvole Alta banci",
-    "ts": 1793612049.5277016,
-    "url": "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -156,6 +122,16 @@
    "text": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
    "ts": 1793610388.1058517,
    "url": "https://www.021.rs/info/srbija/460056/tuzba-protiv-malog-djedovic-handanovic-macuru-i-celnike-eps-a-zbog-racuna-u-alta-banci"
+  },
+  {
+   "text": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
+   "ts": 1793612795.692295,
+   "url": "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke"
+  },
+  {
+   "text": "JKP Informatika Novi Sad сменила счёт в Alta banci на новый после отзыва лицензии",
+   "ts": 1793612795.6923282,
+   "url": "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci"
   }
  ],
  "retry_items": {},
@@ -2408,6 +2384,17 @@
    "title": "Raiffeisen отказался передавать Addiko Bank в Сербии Alta Group после отзыва лицензии",
    "title_src": "Raiffeisen намерен сохранить сербский Addiko Bank после отзыва лицензии у Alta Австрийская группа Raiffeisen Bank International (RBI) сообщила⁠, что больше не ожидает получения Alta Group необходимых разрешений для…",
    "updated": "2026-11-02T09:06:33+00:00"
+  },
+  "https://t.me/Serbia/107435": {
+   "first_seen": "2026-11-02T09:46:41+00:00",
+   "kind": "telegram",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Financial Times: ALTA Banka под международным контролем за подозрения в отмывании денег",
+   "title_src": "⭕️ Financial Times: ALTA Banka находилась под международным вниманием из-за подозрений в отмывании денег — банк был «личным кошельком» режима Вучичей Британская Financial Times сообщает⁠, что деятельность сербской ALTA…",
+   "updated": "2026-11-02T09:46:41+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -5971,24 +5958,39 @@
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
    "kind": "press",
+   "message_id": 97,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-02T09:46:35+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки"
+   ],
    "title": "JKP Informatika Novi Sad сменила счёт в Alta banci на новый после отзыва лицензии",
    "title_src": "Informatika Novi Sad promenila broj računa za uplate nakon oduzimanje dozvole Alta banci",
-   "updated": "2026-11-02T09:34:09+00:00"
+   "updated": "2026-11-02T09:46:35+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke": {
    "first_seen": "2026-11-02T09:15:32+00:00",
    "kind": "press",
+   "message_id": 97,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-02T09:46:35+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор",
+    "требования"
+   ],
    "title": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
    "title_src": "Institut Kareja podneo krivičnu prijavu zbog naplate računa za struju preko Alta banke",
-   "updated": "2026-11-02T09:15:32+00:00"
+   "updated": "2026-11-02T09:46:35+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ispred-alta-banke-na-novom-beogradu-uoceni-naoruzani-pripadnici-policije": {
    "attempts": 1,
