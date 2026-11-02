@@ -1,28 +1,46 @@
 {
  "facts": {
   "license_revoked_date": {
-   "at": "2026-11-02T10:42:06+00:00",
+   "at": "2026-11-02T16:03:56+00:00",
+   "history": [
+    {
+     "at": "2026-11-02T10:42:06+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853",
+     "value": "30 октября 2026"
+    }
+   ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853",
-   "value": "30 октября 2026"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858",
+   "value": "2 ноября 2026"
   }
  },
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник AOD новости": {
+    "last_sent": "2026-11-02T16:03:19+00:00",
+    "n": 1,
+    "since": "2026-11-02T16:01:34+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-02T16:03:20+00:00",
+    "n": 1,
+    "since": "2026-11-02T16:01:34+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-02T15:58:54+00:00",
+   "at": "2026-11-02T16:01:34+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T16:01:18+00:00",
-   "elapsed_s": 143,
-   "llm_calls": 0,
+   "at": "2026-11-02T16:04:22+00:00",
+   "elapsed_s": 168,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -46,8 +64,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -229,6 +247,11 @@
    "text": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
    "ts": 1793626722.448518,
    "url": "https://www.danas.rs/vesti/ekonomija/advokat-vlasnika-alta-banke-davor-macura-sutra-izlazi-pred-nadlezno-tuzilastvo-ne-znamo-sta-mu-se-stavlja-na-teret"
+  },
+  {
+   "text": "NBS отозвала лицензию ALTA GROUP DOO на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у ALTA GROUP DOO BEOGRAD на издание электронного денег и платные услуги (2 ноября 2026) — NBS явно указала, что ALTA GROUP DOO не является банком и не принимает депозиты, чт",
+   "ts": 1793635436.2833343,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858"
   }
  ],
  "retry_items": {},
@@ -7125,6 +7148,32 @@
    ],
    "title": "Осигурани депозити су заштићени, банкарски сектор је стабилан, а стабилност динара ће бити очувана",
    "updated": "2026-11-02T11:54:34+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858": {
+   "first_seen": "2026-11-02T16:03:56+00:00",
+   "hash": "c65e34d106f35815",
+   "kind": "news",
+   "message_id": 116,
+   "novelty": 5,
+   "paras": [
+    "a17083d684",
+    "e3b9b7997b",
+    "623425c3aa",
+    "5528450331",
+    "d2b28c1a2f",
+    "5b62f5ed94",
+    "dfe9e24930"
+   ],
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-02T16:03:56+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд"
+   ],
+   "title": "Одузимање дозволе институцији електронског новца ALTA GROUP DOO BEOGRAD, средства корисника платних услуга су заштићена ",
+   "updated": "2026-11-02T16:03:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
