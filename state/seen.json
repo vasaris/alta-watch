@@ -11,16 +11,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T15:02:26+00:00",
+   "at": "2026-11-02T15:04:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T15:02:56+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-02T15:04:57+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2239,6 +2239,17 @@
     "активы"
    ],
    "title": "Parandilović (NLS): Alta banka bila perionica novca za vrh SNS, tužilaštvo da ispita odgovornost"
+  },
+  "https://nova.rs/vesti/politika/srdjan-milivojevic-u-slucaju-alta-banke-ispitati-ulogu-jorgovanke-tabakovic-sinise-malog-tanje-vukic-i-zvonka-veselinovica": {
+   "first_seen": "2026-11-02T15:04:57+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Политик требует расследовать роль регуляторов и чиновников в деле Alta banke",
+   "title_src": "Srđan Milivojević: U slučaju Alta banke ispitati ulogu Jorgovanke Tabaković, Siniše Malog, Tanje Vukić i Zvonka Veselinovića",
+   "updated": "2026-11-02T15:04:57+00:00"
   },
   "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
    "attempts": 68,
