@@ -11,15 +11,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T13:18:49+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T13:20:33+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T13:19:20+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-02T13:23:02+00:00",
+   "elapsed_s": 149,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -41,13 +41,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -236,6 +236,11 @@
    "text": "Владелец Alta banke Давор Макура арестован по подозрению в хищении ~45 млрд динаров — TOK официально подтвердила конкретные имена и должности трёх арестованных (D.M. — владелец, G.M. — директор отдела тrezora, I.P. — сотрудник тrezora). — Механизм хищения: предоставление доступа в тrezor через карто",
    "ts": 1793625559.359951,
    "url": "https://beta.rs/content/255188-tok-uhapsen-vlasnik-alta-banke-sumnja-se-da-je-otudio-45-milijardi-dinara"
+  },
+  {
+   "text": "JTOK: арестованы владелец Alta banke и двое сотрудников по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные должности и инициалы трёх арестованных: D.M. (владелец), G.M. (директор отдела тrezora и управления готовиной), I.P. (сотрудник тrezorского отдела). — Механизм хищения: D.M. превы",
+   "ts": 1793625781.3094978,
+   "url": "https://insajder.net/prenosimo/jtok-o-slucaju-alta-banke-uhapsene-tri-osobe-sumnja-se-da-je-iz-trezora-neovlasceno-izneto-45-milijardi-dinara"
   }
  ],
  "retry_items": {},
@@ -1287,6 +1292,26 @@
    "title": "JKP Informatika Novi Sad: счёт в Alta banci закрыт, платежи на новый номер с 31 октября",
    "title_src": "JKP Informatika Novi Sad: Račun u Alta banci više nije aktiv, uplate na novi broj",
    "updated": "2026-11-02T08:28:43+00:00"
+  },
+  "https://insajder.net/prenosimo/jtok-o-slucaju-alta-banke-uhapsene-tri-osobe-sumnja-se-da-je-iz-trezora-neovlasceno-izneto-45-milijardi-dinara": {
+   "first_seen": "2026-11-02T13:23:01+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 114,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-02T13:23:01+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор",
+    "выплаты"
+   ],
+   "title": "JTOK: арестованы владелец Alta banke и двое сотрудников по подозрению в хищении ~45 млрд динаров из тrezora",
+   "title_src": "JTOK o slučaju Alta banke: Uhapšene tri osobe, sumnja se da je iz trezora neovlašćeno izneto 45 milijardi dinara",
+   "updated": "2026-11-02T13:23:01+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T20:11:10+00:00",
