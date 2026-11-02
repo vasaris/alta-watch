@@ -4,18 +4,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T09:02:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T09:04:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T09:02:50+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-02T09:06:33+00:00",
+   "elapsed_s": 139,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -34,35 +34,18 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "02.11.2026 08:31",
-    "first": "Подана тужба против Маловича, Джедовича Хандановича, Макуры и руководителей ЕПС в связи со счётами в Alta banci",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "суд",
-     "активы",
-     "регулятор"
-    ],
-    "title": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
-    "title_src": "Tužba protiv Malog, Đedović Handanović, Macuru i čelnike EPS-a zbog računa u Alta banci",
-    "ts": 1793608425.200192,
-    "url": "https://www.021.rs/info/srbija/460056/tuzba-protiv-malog-djedovic-handanovic-macuru-i-celnike-eps-a-zbog-racuna-u-alta-banci"
-   }
-  ]
+  "press": []
  },
  "recent": [
   {
@@ -134,6 +117,11 @@
    "text": "JKP Informatika Novi Sad: счёт в Alta banci закрыт, платежи на новый номер с 31 октября",
    "ts": 1793608123.4391797,
    "url": "https://insajder.net/prenosimo/jkp-informatika-novi-sad-racun-u-alta-banci-vise-nije-aktiv-uplate-na-novi-broj"
+  },
+  {
+   "text": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
+   "ts": 1793610388.1058517,
+   "url": "https://www.021.rs/info/srbija/460056/tuzba-protiv-malog-djedovic-handanovic-macuru-i-celnike-eps-a-zbog-racuna-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -2375,6 +2363,18 @@
    "title_src": "⭕️ В Черногории отозвали лицензию у Alta Pay Group вслед за сербской ALTA Banka Центральный банк Черногории лишил платежную организацию Alta Pay Group из Подгорицы разрешения на оказание платежных услуг. Регулятор…",
    "updated": "2026-11-01T20:56:43+00:00"
   },
+  "https://t.me/Serbia/107434": {
+   "first_seen": "2026-11-02T09:06:33+00:00",
+   "kind": "telegram",
+   "novelty": 4,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Raiffeisen отказался передавать Addiko Bank в Сербии Alta Group после отзыва лицензии",
+   "title_src": "Raiffeisen намерен сохранить сербский Addiko Bank после отзыва лицензии у Alta Австрийская группа Raiffeisen Bank International (RBI) сообщила⁠, что больше не ожидает получения Alta Group необходимых разрешений для…",
+   "updated": "2026-11-02T09:06:33+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -2785,13 +2785,20 @@
   "https://www.021.rs/info/srbija/460056/tuzba-protiv-malog-djedovic-handanovic-macuru-i-celnike-eps-a-zbog-racuna-u-alta-banci": {
    "first_seen": "2026-11-02T08:33:45+00:00",
    "kind": "press",
+   "message_id": 96,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-02T09:06:28+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор"
+   ],
    "title": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
    "title_src": "Tužba protiv Malog, Đedović Handanović, Macuru i čelnike EPS-a zbog računa u Alta banci",
-   "updated": "2026-11-02T08:33:45+00:00"
+   "updated": "2026-11-02T09:06:28+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
