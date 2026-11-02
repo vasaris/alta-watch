@@ -4,16 +4,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T08:33:17+00:00",
+   "at": "2026-11-02T08:34:24+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T08:33:45+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 1,
+   "at": "2026-11-02T08:34:57+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1757,6 +1757,16 @@
     "активы"
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
+  },
+  "https://nova.rs/vesti/drustvo/informatika-novi-sad-nas-racun-u-alta-banci-nije-vise-aktivan-uplate-na-novi-broj": {
+   "first_seen": "2026-11-02T08:34:57+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/informatika-novi-sad-nas-racun-u-alta-banci-nije-vise-aktivan-uplate-na-novi-broj",
+   "status": "dup",
+   "title": "Informatika Novi Sad: Naš račun u Alta banci nije više aktivan, uplate na novi broj",
+   "title_src": "Informatika Novi Sad: Naš račun u Alta banci nije više aktivan, uplate na novi broj",
+   "updated": "2026-11-02T08:34:57+00:00"
   },
   "https://nova.rs/vesti/drustvo/studenti-o-oduzimanju-dozvole-za-rad-alta-banci-nema-razloga-za-paniku-trazimo-istragu-poslovanja-i-odgovornost-nadleznih": {
    "first_seen": "2026-10-31T18:28:40+00:00",
