@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-02T19:46:44+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-02T19:48:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-02T19:47:09+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-02T19:50:52+00:00",
+   "elapsed_s": 157,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -73,11 +73,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Вооружённая полиция у здания Alta Banka на Новом Белграде после отзыва лицензии — Вооружённые полицейские развёрнуты у здания Alta Banka на Новом Белграде 31 октября днём — Четыре вице-губернатора НБС подтвердили, что реальное состояние банка резко отличалось от поданных отчётов и выявлено только на",
-   "ts": 1793467745.698017,
-   "url": "https://n1info.rs/vesti/video-naoruzani-pripadnici-policije-ispred-alta-banke-na-novom-beogradu"
-  },
   {
    "text": "Прокуратура по организованной преступности запросила у НБС данные о переводах Alta Banka в иностранство — Дополнительный запрос от 29 октября специально о конвертации и оттоках средств Alta Banka — Уголовное заявление НБС передано TOK 30 октября по электронной почте",
    "ts": 1793467753.4623551,
@@ -272,6 +267,11 @@
    "text": "Уголовное заявление адвоката Нинича: руководство Alta banke переводило деньги в Москву и Скопье, NBS не провела проверку — Адвокат Нинич подал уголовное заявление против Макуры и 9 членов управления Alta banke за ускоренные трансферы в Москву и Скопье с 26.10.2026. — В заявлении названы конкретные ч",
    "ts": 1793639873.7844503,
    "url": "https://nova.rs/vesti/biznis/krivicna-prijava-koju-je-ivan-ninic-podneo-protiv-davora-macure"
+  },
+  {
+   "text": "Прокурор Стаменкович: деньги из Alta banke должны быть заблокированы и проверены — Прокурор Верховного обвинения Бранко Стаменкович официально заявил о необходимости блокировки всех средств Alta и проверки каждой транзакции. — Подтверждение сведений о вывозе ~380 млн евро наличными квалифицируется п",
+   "ts": 1793649050.498607,
+   "url": "https://insajder.net/prenosimo/tuzilac-stamenkovic-o-alta-banci-novac-mora-da-bude-blokiran-i-svaki-dinar-proveren"
   }
  ],
  "retry_items": {},
@@ -1479,6 +1479,26 @@
    "status": "dup",
    "title": "JTOK запросила проверку Alta Banka и должностных лиц НБС по подозрению на отток средств за границу",
    "updated": "2026-10-31T17:33:27+00:00"
+  },
+  "https://insajder.net/prenosimo/tuzilac-stamenkovic-o-alta-banci-novac-mora-da-bude-blokiran-i-svaki-dinar-proveren": {
+   "first_seen": "2026-11-02T19:50:50+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 121,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-02T19:50:50+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор",
+    "требования"
+   ],
+   "title": "Прокурор Стаменкович: деньги из Alta banke должны быть заблокированы и проверены",
+   "title_src": "Tužilac Stamenković o Alta banci: Novac mora da bude blokiran i svaki dinar proveren",
+   "updated": "2026-11-02T19:50:50+00:00"
   },
   "https://insajder.net/prenosimo/udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor": {
    "first_seen": "2026-11-01T10:07:29+00:00",
