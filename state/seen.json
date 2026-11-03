@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T07:56:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T07:58:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
-  "daily_report_date": "2026-11-02",
+  "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T07:56:35+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-03T08:00:43+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -73,11 +73,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Директор AOD: вклады Alta до 50 000 евро выплатят в течение недели через банк-выплатчик — Директор AOD подтвердила, что вкладчики будут уведомлены о банке-выплатчике в кратчайший срок (в течение нескольких дней). — Выплаты ожидаются в течение недели (в рамках 7-дневного законного срока).",
-   "ts": 1793468017.0342965,
-   "url": "https://www.rts.rs/vesti/ekonomija/6073697/alta-banka-novac-stedise-ulog-novac-isplata-kada-depozit-agencija.html"
-  },
   {
    "text": "НБС подал уголовное заявление против Alta Banka и руководства в прокуратуру по организованной преступности — НБС официально подала уголовное заявление в JTOK 30.10.2026 (ранее было известно о передаче, но не о дате и официальном подтверждении JTOK) — JTOK запросила проверку не только банки, но и отв",
    "ts": 1793468097.3206725,
@@ -272,6 +267,11 @@
    "text": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
    "ts": 1793688391.0340466,
    "url": "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video"
+  },
+  {
+   "text": "NBS отозвала лицензию ALTA GROUP на электронные деньги и платежи — ALTA GROUP DOO BEOGRAD — отдельная юридическая лицо (институт электронного денег), не банк; не принимает депозиты граждан и компаний — Отзыв лицензии ALTA GROUP — автоматическое следствие отзыва лицензии ALTA banca, а не самостоятель",
+   "ts": 1793692841.90869,
+   "url": "https://bizlife.rs/posle-alta-banke-bez-dozvole-ostala-i-alta-group-nbs-objasnjava-sta-to-znaci-za-korisnike"
   }
  ],
  "retry_items": {},
@@ -1195,6 +1195,26 @@
    "title": "NBS: депозиты защищены, банковский сектор стабилен, курс динара сохранится",
    "title_src": "NBS pokušava da umiri privredu i građane: Depoziti su zaštićeni, a stabilnost dinara ostaje prioritet",
    "updated": "2026-11-02T13:31:29+00:00"
+  },
+  "https://bizlife.rs/posle-alta-banke-bez-dozvole-ostala-i-alta-group-nbs-objasnjava-sta-to-znaci-za-korisnike": {
+   "first_seen": "2026-11-03T08:00:41+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 124,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-03T08:00:41+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "банки",
+    "суд"
+   ],
+   "title": "NBS отозвала лицензию ALTA GROUP на электронные деньги и платежи",
+   "title_src": "Posle ALTA banke, bez dozvole ostala i ALTA GROUP: NBS objašnjava šta to znači za korisnike",
+   "updated": "2026-11-03T08:00:41+00:00"
   },
   "https://forbes.n1info.rs/biznis/alta-banka-nije-morala-da-ide-u-stecaj-nbs-da-objasni-zasto-je-to-uradila-sagovornici-forbes-objasnjavaju-zasto-je-tesko-izneti-45-milijardi-dinara": {
    "first_seen": "2026-11-03T06:01:09+00:00",
