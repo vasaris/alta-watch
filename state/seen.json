@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:20:25+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T11:22:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:21:10+00:00",
-   "elapsed_s": 44,
-   "llm_calls": 2,
+   "at": "2026-11-03T11:24:49+00:00",
+   "elapsed_s": 153,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -8381,14 +8381,14 @@
    "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
-   "attempts": 1,
+   "attempts": 2,
    "first_seen": "2026-11-03T11:21:10+00:00",
    "kind": "press",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "updated": "2026-11-03T11:21:10+00:00"
+   "updated": "2026-11-03T11:24:49+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
