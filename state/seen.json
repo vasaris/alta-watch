@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T16:52:19+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T16:55:00+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T16:54:41+00:00",
-   "elapsed_s": 142,
-   "llm_calls": 0,
+   "at": "2026-11-03T16:55:52+00:00",
+   "elapsed_s": 51,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -1834,6 +1834,18 @@
    "title": "Анализ Insajdera: какие государственные и общественные предприятия имели счета в Alta и сколько денег заблокировано",
    "title_src": "Analiza Insajdera: Koja državna i javna preduzeća imaju račune u Alta banci i da li im je deo novca zarobljen",
    "updated": "2026-11-03T16:36:52+00:00"
+  },
+  "https://insajder.net/teme/ekonomista-o-makedonskoj-alta-banci-u-bitolju-nadamo-se-da-nece-biti-srpskog-scenarija-video": {
+   "first_seen": "2026-11-03T16:55:52+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Экономист о ситуации в Alta banke Bitolj: надежда избежать сербского сценария",
+   "title_src": "Ekonomista o makedonskoj Alta banci u Bitolju: Nadamo se da neće biti srpskog scenarija (VIDEO)",
+   "updated": "2026-11-03T16:55:52+00:00"
   },
   "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video": {
    "first_seen": "2026-11-03T06:15:51+00:00",
