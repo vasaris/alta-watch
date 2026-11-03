@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:16:16+00:00",
+   "at": "2026-11-03T11:18:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:16:59+00:00",
-   "elapsed_s": 43,
-   "llm_calls": 0,
+   "at": "2026-11-03T11:18:53+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1479,6 +1479,18 @@
    "title": "Центральный банк Северной Македонии следит за Alta banke Bitolj на фоне краха материнской компании",
    "title_src": "Narodna banka Severne Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
    "updated": "2026-10-31T20:11:10+00:00"
+  },
+  "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-uprava-u-alta-banci-bitolj-privremena-mera-zastite-do-promene-vlasnistva": {
+   "first_seen": "2026-11-03T11:18:53+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии ввел администрацию в Alta banku Bitolj до смены собственника",
+   "title_src": "Narodna banka Severne Makedonije: Uprava u Alta banci Bitolj privremena mera zaštite do promene vlasništva",
+   "updated": "2026-11-03T11:18:53+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-srbije-obavestenje-o-isplati-depozita-alta-banke-bice-u-roku-od-tri-dana-od-otvaranja-stecaja": {
    "first_seen": "2026-11-02T17:29:37+00:00",
