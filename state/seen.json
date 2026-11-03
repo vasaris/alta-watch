@@ -29,15 +29,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T05:58:40+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T06:01:23+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T06:01:09+00:00",
-   "elapsed_s": 148,
+   "at": "2026-11-03T06:02:00+00:00",
+   "elapsed_s": 36,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -3226,6 +3226,18 @@
    "title": "NBS повторил порядок возврата депозитов через AOD",
    "title_src": "NBS разъяснил порядок возврата денег клиентам ALTA Banka Народный банк Сербии 2 ноября уточнил, что граждане и компании, имевшие счета в ALTA Banka, должны обращаться по вопросам возврата средств в Агентство страхования…",
    "updated": "2026-11-02T23:32:45+00:00"
+  },
+  "https://t.me/Serbia/107472": {
+   "first_seen": "2026-11-03T06:02:00+00:00",
+   "kind": "telegram",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Raiffeisen отказывается от сделки с Addiko в Сербии из-за краха ALTA",
+   "title_src": "Raiffeisen планирует сохранить Addiko Bank в Сербии после краха ALTA Banka Австрийская Raiffeisen Bank International (RBI) сообщила, что рассчитывает сохранить все подразделения приобретаемой Addiko Group, включая банк…",
+   "updated": "2026-11-03T06:02:00+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
