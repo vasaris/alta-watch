@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:10:22+00:00",
+   "at": "2026-11-03T11:12:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:10:55+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-03T11:13:04+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Financial Times: Alta banka под международным контролем из-за подозрений в отмывании денег; русские хранили там сбережения — Financial Times подтверждает, что Alta использовалась для трансфертов денег русских физических и юридических лиц после вторжения в Украину 2022 года. — ЕЦБ проводил проверку A",
-   "ts": 1793607045.2923715,
-   "url": "https://n1info.rs/vesti/fajnensel-tajms-rusi-srbija-alta-banka"
-  },
   {
    "text": "JKP Informatika Novi Sad: счёт в Alta banci закрыт, платежи на новый номер с 31 октября",
    "ts": 1793608123.4391797,
@@ -278,6 +273,11 @@
    "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице — Банка Поштанске штедионице выбрана банком-выплатчиком (новое имя, не было ранее) — Дата объявления банка-выплатчика: 3 ноября 2026",
    "ts": 1793704003.3219962,
    "url": "https://www.aod.rs/clan/vest/vest_forma/139"
+  },
+  {
+   "text": "Хозяйственный суд Белграда открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026. — Банка Поштанске штедионице официально выбрана банком-выплатчиком (объявлено 3 ноября 2026).",
+   "ts": 1793704378.5904415,
+   "url": "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita"
   }
  ],
  "retry_items": {},
@@ -3770,6 +3770,17 @@
    "title": "Пресса о том, как Макура выносил деньги из Alta; спекуляции банкиров",
    "title_src": "Банкиры считают, что Alta могла избежать банкротства, но лучшее в этой новости все равно иллюстрация! Подпись: Мацура выносит деньги из Альта банка. Оперативная съемка камерами",
    "updated": "2026-11-03T09:07:11+00:00"
+  },
+  "https://t.me/novostiserbii/17252": {
+   "first_seen": "2026-11-03T11:13:04+00:00",
+   "kind": "telegram",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Alta Banka официально объявлена банкротом — суд вынес решение",
+   "title_src": "🏦 Alta Banka официально объявлена банкротом — это необходимо для начала выплат Bloomberg Adria пишет, что суд вынес решение о объявлении банка банкротом. Это необходимый шаг для того, чтобы клиенты банка начали получать…",
+   "updated": "2026-11-03T11:13:04+00:00"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
@@ -7642,6 +7653,26 @@
     "банки"
    ],
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
+  },
+  "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita": {
+   "first_seen": "2026-11-03T11:12:58+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 130,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-03T11:12:58+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Хозяйственный суд Белграда открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
+   "title_src": "Privredni sud pokrenuo stečaj nad Alta bankom: Poštanska štedionica izabrana za isplatu osiguranih depozita",
+   "updated": "2026-11-03T11:12:58+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradjana": {
    "attempts": 9,
