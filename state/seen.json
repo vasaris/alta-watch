@@ -35,23 +35,23 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T16:55:00+00:00",
+   "at": "2026-11-03T16:56:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T16:55:52+00:00",
-   "elapsed_s": 51,
-   "llm_calls": 1,
+   "at": "2026-11-03T16:56:49+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
   },
   "press": {
    "021": "ok:10",
-   "beta": "ok:10",
+   "beta": "network_error",
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
