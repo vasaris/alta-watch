@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T15:52:16+00:00",
+   "at": "2026-11-03T15:54:54+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T15:54:38+00:00",
-   "elapsed_s": 142,
-   "llm_calls": 0,
+   "at": "2026-11-03T15:57:39+00:00",
+   "elapsed_s": 164,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -70,8 +70,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -1205,6 +1205,17 @@
    "title": "Intesa Invest: депозиты в ALTA были минимальны, фонды сохраняют требования в полном объёме",
    "title_src": "Intesa Invest: Ograničeni depoziti u ALTA banci, ispravka vrednosti sredstava",
    "updated": "2026-11-03T11:56:57+00:00"
+  },
+  "https://beta.rs/content/255269-strucnjaci-malo-verovatno-da-tabakovic-nije-znala-sta-se-desava-u-alta-banci-mora-da-odgovara": {
+   "first_seen": "2026-11-03T15:57:34+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Эксперты: губернатор Табаковић должна отвечать за Alta banke",
+   "title_src": "Stručnjaci: Malo verovatno da Tabaković nije znala šta se dešava u Alta banci, mora da odgovara",
+   "updated": "2026-11-03T15:57:34+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
@@ -4001,6 +4012,17 @@
    "title": "Alta Banka официально объявлена банкротом — суд вынес решение",
    "title_src": "🏦 Alta Banka официально объявлена банкротом — это необходимо для начала выплат Bloomberg Adria пишет, что суд вынес решение о объявлении банка банкротом. Это необходимый шаг для того, чтобы клиенты банка начали получать…",
    "updated": "2026-11-03T11:13:04+00:00"
+  },
+  "https://t.me/novostiserbii/17254": {
+   "first_seen": "2026-11-03T15:57:39+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Владелец ALTA Макура арестован по подозрению в хищении 45 млрд дин; деньги переводились в Москву и Скопье",
+   "title_src": "#ЕжедневнаяПресса На передовице Nova (и не только) — владелец \"Альта банка\" и двое его коллег, оказавшихся под ударом закона. Мацура арестован. Его подозревают в выносе* из хранилища банка 45 млрд дин. В заявлении о…",
+   "updated": "2026-11-03T15:57:39+00:00"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
