@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T18:34:15+00:00",
+   "at": "2026-11-03T18:36:30+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T18:34:48+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-03T18:37:07+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -76,7 +76,22 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "03.11.2026 18:35",
+    "first": "Конкретные названия государственных компаний, подтвердивших отсутствие угрозы: Телеком, Почта, EXPO 2027, NIS",
+    "important": false,
+    "kind": "press",
+    "outlet": "N1",
+    "tags": [
+     "активы"
+    ],
+    "title": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
+    "title_src": "Državna preduzeća kažu da im nije ugroženo poslovanje nakon stečaja Alta banke",
+    "ts": 1793731027.0548108,
+    "url": "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -1951,6 +1966,17 @@
    "title": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
    "title_src": "Slučaj Alta i investicioni fondovi: Vrednost jedinica kod Vista Rica pala i do 22 odsto",
    "updated": "2026-11-03T15:07:18+00:00"
+  },
+  "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke": {
+   "first_seen": "2026-11-03T18:37:07+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
+   "title_src": "Državna preduzeća kažu da im nije ugroženo poslovanje nakon stečaja Alta banke",
+   "updated": "2026-11-03T18:37:07+00:00"
   },
   "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
    "first_seen": "2026-10-31T12:35:12+00:00",
