@@ -29,15 +29,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T04:58:05+00:00",
+   "at": "2026-11-03T04:59:46+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T04:59:33+00:00",
-   "elapsed_s": 87,
+   "at": "2026-11-03T05:01:57+00:00",
+   "elapsed_s": 131,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -49,10 +49,10 @@
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
-   "insajder": "ok:100",
+   "insajder": "network_error",
    "n1": "ok:50",
    "nova": "ok:50",
-   "novaekonomija": "ok:20",
+   "novaekonomija": "network_error",
    "radar": "ok:50",
    "rts": "ok:20",
    "rtv": "ok:20"
