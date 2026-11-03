@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T14:22:16+00:00",
+   "at": "2026-11-03T14:24:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T14:22:49+00:00",
-   "elapsed_s": 33,
+   "at": "2026-11-03T14:24:52+00:00",
+   "elapsed_s": 36,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -76,32 +76,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 13:51",
-    "first": "Допрос Макуры в JTOK назначен на 3 ноября 2026 в 19:00.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "суд",
-     "регулятор",
-     "активы",
-     "выплаты"
-    ],
-    "title": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
-    "title_src": "Saslušanje Davora Macure zakazano za danas u 19 časova",
-    "ts": 1793714080.726922,
-    "url": "https://www.danas.rs/vesti/ekonomija/saslusanje-davora-macure-zakazano-za-danas-u-19-casova"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Арестован Давор Макура, владелец Alta banke — Давор Макура арестован в ночь на 2 ноября 2026 года",
-   "ts": 1793615588.7382648,
-   "url": "https://www.danas.rs/vesti/ekonomija/nova-rs-uhapsen-davor-macura-vlasnik-alta-banke"
-  },
   {
    "text": "NBS: уполномоченные обменники должны срочно сменить банка или ПО после отзыва лицензии Alta — Официальное уведомление NBS от 2 ноября 2026 г. адресовано уполномоченным обменникам, работавшим с ALTA банком — Обменники должны сменить банка-партнёра или ПО без задержек; срок уведомления NBS — не поздне",
    "ts": 1793616126.804714,
@@ -296,6 +273,11 @@
    "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности 3 ноября в 19:00 — Допрос Макуры в JTOK подтвержден на 3 ноября 2026 в 19:00. — Размер подозреваемой противоправной выгоды: около 45 млрд динаров.",
    "ts": 1793715484.538902,
    "url": "https://insajder.net/prenosimo/saslusanje-vlasnika-alta-banke-davora-macure-u-jtok-u-danas-u-19-sati-potvrdio-njegov-advokat"
+  },
+  {
+   "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
+   "ts": 1793715890.8432245,
+   "url": "https://www.danas.rs/vesti/ekonomija/saslusanje-davora-macure-zakazano-za-danas-u-19-casova"
   }
  ],
  "retry_items": {},
@@ -7911,13 +7893,21 @@
   "https://www.danas.rs/vesti/ekonomija/saslusanje-davora-macure-zakazano-za-danas-u-19-casova": {
    "first_seen": "2026-11-03T13:54:40+00:00",
    "kind": "press",
+   "message_id": 136,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-03T14:24:50+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "выплаты"
+   ],
    "title": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
    "title_src": "Saslušanje Davora Macure zakazano za danas u 19 časova",
-   "updated": "2026-11-03T13:54:40+00:00"
+   "updated": "2026-11-03T14:24:50+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradjana": {
    "attempts": 9,
