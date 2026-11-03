@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T10:16:18+00:00",
+   "at": "2026-11-03T10:18:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T10:16:52+00:00",
-   "elapsed_s": 34,
-   "llm_calls": 0,
+   "at": "2026-11-03T10:18:57+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -70,58 +70,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 10:06",
-    "first": "ЕПС подтверждает, что на счётах в Alta на момент отзыва лицензии было менее 0,5% ежемесячного поступления",
-    "important": false,
-    "kind": "press",
-    "outlet": "RTS",
-    "tags": [
-     "регулятор",
-     "активы",
-     "банки",
-     "клиенты"
-    ],
-    "title": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
-    "title_src": "ЕПС: Није угрожена финансијска стабилност предузећа због одузимање лиценце Алта банци",
-    "ts": 1793700550.7069197,
-    "url": "https://www.rts.rs/vesti/ekonomija/6075097/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci.html"
-   },
-   {
-    "date": "03.11.2026 10:12",
-    "first": "JSP Kragujevac открыл счёт в Alta banke 14 августа 2026 года — это единственный муниципальный счёт в этом банке в Крагуевце",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "активы",
-     "клиенты",
-     "регулятор"
-    ],
-    "title": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
-    "title_src": "Za Kragujevac – Znamo se: Zbog čega je Javno stambeno preduzeće otvorilo u avgustu račun u Alta banci?",
-    "ts": 1793700912.214791,
-    "url": "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Четыре вице-губернатора НБС требуют расследования ответственности внутри регулятора за отзыв лицензии Alta",
-   "ts": 1793525556.4901145,
-   "url": "https://www.rts.rs/vesti/ekonomija/6073574/viceguverneri-traze-istragu-ko-je-odgovoran-unutar-nbs-zbog-gasenja-alta-banke-.html"
-  },
-  {
-   "text": "От обменника к краху: история расширения Alta Banka и владения Давора Макуры",
-   "ts": 1793552431.8616576,
-   "url": "https://nova.rs/vesti/biznis/dosije-alta-od-menjacnice-u-zemunu-do-banke-na-ciji-racun-placamo-eps-u-mup-u-kako-se-sirilo-poslovanje-banke-kojoj-je-nbs-oduzela-dozvolu-za-rad"
-  },
-  {
-   "text": "Центральный банк Черногории отозвал лицензию у Alta Pay Group Подгорица",
-   "ts": 1793565634.7651913,
-   "url": "https://n1info.rs/region/savet-centralne-banke-crne-gore-oduzeo-odobrenje-alta-pay-group-podgorica"
-  },
   {
    "text": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
    "ts": 1793572723.916211,
@@ -306,6 +257,21 @@
    "text": "Крах Alta banke вызвал цепную реакцию в регионе: клиенты блокированы в Македонии, госкомпании меняют банки, владелец арестован — Конкретный пример клиента из Северной Македонии (Тихомир): блокировка приватных и деловых счетов, депозитов и кредитных аранжманов; невозможность платежей. — Северная Маке",
    "ts": 1793700539.4355338,
    "url": "https://nova.rs/vesti/svet/zatvaranje-alta-banke-izazvalo-potres-u-regionu-klijenti-ostali-bez-novca-sirom-zapadnog-balkana"
+  },
+  {
+   "text": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
+   "ts": 1793701135.7060287,
+   "url": "https://www.rts.rs/vesti/ekonomija/6075097/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci.html"
+  },
+  {
+   "text": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
+   "ts": 1793701135.7060852,
+   "url": "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci"
+  },
+  {
+   "text": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
+   "ts": 1793701135.7060988,
+   "url": "https://insajder.net/prenosimo/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci"
   }
  ],
  "retry_items": {},
@@ -1392,6 +1358,25 @@
    ],
    "title": "Директор AOD: Хозяйственный суд Белграда откроет банкротство Alta в понедельник, выплаты начнутся через неделю",
    "updated": "2026-10-31T17:39:16+00:00"
+  },
+  "https://insajder.net/prenosimo/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci": {
+   "first_seen": "2026-11-03T10:18:55+00:00",
+   "kind": "press",
+   "message_id": 128,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-03T10:18:55+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "банки",
+    "требования"
+   ],
+   "title": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
+   "title_src": "EPS: Nije ugrožena finansijska stabilnost preduzeća zbog oduzimanje licence Alta banci",
+   "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://insajder.net/prenosimo/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
    "first_seen": "2026-11-03T06:15:41+00:00",
@@ -7603,13 +7588,20 @@
   "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci": {
    "first_seen": "2026-11-03T10:15:12+00:00",
    "kind": "press",
+   "message_id": 128,
    "novelty": 6,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-03T10:18:55+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "регулятор"
+   ],
    "title": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
    "title_src": "Za Kragujevac – Znamo se: Zbog čega je Javno stambeno preduzeće otvorilo u avgustu račun u Alta banci?",
-   "updated": "2026-11-03T10:15:12+00:00"
+   "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://www.danas.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T13:01:09+00:00",
@@ -8147,13 +8139,21 @@
   "https://www.rts.rs/vesti/ekonomija/6075097/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci.html": {
    "first_seen": "2026-11-03T10:09:10+00:00",
    "kind": "press",
+   "message_id": 128,
    "novelty": 6,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-03T10:18:55+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "банки",
+    "клиенты"
+   ],
    "title": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
    "title_src": "ЕПС: Није угрожена финансијска стабилност предузећа због одузимање лиценце Алта банци",
-   "updated": "2026-11-03T10:09:10+00:00"
+   "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
