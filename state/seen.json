@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T12:26:13+00:00",
+   "at": "2026-11-03T12:28:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T12:26:45+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-03T12:28:44+00:00",
+   "elapsed_s": 31,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1305,6 +1305,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://forbes.n1info.rs/vesti/beograd-na-vodi-nema-rizika-po-likvidnost-i-finansijsku-stabilnost-kompanije-nakon-oduzimanja-licence-alta-banci": {
+   "first_seen": "2026-11-03T12:28:44+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "«Белград на воде»: нет риска для ликвидности и финстабильности компании после отзыва лицензии Alta",
+   "title_src": "Beograd na vodi: Nema rizika po likvidnost i finansijsku stabilnost kompanije nakon oduzimanja licence Alta banci",
+   "updated": "2026-11-03T12:28:44+00:00"
   },
   "https://forbes.n1info.rs/vesti/eps-zbog-oduzimanja-licence-alta-banci-nisu-ugrozeni-poslovanje-i-finansijska-stabilnost": {
    "first_seen": "2026-11-03T10:47:31+00:00",
