@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T19:18:32+00:00",
+   "at": "2026-11-03T19:20:37+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T19:19:04+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-03T19:21:09+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1254,6 +1254,18 @@
    "title": "Банка Поштанске штедионице начала выплату пенсий вкладчикам Alta banke",
    "title_src": "Banka Poštanska štedionica počela isplatu penzija korisnicima Alta Banke",
    "updated": "2026-11-03T17:53:10+00:00"
+  },
+  "https://beta.rs/content/255286-slaveski-nije-bilo-milionskih-transakcija-iz-alta-banke-bitolj-nakon-26-oktobra": {
+   "first_seen": "2026-11-03T19:21:09+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Управляющий Северной Македонии: нет миллионных транзакций из Alta banke Bitolj после 26 октября",
+   "title_src": "Slaveski: Nije bilo milionskih transakcija iz Alta banke Bitolj nakon 26. oktobra",
+   "updated": "2026-11-03T19:21:09+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
