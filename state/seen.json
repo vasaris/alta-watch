@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T23:56:12+00:00",
+   "at": "2026-11-03T23:58:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T23:56:53+00:00",
-   "elapsed_s": 40,
-   "llm_calls": 1,
+   "at": "2026-11-03T23:58:47+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2968,6 +2968,16 @@
    "title": "Давор Макура арестован по приказу JTOK; задержание на 48 часов",
    "title_src": "Davoru Macuri određeno zadržavanje po nalogu JTOK, potvrdili njegovi branioci iz advokatske kancelarije Spahović",
    "updated": "2026-11-02T11:42:55+00:00"
+  },
+  "https://nova.rs/vesti/hronika/macura-saslusan-pred-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor": {
+   "first_seen": "2026-11-03T23:58:47+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/macura-saslusan-pred-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor",
+   "status": "dup",
+   "title": "Macura saslušan pred JTOK, negirao krivicu: Tužilaštvo traži pritvor",
+   "title_src": "Macura saslušan pred JTOK, negirao krivicu: Tužilaštvo traži pritvor",
+   "updated": "2026-11-03T23:58:47+00:00"
   },
   "https://nova.rs/vesti/hronika/oglasilo-se-javno-tuzilastvo-za-organizovani-kriminal-o-slucaju-alta-banke": {
    "attempts": 84,
