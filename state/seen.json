@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T14:14:23+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T14:17:23+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T14:17:11+00:00",
-   "elapsed_s": 167,
-   "llm_calls": 0,
+   "at": "2026-11-03T14:18:06+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -97,11 +97,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Деян Гаврилович: Alta banka не работает, выплаты проведёт другой банк через AOD — Деян Гаврилович (Удружение Efektiva) подтвердил, что Alta banka не может самостоятельно выплачивать депозиты после отзыва лицензии. — AOD имеет 3 рабочих дня на объявление банка-выплатчика и уведомление вкладчиков; 7 р",
-   "ts": 1793614016.9007537,
-   "url": "https://n1info.rs/biznis/ne-cekajte-u-redovima-alta-banka-ne-radi-gavrilovic-objasnjava-ko-ce-gradjanima-isplatiti-novac-i-kada"
-  },
   {
    "text": "Арестован Давор Макура, владелец Alta banke — Давор Макура арестован в ночь на 2 ноября 2026 года",
    "ts": 1793615588.7382648,
@@ -296,6 +291,11 @@
    "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице; выплаты начнутся до 6 ноября — Банка Поштанске штедионице официально выбрана банком-выплатчиком (конкретное название, ранее было неизвестно) — АОД опубликует дату начала выплат до 6 ноября 2026 и перечень отделений на своём сайте",
    "ts": 1793709447.8940294,
    "url": "https://www.rts.rs/vesti/ekonomija/6075336/postanska-stedionica-alta-banka-stednja-stecaj.html"
+  },
+  {
+   "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности 3 ноября в 19:00 — Допрос Макуры в JTOK подтвержден на 3 ноября 2026 в 19:00. — Размер подозреваемой противоправной выгоды: около 45 млрд динаров.",
+   "ts": 1793715484.538902,
+   "url": "https://insajder.net/prenosimo/saslusanje-vlasnika-alta-banke-davora-macure-u-jtok-u-danas-u-19-sati-potvrdio-njegov-advokat"
   }
  ],
  "retry_items": {},
@@ -1639,6 +1639,26 @@
    "title": "Privredni sud pokrenuo stečaj nad Alta bankom, Poštanska štedionica određena za isplatu osiguranih depozita",
    "title_src": "Privredni sud pokrenuo stečaj nad Alta bankom, Poštanska štedionica određena za isplatu osiguranih depozita",
    "updated": "2026-11-03T11:41:27+00:00"
+  },
+  "https://insajder.net/prenosimo/saslusanje-vlasnika-alta-banke-davora-macure-u-jtok-u-danas-u-19-sati-potvrdio-njegov-advokat": {
+   "first_seen": "2026-11-03T14:18:04+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 135,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-03T14:18:04+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
+   "title": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности 3 ноября в 19:00",
+   "title_src": "Saslušanje vlasnika Alta banke Davora Macure u JTOK-u danas u 19 sati, potvrdio njegov advokat",
+   "updated": "2026-11-03T14:18:04+00:00"
   },
   "https://insajder.net/prenosimo/savet-centralne-banke-crne-gore-platnoj-instituciji-alta-pay-group-podgorica-oduzeto-odobrenje-za-pruzanje-usluga": {
    "first_seen": "2026-11-01T20:14:00+00:00",
