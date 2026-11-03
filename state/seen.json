@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T14:34:14+00:00",
+   "at": "2026-11-03T14:36:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T14:34:58+00:00",
-   "elapsed_s": 44,
-   "llm_calls": 0,
+   "at": "2026-11-03T14:37:00+00:00",
+   "elapsed_s": 43,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -76,7 +76,25 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "03.11.2026 14:35",
+    "first": "Конкретные цифры падения стоимости единиц: Vista Rica — 17,96–22,61%, Intesa Invest — 0,84–1,17%.",
+    "important": false,
+    "kind": "press",
+    "outlet": "N1",
+    "tags": [
+     "активы",
+     "требования",
+     "банки",
+     "клиенты"
+    ],
+    "title": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
+    "title_src": "Slučaj Alta i investicioni fondovi: Vrednost jedinica kod Vista Rica pala i do 22 odsto",
+    "ts": 1793716620.4465296,
+    "url": "https://n1info.rs/biznis/draft-zvanicna"
+   }
+  ]
  },
  "recent": [
   {
@@ -1821,6 +1839,17 @@
    "title": "Экономист Драшкович: признаки проблем в Alta были год назад, ответственность на NBS",
    "title_src": "Božo Drašković: Crvene lampice u poslovanju Alta banke svetlele i pre godinu dana, odgovornost je na NBS",
    "updated": "2026-11-03T09:41:07+00:00"
+  },
+  "https://n1info.rs/biznis/draft-zvanicna": {
+   "first_seen": "2026-11-03T14:37:00+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
+   "title_src": "Slučaj Alta i investicioni fondovi: Vrednost jedinica kod Vista Rica pala i do 22 odsto",
+   "updated": "2026-11-03T14:37:00+00:00"
   },
   "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
    "first_seen": "2026-10-31T12:35:12+00:00",
