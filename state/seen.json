@@ -35,15 +35,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T16:34:15+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T16:37:08+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T16:36:53+00:00",
-   "elapsed_s": 158,
+   "at": "2026-11-03T16:37:55+00:00",
+   "elapsed_s": 46,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -96,11 +96,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "NBS: депозиты защищены, банковский сектор стабилен, курс динара будет сохранён — NBS официально подтвердила, что AOD имеет необходимые средства для выплат депозитов в установленный законом срок. — NBS подтвердила решимость сохранить стабильность динара к евро, используя интервенции на валютном рынке",
-   "ts": 1793620474.552869,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21856"
-  },
   {
    "text": "Financial Times: ECB проверял Alta banku по подозрениям в отмывании денег; закрытие затронуло русских в Сербии — ECB (Европейский центральный банк) проводил проверку Alta banke по подозрениям в отмывании денег — новый уровень международного надзора",
    "ts": 1793620495.2904062,
@@ -295,6 +290,11 @@
    "text": "Анализ Insajdera: какие государственные и общественные предприятия имели счета в Alta и сколько денег заблокировано — Конкретные суммы заблокированных средств государственных компаний: Сербиягаз ~879 000 евро, ЕПС ~1,6 млн евро (по расчету Insajdera), Белградские электростанции ~5 млн динаров. — Гра",
    "ts": 1793723812.3767202,
    "url": "https://insajder.net/teme/analiza-insajdera-koja-drzavna-i-javna-preduzeca-imaju-racune-u-alta-banci-i-da-li-im-je-deo-novca-zarobljen"
+  },
+  {
+   "text": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику — Конкретный график выплат октябрьских пенсий в Банке Поштанске штедионице: самозанятые — 3.11, фермеры и военные пенсионеры — 5.11, работающие пенсионеры — 10.11.2026. — Банка Поштанске штедионице откроет време",
+   "ts": 1793723873.846063,
+   "url": "https://n1info.rs/biznis/fond-pio-ko-je-imao-racun-u-alta-banci-po-penziju-ide-u-postansku-stedionicu"
   }
  ],
  "retry_items": {},
@@ -1940,6 +1940,26 @@
     "банки"
    ],
    "title": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku"
+  },
+  "https://n1info.rs/biznis/fond-pio-ko-je-imao-racun-u-alta-banci-po-penziju-ide-u-postansku-stedionicu": {
+   "first_seen": "2026-11-03T16:37:53+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 141,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-03T16:37:53+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику",
+   "title_src": "Fond PIO: Ko je imao račun u Alta banci po penziju ide u Poštansku štedionicu",
+   "updated": "2026-11-03T16:37:53+00:00"
   },
   "https://n1info.rs/biznis/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
    "first_seen": "2026-11-03T06:15:32+00:00",
