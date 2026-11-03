@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:18:13+00:00",
+   "at": "2026-11-03T11:20:25+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:18:53+00:00",
-   "elapsed_s": 40,
-   "llm_calls": 1,
+   "at": "2026-11-03T11:21:10+00:00",
+   "elapsed_s": 44,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "JKP Informatika Novi Sad: счёт в Alta banci закрыт, платежи на новый номер с 31 октября",
-   "ts": 1793608123.4391797,
-   "url": "https://insajder.net/prenosimo/jkp-informatika-novi-sad-racun-u-alta-banci-vise-nije-aktiv-uplate-na-novi-broj"
-  },
   {
    "text": "Иск против политиков и руководства ЕПС из-за счётов в Alta banci",
    "ts": 1793610388.1058517,
@@ -278,9 +273,31 @@
    "text": "Хозяйственный суд Белграда открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026. — Банка Поштанске штедионице официально выбрана банком-выплатчиком (объявлено 3 ноября 2026).",
    "ts": 1793704378.5904415,
    "url": "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita"
+  },
+  {
+   "text": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице — Хозяйственный суд Белграда официально открыл банкротство ALTA (решение 3 ноября 2026) — ранее было известно только об отзыве лицензии. — Банка Поштанске штедионице официально объявлена банком-выплатчиком (3 нояб",
+   "ts": 1793704861.3082821,
+   "url": "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom"
   }
  ],
- "retry_items": {},
+ "retry_items": {
+  "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
+   "date": "03.11.2026 11:19",
+   "kind": "press",
+   "outlet": "RTS",
+   "source": "rts",
+   "tags": [
+    "суд",
+    "регулятор",
+    "клиенты"
+   ],
+   "tier": "press",
+   "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
+   "title_src": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
+   "ts": 1793704741,
+   "url": "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html"
+  }
+ },
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -1304,6 +1321,26 @@
    "title": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "title_src": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "updated": "2026-11-03T10:47:31+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom": {
+   "first_seen": "2026-11-03T11:21:01+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 131,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-03T11:21:01+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "выплаты",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
+   "title_src": "Privredni sud: Građani će novac dobiti preko Poštanske štedionice, zvanično pokrenut stečaj nad Alta bankom",
+   "updated": "2026-11-03T11:21:01+00:00"
   },
   "https://forbes.n1info.rs/vesti/tok-27-oktobra-upucen-zahtev-za-proveru-poslovanja-alta-banke-prijava-nbs-stigla-danas": {
    "attempts": 25,
@@ -8342,6 +8379,16 @@
    "title": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
    "title_src": "ЕПС: Није угрожена финансијска стабилност предузећа због одузимање лиценце Алта банци",
    "updated": "2026-11-03T10:18:55+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
+   "attempts": 1,
+   "first_seen": "2026-11-03T11:21:10+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm",
+   "status": "retry",
+   "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
+   "updated": "2026-11-03T11:21:10+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
