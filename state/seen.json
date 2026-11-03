@@ -29,15 +29,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T04:26:43+00:00",
+   "at": "2026-11-03T04:28:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T04:28:10+00:00",
-   "elapsed_s": 86,
+   "at": "2026-11-03T04:29:18+00:00",
+   "elapsed_s": 56,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -52,7 +52,7 @@
    "insajder": "ok:100",
    "n1": "ok:50",
    "nova": "ok:50",
-   "novaekonomija": "network_error",
+   "novaekonomija": "ok:20",
    "radar": "ok:50",
    "rts": "ok:20",
    "rtv": "ok:20"
