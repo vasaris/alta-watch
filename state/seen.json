@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T19:06:10+00:00",
+   "at": "2026-11-03T19:07:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T19:06:35+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-03T19:07:51+00:00",
+   "elapsed_s": 35,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -76,51 +76,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 18:35",
-    "first": "Конкретные названия государственных компаний, подтвердивших отсутствие угрозы: Телеком, Почта, EXPO 2027, NIS",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "активы"
-    ],
-    "title": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
-    "title_src": "Državna preduzeća kažu da im nije ugroženo poslovanje nakon stečaja Alta banke",
-    "ts": 1793731027.0548108,
-    "url": "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
-   },
-   {
-    "date": "03.11.2026 18:27",
-    "first": "Alta retail полностью приобрела Idea, Roda и Merkator у Fortenova 12 октября 2026 года (конкретная дата и факт полной покупки).",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "активы",
-     "банки",
-     "клиенты",
-     "требования"
-    ],
-    "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
-    "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
-    "ts": 1793732008.1884167,
-    "url": "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов — Обыск в банке длился два дня и завершился незадолго до момента публикации статьи",
-   "ts": 1793621946.990078,
-   "url": "https://insajder.net/prenosimo/advokat-davora-macure-odredeno-mu-zadrzavanje-do-48-sati-pretres-banke-trajao-dva-dana"
-  },
-  {
-   "text": "Владелец Alta banke Давор Макура арестован; обыск завершён — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов; допрос 3 ноября. — Четверо вице-губернаторов NBS обратились в Прокуратуру с требованием проверить обстоятельства отзыва лицензии и возможную уголовную ответственность N",
-   "ts": 1793622648.4799447,
-   "url": "https://www.danas.rs/bbc-news-serbian/likvidacija-alta-banke-vlasnik-macura-priveden-potvrdio-advokat-za-bbc"
-  },
   {
    "text": "JTOK: владелец Alta banke и двое сотрудников арестованы по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные имена и должности трёх арестованных лиц: D.M. (владелец), G.M. (директор отдела тrezora), I.P. (сотрудник тrezora). — Сумма подозреваемого хищения: около 45 млрд динаров.",
    "ts": 1793623015.8747194,
@@ -310,6 +268,16 @@
    "text": "Банка Поштанске штедионице начала выплату пенсий вкладчикам Alta banke — Конкретный график выплаты октябрьских пенсий: самозанятые — 3 ноября, фермеры и военные пенсионеры — 5 ноября, работающие пенсионеры — 10 ноября 2026. — Пенсионеры могут получить пенсию во всех отделениях Банки Поштанске штедио",
    "ts": 1793728390.293458,
    "url": "https://beta.rs/content/255279-banka-postanska-stedionica-pocela-isplatu-penzija-korisnicima-alta-banke"
+  },
+  {
+   "text": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
+   "ts": 1793732870.1200852,
+   "url": "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
+  },
+  {
+   "text": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
+   "ts": 1793732870.120112,
+   "url": "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video"
   }
  ],
  "retry_items": {},
@@ -1922,13 +1890,21 @@
   "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video": {
    "first_seen": "2026-11-03T18:53:28+00:00",
    "kind": "press",
+   "message_id": 145,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-03T19:07:50+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "банки",
+    "клиенты",
+    "требования"
+   ],
    "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
    "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
-   "updated": "2026-11-03T18:53:28+00:00"
+   "updated": "2026-11-03T19:07:50+00:00"
   },
   "https://n1info.rs/biznis/adiko-banka-oduzimanje-licence-alta-banci-nema-uticaja-na-nase-poslovanje": {
    "first_seen": "2026-11-01T12:57:28+00:00",
@@ -1998,13 +1974,18 @@
   "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke": {
    "first_seen": "2026-11-03T18:37:07+00:00",
    "kind": "press",
+   "message_id": 145,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-03T19:07:50+00:00",
+   "status": "sent",
+   "tags": [
+    "активы"
+   ],
    "title": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
    "title_src": "Državna preduzeća kažu da im nije ugroženo poslovanje nakon stečaja Alta banke",
-   "updated": "2026-11-03T18:37:07+00:00"
+   "updated": "2026-11-03T19:07:50+00:00"
   },
   "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
    "first_seen": "2026-10-31T12:35:12+00:00",
