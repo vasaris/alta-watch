@@ -29,43 +29,38 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T03:55:35+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T03:56:47+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T03:56:33+00:00",
-   "elapsed_s": 58,
+   "at": "2026-11-03T04:00:57+00:00",
+   "elapsed_s": 249,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
   },
   "press": {
-   "021": "ok:10",
-   "beta": "ok:10",
-   "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
-   "insajder": "ok:100",
+   "insajder": "network_error",
    "n1": "ok:50",
    "nova": "ok:50",
    "novaekonomija": "ok:20",
-   "radar": "ok:50",
-   "rts": "ok:20",
-   "rtv": "ok:20"
+   "radar": "ok:50"
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
