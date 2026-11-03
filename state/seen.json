@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T15:03:33+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T15:06:10+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T15:05:52+00:00",
-   "elapsed_s": 138,
+   "at": "2026-11-03T15:07:19+00:00",
+   "elapsed_s": 69,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -65,65 +65,20 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 14:35",
-    "first": "Конкретные цифры падения стоимости единиц: Vista Rica — 17,96–22,61%, Intesa Invest — 0,84–1,17%.",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "активы",
-     "требования",
-     "банки",
-     "клиенты"
-    ],
-    "title": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
-    "title_src": "Slučaj Alta i investicioni fondovi: Vrednost jedinica kod Vista Rica pala i do 22 odsto",
-    "ts": 1793716620.4465296,
-    "url": "https://n1info.rs/biznis/draft-zvanicna"
-   },
-   {
-    "date": "03.11.2026 15:00",
-    "first": "Конкретные истории русских иммигрантов: IT-специалист с семьей (70 000 евро на счете, часть от продажи квартиры в Московской области, переведено через Казахстан), предприниматель в сфере искусства (10",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "выплаты",
-     "клиенты",
-     "сроки",
-     "регулятор"
-    ],
-    "title": "Русские иммигранты в Сербии потеряли доступ к деньгам после закрытия Alta banke",
-    "title_src": "„Imam dva dana dok ne potrošim hranu“: Hiljade Rusa u Srbiji u bezizlaznoj situaciji nakon zatvaranja Alta banke",
-    "ts": 1793718199.8252218,
-    "url": "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Арестован Давор Макура, владелец Alta banke",
-   "ts": 1793616671.4713585,
-   "url": "https://nova.rs/vesti/hronika/uhapsen-davor-macura-biznismen-blizak-srpskoj-naprednoj-stranci-i-vlasnik-alta-banke"
-  },
-  {
-   "text": "NBS обязал уполномоченные обменники срочно сменить банка после отзыва лицензии Alta — NBS издал специальное уведомление для обменников, работавших с Alta (дата: 2 ноября 2026) — Обменники должны сменить банка в кратчайший срок и уведомить NBS не позже следующего рабочего дня",
-   "ts": 1793617483.8193257,
-   "url": "https://www.danas.rs/vesti/ekonomija/nbs-ima-obavestenje-za-ovlascene-menjace-koji-su-imali-zakljucen-ugovor-sa-alta-bankom"
-  },
   {
    "text": "Давор Макура арестован по приказу JTOK; задержание на 48 часов — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK — Задержание определено на 48 часов",
    "ts": 1793619775.7811222,
@@ -313,6 +268,16 @@
    "text": "Хозяйственный суд Белграда официально открыл банкротство ALTA; владелец Макура подозревается в хищении свыше 380 млн евро — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026 (ранее было известно только об отзыве лицензии 2 ноября). — Владелец Макура допрашивается в прокура",
    "ts": 1793716036.337754,
    "url": "https://www.danas.rs/bbc-news-serbian/alta-banka-i-zvanicno-u-stecaju-vlasnik-se-sumnjici-za-proneveru-vise-od-380-miliona-evra"
+  },
+  {
+   "text": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
+   "ts": 1793718438.2946968,
+   "url": "https://n1info.rs/biznis/draft-zvanicna"
+  },
+  {
+   "text": "Русские иммигранты в Сербии потеряли доступ к деньгам после закрытия Alta banke",
+   "ts": 1793718438.2947354,
+   "url": "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija"
   }
  ],
  "retry_items": {},
@@ -1870,13 +1835,21 @@
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
    "kind": "press",
+   "message_id": 138,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-03T15:07:18+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "банки",
+    "клиенты"
+   ],
    "title": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
    "title_src": "Slučaj Alta i investicioni fondovi: Vrednost jedinica kod Vista Rica pala i do 22 odsto",
-   "updated": "2026-11-03T14:37:00+00:00"
+   "updated": "2026-11-03T15:07:18+00:00"
   },
   "https://n1info.rs/biznis/dugalic-treba-preispitati-rad-nbs-alta-banku": {
    "first_seen": "2026-10-31T12:35:12+00:00",
@@ -7604,13 +7577,21 @@
   "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija": {
    "first_seen": "2026-11-03T15:03:19+00:00",
    "kind": "press",
+   "message_id": 138,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-03T15:07:18+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки",
+    "регулятор"
+   ],
    "title": "Русские иммигранты в Сербии потеряли доступ к деньгам после закрытия Alta banke",
    "title_src": "„Imam dva dana dok ne potrošim hranu“: Hiljade Rusa u Srbiji u bezizlaznoj situaciji nakon zatvaranja Alta banke",
-   "updated": "2026-11-03T15:03:19+00:00"
+   "updated": "2026-11-03T15:07:18+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/advokat-ivan-ninic-najavio-novu-krivicnu-prijavu-protiv-jedne-drzavne-institucije": {
    "first_seen": "2026-10-31T20:47:32+00:00",
