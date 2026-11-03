@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T17:24:18+00:00",
+   "at": "2026-11-03T17:26:17+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T17:24:49+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-03T17:27:13+00:00",
+   "elapsed_s": 55,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -7948,6 +7948,17 @@
    "status": "dup",
    "title": "Вооружённая полиция у здания Alta Banka на Новом Белграде; прокуратура по организованной преступности получила уголовное",
    "updated": "2026-10-31T17:29:21+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/jorgovanka-tabakovic-alta-banka-nbs-odgovornost": {
+   "first_seen": "2026-11-03T17:27:13+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Экономисты: NBS потеряла независимость; ответственность Табаковић за крах Alta",
+   "title_src": "„Alta je primer da je NBS izgubila nezavisnost u odnosu na vlast“: Kolika je odgovornost Jorgovanke Tabaković u propasti banke?",
+   "updated": "2026-11-03T17:27:13+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/kompanija-belgrade-waterfront-poslujemo-preko-erste-banke-izlozenost-prema-alta-banci-ogranicena": {
    "first_seen": "2026-11-03T12:03:15+00:00",
