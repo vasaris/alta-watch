@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T10:12:16+00:00",
+   "at": "2026-11-03T10:14:20+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T10:12:50+00:00",
-   "elapsed_s": 34,
-   "llm_calls": 0,
+   "at": "2026-11-03T10:15:12+00:00",
+   "elapsed_s": 52,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -87,6 +87,22 @@
     "title_src": "ЕПС: Није угрожена финансијска стабилност предузећа због одузимање лиценце Алта банци",
     "ts": 1793700550.7069197,
     "url": "https://www.rts.rs/vesti/ekonomija/6075097/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci.html"
+   },
+   {
+    "date": "03.11.2026 10:12",
+    "first": "JSP Kragujevac открыл счёт в Alta banke 14 августа 2026 года — это единственный муниципальный счёт в этом банке в Крагуевце",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "активы",
+     "клиенты",
+     "регулятор"
+    ],
+    "title": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
+    "title_src": "Za Kragujevac – Znamo se: Zbog čega je Javno stambeno preduzeće otvorilo u avgustu račun u Alta banci?",
+    "ts": 1793700912.214791,
+    "url": "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci"
    }
   ]
  },
@@ -7583,6 +7599,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci": {
+   "first_seen": "2026-11-03T10:15:12+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "relevance": 5,
+   "status": "pending",
+   "title": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
+   "title_src": "Za Kragujevac – Znamo se: Zbog čega je Javno stambeno preduzeće otvorilo u avgustu račun u Alta banci?",
+   "updated": "2026-11-03T10:15:12+00:00"
   },
   "https://www.danas.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T13:01:09+00:00",
