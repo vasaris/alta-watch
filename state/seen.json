@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T06:42:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T06:44:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T06:42:48+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-03T06:46:32+00:00",
+   "elapsed_s": 138,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,43 +59,20 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 06:00",
-    "first": "Русские граждане выбирали Alta banke специально потому, что другие сербские банки отказывали им в открытии счётов из-за национальности и санкций против России.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "клиенты",
-     "выплаты",
-     "активы",
-     "регулятор"
-    ],
-    "title": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
-    "title_src": "Kako je \"Alta banka\" Rusima srušila \"srpski san\" (VIDEO)",
-    "ts": 1793686551.7877376,
-    "url": "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Прокуратура по организованной преступности получила уголовное заявление НБС против Alta Banka и руководства — Уголовное заявление НБС против Alta Banka и руководства передано в JTOK 30.10.2026 — JTOK направила запрос в МВД и SBPOK о проверке деятельности банка и ответственных лиц НБС 30.10.2026",
-   "ts": 1793467997.852869,
-   "url": "https://nova.rs/vesti/hronika/oglasilo-se-javno-tuzilastvo-za-organizovani-kriminal-o-slucaju-alta-banke"
-  },
   {
    "text": "Директор AOD: вклады Alta до 50 000 евро выплатят в течение недели через банк-выплатчик — Директор AOD подтвердила, что вкладчики будут уведомлены о банке-выплатчике в кратчайший срок (в течение нескольких дней). — Выплаты ожидаются в течение недели (в рамках 7-дневного законного срока).",
    "ts": 1793468017.0342965,
@@ -290,6 +267,11 @@
    "text": "Государственные компании (ЕПС, Телеком, Водовод) хранили деньги в Alta banke; владелец Макура арестован по подозрению в хищении €385 млн — ЕПС получила тендер на электронную инкассацию счетов за электроэнергию через Alta; годовой прибыль Alta от этого контракта ~17 млн евро; комиссия 50 динаров за п",
    "ts": 1793650377.7652328,
    "url": "https://nova.rs/vesti/biznis/koje-drzavne-firme-su-cuvale-novac-u-alta-banci-davora-macure"
+  },
+  {
+   "text": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
+   "ts": 1793688391.0340466,
+   "url": "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video"
   }
  ],
  "retry_items": {},
@@ -1586,13 +1568,21 @@
   "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video": {
    "first_seen": "2026-11-03T06:15:51+00:00",
    "kind": "press",
+   "message_id": 123,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-03T06:46:31+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "выплаты",
+    "активы",
+    "регулятор"
+   ],
    "title": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
    "title_src": "Kako je \"Alta banka\" Rusima srušila \"srpski san\" (VIDEO)",
-   "updated": "2026-11-03T06:15:51+00:00"
+   "updated": "2026-11-03T06:46:31+00:00"
   },
   "https://n1info.rs/biznis/adiko-banka-oduzimanje-licence-alta-banci-nema-uticaja-na-nase-poslovanje": {
    "first_seen": "2026-11-01T12:57:28+00:00",
