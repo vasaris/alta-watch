@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T18:52:06+00:00",
+   "at": "2026-11-03T18:52:47+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T18:52:33+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-03T18:53:28+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -90,6 +90,23 @@
     "title_src": "Državna preduzeća kažu da im nije ugroženo poslovanje nakon stečaja Alta banke",
     "ts": 1793731027.0548108,
     "url": "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
+   },
+   {
+    "date": "03.11.2026 18:27",
+    "first": "Alta retail полностью приобрела Idea, Roda и Merkator у Fortenova 12 октября 2026 года (конкретная дата и факт полной покупки).",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "активы",
+     "банки",
+     "клиенты",
+     "требования"
+    ],
+    "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
+    "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
+    "ts": 1793732008.1884167,
+    "url": "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video"
    }
   ]
  },
@@ -1901,6 +1918,17 @@
    "title": "Профессор Добромиров: в деле Alta нужно исследовать размещение средств и мотивы",
    "title_src": "Profesor Dobromirov kaže da bi u slučaju Alta banke prvo istražio plasmane: \"Tako se otkrivaju motivi i poreklo naloga\" (VIDEO)",
    "updated": "2026-11-03T10:26:49+00:00"
+  },
+  "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video": {
+   "first_seen": "2026-11-03T18:53:28+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
+   "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
+   "updated": "2026-11-03T18:53:28+00:00"
   },
   "https://n1info.rs/biznis/adiko-banka-oduzimanje-licence-alta-banci-nema-uticaja-na-nase-poslovanje": {
    "first_seen": "2026-11-01T12:57:28+00:00",
