@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T23:30:50+00:00",
+   "at": "2026-11-03T23:32:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T23:31:21+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-03T23:33:04+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -8405,6 +8405,18 @@
    "status": "rejected",
    "title": "Sindikati traže zaštitu plata radnika i uloga građana u ALTA banci",
    "updated": "2026-10-31T17:06:48+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/slaveski-nije-bilo-milionskih-transakcija-iz-alta-banke-bitolj-nakon-26-oktobra": {
+   "first_seen": "2026-11-03T23:33:04+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Губернатор НБ Северной Македонии: из Alta banke Bitolj в Сербию после 26 октября — только 180 тыс. евро, никаких миллион",
+   "title_src": "Slaveski: Nije bilo milionskih transakcija iz Alta banke Bitolj nakon 26. oktobra",
+   "updated": "2026-11-03T23:33:04+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci": {
    "first_seen": "2026-11-02T16:41:00+00:00",
