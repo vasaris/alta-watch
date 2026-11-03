@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T14:24:15+00:00",
+   "at": "2026-11-03T14:26:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T14:24:52+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-03T14:27:17+00:00",
+   "elapsed_s": 63,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
    "version": "2.1"
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: уполномоченные обменники должны срочно сменить банка или ПО после отзыва лицензии Alta — Официальное уведомление NBS от 2 ноября 2026 г. адресовано уполномоченным обменникам, работавшим с ALTA банком — Обменники должны сменить банка-партнёра или ПО без задержек; срок уведомления NBS — не поздне",
-   "ts": 1793616126.804714,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853"
-  },
   {
    "text": "Арестован Давор Макура, владелец Alta banke",
    "ts": 1793616671.4713585,
@@ -278,6 +273,11 @@
    "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
    "ts": 1793715890.8432245,
    "url": "https://www.danas.rs/vesti/ekonomija/saslusanje-davora-macure-zakazano-za-danas-u-19-casova"
+  },
+  {
+   "text": "Хозяйственный суд Белграда официально открыл банкротство ALTA; владелец Макура подозревается в хищении свыше 380 млн евро — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026 (ранее было известно только об отзыве лицензии 2 ноября). — Владелец Макура допрашивается в прокура",
+   "ts": 1793716036.337754,
+   "url": "https://www.danas.rs/bbc-news-serbian/alta-banka-i-zvanicno-u-stecaju-vlasnik-se-sumnjici-za-proneveru-vise-od-380-miliona-evra"
   }
  ],
  "retry_items": {},
@@ -7407,6 +7407,26 @@
    "status": "rejected",
    "title": "Листа поверилаца- табела 1.",
    "updated": "2026-10-31T14:11:42+00:00"
+  },
+  "https://www.danas.rs/bbc-news-serbian/alta-banka-i-zvanicno-u-stecaju-vlasnik-se-sumnjici-za-proneveru-vise-od-380-miliona-evra": {
+   "first_seen": "2026-11-03T14:27:16+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 137,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-03T14:27:16+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "выплаты",
+    "регулятор",
+    "активы"
+   ],
+   "title": "Хозяйственный суд Белграда официально открыл банкротство ALTA; владелец Макура подозревается в хищении свыше 380 млн евр",
+   "title_src": "Alta banka i zvanično u stečaju, vlasnik se sumnjiči za proneveru više od 380 miliona evra",
+   "updated": "2026-11-03T14:27:16+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/likvidacija-alta-banke-vlasnik-macura-priveden-potvrdio-advokat-za-bbc": {
    "first_seen": "2026-11-02T12:30:48+00:00",
