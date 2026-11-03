@@ -23,24 +23,30 @@
    "source": "news",
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
    "value": "2 ноября 2026 (решение NBS об отзыве лицензии)"
+  },
+  "payout_bank": {
+   "at": "2026-11-03T11:06:43+00:00",
+   "source": "news",
+   "url": "https://www.aod.rs/clan/vest/vest_forma/139",
+   "value": "Банка Поштанске штедионице"
   }
  },
  "flags": {},
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:04:15+00:00",
+   "at": "2026-11-03T11:06:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:04:46+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-03T11:06:57+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,7 +65,7 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
@@ -73,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "В Alta banke идёт обыск; банк принадлежит Давору Макуре, близкому к SNS",
-   "ts": 1793572723.916211,
-   "url": "https://nova.rs/vesti/hronika/u-toku-pretres-alta-banke-davora-macure-biznismena-bliskog-sns"
-  },
   {
    "text": "Financial Times: Alta banka под международным контролем из-за подозрений в отмывании денег; русские хранили там сбережения — Financial Times подтверждает, что Alta использовалась для трансфертов денег русских физических и юридических лиц после вторжения в Украину 2022 года. — ЕЦБ проводил проверку A",
    "ts": 1793607045.2923715,
@@ -272,6 +273,11 @@
    "text": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
    "ts": 1793701135.7060988,
    "url": "https://insajder.net/prenosimo/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci"
+  },
+  {
+   "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице — Банка Поштанске штедионице выбрана банком-выплатчиком (новое имя, не было ранее) — Дата объявления банка-выплатчика: 3 ноября 2026",
+   "ts": 1793704003.3219962,
+   "url": "https://www.aod.rs/clan/vest/vest_forma/139"
   }
  ],
  "retry_items": {},
@@ -4325,6 +4331,33 @@
    "posted": true,
    "status": "sent",
    "title": "АОД | Агенција за осигурање депозита"
+  },
+  "https://www.aod.rs/clan/vest/vest_forma/139": {
+   "first_seen": "2026-11-03T11:06:43+00:00",
+   "hash": "49d03d66331f7eaf",
+   "kind": "news",
+   "message_id": 129,
+   "novelty": 10,
+   "paras": [
+    "bfae4c4706",
+    "eeaea69202",
+    "34b1a5a826",
+    "77ffcb86fe",
+    "fa92f88d6b",
+    "53496b9cb0"
+   ],
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-03T11:06:43+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-11-03T11:06:43+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/53": {
    "first_seen": "2026-10-31T11:38:15+00:00",
