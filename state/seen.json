@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T17:16:20+00:00",
+   "at": "2026-11-03T17:18:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T17:16:57+00:00",
+   "at": "2026-11-03T17:18:51+00:00",
    "elapsed_s": 37,
-   "llm_calls": 0,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Комиссия по ценным бумагам: как крах ALTA повлияет на инвестиционные фонды — Комиссия по ценным бумагам издала официальную инструкцию 2 ноября 2026 для управляющих компаний и депозитариев — Инвесторы в фонды не подают требования в банкротство ALTA и не получают выплаты от AOD — требования подаёт сам",
-   "ts": 1793620901.4964118,
-   "url": "https://bizlife.rs/kako-ce-kolaps-alta-banke-uticati-na-investitore-i-njihov-novac"
-  },
   {
    "text": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
    "ts": 1793621685.2639883,
@@ -278,6 +273,11 @@
    "text": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
    "ts": 1793725122.1115355,
    "url": "https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
+  },
+  {
+   "text": "Фонд пенсионного страхования Сербии объявил график выплаты пенсий пенсионерам Alta banke через Банку Поштанске штедионице — Конкретное число затронутых пенсионеров: 1 965 человек с текущими счетами в Alta banke. — Подписан протокол между Фондом PIO и Банкой Поштанске штедионице о процедуре открытия ",
+   "ts": 1793726329.603821,
+   "url": "https://www.danas.rs/vesti/ekonomija/fond-pio-penzije-racun-alta-banka"
   }
  ],
  "retry_items": {},
@@ -7855,6 +7855,26 @@
    "title": "ЕПС: отзыв лицензии Alta не повлиял на работу компании, счета открыты в девяти других банках",
    "title_src": "EPS: Oduzimanje dozvole Alta banci nije ugrozilo poslovanje, imamo račune u još devet banaka",
    "updated": "2026-11-03T09:44:48+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/fond-pio-penzije-racun-alta-banka": {
+   "first_seen": "2026-11-03T17:18:49+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 143,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-03T17:18:49+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Фонд пенсионного страхования Сербии объявил график выплаты пенсий пенсионерам Alta banke через Банку Поштанске штедиониц",
+   "title_src": "Fond PIO odredio gde i kada će biti isplaćene penzije licima koja su imala tekući račun u Alta banci",
+   "updated": "2026-11-03T17:18:49+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
