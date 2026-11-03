@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T17:46:20+00:00",
+   "at": "2026-11-03T17:48:18+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T17:46:51+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-03T17:48:50+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2525,6 +2525,17 @@
    "relevance": 3,
    "status": "rejected",
    "title": "Banka ne radi, menjačnica radi: Šta građani mogu da pročitaju u izlogu ekspoziture Alta banke"
+  },
+  "https://nova.rs/vesti/biznis/deponenti-alta-banke-ce-biti-isplaceni-preko-banke-postanska-stedionica": {
+   "first_seen": "2026-11-03T17:48:50+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 9,
+   "status": "dup",
+   "title": "АОД объявила банк-выплатчик и сроки начала выплат вкладчикам Alta",
+   "title_src": "Deponenti Alta banke će biti isplaćeni preko banke Poštanska štedionica",
+   "updated": "2026-11-03T17:48:50+00:00"
   },
   "https://nova.rs/vesti/biznis/dosije-alta-od-menjacnice-u-zemunu-do-banke-na-ciji-racun-placamo-eps-u-mup-u-kako-se-sirilo-poslovanje-banke-kojoj-je-nbs-oduzela-dozvolu-za-rad": {
    "first_seen": "2026-11-01T16:28:45+00:00",
