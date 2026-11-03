@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T12:28:13+00:00",
+   "at": "2026-11-03T12:30:36+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T12:28:44+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-03T12:31:12+00:00",
+   "elapsed_s": 36,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Институт Карея подал уголовное заявление о взимании платежей за электроэнергию через Alta банку",
-   "ts": 1793612795.692295,
-   "url": "https://www.danas.rs/vesti/ekonomija/institut-kareja-podneo-krivicnu-prijavu-zbog-naplate-racuna-za-struju-preko-alta-banke"
-  },
   {
    "text": "JKP Informatika Novi Sad сменила счёт в Alta banci на новый после отзыва лицензии",
    "ts": 1793612795.6923282,
@@ -278,6 +273,11 @@
    "text": "ЕПС: приложение «Увид в счёт» работает, платежи возобновятся после выбора процессора",
    "ts": 1793708571.0009449,
    "url": "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html"
+  },
+  {
+   "text": "Хозяйственный суд Белграда открыл банкротство ALTA; Банка Поштанске штедионице — банк-выплатчик — Решение Хозяйственного суда Белграда об открытии банкротства ALTA — 3 ноября 2026. — Банка Поштанске штедионице официально выбрана банком-выплатчиком (решение принято управным советом AOD 3 ноября 2026)",
+   "ts": 1793709070.8229125,
+   "url": "https://beta.rs/content/255247-privredni-sud-doneo-resenje-o-stecaju-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -1174,6 +1174,26 @@
    "title": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
    "title_src": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "updated": "2026-11-03T10:44:45+00:00"
+  },
+  "https://beta.rs/content/255247-privredni-sud-doneo-resenje-o-stecaju-u-alta-banci": {
+   "first_seen": "2026-11-03T12:31:10+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 133,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-03T12:31:10+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Хозяйственный суд Белграда открыл банкротство ALTA; Банка Поштанске штедионице — банк-выплатчик",
+   "title_src": "Privredni sud doneo rešenje o stečaju u Alta banci",
+   "updated": "2026-11-03T12:31:10+00:00"
   },
   "https://beta.rs/content/255249-intesa-invest-kod-alta-banke-deponovan-ogranicen-iznos-stredstava-znatno-ispod-zakonskog-maksimuma": {
    "first_seen": "2026-11-03T11:56:57+00:00",
