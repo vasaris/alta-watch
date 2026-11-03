@@ -29,18 +29,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T09:56:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T09:58:51+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T09:58:40+00:00",
-   "elapsed_s": 146,
-   "llm_calls": 0,
+   "at": "2026-11-03T09:59:30+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -73,11 +73,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "От обменника к краху: взлёт и падение Alta Banka за семь лет — Хронология: Alta основана как JUBMES в 1979 году специализированной банкой для кредитования экспорта; в 1988–1987 возглавлялась Иваном Стамболичем; после распада Югославии потеряла статус и стала коммерческой банкой (с июля 1998) — Госуд",
-   "ts": 1793468111.9575753,
-   "url": "https://www.rts.rs/vesti/ekonomija/6073522/alta-banka-stecaj-kriza-racuni-krediti-uspon-pad-hronologija-.html"
-  },
   {
    "text": "Директор AOD: Хозяйственный суд Белграда откроет банкротство Alta в понедельник, выплаты начнутся через неделю — Директор AOD назвала конкретный день открытия банкротства — понедельник (3 ноября 2026). — Уточнено, что динарские вклады выплатят в динарах, валютные — в евро (ранее было только упоминан",
    "ts": 1793468356.6494038,
@@ -272,6 +267,11 @@
    "text": "Инвестфонды Intesa Invest потеряли доход из-за депозитов в Alta banke",
    "ts": 1793698868.1824472,
    "url": "https://www.danas.rs/vesti/ekonomija/banka-intesa-alta-banka-dobit-fondovi-gubitak"
+  },
+  {
+   "text": "Крах Alta banke затронул клиентов за пределами Сербии: блокировка счётов в Северной Македонии, Черногории и проблемы государственных компаний — Alta banka a.d. Beograd владеет 95,18% акций Alta banke a.d. Bitolj (Северная Македония); введена временная администрация и ограничение снятий до 10 000 ден",
+   "ts": 1793699968.552681,
+   "url": "https://www.danas.rs/svet/bankarska-kriza-presla-granice-srbije-zatvaranje-alta-banke-blokiralo-novac-klijenata-sirom-zapadnog-balkana"
   }
  ],
  "retry_items": {},
@@ -7080,6 +7080,26 @@
    "title": "Русские СМИ о крахе Alta banke: катастрофа для иммигрантов и предпринимателей",
    "title_src": "„Katastrofa, juče su ljudi imali novac na računima, a danas ga više nemaju“: Ruski mediji o zatvaranju Alta banke u Srbiji",
    "updated": "2026-11-02T11:51:09+00:00"
+  },
+  "https://www.danas.rs/svet/bankarska-kriza-presla-granice-srbije-zatvaranje-alta-banke-blokiralo-novac-klijenata-sirom-zapadnog-balkana": {
+   "first_seen": "2026-11-03T09:59:28+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 126,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-03T09:59:28+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "клиенты",
+    "активы"
+   ],
+   "title": "Крах Alta banke затронул клиентов за пределами Сербии: блокировка счётов в Северной Македонии, Черногории и проблемы гос",
+   "title_src": "Bankarska kriza prešla granice Srbije: Zatvaranje Alta banke blokiralo novac klijenata širom Zapadnog Balkana",
+   "updated": "2026-11-03T09:59:28+00:00"
   },
   "https://www.danas.rs/svet/narodna-banka-s-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T19:38:45+00:00",
