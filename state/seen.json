@@ -36,26 +36,26 @@
   "alerts": {
    "источник AOD новости": {
     "last_sent": "2026-11-03T11:49:34+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-03T11:47:51+00:00"
    },
    "источник AOD объявления": {
     "last_sent": "2026-11-03T11:49:34+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-03T11:47:51+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-03T11:47:51+00:00",
+   "at": "2026-11-03T11:51:13+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:50:58+00:00",
-   "elapsed_s": 186,
-   "llm_calls": 2,
+   "at": "2026-11-03T11:53:43+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -81,8 +81,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "AOD новости": 4,
+   "AOD объявления": 4,
    "NBS": 0
   }
  },
@@ -2295,6 +2295,18 @@
    "title": "Бывший губернатор НБС: крах Alta вызван нечестной работой и недостаточным надзором",
    "title_src": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
    "updated": "2026-11-01T08:49:20+00:00"
+  },
+  "https://nova.rs/sport/kosarka/zvezda-obrisala-alta-banku-sa-dresa-a-onda-ovako-objasnila-taj-potez": {
+   "first_seen": "2026-11-03T11:53:43+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Crvena zvezda удалила логотип Alta banke с формы; клуб заявил о независимости от спонсора",
+   "title_src": "Zvezda obrisala \"Alta banku\" sa dresa, a onda ovako objasnila taj potez",
+   "updated": "2026-11-03T11:53:43+00:00"
   },
   "https://nova.rs/vesti/biznis/ako-se-utvrdi-da-je-vlasnik-alta-banke-davor-macura-izneo-novac-iz-zemlje-glavno-pitanje-je-da-li-je-guvernerka-nbs-jorgovanka-tabakovic-to-svesno-omogucila": {
    "attempts": 73,
