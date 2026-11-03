@@ -35,15 +35,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T18:36:30+00:00",
+   "at": "2026-11-03T18:38:17+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T18:37:07+00:00",
-   "elapsed_s": 36,
+   "at": "2026-11-03T18:38:59+00:00",
+   "elapsed_s": 41,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -2837,6 +2837,17 @@
    "title": "Informatika Novi Sad: Naš račun u Alta banci nije više aktivan, uplate na novi broj",
    "title_src": "Informatika Novi Sad: Naš račun u Alta banci nije više aktivan, uplate na novi broj",
    "updated": "2026-11-02T08:34:57+00:00"
+  },
+  "https://nova.rs/vesti/drustvo/iza-bankarskih-racuna-se-nalaze-ljudski-zivoti-ispovest-ruskinje-koja-se-nakon-zatvaranja-alta-banke-suocila-sa-gubitkom-porodicnog-nasledstva": {
+   "first_seen": "2026-11-03T18:38:59+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Русская иммигрантка: закрытие Alta угрожает моему статусу в Сербии и наследству бабушки",
+   "title_src": "\"Iza bankarskih računa se nalaze ljudski životi\": Ispovest Ruskinje koja se nakon zatvaranja Alta banke suočila sa gubitkom porodičnog nasledstva, a sada je ugrožen i stalni boravak u Srbiji",
+   "updated": "2026-11-03T18:38:59+00:00"
   },
   "https://nova.rs/vesti/drustvo/nova-i-u-utorak-na-kioscima-o-davoru-macuri-kapilarnim-glasovima-u-zatvorima-spisku-pomilovanih": {
    "first_seen": "2026-11-02T20:03:11+00:00",
