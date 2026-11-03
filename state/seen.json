@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T18:18:27+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T18:20:37+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T18:18:57+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-03T18:23:01+00:00",
+   "elapsed_s": 144,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -7938,6 +7938,17 @@
    "title": "Фонд пенсионного страхования Сербии объявил график выплаты пенсий пенсионерам Alta banke через Банку Поштанске штедиониц",
    "title_src": "Fond PIO odredio gde i kada će biti isplaćene penzije licima koja su imala tekući račun u Alta banci",
    "updated": "2026-11-03T17:18:49+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/fondovi-vista-rika-izgubili-alta-banka": {
+   "first_seen": "2026-11-03T18:23:01+00:00",
+   "kind": "press",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Инвестфонды Vista Rica и Intesa Invest: убытки от депозитов в Alta банке и переводы средств",
+   "title_src": "Koliko su izgubili fondovi Vista Rika zbog držanja novca u Alta banci?",
+   "updated": "2026-11-03T18:23:01+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
