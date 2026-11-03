@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:54:52+00:00",
+   "at": "2026-11-03T11:56:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:55:19+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-03T11:56:57+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1192,6 +1192,17 @@
    "title": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
    "title_src": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "updated": "2026-11-03T10:44:45+00:00"
+  },
+  "https://beta.rs/content/255249-intesa-invest-kod-alta-banke-deponovan-ogranicen-iznos-stredstava-znatno-ispod-zakonskog-maksimuma": {
+   "first_seen": "2026-11-03T11:56:57+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Intesa Invest: депозиты в ALTA были минимальны, фонды сохраняют требования в полном объёме",
+   "title_src": "Intesa Invest: Ograničeni depoziti u ALTA banci, ispravka vrednosti sredstava",
+   "updated": "2026-11-03T11:56:57+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
