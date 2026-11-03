@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T11:42:18+00:00",
+   "at": "2026-11-03T11:45:06+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:44:54+00:00",
-   "elapsed_s": 155,
-   "llm_calls": 2,
+   "at": "2026-11-03T11:47:40+00:00",
+   "elapsed_s": 154,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -70,8 +70,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -8446,7 +8446,7 @@
    "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
-   "attempts": 10,
+   "attempts": 11,
    "first_seen": "2026-11-03T11:21:10+00:00",
    "kind": "press",
    "last_reason": "llm",
@@ -8454,7 +8454,7 @@
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "updated": "2026-11-03T11:44:54+00:00"
+   "updated": "2026-11-03T11:47:40+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075245/privredni-sud-u-beogradu-otvorio-stecajni-postupak-nad-alta-bankom.html": {
    "first_seen": "2026-11-03T11:31:15+00:00",
