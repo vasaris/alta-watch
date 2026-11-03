@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T08:51:38+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T08:52:24+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T08:52:11+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-03T08:54:53+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3325,6 +3325,18 @@
    "title": "Raiffeisen отказывается от сделки с Addiko в Сербии из-за краха ALTA",
    "title_src": "Raiffeisen планирует сохранить Addiko Bank в Сербии после краха ALTA Banka Австрийская Raiffeisen Bank International (RBI) сообщила, что рассчитывает сохранить все подразделения приобретаемой Addiko Group, включая банк…",
    "updated": "2026-11-03T06:02:00+00:00"
+  },
+  "https://t.me/Serbia/107477": {
+   "first_seen": "2026-11-03T08:54:53+00:00",
+   "kind": "telegram",
+   "novelty": 4,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 5,
+   "status": "signal",
+   "title": "Банкиры усомнились в версии о физическом выносе 380 млн евро наличными из Alta banka",
+   "title_src": "⭕️ Банкиры усомнились в версии о выносе 380 млн евро наличными из Alta banka Опрошенные Forbes Srbija банкиры считают крайне маловероятным, что владелец Alta banka Давор Мацура мог физически вынести из банковского…",
+   "updated": "2026-11-03T08:54:53+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -8090,6 +8102,12 @@
    "title": "Intesa Invest потеряла доход от вкладов в Alta banku; основной капитал инвесторов не под угрозой",
    "ts": "2026-11-03T06:34:14+00:00",
    "url": "https://nova.rs/vesti/biznis/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Банкиры усомнились в версии о физическом выносе 380 млн евро наличными из Alta banka",
+   "ts": "2026-11-03T08:52:24+00:00",
+   "url": "https://t.me/Serbia/107477"
   }
  ]
 }
