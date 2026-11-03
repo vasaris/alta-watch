@@ -33,18 +33,29 @@
  },
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник AOD новости": {
+    "last_sent": "2026-11-03T11:33:28+00:00",
+    "n": 1,
+    "since": "2026-11-03T11:31:45+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-03T11:33:29+00:00",
+    "n": 1,
+    "since": "2026-11-03T11:31:45+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-03T11:28:49+00:00",
+   "at": "2026-11-03T11:31:45+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:31:31+00:00",
-   "elapsed_s": 162,
-   "llm_calls": 4,
+   "at": "2026-11-03T11:34:15+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -70,8 +81,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -8403,14 +8414,15 @@
    "updated": "2026-11-03T10:18:55+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
-   "attempts": 5,
+   "attempts": 6,
    "first_seen": "2026-11-03T11:21:10+00:00",
    "kind": "press",
+   "last_reason": "llm",
    "posted": false,
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "updated": "2026-11-03T11:31:22+00:00"
+   "updated": "2026-11-03T11:34:15+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075245/privredni-sud-u-beogradu-otvorio-stecajni-postupak-nad-alta-bankom.html": {
    "first_seen": "2026-11-03T11:31:15+00:00",
