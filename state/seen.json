@@ -35,15 +35,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T18:40:23+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T18:41:29+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T18:40:57+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-03T18:43:45+00:00",
+   "elapsed_s": 136,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -7933,6 +7933,16 @@
    "title": "Директор Агентства банковского надзора РС: события с Alta bankom в Сербии не влияют на Республику Сербскую",
    "title_src": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na Republiku Srpsku",
    "updated": "2026-11-02T14:22:56+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/drzavna-preduzeca-alta-banka-stecaj": {
+   "first_seen": "2026-11-03T18:43:45+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke",
+   "status": "dup",
+   "title": "RSE: Državna preduzeća tvrde da im nije ugroženo poslovanje nakon stečaja Alta banke",
+   "title_src": "RSE: Državna preduzeća tvrde da im nije ugroženo poslovanje nakon stečaja Alta banke",
+   "updated": "2026-11-03T18:43:45+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/dugalic-oduzimanje-dozvole-za-rad-alta-banci-nece-direktno-uticati-na-stabilnost-bankarskog-sektora": {
    "first_seen": "2026-10-31T12:28:50+00:00",
