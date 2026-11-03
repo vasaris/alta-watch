@@ -35,23 +35,23 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T16:56:15+00:00",
+   "at": "2026-11-03T16:58:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T16:56:49+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-03T16:58:43+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
    "021": "ok:10",
-   "beta": "network_error",
+   "beta": "ok:10",
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
@@ -76,31 +76,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 16:25",
-    "first": "Телеком, Почта и Экспо 2027 публично подтвердили отсутствие угрозы для своей деятельности",
-    "important": false,
-    "kind": "press",
-    "outlet": "Beta",
-    "tags": [
-     "регулятор",
-     "клиенты",
-     "банки"
-    ],
-    "title": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
-    "title_src": "RSE: Državna preduzeća tvrde da im nije ugroženo poslovanje nakon stečaja Alta banke",
-    "ts": 1793723278.818771,
-    "url": "https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Financial Times: ECB проверял Alta banku по подозрениям в отмывании денег; закрытие затронуло русских в Сербии — ECB (Европейский центральный банк) проводил проверку Alta banke по подозрениям в отмывании денег — новый уровень международного надзора",
-   "ts": 1793620495.2904062,
-   "url": "https://www.021.rs/info/srbija/460079/fajnensel-tajms-ecb-proveravala-srpsku-alta-banku-zbog-pranja-novca-zatvaranje-pogodilo-ruse-u-srbiji"
-  },
   {
    "text": "Комиссия по ценным бумагам: как крах ALTA повлияет на инвестиционные фонды — Комиссия по ценным бумагам издала официальную инструкцию 2 ноября 2026 для управляющих компаний и депозитариев — Инвесторы в фонды не подают требования в банкротство ALTA и не получают выплаты от AOD — требования подаёт сам",
    "ts": 1793620901.4964118,
@@ -295,6 +273,11 @@
    "text": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику — Конкретный график выплат октябрьских пенсий в Банке Поштанске штедионице: самозанятые — 3.11, фермеры и военные пенсионеры — 5.11, работающие пенсионеры — 10.11.2026. — Банка Поштанске штедионице откроет време",
    "ts": 1793723873.846063,
    "url": "https://n1info.rs/biznis/fond-pio-ko-je-imao-racun-u-alta-banci-po-penziju-ide-u-postansku-stedionicu"
+  },
+  {
+   "text": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
+   "ts": 1793725122.1115355,
+   "url": "https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1237,13 +1220,20 @@
   "https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke": {
    "first_seen": "2026-11-03T16:27:58+00:00",
    "kind": "press",
+   "message_id": 142,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-03T16:58:42+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "банки"
+   ],
    "title": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
    "title_src": "RSE: Državna preduzeća tvrde da im nije ugroženo poslovanje nakon stečaja Alta banke",
-   "updated": "2026-11-03T16:27:58+00:00"
+   "updated": "2026-11-03T16:58:42+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
