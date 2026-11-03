@@ -29,16 +29,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T08:44:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T08:46:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T08:44:42+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-03T08:48:54+00:00",
+   "elapsed_s": 158,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -59,13 +59,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 44,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2635,6 +2635,18 @@
    "status": "dup",
    "title": "Alta banka до отзыва лицензии подала в суд на бывшую прокурора Паунович за ущерб репутации",
    "updated": "2026-10-31T17:31:30+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
+   "first_seen": "2026-11-03T08:48:54+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Ассоциация такси Белграда требует проверки городских органов",
+   "title_src": "Intesa Invest ulagala novac u Alta banku, investitori ostaju bez zarade, možda samo privremeno",
+   "updated": "2026-11-03T08:48:54+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/kako-je-guvernerka-govorila-pre-samo-mesec-dana-nijedna-banka-bilo-mala-ili-velika-nije-postedjena-nadzora": {
    "first_seen": "2026-11-02T14:56:45+00:00",
