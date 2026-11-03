@@ -33,18 +33,29 @@
  },
  "flags": {},
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник AOD новости": {
+    "last_sent": "2026-11-03T11:49:34+00:00",
+    "n": 1,
+    "since": "2026-11-03T11:47:51+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-03T11:49:34+00:00",
+    "n": 1,
+    "since": "2026-11-03T11:47:51+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-03T11:45:06+00:00",
+   "at": "2026-11-03T11:47:51+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T11:47:40+00:00",
-   "elapsed_s": 154,
-   "llm_calls": 1,
+   "at": "2026-11-03T11:50:58+00:00",
+   "elapsed_s": 186,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -70,13 +81,31 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "03.11.2026 11:19",
+    "first": "Приложение ЕПС продолжает работать; недоступна только функция оплаты счётов.",
+    "important": false,
+    "kind": "press",
+    "outlet": "RTS",
+    "tags": [
+     "выплаты",
+     "сроки",
+     "клиенты",
+     "банки"
+    ],
+    "title": "ЕПС: приложение «Увид в счёт» работает, платежи возобновятся после выбора процессора",
+    "title_src": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
+    "ts": 1793706658.2457726,
+    "url": "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html"
+   }
+  ]
  },
  "recent": [
   {
@@ -280,24 +309,7 @@
    "url": "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom"
   }
  ],
- "retry_items": {
-  "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html": {
-   "date": "03.11.2026 11:19",
-   "kind": "press",
-   "outlet": "RTS",
-   "source": "rts",
-   "tags": [
-    "суд",
-    "регулятор",
-    "клиенты"
-   ],
-   "tier": "press",
-   "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "title_src": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "ts": 1793704741,
-   "url": "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html"
-  }
- },
+ "retry_items": {},
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -7575,6 +7587,18 @@
    "title_src": "FT: ECB proveravala srpsku Alta banku zbog sumnje na pranje novca, zatvaranje pogodilo Ruse u Srbiji",
    "updated": "2026-11-02T10:57:06+00:00"
   },
+  "https://www.danas.rs/vesti/ekonomija/guverner-severne-makedonije-nema-milionskog-odliva-novca-iz-alta-banke-transakcije-su-rutinske": {
+   "first_seen": "2026-11-03T11:50:50+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Губернатор Северной Македонии: из Alta banke нет массовых оттоков денег, транзакции рутинные",
+   "title_src": "Guverner Severne Makedonije: Nema milionskog odliva novca iz Alta banke, transakcije su rutinske",
+   "updated": "2026-11-03T11:50:50+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
    "kind": "press",
@@ -8450,11 +8474,14 @@
    "first_seen": "2026-11-03T11:21:10+00:00",
    "kind": "press",
    "last_reason": "llm",
+   "novelty": 5,
    "posted": false,
    "reason": "retry_exhausted:llm",
-   "status": "quarantine",
-   "title": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
-   "updated": "2026-11-03T11:47:40+00:00"
+   "relevance": 6,
+   "status": "pending",
+   "title": "ЕПС: приложение «Увид в счёт» работает, платежи возобновятся после выбора процессора",
+   "title_src": "ЕПС: Апликација \"Увид у рачун\" функционише, плаћање ће бити омогућено након избора процесора",
+   "updated": "2026-11-03T11:50:58+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6075245/privredni-sud-u-beogradu-otvorio-stecajni-postupak-nad-alta-bankom.html": {
    "first_seen": "2026-11-03T11:31:15+00:00",
