@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T17:48:18+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-03T17:50:31+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T17:48:50+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-03T17:53:11+00:00",
+   "elapsed_s": 159,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
-   "ts": 1793621685.2639883,
-   "url": "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere"
-  },
   {
    "text": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня — Давор Макура задержан утром 2 ноября 2026 по приказу JTOK на 48 часов — Обыск в банке длился два дня и завершился незадолго до момента публикации статьи",
    "ts": 1793621946.990078,
@@ -278,6 +273,11 @@
    "text": "Фонд пенсионного страхования Сербии объявил график выплаты пенсий пенсионерам Alta banke через Банку Поштанске штедионице — Конкретное число затронутых пенсионеров: 1 965 человек с текущими счетами в Alta banke. — Подписан протокол между Фондом PIO и Банкой Поштанске штедионице о процедуре открытия ",
    "ts": 1793726329.603821,
    "url": "https://www.danas.rs/vesti/ekonomija/fond-pio-penzije-racun-alta-banka"
+  },
+  {
+   "text": "Банка Поштанске штедионице начала выплату пенсий вкладчикам Alta banke — Конкретный график выплаты октябрьских пенсий: самозанятые — 3 ноября, фермеры и военные пенсионеры — 5 ноября, работающие пенсионеры — 10 ноября 2026. — Пенсионеры могут получить пенсию во всех отделениях Банки Поштанске штедио",
+   "ts": 1793728390.293458,
+   "url": "https://beta.rs/content/255279-banka-postanska-stedionica-pocela-isplatu-penzija-korisnicima-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1234,6 +1234,26 @@
    "title": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
    "title_src": "RSE: Državna preduzeća tvrde da im nije ugroženo poslovanje nakon stečaja Alta banke",
    "updated": "2026-11-03T16:58:42+00:00"
+  },
+  "https://beta.rs/content/255279-banka-postanska-stedionica-pocela-isplatu-penzija-korisnicima-alta-banke": {
+   "first_seen": "2026-11-03T17:53:10+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 144,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-03T17:53:10+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Банка Поштанске штедионице начала выплату пенсий вкладчикам Alta banke",
+   "title_src": "Banka Poštanska štedionica počela isplatu penzija korisnicima Alta Banke",
+   "updated": "2026-11-03T17:53:10+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
