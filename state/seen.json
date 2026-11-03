@@ -27,28 +27,17 @@
  },
  "flags": {},
  "health": {
-  "alerts": {
-   "источник AOD новости": {
-    "last_sent": "2026-11-03T03:43:39+00:00",
-    "n": 1,
-    "since": "2026-11-03T03:41:54+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-03T03:43:39+00:00",
-    "n": 1,
-    "since": "2026-11-03T03:41:54+00:00"
-   }
-  },
+  "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T03:41:54+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-03T03:45:51+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-02",
   "last_run": {
-   "at": "2026-11-03T03:45:34+00:00",
-   "elapsed_s": 220,
+   "at": "2026-11-03T03:47:25+00:00",
+   "elapsed_s": 93,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -63,20 +52,20 @@
    "insajder": "ok:100",
    "n1": "ok:50",
    "nova": "ok:50",
-   "novaekonomija": "ok:20",
-   "radar": "network_error",
+   "novaekonomija": "network_error",
+   "radar": "ok:50",
    "rts": "ok:20",
    "rtv": "ok:20"
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 44,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
