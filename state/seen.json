@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:19:00+00:00",
+   "at": "2026-11-04T13:20:23+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:19:35+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-04T13:21:03+00:00",
+   "elapsed_s": 39,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -79,7 +79,25 @@
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "04.11.2026 13:19",
+    "first": "Конкретный срок для пенсионеров открыть счет в другом банке: до 20 ноября 2026.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "выплаты",
+     "сроки",
+     "регулятор",
+     "клиенты"
+    ],
+    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
+    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
+    "ts": 1793798463.1545455,
+    "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -8963,6 +8981,17 @@
     "банки"
    ],
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke": {
+   "first_seen": "2026-11-04T13:21:03+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
+   "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
+   "updated": "2026-11-04T13:21:03+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:12:58+00:00",
