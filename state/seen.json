@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T10:02:16+00:00",
+   "at": "2026-11-04T10:08:46+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T10:02:51+00:00",
-   "elapsed_s": 35,
-   "llm_calls": 0,
+   "at": "2026-11-04T10:09:33+00:00",
+   "elapsed_s": 47,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: информация о текущих счётах клиентов Alta banke и компетенции AOD — NBS официально подтверждает, что условия для открытия банкротства созданы после отзыва лицензии. — AOD опубликует уведомление о выплатах на www.aod.rs в течение 3 рабочих дней после решения суда об открытии банкротства.",
-   "ts": 1793636827.400365,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859"
-  },
   {
    "text": "NBS отозвала лицензию Alta group на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у Alta group doo Beograd (не только у Alta banke) на издание электронного денег и платные услуги — NBS явно заявляет, что Alta group не является банком и не принимает депозиты —",
    "ts": 1793637648.7467978,
@@ -281,6 +276,11 @@
    "text": "Полмиллиарда евро в сейфе Alta: что знала NBS и был ли деньги вообще — Конкретная сумма наличности в сейфе на 30 сентября 2026: около 60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За 28–29 октября выведено около 140 млн евро депозитов (конкретные даты и сумма).",
    "ts": 1793786500.8347538,
    "url": "https://nova.rs/vesti/biznis/sta-je-nbs-znala-o-trezoru-alta-banke"
+  },
+  {
+   "text": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это? — Решение NBS об отзыве лицензии (31 октября) не содержит упоминаний о хищении денег из сейфа — только о ухудшении ликвидности и финансового состояния. — Конкретная сумма наличности в сейфе на 30.09.2026:",
+   "ts": 1793786972.4210522,
+   "url": "https://n1info.rs/biznis/sta-stoji-u-resenju-nbs-o-alta-banci-birn-imao-uvid"
   }
  ],
  "retry_items": {},
@@ -2226,6 +2226,26 @@
    "title": "Судьба госпредприятий и депозитов граждан в ALTA banka: эксперты о последствиях",
    "title_src": "Slučaj \"ALTA banka\": Šta će biti sa novcem državnih preduzeća, ali i depozitima građana",
    "updated": "2026-11-02T18:34:59+00:00"
+  },
+  "https://n1info.rs/biznis/sta-stoji-u-resenju-nbs-o-alta-banci-birn-imao-uvid": {
+   "first_seen": "2026-11-04T10:09:32+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 151,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T10:09:32+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "выплаты"
+   ],
+   "title": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это?",
+   "title_src": "BIRN imao uvid u rešenje centralne banke: Pola milijarde evra u trezoru ALTA banke - šta je NBS znala i da li je novca uopšte bilo",
+   "updated": "2026-11-04T10:09:32+00:00"
   },
   "https://n1info.rs/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:20:40+00:00",
