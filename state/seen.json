@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T08:54:15+00:00",
+   "at": "2026-11-04T08:56:49+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T08:56:37+00:00",
-   "elapsed_s": 141,
-   "llm_calls": 0,
+   "at": "2026-11-04T08:59:15+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -73,8 +73,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
-   "ts": 1793626722.448518,
-   "url": "https://www.danas.rs/vesti/ekonomija/advokat-vlasnika-alta-banke-davor-macura-sutra-izlazi-pred-nadlezno-tuzilastvo-ne-znamo-sta-mu-se-stavlja-na-teret"
-  },
   {
    "text": "NBS отозвала лицензию ALTA GROUP DOO на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у ALTA GROUP DOO BEOGRAD на издание электронного денег и платные услуги (2 ноября 2026) — NBS явно указала, что ALTA GROUP DOO не является банком и не принимает депозиты, чт",
    "ts": 1793635436.2833343,
@@ -281,6 +276,11 @@
    "text": "ALTA banka появилась в списке процедур банкротства на сайте AOD",
    "ts": 1793780156.942985,
    "url": "https://www.aod.rs/clan/stecajlikv/postupci_utoku"
+  },
+  {
+   "text": "Владелец ALTA Макура купил страховую компанию в Северной Македонии на 1,7 млн евро — Макура владеет страховой компанией Alta Osiguranje AD Skoplje в Северной Македонии (100% акций) — Цена покупки страховой компании: ~1,7 млн евро",
+   "ts": 1793782753.888021,
+   "url": "https://www.danas.rs/vesti/ekonomija/sdsm-vlasnik-alta-banke-davor-macura-u-severnoj-makeodniji-poseduje-i-osiguravajucu-kucu"
   }
  ],
  "retry_items": {},
@@ -8567,6 +8567,25 @@
    "title": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
    "title_src": "Saslušanje Davora Macure zakazano za danas u 19 časova",
    "updated": "2026-11-03T14:24:50+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/sdsm-vlasnik-alta-banke-davor-macura-u-severnoj-makeodniji-poseduje-i-osiguravajucu-kucu": {
+   "first_seen": "2026-11-04T08:59:13+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 149,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-04T08:59:13+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "банки"
+   ],
+   "title": "Владелец ALTA Макура купил страховую компанию в Северной Македонии на 1,7 млн евро",
+   "title_src": "SDSM: Vlasnik Alta banke Davor Macura u Severnoj Makeodniji poseduje i osiguravajuću kuću",
+   "updated": "2026-11-04T08:59:13+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradjana": {
    "attempts": 9,
