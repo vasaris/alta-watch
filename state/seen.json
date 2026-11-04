@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:16:17+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-04T13:19:00+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:18:44+00:00",
-   "elapsed_s": 146,
-   "llm_calls": 0,
+   "at": "2026-11-04T13:19:35+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -68,13 +68,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Крах Alta banke вызвал цепную реакцию в регионе: клиенты блокированы в Македонии, госкомпании меняют банки, владелец арестован — Конкретный пример клиента из Северной Македонии (Тихомир): блокировка приватных и деловых счетов, депозитов и кредитных аранжманов; невозможность платежей. — Северная Маке",
-   "ts": 1793700539.4355338,
-   "url": "https://nova.rs/vesti/svet/zatvaranje-alta-banke-izazvalo-potres-u-regionu-klijenti-ostali-bez-novca-sirom-zapadnog-balkana"
-  },
   {
    "text": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
    "ts": 1793701135.7060287,
@@ -281,6 +276,11 @@
    "text": "BIRN: полмиллиарда евро наличными в сейфе Alta — что знала NBS и был ли деньги вообще — Конкретная сумма наличности в сейфе на 30 сентября 2026: ~60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — NBS приказала Alta самостоятельно пересчитать наличность за три рабочих",
    "ts": 1793796703.3259015,
    "url": "https://www.rts.rs/vesti/ekonomija/6076244/birn-alta-banka-nbs-trezor-gotovina.html"
+  },
+  {
+   "text": "Центральный банк Черногории: 58 транзакций из Черногории в Alta на сумму минимум 2,9 млн евро — Конкретное число транзакций из Черногории в Alta: 58 операций через 9 банков, каждая свыше 50 000 евро, с 1 января по 31 октября 2026. — Минимальная подтверждённая сумма: 2,9 млн евро (точная сумма не рас",
+   "ts": 1793798374.277896,
+   "url": "https://n1info.rs/biznis/cbcg-milioni-iz-crne-gore-poslati-alta-banci"
   }
  ],
  "retry_items": {},
@@ -2068,6 +2068,26 @@
    "title": "Экономист Драшкович: признаки проблем в Alta были год назад, ответственность на NBS",
    "title_src": "Božo Drašković: Crvene lampice u poslovanju Alta banke svetlele i pre godinu dana, odgovornost je na NBS",
    "updated": "2026-11-03T09:41:07+00:00"
+  },
+  "https://n1info.rs/biznis/cbcg-milioni-iz-crne-gore-poslati-alta-banci": {
+   "first_seen": "2026-11-04T13:19:34+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 161,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-04T13:19:34+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "банки",
+    "требования"
+   ],
+   "title": "Центральный банк Черногории: 58 транзакций из Черногории в Alta на сумму минимум 2,9 млн евро",
+   "title_src": "CBCG: Milioni iz Crne Gore poslati Alta banci",
+   "updated": "2026-11-04T13:19:34+00:00"
   },
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
