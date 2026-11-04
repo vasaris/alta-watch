@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:14:15+00:00",
+   "at": "2026-11-04T12:16:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:14:49+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-04T12:17:01+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 1,
    "version": "2.1"
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Инвестфонды Intesa Invest потеряли доход из-за депозитов в Alta banke",
-   "ts": 1793698868.1824472,
-   "url": "https://www.danas.rs/vesti/ekonomija/banka-intesa-alta-banka-dobit-fondovi-gubitak"
-  },
   {
    "text": "Крах Alta banke затронул клиентов за пределами Сербии: блокировка счётов в Северной Македонии, Черногории и проблемы государственных компаний — Alta banka a.d. Beograd владеет 95,18% акций Alta banke a.d. Bitolj (Северная Македония); введена временная администрация и ограничение снятий до 10 000 ден",
    "ts": 1793699968.552681,
@@ -281,6 +276,11 @@
    "text": "Idea marketi получила поддержку поставщиков после банкротства Alta",
    "ts": 1793794487.9356601,
    "url": "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke"
+  },
+  {
+   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — NBS официально выявил и предупредил о поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные сообщения требуют платежи на счета в Банке Поштанске штедионице (банк-выплатчик)",
+   "ts": 1793794614.8355944,
+   "url": "https://novaekonomija.rs/vesti-iz-zemlje/nbs-upozorava-na-prevarne-poruke-u-kojima-se-korisnici-kredita-alta-banke-pozivaju-da-izmire-svoje-obaveze"
   }
  ],
  "retry_items": {},
@@ -3497,6 +3497,26 @@
    "seeded": true,
    "status": "seeded"
   },
+  "https://novaekonomija.rs/vesti-iz-zemlje/nbs-upozorava-na-prevarne-poruke-u-kojima-se-korisnici-kredita-alta-banke-pozivaju-da-izmire-svoje-obaveze": {
+   "first_seen": "2026-11-04T12:16:54+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 159,
+   "novelty": 10,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-04T12:16:54+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "требования",
+    "выплаты"
+   ],
+   "title": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты",
+   "title_src": "NBS upozorava na prevarne poruke u kojima se korisnici kredita Alta banke pozivaju da izmire svoje obaveze",
+   "updated": "2026-11-04T12:16:54+00:00"
+  },
   "https://novaekonomija.rs/vesti-iz-zemlje/nova-rs-priveden-davor-macura": {
    "first_seen": "2026-11-02T10:41:04+00:00",
    "kind": "press",
@@ -5109,6 +5129,17 @@
    "title": "BIRN: за два дня из Alta banke вывелось 140 млн евро — что знала NBS?",
    "title_src": "BIRN: Za dva dana iz Alta banke odlilo se 140 miliona evra, šta NBS zna o tome?",
    "updated": "2026-11-04T11:22:57+00:00"
+  },
+  "https://www.021.rs/info/srbija/460317/nbs-upozorila-klijente-alta-banke-na-prevaru-ne-placajte-kredit-na-osnovu-sms-poruka": {
+   "first_seen": "2026-11-04T12:17:01+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 8,
+   "status": "dup",
+   "title": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты",
+   "title_src": "NBS upozorila klijente Alta banke na prevaru: Ne plaćajte kredit na osnovu SMS poruka",
+   "updated": "2026-11-04T12:17:01+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
