@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T05:42:15+00:00",
+   "at": "2026-11-04T05:44:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-04T05:42:47+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-04T05:44:53+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -8074,6 +8074,17 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://www.danas.rs/vesti/ekonomija/bajatovic-avion-moskva-vulin-popovic": {
+   "first_seen": "2026-11-04T05:44:53+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Директор Сербиягаза: поездка в Москву связана с проблемами газоснабжения и платежами после краха Alta",
+   "title_src": "Dušan Bajatović o tome zašto je pošao za Moskvu: Krenuo sam zbog gasa i problema sa Alta bankom, ne znam zašto su išli Vulin i Popović",
+   "updated": "2026-11-04T05:44:53+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/banka-intesa-alta-banka-dobit-fondovi-gubitak": {
    "first_seen": "2026-11-03T09:10:53+00:00",
