@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:52:56+00:00",
+   "at": "2026-11-04T11:54:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:53:31+00:00",
-   "elapsed_s": 35,
-   "llm_calls": 0,
+   "at": "2026-11-04T11:55:01+00:00",
+   "elapsed_s": 46,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -116,11 +116,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Уголовное заявление адвоката Нинича: руководство Alta banke переводило деньги в Москву и Скопье, NBS не провела проверку — Адвокат Нинич подал уголовное заявление против Макуры и 9 членов управления Alta banke за ускоренные трансферы в Москву и Скопье с 26.10.2026. — В заявлении названы конкретные ч",
-   "ts": 1793639873.7844503,
-   "url": "https://nova.rs/vesti/biznis/krivicna-prijava-koju-je-ivan-ninic-podneo-protiv-davora-macure"
-  },
   {
    "text": "Прокурор Стаменкович: деньги из Alta banke должны быть заблокированы и проверены — Прокурор Верховного обвинения Бранко Стаменкович официально заявил о необходимости блокировки всех средств Alta и проверки каждой транзакции. — Подтверждение сведений о вывозе ~380 млн евро наличными квалифицируется п",
    "ts": 1793649050.498607,
@@ -315,6 +310,11 @@
    "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — Выявлены поддельные SMS с ID «AltaPay», требующие погасить кредиты ALTA на счета в Банке Поштанске штедионице — NBS официально предупредила Банку Поштанске штедионице и потребовала усиленного контроля подозрительных пл",
    "ts": 1793792643.9001179,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21866"
+  },
+  {
+   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты на счета — NBS официально подтвердила выявление поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные SMS требуют платежи на счета в Банке Поштанске штедионице",
+   "ts": 1793793299.6993763,
+   "url": "https://www.danas.rs/vesti/ekonomija/nbs-upozorava-na-sms-prevare-gradjane-pozivaju-da-uplate-dugove-alta-banci-na-sumnjive-racune"
   }
  ],
  "retry_items": {},
@@ -8772,6 +8772,26 @@
    "title": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
    "title_src": "NBS se oglasila o računima u Alta banci: Evo kome građani i firme mogu da se obrate",
    "updated": "2026-11-02T17:11:51+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/nbs-upozorava-na-sms-prevare-gradjane-pozivaju-da-uplate-dugove-alta-banci-na-sumnjive-racune": {
+   "first_seen": "2026-11-04T11:54:59+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 155,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T11:54:59+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "выплаты",
+    "требования"
+   ],
+   "title": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты на счета",
+   "title_src": "NBS upozorava na SMS prevare: Građane pozivaju da uplate dugove Alta banci na sumnjive račune",
+   "updated": "2026-11-04T11:54:59+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/nova-rs-uhapsen-davor-macura-vlasnik-alta-banke": {
    "first_seen": "2026-11-02T10:33:08+00:00",
