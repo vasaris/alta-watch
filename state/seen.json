@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:08:15+00:00",
+   "at": "2026-11-04T12:10:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:09:04+00:00",
-   "elapsed_s": 48,
+   "at": "2026-11-04T12:10:57+00:00",
+   "elapsed_s": 36,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -9678,6 +9678,17 @@
    "title": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
    "title_src": "Бојчић из Поштанске штедионице: Банка стабилна и ликвидна, почела исплата пензија из Алта банке",
    "updated": "2026-11-04T11:43:20+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6076214/nbs-upozorava-na-lazne-poruke-korisnicima-alta-banke-sacekajte-obavestenja-agencije-za-osiguranje-depozita.html": {
+   "first_seen": "2026-11-04T12:10:57+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 9,
+   "status": "dup",
+   "title": "НБС предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты",
+   "title_src": "НБС упозорава на лажне поруке корисницима Алта банке: Сачекајте обавештења Агенције за осигурање депозита",
+   "updated": "2026-11-04T12:10:57+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
