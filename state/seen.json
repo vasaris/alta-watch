@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:38:17+00:00",
+   "at": "2026-11-04T12:40:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:38:47+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-04T12:41:11+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2022,6 +2022,18 @@
    "title": "Adiko banka: отзыв лицензии Alta не влияет на наше функционирование",
    "title_src": "Adiko banka: Oduzimanje licence Alta banci nema uticaja na naše poslovanje",
    "updated": "2026-11-01T12:57:28+00:00"
+  },
+  "https://n1info.rs/biznis/alta-banka-bitolj-ministarstvo-finansija-severne-makedonije-zahtev-srbije": {
+   "first_seen": "2026-11-04T12:41:07+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Македонское министерство: Сербия не запрашивала проверку переводов в Alta banka Bitolj",
+   "title_src": "\"Alta banka\" posluje i u Bitolju: Makedonsko ministarstvo za N1 kaže da Srbija do sada nije tražila proveru transfera",
+   "updated": "2026-11-04T12:41:07+00:00"
   },
   "https://n1info.rs/biznis/alta-banka-n1-osigurani-depozit-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -4465,6 +4477,17 @@
    "title": "Разворот самолёта над Литвой: Вулин, Баятович и Попович возвращены в Белград",
    "title_src": "✈️ Загадочный разворот Не думала, что буду цитировать Информер , но на сейчас это единственная запись объяснений господина Вулина о ночном развороте самолёта из Белграда над Литвой. Кто не в курсе: сегодня ночью самолёт…",
    "updated": "2026-11-04T08:45:18+00:00"
+  },
+  "https://t.me/novisadaily/20299": {
+   "first_seen": "2026-11-04T12:41:11+00:00",
+   "kind": "telegram",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "NBS повторно предупредил о поддельных SMS от «AltaPay»",
+   "title_src": "❗️ НБС предупредил о мошенничестве Национальный банк Сербии (НБС) получил информацию о рассылке гражданам ложных смс-сообщений. В некоторых из них указан отправитель «AltaPay», в некоторых — неопознанные телефонные…",
+   "updated": "2026-11-04T12:41:11+00:00"
   },
   "https://t.me/novostiserbii/17226": {
    "first_seen": "2026-10-31T11:31:11+00:00",
