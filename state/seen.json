@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 112,
+    "n": 113,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T18:36:59+00:00",
+   "at": "2026-11-04T18:38:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T18:37:28+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-04T18:38:49+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 114,
+   "ALTA": 115,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "ЕПС: приложение «Увид в счёт» работает, платежи возобновятся после выбора процессора",
-   "ts": 1793708571.0009449,
-   "url": "https://www.rts.rs/vesti/ekonomija/6075197/aplikacija-uvid-racun-funkcionise-placanje.html"
-  },
   {
    "text": "Хозяйственный суд Белграда открыл банкротство ALTA; Банка Поштанске штедионице — банк-выплатчик — Решение Хозяйственного суда Белграда об открытии банкротства ALTA — 3 ноября 2026. — Банка Поштанске штедионице официально выбрана банком-выплатчиком (решение принято управным советом AOD 3 ноября 2026)",
    "ts": 1793709070.8229125,
@@ -293,6 +288,11 @@
    "text": "KRIK опубликовал документы прокуратуры: большинство похищенных 390 млн евро никогда не поступали в сейф Alta — Из 390 млн евро только ~17 млн евро физически вынесены из тrezora; остальные ~370 млн евро никогда не поступали в тrezor. — Механизм извлечения: фиктивное учёт обменов валюты «Alta Pay» без",
    "ts": 1793816212.9896023,
    "url": "https://n1info.rs/biznis/krik-objavio-delove-dokumenta-tuzilastva-o-alta-banci-tabakovic-svedok-vecina-novca-nije-ni-usla-u-banku"
+  },
+  {
+   "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель в следствии — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в тrezor (из 390 млн евро всего). — Механизм фиктивного учёта: платежи AltaPay регистриров",
+   "ts": 1793817528.436991,
+   "url": "https://www.danas.rs/vesti/ekonomija/deo-iznetog-novca-alta-nije-bio-u-trezoru"
   }
  ],
  "retry_items": {},
@@ -8862,6 +8862,26 @@
    "title": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
    "title_src": "Davor Macura saslušan u JTOK, negirao krivicu, tužilaštvo traži pritvor do 30 dana",
    "updated": "2026-11-04T00:35:01+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/deo-iznetog-novca-alta-nije-bio-u-trezoru": {
+   "first_seen": "2026-11-04T18:38:48+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 168,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-04T18:38:48+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "суд",
+    "регулятор",
+    "требования"
+   ],
+   "title": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель в следствии",
+   "title_src": "KRIK: Veći deo novca uzetog iz Alta banke nije ni bio u trezoru, Tabaković svedok u istrazi",
+   "updated": "2026-11-04T18:38:48+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/direktor-agencije-za-bankarstvo-rs-desavanja-s-alta-bankom-u-srbiji-nemaju-nikakav-uticaj-na-republiku-srpsku": {
    "first_seen": "2026-11-02T14:22:56+00:00",
