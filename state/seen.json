@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 77,
+    "n": 78,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T17:26:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T17:28:18+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T17:26:43+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-04T17:30:48+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,18 +80,35 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 79,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 80,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "04.11.2026 17:28",
+    "first": "Адвокат Ivan Ninić предупреждал NBS о проблемах Alta за несколько дней до 31 октября (дата отзыва лицензии).",
+    "important": false,
+    "kind": "press",
+    "outlet": "Nova.rs",
+    "tags": [
+     "регулятор",
+     "суд",
+     "активы"
+    ],
+    "title": "Вице-губернаторы NBS отрицают знание о проблемах Alta; адвокат предупреждал за дни до отзыва лицензии",
+    "title_src": "Ko su viceguverneri NBS koji tvrde da o slučaju Alta banke nisu znali ništa: Lampice se navodno upalile u danu kad joj je oduzeta dozvola za rad",
+    "ts": 1793813447.999386,
+    "url": "https://nova.rs/vesti/biznis/ko-su-viceguverneri-koji-tvrde-da-o-sluaju-alte-nista-nisu-znali"
+   }
+  ]
  },
  "recent": [
   {
@@ -2988,6 +3005,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/ko-su-viceguverneri-koji-tvrde-da-o-sluaju-alte-nista-nisu-znali": {
+   "first_seen": "2026-11-04T17:30:47+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "relevance": 5,
+   "status": "pending",
+   "title": "Вице-губернаторы NBS отрицают знание о проблемах Alta; адвокат предупреждал за дни до отзыва лицензии",
+   "title_src": "Ko su viceguverneri NBS koji tvrde da o slučaju Alta banke nisu znali ništa: Lampice se navodno upalile u danu kad joj je oduzeta dozvola za rad",
+   "updated": "2026-11-04T17:30:47+00:00"
   },
   "https://nova.rs/vesti/biznis/koje-drzavne-firme-su-cuvale-novac-u-alta-banci-davora-macure": {
    "first_seen": "2026-11-02T20:12:57+00:00",
