@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T09:58:39+00:00",
+   "at": "2026-11-04T10:00:56+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T09:59:19+00:00",
-   "elapsed_s": 40,
-   "llm_calls": 1,
+   "at": "2026-11-04T10:01:46+00:00",
+   "elapsed_s": 50,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию ALTA GROUP DOO на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у ALTA GROUP DOO BEOGRAD на издание электронного денег и платные услуги (2 ноября 2026) — NBS явно указала, что ALTA GROUP DOO не является банком и не принимает депозиты, чт",
-   "ts": 1793635436.2833343,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858"
-  },
   {
    "text": "NBS: информация о текущих счётах клиентов Alta banke и компетенции AOD — NBS официально подтверждает, что условия для открытия банкротства созданы после отзыва лицензии. — AOD опубликует уведомление о выплатах на www.aod.rs в течение 3 рабочих дней после решения суда об открытии банкротства.",
    "ts": 1793636827.400365,
@@ -281,6 +276,11 @@
    "text": "Владелец ALTA Макура купил страховую компанию в Северной Македонии на 1,7 млн евро — Макура владеет страховой компанией Alta Osiguranje AD Skoplje в Северной Македонии (100% акций) — Цена покупки страховой компании: ~1,7 млн евро",
    "ts": 1793782753.888021,
    "url": "https://www.danas.rs/vesti/ekonomija/sdsm-vlasnik-alta-banke-davor-macura-u-severnoj-makeodniji-poseduje-i-osiguravajucu-kucu"
+  },
+  {
+   "text": "Полмиллиарда евро в сейфе Alta: что знала NBS и был ли деньги вообще — Конкретная сумма наличности в сейфе на 30 сентября 2026: около 60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За 28–29 октября выведено около 140 млн евро депозитов (конкретные даты и сумма).",
+   "ts": 1793786500.8347538,
+   "url": "https://nova.rs/vesti/biznis/sta-je-nbs-znala-o-trezoru-alta-banke"
   }
  ],
  "retry_items": {},
@@ -2928,6 +2928,26 @@
    "title": "Sindikati: Nakon gašenja Alta banke zaštititi plate njenih službenika i uloge građana",
    "updated": "2026-10-31T17:12:43+00:00"
   },
+  "https://nova.rs/vesti/biznis/sta-je-nbs-znala-o-trezoru-alta-banke": {
+   "first_seen": "2026-11-04T10:01:40+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 150,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-04T10:01:40+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "требования"
+   ],
+   "title": "Полмиллиарда евро в сейфе Alta: что знала NBS и был ли деньги вообще",
+   "title_src": "Pola milijarde evra u trezoru Alta banke: Šta je NBS znala – i da li je novca uopšte bilo",
+   "updated": "2026-11-04T10:01:40+00:00"
+  },
   "https://nova.rs/vesti/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
    "kind": "press",
@@ -4426,6 +4446,18 @@
    "title": "Словарь Govori дарит месяц подписки клиентам Alta Banka",
    "title_src": "Еще одна инициатива помощи клиентам Alta Banka: создатели словаря сербского языка Govori дарят вам месяц бесплатной версии Plus #СербскийЯзык #технологии #благотворительность Чтобы вы пришли в банк (любой) во всеоружии…",
    "updated": "2026-11-04T09:04:44+00:00"
+  },
+  "https://t.me/novostiserbii/17260": {
+   "first_seen": "2026-11-04T10:01:46+00:00",
+   "kind": "telegram",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Подборка новостей Белграда: погода, FAQ для россиян, культура",
+   "title_src": "Добро jутро! Главное к утру 4 ноября: ☁️ В Белграде облачно, температура около +9 . Завтра синоптики обещают солнечную погоду, но с учетом того, что главу сербской метеорологической службы вчера арестовали по подозрению…",
+   "updated": "2026-11-04T10:01:46+00:00"
   },
   "https://t.me/volna_srbjia/3295": {
    "first_seen": "2026-10-31T11:31:11+00:00",
