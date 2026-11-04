@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 14,
+    "n": 15,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T15:20:33+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T15:22:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T15:21:03+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-04T15:24:41+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 16,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 17,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3381,6 +3381,18 @@
    "status": "dup",
    "title": "Вооружённая полиция у здания Alta Banka на Новом Белграде 31 октября",
    "updated": "2026-10-31T17:32:58+00:00"
+  },
+  "https://nova.rs/vesti/hronika/saznajemo-guvernerka-nbs-jorgovanka-tabakovic-medju-svedocima-u-slucaju-alta-banke-i-davora-macure": {
+   "first_seen": "2026-11-04T15:24:41+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Губернатор NBS Йоргованка Табакович — свидетель в деле о владельце ALTA Макуре",
+   "title_src": "SAZNAJEMO Guvernerka NBS Jorgovanka Tabaković među svedocima u slučaju Alta banke i Davora Macure",
+   "updated": "2026-11-04T15:24:41+00:00"
   },
   "https://nova.rs/vesti/hronika/tuziteljka-savovic-alta-banka-sluzila-otprilike-za-pranje-nelegalnog-novca-ove-drzave-u-tok-otvoren-predmet-u-odnosu-na-vlasnika-i-direktora": {
    "attempts": 72,
@@ -10156,6 +10168,12 @@
    "title": "BIRN: за два дня из Alta banke вывелось 140 млн евро — что знала NBS?",
    "ts": "2026-11-04T11:22:17+00:00",
    "url": "https://www.021.rs/info/srbija/460291/birn-za-dva-dana-iz-alta-banke-odlilo-se-140-miliona-evra-sta-nbs-zna-o-tome"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Губернатор NBS Йоргованка Табакович — свидетель в деле о владельце ALTA Макуре",
+   "ts": "2026-11-04T15:22:15+00:00",
+   "url": "https://nova.rs/vesti/hronika/saznajemo-guvernerka-nbs-jorgovanka-tabakovic-medju-svedocima-u-slucaju-alta-banke-i-davora-macure"
   }
  ]
 }
