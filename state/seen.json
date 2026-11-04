@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:56:15+00:00",
+   "at": "2026-11-04T11:58:51+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:58:40+00:00",
-   "elapsed_s": 145,
-   "llm_calls": 1,
+   "at": "2026-11-04T12:01:13+00:00",
+   "elapsed_s": 141,
+   "llm_calls": 0,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -73,8 +73,8 @@
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
