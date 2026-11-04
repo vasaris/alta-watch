@@ -35,15 +35,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T00:26:56+00:00",
+   "at": "2026-11-04T00:28:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-04T00:27:33+00:00",
-   "elapsed_s": 37,
+   "at": "2026-11-04T00:28:48+00:00",
+   "elapsed_s": 33,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -3106,6 +3106,16 @@
    "title": "Арестован Давор Макура, владелец Alta banke",
    "title_src": "Uhapšen Davor Macura, biznismen blizak Srpskoj naprednoj stranci i vlasnik Alta banke",
    "updated": "2026-11-02T10:51:11+00:00"
+  },
+  "https://nova.rs/vesti/politika/bajatovic-zasto-su-vulin-i-popovic-putovali-u-rusiju-ne-znam-ja-sam-krenuo-zbog-gasa-i-problema-s-alta-bankom": {
+   "first_seen": "2026-11-04T00:28:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/bajatovic-za-n1-zasto-su-vulin-i-popovic-putovali-u-rusiju-ne-znam-ja-sam-krenuo-zbog-gasa-i-problema-s-alta-bankom",
+   "status": "dup",
+   "title": "Bajatović: Zašto su Vulin i Popović putovali u Rusiju ne znam, ja sam krenuo zbog gasa i problema s Alta bankom",
+   "title_src": "Bajatović: Zašto su Vulin i Popović putovali u Rusiju ne znam, ja sam krenuo zbog gasa i problema s Alta bankom",
+   "updated": "2026-11-04T00:28:48+00:00"
   },
   "https://nova.rs/vesti/politika/ds-trazi-pritvor-za-jorgovanku-tabakovic-i-davora-macuru": {
    "attempts": 20,
