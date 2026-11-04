@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T10:58:17+00:00",
+   "at": "2026-11-04T11:02:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T10:58:50+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-04T11:02:51+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,32 +79,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "04.11.2026 10:30",
-    "first": "Конкретное число транзакций из Черногории в Alta: 58 за 10 месяцев (с 1 января по 31 октября 2026), из 9 банков.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Nova.rs",
-    "tags": [
-     "активы",
-     "регулятор",
-     "банки",
-     "требования"
-    ],
-    "title": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
-    "title_src": "Milioni iz Crne Gore završavali u Alta banci: Otkriveni detalji 58 transakcija",
-    "ts": 1793788369.3550558,
-    "url": "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
-   "ts": 1793639511.1446953,
-   "url": "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci"
-  },
   {
    "text": "NBS: физлица и компании могут обратиться в AOD за информацией о правах при банкротстве Alta",
    "ts": 1793639511.1447418,
@@ -299,6 +276,11 @@
    "text": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью — Конкретная сумма наличности в сейфе на 30 сентября 2026: ~60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За два дня (28–29 октября) из Alta выведено ~140 млн евро депозитов.",
    "ts": 1793788739.65217,
    "url": "https://www.danas.rs/vesti/ekonomija/birn-alta-banka-drzala-60-milijardi-dinara-u-kesu-imala-problem-sa-likvidnoscu"
+  },
+  {
+   "text": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
+   "ts": 1793790170.2458665,
+   "url": "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija"
   }
  ],
  "retry_items": {},
@@ -3267,13 +3249,21 @@
   "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija": {
    "first_seen": "2026-11-04T10:32:49+00:00",
    "kind": "press",
+   "message_id": 153,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-04T11:02:50+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "банки",
+    "требования"
+   ],
    "title": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
    "title_src": "Milioni iz Crne Gore završavali u Alta banci: Otkriveni detalji 58 transakcija",
-   "updated": "2026-11-04T10:32:49+00:00"
+   "updated": "2026-11-04T11:02:50+00:00"
   },
   "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
    "attempts": 68,
