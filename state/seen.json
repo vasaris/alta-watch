@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:12:16+00:00",
+   "at": "2026-11-04T12:14:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:12:50+00:00",
+   "at": "2026-11-04T12:14:49+00:00",
    "elapsed_s": 33,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,53 +79,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "04.11.2026 11:42",
-    "first": "Иван Бойчич (представитель Банки Поштанске штедионице) подтвердил стабильность и ликвидность банки-выплатчика.",
-    "important": false,
-    "kind": "press",
-    "outlet": "RTS",
-    "tags": [
-     "выплаты",
-     "сроки",
-     "регулятор",
-     "клиенты"
-    ],
-    "title": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
-    "title_src": "Бојчић из Поштанске штедионице: Банка стабилна и ликвидна, почела исплата пензија из Алта банке",
-    "ts": 1793792600.9505231,
-    "url": "https://www.rts.rs/vesti/ekonomija/6076133/bojcic-iz-postanske-stedionice-banka-stabilna-i-likvidna-pocela-isplata-penzija-iz-alta-banke.html"
-   },
-   {
-    "date": "04.11.2026 11:44",
-    "first": "Idea marketi официально объявила о поддержке поставщиков (более 50% оборота) после банкротства Alta.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Nova.rs",
-    "tags": [
-     "активы",
-     "клиенты",
-     "банки"
-    ],
-    "title": "Idea marketi получила поддержку поставщиков после банкротства Alta",
-    "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
-    "ts": 1793792815.8926253,
-    "url": "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
-   "ts": 1793688391.0340466,
-   "url": "https://insajder.net/teme/kako-je-alta-banka-rusima-srusila-srpski-san-video"
-  },
-  {
-   "text": "NBS отозвала лицензию ALTA GROUP на электронные деньги и платежи — ALTA GROUP DOO BEOGRAD — отдельная юридическая лицо (институт электронного денег), не банк; не принимает депозиты граждан и компаний — Отзыв лицензии ALTA GROUP — автоматическое следствие отзыва лицензии ALTA banca, а не самостоятель",
-   "ts": 1793692841.90869,
-   "url": "https://bizlife.rs/posle-alta-banke-bez-dozvole-ostala-i-alta-group-nbs-objasnjava-sta-to-znaci-za-korisnike"
-  },
   {
    "text": "Инвестфонды Intesa Invest потеряли доход из-за депозитов в Alta banke",
    "ts": 1793698868.1824472,
@@ -315,6 +271,16 @@
    "text": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты — NBS выявил поддельные SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующие платежи на счета в Банке Поштанске штедионице. — NBS потребовал от Банки Поштанске штедионице усиленного контроля над подозрительным",
    "ts": 1793794142.600721,
    "url": "https://insajder.net/prenosimo/nbs-upozorila-klijente-alta-banke-na-prevaru-ne-uplacujte-rate-kredita-na-osnovu-sms-poruka"
+  },
+  {
+   "text": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
+   "ts": 1793794487.935619,
+   "url": "https://www.rts.rs/vesti/ekonomija/6076133/bojcic-iz-postanske-stedionice-banka-stabilna-i-likvidna-pocela-isplata-penzija-iz-alta-banke.html"
+  },
+  {
+   "text": "Idea marketi получила поддержку поставщиков после банкротства Alta",
+   "ts": 1793794487.9356601,
+   "url": "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke"
   }
  ],
  "retry_items": {},
@@ -2944,13 +2910,20 @@
   "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke": {
    "first_seen": "2026-11-04T11:46:55+00:00",
    "kind": "press",
+   "message_id": 158,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-04T12:14:47+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "банки"
+   ],
    "title": "Idea marketi получила поддержку поставщиков после банкротства Alta",
    "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
-   "updated": "2026-11-04T11:46:55+00:00"
+   "updated": "2026-11-04T12:14:47+00:00"
   },
   "https://nova.rs/vesti/biznis/oglasio-se-eps-nakon-oduzimanja-licence-za-rad-alta-banci": {
    "first_seen": "2026-11-03T09:50:52+00:00",
@@ -9671,13 +9644,21 @@
   "https://www.rts.rs/vesti/ekonomija/6076133/bojcic-iz-postanske-stedionice-banka-stabilna-i-likvidna-pocela-isplata-penzija-iz-alta-banke.html": {
    "first_seen": "2026-11-04T11:43:20+00:00",
    "kind": "press",
+   "message_id": 158,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-04T12:14:47+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "регулятор",
+    "клиенты"
+   ],
    "title": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
    "title_src": "Бојчић из Поштанске штедионице: Банка стабилна и ликвидна, почела исплата пензија из Алта банке",
-   "updated": "2026-11-04T11:43:20+00:00"
+   "updated": "2026-11-04T12:14:47+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6076214/nbs-upozorava-na-lazne-poruke-korisnicima-alta-banke-sacekajte-obavestenja-agencije-za-osiguranje-depozita.html": {
    "first_seen": "2026-11-04T12:10:57+00:00",
