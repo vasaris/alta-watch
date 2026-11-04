@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:58:17+00:00",
+   "at": "2026-11-04T14:00:52+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:58:55+00:00",
-   "elapsed_s": 38,
-   "llm_calls": 0,
+   "at": "2026-11-04T14:01:32+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -82,11 +82,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
-   "ts": 1793701135.7060988,
-   "url": "https://insajder.net/prenosimo/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci"
-  },
   {
    "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице — Банка Поштанске штедионице выбрана банком-выплатчиком (новое имя, не было ранее) — Дата объявления банка-выплатчика: 3 ноября 2026",
    "ts": 1793704003.3219962,
@@ -281,6 +276,11 @@
    "text": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "ts": 1793800265.964454,
    "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke"
+  },
+  {
+   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — NBS выявил и официально предупредил о поддельных SMS с ID «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице. — NBS уведомил Банку Поштанске штедионице и потребовал усиленного конт",
+   "ts": 1793800891.2056842,
+   "url": "https://bizlife.rs/nbs-upozorava-na-prevarne-poruke-upucene-korisnicima-kredita-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1329,6 +1329,26 @@
    "title": "NBS: депозиты защищены, банковский сектор стабилен, курс динара сохранится",
    "title_src": "NBS pokušava da umiri privredu i građane: Depoziti su zaštićeni, a stabilnost dinara ostaje prioritet",
    "updated": "2026-11-02T13:31:29+00:00"
+  },
+  "https://bizlife.rs/nbs-upozorava-na-prevarne-poruke-upucene-korisnicima-kredita-alta-banke": {
+   "first_seen": "2026-11-04T14:01:31+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 164,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T14:01:31+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "требования",
+    "сроки"
+   ],
+   "title": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты",
+   "title_src": "NBS upozorava na prevarne poruke upućene korisnicima kredita Alta banke",
+   "updated": "2026-11-04T14:01:31+00:00"
   },
   "https://bizlife.rs/posle-alta-banke-bez-dozvole-ostala-i-alta-group-nbs-objasnjava-sta-to-znaci-za-korisnike": {
    "first_seen": "2026-11-03T08:00:41+00:00",
