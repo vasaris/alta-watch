@@ -38,14 +38,14 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:46:14+00:00",
+   "at": "2026-11-04T11:48:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:46:55+00:00",
+   "at": "2026-11-04T11:48:57+00:00",
    "elapsed_s": 41,
    "llm_calls": 1,
    "llm_down": null,
@@ -3118,6 +3118,17 @@
    "title": "Адвокат Нинич анонсирует уголовное заявление против чиновников министерства",
    "title_src": "Advokat Ninić najavio novu krivičnu prijavu protiv jedne državne institucije",
    "updated": "2026-10-31T20:46:45+00:00"
+  },
+  "https://nova.rs/vesti/hronika/advokat-tasic-o-saslusanju-davora-macure-pred-tuzilastvom-izneo-je-odbranu-i-negirao-sve-sto-mu-se-stavlja-na-teret": {
+   "first_seen": "2026-11-04T11:48:57+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Владелец ALTA Макура отрицает вину на допросе; арест на 30 дней подтвержден",
+   "title_src": "Advokat Tasić o saslušanju Davora Macure pred tužilaštvom: Izneo je odbranu i negirao sve što mu se stavlja na teret",
+   "updated": "2026-11-04T11:48:57+00:00"
   },
   "https://nova.rs/vesti/hronika/davoru-macuri-odredjeno-zadrzavanje-po-nalogu-jtok-potvrdili-njegovi-branioci-iz-advokatske-kancelarije-spahovic": {
    "first_seen": "2026-11-02T11:42:55+00:00",
