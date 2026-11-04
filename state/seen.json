@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 101,
+    "n": 102,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T18:14:17+00:00",
+   "at": "2026-11-04T18:16:17+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T18:14:47+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-04T18:16:54+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 103,
+   "ALTA": 104,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице — Хозяйственный суд Белграда официально открыл банкротство ALTA (решение 3 ноября 2026) — ранее было известно только об отзыве лицензии. — Банка Поштанске штедионице официально объявлена банком-выплатчиком (3 нояб",
-   "ts": 1793704861.3082821,
-   "url": "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom"
-  },
   {
    "text": "ЕПС: приложение «Увид в счёт» работает, платежи возобновятся после выбора процессора",
    "ts": 1793708571.0009449,
@@ -293,6 +288,11 @@
    "text": "Вице-губернаторы NBS отрицают знание о проблемах Alta; адвокат предупреждал за дни до отзыва лицензии",
    "ts": 1793815286.2206054,
    "url": "https://nova.rs/vesti/biznis/ko-su-viceguverneri-koji-tvrde-da-o-sluaju-alte-nista-nisu-znali"
+  },
+  {
+   "text": "KRIK опубликовал документы прокуратуры: большинство похищенных 390 млн евро никогда не поступали в сейф Alta — Из 390 млн евро только ~17 млн евро физически вынесены из тrezora; остальные ~370 млн евро никогда не поступали в тrezor. — Механизм извлечения: фиктивное учёт обменов валюты «Alta Pay» без",
+   "ts": 1793816212.9896023,
+   "url": "https://n1info.rs/biznis/krik-objavio-delove-dokumenta-tuzilastva-o-alta-banci-tabakovic-svedok-vecina-novca-nije-ni-usla-u-banku"
   }
  ],
  "retry_items": {},
@@ -2261,6 +2261,26 @@
     "регулятор"
    ],
    "title": "Глава Forbes Сербия: заявление НБС указывает на возможное банкротство ALTA"
+  },
+  "https://n1info.rs/biznis/krik-objavio-delove-dokumenta-tuzilastva-o-alta-banci-tabakovic-svedok-vecina-novca-nije-ni-usla-u-banku": {
+   "first_seen": "2026-11-04T18:16:52+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 167,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-04T18:16:52+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "суд",
+    "регулятор"
+   ],
+   "title": "KRIK опубликовал документы прокуратуры: большинство похищенных 390 млн евро никогда не поступали в сейф Alta",
+   "title_src": "KRIK objavio delove dokumenta tužilaštva o Alta banci: Tabaković svedok, većina novca nije ni ušla u banku",
+   "updated": "2026-11-04T18:16:52+00:00"
   },
   "https://n1info.rs/biznis/kriptovalute-i-bekstvo-novca-da-li-je-moguce-izneti-milione-iz-zemlje-bez-traga": {
    "first_seen": "2026-11-04T09:01:31+00:00",
