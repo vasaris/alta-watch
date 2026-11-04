@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 110,
+    "n": 111,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T18:32:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T18:34:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T18:32:33+00:00",
-   "elapsed_s": 20,
-   "llm_calls": 0,
+   "at": "2026-11-04T18:36:44+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 112,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 113,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4561,6 +4561,18 @@
    "title_src": "LocalHands 🤝 ZAJEDNO 💛 Поддержим предпринимателей Сербии! Привет! Мы - LocalHands , сообщество, которое помогает русскоязычным специалистам и их потенциальным клиентам находить друг друга. У нас вы можете найти нужного…",
    "updated": "2026-11-04T17:03:05+00:00"
   },
+  "https://t.me/Serbia/107527": {
+   "first_seen": "2026-11-04T18:36:44+00:00",
+   "kind": "telegram",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Вучич о закрытии Informer и «странных» обстоятельствах отзыва лицензии Alta",
+   "title_src": "Вучич предрёк закрытие Informer и прокомментировал ситуацию с Alta banka Александр Вучич заявил , что Informer могут отключить от вещания через 7–8 дней. Он обвинил «Студенческий список» в намерении закрыть телеканал, а…",
+   "updated": "2026-11-04T18:36:44+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -5372,6 +5384,16 @@
    "title": "U danima Alta banke i Macure, setimo se Jezde i Dafine",
    "title_src": "U danima Alta banke i Macure, setimo se Jezde i Dafine",
    "updated": "2026-11-03T17:33:29+00:00"
+  },
+  "https://www.021.rs/info/srbija/460217/evo-koliko-zaradjuje-i-sta-poseduje-jorgovanka-tabakovic": {
+   "first_seen": "2026-11-04T18:36:40+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "Evo koliko zarađuje i šta poseduje Jorgovanka Tabaković",
+   "title_src": "Evo koliko zarađuje i šta poseduje Jorgovanka Tabaković",
+   "updated": "2026-11-04T18:36:40+00:00"
   },
   "https://www.021.rs/info/srbija/460235/banka-postanska-stedionica-pocela-isplatu-penzija-korisnicima-alta-banke": {
    "first_seen": "2026-11-03T17:59:14+00:00",
