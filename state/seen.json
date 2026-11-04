@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:52:51+00:00",
+   "at": "2026-11-04T12:54:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:53:17+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-04T12:55:07+00:00",
+   "elapsed_s": 52,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2114,6 +2114,18 @@
     "банки"
    ],
    "title": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku"
+  },
+  "https://n1info.rs/biznis/filipce-sdsm-guverner-zuri-s-prodajom-akcija-alta-banke-bitolj-da-bi-prikrio-kriminalne-dilove": {
+   "first_seen": "2026-11-04T12:55:07+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Лидер оппозиции Северной Македонии обвиняет губернатора в спешке с продажей акций Alta Bitolj",
+   "title_src": "Filipče (SDSM): Guverner žuri s prodajom akcija Alta banke Bitolj da bi prikrio kriminalne dilove",
+   "updated": "2026-11-04T12:55:07+00:00"
   },
   "https://n1info.rs/biznis/fond-pio-ko-je-imao-racun-u-alta-banci-po-penziju-ide-u-postansku-stedionicu": {
    "first_seen": "2026-11-03T16:37:53+00:00",
