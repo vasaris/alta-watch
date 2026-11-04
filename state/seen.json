@@ -45,33 +45,33 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 139,
+    "n": 140,
     "since": "2026-11-04T14:42:29+00:00"
    },
    "источник AOD новости": {
     "last_sent": "2026-11-04T19:29:14+00:00",
-    "n": 2,
+    "n": 3,
     "since": "2026-11-04T19:27:31+00:00"
    },
    "источник AOD объявления": {
     "last_sent": "2026-11-04T19:29:15+00:00",
-    "n": 2,
+    "n": 3,
     "since": "2026-11-04T19:27:31+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T19:30:06+00:00",
+   "at": "2026-11-04T19:32:37+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T19:32:23+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-04T19:35:03+00:00",
+   "elapsed_s": 145,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -94,9 +94,9 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 141,
-   "AOD новости": 4,
-   "AOD объявления": 4,
+   "ALTA": 142,
+   "AOD новости": 5,
+   "AOD объявления": 5,
    "NBS": 0
   }
  },
@@ -122,11 +122,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Хозяйственный суд Белграда открыл банкротство ALTA; Банка Поштанске штедионице — банк-выплатчик — Решение Хозяйственного суда Белграда об открытии банкротства ALTA — 3 ноября 2026. — Банка Поштанске штедионице официально выбрана банком-выплатчиком (решение принято управным советом AOD 3 ноября 2026)",
-   "ts": 1793709070.8229125,
-   "url": "https://beta.rs/content/255247-privredni-sud-doneo-resenje-o-stecaju-u-alta-banci"
-  },
   {
    "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице; выплаты начнутся до 6 ноября — Банка Поштанске штедионице официально выбрана банком-выплатчиком (конкретное название, ранее было неизвестно) — АОД опубликует дату начала выплат до 6 ноября 2026 и перечень отделений на своём сайте",
    "ts": 1793709447.8940294,
@@ -321,6 +316,11 @@
    "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель в следствии — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в тrezor (из 390 млн евро всего). — Механизм фиктивного учёта: платежи AltaPay регистриров",
    "ts": 1793817528.436991,
    "url": "https://www.danas.rs/vesti/ekonomija/deo-iznetog-novca-alta-nije-bio-u-trezoru"
+  },
+  {
+   "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в trezor (показаны как фиктивная покупка мenjачницы). — Табаковић (вице-губернатор NBS) указана как св",
+   "ts": 1793820901.9419768,
+   "url": "https://beta.rs/content/255367-krik-veci-deo-novca-iz-alta-banke-nije-bio-u-trezoru-tabakovic-medu-svedocima"
   }
  ],
  "retry_items": {},
@@ -1326,6 +1326,26 @@
    "title": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
    "title_src": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
    "updated": "2026-11-04T14:22:44+00:00"
+  },
+  "https://beta.rs/content/255367-krik-veci-deo-novca-iz-alta-banke-nije-bio-u-trezoru-tabakovic-medu-svedocima": {
+   "first_seen": "2026-11-04T19:35:01+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 169,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-04T19:35:01+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "суд",
+    "регулятор",
+    "требования"
+   ],
+   "title": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель",
+   "title_src": "KRIK: Veći deo novca iz Alta banke nije bio u trezoru, Tabaković među svedocima",
+   "updated": "2026-11-04T19:35:01+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
