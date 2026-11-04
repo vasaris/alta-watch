@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T10:37:01+00:00",
+   "at": "2026-11-04T10:38:18+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T10:37:34+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-04T10:39:01+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -100,11 +100,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию Alta group на издание электронных денег и платные услуги — Официальное подтверждение отзыва лицензии у Alta group doo Beograd (не только у Alta banke) на издание электронного денег и платные услуги — NBS явно заявляет, что Alta group не является банком и не принимает депозиты —",
-   "ts": 1793637648.7467978,
-   "url": "https://www.danas.rs/vesti/ekonomija/nbs-oduzela-dozvolu-za-izdavanje-elektronskog-novca-kompaniji-alta-group"
-  },
   {
    "text": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
    "ts": 1793639511.1446953,
@@ -299,6 +294,11 @@
    "text": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это? — Решение NBS об отзыве лицензии (31 октября) не содержит упоминаний о хищении денег из сейфа — только о ухудшении ликвидности и финансового состояния. — Конкретная сумма наличности в сейфе на 30.09.2026:",
    "ts": 1793786972.4210522,
    "url": "https://n1info.rs/biznis/sta-stoji-u-resenju-nbs-o-alta-banci-birn-imao-uvid"
+  },
+  {
+   "text": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью — Конкретная сумма наличности в сейфе на 30 сентября 2026: ~60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За два дня (28–29 октября) из Alta выведено ~140 млн евро депозитов.",
+   "ts": 1793788739.65217,
+   "url": "https://www.danas.rs/vesti/ekonomija/birn-alta-banka-drzala-60-milijardi-dinara-u-kesu-imala-problem-sa-likvidnoscu"
   }
  ],
  "retry_items": {},
@@ -8348,6 +8348,24 @@
    "title": "Инвестфонды Intesa Invest потеряли доход из-за депозитов в Alta banke",
    "title_src": "Zbog kraha Alta banke ulagači u investicione fondove Banca Intese bez dobiti",
    "updated": "2026-11-03T09:41:08+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/birn-alta-banka-drzala-60-milijardi-dinara-u-kesu-imala-problem-sa-likvidnoscu": {
+   "first_seen": "2026-11-04T10:38:59+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 152,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-04T10:38:59+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы"
+   ],
+   "title": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью",
+   "title_src": "Birn: Alta banka držala 60 milijardi dinara u kešu, imala problem sa likvidnošću",
+   "updated": "2026-11-04T10:38:59+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana": {
    "first_seen": "2026-11-04T00:03:16+00:00",
