@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 56,
+    "n": 57,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T16:44:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T16:46:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T16:44:45+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-04T16:48:40+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 58,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 59,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2734,6 +2734,18 @@
    "title": "Nova.rs: Uhapšen vlasnik Alta banke Davor Macura",
    "title_src": "Nova.rs: Uhapšen vlasnik Alta banke Davor Macura",
    "updated": "2026-11-02T11:04:36+00:00"
+  },
+  "https://n1info.rs/vesti/novinarka-forbes-neophodno-da-postupak-pokaze-da-li-je-zaista-45-milijardi-dinara-izneto-iz-trezora-alta-banke": {
+   "first_seen": "2026-11-04T16:48:40+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Журналистка Forbes: суд должен установить, действительно ли из сейфа Alta вывезено 45 млрд динаров",
+   "title_src": "Novinarka Forbes: Neophodno da postupak pokaže da li je zaista 45 milijardi dinara izneto iz trezora Alta banke",
+   "updated": "2026-11-04T16:48:40+00:00"
   },
   "https://n1info.rs/vesti/radosavljevic-o-alta-banci-nece-ugroziti-finansijski-sektor-ali-ce-poljuljati-poverenje-u-bankarski-sistem": {
    "first_seen": "2026-11-02T16:13:13+00:00",
@@ -10196,6 +10208,12 @@
    "title": "Губернатор NBS Йоргованка Табакович — свидетель в деле о владельце ALTA Макуре",
    "ts": "2026-11-04T15:22:15+00:00",
    "url": "https://nova.rs/vesti/hronika/saznajemo-guvernerka-nbs-jorgovanka-tabakovic-medju-svedocima-u-slucaju-alta-banke-i-davora-macure"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Журналистка Forbes: суд должен установить, действительно ли из сейфа Alta вывезено 45 млрд динаров",
+   "ts": "2026-11-04T16:46:16+00:00",
+   "url": "https://n1info.rs/vesti/novinarka-forbes-neophodno-da-postupak-pokaze-da-li-je-zaista-45-milijardi-dinara-izneto-iz-trezora-alta-banke"
   }
  ]
 }
