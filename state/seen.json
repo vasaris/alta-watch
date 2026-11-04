@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T00:32:12+00:00",
+   "at": "2026-11-04T00:34:24+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-04T00:32:37+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-04T00:35:03+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -76,37 +76,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "03.11.2026 23:59",
-    "first": "Адвокат Макуры (Иса Спахович) заявил, что в обвинении нет доказательств использования Макурой карт или входа в сейф.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "суд",
-     "регулятор",
-     "активы",
-     "требования"
-    ],
-    "title": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
-    "title_src": "Davor Macura saslušan u JTOK, negirao krivicu, tužilaštvo traži pritvor do 30 dana",
-    "ts": 1793750596.4475598,
-    "url": "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "JTOK: владелец Alta banke и двое сотрудников арестованы по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные имена и должности трёх арестованных лиц: D.M. (владелец), G.M. (директор отдела тrezora), I.P. (сотрудник тrezora). — Сумма подозреваемого хищения: около 45 млрд динаров.",
-   "ts": 1793623015.8747194,
-   "url": "https://nova.rs/vesti/hronika/oglasio-se-jtok-o-hapsenju-davora-macure-i-jos-dve-osobe"
-  },
-  {
-   "text": "Прокуратура: задержаны три сотрудника Alta banke, подозреваются в хищении ~45 млрд динаров — Официальное объявление Прокуратуры по организованной преступности о трёх аресте (2 ноября 2026, 12:37). — Конкретное обвинение D.M. в хищении ~45 млрд динаров из тrezora банка путём превышения полномочий.",
-   "ts": 1793623176.4704347,
-   "url": "https://n1info.rs/vesti/uhapsene-tri-osobe-sumnja-se-da-je-davor-macura-izneo-iz-banke-45-milijardi-dinara"
-  },
   {
    "text": "Владелец Alta banke Давор Макура арестован по подозрению в хищении ~45 млрд динаров — TOK официально подтвердила конкретные имена и должности трёх арестованных (D.M. — владелец, G.M. — директор отдела тrezora, I.P. — сотрудник тrezora). — Механизм хищения: предоставление доступа в тrezor через карто",
    "ts": 1793625559.359951,
@@ -296,6 +268,16 @@
    "text": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
    "ts": 1793732870.120112,
    "url": "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video"
+  },
+  {
+   "text": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
+   "ts": 1793752501.950843,
+   "url": "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana"
+  },
+  {
+   "text": "Владелец ALTA Давор Макура отрицает вину; прокурор требует ареста на 30 дней",
+   "ts": 1793752501.9508743,
+   "url": "https://insajder.net/prenosimo/davor-macura-saslusan-pred-tuzilastvom-advokat-kaze-da-je-negirao-navode-prijave-i-da-je-tuzilac-zatrazio-pritvor-do-30-dana"
   }
  ],
  "retry_items": {},
@@ -1535,6 +1517,24 @@
    "title": "Банка Поштанске штедионице начала выплату пенсий клиентам Alta banke",
    "title_src": "Banka Poštanska štedionica: Počela isplata penzija korisnicima Alta banke",
    "updated": "2026-11-03T15:33:18+00:00"
+  },
+  "https://insajder.net/prenosimo/davor-macura-saslusan-pred-tuzilastvom-advokat-kaze-da-je-negirao-navode-prijave-i-da-je-tuzilac-zatrazio-pritvor-do-30-dana": {
+   "first_seen": "2026-11-04T00:35:01+00:00",
+   "kind": "press",
+   "message_id": 146,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-04T00:35:01+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы"
+   ],
+   "title": "Владелец ALTA Давор Макура отрицает вину; прокурор требует ареста на 30 дней",
+   "title_src": "Davor Macura saslušan pred tužilaštvom, advokat kaže da je negirao navode prijave i da je tužilac zatražio pritvor do 30 dana",
+   "updated": "2026-11-04T00:35:01+00:00"
   },
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
@@ -8086,13 +8086,21 @@
   "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana": {
    "first_seen": "2026-11-04T00:03:16+00:00",
    "kind": "press",
+   "message_id": 146,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-04T00:35:01+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
    "title": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
    "title_src": "Davor Macura saslušan u JTOK, negirao krivicu, tužilaštvo traži pritvor do 30 dana",
-   "updated": "2026-11-04T00:03:16+00:00"
+   "updated": "2026-11-04T00:35:01+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/direktor-agencije-za-bankarstvo-rs-desavanja-s-alta-bankom-u-srbiji-nemaju-nikakav-uticaj-na-republiku-srpsku": {
    "first_seen": "2026-11-02T14:22:56+00:00",
