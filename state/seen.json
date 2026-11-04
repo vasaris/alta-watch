@@ -38,15 +38,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:54:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T11:56:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:55:01+00:00",
-   "elapsed_s": 46,
+   "at": "2026-11-04T11:58:40+00:00",
+   "elapsed_s": 145,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -68,13 +68,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -116,11 +116,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Прокурор Стаменкович: деньги из Alta banke должны быть заблокированы и проверены — Прокурор Верховного обвинения Бранко Стаменкович официально заявил о необходимости блокировки всех средств Alta и проверки каждой транзакции. — Подтверждение сведений о вывозе ~380 млн евро наличными квалифицируется п",
-   "ts": 1793649050.498607,
-   "url": "https://insajder.net/prenosimo/tuzilac-stamenkovic-o-alta-banci-novac-mora-da-bude-blokiran-i-svaki-dinar-proveren"
-  },
   {
    "text": "Государственные компании (ЕПС, Телеком, Водовод) хранили деньги в Alta banke; владелец Макура арестован по подозрению в хищении €385 млн — ЕПС получила тендер на электронную инкассацию счетов за электроэнергию через Alta; годовой прибыль Alta от этого контракта ~17 млн евро; комиссия 50 динаров за п",
    "ts": 1793650377.7652328,
@@ -315,6 +310,11 @@
    "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты на счета — NBS официально подтвердила выявление поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные SMS требуют платежи на счета в Банке Поштанске штедионице",
    "ts": 1793793299.6993763,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-upozorava-na-sms-prevare-gradjane-pozivaju-da-uplate-dugove-alta-banci-na-sumnjive-racune"
+  },
+  {
+   "text": "NBS предупреждает о поддельных SMS с требованиями погасить кредиты Alta на счета Банки Поштанске штедионице — NBS официально подтвердила выявление поддельных SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице — NBS потребовала от Банки Пошта",
+   "ts": 1793793519.1250596,
+   "url": "https://n1info.rs/vesti/nbs-upozorava-na-sms-prevaru-u-laznim-porukama-ljudima-traze-uplatu-kredita-alta-banke-na-racune-postanske-stedionice"
   }
  ],
  "retry_items": {},
@@ -2573,6 +2573,26 @@
    "title": "Центральный банк Северной Македонии мониторит Alta banka Bitolj на фоне краха материнской компании",
    "title_src": "Narodna banka Severne Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
    "updated": "2026-10-31T19:48:48+00:00"
+  },
+  "https://n1info.rs/vesti/nbs-upozorava-na-sms-prevaru-u-laznim-porukama-ljudima-traze-uplatu-kredita-alta-banke-na-racune-postanske-stedionice": {
+   "first_seen": "2026-11-04T11:58:39+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 156,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T11:58:39+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "требования",
+    "выплаты"
+   ],
+   "title": "NBS предупреждает о поддельных SMS с требованиями погасить кредиты Alta на счета Банки Поштанске штедионице",
+   "title_src": "NBS upozorava na SMS prevaru: U lažnim porukama   ljudima traže uplatu kredita Alta banke na račune Poštanske štedionice",
+   "updated": "2026-11-04T11:58:39+00:00"
   },
   "https://n1info.rs/vesti/novars-uhapsen-vlasnik-alte-banke-davor-macura": {
    "first_seen": "2026-11-02T11:04:36+00:00",
