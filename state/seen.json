@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:10:22+00:00",
+   "at": "2026-11-04T11:12:20+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:11:03+00:00",
-   "elapsed_s": 40,
-   "llm_calls": 0,
+   "at": "2026-11-04T11:12:57+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -3452,6 +3452,17 @@
    "title": "Idea marketi и судьба торговых сетей после ареста Макуры и банкротства Alta",
    "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
    "updated": "2026-11-04T10:16:48+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/postanska-stedionica-isplacuje-depozite-alta-banke-u-petak-detalji-o-vremenu-i-mestima-za-isplatu": {
+   "first_seen": "2026-11-04T11:12:57+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Банка Поштанске штедионице начинает выплаты депозитов Alta; в пятницу — детали о времени и местах",
+   "title_src": "Poštanska štedionica isplaćuje depozite Alta banke, u petak detalji o vremenu i mestima za isplatu",
+   "updated": "2026-11-04T11:12:57+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/sta-gasenje-alta-banke-znaci-za-klijente-depoziti-tekuci-i-stedni-racuni-do-50-000-evra-bezbedni-kredite-preuzima-aod": {
    "first_seen": "2026-10-31T11:17:01+00:00",
