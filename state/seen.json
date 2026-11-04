@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:44:33+00:00",
+   "at": "2026-11-04T11:46:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:45:00+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-04T11:46:55+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -96,6 +96,22 @@
     "title_src": "Бојчић из Поштанске штедионице: Банка стабилна и ликвидна, почела исплата пензија из Алта банке",
     "ts": 1793792600.9505231,
     "url": "https://www.rts.rs/vesti/ekonomija/6076133/bojcic-iz-postanske-stedionice-banka-stabilna-i-likvidna-pocela-isplata-penzija-iz-alta-banke.html"
+   },
+   {
+    "date": "04.11.2026 11:44",
+    "first": "Idea marketi официально объявила о поддержке поставщиков (более 50% оборота) после банкротства Alta.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Nova.rs",
+    "tags": [
+     "активы",
+     "клиенты",
+     "банки"
+    ],
+    "title": "Idea marketi получила поддержку поставщиков после банкротства Alta",
+    "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
+    "ts": 1793792815.8926253,
+    "url": "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke"
    }
   ]
  },
@@ -2885,6 +2901,17 @@
    "title": "NBS: лицензия отозвана у ALTA GROUP DOO; средства пользователей защищены",
    "title_src": "Oglasila se NBS: Objavljeno kako će biti zaštićeni korisnici Alta Group nakon oduzimanja dozvole",
    "updated": "2026-11-02T16:24:35+00:00"
+  },
+  "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke": {
+   "first_seen": "2026-11-04T11:46:55+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Idea marketi получила поддержку поставщиков после банкротства Alta",
+   "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
+   "updated": "2026-11-04T11:46:55+00:00"
   },
   "https://nova.rs/vesti/biznis/oglasio-se-eps-nakon-oduzimanja-licence-za-rad-alta-banci": {
    "first_seen": "2026-11-03T09:50:52+00:00",
