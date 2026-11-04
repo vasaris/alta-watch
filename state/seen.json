@@ -38,15 +38,15 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T09:40:27+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-04T09:44:41+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T09:42:44+00:00",
-   "elapsed_s": 136,
+   "at": "2026-11-04T09:45:08+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -68,14 +68,14 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
-   "nbs": 37
+   "aod": 45,
+   "nbs": 0
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
-   "NBS": 0
+   "AOD новости": 0,
+   "AOD объявления": 0,
+   "NBS": 1
   }
  },
  "pending": {
