@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:24:16+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-04T13:27:13+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:27:01+00:00",
-   "elapsed_s": 164,
-   "llm_calls": 3,
+   "at": "2026-11-04T13:27:53+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 0,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -68,13 +68,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -1471,6 +1471,16 @@
    "title": "NBS предупредила о поддельных SMS от «AltaPay» с требованиями погасить кредиты Alta",
    "title_src": "NBS upozorila na prevaru SMS poruka za korisnike kredita Alta banke",
    "updated": "2026-11-04T12:34:56+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke": {
+   "first_seen": "2026-11-04T13:27:53+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke",
+   "status": "dup",
+   "title": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
+   "title_src": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
+   "updated": "2026-11-04T13:27:53+00:00"
   },
   "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom": {
    "first_seen": "2026-11-03T11:21:01+00:00",
