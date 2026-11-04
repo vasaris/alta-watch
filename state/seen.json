@@ -39,20 +39,20 @@
   "alerts": {
    "источник NBS": {
     "last_sent": "2026-11-04T09:48:44+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-04T09:48:10+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T09:48:10+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T09:49:27+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T09:48:57+00:00",
-   "elapsed_s": 46,
+   "at": "2026-11-04T09:51:47+00:00",
+   "elapsed_s": 139,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -73,15 +73,15 @@
    "rtv": "ok:20"
   },
   "sources": {
-   "alta": 105,
-   "aod": 45,
+   "alta": 109,
+   "aod": 0,
    "nbs": 0
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
-   "NBS": 3
+   "AOD новости": 1,
+   "AOD объявления": 1,
+   "NBS": 4
   }
  },
  "pending": {
