@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T10:48:24+00:00",
+   "at": "2026-11-04T10:50:23+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T10:48:48+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-04T10:50:55+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -3520,6 +3520,18 @@
     "регулятор"
    ],
    "title": "Viceguverneri NBS: Stvarno stanje u Alta banci drastično odstupalo od izveštaja koje su nam dostavljali"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/za-dva-dana-iz-alta-banke-se-odlilo-140-miliona-evra-u-sefu-bilo-100-miliona-u-devizama-birn": {
+   "first_seen": "2026-11-04T10:50:55+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Idea marketi получила поддержку поставщиков несмотря на банкротство Alta",
+   "title_src": "Za dva dana iz Alta banke se odlilo 140 miliona evra, u sefu bilo 100 miliona – u devizama: BIRN",
+   "updated": "2026-11-04T10:50:55+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/zaposleni-u-alta-banci-do-ponedeljka-bilo-sve-regularno-od-utorka-krenulo-masovno-prebacivanje-novca": {
    "first_seen": "2026-11-01T12:48:39+00:00",
