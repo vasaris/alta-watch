@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T10:14:15+00:00",
+   "at": "2026-11-04T10:16:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T10:14:47+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-04T10:16:48+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -3410,6 +3410,18 @@
    "title": "Объявление о suspenziji specijalnih zakona (не относится к Alta banka)",
    "title_src": "Nova.rs: Priveden Davor Macura",
    "updated": "2026-11-02T10:41:04+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke": {
+   "first_seen": "2026-11-04T10:16:48+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Idea marketi и судьба торговых сетей после ареста Макуры и банкротства Alta",
+   "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
+   "updated": "2026-11-04T10:16:48+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/sta-gasenje-alta-banke-znaci-za-klijente-depoziti-tekuci-i-stedni-racuni-do-50-000-evra-bezbedni-kredite-preuzima-aod": {
    "first_seen": "2026-10-31T11:17:01+00:00",
