@@ -42,17 +42,23 @@
   "alta_in_proceedings_detected": "2026-11-04T08:15:40+00:00"
  },
  "health": {
-  "alerts": {},
+  "alerts": {
+   "источник ALTA": {
+    "last_sent": "2026-11-04T14:42:46+00:00",
+    "n": 1,
+    "since": "2026-11-04T14:42:29+00:00"
+   }
+  },
   "aod_notices": {
-   "at": "2026-11-04T14:41:48+00:00",
+   "at": "2026-11-04T14:42:29+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T14:42:14+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-04T14:43:05+00:00",
+   "elapsed_s": 35,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -78,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 2,
+   "ALTA": 3,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
