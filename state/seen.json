@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T11:12:20+00:00",
+   "at": "2026-11-04T11:14:38+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T11:12:57+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 1,
+   "at": "2026-11-04T11:15:13+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
