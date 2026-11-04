@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:48:16+00:00",
+   "at": "2026-11-04T13:50:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:48:49+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-04T13:51:07+00:00",
+   "elapsed_s": 46,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -79,32 +79,9 @@
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "04.11.2026 13:19",
-    "first": "Конкретный срок для пенсионеров открыть счет в другом банке: до 20 ноября 2026.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "выплаты",
-     "сроки",
-     "регулятор",
-     "клиенты"
-    ],
-    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
-    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
-    "ts": 1793798463.1545455,
-    "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
-   "ts": 1793701135.7060852,
-   "url": "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci"
-  },
   {
    "text": "ЕПС: отзыв лицензии Alta не угрожает финансовой стабильности компании",
    "ts": 1793701135.7060988,
@@ -299,6 +276,11 @@
    "text": "Центральный банк Черногории: из страны в Alta отправлено минимум 2,9 млн евро с начала года — Конкретное число транзакций из Черногории в Alta: 58 операций через 9 банков, каждая свыше 50 000 евро, с 1 января по 31 октября 2026. — Минимальная сумма переводов из Черногории в Alta: 2,9 млн евро (точна",
    "ts": 1793798816.8730192,
    "url": "https://www.danas.rs/vesti/ekonomija/centralna-banka-cg-iz-crne-gore-ka-alta-banci-poslato-najmanje-29-miliona-evra-od-pocetka-godine"
+  },
+  {
+   "text": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
+   "ts": 1793800265.964454,
+   "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke"
   }
  ],
  "retry_items": {},
@@ -9038,13 +9020,21 @@
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke": {
    "first_seen": "2026-11-04T13:21:03+00:00",
    "kind": "press",
+   "message_id": 163,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-04T13:51:05+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "регулятор",
+    "клиенты"
+   ],
    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
-   "updated": "2026-11-04T13:21:03+00:00"
+   "updated": "2026-11-04T13:51:05+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:12:58+00:00",
