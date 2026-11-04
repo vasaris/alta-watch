@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:06:15+00:00",
+   "at": "2026-11-04T13:08:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:06:52+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-04T13:08:49+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -2321,6 +2321,17 @@
    "title": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это?",
    "title_src": "BIRN imao uvid u rešenje centralne banke: Pola milijarde evra u trezoru ALTA banke - šta je NBS znala i da li je novca uopšte bilo",
    "updated": "2026-11-04T10:09:32+00:00"
+  },
+  "https://n1info.rs/biznis/stepanovic-alta-banka-novac-u-trezoru-fond-vista-rica": {
+   "first_seen": "2026-11-04T13:08:49+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Редактор N1: Alta не была классической банкой; NBS должна объяснить критерии лицензирования",
+   "title_src": "Stepanović o slučaju \"Alta\": Banka ne može da posluje ako toliki novac drži u trezoru, i fond Vista Rica ulagao u nju",
+   "updated": "2026-11-04T13:08:49+00:00"
   },
   "https://n1info.rs/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:20:40+00:00",
