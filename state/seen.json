@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:33:07+00:00",
+   "at": "2026-11-04T12:34:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:33:36+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-04T12:34:56+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -1442,6 +1442,17 @@
    "title": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "title_src": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "updated": "2026-11-03T10:47:31+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/nbs-upozorila-na-prevaru-sms-poruka-za-korisnike-kredita-alta-banke": {
+   "first_seen": "2026-11-04T12:34:56+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "NBS предупредила о поддельных SMS от «AltaPay» с требованиями погасить кредиты Alta",
+   "title_src": "NBS upozorila na prevaru SMS poruka za korisnike kredita Alta banke",
+   "updated": "2026-11-04T12:34:56+00:00"
   },
   "https://forbes.n1info.rs/vesti/privredni-sud-gradjani-ce-novac-dobiti-preko-postanske-stedionice-zvanicno-pokrenut-stecaj-nad-alta-bankom": {
    "first_seen": "2026-11-03T11:21:01+00:00",
