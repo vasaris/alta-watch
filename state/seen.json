@@ -35,16 +35,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-03T23:58:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T00:00:46+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-03T23:58:47+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-04T00:03:16+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -65,18 +65,36 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "03.11.2026 23:59",
+    "first": "Адвокат Макуры (Иса Спахович) заявил, что в обвинении нет доказательств использования Макурой карт или входа в сейф.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "суд",
+     "регулятор",
+     "активы",
+     "требования"
+    ],
+    "title": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
+    "title_src": "Davor Macura saslušan u JTOK, negirao krivicu, tužilaštvo traži pritvor do 30 dana",
+    "ts": 1793750596.4475598,
+    "url": "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana"
+   }
+  ]
  },
  "recent": [
   {
@@ -8043,6 +8061,17 @@
    "title": "Инвестфонды Intesa Invest потеряли доход из-за депозитов в Alta banke",
    "title_src": "Zbog kraha Alta banke ulagači u investicione fondove Banca Intese bez dobiti",
    "updated": "2026-11-03T09:41:08+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana": {
+   "first_seen": "2026-11-04T00:03:16+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
+   "title_src": "Davor Macura saslušan u JTOK, negirao krivicu, tužilaštvo traži pritvor do 30 dana",
+   "updated": "2026-11-04T00:03:16+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/direktor-agencije-za-bankarstvo-rs-desavanja-s-alta-bankom-u-srbiji-nemaju-nikakav-uticaj-na-republiku-srpsku": {
    "first_seen": "2026-11-02T14:22:56+00:00",
