@@ -38,16 +38,16 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:58:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T13:00:49+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:58:57+00:00",
-   "elapsed_s": 42,
-   "llm_calls": 1,
+   "at": "2026-11-04T13:03:11+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -68,13 +68,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2269,6 +2269,16 @@
    "title": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
    "title_src": "Pokrenut stečaj Alta banke: Poštanska štedionica isplaćivaće njene deponente",
    "updated": "2026-11-03T11:44:46+00:00"
+  },
+  "https://n1info.rs/biznis/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke": {
+   "first_seen": "2026-11-04T13:03:11+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.021.rs/info/biznis-i-ekonomija/460323/banka-postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke",
+   "status": "dup",
+   "title": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
+   "title_src": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
+   "updated": "2026-11-04T13:03:11+00:00"
   },
   "https://n1info.rs/biznis/radak-nbs-apsolutno-odgovorna-za-desavanja-u-alta-banci-morala-je-da-vidi-sta-se-desava": {
    "first_seen": "2026-11-03T16:43:30+00:00",
