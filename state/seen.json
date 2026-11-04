@@ -35,18 +35,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T07:02:22+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T07:04:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-03",
   "last_run": {
-   "at": "2026-11-04T07:02:58+00:00",
-   "elapsed_s": 35,
+   "at": "2026-11-04T07:06:47+00:00",
+   "elapsed_s": 153,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -65,13 +65,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -79,11 +79,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Владелец Alta banke Давор Макура арестован по подозрению в хищении ~45 млрд динаров — TOK официально подтвердила конкретные имена и должности трёх арестованных (D.M. — владелец, G.M. — директор отдела тrezora, I.P. — сотрудник тrezora). — Механизм хищения: предоставление доступа в тrezor через карто",
-   "ts": 1793625559.359951,
-   "url": "https://beta.rs/content/255188-tok-uhapsen-vlasnik-alta-banke-sumnja-se-da-je-otudio-45-milijardi-dinara"
-  },
   {
    "text": "JTOK: арестованы владелец Alta banke и двое сотрудников по подозрению в хищении ~45 млрд динаров из тrezora — Конкретные должности и инициалы трёх арестованных: D.M. (владелец), G.M. (директор отдела тrezora и управления готовиной), I.P. (сотрудник тrezorского отдела). — Механизм хищения: D.M. превы",
    "ts": 1793625781.3094978,
@@ -278,6 +273,11 @@
    "text": "Владелец ALTA Давор Макура отрицает вину; прокурор требует ареста на 30 дней",
    "ts": 1793752501.9508743,
    "url": "https://insajder.net/prenosimo/davor-macura-saslusan-pred-tuzilastvom-advokat-kaze-da-je-negirao-navode-prijave-i-da-je-tuzilac-zatrazio-pritvor-do-30-dana"
+  },
+  {
+   "text": "Владелец ALTA Давор Макура и двое сотрудников арестованы на 30 дней по подозрению в хищении 45 млрд динаров — Высший суд Белграда официально определил арест на 30 дней Давору Макуре, Г. М. и И. П. (ранее было известно только о требовании прокуратуры). — Конкретные должности двух сотрудников: директо",
+   "ts": 1793776005.919415,
+   "url": "https://insajder.net/prenosimo/davoru-macuri-i-jos-dvojici-osumnjicenih-odreden-pritvor-u-slucaju-iznosenja-45-milijardi-dinara-iz-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1546,6 +1546,26 @@
    "title": "Владелец ALTA Давор Макура отрицает вину; прокурор требует ареста на 30 дней",
    "title_src": "Davor Macura saslušan pred tužilaštvom, advokat kaže da je negirao navode prijave i da je tužilac zatražio pritvor do 30 dana",
    "updated": "2026-11-04T00:35:01+00:00"
+  },
+  "https://insajder.net/prenosimo/davoru-macuri-i-jos-dvojici-osumnjicenih-odreden-pritvor-u-slucaju-iznosenja-45-milijardi-dinara-iz-alta-banke": {
+   "first_seen": "2026-11-04T07:06:45+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 147,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T07:06:45+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Владелец ALTA Давор Макура и двое сотрудников арестованы на 30 дней по подозрению в хищении 45 млрд динаров",
+   "title_src": "Davoru Macuri i još dvojici osumnjičenih određen pritvor u slučaju iznošenja 45 milijardi dinara iz Alta banke",
+   "updated": "2026-11-04T07:06:45+00:00"
   },
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
