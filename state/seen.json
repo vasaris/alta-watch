@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T13:22:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T13:24:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T13:22:39+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-04T13:27:01+00:00",
+   "elapsed_s": 164,
+   "llm_calls": 3,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -68,13 +68,13 @@
   },
   "sources": {
    "alta": 109,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
    "ALTA": 0,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -100,11 +100,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "ЕПС: отзыв лицензии Alta не угрожает финансовую стабильность компании",
-   "ts": 1793701135.7060287,
-   "url": "https://www.rts.rs/vesti/ekonomija/6075097/eps-nije-ugrozena-finansijska-stabilnost-preduzeca-zbog-oduzimanje-licence-alta-banci.html"
-  },
   {
    "text": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
    "ts": 1793701135.7060852,
@@ -299,6 +294,11 @@
    "text": "Центральный банк Черногории: 58 транзакций из Черногории в Alta на сумму минимум 2,9 млн евро — Конкретное число транзакций из Черногории в Alta: 58 операций через 9 банков, каждая свыше 50 000 евро, с 1 января по 31 октября 2026. — Минимальная подтверждённая сумма: 2,9 млн евро (точная сумма не рас",
    "ts": 1793798374.277896,
    "url": "https://n1info.rs/biznis/cbcg-milioni-iz-crne-gore-poslati-alta-banci"
+  },
+  {
+   "text": "Центральный банк Черногории: из страны в Alta отправлено минимум 2,9 млн евро с начала года — Конкретное число транзакций из Черногории в Alta: 58 операций через 9 банков, каждая свыше 50 000 евро, с 1 января по 31 октября 2026. — Минимальная сумма переводов из Черногории в Alta: 2,9 млн евро (точна",
+   "ts": 1793798816.8730192,
+   "url": "https://www.danas.rs/vesti/ekonomija/centralna-banka-cg-iz-crne-gore-ka-alta-banci-poslato-najmanje-29-miliona-evra-od-pocetka-godine"
   }
  ],
  "retry_items": {},
@@ -2725,6 +2725,17 @@
    "title_src": "Studenti o Alta banci: Sprečene teže posledice po građane Srbije, finansijska stabilnost - prioritet",
    "updated": "2026-10-31T20:32:53+00:00"
   },
+  "https://n1info.rs/vesti/studentska-lista-o-slucaju-alta": {
+   "first_seen": "2026-11-04T13:26:45+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Студенческий список требует расследования всех ответственных за банкротство Alta",
+   "title_src": "Studentska lista o slučaju \"Alta\": Broj odgovornih sigurno veći od tri, nadležni da očuvaju finansijsku stabilnost",
+   "updated": "2026-11-04T13:26:45+00:00"
+  },
   "https://n1info.rs/vesti/tok-nbs-transfer-novca-alta-banka-inostranstvo": {
    "attempts": 82,
    "first_seen": "2026-10-31T14:38:44+00:00",
@@ -3487,6 +3498,18 @@
    "status": "rejected",
    "title": "Парламентские выборы в Сербии: дата и избирательные списки",
    "updated": "2026-10-31T18:14:48+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-sveta/iz-crne-gore-ka-alta-banci-poslato-najmanje-29-miliona-evra": {
+   "first_seen": "2026-11-04T13:27:01+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Выборы в США: победа Демократической партии",
+   "title_src": "Iz Crne Gore ka Alta banci poslato najmanje 2,9 miliona evra",
+   "updated": "2026-11-04T13:27:01+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-sveta/slaveski-nije-bilo-milionskih-transakcija-iz-alta-banke-bitolj-nakon-26-oktobra": {
    "first_seen": "2026-11-04T09:36:54+00:00",
@@ -8618,6 +8641,26 @@
    "title": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью",
    "title_src": "Birn: Alta banka držala 60 milijardi dinara u kešu, imala problem sa likvidnošću",
    "updated": "2026-11-04T10:38:59+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/centralna-banka-cg-iz-crne-gore-ka-alta-banci-poslato-najmanje-29-miliona-evra-od-pocetka-godine": {
+   "first_seen": "2026-11-04T13:26:56+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 162,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-04T13:26:56+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "банки",
+    "требования"
+   ],
+   "title": "Центральный банк Черногории: из страны в Alta отправлено минимум 2,9 млн евро с начала года",
+   "title_src": "Centralna banka CG: Iz Crne Gore ka Alta banci poslato najmanje 2,9 miliona evra od početka godine",
+   "updated": "2026-11-04T13:26:56+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana": {
    "first_seen": "2026-11-04T00:03:16+00:00",
