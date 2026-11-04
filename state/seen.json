@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 148,
+    "n": 149,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T19:48:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-04T19:50:24+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T19:48:46+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-04T19:52:45+00:00",
+   "elapsed_s": 141,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,43 +80,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 150,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 151,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "04.11.2026 19:20",
-    "first": "Табаковић (вице-губернатор NBS) указана как свидетель в следствии прокуратуры по делу ALTA",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "суд",
-     "регулятор",
-     "активы",
-     "требования"
-    ],
-    "title": "Документ прокуратуры: Табаковић в списке свидетелей, 370 млн евро показаны как фиктивная покупка",
-    "title_src": "Dokument tužilaštva o Alta banci: Tabaković na spisku svedoka, 370 miliona evra fiktivno prikazano kao pazar",
-    "ts": 1793820069.3062248,
-    "url": "https://www.021.rs/info/srbija/460358/dokument-tuzilastva-o-alta-banci-tabakovic-na-spisku-svedoka-370-miliona-evra-fiktivno-prikazano-kao-pazar"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "АОД объявила банк-выплатчик: Банка Поштанске штедионице; выплаты начнутся до 6 ноября — Банка Поштанске штедионице официально выбрана банком-выплатчиком (конкретное название, ранее было неизвестно) — АОД опубликует дату начала выплат до 6 ноября 2026 и перечень отделений на своём сайте",
-   "ts": 1793709447.8940294,
-   "url": "https://www.rts.rs/vesti/ekonomija/6075336/postanska-stedionica-alta-banka-stednja-stecaj.html"
-  },
   {
    "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности 3 ноября в 19:00 — Допрос Макуры в JTOK подтвержден на 3 ноября 2026 в 19:00. — Размер подозреваемой противоправной выгоды: около 45 млрд динаров.",
    "ts": 1793715484.538902,
@@ -311,6 +288,11 @@
    "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в trezor (показаны как фиктивная покупка мenjачницы). — Табаковић (вице-губернатор NBS) указана как св",
    "ts": 1793820901.9419768,
    "url": "https://beta.rs/content/255367-krik-veci-deo-novca-iz-alta-banke-nije-bio-u-trezoru-tabakovic-medu-svedocima"
+  },
+  {
+   "text": "Документ прокуратуры: Табаковић в списке свидетелей, 370 млн евро показаны как фиктивная покупка",
+   "ts": 1793821964.1893432,
+   "url": "https://www.021.rs/info/srbija/460358/dokument-tuzilastva-o-alta-banci-tabakovic-na-spisku-svedoka-370-miliona-evra-fiktivno-prikazano-kao-pazar"
   }
  ],
  "retry_items": {},
@@ -5527,13 +5509,21 @@
   "https://www.021.rs/info/srbija/460358/dokument-tuzilastva-o-alta-banci-tabakovic-na-spisku-svedoka-370-miliona-evra-fiktivno-prikazano-kao-pazar": {
    "first_seen": "2026-11-04T19:21:09+00:00",
    "kind": "press",
+   "message_id": 170,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-04T19:52:44+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
    "title": "Документ прокуратуры: Табаковић в списке свидетелей, 370 млн евро показаны как фиктивная покупка",
    "title_src": "Dokument tužilaštva o Alta banci: Tabaković na spisku svedoka, 370 miliona evra fiktivno prikazano kao pazar",
-   "updated": "2026-11-04T19:21:09+00:00"
+   "updated": "2026-11-04T19:52:44+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
