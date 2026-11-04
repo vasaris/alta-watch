@@ -38,18 +38,18 @@
  "health": {
   "alerts": {},
   "aod_notices": {
-   "at": "2026-11-04T12:06:13+00:00",
+   "at": "2026-11-04T12:08:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T12:06:44+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-04T12:09:04+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -116,11 +116,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Государственные компании (ЕПС, Телеком, Водовод) хранили деньги в Alta banke; владелец Макура арестован по подозрению в хищении €385 млн — ЕПС получила тендер на электронную инкассацию счетов за электроэнергию через Alta; годовой прибыль Alta от этого контракта ~17 млн евро; комиссия 50 динаров за п",
-   "ts": 1793650377.7652328,
-   "url": "https://nova.rs/vesti/biznis/koje-drzavne-firme-su-cuvale-novac-u-alta-banci-davora-macure"
-  },
   {
    "text": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
    "ts": 1793688391.0340466,
@@ -315,6 +310,11 @@
    "text": "NBS предупреждает о поддельных SMS с требованиями погасить кредиты Alta на счета Банки Поштанске штедионице — NBS официально подтвердила выявление поддельных SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице — NBS потребовала от Банки Пошта",
    "ts": 1793793519.1250596,
    "url": "https://n1info.rs/vesti/nbs-upozorava-na-sms-prevaru-u-laznim-porukama-ljudima-traze-uplatu-kredita-alta-banke-na-racune-postanske-stedionice"
+  },
+  {
+   "text": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты — NBS выявил поддельные SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующие платежи на счета в Банке Поштанске штедионице. — NBS потребовал от Банки Поштанске штедионице усиленного контроля над подозрительным",
+   "ts": 1793794142.600721,
+   "url": "https://insajder.net/prenosimo/nbs-upozorila-klijente-alta-banke-na-prevaru-ne-uplacujte-rate-kredita-na-osnovu-sms-poruka"
   }
  ],
  "retry_items": {},
@@ -1799,6 +1799,25 @@
    "status": "rejected",
    "title": "NBS: Pokrenuti postupci protiv Alta banke, njenih akcionara i organa upravljanja, prava štediša i poverilaca zaštićena",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/nbs-upozorila-klijente-alta-banke-na-prevaru-ne-uplacujte-rate-kredita-na-osnovu-sms-poruka": {
+   "first_seen": "2026-11-04T12:09:02+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 157,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-04T12:09:02+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты",
+   "title_src": "NBS upozorila klijente Alta banke na prevaru: Ne uplaćujte rate kredita na osnovu SMS poruka",
+   "updated": "2026-11-04T12:09:02+00:00"
   },
   "https://insajder.net/prenosimo/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-odredena-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:41:27+00:00",
