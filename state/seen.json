@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-04T14:42:46+00:00",
-    "n": 27,
+    "n": 28,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-04T15:46:15+00:00",
+   "at": "2026-11-04T15:48:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-04T15:46:45+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-04T15:48:38+00:00",
+   "elapsed_s": 21,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 29,
+   "ALTA": 30,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3750,6 +3750,17 @@
    "title": "Что известно о выплатах из Alta banke: сроки, процедура и права нерезидентов",
    "title_src": "Sve što je do sada poznato o isplati novca iz Alta banke: Kada počinje, koliko traje i imaju li Rusi pravo na isplatu?",
    "updated": "2026-11-02T15:16:34+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/tuzilastvo-ce-saslusati-jorgovanku-tabakovic-u-slucaju-protiv-davora-macure": {
+   "first_seen": "2026-11-04T15:48:38+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Прокуратура допросит Йоргованку Табаковић по делу против Давора Макуры",
+   "title_src": "Tužilaštvo će saslušati Jorgovanku Tabaković u slučaju protiv Davora Macure",
+   "updated": "2026-11-04T15:48:38+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/tuzilastvoza-organizovani-kriminal-jos-27-oktobra-trazilo-podatke-o-transferima-novca-iz-alta-banke-u-inostranstvo": {
    "attempts": 65,
