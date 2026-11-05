@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T02:44:42+00:00",
-    "n": 504,
+    "n": 505,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T07:44:14+00:00",
+   "at": "2026-11-05T07:46:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-05T07:44:36+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-05T07:46:50+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 506,
+   "ALTA": 507,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
-   "ts": 1793718438.2946968,
-   "url": "https://n1info.rs/biznis/draft-zvanicna"
-  },
   {
    "text": "Русские иммигранты в Сербии потеряли доступ к деньгам после закрытия Alta banke",
    "ts": 1793718438.2947354,
@@ -293,6 +288,11 @@
    "text": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября — NBS официально подтвердила исполнение большинства платежей через мены́чницы до 2 ноября; остаток — до 4 ноября 2026. — Мены́чницы получили право заключить договоры с любой платежной институцией, включая Почту Сербии, без",
    "ts": 1793862107.2042584,
    "url": "https://n1info.rs/biznis/da-li-su-prosle-uplate-gradjana-preko-menjacnica-koje-su-radile-sa-alta-grupom-pre-oduzimanja-dozvola-za-rad"
+  },
+  {
+   "text": "Матић: необходимо расследовать, финансировалась ли покупка Idea, Roda и Merkator кредитом Alta — Ивана Матич (бывшая руководительница Агентства по лицензированию управляющих) дала интервью RTS о расследовании источников финансирования покупки торговых сетей. — Матич подтвердила, что основной вопрос ",
+   "ts": 1793864808.6852047,
+   "url": "https://www.rts.rs/vesti/ekonomija/6076716/sta-ce-biti-sa-ideom-rodom-i-merkatorom--matic-treba-ispitati-sve-transakcije-alta-banke.html"
   }
  ],
  "retry_items": {},
@@ -10270,6 +10270,26 @@
    "title": "NBS предупреждает о поддельных сообщениях клиентам ALTA; Почтовая сберкасса выплачивает пенсии",
    "title_src": "НБС упозорава на лажне поруке клијентима Алта банке, пензије привремено исплаћује Поштанска штедионица",
    "updated": "2026-11-04T20:06:52+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6076716/sta-ce-biti-sa-ideom-rodom-i-merkatorom--matic-treba-ispitati-sve-transakcije-alta-banke.html": {
+   "first_seen": "2026-11-05T07:46:48+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 174,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-05T07:46:48+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "суд",
+    "регулятор"
+   ],
+   "title": "Матић: необходимо расследовать, финансировалась ли покупка Idea, Roda и Merkator кредитом Alta",
+   "title_src": "Шта ће бити са Идеом, Родом и Меркатором – Матић: Треба испитати све трансакције Алта банке",
+   "updated": "2026-11-05T07:46:48+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
