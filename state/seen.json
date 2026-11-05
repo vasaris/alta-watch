@@ -45,20 +45,30 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 753,
+    "n": 754,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-05T16:13:11+00:00",
+    "n": 1,
+    "since": "2026-11-05T16:11:29+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-05T16:13:12+00:00",
+    "n": 1,
+    "since": "2026-11-05T16:11:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T16:08:38+00:00",
+   "at": "2026-11-05T16:11:29+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T16:11:16+00:00",
-   "elapsed_s": 157,
+   "at": "2026-11-05T16:13:52+00:00",
+   "elapsed_s": 143,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -84,9 +94,9 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 755,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 756,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -2026,6 +2036,16 @@
    "status": "rejected",
    "title": "Sindikati \"Sloga\": Nakon gašenja Alta banke zaštititi plate njenih službenika i uloge građana",
    "updated": "2026-10-31T17:18:42+00:00"
+  },
+  "https://insajder.net/prenosimo/soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke": {
+   "first_seen": "2026-11-05T16:13:52+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke",
+   "status": "dup",
+   "title": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
+   "title_src": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
+   "updated": "2026-11-05T16:13:52+00:00"
   },
   "https://insajder.net/prenosimo/tok-trazi-proveru-alta-banke-i-odgovornih-u-nbs-zbog-moguceg-odliva-novca-u-inostranstvo": {
    "attempts": 56,
