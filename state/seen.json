@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 801,
+    "n": 802,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T17:46:15+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-05T17:48:46+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T17:48:32+00:00",
-   "elapsed_s": 136,
-   "llm_calls": 0,
+   "at": "2026-11-05T17:49:21+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,18 +80,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 803,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 804,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "05.11.2026 17:48",
+    "first": "ЕПС официально подтвердила корректность учёта всех платежей за электроэнергию, поступивших в Alta банку до отзыва лицензии",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "выплаты",
+     "клиенты",
+     "активы",
+     "сроки"
+    ],
+    "title": "ЕПС: все платежи за электроэнергию через Alta банку учтены в системе",
+    "title_src": "EPS: Evidentirane sve uplate preko Alta banke",
+    "ts": 1793900961.242114,
+    "url": "https://www.danas.rs/vesti/ekonomija/eps-evidentirane-sve-uplate-preko-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -9246,6 +9264,17 @@
    "title": "ЕПС: отзыв лицензии Alta не повлиял на работу компании, счета открыты в девяти других банках",
    "title_src": "EPS: Oduzimanje dozvole Alta banci nije ugrozilo poslovanje, imamo račune u još devet banaka",
    "updated": "2026-11-03T09:44:48+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/eps-evidentirane-sve-uplate-preko-alta-banke": {
+   "first_seen": "2026-11-05T17:49:21+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "ЕПС: все платежи за электроэнергию через Alta банку учтены в системе",
+   "title_src": "EPS: Evidentirane sve uplate preko Alta banke",
+   "updated": "2026-11-05T17:49:21+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/fond-pio-penzije-racun-alta-banka": {
    "first_seen": "2026-11-03T17:18:49+00:00",
