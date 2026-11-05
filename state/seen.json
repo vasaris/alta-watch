@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 835,
+    "n": 836,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T18:54:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T18:56:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T18:54:49+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-05T18:58:33+00:00",
+   "elapsed_s": 138,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 837,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 838,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2352,6 +2352,17 @@
     "банки"
    ],
    "title": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku"
+  },
+  "https://n1info.rs/biznis/eps-sva-placanja-racuna-za-struju-preko-alta-banke-uredno-su-evidentirana": {
+   "first_seen": "2026-11-05T18:58:33+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "ЕПС подтверждает: все платежи за электроэнергию через Alta учтены в системе",
+   "title_src": "EPS: Sva plaćanja računa za struju preko Alta banke uredno su evidentirana",
+   "updated": "2026-11-05T18:58:33+00:00"
   },
   "https://n1info.rs/biznis/filipce-sdsm-guverner-zuri-s-prodajom-akcija-alta-banke-bitolj-da-bi-prikrio-kriminalne-dilove": {
    "first_seen": "2026-11-04T12:55:07+00:00",
