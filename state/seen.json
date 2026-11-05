@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T02:44:42+00:00",
-    "n": 451,
+    "n": 452,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T05:58:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-05T06:00:49+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-05T06:00:38+00:00",
-   "elapsed_s": 146,
-   "llm_calls": 0,
+   "at": "2026-11-05T06:01:22+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 45,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 453,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 454,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -1483,6 +1483,18 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://forbes.n1info.rs/biznis/vlasniku-alta-banke-preti-kazna-zatvora-od-dve-do-10-godina-da-li-je-nbs-oslobodena-odgovornosti": {
+   "first_seen": "2026-11-05T06:01:22+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Владельцу ALTA грозит тюремный срок от 2 до 10 лет; вопрос об ответственности NBS",
+   "title_src": "Vlasniku Alta banke preti kazna zatvora od dve do 10 godina: Da li je NBS oslobođena odgovornosti?",
+   "updated": "2026-11-05T06:01:22+00:00"
   },
   "https://forbes.n1info.rs/novac/alta-banka-drzi-3-trzista-koje-sve-kompanije-ima-davor-macura": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -10442,6 +10454,12 @@
    "title": "KRIK: из €390 млн похищенных из ALTA большая часть никогда не поступала в сейф",
    "ts": "2026-11-04T21:48:17+00:00",
    "url": "https://t.me/Serbia/107533"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Владельцу ALTA грозит тюремный срок от 2 до 10 лет; вопрос об ответственности NBS",
+   "ts": "2026-11-05T06:00:49+00:00",
+   "url": "https://forbes.n1info.rs/biznis/vlasniku-alta-banke-preti-kazna-zatvora-od-dve-do-10-godina-da-li-je-nbs-oslobodena-odgovornosti"
   }
  ]
 }
