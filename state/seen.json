@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T02:44:42+00:00",
-    "n": 481,
+    "n": 482,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T06:58:46+00:00",
+   "at": "2026-11-05T07:00:45+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-05T06:59:05+00:00",
-   "elapsed_s": 19,
-   "llm_calls": 0,
+   "at": "2026-11-05T07:01:48+00:00",
+   "elapsed_s": 62,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 483,
+   "ALTA": 484,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Хозяйственный суд Белграда официально открыл банкротство ALTA; владелец Макура подозревается в хищении свыше 380 млн евро — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026 (ранее было известно только об отзыве лицензии 2 ноября). — Владелец Макура допрашивается в прокура",
-   "ts": 1793716036.337754,
-   "url": "https://www.danas.rs/bbc-news-serbian/alta-banka-i-zvanicno-u-stecaju-vlasnik-se-sumnjici-za-proneveru-vise-od-380-miliona-evra"
-  },
   {
    "text": "Инвестфонды Vista Rica и Intesa Invest: падение стоимости единиц на 17–22% из-за депозитов в Alta",
    "ts": 1793718438.2946968,
@@ -293,6 +288,11 @@
    "text": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
    "ts": 1793859873.8577185,
    "url": "https://www.danas.rs/vesti/ekonomija/vista-rika-i-alta-banka-investicioni-fond"
+  },
+  {
+   "text": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября — NBS официально подтвердила исполнение большинства платежей через мены́чницы до 2 ноября; остаток — до 4 ноября 2026. — Мены́чницы получили право заключить договоры с любой платежной институцией, включая Почту Сербии, без",
+   "ts": 1793862107.2042584,
+   "url": "https://n1info.rs/biznis/da-li-su-prosle-uplate-gradjana-preko-menjacnica-koje-su-radile-sa-alta-grupom-pre-oduzimanja-dozvola-za-rad"
   }
  ],
  "retry_items": {},
@@ -2202,6 +2202,26 @@
    "title": "Центральный банк Черногории: 58 транзакций из Черногории в Alta на сумму минимум 2,9 млн евро",
    "title_src": "CBCG: Milioni iz Crne Gore poslati Alta banci",
    "updated": "2026-11-04T13:19:34+00:00"
+  },
+  "https://n1info.rs/biznis/da-li-su-prosle-uplate-gradjana-preko-menjacnica-koje-su-radile-sa-alta-grupom-pre-oduzimanja-dozvola-za-rad": {
+   "first_seen": "2026-11-05T07:01:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 173,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-05T07:01:47+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября",
+   "title_src": "Da li su \"prošle\" uplate građana preko menjačnica koje su radile sa Alta grupom pre oduzimanja dozvola za rad",
+   "updated": "2026-11-05T07:01:47+00:00"
   },
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
