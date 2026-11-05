@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 743,
+    "n": 744,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T15:42:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T15:44:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T15:42:46+00:00",
-   "elapsed_s": 33,
+   "at": "2026-11-05T15:46:35+00:00",
+   "elapsed_s": 141,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 745,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 746,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -9599,6 +9599,17 @@
    "title": "Губернатор НБ Северной Македонии: из Alta banke Bitolj в Сербию после 26 октября — только 180 тыс. евро, никаких миллион",
    "title_src": "Slaveski: Nije bilo milionskih transakcija iz Alta banke Bitolj nakon 26. oktobra",
    "updated": "2026-11-03T23:33:04+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/soskic-alta-banka": {
+   "first_seen": "2026-11-05T15:46:35+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Шошкич: если банк откроет сейф и покажет деньги — бегите из этого банка",
+   "title_src": "Šoškić: Kada vam banka otvori sef i pokaže novac, bežite iz te banke",
+   "updated": "2026-11-05T15:46:35+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sta-ce-biti-sa-ideom-rodom-i-merkatorom-nakon-oduzimanja-dozvole-alta-banci": {
    "first_seen": "2026-11-02T16:41:00+00:00",
