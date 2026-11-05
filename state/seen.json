@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T08:44:58+00:00",
-    "n": 682,
+    "n": 683,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T13:42:13+00:00",
+   "at": "2026-11-05T13:44:20+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T13:42:45+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-05T13:44:37+00:00",
+   "elapsed_s": 17,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -81,10 +81,10 @@
   "sources": {
    "alta": 0,
    "aod": 45,
-   "nbs": 36
+   "nbs": 37
   },
   "src_fail": {
-   "ALTA": 684,
+   "ALTA": 685,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -9998,6 +9998,14 @@
    ],
    "title": "Народна банка Србије упозорава на преварне поруке у којима се корисници кредита Алта банке позивају да измире своје обав",
    "updated": "2026-11-04T11:44:03+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21872": {
+   "first_seen": "2026-11-05T13:44:30+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Јоргованка Табаковић, гувернер Народне банке Србије, интервју за часопис Global Financial Magazine, 16. октобар 2026.",
+   "updated": "2026-11-05T13:44:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
