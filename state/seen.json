@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 718,
+    "n": 719,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T14:54:15+00:00",
+   "at": "2026-11-05T14:56:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T14:54:40+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-05T14:56:54+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 720,
+   "ALTA": 721,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2376,6 +2376,18 @@
    "title": "Как отследить 380 млн евро: криптовалюты и каналы вывода денег из Сербии",
    "title_src": "Kriptovalute i \"bekstvo\" novca: Da li je moguće izneti milione iz zemlje bez traga?",
    "updated": "2026-11-04T09:01:31+00:00"
+  },
+  "https://n1info.rs/biznis/makedonska-narodna-banka-objavila-podatke-o-prilivima-i-odlivima-novca-iz-alta-banke-bitolj": {
+   "first_seen": "2026-11-05T14:56:54+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии: крупные переводы в Сербию и Россию через Alta Bitolj не зафиксированы",
+   "title_src": "Makedonska Narodna banka objavila podatke o prilivima i odlivima novca iz Alta banke Bitolj",
+   "updated": "2026-11-05T14:56:54+00:00"
   },
   "https://n1info.rs/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
