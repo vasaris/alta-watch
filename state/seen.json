@@ -45,23 +45,33 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 844,
+    "n": 845,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-05T19:17:08+00:00",
+    "n": 1,
+    "since": "2026-11-05T19:15:22+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-05T19:17:08+00:00",
+    "n": 1,
+    "since": "2026-11-05T19:15:22+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T19:12:51+00:00",
+   "at": "2026-11-05T19:15:22+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T19:15:05+00:00",
-   "elapsed_s": 133,
-   "llm_calls": 0,
+   "at": "2026-11-05T19:18:03+00:00",
+   "elapsed_s": 161,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,9 +94,9 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 846,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 847,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -94,11 +104,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Банка Поштанске штедионице начала выплату пенсий вкладчикам Alta banke — Конкретный график выплаты октябрьских пенсий: самозанятые — 3 ноября, фермеры и военные пенсионеры — 5 ноября, работающие пенсионеры — 10 ноября 2026. — Пенсионеры могут получить пенсию во всех отделениях Банки Поштанске штедио",
-   "ts": 1793728390.293458,
-   "url": "https://beta.rs/content/255279-banka-postanska-stedionica-pocela-isplatu-penzija-korisnicima-alta-banke"
-  },
   {
    "text": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
    "ts": 1793732870.1200852,
@@ -293,6 +298,11 @@
    "text": "ЕПС: все платежи за электроэнергию через Alta банку учтены в системе",
    "ts": 1793902842.0424404,
    "url": "https://www.danas.rs/vesti/ekonomija/eps-evidentirane-sve-uplate-preko-alta-banke"
+  },
+  {
+   "text": "Почтовая сбербасса и AOD подписали договор о выплате застрахованных вкладов клиентам Alta банке — Подписан договор между Банкой Поштанске штедионице и AOD о выплате застрахованных вкладов (дата подписания: 5 ноября 2026) — Официальное уведомление о дате начала, условиях и способе выплат будет объявл",
+   "ts": 1793906282.4612966,
+   "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita"
   }
  ],
  "retry_items": {},
@@ -9624,6 +9634,25 @@
     "банки"
    ],
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita": {
+   "first_seen": "2026-11-05T19:18:02+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 180,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-05T19:18:02+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "регулятор",
+    "сроки"
+   ],
+   "title": "Почтовая сбербасса и AOD подписали договор о выплате застрахованных вкладов клиентам Alta банке",
+   "title_src": "Poštanska štedionica i Agencija za osiguranje depozita potpisale ugovor o isplati osiguranih depozita deponentima Alta banke",
+   "updated": "2026-11-05T19:18:02+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke": {
    "first_seen": "2026-11-04T13:21:03+00:00",
