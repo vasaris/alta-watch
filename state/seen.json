@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T08:44:58+00:00",
-    "n": 673,
+    "n": 674,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T13:22:51+00:00",
+   "at": "2026-11-05T13:24:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T13:23:18+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-05T13:24:38+00:00",
+   "elapsed_s": 24,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,39 +84,16 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 675,
+   "ALTA": 676,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "05.11.2026 12:52",
-    "first": "Шошкич уточнил юридический статус: личное имущество акционера может быть конфисковано только при доказании уголовной ответственности и незаконного происхождения, что является неопределённым исходом.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Nova.rs",
-    "tags": [
-     "активы",
-     "требования",
-     "суд",
-     "клиенты"
-    ],
-    "title": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
-    "title_src": "Može li Macurina imovina da pokrije 380 miliona evra, za koje se sumnja da su nestali iz Alta banke? Šoškić objasnio od čega zavisi naplata",
-    "ts": 1793883227.9256067,
-    "url": "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Русские иммигранты в Сербии потеряли доступ к деньгам после закрытия Alta banke",
-   "ts": 1793718438.2947354,
-   "url": "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija"
-  },
   {
    "text": "Банка Поштанске штедионице начала выплату пенсий клиентам Alta banke — Начало фактических выплат пенсий (3 ноября 2026) — ранее была известна только дата назначения банка-выплатчика. — Конкретный график выплат по категориям пенсионеров (3, 5, 10 ноября).",
    "ts": 1793719998.2061849,
@@ -311,6 +288,11 @@
    "text": "Матић: необходимо расследовать, финансировалась ли покупка Idea, Roda и Merkator кредитом Alta — Ивана Матич (бывшая руководительница Агентства по лицензированию управляющих) дала интервью RTS о расследовании источников финансирования покупки торговых сетей. — Матич подтвердила, что основной вопрос ",
    "ts": 1793864808.6852047,
    "url": "https://www.rts.rs/vesti/ekonomija/6076716/sta-ce-biti-sa-ideom-rodom-i-merkatorom--matic-treba-ispitati-sve-transakcije-alta-banke.html"
+  },
+  {
+   "text": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
+   "ts": 1793885077.3643997,
+   "url": "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke"
   }
  ],
  "retry_items": {},
@@ -3181,13 +3163,21 @@
   "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke": {
    "first_seen": "2026-11-05T12:53:47+00:00",
    "kind": "press",
+   "message_id": 175,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-05T13:24:37+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "суд",
+    "клиенты"
+   ],
    "title": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
    "title_src": "Može li Macurina imovina da pokrije 380 miliona evra, za koje se sumnja da su nestali iz Alta banke? Šoškić objasnio od čega zavisi naplata",
-   "updated": "2026-11-05T12:53:47+00:00"
+   "updated": "2026-11-05T13:24:37+00:00"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
