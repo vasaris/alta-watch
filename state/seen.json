@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 744,
+    "n": 745,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T15:44:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-05T15:46:48+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T15:46:35+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-05T15:47:27+00:00",
+   "elapsed_s": 38,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 45,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 746,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 747,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -2531,6 +2531,17 @@
    "title": "Судьба госпредприятий и депозитов граждан в ALTA banka: эксперты о последствиях",
    "title_src": "Slučaj \"ALTA banka\": Šta će biti sa novcem državnih preduzeća, ali i depozitima građana",
    "updated": "2026-11-02T18:34:59+00:00"
+  },
+  "https://n1info.rs/biznis/soskic-o-postanskoj-stedionici-mere-za-ocuvanje-likvidnosti-vec-na-snazi-situacija-nije-uporediva-sa-krahom-alta-banke": {
+   "first_seen": "2026-11-05T15:47:27+00:00",
+   "kind": "press",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Шошкич: ситуация в Почтовой сбербассе не сравнима с крахом Alta; меры по ликвидности уже действуют",
+   "title_src": "Šoškić o Poštanskoj štedionici: Mere za očuvanje likvidnosti već na snazi, situacija nije uporediva sa krahom Alta banke",
+   "updated": "2026-11-05T15:47:27+00:00"
   },
   "https://n1info.rs/biznis/sta-stoji-u-resenju-nbs-o-alta-banci-birn-imao-uvid": {
    "first_seen": "2026-11-04T10:09:32+00:00",
