@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T08:44:58+00:00",
-    "n": 684,
+    "n": 685,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T13:46:16+00:00",
+   "at": "2026-11-05T13:48:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T13:46:41+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-05T13:48:54+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 686,
+   "ALTA": 687,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Банка Поштанске штедионице начала выплату пенсий клиентам Alta banke — Начало фактических выплат пенсий (3 ноября 2026) — ранее была известна только дата назначения банка-выплатчика. — Конкретный график выплат по категориям пенсионеров (3, 5, 10 ноября).",
-   "ts": 1793719998.2061849,
-   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-pocela-isplata-penzija-korisnicima-alta-banke"
-  },
   {
    "text": "Анализ Insajdera: какие государственные и общественные предприятия имели счета в Alta и сколько денег заблокировано — Конкретные суммы заблокированных средств государственных компаний: Сербиягаз ~879 000 евро, ЕПС ~1,6 млн евро (по расчету Insajdera), Белградские электростанции ~5 млн динаров. — Гра",
    "ts": 1793723812.3767202,
@@ -293,6 +288,11 @@
    "text": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
    "ts": 1793885077.3643997,
    "url": "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke"
+  },
+  {
+   "text": "Град Пирот требует возврата 3,3 млн евро, депонированных в Alta банке; критикует NBS за отсутствие предупреждений — Град Пирот депонировал до 400 млн динаров (≈3,3 млн евро) в Alta банке в сентябре 2026 по результатам открытого конкурса. — Град Пирот требует полный возврат средств как кредитор в бан",
+   "ts": 1793886532.5936584,
+   "url": "https://insajder.net/teme/nismo-imali-upozorenja-od-nbs-da-je-banka-ugrozena-grad-pirot-potrazuje-novac-od-alta-banke-u-stecaju"
   }
  ],
  "retry_items": {},
@@ -2082,6 +2082,26 @@
    "title": "Русские иммигранты в Сербии потеряли доступ к деньгам в Alta banke из-за санкций и дискриминации в других банках",
    "title_src": "Kako je \"Alta banka\" Rusima srušila \"srpski san\" (VIDEO)",
    "updated": "2026-11-03T06:46:31+00:00"
+  },
+  "https://insajder.net/teme/nismo-imali-upozorenja-od-nbs-da-je-banka-ugrozena-grad-pirot-potrazuje-novac-od-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-05T13:48:52+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 176,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-05T13:48:52+00:00",
+   "status": "sent",
+   "tags": [
+    "требования",
+    "активы",
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "Град Пирот требует возврата 3,3 млн евро, депонированных в Alta банке; критикует NBS за отсутствие предупреждений",
+   "title_src": "\"Nismo imali upozorenja od NBS da je banka ugrožena\": Grad Pirot potražuje novac od Alta banke u stečaju",
+   "updated": "2026-11-05T13:48:52+00:00"
   },
   "https://insajder.net/teme/profesor-dobromirov-kaze-da-bi-u-slucaju-alta-banke-prvo-istrazio-plasmane-tako-se-otkrivaju-motivi-i-poreklo-naloga-video": {
    "first_seen": "2026-11-03T10:26:49+00:00",
