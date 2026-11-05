@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T02:44:42+00:00",
-    "n": 462,
+    "n": 463,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T06:20:27+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T06:22:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-05T06:20:58+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-05T06:24:35+00:00",
+   "elapsed_s": 141,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,43 +80,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 464,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 465,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "05.11.2026 05:51",
-    "first": "Vista Rika Investo снизила стоимость единицы на 22,61%, Vista Rika Corporate на 17,96%, Vista Origin на 21,48%.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "активы",
-     "регулятор",
-     "банки",
-     "клиенты"
-    ],
-    "title": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
-    "title_src": "„Vista Rika i Alta banka imali slične modele poslovanja“: Da li slučaj Alta može da uzdrma poverenje u investicione fondove?",
-    "ts": 1793857951.4594362,
-    "url": "https://www.danas.rs/vesti/ekonomija/vista-rika-i-alta-banka-investicioni-fond"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Владелец ALTA Давор Макура допрашивается в прокуратуре по организованной преступности",
-   "ts": 1793715890.8432245,
-   "url": "https://www.danas.rs/vesti/ekonomija/saslusanje-davora-macure-zakazano-za-danas-u-19-casova"
-  },
   {
    "text": "Хозяйственный суд Белграда официально открыл банкротство ALTA; владелец Макура подозревается в хищении свыше 380 млн евро — Решение Хозяйственного суда Белграда об открытии банкротства — 3 ноября 2026 (ранее было известно только об отзыве лицензии 2 ноября). — Владелец Макура допрашивается в прокура",
    "ts": 1793716036.337754,
@@ -311,6 +288,11 @@
    "text": "NBS предупреждает о поддельных сообщениях клиентам ALTA; Почтовая сберкасса выплачивает пенсии — NBS официально предупредил о поддельных сообщениях (новое уточнение источника и формулировки предупреждения) — Почтовая сберкасса взяла на себя выплату октябрьских пенсий с конкретным графиком по категор",
    "ts": 1793822812.4856339,
    "url": "https://www.rts.rs/vesti/ekonomija/6076501/menjacnice-alta-banka.html"
+  },
+  {
+   "text": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
+   "ts": 1793859873.8577185,
+   "url": "https://www.danas.rs/vesti/ekonomija/vista-rika-i-alta-banka-investicioni-fond"
   }
  ],
  "retry_items": {},
@@ -9516,13 +9498,21 @@
   "https://www.danas.rs/vesti/ekonomija/vista-rika-i-alta-banka-investicioni-fond": {
    "first_seen": "2026-11-05T05:52:31+00:00",
    "kind": "press",
+   "message_id": 172,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-05T06:24:33+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "банки",
+    "клиенты"
+   ],
    "title": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
    "title_src": "„Vista Rika i Alta banka imali slične modele poslovanja“: Da li slučaj Alta može da uzdrma poverenje u investicione fondove?",
-   "updated": "2026-11-05T05:52:31+00:00"
+   "updated": "2026-11-05T06:24:33+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/vlasnik-alta-banka-davor-macura-biografija": {
    "first_seen": "2026-10-31T11:17:01+00:00",
