@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T02:44:42+00:00",
-    "n": 453,
+    "n": 454,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T06:02:12+00:00",
+   "at": "2026-11-05T06:04:20+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-04",
   "last_run": {
-   "at": "2026-11-05T06:02:37+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-05T06:05:09+00:00",
+   "elapsed_s": 49,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 455,
+   "ALTA": 456,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2166,6 +2166,18 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://n1info.rs/biznis/alta-banka-studenti": {
+   "first_seen": "2026-11-05T06:05:09+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Студенческий список требует проверки Почтовой сберкассы; эксперты сомневаются в версии о хищении 45 млрд динаров",
+   "title_src": "\"Troškove ovoga - snose svi građani\": Gde je novac iz ALTA banke i šta posle određivanja pritvora vlasniku",
+   "updated": "2026-11-05T06:05:09+00:00"
   },
   "https://n1info.rs/biznis/alta-banka-udovicki-posteno-radio-morao-da-se-pojaca-nadzor": {
    "first_seen": "2026-11-01T08:58:42+00:00",
@@ -10460,6 +10472,12 @@
    "title": "Владельцу ALTA грозит тюремный срок от 2 до 10 лет; вопрос об ответственности NBS",
    "ts": "2026-11-05T06:00:49+00:00",
    "url": "https://forbes.n1info.rs/biznis/vlasniku-alta-banke-preti-kazna-zatvora-od-dve-do-10-godina-da-li-je-nbs-oslobodena-odgovornosti"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Студенческий список требует проверки Почтовой сберкассы; эксперты сомневаются в версии о хищении 45 млрд динаров",
+   "ts": "2026-11-05T06:04:20+00:00",
+   "url": "https://n1info.rs/biznis/alta-banka-studenti"
   }
  ]
 }
