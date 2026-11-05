@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T08:44:58+00:00",
-    "n": 657,
+    "n": 658,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T12:50:45+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-05T12:53:13+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T12:53:01+00:00",
-   "elapsed_s": 136,
-   "llm_calls": 0,
+   "at": "2026-11-05T12:53:47+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,18 +80,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 45,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 659,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 660,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "05.11.2026 12:52",
+    "first": "Шошкич уточнил юридический статус: личное имущество акционера может быть конфисковано только при доказании уголовной ответственности и незаконного происхождения, что является неопределённым исходом.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Nova.rs",
+    "tags": [
+     "активы",
+     "требования",
+     "суд",
+     "клиенты"
+    ],
+    "title": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
+    "title_src": "Može li Macurina imovina da pokrije 380 miliona evra, za koje se sumnja da su nestali iz Alta banke? Šoškić objasnio od čega zavisi naplata",
+    "ts": 1793883227.9256067,
+    "url": "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -3159,6 +3177,17 @@
    "title": "Миketić обвиняет AOD, NBS и политиков SNS в направлении денег в Alta banku",
    "title_src": "Miketić izneo tvrdnje o vezama Alta banke, Agencije za osiguranje depozita i ljudi povezanih sa SNS-om: Pominje Sinišu Malog, Jorgovanku Tabaković i prodaju imovine Beobanke",
    "updated": "2026-11-02T19:34:43+00:00"
+  },
+  "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke": {
+   "first_seen": "2026-11-05T12:53:47+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
+   "title_src": "Može li Macurina imovina da pokrije 380 miliona evra, za koje se sumnja da su nestali iz Alta banke? Šoškić objasnio od čega zavisi naplata",
+   "updated": "2026-11-05T12:53:47+00:00"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
