@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T20:46:56+00:00",
-    "n": 925,
+    "n": 926,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T22:00:45+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T22:02:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T22:01:14+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-05T22:04:43+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 927,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 928,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2713,6 +2713,18 @@
    "title": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na RS",
    "title_src": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na RS",
    "updated": "2026-11-02T14:41:52+00:00"
+  },
+  "https://n1info.rs/region/hristijan-mickoski-alta-banka-partneri-srbija-bankrot": {
+   "first_seen": "2026-11-05T22:04:43+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Премьер Северной Македонии: крах Alta в Сербии грозит банкротствами македонских компаний",
+   "title_src": "Mickoski: Makedonske firme upozoravaju na bankrot partnera u Srbiji zbog Alta banke",
+   "updated": "2026-11-05T22:04:43+00:00"
   },
   "https://n1info.rs/region/narodna-banka-severne-makedonije-administrativna-uprava-bitolj": {
    "first_seen": "2026-11-01T18:10:39+00:00",
