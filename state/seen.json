@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 751,
+    "n": 752,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T16:02:28+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T16:04:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T16:02:58+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-05T16:06:39+00:00",
+   "elapsed_s": 144,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 753,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 754,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -9426,6 +9426,18 @@
     "регулятор"
    ],
    "title": "Narodna banka Srbije oduzela dozvolu za rad Alta banci"
+  },
+  "https://www.danas.rs/vesti/ekonomija/nbrm-alta-banka-makedonija-srbija-transferi": {
+   "first_seen": "2026-11-05T16:06:39+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 5,
+   "status": "rejected",
+   "title": "NBRM: Alta banka Bitolj в 2025–2026 гг. не имела крупных переводов с Сербии и России",
+   "title_src": "NBRM: Alta banka Bitolj u 2025. i 2026. nije imala veće transfere novca sa Srbijom",
+   "updated": "2026-11-05T16:06:39+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/nbs-ima-obavestenje-za-ovlascene-menjace-koji-su-imali-zakljucen-ugovor-sa-alta-bankom": {
    "first_seen": "2026-11-02T11:04:43+00:00",
