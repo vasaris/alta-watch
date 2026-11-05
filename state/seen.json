@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 742,
+    "n": 743,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T15:40:50+00:00",
+   "at": "2026-11-05T15:42:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T15:41:15+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-05T15:42:46+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 744,
+   "ALTA": 745,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1318,6 +1318,18 @@
    "title": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель",
    "title_src": "KRIK: Veći deo novca iz Alta banke nije bio u trezoru, Tabaković među svedocima",
    "updated": "2026-11-04T19:35:01+00:00"
+  },
+  "https://beta.rs/content/255423-nbrm-alta-banka-bitolj-u-2025-i-2026-nije-imala-vece-transfere-novca-sa-srbijom": {
+   "first_seen": "2026-11-05T15:42:46+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "NBRM: Alta banka Bitolj не имела крупных переводов с Сербией в 2025–2026 годах",
+   "title_src": "NBRM: Alta banka Bitolj u 2025. i 2026. nije imala veće transfere novca sa Srbijom",
+   "updated": "2026-11-05T15:42:46+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
