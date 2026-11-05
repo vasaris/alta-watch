@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 783,
+    "n": 784,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T17:10:22+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T17:12:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T17:10:48+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-05T17:14:31+00:00",
+   "elapsed_s": 135,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,42 +80,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 785,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 786,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "05.11.2026 16:39",
-    "first": "Официальное уточнение от NBS о ограниченности взыскания из личного имущества Макуры (конкретная оценка Шошкичем)",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "активы",
-     "требования",
-     "регулятор"
-    ],
-    "title": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
-    "title_src": "Šoškić: Ograničena mogućnost naplate dugova Alta banke iz lične imovine Davora Macure",
-    "ts": 1793896857.2136767,
-    "url": "https://www.021.rs/info/biznis-i-ekonomija/460472/soskic-ogranicena-mogucnost-naplate-dugova-alta-banke-iz-licne-imovine-davora-macure"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
-   "ts": 1793725122.1115355,
-   "url": "https://beta.rs/content/255273-rse-drzavna-preduzeca-tvrde-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
-  },
   {
    "text": "Фонд пенсионного страхования Сербии объявил график выплаты пенсий пенсионерам Alta banke через Банку Поштанске штедионице — Конкретное число затронутых пенсионеров: 1 965 человек с текущими счетами в Alta banke. — Подписан протокол между Фондом PIO и Банкой Поштанске штедионице о процедуре открытия ",
    "ts": 1793726329.603821,
@@ -310,6 +288,11 @@
    "text": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
    "ts": 1793895651.281416,
    "url": "https://www.rts.rs/vesti/ekonomija/6077358/eps-alta-banka.html"
+  },
+  {
+   "text": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
+   "ts": 1793898869.7361906,
+   "url": "https://www.021.rs/info/biznis-i-ekonomija/460472/soskic-ogranicena-mogucnost-naplate-dugova-alta-banke-iz-licne-imovine-davora-macure"
   }
  ],
  "retry_items": {},
@@ -5546,13 +5529,20 @@
   "https://www.021.rs/info/biznis-i-ekonomija/460472/soskic-ogranicena-mogucnost-naplate-dugova-alta-banke-iz-licne-imovine-davora-macure": {
    "first_seen": "2026-11-05T16:40:57+00:00",
    "kind": "press",
+   "message_id": 178,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-05T17:14:29+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "регулятор"
+   ],
    "title": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
    "title_src": "Šoškić: Ograničena mogućnost naplate dugova Alta banke iz lične imovine Davora Macure",
-   "updated": "2026-11-05T16:40:57+00:00"
+   "updated": "2026-11-05T17:14:29+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
