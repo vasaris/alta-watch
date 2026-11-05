@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 745,
+    "n": 746,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T15:46:48+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-05T15:48:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T15:47:27+00:00",
-   "elapsed_s": 38,
+   "at": "2026-11-05T15:50:40+00:00",
+   "elapsed_s": 145,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -80,18 +80,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 747,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 748,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "05.11.2026 15:45",
+    "first": "Шошкич подчеркнул различие между имуществом банки и личным имуществом акционеров в контексте стечая.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Beta",
+    "tags": [
+     "активы",
+     "требования",
+     "суд",
+     "выплаты"
+    ],
+    "title": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
+    "title_src": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
+    "ts": 1793893840.299502,
+    "url": "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -1330,6 +1348,17 @@
    "title": "NBRM: Alta banka Bitolj не имела крупных переводов с Сербией в 2025–2026 годах",
    "title_src": "NBRM: Alta banka Bitolj u 2025. i 2026. nije imala veće transfere novca sa Srbijom",
    "updated": "2026-11-05T15:42:46+00:00"
+  },
+  "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke": {
+   "first_seen": "2026-11-05T15:50:40+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
+   "title_src": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
+   "updated": "2026-11-05T15:50:40+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
