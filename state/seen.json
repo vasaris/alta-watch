@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 725,
+    "n": 726,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T15:06:18+00:00",
+   "at": "2026-11-05T15:08:18+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T15:06:40+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-05T15:09:08+00:00",
+   "elapsed_s": 49,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 727,
+   "ALTA": 728,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1796,6 +1796,18 @@
    "title": "КК Красная звезда: отзыв лицензии Alta не повлияет на клуб",
    "title_src": "KK Crvena zvezda se oglasila povodom saradnje sa Alta bankom nakon odluke NBS",
    "updated": "2026-11-02T18:22:50+00:00"
+  },
+  "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-nije-bilo-vecih-transfera-u-i-iz-srbije-preko-alta-banke-bitolj": {
+   "first_seen": "2026-11-05T15:09:08+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии: крупных переводов между Alta Bitolj и Сербией/Россией не было",
+   "title_src": "Narodna banka Severne Makedonije: Nije bilo većih transfera u i iz Srbije preko Alta banke Bitolj",
+   "updated": "2026-11-05T15:09:08+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T20:11:10+00:00",
@@ -3647,6 +3659,18 @@
    "title": "Политик требует расследовать роль регуляторов и чиновников в деле Alta banke",
    "title_src": "Srđan Milivojević: U slučaju Alta banke ispitati ulogu Jorgovanke Tabaković, Siniše Malog, Tanje Vukić i Zvonka Veselinovića",
    "updated": "2026-11-02T15:04:57+00:00"
+  },
+  "https://nova.rs/vesti/svet/centralna-banka-severne-makedonije-se-oglasila-o-alta-banci-i-transferima-sa-srbijom-i-rusijom": {
+   "first_seen": "2026-11-05T15:09:01+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центральный банк Северной Македонии: крупных трансфертов между ALTA Битола и Сербией/Россией не выявлено",
+   "title_src": "Centralna banka Severne Makedonije se oglasila o ALTA banci i transferima sa Srbijom i Rusijom",
+   "updated": "2026-11-05T15:09:01+00:00"
   },
   "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija": {
    "first_seen": "2026-11-04T10:32:49+00:00",
