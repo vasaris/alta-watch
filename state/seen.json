@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-05T14:46:26+00:00",
-    "n": 757,
+    "n": 758,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-05T16:18:15+00:00",
+   "at": "2026-11-05T16:20:26+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-05T16:18:35+00:00",
-   "elapsed_s": 20,
+   "at": "2026-11-05T16:20:52+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,59 +84,16 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 759,
+   "ALTA": 760,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "05.11.2026 15:45",
-    "first": "Шошкич подчеркнул различие между имуществом банки и личным имуществом акционеров в контексте стечая.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Beta",
-    "tags": [
-     "активы",
-     "требования",
-     "суд",
-     "выплаты"
-    ],
-    "title": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
-    "title_src": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
-    "ts": 1793893840.299502,
-    "url": "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke"
-   },
-   {
-    "date": "05.11.2026 15:59",
-    "first": "ЕПС официально подтвердила регистрацию всех платежей за электроэнергию, поступивших на счёт Alta до отзыва лицензии",
-    "important": false,
-    "kind": "press",
-    "outlet": "RTS",
-    "tags": [
-     "клиенты",
-     "сроки"
-    ],
-    "title": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
-    "title_src": "ЕПС: Евидентиране све уплате извршене на рачун Алта банке пре одузимања дозволе",
-    "ts": 1793894578.9492812,
-    "url": "https://www.rts.rs/vesti/ekonomija/6077358/eps-alta-banka.html"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Анализ Insajdera: какие государственные и общественные предприятия имели счета в Alta и сколько денег заблокировано — Конкретные суммы заблокированных средств государственных компаний: Сербиягаз ~879 000 евро, ЕПС ~1,6 млн евро (по расчету Insajdera), Белградские электростанции ~5 млн динаров. — Гра",
-   "ts": 1793723812.3767202,
-   "url": "https://insajder.net/teme/analiza-insajdera-koja-drzavna-i-javna-preduzeca-imaju-racune-u-alta-banci-i-da-li-im-je-deo-novca-zarobljen"
-  },
-  {
-   "text": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику — Конкретный график выплат октябрьских пенсий в Банке Поштанске штедионице: самозанятые — 3.11, фермеры и военные пенсионеры — 5.11, работающие пенсионеры — 10.11.2026. — Банка Поштанске штедионице откроет време",
-   "ts": 1793723873.846063,
-   "url": "https://n1info.rs/biznis/fond-pio-ko-je-imao-racun-u-alta-banci-po-penziju-ide-u-postansku-stedionicu"
-  },
   {
    "text": "Государственные компании Сербии заявляют об отсутствии угрозы для деятельности после банкротства Alta",
    "ts": 1793725122.1115355,
@@ -326,6 +283,16 @@
    "text": "Град Пирот требует возврата 3,3 млн евро, депонированных в Alta банке; критикует NBS за отсутствие предупреждений — Град Пирот депонировал до 400 млн динаров (≈3,3 млн евро) в Alta банке в сентябре 2026 по результатам открытого конкурса. — Град Пирот требует полный возврат средств как кредитор в бан",
    "ts": 1793886532.5936584,
    "url": "https://insajder.net/teme/nismo-imali-upozorenja-od-nbs-da-je-banka-ugrozena-grad-pirot-potrazuje-novac-od-alta-banke-u-stecaju"
+  },
+  {
+   "text": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
+   "ts": 1793895651.2813709,
+   "url": "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke"
+  },
+  {
+   "text": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
+   "ts": 1793895651.281416,
+   "url": "https://www.rts.rs/vesti/ekonomija/6077358/eps-alta-banka.html"
   }
  ],
  "retry_items": {},
@@ -1367,13 +1334,21 @@
   "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke": {
    "first_seen": "2026-11-05T15:50:40+00:00",
    "kind": "press",
+   "message_id": 177,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-05T16:20:51+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "суд",
+    "выплаты"
+   ],
    "title": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
    "title_src": "Šoškić: Ograničena mogućnost naplate depozita iz lične imovine vlasnika Alta banke",
-   "updated": "2026-11-05T15:50:40+00:00"
+   "updated": "2026-11-05T16:20:51+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
@@ -10535,13 +10510,19 @@
   "https://www.rts.rs/vesti/ekonomija/6077358/eps-alta-banka.html": {
    "first_seen": "2026-11-05T16:02:58+00:00",
    "kind": "press",
+   "message_id": 177,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-05T16:20:51+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "сроки"
+   ],
    "title": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
    "title_src": "ЕПС: Евидентиране све уплате извршене на рачун Алта банке пре одузимања дозволе",
-   "updated": "2026-11-05T16:02:58+00:00"
+   "updated": "2026-11-05T16:20:51+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
