@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1271,
+    "n": 1272,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T09:42:15+00:00",
+   "at": "2026-11-06T09:44:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T09:42:42+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-06T09:44:48+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1273,
+   "ALTA": 1274,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Владелец ALTA Давор Макура отрицает вину; прокурор требует ареста на 30 дней",
-   "ts": 1793752501.9508743,
-   "url": "https://insajder.net/prenosimo/davor-macura-saslusan-pred-tuzilastvom-advokat-kaze-da-je-negirao-navode-prijave-i-da-je-tuzilac-zatrazio-pritvor-do-30-dana"
-  },
   {
    "text": "Владелец ALTA Давор Макура и двое сотрудников арестованы на 30 дней по подозрению в хищении 45 млрд динаров — Высший суд Белграда официально определил арест на 30 дней Давору Макуре, Г. М. и И. П. (ранее было известно только о требовании прокуратуры). — Конкретные должности двух сотрудников: директо",
    "ts": 1793776005.919415,
@@ -293,6 +288,11 @@
    "text": "АОД: реквизиты счёта NBS для платежей по кредитам Alta банка — Платежи по кредитам Alta банка a.d. Beograd в процедуре банкротства выполняются на динарский счёт Народного банка Сербии № 780-282-42 — Это официальное уведомление от АОД (Агентства по страхованию вкладов) для заёмщиков банка",
    "ts": 1793955272.2865615,
    "url": "https://www.aod.rs/clan/vest/vest_forma/141"
+  },
+  {
+   "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке — Град Врање депонировал 177 млн динаров в Alta банке по договору овернайт-размещения — Тендер на размещение средств проводился в начале 2026 года; Alta банка предложила лучшие условия",
+   "ts": 1793958282.8199408,
+   "url": "https://nova.rs/vesti/biznis/vlast-u-vranju-u-alta-banku-prebacila-177-miliona"
   }
  ],
  "retry_items": {},
@@ -3528,6 +3528,26 @@
    ],
    "title": "Viceguverneri NBS traže da tužilaštvo pokrene istragu: Ko je znao za probleme u Alta banci i zašto nije reagovao?"
   },
+  "https://nova.rs/vesti/biznis/vlast-u-vranju-u-alta-banku-prebacila-177-miliona": {
+   "first_seen": "2026-11-06T09:44:42+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 184,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T09:44:42+00:00",
+   "status": "sent",
+   "tags": [
+    "требования",
+    "активы",
+    "суд",
+    "клиенты"
+   ],
+   "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
+   "title_src": "Vlast u Vranju u Alta banku prebacila 177 miliona",
+   "updated": "2026-11-06T09:44:42+00:00"
+  },
   "https://nova.rs/vesti/drustvo/informatika-novi-sad-nas-racun-u-alta-banci-nije-vise-aktivan-uplate-na-novi-broj": {
    "first_seen": "2026-11-02T08:34:57+00:00",
    "kind": "press",
@@ -5643,6 +5663,17 @@
    "title": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
    "title_src": "Šoškić: Ograničena mogućnost naplate dugova Alta banke iz lične imovine Davora Macure",
    "updated": "2026-11-05T17:14:29+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460531/profesor-djukic-stecaj-alta-banke-prelice-se-pre-ili-kasnije-na-drzavni-budzet": {
+   "first_seen": "2026-11-06T09:44:48+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Профессор Джукич: банкротство Alta банке в конце концов ляжет на государственный бюджет",
+   "title_src": "Profesor Đukić: Stečaj Alta banke preliće se pre ili kasnije na državni budžet",
+   "updated": "2026-11-06T09:44:48+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
