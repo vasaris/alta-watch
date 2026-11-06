@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1251,
+    "n": 1252,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T08:58:16+00:00",
+   "at": "2026-11-06T09:00:48+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T08:58:47+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-06T09:01:30+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -84,7 +84,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1253,
+   "ALTA": 1254,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -9227,6 +9227,17 @@
    "title": "Адвокат владельца Alta: Макура завтра предстанет перед прокуратурой, обвинения неизвестны",
    "title_src": "Advokat vlasnika Alta banke: Davor Macura sutra izlazi pred nadležno tužilaštvo, ne znamo šta mu se stavlja na teret",
    "updated": "2026-11-02T13:38:42+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/agencija-za-osigranje-depozita-objavila-kako-korisnici-kredita-alta-banke-mogu-da-izmire-svoje-obaveze": {
+   "first_seen": "2026-11-06T09:01:30+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "АОД: заёмщики Alta банка должны продолжать платежи по кредитам на счёт NBS",
+   "title_src": "Agencija za osigranje depozita objavila kako korisnici kredita Alta banke mogu da izmire svoje obaveze",
+   "updated": "2026-11-06T09:01:30+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
