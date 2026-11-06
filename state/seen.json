@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1413,
+    "n": 1414,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:26:15+00:00",
+   "at": "2026-11-06T14:28:40+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:28:28+00:00",
-   "elapsed_s": 132,
-   "llm_calls": 0,
+   "at": "2026-11-06T14:31:08+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -89,9 +89,9 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1415,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1416,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Idea marketi получила поддержку поставщиков после банкротства Alta",
-   "ts": 1793794487.9356601,
-   "url": "https://nova.rs/vesti/biznis/oglasili-se-idea-marketi-o-svojoj-sudbini-posle-hapsenja-davora-macure-i-stecaja-alta-banke"
-  },
   {
    "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — NBS официально выявил и предупредил о поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные сообщения требуют платежи на счета в Банке Поштанске штедионице (банк-выплатчик)",
    "ts": 1793794614.8355944,
@@ -298,6 +293,11 @@
    "text": "NBS издала инструкцию для обменников, работавших с Alta банком — NBS издала специальное уведомление для обменников с подробным порядком действий (заключение договора с другой банком, сроки продажи валюты 15–30 дней, требования к документации). — Обменники должны предоставить новой банке документацию",
    "ts": 1793975007.4982297,
    "url": "https://insajder.net/prenosimo/nbs-obavestila-menjace-sa-ugovorima-sa-alta-bankom-o-nacinu-daljeg-postupanja"
+  },
+  {
+   "text": "АОД опубликовала детали выплат застрахованных вкладов Alta: документы и процедура — Конкретная дата начала выплат: 13 ноября 2026 — Полный перечень документов, необходимых при подаче заявления на выплату",
+   "ts": 1793975467.1415007,
+   "url": "https://n1info.rs/biznis/objavljeno-kada-pocinje-isplata-depozita-alta-banke-u-stecaju-sta-treba-poneti-od-dokumenata"
   }
  ],
  "retry_items": {},
@@ -2701,6 +2701,25 @@
    "title": "Журналист BIRN: где деньги, показанные в отчётах как наличность в сейфе Alta, и почему NBS не реагировала раньше",
    "title_src": "Novinar BIRN-a: Gde je novac koji se godinama prikazivao kao gotovina u trezoru Alta banke i zašto NBS nije ranije reagovala",
    "updated": "2026-11-06T06:08:47+00:00"
+  },
+  "https://n1info.rs/biznis/objavljeno-kada-pocinje-isplata-depozita-alta-banke-u-stecaju-sta-treba-poneti-od-dokumenata": {
+   "first_seen": "2026-11-06T14:31:07+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 202,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-06T14:31:07+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "АОД опубликовала детали выплат застрахованных вкладов Alta: документы и процедура",
+   "title_src": "Objavljeno kada počinje isplata depozita Alta banke u stečaju: Šta treba poneti od dokumenata",
+   "updated": "2026-11-06T14:31:07+00:00"
   },
   "https://n1info.rs/biznis/pokrenut-stecaj-alta-banke-postanska-stedionica-isplacivace-njene-deponente": {
    "first_seen": "2026-11-03T11:44:46+00:00",
