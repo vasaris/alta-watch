@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1523,
+    "n": 1524,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T18:08:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-06T18:10:47+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T18:10:25+00:00",
-   "elapsed_s": 133,
+   "at": "2026-11-06T18:11:18+00:00",
+   "elapsed_s": 30,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -165,43 +165,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1525,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1526,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "06.11.2026 17:36",
-    "first": "Владелец Alta банка Дaвор Мачура планировал преузимание Adiko банка в Черногории и вход в еще две банки на черногорском рынке",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "регулятор",
-     "суд",
-     "активы",
-     "банки"
-    ],
-    "title": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
-    "title_src": "Guvernerka Centralne banke Crne Gore: Vršeni pritisci na nas nakon što smo odbili zahtev Alta banke za preuzimanje Adiko banke",
-    "ts": 1793986860.8451154,
-    "url": "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупреждает о поддельных сообщениях клиентам ALTA; Почтовая сберкасса выплачивает пенсии — NBS официально предупредил о поддельных сообщениях (новое уточнение источника и формулировки предупреждения) — Почтовая сберкасса взяла на себя выплату октябрьских пенсий с конкретным графиком по категор",
-   "ts": 1793822812.4856339,
-   "url": "https://www.rts.rs/vesti/ekonomija/6076501/menjacnice-alta-banka.html"
-  },
   {
    "text": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
    "ts": 1793859873.8577185,
@@ -396,6 +373,11 @@
    "text": "NBS: заёмщики Alta банка и ALTA GROUP платят по разным счётам; инструкция по платежам — Официально подтверждено разделение: Alta banka a.d. Beograd (банкротство, счёт NBS) и ALTA GROUP d.o.o. Beograd (отдельное юридическое лицо, счёт Poštanske štedionica) — разные платежные реквизиты. — Счёт для пла",
    "ts": 1793987562.7360022,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884"
+  },
+  {
+   "text": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
+   "ts": 1793988676.6888323,
+   "url": "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke"
   }
  ],
  "retry_items": {},
@@ -10133,13 +10115,21 @@
   "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke": {
    "first_seen": "2026-11-06T17:41:00+00:00",
    "kind": "press",
+   "message_id": 230,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-06T18:11:16+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "активы",
+    "банки"
+   ],
    "title": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
    "title_src": "Guvernerka Centralne banke Crne Gore: Vršeni pritisci na nas nakon što smo odbili zahtev Alta banke za preuzimanje Adiko banke",
-   "updated": "2026-11-06T17:41:00+00:00"
+   "updated": "2026-11-06T18:11:16+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
