@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1301,
+    "n": 1302,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T10:42:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T10:44:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T10:42:37+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-06T10:46:49+00:00",
+   "elapsed_s": 155,
+   "llm_calls": 3,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1303,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1304,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью — Конкретная сумма наличности в сейфе на 30 сентября 2026: ~60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За два дня (28–29 октября) из Alta выведено ~140 млн евро депозитов.",
-   "ts": 1793788739.65217,
-   "url": "https://www.danas.rs/vesti/ekonomija/birn-alta-banka-drzala-60-milijardi-dinara-u-kesu-imala-problem-sa-likvidnoscu"
-  },
   {
    "text": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
    "ts": 1793790170.2458665,
@@ -293,6 +288,11 @@
    "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — AOD опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
    "ts": 1793961172.860913,
    "url": "https://forbes.n1info.rs/vesti/objavljeno-uputstvo-korisnicima-kredita-u-alta-banci-o-izmirenju-obaveza"
+  },
+  {
+   "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — АОД опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
+   "ts": 1793962000.0997896,
+   "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-dala-uputstvo-o-izmirenju-obaveza-korisnicima-kredita-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -1667,6 +1667,25 @@
    "title": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня",
    "title_src": "Advokat Davora Macure: Određeno mu zadržavanje do 48 sati, pretres banke trajao dva dana",
    "updated": "2026-11-02T12:19:06+00:00"
+  },
+  "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-dala-uputstvo-o-izmirenju-obaveza-korisnicima-kredita-u-alta-banci": {
+   "first_seen": "2026-11-06T10:46:40+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 190,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T10:46:40+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам",
+   "title_src": "Agencija za osiguranje depozita dala uputstvo o izmirenju obaveza korisnicima kredita u Alta banci",
+   "updated": "2026-11-06T10:46:40+00:00"
   },
   "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-objavila-rokove-za-isplatu-novca-klijentima-alta-banke": {
    "first_seen": "2026-10-31T14:11:00+00:00",
@@ -5008,6 +5027,17 @@
    "title_src": "В Сербии подписали соглашение о выплате застрахованных вкладов клиентам Alta banka Агентство по страхованию вкладов и государственный банк Poštanska štedionica 5 ноября подписали ⁠ соглашение об организации выплат…",
    "updated": "2026-11-05T22:34:38+00:00"
   },
+  "https://t.me/Serbia/107586": {
+   "first_seen": "2026-11-06T10:46:49+00:00",
+   "kind": "telegram",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "АОД подтвердила реквизиты счёта NBS для платежей заёмщиков Alta по кредитам",
+   "title_src": "Опубликованы реквизиты для погашения кредитов Alta banka Заёмщики должны продолжать выплаты по условиям своих договоров, несмотря на банкротство банка, сообщило Агентство по страхованию вкладов . Платежи принимаются в…",
+   "updated": "2026-11-06T10:46:49+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -5769,6 +5799,17 @@
    "title": "АОД дала инструкцию заёмщикам Alta банка по платежам по кредитам",
    "title_src": "Agencija za osigranje depozita dala uputstvo korisnicima kredita u Alta banci o plaćanju obaveza",
    "updated": "2026-11-06T10:14:39+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460535/agencija-za-osiguranje-depozita-dala-uputstvo-korisnicima-kredita-u-alta-banci-o-placanju-obaveza": {
+   "first_seen": "2026-11-06T10:46:45+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "АОД дала инструкцию заёмщикам Alta банка по платежам по кредитам",
+   "title_src": "Agencija za osiguranje depozita dala uputstvo korisnicima kredita u Alta banci o plaćanju obaveza",
+   "updated": "2026-11-06T10:46:45+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
