@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T02:48:35+00:00",
-    "n": 1231,
+    "n": 1232,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T08:18:21+00:00",
+   "at": "2026-11-06T08:20:23+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T08:18:50+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-06T08:21:06+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,11 +80,11 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 45,
+   "aod": 46,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 1233,
+   "ALTA": 1234,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
-   "ts": 1793732870.120112,
-   "url": "https://insajder.net/teme/stecaj-alta-banke-doveo-u-pitanje-buducnost-idee-rode-i-merkatora-koliko-im-je-opstanak-zaista-ugrozen-video"
-  },
   {
    "text": "Владелец ALTA Давор Макура отрицает вину на допросе в прокуратуре; прокурор требует ареста на 30 дней",
    "ts": 1793752501.950843,
@@ -293,6 +288,11 @@
    "text": "Журналист BIRN: где деньги, показанные в отчётах как наличность в сейфе Alta, и почему NBS не реагировала раньше — Финансовые отчёты Alta показывали ~40 млрд динаров наличности на конец 2024 года и свыше 50 млрд динаров на конец 2025 года. — NBS ранее требовала Alta переместить часть наличности из с",
    "ts": 1793945327.6381848,
    "url": "https://n1info.rs/biznis/novinar-birn-novac-alta-banka-nbs-ranije-reagovala"
+  },
+  {
+   "text": "АОД: заёмщики Alta банка должны продолжать платежи по кредитам на счёт NBS — Реквизиты счёта для платежей заёмщиков: динарский счёт NBS № 780-282-42 — Требование указывать номер партии кредита в назначении платежа",
+   "ts": 1793953247.6035123,
+   "url": "https://www.aod.rs/clan/vest/vest_forma/141"
   }
  ],
  "retry_items": {},
@@ -6130,6 +6130,29 @@
    ],
    "title": "АОД | Агенција за осигурање депозита",
    "updated": "2026-11-03T11:06:43+00:00"
+  },
+  "https://www.aod.rs/clan/vest/vest_forma/141": {
+   "first_seen": "2026-11-06T08:20:47+00:00",
+   "hash": "643c7dcdcd1743c7",
+   "kind": "news",
+   "message_id": 182,
+   "novelty": 5,
+   "paras": [
+    "d743bce8fa",
+    "7b94454ead",
+    "669d41ec0e",
+    "53496b9cb0"
+   ],
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-06T08:20:47+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд"
+   ],
+   "title": "АОД | Агенција за осигурање депозита",
+   "updated": "2026-11-06T08:20:47+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/53": {
    "first_seen": "2026-10-31T11:38:15+00:00",
