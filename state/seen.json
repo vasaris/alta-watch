@@ -130,31 +130,31 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1589,
+    "n": 1590,
     "since": "2026-11-04T14:42:29+00:00"
    },
    "источник AOD новости": {
     "last_sent": "2026-11-06T20:25:02+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-06T20:23:23+00:00"
    },
    "источник AOD объявления": {
     "last_sent": "2026-11-06T20:25:02+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-06T20:23:23+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T20:23:23+00:00",
+   "at": "2026-11-06T20:25:48+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T20:25:35+00:00",
-   "elapsed_s": 132,
-   "llm_calls": 0,
+   "at": "2026-11-06T20:28:15+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -179,9 +179,9 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1591,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 1592,
+   "AOD новости": 4,
+   "AOD объявления": 4,
    "NBS": 0
   }
  },
@@ -2126,6 +2126,18 @@
    "title": "Центральный банк Северной Македонии следит за Alta banke Bitolj на фоне краха материнской компании",
    "title_src": "Narodna banka Severne Makedonije: Pratimo sve okolnosti koje mogu uticati na rad Alta banke Bitolj",
    "updated": "2026-10-31T20:11:10+00:00"
+  },
+  "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-sest-zainteresovanih-za-kupovinu-alta-banke-bitolj": {
+   "first_seen": "2026-11-06T20:28:15+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Шесть потенциальных покупателей Alta банке Битолj; переговоры с двумя македонскими банками уже проведены",
+   "title_src": "Narodna banka Severne Makedonije: Šest zainteresovanih za kupovinu Alta banke Bitolj",
+   "updated": "2026-11-06T20:28:15+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-uprava-u-alta-banci-bitolj-privremena-mera-zastite-do-promene-vlasnistva": {
    "first_seen": "2026-11-03T11:18:53+00:00",
