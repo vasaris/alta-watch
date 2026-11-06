@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1593,
+    "n": 1594,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T20:32:13+00:00",
+   "at": "2026-11-06T20:34:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T20:32:36+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-06T20:34:50+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -169,7 +169,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1595,
+   "ALTA": 1596,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4295,6 +4295,18 @@
    "title": "Центральный банк Северной Македонии: крупных трансфертов между ALTA Битола и Сербией/Россией не выявлено",
    "title_src": "Centralna banka Severne Makedonije se oglasila o ALTA banci i transferima sa Srbijom i Rusijom",
    "updated": "2026-11-05T15:09:01+00:00"
+  },
+  "https://nova.rs/vesti/svet/guverner-narodne-banke-severne-makedonije-za-alta-banku-bitolj-ima-sest-zainteresovanih-kupaca": {
+   "first_seen": "2026-11-06T20:34:50+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Губернатор ЦБ Северной Македонии: для Alta банки Битоль есть шесть заинтересованных покупателей",
+   "title_src": "Guverner Narodne banke Severne Makedonije: Za Alta banku Bitolj ima šest zainteresovanih kupaca",
+   "updated": "2026-11-06T20:34:50+00:00"
   },
   "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija": {
    "first_seen": "2026-11-04T10:32:49+00:00",
