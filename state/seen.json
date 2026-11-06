@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1563,
+    "n": 1564,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T19:28:18+00:00",
+   "at": "2026-11-06T19:30:48+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T19:30:32+00:00",
-   "elapsed_s": 134,
-   "llm_calls": 0,
+   "at": "2026-11-06T19:33:17+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -169,9 +169,9 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1565,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1566,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -179,11 +179,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Матић: необходимо расследовать, финансировалась ли покупка Idea, Roda и Merkator кредитом Alta — Ивана Матич (бывшая руководительница Агентства по лицензированию управляющих) дала интервью RTS о расследовании источников финансирования покупки торговых сетей. — Матич подтвердила, что основной вопрос ",
-   "ts": 1793864808.6852047,
-   "url": "https://www.rts.rs/vesti/ekonomija/6076716/sta-ce-biti-sa-ideom-rodom-i-merkatorom--matic-treba-ispitati-sve-transakcije-alta-banke.html"
-  },
   {
    "text": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
    "ts": 1793885077.3643997,
@@ -378,6 +373,11 @@
    "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — NBS официально подтвердила разделение платежей между Alta banka a.d. (счёт NBS 780-282-42) и Alta Group d.o.o. (счёт Банки Поштанске штедионице 200-3408551901000-45) — Официальное предупреждение NBS",
    "ts": 1793991409.6018023,
    "url": "https://nova.rs/vesti/biznis/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke"
+  },
+  {
+   "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — Официальное уточнение NBS о разделении платежей между Alta банком и Alta Group (два разных юридических лица) — Конкретный счёт для платежей по кредитам Alta Group d.o.o.: № 200-3408551901000-45 в Ба",
+   "ts": 1793993596.1468725,
+   "url": "https://insajder.net/prenosimo/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke-i-upozorila-na-moguce-prevare"
   }
  ],
  "retry_items": {},
@@ -2219,6 +2219,25 @@
    "title": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты",
    "title_src": "NBS upozorila klijente Alta banke na prevaru: Ne uplaćujte rate kredita na osnovu SMS poruka",
    "updated": "2026-11-04T12:09:02+00:00"
+  },
+  "https://insajder.net/prenosimo/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke-i-upozorila-na-moguce-prevare": {
+   "first_seen": "2026-11-06T19:33:16+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 233,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T19:33:16+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "требования",
+    "клиенты"
+   ],
+   "title": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве",
+   "title_src": "NBS uputila obaveštenje o načinu izmirenja kredita Alta banke i upozorila na moguće prevare",
+   "updated": "2026-11-06T19:33:16+00:00"
   },
   "https://insajder.net/prenosimo/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-odredena-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:41:27+00:00",
