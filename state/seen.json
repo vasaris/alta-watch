@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1250,
+    "n": 1251,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T08:56:15+00:00",
+   "at": "2026-11-06T08:58:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T08:56:50+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-06T08:58:47+00:00",
+   "elapsed_s": 30,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -81,10 +81,10 @@
   "sources": {
    "alta": 0,
    "aod": 46,
-   "nbs": 37
+   "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1252,
+   "ALTA": 1253,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -10361,6 +10361,14 @@
    "status": "rejected",
    "title": "Јоргованка Табаковић, гувернер Народне банке Србије, интервју за часопис Global Financial Magazine, 16. октобар 2026.",
    "updated": "2026-11-05T13:44:30+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21874": {
+   "first_seen": "2026-11-06T08:58:33+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Kурс динара је стабилан а финансијски систем није угрожен",
+   "updated": "2026-11-06T08:58:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
