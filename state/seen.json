@@ -13,7 +13,7 @@
    "value": "3 ноября 2026 (Решение Хозяйственного суда Белграда № 10 Ст 275/2026)"
   },
   "license_revoked_date": {
-   "at": "2026-11-02T16:27:07+00:00",
+   "at": "2026-11-06T13:12:33+00:00",
    "history": [
     {
      "at": "2026-11-02T10:42:06+00:00",
@@ -24,11 +24,16 @@
      "at": "2026-11-02T16:03:56+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858",
      "value": "2 ноября 2026"
+    },
+    {
+     "at": "2026-11-02T16:27:07+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
+     "value": "2 ноября 2026 (решение NBS об отзыве лицензии)"
     }
    ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
-   "value": "2 ноября 2026 (решение NBS об отзыве лицензии)"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876",
+   "value": "30 октября 2026"
   },
   "payout_bank": {
    "at": "2026-11-03T11:06:43+00:00",
@@ -45,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1375,
+    "n": 1376,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T13:10:21+00:00",
+   "at": "2026-11-06T13:12:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T13:11:11+00:00",
-   "elapsed_s": 49,
-   "llm_calls": 0,
+   "at": "2026-11-06T13:12:43+00:00",
+   "elapsed_s": 31,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +89,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1377,
+   "ALTA": 1378,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
-   "ts": 1793790170.2458665,
-   "url": "https://nova.rs/vesti/svet/milioni-iz-crne-gore-zavrsavali-u-alta-banci-otkriveni-detalji-58-transakcija"
-  },
   {
    "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — Выявлены поддельные SMS с ID «AltaPay», требующие погасить кредиты ALTA на счета в Банке Поштанске штедионице — NBS официально предупредила Банку Поштанске штедионице и потребовала усиленного контроля подозрительных пл",
    "ts": 1793792643.9001179,
@@ -293,6 +293,11 @@
    "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — АОД опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
    "ts": 1793962000.0997896,
    "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-dala-uputstvo-o-izmirenju-obaveza-korisnicima-kredita-u-alta-banci"
+  },
+  {
+   "text": "NBS: инструкция для уполномоченных обменников, работавших с Alta банком — NBS издала уведомление для уполномоченных обменников, имевших договор с Alta банком a.d. Beograd — Лицензия Alta банка отозвана 30 октября 2026 года",
+   "ts": 1793970753.033085,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876"
   }
  ],
  "retry_items": {},
@@ -10589,6 +10594,29 @@
    "status": "rejected",
    "title": "Kурс динара је стабилан а финансијски систем није угрожен",
    "updated": "2026-11-06T08:58:33+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876": {
+   "first_seen": "2026-11-06T13:12:33+00:00",
+   "hash": "a967887af688448c",
+   "kind": "news",
+   "message_id": 191,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "6e031af241",
+    "26246b8a7b",
+    "2c4836c602"
+   ],
+   "posted": true,
+   "relevance": 2,
+   "sent_at": "2026-11-06T13:12:33+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Обавештење овлашћеним мењачима који су имали закључен уговор са Aлта банком о начину поступања",
+   "updated": "2026-11-06T13:12:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
