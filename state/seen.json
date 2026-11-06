@@ -125,23 +125,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1489,
+    "n": 1490,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T17:00:46+00:00",
+   "at": "2026-11-06T17:02:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T17:01:17+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-06T17:02:50+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -164,7 +164,7 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1491,
+   "ALTA": 1492,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -189,11 +189,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель в следствии — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в тrezor (из 390 млн евро всего). — Механизм фиктивного учёта: платежи AltaPay регистриров",
-   "ts": 1793817528.436991,
-   "url": "https://www.danas.rs/vesti/ekonomija/deo-iznetog-novca-alta-nije-bio-u-trezoru"
-  },
   {
    "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в trezor (показаны как фиктивная покупка мenjачницы). — Табаковић (вице-губернатор NBS) указана как св",
    "ts": 1793820901.9419768,
@@ -388,6 +383,11 @@
    "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как отдельного уполномоченного обменника (отдельно от банка Alta banka a.d.) — Штраф 250 млн динаров наложен за нарушения Закона о девизном бизнесе и правил противодействия о",
    "ts": 1793983894.124558,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-oduzela-ovlascenje-alta-group-menjac"
+  },
+  {
+   "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как отдельного уполномоченного обменника (отдельно от банка Alta banka a.d.) — Штраф 250 млн динаров наложен на юридическое лицо и ответственное лицо в юридическом лице",
+   "ts": 1793984569.1875834,
+   "url": "https://insajder.net/prenosimo/narodna-banka-srbije-oduzela-dozvolu-menjacnicama-alta-group-i-kaznila-ih-sa-250-miliona-dinara"
   }
  ],
  "retry_items": {},
@@ -2120,6 +2120,23 @@
    "status": "rejected",
    "title": "Narodna banka Srbije oduzela dozvolu Alta banci zbog znatnog pogoršanja finansijskog stanja",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/narodna-banka-srbije-oduzela-dozvolu-menjacnicama-alta-group-i-kaznila-ih-sa-250-miliona-dinara": {
+   "first_seen": "2026-11-06T17:02:49+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 226,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T17:02:49+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
+   "title": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
+   "title_src": "Narodna banka Srbije oduzela dozvolu menjačnicama „Alta Group“ i kaznila ih sa 250 miliona dinara",
+   "updated": "2026-11-06T17:02:49+00:00"
   },
   "https://insajder.net/prenosimo/nbs-menjaci-koji-su-imali-ugovor-sa-alta-bankom-da-preduzmu-odgovarajuce-mere": {
    "first_seen": "2026-11-02T11:43:04+00:00",
