@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1278,
+    "n": 1279,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T09:56:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T09:58:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T09:56:45+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-06T10:00:37+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1280,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1281,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -9439,6 +9439,17 @@
    "title": "Директор Агентства банковского надзора РС: события с Alta bankom в Сербии не влияют на Республику Сербскую",
    "title_src": "Direktor Agencije za bankarstvo RS: Dešavanja s Alta bankom u Srbiji nemaju nikakav uticaj na Republiku Srpsku",
    "updated": "2026-11-02T14:22:56+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/djenerali-nasi-penzijski-fondovi-nisu-polagali-depozite-u-alta-banku": {
+   "first_seen": "2026-11-06T10:00:37+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Generali: пенсионные фонды компании не имели депозитов в Alta банке",
+   "title_src": "Đenerali: Naši penzijski fondovi nisu polagali depozite u Alta banku",
+   "updated": "2026-11-06T10:00:37+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/drzavna-preduzeca-alta-banka-stecaj": {
    "first_seen": "2026-11-03T18:43:45+00:00",
