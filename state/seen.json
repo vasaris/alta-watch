@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1400,
+    "n": 1401,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:00:48+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T14:02:18+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:01:20+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-06T14:04:52+00:00",
+   "elapsed_s": 153,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -85,13 +85,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1402,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1403,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупреждает о поддельных SMS с требованиями погасить кредиты Alta на счета Банки Поштанске штедионице — NBS официально подтвердила выявление поддельных SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице — NBS потребовала от Банки Пошта",
-   "ts": 1793793519.1250596,
-   "url": "https://n1info.rs/vesti/nbs-upozorava-na-sms-prevaru-u-laznim-porukama-ljudima-traze-uplatu-kredita-alta-banke-na-racune-postanske-stedionice"
-  },
   {
    "text": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты — NBS выявил поддельные SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующие платежи на счета в Банке Поштанске штедионице. — NBS потребовал от Банки Поштанске штедионице усиленного контроля над подозрительным",
    "ts": 1793794142.600721,
@@ -298,6 +293,11 @@
    "text": "AOD объявила дату начала выплат застрахованных вкладов: 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 (ранее было известно только, что выплаты в течение 7 рабочих дней после решения суда от 3 ноября) — Конкретный курс евро: по среднему курсу от 3 ноября 2026 для валютных вкладов",
    "ts": 1793973528.986189,
    "url": "https://www.danas.rs/vesti/ekonomija/aod-objavila-kada-pocinje-isplata-depozita-gradjana-iz-alta-banke"
+  },
+  {
+   "text": "АОД опубликовала инструкцию для малых инвесторов Alta банка по возврату застрахованных средств — Лимит застрахованного поtraживания для малых инвесторов: 20 000 евро (ранее известен общий лимит 50 000 евро на вкладчика, но для инвесторов — отдельный лимит) — Конкретные адреса подачи заявлений: АОД (",
+   "ts": 1793973890.6823733,
+   "url": "https://www.danas.rs/vesti/ekonomija/mali-investitori-potrazivanja-alta-banka"
   }
  ],
  "retry_items": {},
@@ -9803,6 +9803,26 @@
    "status": "rejected",
    "title": "Македонская оппозиция требует отставки главы центробанка из-за допуска ALTA",
    "updated": "2026-10-31T17:31:20+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/mali-investitori-potrazivanja-alta-banka": {
+   "first_seen": "2026-11-06T14:04:50+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 194,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-06T14:04:50+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки",
+    "требования"
+   ],
+   "title": "АОД опубликовала инструкцию для малых инвесторов Alta банка по возврату застрахованных средств",
+   "title_src": "Objavljeno uputstvo kako mali investitori sa računima u Alta banci mogu da naplate potraživanje",
+   "updated": "2026-11-06T14:04:50+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/manojlovic-kreni-promeni-povracaj-uloga-vecih-od-50-000-evra-nije-zagarantovan-zavisi-od-stecaja": {
    "first_seen": "2026-10-31T11:58:13+00:00",
