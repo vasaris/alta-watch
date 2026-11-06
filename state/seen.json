@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1272,
+    "n": 1273,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T09:44:13+00:00",
+   "at": "2026-11-06T09:46:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T09:44:48+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-06T09:47:07+00:00",
+   "elapsed_s": 51,
    "llm_calls": 2,
    "llm_down": null,
    "msgs": 1,
@@ -84,21 +84,34 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1274,
+   "ALTA": 1275,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "06.11.2026 09:44",
+    "first": "Град Врање депонировал именно 177 млн динаров (ранее было только упоминание требования без суммы в некоторых источниках)",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "требования",
+     "активы",
+     "суд",
+     "клиенты"
+    ],
+    "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
+    "title_src": "Vranje u Alti banci imalo 177 miliona, a Pirot čak 400 miliona dinara",
+    "ts": 1793958427.7282398,
+    "url": "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara"
+   }
+  ]
  },
  "recent": [
-  {
-   "text": "Владелец ALTA Давор Макура и двое сотрудников арестованы на 30 дней по подозрению в хищении 45 млрд динаров — Высший суд Белграда официально определил арест на 30 дней Давору Макуре, Г. М. и И. П. (ранее было известно только о требовании прокуратуры). — Конкретные должности двух сотрудников: директо",
-   "ts": 1793776005.919415,
-   "url": "https://insajder.net/prenosimo/davoru-macuri-i-jos-dvojici-osumnjicenih-odreden-pritvor-u-slucaju-iznosenja-45-milijardi-dinara-iz-alta-banke"
-  },
   {
    "text": "ALTA banka появилась в списке процедур банкротства на сайте AOD",
    "ts": 1793780156.942985,
@@ -293,6 +306,11 @@
    "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке — Град Врање депонировал 177 млн динаров в Alta банке по договору овернайт-размещения — Тендер на размещение средств проводился в начале 2026 года; Alta банка предложила лучшие условия",
    "ts": 1793958282.8199408,
    "url": "https://nova.rs/vesti/biznis/vlast-u-vranju-u-alta-banku-prebacila-177-miliona"
+  },
+  {
+   "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке по договору овернайт-размещения — Град Врање депонировал 177 млн динаров в Alta банке по договору овернайт-размещения (ранее известно только о требовании возврата, без суммы и типа договора) — Договор заключен после тендера в н",
+   "ts": 1793958418.7089636,
+   "url": "https://n1info.rs/biznis/grad-vranje-sa-alta-bankom-imao-ugovor-o-prekonocnom-orocavanju-koliko-je-novca-bilo-deponovano-u-trenutku-oduzimanja-dozvole"
   }
  ],
  "retry_items": {},
@@ -2407,6 +2425,26 @@
    "title": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику",
    "title_src": "Fond PIO: Ko je imao račun u Alta banci po penziju ide u Poštansku štedionicu",
    "updated": "2026-11-03T16:37:53+00:00"
+  },
+  "https://n1info.rs/biznis/grad-vranje-sa-alta-bankom-imao-ugovor-o-prekonocnom-orocavanju-koliko-je-novca-bilo-deponovano-u-trenutku-oduzimanja-dozvole": {
+   "first_seen": "2026-11-06T09:46:58+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 185,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T09:46:58+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "требования",
+    "активы",
+    "суд"
+   ],
+   "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке по договору овернайт-размещения",
+   "title_src": "Grad Vranje sa Alta bankom imao ugovor o \"prekonoćnom oročavanju\":  Koliko je novca bilo deponovano u trenutku oduzimanja dozvole",
+   "updated": "2026-11-06T09:46:58+00:00"
   },
   "https://n1info.rs/biznis/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
    "first_seen": "2026-11-03T06:15:32+00:00",
@@ -10002,6 +10040,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara": {
+   "first_seen": "2026-11-06T09:47:07+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
+   "title_src": "Vranje u Alti banci imalo 177 miliona, a Pirot čak 400 miliona dinara",
+   "updated": "2026-11-06T09:47:07+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci": {
    "first_seen": "2026-11-03T10:15:12+00:00",
