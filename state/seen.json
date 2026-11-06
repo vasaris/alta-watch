@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1398,
+    "n": 1399,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T13:56:24+00:00",
+   "at": "2026-11-06T13:58:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T13:57:07+00:00",
-   "elapsed_s": 42,
-   "llm_calls": 0,
+   "at": "2026-11-06T13:58:50+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -89,7 +89,7 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1400,
+   "ALTA": 1401,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты на счета — NBS официально подтвердила выявление поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные SMS требуют платежи на счета в Банке Поштанске штедионице",
-   "ts": 1793793299.6993763,
-   "url": "https://www.danas.rs/vesti/ekonomija/nbs-upozorava-na-sms-prevare-gradjane-pozivaju-da-uplate-dugove-alta-banci-na-sumnjive-racune"
-  },
   {
    "text": "NBS предупреждает о поддельных SMS с требованиями погасить кредиты Alta на счета Банки Поштанске штедионице — NBS официально подтвердила выявление поддельных SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице — NBS потребовала от Банки Пошта",
    "ts": 1793793519.1250596,
@@ -298,6 +293,11 @@
    "text": "Выплаты застрахованных вкладов клиентам Alta банке начинаются 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 года — Банк-выплатчик подтверждён: Банка Поштанске штедионице a.d. Beograd",
    "ts": 1793973281.5143623,
    "url": "https://www.danas.rs/vesti/ekonomija/isplata-depozita-klijentima-alta-banke-pocinje-13-novembra"
+  },
+  {
+   "text": "AOD объявила дату начала выплат застрахованных вкладов: 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 (ранее было известно только, что выплаты в течение 7 рабочих дней после решения суда от 3 ноября) — Конкретный курс евро: по среднему курсу от 3 ноября 2026 для валютных вкладов",
+   "ts": 1793973528.986189,
+   "url": "https://www.danas.rs/vesti/ekonomija/aod-objavila-kada-pocinje-isplata-depozita-gradjana-iz-alta-banke"
   }
  ],
  "retry_items": {},
@@ -9436,6 +9436,26 @@
     "сроки"
    ],
    "title": "Alta banka: Isplata osiguranih depozita počinje u ponedeljak"
+  },
+  "https://www.danas.rs/vesti/ekonomija/aod-objavila-kada-pocinje-isplata-depozita-gradjana-iz-alta-banke": {
+   "first_seen": "2026-11-06T13:58:48+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 193,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-06T13:58:48+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "AOD объявила дату начала выплат застрахованных вкладов: 13 ноября 2026",
+   "title_src": "AOD objavila kada počinje isplata depozita građana iz Alta banke",
+   "updated": "2026-11-06T13:58:48+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/bajatovic-avion-moskva-vulin-popovic": {
    "first_seen": "2026-11-04T05:44:53+00:00",
