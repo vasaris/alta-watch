@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T20:55:56+00:00",
-    "n": 1615,
+    "n": 1616,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T21:16:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T21:18:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T21:16:42+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-06T21:20:38+00:00",
+   "elapsed_s": 144,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -165,18 +165,35 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1617,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1618,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "06.11.2026 21:14",
+    "first": "NBS издала официальное предупреждение о возможных мошеннических схемах в связи с платежами по кредитам Alta",
+    "important": false,
+    "kind": "press",
+    "outlet": "021.rs",
+    "tags": [
+     "регулятор",
+     "клиенты",
+     "требования"
+    ],
+    "title": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
+    "title_src": "NBS objavila račune za otplatu kredita Alta banke i upozorila građane na moguće prevare",
+    "ts": 1794000038.244047,
+    "url": "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare"
+   }
+  ]
  },
  "recent": [
   {
@@ -6292,6 +6309,17 @@
    "title": "Выплаты застрахованных вкладов Alta начинаются 13 ноября: какие документы нужны",
    "title_src": "Isplata osiguranih depozita Alta banke počinje 13. novembra: Evo koja dokumenta treba poneti",
    "updated": "2026-11-06T15:19:09+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare": {
+   "first_seen": "2026-11-06T21:20:38+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
+   "title_src": "NBS objavila račune za otplatu kredita Alta banke i upozorila građane na moguće prevare",
+   "updated": "2026-11-06T21:20:38+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
