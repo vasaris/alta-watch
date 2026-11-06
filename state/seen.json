@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1295,
+    "n": 1296,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T10:30:37+00:00",
+   "at": "2026-11-06T10:32:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T10:31:01+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-06T10:32:54+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1297,
+   "ALTA": 1298,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это? — Решение NBS об отзыве лицензии (31 октября) не содержит упоминаний о хищении денег из сейфа — только о ухудшении ликвидности и финансового состояния. — Конкретная сумма наличности в сейфе на 30.09.2026:",
-   "ts": 1793786972.4210522,
-   "url": "https://n1info.rs/biznis/sta-stoji-u-resenju-nbs-o-alta-banci-birn-imao-uvid"
-  },
   {
    "text": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью — Конкретная сумма наличности в сейфе на 30 сентября 2026: ~60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За два дня (28–29 октября) из Alta выведено ~140 млн евро депозитов.",
    "ts": 1793788739.65217,
@@ -293,6 +288,11 @@
    "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
    "ts": 1793960311.9204288,
    "url": "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara"
+  },
+  {
+   "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — AOD опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
+   "ts": 1793961172.860913,
+   "url": "https://forbes.n1info.rs/vesti/objavljeno-uputstvo-korisnicima-kredita-u-alta-banci-o-izmirenju-obaveza"
   }
  ],
  "retry_items": {},
@@ -1577,6 +1577,24 @@
    "title": "NBS предупредила о поддельных SMS от «AltaPay» с требованиями погасить кредиты Alta",
    "title_src": "NBS upozorila na prevaru SMS poruka za korisnike kredita Alta banke",
    "updated": "2026-11-04T12:34:56+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/objavljeno-uputstvo-korisnicima-kredita-u-alta-banci-o-izmirenju-obaveza": {
+   "first_seen": "2026-11-06T10:32:52+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 189,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T10:32:52+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "сроки"
+   ],
+   "title": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам",
+   "title_src": "Objavljeno uputstvo korisnicima kredita u Alta banci o izmirenju obaveza",
+   "updated": "2026-11-06T10:32:52+00:00"
   },
   "https://forbes.n1info.rs/vesti/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke": {
    "first_seen": "2026-11-04T13:27:53+00:00",
