@@ -125,21 +125,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1486,
+    "n": 1487,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T16:54:20+00:00",
+   "at": "2026-11-06T16:56:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T16:54:41+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-06T16:56:47+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -164,7 +164,7 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1488,
+   "ALTA": 1489,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1723,6 +1723,17 @@
    "title": "NBS: уполномоченные обменники должны продать валюту другой банке в течение 15–30 дней",
    "title_src": "NBS: Menjači sa ugovorom sa Alta bankom efektivu da prodaju drugoj banci",
    "updated": "2026-11-06T16:48:38+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-i-izrekla-kaznu-od-250-miliona-dinara": {
+   "first_seen": "2026-11-06T16:56:47+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
+   "title_src": "NBS oduzela ovlašćenje za rad menjačnici Alta Group i izrekla kaznu od 250 miliona dinara",
+   "updated": "2026-11-06T16:56:47+00:00"
   },
   "https://forbes.n1info.rs/vesti/nbs-upozorila-na-prevaru-sms-poruka-za-korisnike-kredita-alta-banke": {
    "first_seen": "2026-11-04T12:34:56+00:00",
