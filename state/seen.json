@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1402,
+    "n": 1403,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:05:06+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-06T14:07:48+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:07:24+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-06T14:08:26+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -85,13 +85,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 46,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1404,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 1405,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупредила клиентов ALTA о поддельных SMS с требованиями погасить кредиты — NBS выявил поддельные SMS с ID-отправителя «AltaPay» и неизвестных номеров, требующие платежи на счета в Банке Поштанске штедионице. — NBS потребовал от Банки Поштанске штедионице усиленного контроля над подозрительным",
-   "ts": 1793794142.600721,
-   "url": "https://insajder.net/prenosimo/nbs-upozorila-klijente-alta-banke-na-prevaru-ne-uplacujte-rate-kredita-na-osnovu-sms-poruka"
-  },
   {
    "text": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
    "ts": 1793794487.935619,
@@ -298,6 +293,11 @@
    "text": "АОД опубликовала инструкцию для малых инвесторов Alta банка по возврату застрахованных средств — Лимит застрахованного поtraживания для малых инвесторов: 20 000 евро (ранее известен общий лимит 50 000 евро на вкладчика, но для инвесторов — отдельный лимит) — Конкретные адреса подачи заявлений: АОД (",
    "ts": 1793973890.6823733,
    "url": "https://www.danas.rs/vesti/ekonomija/mali-investitori-potrazivanja-alta-banka"
+  },
+  {
+   "text": "АОД объявила дату начала выплат застрахованных вкладов Alta: 13 ноября 2026 через Банку Поштанску штедионицу — Конкретная дата начала выплат: 13 ноября 2026 (ранее был известен только срок в течение 7 рабочих дней после решения суда от 3 ноября) — Порядок конвертации валютных вкладов: по среднему ку",
+   "ts": 1793974105.2038076,
+   "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra-preko-banke-postanska-stedionica"
   }
  ],
  "retry_items": {},
@@ -1691,6 +1691,26 @@
    "title": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам",
    "title_src": "Agencija za osiguranje depozita dala uputstvo o izmirenju obaveza korisnicima kredita u Alta banci",
    "updated": "2026-11-06T10:46:40+00:00"
+  },
+  "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra-preko-banke-postanska-stedionica": {
+   "first_seen": "2026-11-06T14:08:25+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 195,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-06T14:08:25+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "АОД объявила дату начала выплат застрахованных вкладов Alta: 13 ноября 2026 через Банку Поштанску штедионицу",
+   "title_src": "Agencija za osiguranje depozita: Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra preko Banke Poštanska štedionica",
+   "updated": "2026-11-06T14:08:25+00:00"
   },
   "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-objavila-rokove-za-isplatu-novca-klijentima-alta-banke": {
    "first_seen": "2026-10-31T14:11:00+00:00",
