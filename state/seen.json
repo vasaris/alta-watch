@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T20:55:56+00:00",
-    "n": 1631,
+    "n": 1632,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T21:48:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-06T21:50:40+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T21:50:25+00:00",
-   "elapsed_s": 132,
+   "at": "2026-11-06T21:51:09+00:00",
+   "elapsed_s": 29,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -165,42 +165,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1633,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1634,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "06.11.2026 21:14",
-    "first": "NBS издала официальное предупреждение о возможных мошеннических схемах в связи с платежами по кредитам Alta",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "регулятор",
-     "клиенты",
-     "требования"
-    ],
-    "title": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
-    "title_src": "NBS objavila račune za otplatu kredita Alta banke i upozorila građane na moguće prevare",
-    "ts": 1794000038.244047,
-    "url": "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
-   "ts": 1793885077.3643997,
-   "url": "https://nova.rs/vesti/biznis/moze-li-macurina-imovina-da-pokrije-380-miliona-evra-iz-alta-banke"
-  },
   {
    "text": "Град Пирот требует возврата 3,3 млн евро, депонированных в Alta банке; критикует NBS за отсутствие предупреждений — Град Пирот депонировал до 400 млн динаров (≈3,3 млн евро) в Alta банке в сентябре 2026 по результатам открытого конкурса. — Град Пирот требует полный возврат средств как кредитор в бан",
    "ts": 1793886532.5936584,
@@ -395,6 +373,11 @@
    "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — Официальное уточнение NBS о разделении платежей между Alta банком и Alta Group (два разных юридических лица) — Конкретный счёт для платежей по кредитам Alta Group d.o.o.: № 200-3408551901000-45 в Ба",
    "ts": 1793993596.1468725,
    "url": "https://insajder.net/prenosimo/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke-i-upozorila-na-moguce-prevare"
+  },
+  {
+   "text": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
+   "ts": 1794001867.4831083,
+   "url": "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare"
   }
  ],
  "retry_items": {},
@@ -6313,13 +6296,20 @@
   "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare": {
    "first_seen": "2026-11-06T21:20:38+00:00",
    "kind": "press",
+   "message_id": 234,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-06T21:51:07+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "требования"
+   ],
    "title": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
    "title_src": "NBS objavila račune za otplatu kredita Alta banke i upozorila građane na moguće prevare",
-   "updated": "2026-11-06T21:20:38+00:00"
+   "updated": "2026-11-06T21:51:07+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
