@@ -90,20 +90,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1421,
+    "n": 1422,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:43:00+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T14:44:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:43:30+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-06T14:46:35+00:00",
+   "elapsed_s": 137,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -125,13 +125,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 47,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1423,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1424,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1622,6 +1622,16 @@
    "title": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "title_src": "EPS: Zbog oduzimanja licence Alta banci nisu ugroženi poslovanje i finansijska stabilnost",
    "updated": "2026-11-03T10:47:31+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra": {
+   "first_seen": "2026-11-06T14:46:35+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255487-isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra",
+   "status": "dup",
+   "title": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
+   "title_src": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
+   "updated": "2026-11-06T14:46:35+00:00"
   },
   "https://forbes.n1info.rs/vesti/nbs-upozorila-na-prevaru-sms-poruka-za-korisnike-kredita-alta-banke": {
    "first_seen": "2026-11-04T12:34:56+00:00",
