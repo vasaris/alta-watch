@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1410,
+    "n": 1411,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:20:26+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-06T14:22:55+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:22:43+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-06T14:23:29+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -85,13 +85,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 46,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1412,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1413,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Банка Поштанске штедионице: выплаты пенсий начались, депозиты до 50 000 евро выплатят к концу недели",
-   "ts": 1793794487.935619,
-   "url": "https://www.rts.rs/vesti/ekonomija/6076133/bojcic-iz-postanske-stedionice-banka-stabilna-i-likvidna-pocela-isplata-penzija-iz-alta-banke.html"
-  },
   {
    "text": "Idea marketi получила поддержку поставщиков после банкротства Alta",
    "ts": 1793794487.9356601,
@@ -298,6 +293,11 @@
    "text": "АОД объявила дату начала выплат застрахованных вкладов Alta: 13 ноября 2026 через Банку Поштанску штедионицу — Конкретная дата начала выплат: 13 ноября 2026 (ранее был известен только срок в течение 7 рабочих дней после решения суда от 3 ноября) — Порядок конвертации валютных вкладов: по среднему ку",
    "ts": 1793974105.2038076,
    "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra-preko-banke-postanska-stedionica"
+  },
+  {
+   "text": "NBS издала инструкцию для обменников, работавших с Alta банком — NBS издала специальное уведомление для обменников с подробным порядком действий (заключение договора с другой банком, сроки продажи валюты 15–30 дней, требования к документации). — Обменники должны предоставить новой банке документацию",
+   "ts": 1793975007.4982297,
+   "url": "https://insajder.net/prenosimo/nbs-obavestila-menjace-sa-ugovorima-sa-alta-bankom-o-nacinu-daljeg-postupanja"
   }
  ],
  "retry_items": {},
@@ -1975,6 +1975,25 @@
    "title": "NBS обязал обменники срочно сменить банка после отзыва лицензии Alta",
    "title_src": "NBS: Menjači koji su imali ugovor sa Alta bankom da preduzmu odgovarajuće mere",
    "updated": "2026-11-02T12:14:45+00:00"
+  },
+  "https://insajder.net/prenosimo/nbs-obavestila-menjace-sa-ugovorima-sa-alta-bankom-o-nacinu-daljeg-postupanja": {
+   "first_seen": "2026-11-06T14:23:27+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 199,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T14:23:27+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки",
+    "сроки"
+   ],
+   "title": "NBS издала инструкцию для обменников, работавших с Alta банком",
+   "title_src": "NBS obavestila menjače sa ugovorima sa Alta bankom o načinu daljeg postupanja",
+   "updated": "2026-11-06T14:23:27+00:00"
   },
   "https://insajder.net/prenosimo/nbs-oduzela-alta-grupi-dozvolu-za-izdavanje-elektronskog-novca-i-pruzanje-platnih-usluga": {
    "first_seen": "2026-11-02T16:34:51+00:00",
