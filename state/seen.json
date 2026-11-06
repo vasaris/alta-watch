@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1553,
+    "n": 1554,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T19:08:15+00:00",
+   "at": "2026-11-06T19:10:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T19:08:36+00:00",
-   "elapsed_s": 20,
-   "llm_calls": 0,
+   "at": "2026-11-06T19:10:46+00:00",
+   "elapsed_s": 24,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -169,7 +169,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1555,
+   "ALTA": 1556,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2866,6 +2866,17 @@
    "title": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров",
    "title_src": "NBS kaznila ovlašćenog menjača Alta Group novčanom kaznom od 250 miliona dinara",
    "updated": "2026-11-06T16:24:44+00:00"
+  },
+  "https://n1info.rs/biznis/nbs-o-izmirenju-rata-kredita-jedan-racun-za-alta-banku-drugi-racun-za-alta-group": {
+   "first_seen": "2026-11-06T19:10:46+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам",
+   "title_src": "NBS o izmirenju rata kredita: Jedan račun za Alta banku, drugi račun za Alta Group",
+   "updated": "2026-11-06T19:10:46+00:00"
   },
   "https://n1info.rs/biznis/nbs-oduzela-dozvolu-i-platnoj-instituciji-alta-group-doo-sredstva-korisnika-platnih-usluga-su-zasticena": {
    "first_seen": "2026-11-02T16:54:45+00:00",
