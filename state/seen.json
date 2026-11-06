@@ -50,23 +50,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1396,
+    "n": 1397,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T13:52:46+00:00",
+   "at": "2026-11-06T13:54:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T13:53:13+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-06T13:54:43+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -89,7 +89,7 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1398,
+   "ALTA": 1399,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -99,11 +99,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — Выявлены поддельные SMS с ID «AltaPay», требующие погасить кредиты ALTA на счета в Банке Поштанске штедионице — NBS официально предупредила Банку Поштанске штедионице и потребовала усиленного контроля подозрительных пл",
-   "ts": 1793792643.9001179,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21866"
-  },
   {
    "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты на счета — NBS официально подтвердила выявление поддельных SMS с ID «AltaPay» и неизвестных номеров — Поддельные SMS требуют платежи на счета в Банке Поштанске штедионице",
    "ts": 1793793299.6993763,
@@ -298,6 +293,11 @@
    "text": "NBS: инструкция для уполномоченных обменников, работавших с Alta банком — NBS издала уведомление для уполномоченных обменников, имевших договор с Alta банком a.d. Beograd — Лицензия Alta банка отозвана 30 октября 2026 года",
    "ts": 1793970753.033085,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876"
+  },
+  {
+   "text": "Выплаты застрахованных вкладов клиентам Alta банке начинаются 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 года — Банк-выплатчик подтверждён: Банка Поштанске штедионице a.d. Beograd",
+   "ts": 1793973281.5143623,
+   "url": "https://www.danas.rs/vesti/ekonomija/isplata-depozita-klijentima-alta-banke-pocinje-13-novembra"
   }
  ],
  "retry_items": {},
@@ -9720,6 +9720,26 @@
    "title_src": "Institut Kareja podneo krivičnu prijavu zbog naplate računa za struju preko Alta banke",
    "updated": "2026-11-02T09:46:35+00:00"
   },
+  "https://www.danas.rs/vesti/ekonomija/isplata-depozita-klijentima-alta-banke-pocinje-13-novembra": {
+   "first_seen": "2026-11-06T13:54:41+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 192,
+   "novelty": 10,
+   "posted": true,
+   "relevance": 10,
+   "sent_at": "2026-11-06T13:54:41+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "Выплаты застрахованных вкладов клиентам Alta банке начинаются 13 ноября 2026",
+   "title_src": "Isplata depozita klijentima Alta banke počinje 13. novembra",
+   "updated": "2026-11-06T13:54:41+00:00"
+  },
   "https://www.danas.rs/vesti/ekonomija/ispred-alta-banke-na-novom-beogradu-uoceni-naoruzani-pripadnici-policije": {
    "attempts": 1,
    "first_seen": "2026-10-31T17:27:48+00:00",
@@ -10625,6 +10645,14 @@
    "status": "rejected",
    "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
    "updated": "2026-11-06T13:34:21+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21878": {
+   "first_seen": "2026-11-06T13:54:25+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за октобар",
+   "updated": "2026-11-06T13:54:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
