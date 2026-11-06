@@ -125,21 +125,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1507,
+    "n": 1508,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T17:36:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T17:38:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T17:36:45+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-06T17:41:00+00:00",
+   "elapsed_s": 167,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -160,18 +160,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1509,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1510,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "06.11.2026 17:36",
+    "first": "Владелец Alta банка Дaвор Мачура планировал преузимание Adiko банка в Черногории и вход в еще две банки на черногорском рынке",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "регулятор",
+     "суд",
+     "активы",
+     "банки"
+    ],
+    "title": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
+    "title_src": "Guvernerka Centralne banke Crne Gore: Vršeni pritisci na nas nakon što smo odbili zahtev Alta banke za preuzimanje Adiko banke",
+    "ts": 1793986860.8451154,
+    "url": "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke"
+   }
+  ]
  },
  "recent": [
   {
@@ -10106,6 +10124,17 @@
    "title": "Губернатор Северной Македонии: из Alta banke нет массовых оттоков денег, транзакции рутинные",
    "title_src": "Guverner Severne Makedonije: Nema milionskog odliva novca iz Alta banke, transakcije su rutinske",
    "updated": "2026-11-03T11:50:50+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke": {
+   "first_seen": "2026-11-06T17:41:00+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
+   "title_src": "Guvernerka Centralne banke Crne Gore: Vršeni pritisci na nas nakon što smo odbili zahtev Alta banke za preuzimanje Adiko banke",
+   "updated": "2026-11-06T17:41:00+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
