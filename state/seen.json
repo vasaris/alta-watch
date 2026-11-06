@@ -125,23 +125,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1470,
+    "n": 1471,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T16:20:48+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T16:22:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T16:21:15+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-06T16:24:45+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -160,13 +160,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1472,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1473,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -174,11 +174,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты — NBS выявил и официально предупредил о поддельных SMS с ID «AltaPay» и неизвестных номеров, требующих платежи на счета в Банке Поштанске штедионице. — NBS уведомил Банку Поштанске штедионице и потребовал усиленного конт",
-   "ts": 1793800891.2056842,
-   "url": "https://bizlife.rs/nbs-upozorava-na-prevarne-poruke-upucene-korisnicima-kredita-alta-banke"
-  },
   {
    "text": "Решение суда об открытии банкротства ALTA banka a.d. Beograd от 3 ноября 2026 — Официальное судебное решение об открытии банкротства: Решение Хозяйственного суда Белграда № 10 Ст 275/2026 от 3 ноября 2026 — Дата открытия банкротства: 3 ноября 2026 (решение суда)",
    "ts": 1793803122.1743195,
@@ -373,6 +368,11 @@
    "text": "NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. Beograd на проведение обменных операций решением губернатора NBS — Наложены штрафы в общей сумме 250 млн динаров (для юридического лица и ответственног",
    "ts": 1793981804.9080603,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882"
+  },
+  {
+   "text": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка) — Наложены штрафы в сумме 250 млн динаров за серьёзные нарушения девизного законодательства и норм по против",
+   "ts": 1793982284.2815053,
+   "url": "https://n1info.rs/biznis/nbs-kaznila-ovlascenog-menjaca-alta-group-novcanom-kaznom-od-250-miliona-dinara"
   }
  ],
  "retry_items": {},
@@ -2768,6 +2768,25 @@
    "title": "NBS: клиенты Alta banke могут получить информацию о правах в AOD",
    "title_src": "NBS: Informacije o ostvarivanju prava, klijenti Alta banke mogu da dobiju od Agencije za osiguranje depozita",
    "updated": "2026-11-02T17:08:08+00:00"
+  },
+  "https://n1info.rs/biznis/nbs-kaznila-ovlascenog-menjaca-alta-group-novcanom-kaznom-od-250-miliona-dinara": {
+   "first_seen": "2026-11-06T16:24:44+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 221,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T16:24:44+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "банки"
+   ],
+   "title": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров",
+   "title_src": "NBS kaznila ovlašćenog menjača Alta Group novčanom kaznom od 250 miliona dinara",
+   "updated": "2026-11-06T16:24:44+00:00"
   },
   "https://n1info.rs/biznis/nbs-oduzela-dozvolu-i-platnoj-instituciji-alta-group-doo-sredstva-korisnika-platnih-usluga-su-zasticena": {
    "first_seen": "2026-11-02T16:54:45+00:00",
