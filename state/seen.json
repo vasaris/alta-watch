@@ -125,23 +125,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1493,
+    "n": 1494,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T17:08:17+00:00",
+   "at": "2026-11-06T17:10:57+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T17:10:39+00:00",
-   "elapsed_s": 142,
+   "at": "2026-11-06T17:13:18+00:00",
+   "elapsed_s": 140,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -164,36 +164,16 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1495,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1496,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "06.11.2026 16:40",
-    "first": "NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка Alta banka a.d.)",
-    "important": false,
-    "kind": "press",
-    "outlet": "BIZLife",
-    "tags": [
-     "регулятор"
-    ],
-    "title": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
-    "title_src": "Alta Group ostao bez dozvole za menjačke poslove – kazna 250 miliona dinara",
-    "ts": 1793983242.8449948,
-    "url": "https://bizlife.rs/alta-group-ostao-bez-dozvole-za-menjacke-poslove-kazna-250-miliona-dinara"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "KRIK: большинство 390 млн евро из Alta никогда не поступали в сейф; Табаковић — свидетель — Конкретное разделение суммы: ~17 млн евро физически вынесены из сейфа; ~370 млн евро никогда не поступали в trezor (показаны как фиктивная покупка мenjачницы). — Табаковић (вице-губернатор NBS) указана как св",
-   "ts": 1793820901.9419768,
-   "url": "https://beta.rs/content/255367-krik-veci-deo-novca-iz-alta-banke-nije-bio-u-trezoru-tabakovic-medu-svedocima"
-  },
   {
    "text": "Документ прокуратуры: Табаковић в списке свидетелей, 370 млн евро показаны как фиктивная покупка",
    "ts": 1793821964.1893432,
@@ -388,6 +368,11 @@
    "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как отдельного уполномоченного обменника (отдельно от банка Alta banka a.d.) — Штраф 250 млн динаров наложен на юридическое лицо и ответственное лицо в юридическом лице",
    "ts": 1793984569.1875834,
    "url": "https://insajder.net/prenosimo/narodna-banka-srbije-oduzela-dozvolu-menjacnicama-alta-group-i-kaznila-ih-sa-250-miliona-dinara"
+  },
+  {
+   "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
+   "ts": 1793985197.1863737,
+   "url": "https://bizlife.rs/alta-group-ostao-bez-dozvole-za-menjacke-poslove-kazna-250-miliona-dinara"
   }
  ],
  "retry_items": {},
@@ -1493,13 +1478,18 @@
   "https://bizlife.rs/alta-group-ostao-bez-dozvole-za-menjacke-poslove-kazna-250-miliona-dinara": {
    "first_seen": "2026-11-06T16:40:42+00:00",
    "kind": "press",
+   "message_id": 227,
    "novelty": 8,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-06T17:13:17+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
    "title": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
    "title_src": "Alta Group ostao bez dozvole za menjačke poslove – kazna 250 miliona dinara",
-   "updated": "2026-11-06T16:40:42+00:00"
+   "updated": "2026-11-06T17:13:17+00:00"
   },
   "https://bizlife.rs/kako-ce-kolaps-alta-banke-uticati-na-investitore-i-njihov-novac": {
    "first_seen": "2026-11-02T12:01:41+00:00",
