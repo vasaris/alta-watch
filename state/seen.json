@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1540,
+    "n": 1541,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T18:42:12+00:00",
+   "at": "2026-11-06T18:44:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T18:42:34+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-06T18:44:48+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -169,7 +169,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1542,
+   "ALTA": 1543,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -179,11 +179,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Крах Alta может подорвать доверие к инвестфондам: Vista Rika и другие потеряли десятки миллионов евро",
-   "ts": 1793859873.8577185,
-   "url": "https://www.danas.rs/vesti/ekonomija/vista-rika-i-alta-banka-investicioni-fond"
-  },
   {
    "text": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября — NBS официально подтвердила исполнение большинства платежей через мены́чницы до 2 ноября; остаток — до 4 ноября 2026. — Мены́чницы получили право заключить договоры с любой платежной институцией, включая Почту Сербии, без",
    "ts": 1793862107.2042584,
@@ -378,6 +373,11 @@
    "text": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
    "ts": 1793988676.6888323,
    "url": "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke"
+  },
+  {
+   "text": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам; предупреждение о мошенничестве — Официальное разделение платежей: Alta banka a.d. (счёт NBS 780-282-42) и ALTA GROUP d.o.o. (счёт Банке Поштанске штедионице 200-3408551901000-45) — Явное предупреждение NBS о подозрительных сообщ",
+   "ts": 1793990687.1427994,
+   "url": "https://www.danas.rs/vesti/ekonomija/nbs-o-otplati-kredita-alta-banke"
   }
  ],
  "retry_items": {},
@@ -10352,6 +10352,24 @@
     "регулятор"
    ],
    "title": "NBS o oduzimanju dozvole Alta banci: Štediše će moći da podignu depozite do 50.000 evra"
+  },
+  "https://www.danas.rs/vesti/ekonomija/nbs-o-otplati-kredita-alta-banke": {
+   "first_seen": "2026-11-06T18:44:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 231,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-06T18:44:47+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "требования"
+   ],
+   "title": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам; предупреждение о мошенничестве",
+   "title_src": "NBS se oglasila o otplati kredita Alta banke",
+   "updated": "2026-11-06T18:44:47+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/nbs-oduzela-dozvolu-za-izdavanje-elektronskog-novca-kompaniji-alta-group": {
    "first_seen": "2026-11-02T16:40:48+00:00",
