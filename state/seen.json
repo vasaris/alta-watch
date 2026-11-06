@@ -125,23 +125,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1475,
+    "n": 1476,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T16:30:42+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T16:32:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T16:31:10+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-06T16:34:38+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -160,13 +160,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1477,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1478,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -174,11 +174,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Решение суда об открытии банкротства ALTA banka a.d. Beograd от 3 ноября 2026 — Официальное судебное решение об открытии банкротства: Решение Хозяйственного суда Белграда № 10 Ст 275/2026 от 3 ноября 2026 — Дата открытия банкротства: 3 ноября 2026 (решение суда)",
-   "ts": 1793803122.1743195,
-   "url": "https://altabanka.rs/saopstenje-za-javnost/"
-  },
   {
    "text": "Вице-губернаторы NBS отрицают знание о проблемах Alta; адвокат предупреждал за дни до отзыва лицензии",
    "ts": 1793815286.2206054,
@@ -373,6 +368,11 @@
    "text": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка) — Наложены штрафы в сумме 250 млн динаров за серьёзные нарушения девизного законодательства и норм по против",
    "ts": 1793982284.2815053,
    "url": "https://n1info.rs/biznis/nbs-kaznila-ovlascenog-menjaca-alta-group-novcanom-kaznom-od-250-miliona-dinara"
+  },
+  {
+   "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка Alta banka a.d.) — Штраф 250 млн динаров наложен на обменную компанию Alta Group d.o.o. Beograd",
+   "ts": 1793982877.1980088,
+   "url": "https://nova.rs/vesti/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-menjacnici-alta-group-i-izrekla-kaznu-od-250-miliona-dinara"
   }
  ],
  "retry_items": {},
@@ -3626,6 +3626,23 @@
    "title": "Может ли имущество Макуры покрыть 380 млн евро: объяснение Шошкича о возврате средств",
    "title_src": "Može li Macurina imovina da pokrije 380 miliona evra, za koje se sumnja da su nestali iz Alta banke? Šoškić objasnio od čega zavisi naplata",
    "updated": "2026-11-05T13:24:37+00:00"
+  },
+  "https://nova.rs/vesti/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-menjacnici-alta-group-i-izrekla-kaznu-od-250-miliona-dinara": {
+   "first_seen": "2026-11-06T16:34:37+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 222,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T16:34:37+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
+   "title": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров",
+   "title_src": "Narodna banka Srbije oduzela dozvolu za rad menjačnici Alta Group i izrekla kaznu od 250 miliona dinara",
+   "updated": "2026-11-06T16:34:37+00:00"
   },
   "https://nova.rs/vesti/biznis/nbs-o-oduzimanju-dozvole-za-rad-alta-banci-stedise-ce-moci-da-podignu-depozite-do-50000-evra": {
    "first_seen": "2026-10-31T11:17:01+00:00",
