@@ -45,21 +45,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T02:48:35+00:00",
-    "n": 1243,
+    "n": 1244,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T08:42:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T08:44:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T08:42:43+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-06T08:46:42+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 1245,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1246,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2475,6 +2475,17 @@
    "title": "Центральный банк Северной Македонии: крупные переводы в Сербию и Россию через Alta Bitolj не зафиксированы",
    "title_src": "Makedonska Narodna banka objavila podatke o prilivima i odlivima novca iz Alta banke Bitolj",
    "updated": "2026-11-05T14:56:54+00:00"
+  },
+  "https://n1info.rs/biznis/malisa-djukic-stecaj-alta-banke-prelice-se-pre-ili-kasnije-na-drzavni-budzet-i-javni-dug": {
+   "first_seen": "2026-11-06T08:46:42+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Профессор: убытки Alta банке перейдут на бюджеты муниципалитетов и государства",
+   "title_src": "Mališa Đukić: Stečaj Alta banke preliće se pre ili kasnije na državni budžet i javni dug",
+   "updated": "2026-11-06T08:46:42+00:00"
   },
   "https://n1info.rs/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
