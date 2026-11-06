@@ -50,23 +50,33 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1414,
+    "n": 1415,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-06T14:33:03+00:00",
+    "n": 1,
+    "since": "2026-11-06T14:31:22+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-06T14:33:03+00:00",
+    "n": 1,
+    "since": "2026-11-06T14:31:22+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T14:28:40+00:00",
+   "at": "2026-11-06T14:31:22+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T14:31:08+00:00",
-   "elapsed_s": 148,
+   "at": "2026-11-06T14:33:47+00:00",
+   "elapsed_s": 144,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -89,9 +99,9 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1416,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 1417,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -1366,6 +1376,17 @@
    "title": "Mickoski: македонские фирмы теряют партнёров из-за блокировки средств в Alta банке Сербии",
    "title_src": "Mickoski: Makedonske firme upozoravaju na bankrot partnera u Srbiji zbog Alta banke",
    "updated": "2026-11-05T21:08:42+00:00"
+  },
+  "https://beta.rs/content/255487-isplata-osiguranih-depozita-alta-banke-u-stecaju-pocinje-13-novembra": {
+   "first_seen": "2026-11-06T14:33:47+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 9,
+   "status": "dup",
+   "title": "Выплаты застрахованных вкладов Alta начинаются 13 ноября через Банку Поштанску штедионицу",
+   "title_src": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
+   "updated": "2026-11-06T14:33:47+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
