@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1287,
+    "n": 1288,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T10:14:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T10:16:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T10:14:41+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-06T10:18:33+00:00",
+   "elapsed_s": 139,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -80,43 +80,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1289,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1290,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "06.11.2026 09:44",
-    "first": "Град Врање депонировал именно 177 млн динаров (ранее было только упоминание требования без суммы в некоторых источниках)",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "требования",
-     "активы",
-     "суд",
-     "клиенты"
-    ],
-    "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
-    "title_src": "Vranje u Alti banci imalo 177 miliona, a Pirot čak 400 miliona dinara",
-    "ts": 1793958427.7282398,
-    "url": "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Полмиллиарда евро в сейфе Alta: что знала NBS и был ли деньги вообще — Конкретная сумма наличности в сейфе на 30 сентября 2026: около 60 млрд динаров (свыше 500 млн евро), из них ~100 млн евро в иностранной валюте. — За 28–29 октября выведено около 140 млн евро депозитов (конкретные даты и сумма).",
-   "ts": 1793786500.8347538,
-   "url": "https://nova.rs/vesti/biznis/sta-je-nbs-znala-o-trezoru-alta-banke"
-  },
   {
    "text": "BIRN: NBS знала о проблемах ALTA месяцами; в сейфе было 500+ млн евро наличью — реально ли это? — Решение NBS об отзыве лицензии (31 октября) не содержит упоминаний о хищении денег из сейфа — только о ухудшении ликвидности и финансового состояния. — Конкретная сумма наличности в сейфе на 30.09.2026:",
    "ts": 1793786972.4210522,
@@ -311,6 +288,11 @@
    "text": "АОД дала инструкцию заёмщикам Alta банка по платежам по кредитам — АОД опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей",
    "ts": 1793960079.5736659,
    "url": "https://www.021.rs/info/biznis-i-ekonomija/460535/agencija-za-osigranje-depozita-dala-uputstvo-korisnicima-kredita-u-alta-banci-o-placanju-obaveza"
+  },
+  {
+   "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
+   "ts": 1793960311.9204288,
+   "url": "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara"
   }
  ],
  "retry_items": {},
@@ -4081,6 +4063,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/nbs-finansijski-sistem-je-stabilan-evra-ima-dovoljno-u-menjacnicama-a-postanska-stedionica-uredno-radi": {
+   "first_seen": "2026-11-06T10:18:31+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "NBS: финансовая система стабильна, евро в достаточном количестве в обменниках, Почтовая сбербасса работает нормально",
+   "title_src": "NBS: Finansijski sistem je stabilan, evra ima dovoljno u menjačnicama, a Poštanska štedionica uredno radi",
+   "updated": "2026-11-06T10:18:31+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-upozorava-na-prevarne-poruke-u-kojima-se-korisnici-kredita-alta-banke-pozivaju-da-izmire-svoje-obaveze": {
    "first_seen": "2026-11-04T12:16:54+00:00",
@@ -10101,13 +10094,21 @@
   "https://www.danas.rs/vesti/ekonomija/vranje-u-alti-banci-imalo-177-miliona-a-pirot-cak-400-miliona-dinara": {
    "first_seen": "2026-11-06T09:47:07+00:00",
    "kind": "press",
+   "message_id": 188,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-06T10:18:31+00:00",
+   "status": "sent",
+   "tags": [
+    "требования",
+    "активы",
+    "суд",
+    "клиенты"
+   ],
    "title": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке",
    "title_src": "Vranje u Alti banci imalo 177 miliona, a Pirot čak 400 miliona dinara",
-   "updated": "2026-11-06T09:47:07+00:00"
+   "updated": "2026-11-06T10:18:31+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/za-kragujevac-znamo-se-zbog-cega-je-javno-stambeno-preduzece-otvorilo-u-avgustu-racun-u-alta-banci": {
    "first_seen": "2026-11-03T10:15:12+00:00",
