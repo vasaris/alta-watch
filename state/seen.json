@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1283,
+    "n": 1284,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T10:06:16+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T10:08:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T10:06:41+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-06T10:10:49+00:00",
+   "elapsed_s": 147,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -80,13 +80,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 46,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1285,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1286,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -112,11 +112,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "ALTA banka появилась в списке процедур банкротства на сайте AOD",
-   "ts": 1793780156.942985,
-   "url": "https://www.aod.rs/clan/stecajlikv/postupci_utoku"
-  },
   {
    "text": "Владелец ALTA Макура купил страховую компанию в Северной Македонии на 1,7 млн евро — Макура владеет страховой компанией Alta Osiguranje AD Skoplje в Северной Македонии (100% акций) — Цена покупки страховой компании: ~1,7 млн евро",
    "ts": 1793782753.888021,
@@ -311,6 +306,11 @@
    "text": "Град Врање требует возврата 177 млн динаров, депонированных в Alta банке по договору овернайт-размещения — Град Врање депонировал 177 млн динаров в Alta банке по договору овернайт-размещения (ранее известно только о требовании возврата, без суммы и типа договора) — Договор заключен после тендера в н",
    "ts": 1793958418.7089636,
    "url": "https://n1info.rs/biznis/grad-vranje-sa-alta-bankom-imao-ugovor-o-prekonocnom-orocavanju-koliko-je-novca-bilo-deponovano-u-trenutku-oduzimanja-dozvole"
+  },
+  {
+   "text": "АОД опубликовала реквизиты счёта NBS для платежей заёмщиков Alta банка — Официальные реквизиты счёта NBS для платежей по кредитам: динарский счёт № 780-282-42 (ранее упоминалось в ожидающих публикации, но теперь подтверждено в прессе с полной информацией) — Требование указывать номер партии кредита ",
+   "ts": 1793959847.5091248,
+   "url": "https://n1info.rs/biznis/broj-racuna-za-izmirenje-kredita-uzetih-kod-alta-banke"
   }
  ],
  "retry_items": {},
@@ -2296,6 +2296,24 @@
    "title": "Экономист Драшкович: признаки проблем в Alta были год назад, ответственность на NBS",
    "title_src": "Božo Drašković: Crvene lampice u poslovanju Alta banke svetlele i pre godinu dana, odgovornost je na NBS",
    "updated": "2026-11-03T09:41:07+00:00"
+  },
+  "https://n1info.rs/biznis/broj-racuna-za-izmirenje-kredita-uzetih-kod-alta-banke": {
+   "first_seen": "2026-11-06T10:10:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 186,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-06T10:10:47+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд"
+   ],
+   "title": "АОД опубликовала реквизиты счёта NBS для платежей заёмщиков Alta банка",
+   "title_src": "Objavljen broj računa za izmirenje kredita uzetih kod Alta banke",
+   "updated": "2026-11-06T10:10:47+00:00"
   },
   "https://n1info.rs/biznis/cbcg-milioni-iz-crne-gore-poslati-alta-banci": {
    "first_seen": "2026-11-04T13:19:34+00:00",
