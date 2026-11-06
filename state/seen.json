@@ -45,20 +45,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T08:52:03+00:00",
-    "n": 1285,
+    "n": 1286,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T10:11:02+00:00",
+   "at": "2026-11-06T10:12:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T10:11:31+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-06T10:12:50+00:00",
+   "elapsed_s": 36,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -84,7 +84,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 1287,
+   "ALTA": 1288,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3414,6 +3414,16 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/objavljen-broj-racuna-za-izmirenje-kredita-uzetih-kod-alta-banke": {
+   "first_seen": "2026-11-06T10:12:50+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/broj-racuna-za-izmirenje-kredita-uzetih-kod-alta-banke",
+   "status": "dup",
+   "title": "Objavljen broj računa za izmirenje kredita uzetih kod Alta banke",
+   "title_src": "Objavljen broj računa za izmirenje kredita uzetih kod Alta banke",
+   "updated": "2026-11-06T10:12:50+00:00"
   },
   "https://nova.rs/vesti/biznis/oglasila-se-nbs-objavljeno-kako-ce-biti-zasticeni-korisnici-alta-group-nakon-oduzimanja-dozvole": {
    "first_seen": "2026-11-02T16:24:35+00:00",
