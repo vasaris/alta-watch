@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1546,
+    "n": 1547,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T18:54:12+00:00",
+   "at": "2026-11-06T18:56:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T18:54:38+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-06T18:56:51+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -169,7 +169,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1548,
+   "ALTA": 1549,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -179,11 +179,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября — NBS официально подтвердила исполнение большинства платежей через мены́чницы до 2 ноября; остаток — до 4 ноября 2026. — Мены́чницы получили право заключить договоры с любой платежной институцией, включая Почту Сербии, без",
-   "ts": 1793862107.2042584,
-   "url": "https://n1info.rs/biznis/da-li-su-prosle-uplate-gradjana-preko-menjacnica-koje-su-radile-sa-alta-grupom-pre-oduzimanja-dozvola-za-rad"
-  },
   {
    "text": "Матић: необходимо расследовать, финансировалась ли покупка Idea, Roda и Merkator кредитом Alta — Ивана Матич (бывшая руководительница Агентства по лицензированию управляющих) дала интервью RTS о расследовании источников финансирования покупки торговых сетей. — Матич подтвердила, что основной вопрос ",
    "ts": 1793864808.6852047,
@@ -378,6 +373,11 @@
    "text": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам; предупреждение о мошенничестве — Официальное разделение платежей: Alta banka a.d. (счёт NBS 780-282-42) и ALTA GROUP d.o.o. (счёт Банке Поштанске штедионице 200-3408551901000-45) — Явное предупреждение NBS о подозрительных сообщ",
    "ts": 1793990687.1427994,
    "url": "https://www.danas.rs/vesti/ekonomija/nbs-o-otplati-kredita-alta-banke"
+  },
+  {
+   "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — NBS официально подтвердила разделение платежей между Alta banka a.d. (счёт NBS 780-282-42) и Alta Group d.o.o. (счёт Банки Поштанске штедионице 200-3408551901000-45) — Официальное предупреждение NBS",
+   "ts": 1793991409.6018023,
+   "url": "https://nova.rs/vesti/biznis/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke"
   }
  ],
  "retry_items": {},
@@ -3729,6 +3729,24 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke": {
+   "first_seen": "2026-11-06T18:56:49+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 232,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-06T18:56:49+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд"
+   ],
+   "title": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве",
+   "title_src": "NBS obavestila građane kako da izmiruju kredite Alta banke i upozorila na moguće prevare",
+   "updated": "2026-11-06T18:56:49+00:00"
   },
   "https://nova.rs/vesti/biznis/objavljen-broj-racuna-za-izmirenje-kredita-uzetih-kod-alta-banke": {
    "first_seen": "2026-11-06T10:12:50+00:00",
