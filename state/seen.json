@@ -125,20 +125,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1498,
+    "n": 1499,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T17:18:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T17:20:23+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T17:18:37+00:00",
-   "elapsed_s": 23,
+   "at": "2026-11-06T17:22:42+00:00",
+   "elapsed_s": 139,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -160,13 +160,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1500,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1501,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -11134,6 +11134,14 @@
    ],
    "title": "Народна банка Србије одузела овлашћење за рад „Аlta Group d.o.o. Beograd“ овлашћеном мењачу и изрекла новчану казну од 2",
    "updated": "2026-11-06T16:16:44+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21883": {
+   "first_seen": "2026-11-06T17:22:31+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије континуирано прати пословање Банке Поштанска штедионица - Банка је солвентна и у потпуности извршав",
+   "updated": "2026-11-06T17:22:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5603": {
    "first_seen": "2026-10-31T11:17:01+00:00",
