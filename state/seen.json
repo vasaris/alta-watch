@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1572,
+    "n": 1573,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T19:48:12+00:00",
+   "at": "2026-11-06T19:50:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T19:48:57+00:00",
-   "elapsed_s": 44,
-   "llm_calls": 0,
+   "at": "2026-11-06T19:50:51+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -169,7 +169,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1574,
+   "ALTA": 1575,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3008,6 +3008,18 @@
    "title": "Редактор Forbes Srbija: NBS полностью ответственна за происходящее в Alta banke",
    "title_src": "Radak: NBS apsolutno odgovorna za dešavanja u Alta banci, morala je da vidi šta se dešava",
    "updated": "2026-11-03T16:43:30+00:00"
+  },
+  "https://n1info.rs/biznis/severna-makedonija-prodaje-alta-banku-sest-zainteresovanih": {
+   "first_seen": "2026-11-06T19:50:51+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Северная Македония продаёт Alta банк в Битоле: 6 потенциальных покупателей",
+   "title_src": "Severna Makedonija prodaje Alta banku, šest zainteresovanih",
+   "updated": "2026-11-06T19:50:51+00:00"
   },
   "https://n1info.rs/biznis/slucaj-alta-banka-novac-gradjana-depoziti": {
    "first_seen": "2026-11-02T18:34:59+00:00",
