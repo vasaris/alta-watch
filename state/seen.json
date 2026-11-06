@@ -125,21 +125,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T14:53:56+00:00",
-    "n": 1445,
+    "n": 1446,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T15:30:39+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-06T15:32:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-06T15:31:11+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-06T15:34:35+00:00",
+   "elapsed_s": 141,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -160,13 +160,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 1447,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1448,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2570,6 +2570,17 @@
     "банки"
    ],
    "title": "Dugalić: Treba preispitati rad NBS i način na koji je kontrolisala Alta banku"
+  },
+  "https://n1info.rs/biznis/dw-gasenje-alte-posebno-pogodilo-ruse-u-srbiji": {
+   "first_seen": "2026-11-06T15:34:35+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "DW: закрытие Alta особенно ударило по русским предпринимателям в Сербии",
+   "title_src": "DW: Gašenje Alte posebno pogodilo Ruse u Srbiji",
+   "updated": "2026-11-06T15:34:35+00:00"
   },
   "https://n1info.rs/biznis/eps-sva-placanja-racuna-za-struju-preko-alta-banke-uredno-su-evidentirana": {
    "first_seen": "2026-11-05T18:58:33+00:00",
