@@ -45,23 +45,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-06T02:48:35+00:00",
-    "n": 1165,
+    "n": 1166,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-06T06:06:13+00:00",
+   "at": "2026-11-06T06:08:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-05",
   "last_run": {
-   "at": "2026-11-06T06:06:34+00:00",
-   "elapsed_s": 20,
-   "llm_calls": 0,
+   "at": "2026-11-06T06:08:49+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -84,7 +84,7 @@
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 1167,
+   "ALTA": 1168,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -94,11 +94,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Государственные компании Сербии: банкротство Alta не угрожает нашей деятельности",
-   "ts": 1793732870.1200852,
-   "url": "https://n1info.rs/biznis/drzavna-preduzeca-kazu-da-im-nije-ugrozeno-poslovanje-nakon-stecaja-alta-banke"
-  },
   {
    "text": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
    "ts": 1793732870.120112,
@@ -293,6 +288,11 @@
    "text": "Почтовая сбербасса и AOD подписали договор о выплате застрахованных вкладов клиентам Alta банке — Подписан договор между Банкой Поштанске штедионице и AOD о выплате застрахованных вкладов (дата подписания: 5 ноября 2026) — Официальное уведомление о дате начала, условиях и способе выплат будет объявл",
    "ts": 1793906282.4612966,
    "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita"
+  },
+  {
+   "text": "Журналист BIRN: где деньги, показанные в отчётах как наличность в сейфе Alta, и почему NBS не реагировала раньше — Финансовые отчёты Alta показывали ~40 млрд динаров наличности на конец 2024 года и свыше 50 млрд динаров на конец 2025 года. — NBS ранее требовала Alta переместить часть наличности из с",
+   "ts": 1793945327.6381848,
+   "url": "https://n1info.rs/biznis/novinar-birn-novac-alta-banka-nbs-ranije-reagovala"
   }
  ],
  "retry_items": {},
@@ -2551,6 +2551,26 @@
    "title": "Деян Гаврилович: Alta banka не работает, выплаты проведёт другой банк через AOD",
    "title_src": "\"Ne čekajte u redovima, Alta banka ne radi\": Gavrilović objašnjava ko će građanima isplatiti novac i kada",
    "updated": "2026-11-02T10:06:56+00:00"
+  },
+  "https://n1info.rs/biznis/novinar-birn-novac-alta-banka-nbs-ranije-reagovala": {
+   "first_seen": "2026-11-06T06:08:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 181,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-06T06:08:47+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "суд",
+    "требования"
+   ],
+   "title": "Журналист BIRN: где деньги, показанные в отчётах как наличность в сейфе Alta, и почему NBS не реагировала раньше",
+   "title_src": "Novinar BIRN-a: Gde je novac koji se godinama prikazivao kao gotovina u trezoru Alta banke i zašto NBS nije ranije reagovala",
+   "updated": "2026-11-06T06:08:47+00:00"
   },
   "https://n1info.rs/biznis/pokrenut-stecaj-alta-banke-postanska-stedionica-isplacivace-njene-deponente": {
    "first_seen": "2026-11-03T11:44:46+00:00",
