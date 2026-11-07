@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2185,
+    "n": 2186,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T16:26:44+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-07T16:29:16+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T16:29:05+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-07T16:29:41+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2187,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2188,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -2786,6 +2786,16 @@
    "title": "Пенсионеры Alta banke получат октябрьские пенсии в Банке Поштанске штедионице по графику",
    "title_src": "Fond PIO: Ko je imao račun u Alta banci po penziju ide u Poštansku štedionicu",
    "updated": "2026-11-03T16:37:53+00:00"
+  },
+  "https://n1info.rs/biznis/grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
+   "first_seen": "2026-11-07T16:29:41+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj",
+   "status": "dup",
+   "title": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "updated": "2026-11-07T16:29:41+00:00"
   },
   "https://n1info.rs/biznis/grad-vranje-sa-alta-bankom-imao-ugovor-o-prekonocnom-orocavanju-koliko-je-novca-bilo-deponovano-u-trenutku-oduzimanja-dozvole": {
    "first_seen": "2026-11-06T09:46:58+00:00",
