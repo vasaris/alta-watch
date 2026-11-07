@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2348,
+    "n": 2349,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T21:50:20+00:00",
+   "at": "2026-11-07T21:52:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T21:51:23+00:00",
-   "elapsed_s": 63,
+   "at": "2026-11-07T21:52:46+00:00",
+   "elapsed_s": 33,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2350,
+   "ALTA": 2351,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -25810,9 +25810,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20000&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Упитник о информационо-комуникационом систему финансијске институције – 2025",
+   "updated": "2026-11-07T21:52:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20005&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -28400,65 +28401,74 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21173&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Данас – питања у вези с разлозима смањења девизних резерви у децембру 2025. године",
+   "updated": "2026-11-07T21:52:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21178&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Портал ИнфоКГ - питања у вези са санацијом зграде Народне банке Србије у Крагујевцу",
+   "updated": "2026-11-07T21:52:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21179&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-07T21:52:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21180&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Грађани све чешће користе услугу инстант плаћања",
+   "updated": "2026-11-07T21:52:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21186&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Трошкови картичног пословања пружалаца платних услуга у Републици Србији на крају 2024. године",
+   "updated": "2026-11-07T21:52:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21188&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Fitch још једном потврдила позитивне изгледе Србије за добијање кредитног рејтинга инвестиционог ранга",
+   "updated": "2026-11-07T21:52:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21190&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вечерње новости – питања у вези с накнадом коју банке наплаћују за куповину на рате",
+   "updated": "2026-11-07T21:52:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21193&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење из области статистике каматних стопа, децембар 2025. године",
+   "updated": "2026-11-07T21:52:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21197&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Корисно је да знате… Шта је и како функционише Централни регистар електронских меница",
+   "updated": "2026-11-07T21:52:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21198&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
