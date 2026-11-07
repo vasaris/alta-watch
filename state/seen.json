@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2331,
+    "n": 2332,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T21:16:17+00:00",
+   "at": "2026-11-07T21:19:20+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T21:19:07+00:00",
-   "elapsed_s": 170,
+   "at": "2026-11-07T21:21:47+00:00",
+   "elapsed_s": 147,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,9 +199,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2333,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2334,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -29202,37 +29202,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21476&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије објављује на јавну расправу Нацрт закона о кредитним институцијама",
+   "updated": "2026-11-07T21:21:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21478&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије сачинила Нацрт измена и допуна Закона о заштити корисника финансијских услуга код уговарања на даљи",
+   "updated": "2026-11-07T21:21:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21481&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије и Народна банка Кине закључиле нови билатерални своп аранжман",
+   "updated": "2026-11-07T21:21:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21485&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије ставља на јавну расправу Нацрт закона о осигурању",
+   "updated": "2026-11-07T21:21:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21486&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије објављује на јавну расправу Нацрт закона о добровољним пензијским фондовима и пензијским плановима",
+   "updated": "2026-11-07T21:21:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2149&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -29244,16 +29249,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21490&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-07T21:21:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21492&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Инстант плаћање – брзо, сигурно и једноставно",
+   "updated": "2026-11-07T21:21:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=215&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -29265,23 +29272,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21500&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Платна институција VIP SISTEM DOO Београд омогућила својим корисницима извршавање трансакција путем IPS НБС система",
+   "updated": "2026-11-07T21:21:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21501&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T21:21:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21502&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у мају",
+   "updated": "2026-11-07T21:21:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21507&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
