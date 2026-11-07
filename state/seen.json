@@ -160,23 +160,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2379,
+    "n": 2380,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T22:50:20+00:00",
+   "at": "2026-11-07T22:52:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T22:51:01+00:00",
-   "elapsed_s": 41,
-   "llm_calls": 0,
+   "at": "2026-11-07T22:53:01+00:00",
+   "elapsed_s": 49,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2381,
+   "ALTA": 2382,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -209,11 +209,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — AOD опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
-   "ts": 1793961172.860913,
-   "url": "https://forbes.n1info.rs/vesti/objavljeno-uputstvo-korisnicima-kredita-u-alta-banci-o-izmirenju-obaveza"
-  },
   {
    "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — АОД опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
    "ts": 1793962000.0997896,
@@ -408,6 +403,11 @@
    "text": "NBS отозвала лицензию у ALTA banka a.d. Beograd — официальное сообщение — Исполнительный совет NBS принял решение об отзыве лицензии у ALTA banka a.d. Beograd 30 октября 2026 — Отзыву лицензии предшествовали контрольные мероприятия, направленные на повышение уровня ликвидности банка",
    "ts": 1794084080.1928756,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21849&konverzija=no"
+  },
+  {
+   "text": "NBS: рост платежей в системе IPS НБС в 2024 году — В 2024 году в системе IPS НБС обработано 87,2 млн мгновенных платежей — на 30,2% больше, чем в 2023, и на 247,9% больше, чем в 2020 — Впервые превышена сумма в 1 трлн динаров за год; рост стоимости платежей на 45,5% к 2023 году",
+   "ts": 1794091966.8417792,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20496&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -26855,23 +26855,48 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20491&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у марту",
+   "updated": "2026-11-07T22:52:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20493&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у марту",
+   "updated": "2026-11-07T22:52:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20496&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "04a5cebba9725b04",
+   "kind": "news",
+   "message_id": 252,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "571ea35e5e",
+    "39b0fa2498",
+    "3a41b09124",
+    "e472b3e5b4",
+    "f98290a3cf",
+    "5bb280643d",
+    "aebfb8500e",
+    "d9969a3303",
+    "f08e56c7ab"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 1,
+   "sent_at": "2026-11-07T22:52:46+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки"
+   ],
+   "title": "Појачан међугодишњи раст плаћања у IPS НБС платном систему",
+   "updated": "2026-11-07T22:52:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=205&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26890,51 +26915,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20502&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Родна равноправност у финансијским институцијама – случај Народне банке Србије, говор Јоргованке Табаковић, гувернера На",
+   "updated": "2026-11-07T22:52:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20504&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем –  нови рекорд броја плаћања",
+   "updated": "2026-11-07T22:52:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20506&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Институција електронског новца Led Pay d.o.o. Beograd омогућила својим корисницима извршавање трансакција путем IPS НБС ",
+   "updated": "2026-11-07T22:52:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20508&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Делегација Републике Србије на Пролећном заседању Међународног монетарног фонда и Групације Светске банке",
+   "updated": "2026-11-07T22:52:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20510&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-07T22:52:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20518&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење поводом објаве појединих медија да су рачуни Електродистрибуције Србије у блокади али да блокада није видљива ",
+   "updated": "2026-11-07T22:52:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20523&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић на састанку Конституенце Швајцарске у Вашингтону",
+   "updated": "2026-11-07T22:52:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20525&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
