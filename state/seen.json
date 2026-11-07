@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T08:58:28+00:00",
-    "n": 1961,
+    "n": 1962,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T08:58:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T09:00:42+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T08:58:47+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-07T09:03:07+00:00",
+   "elapsed_s": 145,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1963,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1964,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -10408,6 +10408,17 @@
    "title": "Экономисты: NBS потеряла независимость; ответственность Табаковић за крах Alta",
    "title_src": "„Alta je primer da je NBS izgubila nezavisnost u odnosu na vlast“: Kolika je odgovornost Jorgovanke Tabaković u propasti banke?",
    "updated": "2026-11-03T17:27:13+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/ko-je-jorgovanka-tabakovic-guvernerka-narodne-banke-srbije": {
+   "first_seen": "2026-11-07T09:03:07+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Биография губернатора NBS Йоргованки Табаковић и вопросы её ответственности за крах Alta банка",
+   "title_src": "Nestala u akciji: Ko je Jorgovanka Tabaković guvernerka Narodne banke Srbije za čijeg mandata je propala Alta banka",
+   "updated": "2026-11-07T09:03:07+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/kompanija-belgrade-waterfront-poslujemo-preko-erste-banke-izlozenost-prema-alta-banci-ogranicena": {
    "first_seen": "2026-11-03T12:03:15+00:00",
