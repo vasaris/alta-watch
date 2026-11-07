@@ -160,23 +160,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2393,
+    "n": 2394,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T23:19:07+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T23:20:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T23:19:48+00:00",
-   "elapsed_s": 41,
-   "llm_calls": 0,
+   "at": "2026-11-07T23:23:02+00:00",
+   "elapsed_s": 161,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2395,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2396,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -209,11 +209,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: инструкция для уполномоченных обменников, работавших с Alta банком — NBS издала уведомление для уполномоченных обменников, имевших договор с Alta банком a.d. Beograd — Лицензия Alta банка отозвана 30 октября 2026 года",
-   "ts": 1793970753.033085,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876"
-  },
   {
    "text": "Выплаты застрахованных вкладов клиентам Alta банке начинаются 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 года — Банк-выплатчик подтверждён: Банка Поштанске штедионице a.d. Beograd",
    "ts": 1793973281.5143623,
@@ -408,6 +403,11 @@
    "text": "NBS: более 3 млн пользователей мобильного банкинга могут переводить деньги услугой «Пренеси» — NBS напоминает о сервисе «Пренеси» для переводов между счётами по номеру телефона получателя — Более 3 млн пользователей мобильного банкинга в Сербии могут выполнять такие транзакции",
    "ts": 1794092984.1619642,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20282&konverzija=no"
+  },
+  {
+   "text": "Alta Pay Group подключилась к системе мгновенных платежей NBS (07.11.2024) — Alta Pay Group d.o.o. Beograd (институция электронного денег) подключилась к системе IPS НБС для мгновенных платежей — Alta Pay Group получила статус косвенного участника системы через ALTA banka a.d. Beograd как прямого уч",
+   "ts": 1794093765.4048874,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20156&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -26127,9 +26127,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20149&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за октобар",
+   "updated": "2026-11-07T23:22:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2015&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26141,44 +26142,65 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20150&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T23:22:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20155&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-07T23:22:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20156&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "c59d7be13c74f3ba",
+   "kind": "news",
+   "message_id": 254,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "45f1a58483",
+    "c5630ee4b2",
+    "456584ebe8"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 1,
+   "sent_at": "2026-11-07T23:22:45+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
+   "title": "Институција електронског новца Alta Pay Group d.o.o. Beograd омогућила својим корисницима извршавање трансакција путем I",
+   "updated": "2026-11-07T23:22:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20162&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у октобру",
+   "updated": "2026-11-07T23:22:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20163&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији у 10.30 часова",
+   "updated": "2026-11-07T23:22:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20166&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у октобру",
+   "updated": "2026-11-07T23:22:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2017&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26190,23 +26212,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20176&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Уводна реч гувернера Јоргованке Табаковић на конференцији „Банкарско право 2024“",
+   "updated": "2026-11-07T23:22:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20178&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем –  нови рекорд броја плаћања",
+   "updated": "2026-11-07T23:22:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20181&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Упозорење – превара путем електронске поште коришћењем технике e-mail spoofing",
+   "updated": "2026-11-07T23:22:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20187&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
