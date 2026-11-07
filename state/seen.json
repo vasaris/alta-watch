@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T02:58:21+00:00",
-    "n": 1889,
+    "n": 1890,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T06:34:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-07T06:36:50+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-07T06:36:32+00:00",
-   "elapsed_s": 138,
+   "at": "2026-11-07T06:37:23+00:00",
+   "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -165,43 +165,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1891,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1892,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "07.11.2026 06:02",
-    "first": "Нерезиденты (включая граждан России) испытывают практические трудности с доступом к средствам в Alta банке спустя неделю после закрытия",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "выплаты",
-     "клиенты",
-     "регулятор",
-     "сроки"
-    ],
-    "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
-    "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
-    "ts": 1794031600.5377429,
-    "url": "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Град Пирот требует возврата 3,3 млн евро, депонированных в Alta банке; критикует NBS за отсутствие предупреждений — Град Пирот депонировал до 400 млн динаров (≈3,3 млн евро) в Alta банке в сентябре 2026 по результатам открытого конкурса. — Град Пирот требует полный возврат средств как кредитор в бан",
-   "ts": 1793886532.5936584,
-   "url": "https://insajder.net/teme/nismo-imali-upozorenja-od-nbs-da-je-banka-ugrozena-grad-pirot-potrazuje-novac-od-alta-banke-u-stecaju"
-  },
   {
    "text": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
    "ts": 1793895651.2813709,
@@ -396,6 +373,11 @@
    "text": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
    "ts": 1794001867.4831083,
    "url": "https://www.021.rs/info/biznis-i-ekonomija/460609/nbs-objavila-racune-za-otplatu-kredita-alta-banke-i-upozorila-gradjane-na-moguce-prevare"
+  },
+  {
+   "text": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
+   "ts": 1794033441.523752,
+   "url": "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune"
   }
  ],
  "retry_items": {},
@@ -6582,13 +6564,21 @@
   "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune": {
    "first_seen": "2026-11-07T06:06:40+00:00",
    "kind": "press",
+   "message_id": 235,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-07T06:37:21+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "регулятор",
+    "сроки"
+   ],
    "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
    "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
-   "updated": "2026-11-07T06:06:40+00:00"
+   "updated": "2026-11-07T06:37:21+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
