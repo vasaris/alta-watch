@@ -130,20 +130,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T08:58:28+00:00",
-    "n": 1982,
+    "n": 1983,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T09:40:44+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T09:42:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T09:41:06+00:00",
-   "elapsed_s": 21,
+   "at": "2026-11-07T09:44:31+00:00",
+   "elapsed_s": 137,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1984,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1985,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4536,6 +4536,16 @@
    "title": "NBS: финансовая система стабильна, евро в достаточном количестве в обменниках, Почтовая сбербасса работает нормально",
    "title_src": "NBS: Finansijski sistem je stabilan, evra ima dovoljno u menjačnicama, a Poštanska štedionica uredno radi",
    "updated": "2026-11-06T10:18:31+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-izrekla-kazne-od-250-miliona-dinara": {
+   "first_seen": "2026-11-07T09:44:31+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://forbes.n1info.rs/vesti/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-i-izrekla-kaznu-od-250-miliona-dinara",
+   "status": "dup",
+   "title": "NBS oduzela ovlašćenje za rad menjačnici Alta Group, izrekla kazne od 250 miliona dinara)",
+   "title_src": "NBS oduzela ovlašćenje za rad menjačnici Alta Group, izrekla kazne od 250 miliona dinara)",
+   "updated": "2026-11-07T09:44:31+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-upozorava-na-prevarne-poruke-u-kojima-se-korisnici-kredita-alta-banke-pozivaju-da-izmire-svoje-obaveze": {
    "first_seen": "2026-11-04T12:16:54+00:00",
