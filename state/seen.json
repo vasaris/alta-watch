@@ -159,20 +159,20 @@
  "health": {
   "alerts": {
    "источник ALTA": {
-    "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2322,
+    "last_sent": "2026-11-07T21:01:30+00:00",
+    "n": 2323,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T21:00:24+00:00",
+   "at": "2026-11-07T21:01:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T21:01:06+00:00",
+   "at": "2026-11-07T21:01:57+00:00",
    "elapsed_s": 41,
    "llm_calls": 0,
    "llm_down": null,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2324,
+   "ALTA": 2325,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -29375,16 +29375,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21538&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Интернет плаћања у Србији настављају снажан раст",
+   "updated": "2026-11-07T21:01:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21544&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "API Bank a.d. Beograd обезбедила технологију deep link у својој апликацији",
+   "updated": "2026-11-07T21:01:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21546": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -29395,9 +29397,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21546&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Интервју гувернера Јоргованке Табаковић за специјално издање часописа Cord – Contrasting World Visions, јун 2026.",
+   "updated": "2026-11-07T21:01:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2155&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -29409,37 +29412,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21552&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Више плаћања, већи промет: раст инстант плаћања у првом тромесечју 2026. године",
+   "updated": "2026-11-07T21:01:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21555&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Статистика каматних стопа на кредите и депозите банака - мај 2026. године",
+   "updated": "2026-11-07T21:01:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21556&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Loan and deposit interest rate statistics - May 2026",
+   "updated": "2026-11-07T21:01:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21564&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-07T21:01:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21566&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Број уговорених финансијских услуга на даљину наставља с растом",
+   "updated": "2026-11-07T21:01:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2157&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -29451,16 +29459,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21570&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Bloomberg Adria – питања у вези са изменама и допунама Закона о заштити корисника финансијских услуга",
+   "updated": "2026-11-07T21:01:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21571&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о полагању стручног испита за стицање звања овлашћеног посредника и овлашћеног заступника у осигурању у ванре",
+   "updated": "2026-11-07T21:01:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21574&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
