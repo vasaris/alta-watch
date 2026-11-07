@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2386,
+    "n": 2387,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T23:04:15+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T23:06:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T23:05:02+00:00",
-   "elapsed_s": 47,
+   "at": "2026-11-07T23:08:46+00:00",
+   "elapsed_s": 152,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2388,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2389,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -26470,30 +26470,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20302&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у децембру",
+   "updated": "2026-11-07T23:08:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20306&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у децембру",
+   "updated": "2026-11-07T23:08:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20313&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем –  нови рекорд броја плаћања",
+   "updated": "2026-11-07T23:08:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20315&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-07T23:08:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2032&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26505,37 +26509,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20320&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "“Корисно је да знате”… Шта корисницима кредита доноси Одлука о привременом ограничењу каматних стопа?",
+   "updated": "2026-11-07T23:08:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20323&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије прати активности банака у области ризика повезаних с климом",
+   "updated": "2026-11-07T23:08:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20330&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Формирана радна група за подршку SEPA процесу - SEPA Steering Group",
+   "updated": "2026-11-07T23:08:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20332&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "ОТП банка Србија омогућила својим корисницима извршавање трансакција путем Међународног и Међубанкарског клиринг система",
+   "updated": "2026-11-07T23:08:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20336&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење из области статистике каматних стопа, децембар 2024.",
+   "updated": "2026-11-07T23:08:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2034&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26547,9 +26556,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20341&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности у децембру 2024. и на нивоу године",
+   "updated": "2026-11-07T23:08:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20343&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
