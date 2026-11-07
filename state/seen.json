@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T02:58:21+00:00",
-    "n": 1873,
+    "n": 1874,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T06:02:27+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T06:04:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-06",
   "last_run": {
-   "at": "2026-11-07T06:02:56+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-07T06:06:40+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -165,18 +165,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1875,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 1876,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "07.11.2026 06:02",
+    "first": "Нерезиденты (включая граждан России) испытывают практические трудности с доступом к средствам в Alta банке спустя неделю после закрытия",
+    "important": false,
+    "kind": "press",
+    "outlet": "021.rs",
+    "tags": [
+     "выплаты",
+     "клиенты",
+     "регулятор",
+     "сроки"
+    ],
+    "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
+    "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
+    "ts": 1794031600.5377429,
+    "url": "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune"
+   }
+  ]
  },
  "recent": [
   {
@@ -6560,6 +6578,17 @@
    "title": "ЕПС: все платежи за электроэнергию через Alta банку учтены в системе",
    "title_src": "EPS: Sva plaćanja računa za struju preko Alta banke u Beogradu uredno evidentirana",
    "updated": "2026-11-05T20:01:18+00:00"
+  },
+  "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune": {
+   "first_seen": "2026-11-07T06:06:40+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
+   "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
+   "updated": "2026-11-07T06:06:40+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
