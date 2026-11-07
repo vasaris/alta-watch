@@ -130,21 +130,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2169,
+    "n": 2170,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T15:54:13+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T15:56:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T15:54:38+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-07T15:58:39+00:00",
+   "elapsed_s": 145,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -165,18 +165,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2171,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2172,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "07.11.2026 15:55",
+    "first": "Конкретная сумма депозита города Лесковца: 78 млн динаров.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Beta",
+    "tags": [
+     "выплаты",
+     "суд",
+     "активы",
+     "требования"
+    ],
+    "title": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
+    "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+    "ts": 1794067119.859066,
+    "url": "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj"
+   }
+  ]
  },
  "recent": [
   {
@@ -1479,6 +1497,17 @@
    "title": "Шесть заинтересованных покупателей Alta банки Битоль; решение ожидается в понедельник",
    "title_src": "Slaveski: Za Alta banku Bitolj ima šest zainteresovanih kupaca",
    "updated": "2026-11-06T20:06:41+00:00"
+  },
+  "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
+   "first_seen": "2026-11-07T15:58:39+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
+   "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "updated": "2026-11-07T15:58:39+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
