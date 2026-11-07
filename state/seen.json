@@ -68,7 +68,7 @@
    "value": "3 ноября 2026 (решение Привредного суда Белграда № 10 СТ 275/2026)"
   },
   "license_revoked_date": {
-   "at": "2026-11-06T13:12:33+00:00",
+   "at": "2026-11-07T20:37:17+00:00",
    "history": [
     {
      "at": "2026-11-02T10:42:06+00:00",
@@ -84,11 +84,21 @@
      "at": "2026-11-02T16:27:07+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859",
      "value": "2 ноября 2026 (решение NBS об отзыве лицензии)"
+    },
+    {
+     "at": "2026-11-06T13:12:33+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876",
+     "value": "30 октября 2026"
+    },
+    {
+     "at": "2026-11-07T20:37:05+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882&konverzija=no",
+     "value": "06.11.2026"
     }
    ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876",
-   "value": "30 октября 2026"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876&konverzija=no",
+   "value": "30.10.2026"
   },
   "payout_bank": {
    "at": "2026-11-06T14:56:38+00:00",
@@ -130,23 +140,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2310,
+    "n": 2311,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T20:35:35+00:00",
+   "at": "2026-11-07T20:36:25+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T20:36:12+00:00",
-   "elapsed_s": 37,
-   "llm_calls": 0,
+   "at": "2026-11-07T20:37:55+00:00",
+   "elapsed_s": 89,
+   "llm_calls": 5,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 5,
    "version": "2.1"
   },
   "press": {
@@ -169,7 +179,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2312,
+   "ALTA": 2313,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -179,31 +189,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
-   "ts": 1793898869.7361906,
-   "url": "https://www.021.rs/info/biznis-i-ekonomija/460472/soskic-ogranicena-mogucnost-naplate-dugova-alta-banke-iz-licne-imovine-davora-macure"
-  },
-  {
-   "text": "ЕПС: все платежи за электроэнергию через Alta банку учтены в системе",
-   "ts": 1793902842.0424404,
-   "url": "https://www.danas.rs/vesti/ekonomija/eps-evidentirane-sve-uplate-preko-alta-banke"
-  },
-  {
-   "text": "Почтовая сбербасса и AOD подписали договор о выплате застрахованных вкладов клиентам Alta банке — Подписан договор между Банкой Поштанске штедионице и AOD о выплате застрахованных вкладов (дата подписания: 5 ноября 2026) — Официальное уведомление о дате начала, условиях и способе выплат будет объявл",
-   "ts": 1793906282.4612966,
-   "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita"
-  },
-  {
-   "text": "Журналист BIRN: где деньги, показанные в отчётах как наличность в сейфе Alta, и почему NBS не реагировала раньше — Финансовые отчёты Alta показывали ~40 млрд динаров наличности на конец 2024 года и свыше 50 млрд динаров на конец 2025 года. — NBS ранее требовала Alta переместить часть наличности из с",
-   "ts": 1793945327.6381848,
-   "url": "https://n1info.rs/biznis/novinar-birn-novac-alta-banka-nbs-ranije-reagovala"
-  },
-  {
-   "text": "АОД: заёмщики Alta банка должны продолжать платежи по кредитам на счёт NBS — Реквизиты счёта для платежей заёмщиков: динарский счёт NBS № 780-282-42 — Требование указывать номер партии кредита в назначении платежа",
-   "ts": 1793953247.6035123,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/141"
-  },
   {
    "text": "АОД: реквизиты счёта NBS для платежей по кредитам Alta банка — Платежи по кредитам Alta банка a.d. Beograd в процедуре банкротства выполняются на динарский счёт Народного банка Сербии № 780-282-42 — Это официальное уведомление от АОД (Агентства по страхованию вкладов) для заёмщиков банка",
    "ts": 1793955272.2865615,
@@ -378,6 +363,31 @@
    "text": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
    "ts": 1794068944.4010484,
    "url": "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj"
+  },
+  {
+   "text": "NBS: реквизиты платежей по кредитам Alta банки и ALTA GROUP; предупреждение о мошенничестве — Официальные реквизиты для платежей по кредитам: динарский счет NBS 780-282-42 (Alta банка) и счет 200-3408551901000-45 в Poštanske štedionica (ALTA GROUP) — NBS официально подтверждает различие статуса двух",
+   "ts": 1794083813.8972137,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884&konverzija=no"
+  },
+  {
+   "text": "NBS отозвала лицензию у Alta Group d.o.o. Beograd (мењач) и наложила штраф 250 млн динаров — Отзыв лицензии у Alta Group d.o.o. Beograd как мењача (отдельно от банка Alta banka a.d., закрытого 30.10.2026) — Штраф 250 млн динаров за серьёзные нарушения девизного законодательства и норм AML/CFT",
+   "ts": 1794083825.7149534,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882&konverzija=no"
+  },
+  {
+   "text": "NBS: инструкция для обменных пунктов Alta банка по переводу операций в другие банки — NBS издала специальное уведомление для обменных пунктов о процедуре перевода валютных операций в другие банки после закрытия Alta — Обменные пункты должны продать валюту, купленную у Alta банка, в сроки 15–30 дней ",
+   "ts": 1794083837.4914463,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876&konverzija=no"
+  },
+  {
+   "text": "NBS отказала ответить на вопросы о надзоре за Alta банкой — ссылается на тайну данных — NBS официально подтвердила, что Alta banka в 2026 году не получала кредитной поддержки или льгот от регулятора — NBS указала, что вопрос о возможности фальшивых отчётов о наличности находится в компетенции прокур",
+   "ts": 1794083853.5318975,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21870&konverzija=no"
+  },
+  {
+   "text": "NBS предупреждает о мошеннических СМС от имени AltaPay с требованиями погасить кредиты — Обнаружены поддельные СМС с ID 'AltaPay' и с неизвестных номеров, требующие погасить кредиты Alta банки — Мошенники указывают счета в Банке Поштанска штедионица для перевода платежей",
+   "ts": 1794083864.3437788,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21866&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -30136,9 +30146,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21848&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Позив за обављање праксе",
+   "updated": "2026-11-07T20:37:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21849": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -30335,17 +30346,54 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21866&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "cd78c56e8037d786",
+   "kind": "news",
+   "message_id": 245,
+   "novelty": 7,
+   "paras": [
+    "a17083d684",
+    "3d99783aff",
+    "0232c88398",
+    "892784d9f2",
+    "75e7ef63cf",
+    "2ca6fd75d1"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 8,
+   "sent_at": "2026-11-07T20:37:44+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "Народна банка Србије упозорава на преварне поруке у којима се корисници кредита Алта банке позивају да измире своје обав",
+   "updated": "2026-11-07T20:37:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21870&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "b9a34b41c3b66b96",
+   "kind": "news",
+   "message_id": 244,
+   "novelty": 5,
+   "paras": [
+    "a17083d684",
+    "5d6bf580af",
+    "5b347f0630"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 6,
+   "sent_at": "2026-11-07T20:37:33+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "активы",
+    "выплаты"
+   ],
+   "title": "БИРН  - питања у вези с пословањем и контролом Алта банке",
+   "updated": "2026-11-07T20:37:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21872": {
    "first_seen": "2026-11-05T13:44:30+00:00",
@@ -30366,9 +30414,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21874&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Kурс динара је стабилан а финансијски систем није угрожен",
+   "updated": "2026-11-07T20:37:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876": {
    "first_seen": "2026-11-06T13:12:33+00:00",
@@ -30395,10 +30444,28 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "c6637f78520e174e",
+   "kind": "news",
+   "message_id": 243,
+   "novelty": 5,
+   "paras": [
+    "a17083d684",
+    "3371603f4f",
+    "cbe9a4de80",
+    "2c4836c602"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 6,
+   "sent_at": "2026-11-07T20:37:17+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "банки",
+    "сроки"
+   ],
+   "title": "Обавештење овлашћеним мењачима који су имали закључен уговор са Алта банком о начину поступања",
+   "updated": "2026-11-07T20:37:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21877": {
    "first_seen": "2026-11-06T13:34:21+00:00",
@@ -30411,9 +30478,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21877&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T20:37:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21878": {
    "first_seen": "2026-11-06T13:54:25+00:00",
@@ -30426,9 +30494,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21878&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за октобар",
+   "updated": "2026-11-07T20:37:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882": {
    "first_seen": "2026-11-06T16:16:44+00:00",
@@ -30461,10 +30530,35 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "d3298e7e881eea2c",
+   "kind": "news",
+   "message_id": 242,
+   "novelty": 7,
+   "paras": [
+    "a17083d684",
+    "b331ee1107",
+    "d48037c458",
+    "14e320bded",
+    "317f7a755f",
+    "5a6314f82f",
+    "4825417761",
+    "8c26443801",
+    "23bef55cc3",
+    "82b4473e39"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 6,
+   "sent_at": "2026-11-07T20:37:05+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "активы",
+    "требования"
+   ],
+   "title": "Народна банка Србије одузела овлашћење за рад „Аlta Group d.o.o. Beograd“ овлашћеном мењачу и изрекла новчану казну од 2",
+   "updated": "2026-11-07T20:37:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21883": {
    "first_seen": "2026-11-06T17:22:31+00:00",
@@ -30477,9 +30571,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21883&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије континуирано прати пословање Банке Поштанска штедионица - Банка је солвентна и у потпуности извршав",
+   "updated": "2026-11-07T20:36:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884": {
    "first_seen": "2026-11-06T17:52:42+00:00",
@@ -30507,10 +30602,28 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "9e90b1a1f1aa4663",
+   "kind": "news",
+   "message_id": 241,
+   "novelty": 7,
+   "paras": [
+    "a17083d684",
+    "ff295057aa",
+    "7e4f11c395",
+    "6b49f33773",
+    "e201061a37",
+    "a45a79db7a"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 8,
+   "sent_at": "2026-11-07T20:36:53+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
+   "title": "Обавештење за кориснике кредита Алта банке у стечају и ALTA GROUP DOO Beograd",
+   "updated": "2026-11-07T20:36:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2189&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
