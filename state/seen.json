@@ -160,19 +160,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2342,
+    "n": 2343,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T21:38:13+00:00",
+   "at": "2026-11-07T21:40:21+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T21:38:54+00:00",
+   "at": "2026-11-07T21:41:03+00:00",
    "elapsed_s": 41,
    "llm_calls": 0,
    "llm_down": null,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2344,
+   "ALTA": 2345,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -28561,16 +28561,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21232&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Блумберг – питања у вези са ситуацијом на девизном тржишту",
+   "updated": "2026-11-07T21:40:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21233&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-07T21:40:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2124&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -28582,51 +28584,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21243&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јануару",
+   "updated": "2026-11-07T21:40:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21247&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Коме требају неистините интерпретације Извештаја  о инфлацији НБС?",
+   "updated": "2026-11-07T21:40:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21250&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Погодности за кориснике инстант плаћања на бензинским станицама НИС Петрол и Гаспром широм Србије",
+   "updated": "2026-11-07T21:40:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21252&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Успешно покренута ,,Трећа фаза Програма за јачање капацитета централних банака на Западном Балкану у оквиру интеграција ",
+   "updated": "2026-11-07T21:40:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21257&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење из области статистике каматних стопа, јануар 2026. године",
+   "updated": "2026-11-07T21:40:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21258&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Loan and deposit interest rate statistics – January 2026",
+   "updated": "2026-11-07T21:40:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21261&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске активности и показатеља с тржишта рада",
+   "updated": "2026-11-07T21:40:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21262&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -28653,9 +28662,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21264&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кредитни рејтинг Србије, према оцени агенције Moody’s, потврђен на нивоу од Ba2 – изгледи кредитног рејтинга стабилни",
+   "updated": "2026-11-07T21:40:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2127&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
