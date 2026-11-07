@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2410,
+    "n": 2411,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T23:52:14+00:00",
+   "at": "2026-11-07T23:54:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T23:53:13+00:00",
-   "elapsed_s": 59,
+   "at": "2026-11-07T23:55:01+00:00",
+   "elapsed_s": 46,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2412,
+   "ALTA": 2413,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -25159,72 +25159,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19666&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Делегација Републике Србије на Пролећном заседању Међународног монетарног фонда и Групације Светске банке",
+   "updated": "2026-11-07T23:54:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19667&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одложено плаћање или плаћање на рате без камате DinaCard картицама Банке Поштанскa штедионица, НЛБ Комерцијалне банке ил",
+   "updated": "2026-11-07T23:54:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19670&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем –  нови рекорд броја и вредности плаћања",
+   "updated": "2026-11-07T23:54:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19671&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић с компанијом Ракутен Вајбер о могућностима сарадње у области инстант плаћања",
+   "updated": "2026-11-07T23:54:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19676&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Институција електронског новца PAYSPOT DOO NOVI SAD прикључила се у IPS НБС систем",
+   "updated": "2026-11-07T23:54:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19678&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић на састанку Конституенце Швајцарске у Вашингтону",
+   "updated": "2026-11-07T23:54:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19680&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пролећно заседање Међународног монетарног фонда и Групације Светске банке – честитке на одличним резултатима, Србија је ",
+   "updated": "2026-11-07T23:54:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19682&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-07T23:54:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19683&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Друго републичко такмичење у едукативном квизу „Знамените личности на динарским новчаницама“",
+   "updated": "2026-11-07T23:54:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19685&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић учествовала на састанку Међународног монетарног и финансијског комитета",
+   "updated": "2026-11-07T23:54:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19687&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
