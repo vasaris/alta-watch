@@ -130,20 +130,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2174,
+    "n": 2175,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T16:04:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-07T16:06:37+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T16:06:24+00:00",
-   "elapsed_s": 132,
+   "at": "2026-11-07T16:07:04+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2176,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2177,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -3696,6 +3696,16 @@
    "title": "От обменника к краху: история расширения Alta Banka и владения Давора Макуры",
    "title_src": "Dosije Alta: Od menjačnice u Zemunu do banke na čiji račun plaćamo EPS-u, MUP-u... Kako se širilo poslovanje banke kojoj je NBS oduzela dozvolu za rad",
    "updated": "2026-11-01T17:00:31+00:00"
+  },
+  "https://nova.rs/vesti/biznis/grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
+   "first_seen": "2026-11-07T16:07:04+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj",
+   "status": "dup",
+   "title": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "updated": "2026-11-07T16:07:04+00:00"
   },
   "https://nova.rs/vesti/biznis/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
    "first_seen": "2026-11-03T06:36:44+00:00",
