@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T08:58:28+00:00",
-    "n": 1977,
+    "n": 1978,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T09:30:33+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-07T09:33:14+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T09:32:55+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-07T09:33:49+00:00",
+   "elapsed_s": 34,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 1979,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 1980,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -179,11 +179,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Шошкич: личное имущество владельца Alta ограниченно может быть использовано для возврата средств",
-   "ts": 1793895651.2813709,
-   "url": "https://beta.rs/content/255424-soskic-ogranicena-mogucnost-naplate-depozita-iz-licne-imovine-vlasnika-alta-banke"
-  },
   {
    "text": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
    "ts": 1793895651.281416,
@@ -378,6 +373,11 @@
    "text": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
    "ts": 1794033441.523752,
    "url": "https://www.021.rs/info/srbija/460616/nedelju-dana-od-gasenja-alta-banke-rusi-u-srbiji-ostali-bez-pristupa-novcu-tesko-otvaraju-nove-racune"
+  },
+  {
+   "text": "Закрытие Alta банка особенно ударило по русским предпринимателям в Сербии — Русские предприниматели в Сербии испытывают особые трудности с открытием счётов в других банках из-за санкций и строгих проверок происхождения средств. — Alta банк был выбран русскими гражданами именно потому, что другие кру",
+   "ts": 1794044027.9002557,
+   "url": "https://www.danas.rs/vesti/ekonomija/gasenje-alta-banke-posebno-pogodilo-ruse-u-srbiji-kako-ce-naplatiti-depozite-i-nastaviti-poslovanje"
   }
  ],
  "retry_items": {},
@@ -10298,6 +10298,26 @@
    "title": "FT: ECB проверяла Alta banku за отмывание денег; закрытие особенно ударило по русским в Сербии",
    "title_src": "FT: ECB proveravala srpsku Alta banku zbog sumnje na pranje novca, zatvaranje pogodilo Ruse u Srbiji",
    "updated": "2026-11-02T10:57:06+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/gasenje-alta-banke-posebno-pogodilo-ruse-u-srbiji-kako-ce-naplatiti-depozite-i-nastaviti-poslovanje": {
+   "first_seen": "2026-11-07T09:33:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 237,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-07T09:33:47+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "выплаты",
+    "требования",
+    "активы"
+   ],
+   "title": "Закрытие Alta банка особенно ударило по русским предпринимателям в Сербии",
+   "title_src": "Gašenje Alta banke posebno pogodilo Ruse u Srbiji: Kako će naplatiti depozite i nastaviti poslovanje?",
+   "updated": "2026-11-07T09:33:47+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/gradjanski-pokret-bravo-alta-gradonacelnik": {
    "first_seen": "2026-11-03T19:02:06+00:00",
