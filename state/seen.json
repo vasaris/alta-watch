@@ -160,23 +160,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2402,
+    "n": 2403,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T23:36:41+00:00",
+   "at": "2026-11-07T23:38:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T23:37:27+00:00",
-   "elapsed_s": 46,
-   "llm_calls": 0,
+   "at": "2026-11-07T23:39:00+00:00",
+   "elapsed_s": 47,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2404,
+   "ALTA": 2405,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -209,11 +209,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Выплаты застрахованных вкладов клиентам Alta банке начинаются 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 года — Банк-выплатчик подтверждён: Банка Поштанске штедионице a.d. Beograd",
-   "ts": 1793973281.5143623,
-   "url": "https://www.danas.rs/vesti/ekonomija/isplata-depozita-klijentima-alta-banke-pocinje-13-novembra"
-  },
   {
    "text": "AOD объявила дату начала выплат застрахованных вкладов: 13 ноября 2026 — Дата начала выплат: 13 ноября 2026 (ранее было известно только, что выплаты в течение 7 рабочих дней после решения суда от 3 ноября) — Конкретный курс евро: по среднему курсу от 3 ноября 2026 для валютных вкладов",
    "ts": 1793973528.986189,
@@ -408,6 +403,11 @@
    "text": "Alta Pay Group подключилась к системе мгновенных платежей NBS (07.11.2024) — Alta Pay Group d.o.o. Beograd (институция электронного денег) подключилась к системе IPS НБС для мгновенных платежей — Alta Pay Group получила статус косвенного участника системы через ALTA banka a.d. Beograd как прямого уч",
    "ts": 1794093765.4048874,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20156&konverzija=no"
+  },
+  {
+   "text": "Erste Bank подключила услугу «Prenesi» для мгновенных платежей — Erste Bank a.d. Novi Sad получила одобрение NBS и подключила услугу «Prenesi» для мгновенных платежей по номеру мобильного телефона получателя — Услуга доступна через мобильное приложение банка, работает круглосуточно и ежедневно",
+   "ts": 1794094722.4713101,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19938&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -25292,9 +25292,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19728&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији у среду, 14. августа од 10.30 часова",
+   "updated": "2026-11-07T23:38:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19730&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -25635,9 +25636,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19915&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-07T23:38:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1992&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -25649,37 +25651,60 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19920&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за јул",
+   "updated": "2026-11-07T23:38:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19921&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Корисно је да знате… Шта ново доносе измене и допуне Закона о платним услугама",
+   "updated": "2026-11-07T23:38:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19924&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T23:38:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19935&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-07T23:38:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19938&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "eacb75eb62abbda1",
+   "kind": "news",
+   "message_id": 255,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "c5d43e33c6",
+    "01cf5fe186",
+    "56a52c5fb2",
+    "fd8d3aeb92",
+    "eac50bf843"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 1,
+   "sent_at": "2026-11-07T23:38:42+00:00",
+   "status": "sent",
+   "tags": [
+    "банки",
+    "регулятор"
+   ],
+   "title": "Erste Bank a.d. Novi Sad омогућила својим корисницима инстант плаћање путем услуге „Prenesi”",
+   "updated": "2026-11-07T23:38:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1994&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -25691,23 +25716,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19940&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у јулу",
+   "updated": "2026-11-07T23:38:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19942&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Србија још ближа историјском успеху – агенција Fitch повећала изгледе Србије за добијање рејтинга инвестиционог ранга",
+   "updated": "2026-11-07T23:38:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19947&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу",
+   "updated": "2026-11-07T23:38:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19964&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
