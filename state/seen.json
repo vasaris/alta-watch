@@ -130,20 +130,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2173,
+    "n": 2174,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T16:03:08+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-07T16:04:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T16:03:34+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-07T16:06:24+00:00",
+   "elapsed_s": 132,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -165,13 +165,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2175,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2176,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -10381,6 +10381,16 @@
    "title": "Закрытие Alta банка особенно ударило по русским предпринимателям в Сербии",
    "title_src": "Gašenje Alta banke posebno pogodilo Ruse u Srbiji: Kako će naplatiti depozite i nastaviti poslovanje?",
    "updated": "2026-11-07T09:33:47+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
+   "first_seen": "2026-11-07T16:06:24+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj",
+   "status": "dup",
+   "title": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
+   "updated": "2026-11-07T16:06:24+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/gradjanski-pokret-bravo-alta-gradonacelnik": {
    "first_seen": "2026-11-03T19:02:06+00:00",
