@@ -130,23 +130,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T15:00:55+00:00",
-    "n": 2184,
+    "n": 2185,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T16:24:13+00:00",
+   "at": "2026-11-07T16:26:44+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T16:26:31+00:00",
-   "elapsed_s": 137,
+   "at": "2026-11-07T16:29:05+00:00",
+   "elapsed_s": 141,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -169,39 +169,16 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2186,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2187,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "07.11.2026 15:55",
-    "first": "Конкретная сумма депозита города Лесковца: 78 млн динаров.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Beta",
-    "tags": [
-     "выплаты",
-     "суд",
-     "активы",
-     "требования"
-    ],
-    "title": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
-    "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
-    "ts": 1794067119.859066,
-    "url": "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "ЕПС: все платежи за электроэнергию в Alta банке до отзыва лицензии учтены в системе",
-   "ts": 1793895651.281416,
-   "url": "https://www.rts.rs/vesti/ekonomija/6077358/eps-alta-banka.html"
-  },
   {
    "text": "Шошкич: личное имущество владельца Макуры ограниченно может покрыть долги Alta банке",
    "ts": 1793898869.7361906,
@@ -396,6 +373,11 @@
    "text": "Закрытие Alta банка особенно ударило по русским предпринимателям в Сербии — Русские предприниматели в Сербии испытывают особые трудности с открытием счётов в других банках из-за санкций и строгих проверок происхождения средств. — Alta банк был выбран русскими гражданами именно потому, что другие кру",
    "ts": 1794044027.9002557,
    "url": "https://www.danas.rs/vesti/ekonomija/gasenje-alta-banke-posebno-pogodilo-ruse-u-srbiji-kako-ce-naplatiti-depozite-i-nastaviti-poslovanje"
+  },
+  {
+   "text": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
+   "ts": 1794068944.4010484,
+   "url": "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj"
   }
  ],
  "retry_items": {},
@@ -1501,13 +1483,21 @@
   "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
    "first_seen": "2026-11-07T15:58:39+00:00",
    "kind": "press",
+   "message_id": 240,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-07T16:29:04+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "суд",
+    "активы",
+    "требования"
+   ],
    "title": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
    "title_src": "Grad Leskovac: Kod Alta banke deponovano 78 miliona dinara, preduzeti koraci za povraćaj",
-   "updated": "2026-11-07T15:58:39+00:00"
+   "updated": "2026-11-07T16:29:04+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
