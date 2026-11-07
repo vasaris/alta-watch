@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2341,
+    "n": 2342,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T21:36:43+00:00",
+   "at": "2026-11-07T21:38:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T21:37:44+00:00",
-   "elapsed_s": 61,
+   "at": "2026-11-07T21:38:54+00:00",
+   "elapsed_s": 41,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -181,7 +181,7 @@
   },
   "press": {
    "021": "ok:10",
-   "beta": "network_error",
+   "beta": "ok:10",
    "bizlife": "ok:10",
    "danas": "ok:50",
    "forbes": "ok:50",
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2343,
+   "ALTA": 2344,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -28631,9 +28631,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21262&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Economic activity and labour market indicators",
+   "updated": "2026-11-07T21:38:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21263": {
    "first_seen": "2026-10-31T11:17:01+00:00",
@@ -28644,9 +28645,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21263&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обраћање гувернера Јоргованке Табаковић на 33. Копаоник бизнис форуму",
+   "updated": "2026-11-07T21:38:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21264&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -28665,51 +28667,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21270&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у фебруару",
+   "updated": "2026-11-07T21:38:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21271&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T21:38:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21275&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије од 13. марта 2026. у SEPA регистру Европског платног савета",
+   "updated": "2026-11-07T21:38:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21276&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Погодности за кориснике инстант плаћања у Металац Маркет продавницама",
+   "updated": "2026-11-07T21:38:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21278&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Главна операција, реверзна репо трансакција на аукцији 4. марта",
+   "updated": "2026-11-07T21:38:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21281&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Телефон испред рачунара – у 2025. години мобилно банкарство коришћено више него електронско",
+   "updated": "2026-11-07T21:38:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21285&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„Корисно је да знате” – Какви су ефекти инфлације на домаћинства с различитом структуром потрошачке корпе?",
+   "updated": "2026-11-07T21:38:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21290&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -28722,9 +28731,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21292&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Употреба платних картица наставља да расте и у 2025. години",
+   "updated": "2026-11-07T21:38:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21293&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
