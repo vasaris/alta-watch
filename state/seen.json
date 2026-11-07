@@ -160,23 +160,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2387,
+    "n": 2388,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-07T23:06:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-07T23:08:57+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-07T23:08:46+00:00",
-   "elapsed_s": 152,
-   "llm_calls": 0,
+   "at": "2026-11-07T23:10:01+00:00",
+   "elapsed_s": 64,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2389,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2390,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -209,11 +209,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД опубликовала инструкцию для заёмщиков Alta банка по платежам по кредитам — АОД опубликовала официальное уведомление (инструкцию) специально для заёмщиков Alta банка с подробным описанием процедуры платежей по кредитам",
-   "ts": 1793962000.0997896,
-   "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-dala-uputstvo-o-izmirenju-obaveza-korisnicima-kredita-u-alta-banci"
-  },
   {
    "text": "NBS: инструкция для уполномоченных обменников, работавших с Alta банком — NBS издала уведомление для уполномоченных обменников, имевших договор с Alta банком a.d. Beograd — Лицензия Alta банка отозвана 30 октября 2026 года",
    "ts": 1793970753.033085,
@@ -408,6 +403,11 @@
    "text": "NBS: рост платежей в системе IPS НБС в 2024 году — В 2024 году в системе IPS НБС обработано 87,2 млн мгновенных платежей — на 30,2% больше, чем в 2023, и на 247,9% больше, чем в 2020 — Впервые превышена сумма в 1 трлн динаров за год; рост стоимости платежей на 45,5% к 2023 году",
    "ts": 1794091966.8417792,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20496&konverzija=no"
+  },
+  {
+   "text": "NBS: более 3 млн пользователей мобильного банкинга могут переводить деньги услугой «Пренеси» — NBS напоминает о сервисе «Пренеси» для переводов между счётами по номеру телефона получателя — Более 3 млн пользователей мобильного банкинга в Сербии могут выполнять такие транзакции",
+   "ts": 1794092984.1619642,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20282&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -26372,9 +26372,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20269&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење о резултатима рада Народне банке Србије у 2024. години",
+   "updated": "2026-11-07T23:09:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2027&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26386,9 +26387,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20271&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење из области статистике каматних стопа - новембар 2024.",
+   "updated": "2026-11-07T23:09:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20274&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26400,16 +26402,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20278&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Процене економских и спољнотрговинских кретања у 2024. години",
+   "updated": "2026-11-07T23:09:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20279&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Остварен двоструки раст уговора закључених на даљину",
+   "updated": "2026-11-07T23:09:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2028&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -26420,45 +26424,68 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20282&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "e11b02eb4768cf69",
+   "kind": "news",
+   "message_id": 253,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "57388f23fd",
+    "2fa5fc48af",
+    "54cf21104c",
+    "c2a13e865e",
+    "1ffc98ab59"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 1,
+   "sent_at": "2026-11-07T23:09:44+00:00",
+   "status": "sent",
+   "tags": [
+    "банки"
+   ],
+   "title": "Преко три милиона корисника апликације мобилног банкарства може преносити новац услугом „Пренеси”",
+   "updated": "2026-11-07T23:09:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20289&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за децембар",
+   "updated": "2026-11-07T23:09:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20290&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-07T23:09:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20293&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Повећано коришћење платних услуга употребом инстант плаћања",
+   "updated": "2026-11-07T23:09:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20295&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нема сметњи за трговину хартијама од вредности у иностранству, уз документ да се ради о законитом трговању",
+   "updated": "2026-11-07T23:09:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20298&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-07T23:09:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=203&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
