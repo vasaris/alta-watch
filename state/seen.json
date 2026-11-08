@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2688,
+    "n": 2689,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:18:16+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T09:21:01+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:20:45+00:00",
-   "elapsed_s": 149,
+   "at": "2026-11-08T09:21:46+00:00",
+   "elapsed_s": 44,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2690,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2691,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -46766,9 +46766,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9549&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати мартовске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T09:21:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=955&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46780,16 +46781,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9552&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Делегација Србије на Пролећном заседању Међународног монетарног фонда и Светске банке",
+   "updated": "2026-11-08T09:21:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9557&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Мере монетарне политике обезбеђују услове за инвестиције и привредни раст",
+   "updated": "2026-11-08T09:21:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=956&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46801,9 +46804,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9562&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Конкурс за доделу новинарске награде „Тања Станковић Бошков“",
+   "updated": "2026-11-08T09:21:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=957&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46843,30 +46847,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9602&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T09:21:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9604&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Биткоин неће заменити евро, нити било коју другу валуту",
+   "updated": "2026-11-08T09:21:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9607&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Европска комисија ревидирала навише пројекцију раста БДП-а Србије на 2%",
+   "updated": "2026-11-08T09:21:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9608&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за април",
+   "updated": "2026-11-08T09:21:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=961&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46885,9 +46893,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9628&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Година убрзања одрживог привредног раста",
+   "updated": "2026-11-08T09:21:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=963&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46899,9 +46908,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9631&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Разликовати појмове проблематичних и ненаплативих кредита",
+   "updated": "2026-11-08T09:21:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=964&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
