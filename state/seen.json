@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T15:05:54+00:00",
-    "n": 2914,
+    "n": 2915,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T16:52:14+00:00",
+   "at": "2026-11-08T16:54:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T16:52:45+00:00",
+   "at": "2026-11-08T16:54:44+00:00",
    "elapsed_s": 30,
-   "llm_calls": 0,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,7 +199,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2916,
+   "ALTA": 2917,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4527,6 +4527,18 @@
    "title": "Выборы в США: победа Демократической партии",
    "title_src": "Iz Crne Gore ka Alta banci poslato najmanje 2,9 miliona evra",
    "updated": "2026-11-04T13:27:01+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-sveta/mickoski-omogucio-macuri-da-stekne-vecinski-paket-akcija-u-alta-banci-bitolj": {
+   "first_seen": "2026-11-08T16:54:44+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Mickoski позволил Macuri приобрести пакет акций в Alta banci Bitolj",
+   "title_src": "„Mickoski omogućio Macuri da stekne većinski paket akcija u Alta banci Bitolj“",
+   "updated": "2026-11-08T16:54:44+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-sveta/slaveski-nije-bilo-milionskih-transakcija-iz-alta-banke-bitolj-nakon-26-oktobra": {
    "first_seen": "2026-11-04T09:36:54+00:00",
