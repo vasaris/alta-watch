@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2823,
+    "n": 2824,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:52:11+00:00",
+   "at": "2026-11-08T13:54:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:52:46+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-08T13:54:57+00:00",
+   "elapsed_s": 44,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2825,
+   "ALTA": 2826,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40077,23 +40077,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4841&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати тестирања кандидата који су се пријавили на оглас Народне банке Србије за пријем у 2011. години у радни однос ",
+   "updated": "2026-11-08T13:54:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4845&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о тестирању кандидата који су на основу постигнутих резултата ушли у следећу фазу селекције",
+   "updated": "2026-11-08T13:54:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4848&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јануару",
+   "updated": "2026-11-08T13:54:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=485&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40105,23 +40108,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4851&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Календар своп аукција",
+   "updated": "2026-11-08T13:54:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4856&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о роковима за достављање извештаја Сектору за контролу пословања банака",
+   "updated": "2026-11-08T13:54:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4858&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-08T13:54:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=486&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40133,16 +40139,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4861&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS и клиринг систему и међубанкарском клирингу за плаћања у девизама у фебруару",
+   "updated": "2026-11-08T13:54:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4866&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати тестирања кандидата који су се пријавили на оглас Народне банке Србије за пријем у 2011. години у радни однос ",
+   "updated": "2026-11-08T13:54:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=487&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40154,16 +40162,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4870&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о корекцији постигнутих резултата у другој фази селекције кандидата који су се пријавили на оглас Народне бан",
+   "updated": "2026-11-08T13:54:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4872&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 12,25  одсто",
+   "updated": "2026-11-08T13:54:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4875&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
