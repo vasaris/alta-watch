@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T15:05:54+00:00",
-    "n": 2926,
+    "n": 2927,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T17:16:17+00:00",
+   "at": "2026-11-08T17:18:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T17:16:39+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-08T17:18:57+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,7 +199,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2928,
+   "ALTA": 2929,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4423,6 +4423,18 @@
    "title": "Центральный банк Северной Македонии: крупных трансфертов между ALTA Битола и Сербией/Россией не выявлено",
    "title_src": "Centralna banka Severne Makedonije se oglasila o ALTA banci i transferima sa Srbijom i Rusijom",
    "updated": "2026-11-05T15:09:01+00:00"
+  },
+  "https://nova.rs/vesti/svet/dodikova-vlada-uzela-22-miliona-evra-od-alta-banke-u-spornoj-prodaji-jahorine-pominje-se-i-zvonko-veselinovic": {
+   "first_seen": "2026-11-08T17:18:57+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Правительство Республики Сербской заняло 22 млн евро у Alta банки; связи с земельной сделкой на Яхорине",
+   "title_src": "Dodikova vlada uzela 22 miliona evra od Alta banke: U spornoj prodaji Jahorine pominje se i Zvonko Veselinović",
+   "updated": "2026-11-08T17:18:57+00:00"
   },
   "https://nova.rs/vesti/svet/guverner-narodne-banke-severne-makedonije-za-alta-banku-bitolj-ima-sest-zainteresovanih-kupaca": {
    "first_seen": "2026-11-06T20:34:50+00:00",
@@ -49183,6 +49195,12 @@
    "title": "AOD объявил конкретные адреса отделений Поштанской сбербассы в Нови Саде для выплат застрахованных вкладов",
    "ts": "2026-11-06T16:00:45+00:00",
    "url": "https://t.me/novisadaily/20350"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Правительство Республики Сербской заняло 22 млн евро у Alta банки; связи с земельной сделкой на Яхорине",
+   "ts": "2026-11-08T17:18:14+00:00",
+   "url": "https://nova.rs/vesti/svet/dodikova-vlada-uzela-22-miliona-evra-od-alta-banke-u-spornoj-prodaji-jahorine-pominje-se-i-zvonko-veselinovic"
   }
  ]
 }
