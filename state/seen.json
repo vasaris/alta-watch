@@ -160,20 +160,30 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2576,
+    "n": 2577,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-08T05:37:59+00:00",
+    "n": 1,
+    "since": "2026-11-08T05:36:15+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-08T05:38:00+00:00",
+    "n": 1,
+    "since": "2026-11-08T05:36:15+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T05:33:32+00:00",
+   "at": "2026-11-08T05:36:15+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T05:36:03+00:00",
-   "elapsed_s": 151,
+   "at": "2026-11-08T05:39:13+00:00",
+   "elapsed_s": 177,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,9 +209,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2578,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2579,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -17297,72 +17307,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15042&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "JP MORGAN: Динар је реално вреднован – нити је прецењен, нити је потцењен",
+   "updated": "2026-11-08T05:38:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15051&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Отварање преговарачког поглавља 4 – Слободно кретање капитала",
+   "updated": "2026-11-08T05:38:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15053&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у новембру",
+   "updated": "2026-11-08T05:38:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15058&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T05:38:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15060&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у новембру",
+   "updated": "2026-11-08T05:38:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15072&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Још једна потврда успешне економске политике Србије – рејтинг агенција Standard and Poor’s повећала кредитни рејтинг Срб",
+   "updated": "2026-11-08T05:38:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15074&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Усвојени прописи ради подстицања кредитирања привреде у динарима",
+   "updated": "2026-11-08T05:38:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15085&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T05:38:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15090&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Позитивна оцена Европске комисије о усклађености регулаторног и супервизорског оквира за банке у Србији - потврда резулт",
+   "updated": "2026-11-08T05:38:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15091&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд донео одлуку о успешном завршетку трећег разматрања економског програма Србије",
+   "updated": "2026-11-08T05:38:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15097&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
