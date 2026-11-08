@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2652,
+    "n": 2653,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T08:06:14+00:00",
+   "at": "2026-11-08T08:08:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T08:07:07+00:00",
-   "elapsed_s": 52,
+   "at": "2026-11-08T08:08:50+00:00",
+   "elapsed_s": 37,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2654,
+   "ALTA": 2655,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -12837,9 +12837,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11471&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одржана конференција „Електронска трговина у Србији – сигуран пут за куповину на интернету”",
+   "updated": "2026-11-08T08:08:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1148&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12858,16 +12859,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11491&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одлука о садржају, роковима и начину достављања извештаја о проценама вредности непокретности које су предмет хипотеке и",
+   "updated": "2026-11-08T08:08:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11498&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:08:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=115&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12886,16 +12889,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11506&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у мају",
+   "updated": "2026-11-08T08:08:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11509&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Летња пракса у Народној банци Србије у 2017. години – обавештење о тестирању",
+   "updated": "2026-11-08T08:08:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1151&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12907,9 +12912,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11513&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у мају",
+   "updated": "2026-11-08T08:08:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1152&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12928,23 +12934,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11532&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција S&P задржала позитивне изгледе за побољшање кредитног рејтинга Србије",
+   "updated": "2026-11-08T08:08:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11533&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Fitch Ratings потврдила кредитни рејтинг Србије и стабилне изгледе за даље побољшање",
+   "updated": "2026-11-08T08:08:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11537&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати мајске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T08:08:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1154&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12956,9 +12965,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11541&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Отворен конкурс за нови логотип DinaCard платних картица",
+   "updated": "2026-11-08T08:08:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11549&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
