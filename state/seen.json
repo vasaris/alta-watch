@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2792,
+    "n": 2793,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:50:20+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T12:52:57+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:52:47+00:00",
-   "elapsed_s": 147,
+   "at": "2026-11-08T12:53:36+00:00",
+   "elapsed_s": 39,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2794,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2795,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -41701,72 +41701,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5563&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јануару",
+   "updated": "2026-11-08T12:53:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5564&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Народној банци Србије одржан турнир у друштвеној игри „Монетури“",
+   "updated": "2026-11-08T12:53:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5567&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Летња пракса",
+   "updated": "2026-11-08T12:53:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5574&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Оглас за пријем у радни однос на неодређено време лица  у Заводу за израду новчаница и кованог новца – Топчидер",
+   "updated": "2026-11-08T12:53:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5576&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске активности",
+   "updated": "2026-11-08T12:53:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5581&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Континуирани пад инфлације се наставља",
+   "updated": "2026-11-08T12:53:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5588&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије је независна институција чији је циљ одржање стабилности цена и финансијског система",
+   "updated": "2026-11-08T12:53:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5589&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије подноси жалбу Савету за штампу",
+   "updated": "2026-11-08T12:53:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5590&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета у RTGS-у и клиринг систему и међубанкарском клирингу у девизама у фебруару",
+   "updated": "2026-11-08T12:53:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5599&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на нивоу од 9,5%",
+   "updated": "2026-11-08T12:53:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=56&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
