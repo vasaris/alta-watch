@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2548,
+    "n": 2549,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:34:16+00:00",
+   "at": "2026-11-08T04:36:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:34:48+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-08T04:36:52+00:00",
+   "elapsed_s": 38,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2550,
+   "ALTA": 2551,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -18990,9 +18990,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15972&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T04:36:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1598&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19004,16 +19005,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15980&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за септембар 2020.",
+   "updated": "2026-11-08T04:36:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15983&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за септембар",
+   "updated": "2026-11-08T04:36:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19039,16 +19042,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16016&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије подсећа – повољнији услови динарског кредитирања у оквиру Гарантне шеме",
+   "updated": "2026-11-08T04:36:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16017&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Разговори с мисијом Међународног монетарног фонда у оквиру последњег разматрања економског програма подржаног Инструмент",
+   "updated": "2026-11-08T04:36:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1603&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19060,16 +19065,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16035&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наставља се тренд раста броја плаћања у IPS НБС систему",
+   "updated": "2026-11-08T04:36:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16038&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:36:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1604&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19081,23 +19088,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16041&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Упоредни преглед и поређење пројекција Народне банке Србије и појединих међународних финансијских институција – објектив",
+   "updated": "2026-11-08T04:36:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16044&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у септембру",
+   "updated": "2026-11-08T04:36:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16048&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Трендови прања новца и финансирања тероризма у чланицама Манивала током кризе изазване пандемијом вируса корона",
+   "updated": "2026-11-08T04:36:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1605&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
