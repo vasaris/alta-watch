@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2465,
+    "n": 2466,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T01:44:14+00:00",
+   "at": "2026-11-08T01:46:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T01:44:43+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-08T01:47:17+00:00",
+   "elapsed_s": 60,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2467,
+   "ALTA": 2468,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -23092,30 +23092,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18589&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 5%",
+   "updated": "2026-11-08T01:47:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18591&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Неуспео покушај оружане пљачке новца у Лепосавићу",
+   "updated": "2026-11-08T01:47:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18594&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије  усвојила  прописe у циљу подршке становништву",
+   "updated": "2026-11-08T01:47:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18598&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Standard and Poor’s задржала кредитни рејтинг Србије на корак до инвестиционог",
+   "updated": "2026-11-08T01:46:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=186&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -23127,44 +23131,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18600&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у новембру",
+   "updated": "2026-11-08T01:46:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18602&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T01:46:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18604&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у новембру",
+   "updated": "2026-11-08T01:46:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18610&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T01:46:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18611&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд одобрио Србији стендбај аранжман",
+   "updated": "2026-11-08T01:46:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18615&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд одобрио Србији стендбај аранжман – потврђена опредељеност Србије за даље спровођење структурн",
+   "updated": "2026-11-08T01:46:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18617&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
