@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2833,
+    "n": 2834,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T14:14:00+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T14:14:37+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T14:14:25+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-08T14:17:23+00:00",
+   "elapsed_s": 166,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
-   "nbs": 40
+   "aod": 0,
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2835,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2836,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -39580,16 +39580,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4657&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  22. новембар 2010.",
+   "updated": "2026-11-08T14:17:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4659&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Аукција краткорочних динарских кредита  на дан 23. новембар",
+   "updated": "2026-11-08T14:17:09+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=466&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39601,23 +39603,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4660&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  24. новембар 2010.",
+   "updated": "2026-11-08T14:17:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4663&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пуштање у оптицај новчанице од 5000 динара издања Народне банке Србије 2010. године",
+   "updated": "2026-11-08T14:17:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4665&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "DinaCard се прихвата и у иностранству",
+   "updated": "2026-11-08T14:17:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=467&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39629,30 +39634,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4670&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  29. новембар 2010.",
+   "updated": "2026-11-08T14:17:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4675&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање цена на мало",
+   "updated": "2026-11-08T14:17:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4676&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T14:17:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4678&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак правних лица која су обуставила плаћања",
+   "updated": "2026-11-08T14:17:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=468&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39664,9 +39673,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4683&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нацрт Закона о заштити корисника финансијских услуга",
+   "updated": "2026-11-08T14:16:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4686&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
