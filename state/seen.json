@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2616,
+    "n": 2617,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T06:54:13+00:00",
+   "at": "2026-11-08T06:56:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T06:55:19+00:00",
-   "elapsed_s": 66,
+   "at": "2026-11-08T06:57:01+00:00",
+   "elapsed_s": 45,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2618,
+   "ALTA": 2619,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -14363,9 +14363,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=12727&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о полагању стручног испита за стицање звања овлашћеног посредника и овлашћеног заступника у осигурању",
+   "updated": "2026-11-08T06:56:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1273&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15182,9 +15183,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13394&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у септембру",
+   "updated": "2026-11-08T06:56:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=134&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15203,9 +15205,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13407&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Напредак Србије на међународној листи конкурентности остварен захваљујући повољнијем макроекономском окружењу и стабилно",
+   "updated": "2026-11-08T06:56:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1341&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15217,9 +15220,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13410&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати септембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T06:56:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1342&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15231,9 +15235,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13422&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пуштен у рад систем за инстант плаћања IPS НБС",
+   "updated": "2026-11-08T06:56:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1343&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15252,9 +15257,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13443&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије обележава Светску недељу штедње од 29. октобра до 2. новембра",
+   "updated": "2026-11-08T06:56:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1345&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15266,9 +15272,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13451&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Значај штедње грађана – динарска штедња исплативија од девизне штедње",
+   "updated": "2026-11-08T06:56:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1346&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15280,9 +15287,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13464&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T06:56:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1347&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15301,9 +15309,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13486&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T06:56:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13488&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19070,9 +19079,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15877&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T06:56:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15881&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
