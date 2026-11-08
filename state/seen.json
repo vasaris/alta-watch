@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2820,
+    "n": 2821,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:46:37+00:00",
+   "at": "2026-11-08T13:48:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:47:32+00:00",
-   "elapsed_s": 54,
+   "at": "2026-11-08T13:49:01+00:00",
+   "elapsed_s": 44,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2822,
+   "ALTA": 2823,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40357,9 +40357,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4939&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Инструменти заштите од девизног ризика на располагању привредницима",
+   "updated": "2026-11-08T13:48:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=494&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40371,23 +40372,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4940&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Динарска штедња и даље исплативија",
+   "updated": "2026-11-08T13:48:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4941&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T13:48:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4945&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS и клиринг систему и међубанкарском клирингу за плаћања у девизама у априлу",
+   "updated": "2026-11-08T13:48:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=495&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40413,16 +40417,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4977&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на нивоу од 12,5 одсто",
+   "updated": "2026-11-08T13:48:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4978&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у априлу",
+   "updated": "2026-11-08T13:48:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=498&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40434,16 +40440,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4987&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Републички завод за статистику у процени реалног БДП-а у потпуности користи  међународне стандарде и методологију",
+   "updated": "2026-11-08T13:48:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4988&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији на сајту Народне банке Србије",
+   "updated": "2026-11-08T13:48:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=499&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40455,16 +40463,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4995&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели разговори с мисијом Међународног монетарног фонда",
+   "updated": "2026-11-08T13:48:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4998&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Измене и допуне Закона о добровољним пензијским фондовима и пензијским плановима",
+   "updated": "2026-11-08T13:48:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4999&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
