@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2660,
+    "n": 2661,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T08:23:09+00:00",
+   "at": "2026-11-08T08:24:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T08:23:47+00:00",
-   "elapsed_s": 37,
+   "at": "2026-11-08T08:24:58+00:00",
+   "elapsed_s": 45,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2662,
+   "ALTA": 2663,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -12242,9 +12242,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11003&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији на сајту Народне банке Србије у среду, 22. фебруара",
+   "updated": "2026-11-08T08:24:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1101&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12256,16 +12257,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11010&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић одржала предавање студентима Економског факултета из Ниша",
+   "updated": "2026-11-08T08:24:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11014&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о изменама и допунама подзаконских аката у делатности осигурања која се односе на стицање звања овлашћеног по",
+   "updated": "2026-11-08T08:24:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1102&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12277,9 +12280,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11026&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије и Математички факултет потписали Меморандум о пословној сарадњи",
+   "updated": "2026-11-08T08:24:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1103&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12291,16 +12295,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11032&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јануару 2017.",
+   "updated": "2026-11-08T08:24:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11034&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати јануарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T08:24:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1104&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12312,16 +12318,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11044&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске активности",
+   "updated": "2026-11-08T08:24:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11048&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за фебруар",
+   "updated": "2026-11-08T08:24:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1105&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12347,9 +12355,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11072&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на Бизнис форуму на Копаонику",
+   "updated": "2026-11-08T08:24:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1108&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19439,9 +19448,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15898&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:24:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=159&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
