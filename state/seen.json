@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2647,
+    "n": 2648,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T07:57:00+00:00",
+   "at": "2026-11-08T07:58:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T07:57:40+00:00",
-   "elapsed_s": 40,
+   "at": "2026-11-08T07:58:52+00:00",
+   "elapsed_s": 39,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2649,
+   "ALTA": 2650,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -13061,9 +13061,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11666&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Завршена израда свих поручених здравствених картица",
+   "updated": "2026-11-08T07:58:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1167&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -13089,9 +13090,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11693&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Забрана неовлашћеног пружања платних услуга није онемогућавање онлајн плаћања",
+   "updated": "2026-11-08T07:58:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=117&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -13110,16 +13112,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11702&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T07:58:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11704&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за јул",
+   "updated": "2026-11-08T07:58:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1171&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -13138,9 +13142,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11727&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пет година рада гувернера Јоргованке Табаковић – резултати у корист грађана и привреде",
+   "updated": "2026-11-08T07:58:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1173&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -13159,23 +13164,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11740&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Народне банке Словачке у посети Народној банци Србије",
+   "updated": "2026-11-08T07:58:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11745&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Отворена изложба Народне банке Словачке “Од бијатека до евра” на Славији",
+   "updated": "2026-11-08T07:58:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11749&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у јулу",
+   "updated": "2026-11-08T07:58:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1175&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -13187,9 +13195,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11755&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу",
+   "updated": "2026-11-08T07:58:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11758&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19334,9 +19343,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15892&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T07:58:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15893&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
