@@ -160,20 +160,30 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2508,
+    "n": 2509,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-08T03:17:25+00:00",
+    "n": 1,
+    "since": "2026-11-08T03:15:25+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-08T03:17:25+00:00",
+    "n": 1,
+    "since": "2026-11-08T03:15:25+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:12:48+00:00",
+   "at": "2026-11-08T03:15:25+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:15:15+00:00",
-   "elapsed_s": 146,
+   "at": "2026-11-08T03:18:12+00:00",
+   "elapsed_s": 166,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,12 +206,12 @@
   "sources": {
    "alta": 0,
    "aod": 0,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2510,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2511,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -21147,51 +21157,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17469&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије едукативним активностима обележава Светску недељу штедње",
+   "updated": "2026-11-08T03:18:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17476&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T03:18:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17478&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Монетарна политика Народне банке Србије – испуњавање циљева у интересу грађана и привреде",
+   "updated": "2026-11-08T03:17:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17484&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у октобру",
+   "updated": "2026-11-08T03:17:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17485&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T03:17:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17492&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Banca Intesa a.d. Beograd омогућила својим корисницима инстант плаћање путем услуге „Prenesi“",
+   "updated": "2026-11-08T03:17:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17494&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T03:17:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=175&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21203,9 +21220,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17503&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у октобру",
+   "updated": "2026-11-08T03:17:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1752&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21217,16 +21235,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17520&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у октобру",
+   "updated": "2026-11-08T03:17:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17522&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање Дина картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-08T03:17:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17524&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
