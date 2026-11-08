@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2417,
+    "n": 2418,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T00:06:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T00:09:17+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T00:09:04+00:00",
-   "elapsed_s": 170,
-   "llm_calls": 0,
+   "at": "2026-11-08T00:10:49+00:00",
+   "elapsed_s": 92,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2419,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2420,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -5598,6 +5598,18 @@
    "title": "Центральный банк Северной Македонии начал переговоры о продаже Alta banka Bitola с шестью инвесторами",
    "title_src": "В Северной Македонии начали поиск покупателя для Alta banka — переговоры ведутся с шестью инвесторами Центральный банк Северной Македонии 6 ноября сообщил ⁠ о начале переговоров по продаже Alta banka в городе Битола,…",
    "updated": "2026-11-07T09:32:55+00:00"
+  },
+  "https://t.me/Serbia/107635": {
+   "first_seen": "2026-11-08T00:10:49+00:00",
+   "kind": "telegram",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Raiffeisen получил согласие акционеров на покупку 95,74% Addiko Bank",
+   "title_src": "Raiffeisen получил согласие акционеров на приобретение 95,74% Addiko Bank Австрийская Raiffeisen Bank International (RBI) сообщила ⁠ об итогах предложения по покупке Addiko Bank. После завершения сделки RBI рассчитывает…",
+   "updated": "2026-11-08T00:10:49+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -24872,72 +24884,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19517&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији од 10.30 часова",
+   "updated": "2026-11-08T00:10:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19519&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Полугодишња анализа исплативости штедње – динарска штедња бележи рекордан раст и износе и наставља да буде исплативија о",
+   "updated": "2026-11-08T00:10:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19528&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Привремене приштинске институције поново су противправно и самовољно онемогућиле нужно снабдевање српског народа динарим",
+   "updated": "2026-11-08T00:10:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19530&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јануару",
+   "updated": "2026-11-08T00:10:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19534&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на Оснивачкој скупштини Удружења за банкарско право",
+   "updated": "2026-11-08T00:10:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19537&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Инстант плаћање такса и накнада у Републици Србији на порталу Еуправа скенирањем НБС IPS QR кôда",
+   "updated": "2026-11-08T00:10:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19538&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T00:10:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19545&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Све популарније плаћање мобилним телефоном",
+   "updated": "2026-11-08T00:10:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19560&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T00:10:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19562&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обраћање гувернера Јоргованке Табаковић на 31. Копаоник бизнис форуму",
+   "updated": "2026-11-08T00:10:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19567&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
