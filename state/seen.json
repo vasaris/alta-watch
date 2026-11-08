@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2702,
+    "n": 2703,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:46:12+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T09:48:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:47:05+00:00",
-   "elapsed_s": 52,
+   "at": "2026-11-08T09:50:45+00:00",
+   "elapsed_s": 149,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2704,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2705,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -45794,9 +45794,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8870&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Закон о платним услугама за модеран, ефикасан и поуздан платни систем",
+   "updated": "2026-11-08T09:50:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=888&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45808,9 +45809,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8888&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије донирала две тоне намирница Народној кухињи Српске православне цркве",
+   "updated": "2026-11-08T09:50:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=889&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45822,9 +45824,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8898&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Значај штедње грађана",
+   "updated": "2026-11-08T09:50:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=89&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45843,16 +45846,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8901&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд донео одлуку о успешном завршетку друге ревизије аранжмана",
+   "updated": "2026-11-08T09:50:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8906&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Потписан споразум између Народне банке Србије и Агенције за супервизију осигурања Македоније",
+   "updated": "2026-11-08T09:50:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=891&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45864,16 +45869,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8913&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати септембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T09:50:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8916&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије потписала споразум о сарадњи са Европским телом за банкарство и супервизорима југоисточне Европе",
+   "updated": "2026-11-08T09:50:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=892&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45885,9 +45892,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8926&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T09:50:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=893&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45899,16 +45907,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8930&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Републике Србије",
+   "updated": "2026-11-08T09:50:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8935&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за октобар",
+   "updated": "2026-11-08T09:50:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=894&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
