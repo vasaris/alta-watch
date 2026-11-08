@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2617,
+    "n": 2618,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T06:56:16+00:00",
+   "at": "2026-11-08T06:58:16+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T06:57:01+00:00",
-   "elapsed_s": 45,
+   "at": "2026-11-08T06:59:02+00:00",
+   "elapsed_s": 46,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2619,
+   "ALTA": 2620,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -15057,9 +15057,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13311&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори са мисијом Међународног монетарног фонда",
+   "updated": "2026-11-08T06:58:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1332&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15078,16 +15079,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13331&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Банка Интеза омогућила прихватање Дина картица на интернету",
+   "updated": "2026-11-08T06:58:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13334&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T06:58:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1334&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15099,9 +15102,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13341&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за септембар",
+   "updated": "2026-11-08T06:58:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1335&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15113,9 +15117,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13352&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање електронских услуга на порталу Агенције за привредне регистре убудуће и DinaCard платном картицом",
+   "updated": "2026-11-08T06:58:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1336&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15127,9 +15132,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13365&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о полагању стручног испита за обављање послова информисања о чланству у добровољном пензијском фонду за новем",
+   "updated": "2026-11-08T06:58:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1337&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15141,9 +15147,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13372&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T06:58:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1338&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15155,16 +15162,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13381&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Делегација Републике Србије на Годишњој скупштини Међународног монетарног фонда и Групације Светске банке",
+   "updated": "2026-11-08T06:58:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13388&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у септембру",
+   "updated": "2026-11-08T06:58:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1339&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15176,9 +15185,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13392&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Циљ новог аранжмана са ММФ-ом јесте убрзање раста на одрживим основама",
+   "updated": "2026-11-08T06:58:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13394&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
