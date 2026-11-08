@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2696,
+    "n": 2697,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:34:40+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T09:37:28+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:37:17+00:00",
-   "elapsed_s": 157,
+   "at": "2026-11-08T09:38:02+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2698,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2699,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -46199,16 +46199,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9126&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови извештај Народне банке Србије – Трендови у кредитној активности",
+   "updated": "2026-11-08T09:37:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9128&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Закључена прва репо трансакција између банака – корак ка даљем развоју домаћег финансијског тржишта",
+   "updated": "2026-11-08T09:37:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=913&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46220,9 +46222,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9137&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије не промовише себе већ се бави финансијском едукацијом деце и омладине",
+   "updated": "2026-11-08T09:37:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=914&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46234,9 +46237,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9144&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије добитник признања „Мој избор” за волонтерско ангажовање и солидарност запослених",
+   "updated": "2026-11-08T09:37:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=915&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46248,23 +46252,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9151&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије у 2015. години обезбедила стабилност цена и курса и стабилност финансијског система",
+   "updated": "2026-11-08T09:37:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9156&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Очувана ценовна стабилност у 2015. години",
+   "updated": "2026-11-08T09:37:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9157&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Процене економске и спољнотрговинске активности у 2015. години",
+   "updated": "2026-11-08T09:37:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=916&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46276,16 +46283,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9165&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пад каматних стопа банака на новоодобрене динарске кредите настављен и у новембру",
+   "updated": "2026-11-08T09:37:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9169&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије припремила пакетиће за децу и омладину са сметњама у развоју",
+   "updated": "2026-11-08T09:37:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=917&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46297,9 +46306,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9171&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за децембар",
+   "updated": "2026-11-08T09:37:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=918&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
