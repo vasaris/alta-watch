@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2771,
+    "n": 2772,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:08:15+00:00",
+   "at": "2026-11-08T12:10:27+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:08:45+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-08T12:11:08+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,7 +199,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2773,
+   "ALTA": 2774,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -10905,6 +10905,18 @@
    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
    "updated": "2026-11-04T13:51:05+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
+   "first_seen": "2026-11-08T12:11:08+00:00",
+   "kind": "press",
+   "novelty": 9,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Центробанк Северной Македонии повысил лимиты снятия в Alta банке Битоль и открыл отделения в Тетове и Струмице",
+   "title_src": "Povećava se limit za podizanje novca u Alta banci Bitolj i otvaraju šalteri u Tetovu i Strumici",
+   "updated": "2026-11-08T12:11:08+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-izabrana-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:12:58+00:00",
