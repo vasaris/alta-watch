@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2806,
+    "n": 2807,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:18:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T13:20:59+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:20:45+00:00",
-   "elapsed_s": 151,
+   "at": "2026-11-08T13:21:44+00:00",
+   "elapsed_s": 45,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2808,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2809,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -41120,72 +41120,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5249&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Република Србија издала десетогодишње еврообвезнице",
+   "updated": "2026-11-08T13:21:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5253&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Уводни говор гувернера Дејана Шошкића на Деветој међународној конференцији централне банке Албаније „Финансијским описме",
+   "updated": "2026-11-08T13:21:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5259&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T13:21:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5260&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије пушта у оптицај новчанице од 10, 20 и 200 динара",
+   "updated": "2026-11-08T13:21:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5264&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак правних лица која су обуставила плаћања у непрекидном трајању од две године",
+   "updated": "2026-11-08T13:21:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5265&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак кандидата за похађање обуке за стицање цертификата за обављање мењачких послова",
+   "updated": "2026-11-08T13:21:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5266&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије добитник овогодишње награде за унапређење права на слободан приступ информацијама",
+   "updated": "2026-11-08T13:21:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5268&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "ММФ одобрио Србији стендбај-аранжман из предострожности",
+   "updated": "2026-11-08T13:21:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5271&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Информација о раду RTGS и клиринг система и међународног клиринга у девизама за септембар 2011.",
+   "updated": "2026-11-08T13:21:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5273&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Представници Народне банке Србије одржали едукативне радионице за децу Краљева",
+   "updated": "2026-11-08T13:21:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5280&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
