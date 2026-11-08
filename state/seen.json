@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2727,
+    "n": 2728,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T10:37:05+00:00",
+   "at": "2026-11-08T10:38:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T10:37:41+00:00",
-   "elapsed_s": 36,
+   "at": "2026-11-08T10:38:53+00:00",
+   "elapsed_s": 41,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2729,
+   "ALTA": 2730,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -44510,72 +44510,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7811&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у новембру",
+   "updated": "2026-11-08T10:38:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7815&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у новембру",
+   "updated": "2026-11-08T10:38:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7822&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије дала дозволу за рад банци из Уједињених Арапских Емирата",
+   "updated": "2026-11-08T10:38:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7826&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тржишта земаља у развоју под јаким притиском изазваним изласком страних инвеститора",
+   "updated": "2026-11-08T10:38:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7830&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Народне банке Србије Јоргованка Табаковић разговарала са председником Кинеске развојне банке",
+   "updated": "2026-11-08T10:38:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7836&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Усвојене измене и допуне Одлуке о класификацији и измене Стратегије за увођење стандарда Базелa III у Републици Србији",
+   "updated": "2026-11-08T10:38:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7840&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије припремила предлоге нових законских решења о реструктурирању банака",
+   "updated": "2026-11-08T10:38:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7842&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Запослени користе само услуге из обавезног здравственог осигурања",
+   "updated": "2026-11-08T10:38:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7855&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови Закон о осигурању уводи боље механизме за заштиту грађана",
+   "updated": "2026-11-08T10:38:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7861&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кинески јуан уведен на листу валута којима се тргује на девизном тржишту",
+   "updated": "2026-11-08T10:38:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=7872&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
