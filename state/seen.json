@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2525,
+    "n": 2526,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:48:12+00:00",
+   "at": "2026-11-08T03:50:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:48:52+00:00",
-   "elapsed_s": 39,
+   "at": "2026-11-08T03:51:05+00:00",
+   "elapsed_s": 42,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2527,
+   "ALTA": 2528,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -20244,23 +20244,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16907&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у априлу",
+   "updated": "2026-11-08T03:50:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16912&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Додатно снижене трговачке накнаде при плаћању платним картицама",
+   "updated": "2026-11-08T03:50:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16914&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Procredit bank a.d. Beograd oмогућила својим корисницима плаћање путем НБС IPS QR кoда",
+   "updated": "2026-11-08T03:50:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1692&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20272,23 +20275,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16921&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић за портал Biznis.rs у вези са „све чешћим поновним враћањем идеје о фиксном курсу”",
+   "updated": "2026-11-08T03:50:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16922&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање DinaCard картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-08T03:50:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16927&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у априлу",
+   "updated": "2026-11-08T03:50:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1693&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20300,16 +20306,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16932&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у априлу",
+   "updated": "2026-11-08T03:50:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16942&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T03:50:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1695&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20321,16 +20329,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16953&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера на презентацији Извештаја о инфлацији – мај 2021.",
+   "updated": "2026-11-08T03:50:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16959&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати априлске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T03:50:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16963&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
