@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2796,
+    "n": 2797,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:58:14+00:00",
+   "at": "2026-11-08T13:00:44+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:58:37+00:00",
-   "elapsed_s": 22,
+   "at": "2026-11-08T13:01:39+00:00",
+   "elapsed_s": 54,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2798,
+   "ALTA": 2799,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -41554,23 +41554,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5488&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на 9,5 одсто",
+   "updated": "2026-11-08T13:01:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5493&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Дејана Шошкића одржан у Европској централној банци поводом завршетка Програма сарадње Евросистема чији ј",
+   "updated": "2026-11-08T13:01:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5494&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Потписана друга транша четвртог Апекс зајма за мала и средња предузећа и предузећа средње тржишне капитализације",
+   "updated": "2026-11-08T13:01:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=55&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41582,51 +41585,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5501&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Народној банци Србије свечано уручене награде за најбоље научноистраживачке радове у области економије",
+   "updated": "2026-11-08T13:01:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5505&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Др Михаел Ерман, саветник у Европској централној банци, одржао предавање на истраживачком семинару у Народној банци Срби",
+   "updated": "2026-11-08T13:01:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5506&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T13:01:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5509&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак правних лица која су обуставила плаћања у непрекидном трајању од једне године",
+   "updated": "2026-11-08T13:01:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5512&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Уредници часописа „PC press“ уврстили сајт Народне банке Србије у листу 50 најбољих домаћих веб-презентација за 2011. го",
+   "updated": "2026-11-08T13:01:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5515&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Разговори представника Републике Србије с мисијом Међународног монетарног фонда",
+   "updated": "2026-11-08T13:01:14+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5516&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета у RTGS-у и клиринг систему и међународном клирингу у девизама у јануару",
+   "updated": "2026-11-08T13:01:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5520&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
