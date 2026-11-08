@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2527,
+    "n": 2528,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:52:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T03:54:59+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:54:46+00:00",
-   "elapsed_s": 153,
+   "at": "2026-11-08T03:55:40+00:00",
+   "elapsed_s": 40,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2529,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2530,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -20068,16 +20068,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16815&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вицегувернер Ана Ивковић учествовала на састанку Конституенце Швајцарске у Међународном монетарном фонду и Светској банц",
+   "updated": "2026-11-08T03:55:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16819&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање на рате Дина картицом Банке Поштанскa штедионица у објектима Maxi, Tempo, Shop&Go и MegaMaxi",
+   "updated": "2026-11-08T03:55:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16826&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20090,58 +20092,66 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16830&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић за портал Бизнис.рс о томе шта је Србију сврстало међу земље с најбољим резултатима у прој",
+   "updated": "2026-11-08T03:55:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16832&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у марту",
+   "updated": "2026-11-08T03:55:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16834&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у марту",
+   "updated": "2026-11-08T03:55:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16837&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Србије",
+   "updated": "2026-11-08T03:55:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16839&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић учествовала на конференцији с гувернерима централних банака и министрима финансија земаља ",
+   "updated": "2026-11-08T03:55:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16843&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T03:55:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16847&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "ЈП „Пошта Србије” на својим шалтерима омогућила инстант плаћање накнада, такса и других трошкова у корист рачуна органа ",
+   "updated": "2026-11-08T03:55:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16852&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Уводни говор гувернера Јоргованке Табаковић на конференцији “MONEY FAIR 21”",
+   "updated": "2026-11-08T03:55:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16853&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
