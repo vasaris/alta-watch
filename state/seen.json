@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2544,
+    "n": 2545,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:26:14+00:00",
+   "at": "2026-11-08T04:28:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:26:52+00:00",
-   "elapsed_s": 38,
+   "at": "2026-11-08T04:28:54+00:00",
+   "elapsed_s": 39,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2546,
+   "ALTA": 2547,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -19123,9 +19123,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16074&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у септембру",
+   "updated": "2026-11-08T04:28:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1609&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19137,9 +19138,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16094&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Vojvođanska banka a.d. Novi Sad омогућила својим корисницима инстант плаћање на продајним местима, као и плаћање рачуна ",
+   "updated": "2026-11-08T04:28:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=161&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19151,16 +19153,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16113&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Подизање готовине уз куповину Дина картицом на бензинским станицама компаније НИС а. д. Нови Сад",
+   "updated": "2026-11-08T04:28:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16116&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић учествовала на пленарном састанку Међународног монетарног и финансијског комитета и састан",
+   "updated": "2026-11-08T04:28:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1612&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19172,9 +19176,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16121&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Завршени званични разговори мисије Међународног монетарног фонда с делегацијом Републике Србије",
+   "updated": "2026-11-08T04:28:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1614&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19186,9 +19191,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16146&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Ауторски текст гувернера Јоргованке Табаковић за магазин “The Banker”, октобар 2020.",
+   "updated": "2026-11-08T04:28:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1615&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19207,9 +19213,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16190&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Две године рада система за инстант плаћања Народне банке Србије – IPS НБС система",
+   "updated": "2026-11-08T04:28:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=162&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19221,9 +19228,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16203&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић учествовала на конференцији генералног директора Међународног монетарног фонда с гувернери",
+   "updated": "2026-11-08T04:28:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16217&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19235,16 +19243,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16218&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Представници Народне банке Србије на састанку Пододбора за економска и финансијска питања",
+   "updated": "2026-11-08T04:28:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16223&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Раст штедње упркос пандемији – динарска штедња и даље исплативија од девизне",
+   "updated": "2026-11-08T04:28:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16232&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
