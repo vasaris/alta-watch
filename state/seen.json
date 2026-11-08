@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2618,
+    "n": 2619,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T06:58:16+00:00",
+   "at": "2026-11-08T07:00:41+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T06:59:02+00:00",
-   "elapsed_s": 46,
+   "at": "2026-11-08T07:01:20+00:00",
+   "elapsed_s": 39,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2620,
+   "ALTA": 2621,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -14924,9 +14924,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13234&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за август",
+   "updated": "2026-11-08T07:01:09+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1324&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -14938,9 +14939,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13248&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T07:01:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1325&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -14959,23 +14961,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13266&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у августу",
+   "updated": "2026-11-08T07:01:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13268&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T07:01:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13269&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у августу",
+   "updated": "2026-11-08T07:01:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1327&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -14994,16 +14999,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13285&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати августовске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T07:01:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13286&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Табаковић потписала Меморандум о разумевању са Кинеском регулаторном комисијом за банкарство и осигурање",
+   "updated": "2026-11-08T07:01:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1329&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15015,16 +15022,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13291&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије низом активности обележава манифестацију „Дани европске баштине 2018”",
+   "updated": "2026-11-08T07:01:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13296&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије потписала Споразум о сарадњи с Јединственим одбором за реструктурирање",
+   "updated": "2026-11-08T07:01:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=133&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15050,9 +15059,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13310&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нова статистика – каматне стопе, кредити и депозити по величини предузећа и врсте индексација камата на динарске кредите",
+   "updated": "2026-11-08T07:01:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13311&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
