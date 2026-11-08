@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2772,
+    "n": 2773,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:10:27+00:00",
+   "at": "2026-11-08T12:12:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:11:08+00:00",
-   "elapsed_s": 40,
+   "at": "2026-11-08T12:12:44+00:00",
+   "elapsed_s": 30,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 2774,
+   "ALTA": 2775,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -10062,6 +10062,18 @@
    "title": "Крах Alta banke затронул клиентов за пределами Сербии: блокировка счётов в Северной Македонии, Черногории и проблемы гос",
    "title_src": "Bankarska kriza prešla granice Srbije: Zatvaranje Alta banke blokiralo novac klijenata širom Zapadnog Balkana",
    "updated": "2026-11-03T09:59:28+00:00"
+  },
+  "https://www.danas.rs/svet/dimitrijevic-sdsm-mickoski-omogucio-macuri-da-stekne-vecinski-paket-akcija-u-alta-banci-bitolj": {
+   "first_seen": "2026-11-08T12:12:44+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "SDSM обвиняет премьера Северной Македонии в передаче пакета Alta банки Битолья Макуре",
+   "title_src": "Dimitrijević (SDSM): Mickoski omogućio Macuri da stekne većinski paket akcija u Alta banci Bitolj",
+   "updated": "2026-11-08T12:12:44+00:00"
   },
   "https://www.danas.rs/svet/narodna-banka-s-makedonije-pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T19:38:45+00:00",
