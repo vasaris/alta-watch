@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2705,
+    "n": 2706,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:52:12+00:00",
+   "at": "2026-11-08T09:54:59+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:54:47+00:00",
-   "elapsed_s": 154,
+   "at": "2026-11-08T09:57:38+00:00",
+   "elapsed_s": 158,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,9 +199,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2707,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2708,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -45493,16 +45493,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8641&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у јулу",
+   "updated": "2026-11-08T09:57:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8648&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу",
+   "updated": "2026-11-08T09:57:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=865&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45514,9 +45516,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8652&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на ниво од 5,5 одсто",
+   "updated": "2026-11-08T09:57:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=866&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45528,16 +45531,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8661&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Извршни одбор Народне банке Србије усвојио Одлуку о усвајању акционог плана Народне банке Србије за спровођење Стратегиј",
+   "updated": "2026-11-08T09:57:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8664&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији на сајту Народне банке Србије у среду, 19. августа",
+   "updated": "2026-11-08T09:57:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=867&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45556,9 +45561,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8681&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Републике Србије",
+   "updated": "2026-11-08T09:57:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=869&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45570,9 +45576,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8694&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије подсећа да је вођење судских спорова дуг и неизвестан процес",
+   "updated": "2026-11-08T09:57:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=87&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45591,9 +45598,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8708&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T09:57:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=871&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45605,9 +45613,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8712&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за август",
+   "updated": "2026-11-08T09:57:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=872&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45619,9 +45628,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8720&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати јулске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T09:57:12+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8741&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
