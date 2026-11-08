@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2474,
+    "n": 2475,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T02:02:20+00:00",
+   "at": "2026-11-08T02:04:56+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T02:04:43+00:00",
-   "elapsed_s": 143,
+   "at": "2026-11-08T02:07:39+00:00",
+   "elapsed_s": 162,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,12 +196,12 @@
   "sources": {
    "alta": 0,
    "aod": 0,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2476,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2477,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -22625,37 +22625,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18351&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "BBC на српском – одговор на питања у вези са ценом кромпира",
+   "updated": "2026-11-08T02:07:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18352&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Fitch Ratings задржала кредитни рејтинг Србије на корак до инвестиционог, упркос израженим геополитичким ризици",
+   "updated": "2026-11-08T02:07:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18362&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Осигуравајућим друштвима наложено да врате премију осигурања од аутоодговорности на претходни ниво",
+   "updated": "2026-11-08T02:07:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18364&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Сва осигуравајућа друштва обавестила Народну банку Србије да враћају премију осигурања од аутоодговорности на претходни ",
+   "updated": "2026-11-08T02:07:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18369&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T02:07:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1837&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22667,16 +22672,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18374&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у августу",
+   "updated": "2026-11-08T02:07:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18375&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T02:07:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1838&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22688,23 +22695,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18380&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић један од кључних говорника током церемоније отварања Кинеског форума за финансијску технол",
+   "updated": "2026-11-08T02:07:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18384&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Сва друштва за осигурање обавестила уговараче осигурања о поступку враћања дела премије осигурања од аутоодговорности ус",
+   "updated": "2026-11-08T02:07:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18389&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 3,5%",
+   "updated": "2026-11-08T02:07:14+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18391&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
