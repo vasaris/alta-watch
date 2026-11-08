@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2468,
+    "n": 2469,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T01:50:56+00:00",
+   "at": "2026-11-08T01:52:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T01:51:31+00:00",
-   "elapsed_s": 35,
+   "at": "2026-11-08T01:52:56+00:00",
+   "elapsed_s": 42,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2470,
+   "ALTA": 2471,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -20082,9 +20082,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16826&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о полагању стручног/додатног испита за стицање звања овлашћеног посредника и овлашћеног заступника у осигурањ",
+   "updated": "2026-11-08T01:52:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16830&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22876,44 +22877,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18471&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у септембру",
+   "updated": "2026-11-08T01:52:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18476&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Годишња скупштина Међународног монетарног фонда и Групације Светске банке – Србија као добар пример диверсификацијe изво",
+   "updated": "2026-11-08T01:52:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18482&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Републике Србије",
+   "updated": "2026-11-08T01:52:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18486&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о полагању стручног испита за издавање физичким лицима дозволе Народне банке Србије за обављање услуга пружањ",
+   "updated": "2026-11-08T01:52:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18489&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T01:52:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18498&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије едукативним активностима обележава Светску недељу штедње",
+   "updated": "2026-11-08T01:52:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=185&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22932,16 +22939,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18501&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Омогућено плаћање платним картицама Union Pay на бензинским станицама НИС Петрол и Гаспром",
+   "updated": "2026-11-08T01:52:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18507&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Светски дан штедње – динарска штедња и даље исплативија од девизне",
+   "updated": "2026-11-08T01:52:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18509&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22954,9 +22963,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18510&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T01:52:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18513&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
