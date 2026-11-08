@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2550,
+    "n": 2551,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:38:18+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T04:40:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:39:03+00:00",
-   "elapsed_s": 44,
+   "at": "2026-11-08T04:42:54+00:00",
+   "elapsed_s": 153,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2552,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2553,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -18577,23 +18577,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15792&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд донео одлуку о успешном завршетку четвртог разматрања економског програма Србије",
+   "updated": "2026-11-08T04:42:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15794&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Релативна стабилност девизног курса – исправност приступа Народне банке Србије потврђује и економска теорија",
+   "updated": "2026-11-08T04:42:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15796&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Корпоративне обвезнице у оквиру монетарних операција – истине и заблуде",
+   "updated": "2026-11-08T04:42:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=158&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18605,23 +18608,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15801&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T04:42:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15805&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за август 2020.",
+   "updated": "2026-11-08T04:42:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15812&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Moody's у свом годишњем извештају истиче да је кредитни профил Србије подржан снажним потенцијалом за привредни",
+   "updated": "2026-11-08T04:42:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15828&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18633,16 +18639,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15832&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у августу 2020.",
+   "updated": "2026-11-08T04:42:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15833&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Доларска EMBI премија ризика за Србију – један од показатеља економске трансформације Републике Србије – престала да се ",
+   "updated": "2026-11-08T04:42:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15837&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18655,9 +18663,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15839&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у августу",
+   "updated": "2026-11-08T04:42:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15843&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18670,9 +18679,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15847&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:42:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15854&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
