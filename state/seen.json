@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2782,
+    "n": 2783,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:31:03+00:00",
+   "at": "2026-11-08T12:32:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:31:52+00:00",
-   "elapsed_s": 48,
+   "at": "2026-11-08T12:33:02+00:00",
+   "elapsed_s": 47,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2784,
+   "ALTA": 2785,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -42199,9 +42199,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5887&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Сим Јан Купман гостује на истраживачком семинару Народне банке Србије",
+   "updated": "2026-11-08T12:32:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5888&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -42213,23 +42214,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5889&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови радни папир „Oцена утицаја Балаша-Самјуелсоновог ефекта у земљама централне и источне Европе: ревидирана анализа на",
+   "updated": "2026-11-08T12:32:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5897&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у јуну",
+   "updated": "2026-11-08T12:32:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5899&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 10,25%",
+   "updated": "2026-11-08T12:32:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=59&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -42241,44 +42245,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5901&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јуну",
+   "updated": "2026-11-08T12:32:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5910&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Савет гувернера одржао редовну седницу",
+   "updated": "2026-11-08T12:32:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5920&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови радни папир „Анализа детерминанти текућег рачуна платног биланса коришћењем Jackknife методa моделског упросечавања",
+   "updated": "2026-11-08T12:32:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5927&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови радни папир „Канал банкарског кредитирања у евроизованој економији: случај Србије”",
+   "updated": "2026-11-08T12:32:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5934&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T12:32:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5938&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета у RTGS систему и Клиринг систему и међубанкарском клирингу у девизама у јулу",
+   "updated": "2026-11-08T12:32:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=594&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
