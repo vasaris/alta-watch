@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2689,
+    "n": 2690,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:21:01+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T09:22:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:21:46+00:00",
-   "elapsed_s": 44,
+   "at": "2026-11-08T09:24:37+00:00",
+   "elapsed_s": 145,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2691,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2692,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -46654,9 +46654,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9480&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати фебруарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T09:24:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=949&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46668,9 +46669,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9496&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„Дан отворених врата“ у Народној банци Србије",
+   "updated": "2026-11-08T09:24:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=95&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46689,23 +46691,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9501&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T09:24:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9510&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама у марту",
+   "updated": "2026-11-08T09:24:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9513&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Опрезан и конзервативан приступ Народне банке Србије допринео стабилности и сигурности банака",
+   "updated": "2026-11-08T09:24:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=952&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46717,16 +46722,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9523&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T09:24:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9527&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Србија измирује последњу рату по стендбај аранжману с Међународним монетарним фондом из 2009. године",
+   "updated": "2026-11-08T09:24:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=953&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46738,16 +46745,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9535&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Интервенције Народне банке Србије од августа 2012 – тржишност, једнакост, повећана ефикасност",
+   "updated": "2026-11-08T09:24:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9538&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у марту",
+   "updated": "2026-11-08T09:24:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=954&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46759,9 +46768,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9543&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у марту",
+   "updated": "2026-11-08T09:24:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9549&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
