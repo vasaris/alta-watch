@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2519,
+    "n": 2520,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:36:15+00:00",
+   "at": "2026-11-08T03:38:17+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:37:16+00:00",
-   "elapsed_s": 60,
+   "at": "2026-11-08T03:39:04+00:00",
+   "elapsed_s": 47,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2521,
+   "ALTA": 2522,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -20517,9 +20517,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17060&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Услови за замену ваноптицајних новчаница швајцарског франка",
+   "updated": "2026-11-08T03:38:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17061&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20531,9 +20532,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17065&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Набавка информатичке опреме и услуга спроведена транспарентно и у складу са законом",
+   "updated": "2026-11-08T03:38:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1707&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20545,23 +20547,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17073&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати мајске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T03:38:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17076&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одбор извршних директора Међународног монетарног фонда одобрио Србији нови програм сарадње саветодавног карактера – још ",
+   "updated": "2026-11-08T03:38:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17078&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Извршни одбор Међународног монетарног фонда закључио редовне консултације по члану IV с Републиком Србијом и одобрио три",
+   "updated": "2026-11-08T03:38:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1709&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20580,37 +20585,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17102&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Народне банке Србије Јоргованка Табаковић учествовала на 91. Годишњој скупштини Банке за међународна поравнања",
+   "updated": "2026-11-08T03:38:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17107&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Банка Поштанска штедионица припаја МТС банку",
+   "updated": "2026-11-08T03:38:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17110&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T03:38:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17117&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наплаћене накнаде иностраних картичних система више од тридесет пута веће него накнаде домаћег Динакард система",
+   "updated": "2026-11-08T03:38:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17119&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за јун",
+   "updated": "2026-11-08T03:38:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17120&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
