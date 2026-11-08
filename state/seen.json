@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2543,
+    "n": 2544,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:24:13+00:00",
+   "at": "2026-11-08T04:26:14+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:24:47+00:00",
-   "elapsed_s": 33,
+   "at": "2026-11-08T04:26:52+00:00",
+   "elapsed_s": 38,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2545,
+   "ALTA": 2546,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -19256,72 +19256,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16234&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије обележава Светску недељу штедње",
+   "updated": "2026-11-08T04:26:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16239&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T04:26:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16247&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за октобар",
+   "updated": "2026-11-08T04:26:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16249&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за октобар",
+   "updated": "2026-11-08T04:26:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16256&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије учествује у обележавању манифестације „Музеји за 10”",
+   "updated": "2026-11-08T04:26:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16262&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић учествовала на 44. састанку Клуба гувернера централних банака средње Азије, црноморског ре",
+   "updated": "2026-11-08T04:26:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16264&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вицегувернер Жељко Јовић учествовао на симпозијуму „Осигурање у условима пандемије COVID-19”",
+   "updated": "2026-11-08T04:26:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16268&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Народне банке Србије Јоргованка Табаковић учествовала на новембарском Састанку свих гувернера Банке за међунаро",
+   "updated": "2026-11-08T04:26:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16270&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање DinaCard картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-08T04:26:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16275&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу уз додатну подршку динарској ликвидности",
+   "updated": "2026-11-08T04:26:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16280&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
