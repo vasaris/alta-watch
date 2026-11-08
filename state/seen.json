@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2482,
+    "n": 2483,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T02:20:21+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T02:23:25+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T02:23:12+00:00",
-   "elapsed_s": 171,
+   "at": "2026-11-08T02:24:05+00:00",
+   "elapsed_s": 40,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2484,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2485,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -22274,9 +22274,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18126&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у мају",
+   "updated": "2026-11-08T02:23:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18127&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22288,37 +22289,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18130&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T02:23:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18133&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Инстант плаћање услуга за издавање личних докумената и других услуга Министарства унутрашњих послова на порталу еУправе ",
+   "updated": "2026-11-08T02:23:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18140&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Двонедељне девизне своп аукције EUR/RSD",
+   "updated": "2026-11-08T02:23:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18142&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Усвојена Одлука o утврђивању листе системски значајних банака у Републици Србији и стопа заштитног слоја капитала за те ",
+   "updated": "2026-11-08T02:23:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18147&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T02:23:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1815&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22330,23 +22336,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18162&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд: Успешан завршетак другог разматрања економског програма Србије – макрофинансијска стабилност",
+   "updated": "2026-11-08T02:23:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18172&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Привремена мера ради ублажавања негативних ефеката промене цена хартија од вредности на капитал банака",
+   "updated": "2026-11-08T02:23:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18184&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T02:23:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18190&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22359,9 +22368,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18195&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T02:23:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18196&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
