@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2827,
+    "n": 2828,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T14:00:45+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T14:03:44+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T14:03:32+00:00",
-   "elapsed_s": 167,
+   "at": "2026-11-08T14:04:24+00:00",
+   "elapsed_s": 40,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2829,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2830,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -39874,16 +39874,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4766&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T14:04:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4768&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  29. децембар 2010.",
+   "updated": "2026-11-08T14:04:12+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=477&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39895,16 +39897,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4772&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање цена на мало",
+   "updated": "2026-11-08T14:04:11+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4774&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пријем приправника",
+   "updated": "2026-11-08T14:04:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=478&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39916,16 +39920,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4781&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS и клиринг систему и међубанкарском клирингу за плаћања у девизама за децембар 201",
+   "updated": "2026-11-08T14:04:09+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4784&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Извршног одбора Народне банке Србије",
+   "updated": "2026-11-08T14:04:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=479&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39937,16 +39943,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4792&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 12 одсто",
+   "updated": "2026-11-08T14:04:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4797&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у децембру 2010. године",
+   "updated": "2026-11-08T14:04:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=48&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39965,16 +39973,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4800&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нова Одлука о обавезној резерви банака код Народне банке Србије",
+   "updated": "2026-11-08T14:04:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4805&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Израда регистрационих докумената у складу с правилницима МУП-а",
+   "updated": "2026-11-08T14:04:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4807&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
