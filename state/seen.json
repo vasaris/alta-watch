@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2814,
+    "n": 2815,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:34:13+00:00",
+   "at": "2026-11-08T13:36:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:34:47+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-08T13:36:48+00:00",
+   "elapsed_s": 35,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2816,
+   "ALTA": 2817,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40588,23 +40588,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5042&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на 12 одсто",
+   "updated": "2026-11-08T13:36:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5044&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Бертран Канделон, професор на Мастрихтском универзитету гостује на истраживачком семинару  у Народној банци Србије",
+   "updated": "2026-11-08T13:36:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5047&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у мају",
+   "updated": "2026-11-08T13:36:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=505&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40616,16 +40619,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5050&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у мају",
+   "updated": "2026-11-08T13:36:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5058&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нацрт одлуке о условима и начину обављања кредитних послова са иностранством у динарима",
+   "updated": "2026-11-08T13:36:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=506&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40637,37 +40642,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5060&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одлука о мерама за очување и јачање стабилности финансијског система у складу са Уредбом Владе",
+   "updated": "2026-11-08T13:36:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5064&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о тестирању за обављање летње праксе у Народној банци Србије",
+   "updated": "2026-11-08T13:36:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5065&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Carsten Sprenger, угледни економиста и предавач финансија на ICEF гостује на истраживачком семинару у Народној банци Срб",
+   "updated": "2026-11-08T13:36:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5066&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о избору лица која се примају у радни однос на одређено време у Народну банку Србије у својству приправника",
+   "updated": "2026-11-08T13:36:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5068&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Oбавештење о обуци за стицање цертификата за обављање мењачких послова",
+   "updated": "2026-11-08T13:36:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5069&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
