@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2805,
+    "n": 2806,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:16:18+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T13:18:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:17:17+00:00",
-   "elapsed_s": 59,
+   "at": "2026-11-08T13:20:45+00:00",
+   "elapsed_s": 151,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2807,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2808,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -41190,58 +41190,66 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5280&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на 10,75 одсто",
+   "updated": "2026-11-08T13:20:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5282&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак јавних предузећа",
+   "updated": "2026-11-08T13:20:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5284&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак кандидата који су стекли цертификат за обављање мењачких послова",
+   "updated": "2026-11-08T13:20:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5287&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретањa на међубанкарском девизном тржишту у септембру",
+   "updated": "2026-11-08T13:20:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5289&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у септембру",
+   "updated": "2026-11-08T13:20:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5292&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Лућио Сарно, професор на факултету за пословне студије у Лондону, одржаће предавање на истраживачком семинару у Народној",
+   "updated": "2026-11-08T13:20:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5295&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Европски одбор за системски ризик објавио препоруке о кредитирању у страним валутама",
+   "updated": "2026-11-08T13:20:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5297&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Народној банци Србије одржан састанак с представницима банака",
+   "updated": "2026-11-08T13:20:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=53&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41253,16 +41261,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5306&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Динарска штедња и даље исплативија",
+   "updated": "2026-11-08T13:20:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5316&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Народној банци одржан округли сто „Монетарна политика и привредни развој“",
+   "updated": "2026-11-08T13:20:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5318&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
