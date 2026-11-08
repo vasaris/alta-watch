@@ -160,23 +160,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2510,
+    "n": 2511,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:18:24+00:00",
+   "at": "2026-11-08T03:20:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:19:01+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-08T03:21:07+00:00",
+   "elapsed_s": 44,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2512,
+   "ALTA": 2513,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -209,11 +209,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД опубликовала инструкцию для малых инвесторов Alta банка по возврату застрахованных средств — Лимит застрахованного поtraживания для малых инвесторов: 20 000 евро (ранее известен общий лимит 50 000 евро на вкладчика, но для инвесторов — отдельный лимит) — Конкретные адреса подачи заявлений: АОД (",
-   "ts": 1793973890.6823733,
-   "url": "https://www.danas.rs/vesti/ekonomija/mali-investitori-potrazivanja-alta-banka"
-  },
   {
    "text": "АОД объявила дату начала выплат застрахованных вкладов Alta: 13 ноября 2026 через Банку Поштанску штедионицу — Конкретная дата начала выплат: 13 ноября 2026 (ранее был известен только срок в течение 7 рабочих дней после решения суда от 3 ноября) — Порядок конвертации валютных вкладов: по среднему ку",
    "ts": 1793974105.2038076,
@@ -408,6 +403,11 @@
    "text": "Alta банка запустила услугу мгновенных платежей «Prenesi» (декабрь 2022) — По одобрению NBS Alta banka a.d. Beograd включила услугу «Prenesi» для мгновенных платежей между счётами по номеру мобильного телефона получателя — Услуга доступна через мобильное приложение банка; переводы возможны в любой д",
    "ts": 1794101508.2704852,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18621&konverzija=no"
+  },
+  {
+   "text": "Alta banka запустила мгновенные платежи через NBS IPS QR-код (сентябрь 2021) — По одобрению NBS Alta banka a.d. Beograd включила услугу мгновенных платежей на точках продажи через мобильное приложение — Клиенты могут оплачивать счета с NBS IPS QR-кодом",
+   "ts": 1794108052.886928,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17367&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -20965,23 +20965,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17354&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови успешан излазак Србије на међународно тржиште – најнижа стопа финансирања и први „зелени инструмент“",
+   "updated": "2026-11-08T03:20:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17356&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Прихватање картица UnionPay на банкоматима Моби банке и АИК банке",
+   "updated": "2026-11-08T03:20:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17358&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати августовске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T03:20:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1736&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20992,31 +20995,50 @@
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17367&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
-   "posted": false,
+   "hash": "0ee22ce901d27f27",
+   "kind": "news",
+   "message_id": 258,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "a888612436",
+    "2e313a53d5",
+    "f674cd3881"
+   ],
+   "posted": true,
    "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "relevance": 0,
+   "sent_at": "2026-11-08T03:20:52+00:00",
+   "status": "sent",
+   "tags": [
+    "банки"
+   ],
+   "title": "ALTA banka a.d. Beograd oмогућила својим корисницима плаћање путем NBS IPS QR кôда",
+   "updated": "2026-11-08T03:20:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17368&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем – нови рекорд броја плаћања",
+   "updated": "2026-11-08T03:20:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17373&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„Prenesi” – нова услуга у IPS НБС систему",
+   "updated": "2026-11-08T03:20:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17378&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Прихватање картица UnionPay на банкоматима Еуробанке а.д. Београд",
+   "updated": "2026-11-08T03:20:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1739&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21028,9 +21050,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17393&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Мањи пожар у згради Народне банке Србије на Славији брзом реакцијом надлежних служби Народне банке Србије одмах угашен",
+   "updated": "2026-11-08T03:20:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=174&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21042,16 +21065,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17400&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T03:20:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17405&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T03:20:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17406&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
