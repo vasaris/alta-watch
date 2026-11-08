@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2785,
+    "n": 2786,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T12:36:12+00:00",
+   "at": "2026-11-08T12:38:56+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T12:38:44+00:00",
-   "elapsed_s": 151,
-   "llm_calls": 0,
+   "at": "2026-11-08T12:41:41+00:00",
+   "elapsed_s": 164,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,9 +199,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2787,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2788,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -2344,6 +2344,18 @@
    "title": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве",
    "title_src": "NBS uputila obaveštenje o načinu izmirenja kredita Alta banke i upozorila na moguće prevare",
    "updated": "2026-11-06T19:33:16+00:00"
+  },
+  "https://insajder.net/prenosimo/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
+   "first_seen": "2026-11-08T12:41:41+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центробанк Северной Македонии повысил лимиты снятия в Alta банке Битоль и открыл отделения в Тетове и Струмице",
+   "title_src": "Povećava se limit za podizanje novca u Alta banci Bitolj i otvaraju šalteri u Tetovu i Strumici",
+   "updated": "2026-11-08T12:41:41+00:00"
   },
   "https://insajder.net/prenosimo/privredni-sud-pokrenuo-stecaj-nad-alta-bankom-postanska-stedionica-odredena-za-isplatu-osiguranih-depozita": {
    "first_seen": "2026-11-03T11:41:27+00:00",
@@ -41989,72 +42001,82 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5738&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нацрти из области издавања (емисије) новца и управљања токовима готовине",
+   "updated": "2026-11-08T12:41:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5746&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на нивоу од 9,5%",
+   "updated": "2026-11-08T12:41:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5751&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије пушта у оптицај новчаницу од 100 динара с делимично измењеним обележјима",
+   "updated": "2026-11-08T12:41:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5753&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у априлу",
+   "updated": "2026-11-08T12:41:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5756&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у априлу",
+   "updated": "2026-11-08T12:41:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5760&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији на сајту Народне банке Србије",
+   "updated": "2026-11-08T12:41:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5763&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење за кандидате који су се пријавили на позив Народне банке Србије за обављање летње праксе",
+   "updated": "2026-11-08T12:41:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5783&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Бриселу отворена изложба „Српски новац од XIII до XXI века“",
+   "updated": "2026-11-08T12:41:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5797&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије је одузела дозволу за рад Пољопривредној банци Агробанци а.д. Београд",
+   "updated": "2026-11-08T12:41:14+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5798&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије је дала дозволу за рад банци која ће пословати под именом Нова Агробанка а.д. Београд",
+   "updated": "2026-11-08T12:41:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=58&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
