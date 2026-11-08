@@ -160,20 +160,30 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2475,
+    "n": 2476,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-08T02:09:52+00:00",
+    "n": 1,
+    "since": "2026-11-08T02:07:53+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-08T02:09:52+00:00",
+    "n": 1,
+    "since": "2026-11-08T02:07:53+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T02:04:56+00:00",
+   "at": "2026-11-08T02:07:53+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T02:07:39+00:00",
-   "elapsed_s": 162,
+   "at": "2026-11-08T02:10:38+00:00",
+   "elapsed_s": 165,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,9 +209,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2477,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2478,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -22540,44 +22550,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18319&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 3%",
+   "updated": "2026-11-08T02:10:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18321&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Информација за јавност о пакету мера Народне банке Србије у вези с накнадама банака",
+   "updated": "2026-11-08T02:10:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18324&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Конференција за медије гувернера Јоргованке Табаковић  – Пакет мера Народне банке Србије у вези с накнадама банака",
+   "updated": "2026-11-08T02:10:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18325&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "API Bank a.d. Beograd омогућила својим корисницима извршавање трансакција путем Међународног и Међубанкарског клиринг си",
+   "updated": "2026-11-08T02:10:24+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18328&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Укупна штедња наставља да расте, динарска штедња и даље исплативија од девизне",
+   "updated": "2026-11-08T02:10:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18329&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу",
+   "updated": "2026-11-08T02:10:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18332&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22590,9 +22606,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18334&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Коришћење савремених плаћања стабилно расте у још једном тромесечју",
+   "updated": "2026-11-08T02:10:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1834&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -22604,23 +22621,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18346&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Зашто релативна стабилност девизног курса није фиксни курс",
+   "updated": "2026-11-08T02:10:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18349&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Корисно је да знате… – Мере НБС о банкарским накнадама – шта то значи за грађане",
+   "updated": "2026-11-08T02:10:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18350&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T02:10:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18351&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
