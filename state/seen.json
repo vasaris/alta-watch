@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2592,
+    "n": 2593,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T06:06:13+00:00",
+   "at": "2026-11-08T06:08:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T06:06:48+00:00",
-   "elapsed_s": 34,
+   "at": "2026-11-08T06:08:52+00:00",
+   "elapsed_s": 40,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2594,
+   "ALTA": 2595,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -16429,23 +16429,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14234&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење о организовању додатне своп аукције девиза EUR/RSD",
+   "updated": "2026-11-08T06:08:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14236&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Изложба „Слике времена и догађаја на српском новцу – новац Кнежевине и Краљевине Србије” у Народном музеју у Крагујевцу",
+   "updated": "2026-11-08T06:08:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14238&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Европска унија похвалила адекватност вођења монетарне политике у Србији и добре трендове у банкарском сектору",
+   "updated": "2026-11-08T06:08:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1424&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -16457,16 +16460,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14242&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати априлске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T06:08:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14247&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић са представницима Светске банке: Пословно окружење стимулативно, створене добре основе за ",
+   "updated": "2026-11-08T06:08:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1425&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -16485,16 +16490,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14272&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије упозорава на неовлашћено пружање банкарских услуга",
+   "updated": "2026-11-08T06:08:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14277&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије прати примену Закона о конверзији",
+   "updated": "2026-11-08T06:08:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1428&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -16506,9 +16513,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14291&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T06:08:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=143&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -16527,16 +16535,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14301&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Поверење озбиљних инвеститора јача динар",
+   "updated": "2026-11-08T06:08:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14305&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за мај",
+   "updated": "2026-11-08T06:08:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=14306&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
