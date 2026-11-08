@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2607,
+    "n": 2608,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T06:36:50+00:00",
+   "at": "2026-11-08T06:38:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T06:37:28+00:00",
-   "elapsed_s": 37,
+   "at": "2026-11-08T06:38:57+00:00",
+   "elapsed_s": 43,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2609,
+   "ALTA": 2610,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -15680,9 +15680,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13786&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати децембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T06:38:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1379&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15694,9 +15695,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13792&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање DinaCard картицама уз све предности плаћања чеком",
+   "updated": "2026-11-08T06:38:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=138&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15715,9 +15717,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13802&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Смернице за утврђивање стварног власника странке и смернице за евидентирање стварног власника регистрованог субјекта у ц",
+   "updated": "2026-11-08T06:38:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1381&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15729,23 +15732,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13810&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење о организовању додатне своп аукције девиза EUR/RSD",
+   "updated": "2026-11-08T06:38:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13812&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Србије",
+   "updated": "2026-11-08T06:38:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13818&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Ефекти ограничавања међубанкарских накнада на висину трговачке накнаде",
+   "updated": "2026-11-08T06:38:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1382&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15757,16 +15763,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13823&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Висина трошкова и накнада које се наплаћују приликом пријема новца из иностранства односно слања новца у иностранство – ",
+   "updated": "2026-11-08T06:38:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13827&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Упутства за примену одредаба Закона о ограничавању располагања имовином у циљу спречавања тероризма и ширења оружја за м",
+   "updated": "2026-11-08T06:38:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1383&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -15778,16 +15786,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13832&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије подсећа - динарска штедња исплативија од девизне",
+   "updated": "2026-11-08T06:38:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13835&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T06:38:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1384&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
