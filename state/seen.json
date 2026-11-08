@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2813,
+    "n": 2814,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:32:37+00:00",
+   "at": "2026-11-08T13:34:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:33:23+00:00",
-   "elapsed_s": 46,
+   "at": "2026-11-08T13:34:47+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2815,
+   "ALTA": 2816,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40672,9 +40672,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5069&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„AXA Neživotno osiguranje“ добило дозволу за рад Народне банке Србије",
+   "updated": "2026-11-08T13:34:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=507&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40686,23 +40687,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5071&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У оптицају новчаница од 50 динара с делимично измењеним обележјима",
+   "updated": "2026-11-08T13:34:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5072&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У буџет Републике Србије трансферисано 4,2 милијарде динара",
+   "updated": "2026-11-08T13:34:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5079&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Народној банци Србије одржан састанак с представницима банака поводом  Одлуке о мерама за очување и јачање стабилности",
+   "updated": "2026-11-08T13:34:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=508&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40714,30 +40718,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5081&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор вицегувернера Бојана Марковића",
+   "updated": "2026-11-08T13:34:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5083&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Јединствена листа студената са резултатима са тестирања",
+   "updated": "2026-11-08T13:34:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5085&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Саопштење везано за почетак примене Одлуке о мерама за очување и јачање стабилности финансијског система",
+   "updated": "2026-11-08T13:34:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5087&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нове одлуке Извршног одбора Народне банке Србије",
+   "updated": "2026-11-08T13:34:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=509&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40749,9 +40757,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5099&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије ће на свом сајту објављивати и курс динара према америчком долару",
+   "updated": "2026-11-08T13:34:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=51&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40770,9 +40779,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5100&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак студената који су примљени на летњу праксу",
+   "updated": "2026-11-08T13:34:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5101&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
