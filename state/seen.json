@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2549,
+    "n": 2550,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:36:13+00:00",
+   "at": "2026-11-08T04:38:18+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:36:52+00:00",
-   "elapsed_s": 38,
+   "at": "2026-11-08T04:39:03+00:00",
+   "elapsed_s": 44,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2551,
+   "ALTA": 2552,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -18647,9 +18647,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15837&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Србија напредовала на листи Индекса економских слобода највише захваљујући ниској, стабилној и предвидивој инфлацији",
+   "updated": "2026-11-08T04:38:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15839&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18661,9 +18662,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15843&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:38:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15847&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18724,9 +18726,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15868&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати августовске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T04:38:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15876&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18913,51 +18916,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15912&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Састанак гувернера Јоргованке Табаковић с представницима америчке делегације",
+   "updated": "2026-11-08T04:38:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15932&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови рекорд у броју плаћања у IPS НБС, у RTGS НБС и клиринг НБС систему",
+   "updated": "2026-11-08T04:38:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15933&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нетачне информације о ставу Народне банке Србије о незаконитости наплате трошкова обраде кредита",
+   "updated": "2026-11-08T04:38:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15934&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Монетарна и финансијска стабилност створиле услове за успешну емисију корпоративних обвезница",
+   "updated": "2026-11-08T04:38:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15935&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Fitch Ratings задржала кредитни рејтинг Србије на корак од инвестиционог, уз стабилне изгледе за његово даље по",
+   "updated": "2026-11-08T04:38:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15947&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Од данас доступан нови сајт Народне банке Србије",
+   "updated": "2026-11-08T04:38:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15954&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„Дани европске баштине 2020”",
+   "updated": "2026-11-08T04:38:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15956&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
