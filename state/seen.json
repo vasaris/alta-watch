@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2822,
+    "n": 2823,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:50:20+00:00",
+   "at": "2026-11-08T13:52:11+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:50:59+00:00",
-   "elapsed_s": 39,
+   "at": "2026-11-08T13:52:46+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2824,
+   "ALTA": 2825,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40168,23 +40168,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4875&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у фебруару",
+   "updated": "2026-11-08T13:52:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4877&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Посета делегације Централне банке Црне Горе Народној банци Србије",
+   "updated": "2026-11-08T13:52:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4879&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Коначна ранг листа кандидата за пријем у 2011. години у радни однос на одређено време лица у својству приправника",
+   "updated": "2026-11-08T13:52:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=488&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40196,23 +40199,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4882&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у фебруару",
+   "updated": "2026-11-08T13:52:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4887&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Standard & Poor’s повећао кредитни рејтинг Србије са „ББ-“ на „ББ“",
+   "updated": "2026-11-08T13:52:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4889&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Потписивање протокола о сарадњи са Европском централном банком и Делегацијом Европске уније у Србији",
+   "updated": "2026-11-08T13:52:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=489&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40224,16 +40230,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4891&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Европска централна банка најављује програм сарадње с Народном банком Србије који се финансира из средстава Европске униј",
+   "updated": "2026-11-08T13:52:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4895&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови мандат Мири Ерић-Јовић на функцији вицегувернера Народне банке Србије",
+   "updated": "2026-11-08T13:52:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=49&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40252,16 +40260,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4901&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Трећа фаза селекције кандидата за пријем у 2011. години у радни однос на одређено време лица у својству приправника",
+   "updated": "2026-11-08T13:52:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4905&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T13:52:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=491&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
