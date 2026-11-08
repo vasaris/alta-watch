@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2441,
+    "n": 2442,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T00:54:15+00:00",
+   "at": "2026-11-08T00:56:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T00:55:32+00:00",
-   "elapsed_s": 77,
-   "llm_calls": 1,
+   "at": "2026-11-08T00:56:52+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2443,
+   "ALTA": 2444,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -23949,51 +23949,58 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19001&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Пажљиво с платним картицама, посебно ако омогућавају коришћење одређених глобалних платних апликација",
+   "updated": "2026-11-08T00:56:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19011&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд: Успешан завршетак првог разматрања економског програма Србије – остварени резултати бољи од ",
+   "updated": "2026-11-08T00:56:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19013&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Ауторски текст гувернера Народне банке Србије Јоргованке Табаковић — „Фактор похлепе у његовим различитим облицима и инф",
+   "updated": "2026-11-08T00:56:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19014&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Governor Tabaković's opinion piece “Factor of greed in various forms and inflation”, published in the Svet bankarstva i ",
+   "updated": "2026-11-08T00:56:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19027&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T00:56:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19033&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T00:56:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19036&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у јуну",
+   "updated": "2026-11-08T00:56:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1904&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -24005,23 +24012,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19058&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије указује на потребу за темељним и на чињеницама заснованим анализама чији су циљ предлози мера и акт",
+   "updated": "2026-11-08T00:56:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19062&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у јуну",
+   "updated": "2026-11-08T00:56:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19064&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јуну",
+   "updated": "2026-11-08T00:56:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19067&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
