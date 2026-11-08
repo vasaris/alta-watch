@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2690,
+    "n": 2691,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T09:22:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T09:24:49+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T09:24:37+00:00",
-   "elapsed_s": 145,
+   "at": "2026-11-08T09:25:20+00:00",
+   "elapsed_s": 31,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2692,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2693,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -46549,44 +46549,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9412&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на Бизнис форуму на Копаонику",
+   "updated": "2026-11-08T09:25:11+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9415&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије неће дозволити да интереси и права грађана буду умањени",
+   "updated": "2026-11-08T09:25:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9424&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије обележава Светску недељу новца од 14. до 18. марта",
+   "updated": "2026-11-08T09:25:09+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9426&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у фебруару",
+   "updated": "2026-11-08T09:25:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9427&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у фебруару",
+   "updated": "2026-11-08T09:25:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9437&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић одржала предавање студентима Економског факултета Универзитета у Крагујевцу",
+   "updated": "2026-11-08T09:25:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=944&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46598,9 +46604,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9443&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на састанку са Француско-српском привредном комором",
+   "updated": "2026-11-08T09:25:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=945&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46612,9 +46619,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9453&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T09:25:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=946&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -46626,16 +46634,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9460&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наградни конкурс Народне банке Србије „Алекса Спасић“ за најбоље научноистраживачке радове",
+   "updated": "2026-11-08T09:25:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9469&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Moody’s поправила изгледе за побољшање кредитног рејтинга Србије",
+   "updated": "2026-11-08T09:25:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=947&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
