@@ -160,20 +160,30 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2568,
+    "n": 2569,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-08T05:19:27+00:00",
+    "n": 1,
+    "since": "2026-11-08T05:17:43+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-08T05:19:28+00:00",
+    "n": 1,
+    "since": "2026-11-08T05:17:43+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T05:14:41+00:00",
+   "at": "2026-11-08T05:17:43+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T05:17:30+00:00",
-   "elapsed_s": 168,
+   "at": "2026-11-08T05:20:18+00:00",
+   "elapsed_s": 154,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,9 +209,9 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2570,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 2571,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -17723,23 +17733,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15313&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Erste Bank a.d. Novi Sad омогућила инстант плаћање на продајним местима",
+   "updated": "2026-11-08T05:20:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15314&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Мере и препоруке за спречавање ширења вирусa COVID-19",
+   "updated": "2026-11-08T05:20:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15317&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T05:20:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1532&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17751,37 +17764,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15320&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати фебруарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T05:20:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15321&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Прописан застој у отплати обавеза (мораторијум)",
+   "updated": "2026-11-08T05:20:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15326&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Примена прописа о мораторијуму у пракси",
+   "updated": "2026-11-08T05:19:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15328&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Додатна девизна своп аукција – подршка динарској ликвидности финансијског система",
+   "updated": "2026-11-08T05:19:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15329&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Број закључених уговора на даљину у 2019. години",
+   "updated": "2026-11-08T05:19:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1533&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17793,16 +17811,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15335&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије пружа додатну подршку динарској ликвидности финансијског система – репо куповина динарских државних",
+   "updated": "2026-11-08T05:19:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15337&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о инцидентима",
+   "updated": "2026-11-08T05:19:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15338&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
