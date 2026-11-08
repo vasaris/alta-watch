@@ -160,30 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2569,
+    "n": 2570,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "источник AOD новости": {
-    "last_sent": "2026-11-08T05:19:27+00:00",
-    "n": 1,
-    "since": "2026-11-08T05:17:43+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-08T05:19:28+00:00",
-    "n": 1,
-    "since": "2026-11-08T05:17:43+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T05:17:43+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T05:20:30+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T05:20:18+00:00",
-   "elapsed_s": 154,
+   "at": "2026-11-08T05:21:14+00:00",
+   "elapsed_s": 43,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -205,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2571,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 2572,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -15458,9 +15448,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13576&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о одлагању ванредног испитног рока",
+   "updated": "2026-11-08T05:20:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=13580&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17642,9 +17633,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15278&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Eurobank a. d. Beograd омогућила извршавање инстант плаћања на продајним местима",
+   "updated": "2026-11-08T05:21:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1528&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17656,23 +17648,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15281&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Европска унија подржава Народну банку Србије – Европски систем централних банака важан партнер Народне банке Србије у ис",
+   "updated": "2026-11-08T05:20:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15283&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за фебруар",
+   "updated": "2026-11-08T05:21:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15284&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за фебруар",
+   "updated": "2026-11-08T05:21:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1529&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17684,9 +17679,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15290&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "AIK banka a. d. Beograd омогућила извршавање инстант плаћања на продајним местима",
+   "updated": "2026-11-08T05:20:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=153&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17705,30 +17701,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15300&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије смањила референтну каматну стопу за 0,50 процентних поена, на 1,75%",
+   "updated": "2026-11-08T05:20:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15304&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у фебруару",
+   "updated": "2026-11-08T05:20:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15306&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у фебруару",
+   "updated": "2026-11-08T05:20:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15312&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о отказивању семинара",
+   "updated": "2026-11-08T05:20:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15313&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
