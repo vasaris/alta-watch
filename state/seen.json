@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2837,
+    "n": 2838,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T14:20:22+00:00",
+   "at": "2026-11-08T14:22:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T14:21:05+00:00",
-   "elapsed_s": 43,
+   "at": "2026-11-08T14:22:54+00:00",
+   "elapsed_s": 41,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2839,
+   "ALTA": 2840,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -39202,16 +39202,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4525&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  27. септембар 2010.",
+   "updated": "2026-11-08T14:22:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4529&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд одобрио повлачење пете транше у оквиру стенд-бај аранжмана",
+   "updated": "2026-11-08T14:22:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=453&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39223,16 +39225,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4534&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  29. септембар 2010.",
+   "updated": "2026-11-08T14:22:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4536&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T14:22:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=454&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39244,30 +39248,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4540&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање цена на мало",
+   "updated": "2026-11-08T14:22:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4542&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак правних лица која су обуставила плаћања са стањем на дан 30.9.2010. године",
+   "updated": "2026-11-08T14:22:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4544&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У току припрема закона о заштити корисника банкарских услуга",
+   "updated": "2026-11-08T14:22:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4545&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  4. октобар 2010.",
+   "updated": "2026-11-08T14:22:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=455&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39279,16 +39287,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4550&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS и клиринг систему и међубанкарском клирингу за плаћање у девизима у септембру",
+   "updated": "2026-11-08T14:22:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4552&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Oтворена изложба",
+   "updated": "2026-11-08T14:22:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4558&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
