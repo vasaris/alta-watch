@@ -160,19 +160,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2558,
+    "n": 2559,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:55:06+00:00",
+   "at": "2026-11-08T04:56:15+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:55:54+00:00",
+   "at": "2026-11-08T04:57:02+00:00",
    "elapsed_s": 47,
    "llm_calls": 0,
    "llm_down": null,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2560,
+   "ALTA": 2561,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -18066,9 +18066,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15459&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:56:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1546&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18080,23 +18081,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15466&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Расте број реализованих плаћања у Инстант платном систему Народне банке Србије",
+   "updated": "2026-11-08T04:56:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15467&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Усвојена Одлука o утврђивању листе системски значајних банака у Републици Србији и стопа заштитног слоја капитала за те ",
+   "updated": "2026-11-08T04:56:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15469&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "UniCredit Bank Srbija a. d. Beograd омогућила својим корисницима инстант плаћање на продајним местима",
+   "updated": "2026-11-08T04:56:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1547&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18108,23 +18112,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15471&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Табаковић: Међународни инвеститори још једном потврдили поверење у економију Србије",
+   "updated": "2026-11-08T04:56:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15475&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Чист рачун и јасна разлика",
+   "updated": "2026-11-08T04:56:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15476&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у априлу",
+   "updated": "2026-11-08T04:56:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1548&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18136,16 +18143,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15482&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Мобилни оператер VIP mobile d.o.o. почео са применом НБС IPS QR кода на својим штампаним рачунима",
+   "updated": "2026-11-08T04:56:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15487&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у априлу",
+   "updated": "2026-11-08T04:56:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1549&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18328,9 +18337,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15594&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Објављено мајско издање Извештаја о инфлацији",
+   "updated": "2026-11-08T04:56:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15595&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
