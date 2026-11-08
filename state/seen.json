@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2555,
+    "n": 2556,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:48:12+00:00",
+   "at": "2026-11-08T04:50:22+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:48:34+00:00",
-   "elapsed_s": 21,
+   "at": "2026-11-08T04:51:24+00:00",
+   "elapsed_s": 62,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2557,
+   "ALTA": 2558,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -18388,16 +18388,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15613&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Објављено августовско издање Извештаја о инфлацији",
+   "updated": "2026-11-08T04:51:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15614&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати јулске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T04:51:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1562&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18430,9 +18432,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15629&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови сет мера Народне банке Србије – грађанима олакшан приступ финансирању",
+   "updated": "2026-11-08T04:51:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1563&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18479,9 +18482,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15695&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Осам година рада гувернера Јоргованке Табаковић – осам година стабилности",
+   "updated": "2026-11-08T04:51:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=157&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -18535,44 +18539,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15762&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за јул 2020.",
+   "updated": "2026-11-08T04:51:11+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15770&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање картицом DinaCard на шалтерима Управе за трезор",
+   "updated": "2026-11-08T04:51:09+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15777&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу 2020.",
+   "updated": "2026-11-08T04:51:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15780&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:51:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15782&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Штедња становништва расте и у време пандемије – показатељ поверења грађана; динарска штедња и даље исплативија од девизн",
+   "updated": "2026-11-08T04:51:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15788&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Настављен значајан раст броја плаћања употребом мобилног банкарства и броја плаћања картицама и електронским новцем у ди",
+   "updated": "2026-11-08T04:51:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15792&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
