@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2716,
+    "n": 2717,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T10:14:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-08T10:16:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T10:14:35+00:00",
-   "elapsed_s": 21,
+   "at": "2026-11-08T10:19:22+00:00",
+   "elapsed_s": 189,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
-   "nbs": 40
+   "aod": 0,
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2718,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 2719,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -45182,44 +45182,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8363&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Улога централних банака у процесу приступања Европској унији – међународна конференција у Народној банци Србије",
+   "updated": "2026-11-08T10:19:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8364&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Сарадња као једини избор",
+   "updated": "2026-11-08T10:19:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8374&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије није разлог за непоступање банака по мерама Повереника",
+   "updated": "2026-11-08T10:19:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8381&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Исплата обвезница Републике Србије серије А 2015",
+   "updated": "2026-11-08T10:19:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8390&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T10:19:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8398&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама у мају",
+   "updated": "2026-11-08T10:19:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=84&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -45231,30 +45237,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8404&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Изложба „ДИНАР – путовање кроз време“ у Алексинцу",
+   "updated": "2026-11-08T10:19:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8423&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о обуци кандидата за полагање стручног испита за стицање звања овлашћеног посредника, односно овлашћеног заст",
+   "updated": "2026-11-08T10:19:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8433&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на ниво од 6 одсто",
+   "updated": "2026-11-08T10:19:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8437&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у мају",
+   "updated": "2026-11-08T10:18:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=8440&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
