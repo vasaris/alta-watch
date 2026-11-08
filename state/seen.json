@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-07T21:01:30+00:00",
-    "n": 2501,
+    "n": 2502,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T02:58:13+00:00",
+   "at": "2026-11-08T03:00:46+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T02:58:54+00:00",
-   "elapsed_s": 40,
+   "at": "2026-11-08T03:01:33+00:00",
+   "elapsed_s": 46,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2503,
+   "ALTA": 2504,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -21231,16 +21231,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17524&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "НИС Петрол и Меркатор С у заједничкој промоцији инстант плаћања  „IPS покажи и попуст важи!“",
+   "updated": "2026-11-08T03:01:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17528&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Извештаја о инфлацији на сајту Народне банке Србије у среду, 17. новембра",
+   "updated": "2026-11-08T03:01:19+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1753&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21252,23 +21254,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17530&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "IPS НБС систем – нови рекорд броја и вредности плаћања",
+   "updated": "2026-11-08T03:01:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17546&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати октобарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T03:01:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17556&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на отварању конференције „Српски дани осигурања 2021“",
+   "updated": "2026-11-08T03:01:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1756&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21287,9 +21292,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17577&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T03:01:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1758&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21301,23 +21307,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17582&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наставља се раст коришћења савремених облика плаћања",
+   "updated": "2026-11-08T03:01:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17584&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обраћање гувернера на међународном округлом столу  „Променљива улога централних банака у савременим међународним односим",
+   "updated": "2026-11-08T03:01:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17588&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Добри економски резултати Србије потврђени и на састанку Пододбора за економска и финансијска питања и статистику – прав",
+   "updated": "2026-11-08T03:01:12+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1759&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21329,9 +21338,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17593&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за новембар",
+   "updated": "2026-11-08T03:01:11+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17596&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
