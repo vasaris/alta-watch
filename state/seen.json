@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2567,
+    "n": 2568,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T05:12:12+00:00",
+   "at": "2026-11-08T05:14:41+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T05:14:28+00:00",
-   "elapsed_s": 136,
+   "at": "2026-11-08T05:17:30+00:00",
+   "elapsed_s": 168,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,12 +196,12 @@
   "sources": {
    "alta": 0,
    "aod": 0,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2569,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 2570,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -17807,30 +17807,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15338&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Препоруке за безбедност информационих система финансијских институција",
+   "updated": "2026-11-08T05:17:17+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15339&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Додатна девизна своп аукција – Народна банка Србије банкама обезбедила 14,9 милијарди динара ликвидности",
+   "updated": "2026-11-08T05:17:15+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15341&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Аукције репо куповине хартија од вредности – Народна банка Србије банкама обезбедила додатне 25,2 милијардe динара ликви",
+   "updated": "2026-11-08T05:17:14+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15346&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Без наплаћивања накнада банака и других пружалаца платних услуга за извршавање уплата за донације у борби против епидеми",
+   "updated": "2026-11-08T05:17:13+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1535&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17842,23 +17846,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15352&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Direktna banka a. d. Kragujevac омогућила својим корисницима инстант плаћање на продајним местима",
+   "updated": "2026-11-08T05:17:12+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15356&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије дала инструкцију банкама и Пошти да исплаћују пензије и током викенда",
+   "updated": "2026-11-08T05:17:11+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15357&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукције девиза - Народна банка Србије увела измене ради подршке динарској и девизној ликвидности домаћег финансијск",
+   "updated": "2026-11-08T05:17:10+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1536&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -17870,23 +17877,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15360&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Агенција Fitch Ratings задржала кредитни рејтинг Србије на нивоу ББ+ уз стабилне изгледе за његово даље повећање, упркос",
+   "updated": "2026-11-08T05:17:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15365&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Credit Agricole Banka Srbija a.d. Novi Sad омогућила је својим корисницима инстант плаћања на продајним местима",
+   "updated": "2026-11-08T05:17:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15367&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T05:17:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15371&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
