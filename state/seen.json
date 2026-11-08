@@ -160,30 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2509,
+    "n": 2510,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "источник AOD новости": {
-    "last_sent": "2026-11-08T03:17:25+00:00",
-    "n": 1,
-    "since": "2026-11-08T03:15:25+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-08T03:17:25+00:00",
-    "n": 1,
-    "since": "2026-11-08T03:15:25+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:15:25+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-08T03:18:24+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:18:12+00:00",
-   "elapsed_s": 166,
+   "at": "2026-11-08T03:19:01+00:00",
+   "elapsed_s": 36,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -205,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2511,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 2512,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -21066,9 +21056,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17406&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система у септембру",
+   "updated": "2026-11-08T03:18:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1741&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21080,37 +21071,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17414&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Право јавности да зна: Танјуг – питања у вези с правом банака за наплату накнада и трошкова",
+   "updated": "2026-11-08T03:18:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17416&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу, просечна репо стопа повећана на 0,24%",
+   "updated": "2026-11-08T03:18:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17425&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у септембру",
+   "updated": "2026-11-08T03:18:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17427&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Почели званични разговори мисије Међународног монетарног фонда с делегацијом Србије",
+   "updated": "2026-11-08T03:18:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17429&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије позива на доследну и здраворазумску примену Допуне правног става Врховног касационог суда",
+   "updated": "2026-11-08T03:18:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1743&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21122,16 +21118,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17435&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у септембру",
+   "updated": "2026-11-08T03:18:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17449&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати септембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T03:18:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1745&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -21143,16 +21141,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17460&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У току је снажан привредни опоравак, подржан значајним мерама власти – оцена Међународног монетарног фонда",
+   "updated": "2026-11-08T03:18:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17466&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Најновија анализа уочи Светског дана штедње потврдила – динарска штедња исплативија од девизне",
+   "updated": "2026-11-08T03:18:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17469&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
