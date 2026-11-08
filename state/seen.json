@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2828,
+    "n": 2829,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T14:03:44+00:00",
+   "at": "2026-11-08T14:04:35+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T14:04:24+00:00",
-   "elapsed_s": 40,
+   "at": "2026-11-08T14:05:13+00:00",
+   "elapsed_s": 37,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2830,
+   "ALTA": 2831,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -39776,9 +39776,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4729&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  15. децембар 2010.",
+   "updated": "2026-11-08T14:04:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=473&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39790,23 +39791,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4733&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Замена ваноптицајног кованог новца од 1, 2 и 5 динара са ознаком „Народна банка Југославије“",
+   "updated": "2026-11-08T14:04:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4736&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  20. децембар 2010.",
+   "updated": "2026-11-08T14:04:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4739&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Аукција краткорочних динарских кредита  на дан 21. децембар",
+   "updated": "2026-11-08T14:04:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=474&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39818,30 +39822,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4743&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  22. децембар 2010.",
+   "updated": "2026-11-08T14:04:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4744&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна обука и тестирање кандидата за стицање цертификата за обављање мењачких послова",
+   "updated": "2026-11-08T14:04:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4747&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Нови подаци на страницама Народне банке Србије на Bloomberg-у и Reuters-у",
+   "updated": "2026-11-08T14:04:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4749&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међународни монетарни фонд одобрио повлачење шесте транше у оквиру стенд-бај аранжмана",
+   "updated": "2026-11-08T14:04:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=475&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39853,9 +39861,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4758&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Дозвола за спајање друштава за управљање добровољним пензијским фондовима „Hypo-Garant“ и „ДДОР Пензија плус“",
+   "updated": "2026-11-08T14:04:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=476&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -39867,9 +39876,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4762&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије планира пријем приправника",
+   "updated": "2026-11-08T14:04:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4766&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
