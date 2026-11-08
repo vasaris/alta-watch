@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2812,
+    "n": 2813,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T13:31:22+00:00",
+   "at": "2026-11-08T13:32:37+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T13:32:20+00:00",
-   "elapsed_s": 58,
+   "at": "2026-11-08T13:33:23+00:00",
+   "elapsed_s": 46,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2814,
+   "ALTA": 2815,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -40777,30 +40777,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5101&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T13:33:08+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5104&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак правних лица која су обуставила плаћања у непрекидном трајању од две године",
+   "updated": "2026-11-08T13:33:07+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5105&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS  и клиринг систему и међубанкарском клирингу за плаћања у девизама за јун",
+   "updated": "2026-11-08T13:33:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5106&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Професор Чарлс Енгел одржаће предавање на истраживачком семинару у Народној банци Србије",
+   "updated": "2026-11-08T13:33:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=511&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40812,30 +40816,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5111&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа смањена на 11,75 одсто",
+   "updated": "2026-11-08T13:33:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5113&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Није дошло до пада штедње",
+   "updated": "2026-11-08T13:33:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5114&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Дозвола за управљање добровољним пензијским фондом „ДДОР-Гарант ДИНАР“",
+   "updated": "2026-11-08T13:33:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5115&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Списак јавних предузећа",
+   "updated": "2026-11-08T13:32:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=512&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -40847,16 +40855,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5120&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "„Салатара“ у Холу зграде Народне банке Србије на Славији",
+   "updated": "2026-11-08T13:32:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5122&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јуну",
+   "updated": "2026-11-08T13:32:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=5124&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
