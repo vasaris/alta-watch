@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2661,
+    "n": 2662,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T08:24:12+00:00",
+   "at": "2026-11-08T08:26:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T08:24:58+00:00",
-   "elapsed_s": 45,
+   "at": "2026-11-08T08:26:46+00:00",
+   "elapsed_s": 33,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2663,
+   "ALTA": 2664,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -12095,9 +12095,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10904&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "У Централној евиденцији привремених ограничења доступни подаци из Принудне наплате Народне банке Србије",
+   "updated": "2026-11-08T08:26:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1091&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12109,9 +12110,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10912&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати децембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T08:26:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1092&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12137,16 +12139,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10943&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T08:26:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10948&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама у јануару",
+   "updated": "2026-11-08T08:26:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1095&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12158,9 +12162,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10958&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Преминула вицегувернер Народне банке Србије Ана Глигоријевић",
+   "updated": "2026-11-08T08:26:31+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1096&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12179,9 +12184,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10976&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање DinaCard картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-08T08:26:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1098&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12193,16 +12199,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10982&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Смањено учешће проблематичних кредита",
+   "updated": "2026-11-08T08:26:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10987&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у јануару",
+   "updated": "2026-11-08T08:26:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1099&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -12214,9 +12222,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10991&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:26:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=11&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19463,9 +19472,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15901&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:26:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15902&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
