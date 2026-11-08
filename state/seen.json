@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2540,
+    "n": 2541,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T04:18:12+00:00",
+   "at": "2026-11-08T04:20:19+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T04:18:40+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-08T04:21:05+00:00",
+   "elapsed_s": 45,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2542,
+   "ALTA": 2543,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -19529,44 +19529,50 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16431&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Национална банка Швајцарске повлачи из оптицаја новчанице осме серије швајцарског франка",
+   "updated": "2026-11-08T04:20:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16436&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије донела нове мере за олакшану отплату кредита дужницима погођеним пандемијом COVID-19",
+   "updated": "2026-11-08T04:20:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16437&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Објављен извештај агенције Standard & Poor’s за Србију – потврђен кредитни рејтинг Србије на нивоу ББ+ и стабилни изглед",
+   "updated": "2026-11-08T04:20:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16439&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стопа контрацикличног заштитног слоја капитала за Републику Србију задржана на непромењеном нивоу",
+   "updated": "2026-11-08T04:20:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16449&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Народне банке Србије један од кључних говорника на церемонији отварања 17. Кинеског међународног финансијског ф",
+   "updated": "2026-11-08T04:20:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16459&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати новембарске анкете о инфлационим очекивањима",
+   "updated": "2026-11-08T04:20:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1649&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19578,9 +19584,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16490&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије је и у 2020. години била гарант монетарне и финансијске стабилности, одговоран регулатор и иноватор",
+   "updated": "2026-11-08T04:20:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=165&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19599,16 +19606,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16504&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Процене економских и спољнотрговинских кретања у 2020. години",
+   "updated": "2026-11-08T04:20:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16508&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Обавештење о лажној Фејсбук страници DinaCard и „новогодишњој донацији” коју наводно организује DinaCard систем",
+   "updated": "2026-11-08T04:20:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1651&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19620,9 +19629,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16510&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћања у IPS НБС систему током новогодишње ноћи",
+   "updated": "2026-11-08T04:20:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16516&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
