@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2524,
+    "n": 2525,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T03:46:13+00:00",
+   "at": "2026-11-08T03:48:12+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-07",
   "last_run": {
-   "at": "2026-11-08T03:47:03+00:00",
-   "elapsed_s": 50,
+   "at": "2026-11-08T03:48:52+00:00",
+   "elapsed_s": 39,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2526,
+   "ALTA": 2527,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -20335,37 +20335,42 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16963&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије испуњава обећање дато грађанима и банкама – од почетка маја замењено преко 100 милиона новчаница ос",
+   "updated": "2026-11-08T03:48:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16968&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор гувернера Јоргованке Табаковић на 28. Копаоник бизнис форуму",
+   "updated": "2026-11-08T03:48:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16972&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Летња пракса у Народној банци Србије у 2021. години – обавештење о тестирању",
+   "updated": "2026-11-08T03:48:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16981&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Позајмица оснивача за ликвидност",
+   "updated": "2026-11-08T03:48:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16987&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Интервју гувернера Јоргованке Табаковић за дневни лист „Политика“, од 30. маја 2021.",
+   "updated": "2026-11-08T03:48:37+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1699&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20377,16 +20382,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16991&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T03:48:36+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=16994&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Успешна акција замене новчаница осме серије швајцарског франка – Народна банка Србије заменила 227,1 милион швајцарских ",
+   "updated": "2026-11-08T03:48:35+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20405,9 +20412,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17005&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер Јоргованка Табаковић за портал Biznis.rs о важности добрих оцена водећих рејтинг агенција",
+   "updated": "2026-11-08T03:48:34+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1701&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -20419,16 +20427,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17012&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад IPS НБС система за мај",
+   "updated": "2026-11-08T03:48:33+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17013&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, Клиринг система, Међубанкарског клиринг система у девизама Народне банке Србије и Међународног клиринг",
+   "updated": "2026-11-08T03:48:32+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=17014&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
