@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T09:03:54+00:00",
-    "n": 2849,
+    "n": 2850,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T14:44:16+00:00",
+   "at": "2026-11-08T14:46:13+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T14:44:46+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-08T14:47:10+00:00",
+   "elapsed_s": 57,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -196,10 +196,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2851,
+   "ALTA": 2852,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -38538,16 +38538,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4293&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије продала данас на девизном тржишту 20 милиона евра",
+   "updated": "2026-11-08T14:46:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4297&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан 23. јуна 2010.",
+   "updated": "2026-11-08T14:46:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=43&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -38566,23 +38568,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4304&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "ММФ одобрио повлачење четврте транше у оквиру стенд-бај аранжмана",
+   "updated": "2026-11-08T14:46:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4307&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора Народне банке Србије",
+   "updated": "2026-11-08T14:46:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4308&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Признање Глобалном договору у Србији",
+   "updated": "2026-11-08T14:46:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=431&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -38594,16 +38599,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4312&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-08T14:46:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4318&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Међугодишњи раст потрошачких цена у јуну испод 4 одсто",
+   "updated": "2026-11-08T14:46:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=432&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -38615,23 +38622,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4323&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Макроекономска кретања у мају у складу са пројекцијама Народне банке Србије",
+   "updated": "2026-11-08T14:46:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4326&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  30. јуна 2010.",
+   "updated": "2026-11-08T14:46:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4329&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Своп аукција девиза одржана на дан  28. јун 2010.",
+   "updated": "2026-11-08T14:46:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=433&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
