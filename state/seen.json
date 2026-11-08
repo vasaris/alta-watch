@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-08T03:02:25+00:00",
-    "n": 2677,
+    "n": 2678,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-08T08:57:51+00:00",
+   "at": "2026-11-08T08:58:37+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-08T08:58:27+00:00",
-   "elapsed_s": 35,
+   "at": "2026-11-08T08:59:12+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -199,7 +199,7 @@
    "nbs": 4774
   },
   "src_fail": {
-   "ALTA": 2679,
+   "ALTA": 2680,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -11164,23 +11164,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10000&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати четири године рада гувернера Јоргованке Табаковић – стабилност и поверење",
+   "updated": "2026-11-08T08:58:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10002&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије отворила званичне налоге на друштвеним мрежама",
+   "updated": "2026-11-08T08:58:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10007&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Утицај сезонских фактора на кретање инфлације",
+   "updated": "2026-11-08T08:58:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=1001&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -11199,16 +11202,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10020&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:58:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10024&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у јулу",
+   "updated": "2026-11-08T08:58:53+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=10026&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -19571,9 +19576,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15906&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на непромењеном нивоу",
+   "updated": "2026-11-08T08:58:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=15907&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -47298,9 +47304,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9937&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Директан пренос презентације Годишњег извештаја о стабилности финансијског система за 2015. у среду, 27. јула",
+   "updated": "2026-11-08T08:59:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=994&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -47326,16 +47333,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9965&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање економске и спољнотрговинске активности",
+   "updated": "2026-11-08T08:59:01+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9969&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Банке дужне да са личним подацима клијената поступају у складу са законом",
+   "updated": "2026-11-08T08:59:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=997&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -47347,9 +47356,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=9973&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Рад RTGS система, клиринг система и система међубанкарског и међународног клиринга плаћања у девизама за јул",
+   "updated": "2026-11-08T08:58:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=998&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
