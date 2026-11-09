@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3424,
+    "n": 3425,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T09:58:51+00:00",
+   "at": "2026-11-09T10:00:48+00:00",
    "dated": 280,
    "files": 280,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T09:59:23+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-09T10:01:25+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -199,14 +199,32 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3426,
+   "ALTA": 3427,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "09.11.2026 09:59",
+    "first": "НБС отозвал лицензию обменного дилера Alta Group d.o.o. Beograd (отдельно от банка и платёжного учреждения).",
+    "important": false,
+    "kind": "press",
+    "outlet": "N1",
+    "tags": [
+     "регулятор",
+     "суд",
+     "активы",
+     "банки"
+    ],
+    "title": "НБС отозвал лицензию обменного дилера Alta Group и наложил штраф 250 млн динаров",
+    "title_src": "Serbia’s central bank fines authorized exchange dealer Alta Group",
+    "ts": 1794218485.1285448,
+    "url": "https://n1info.rs/english/news/serbias-central-bank-fines-authorized-exchange-dealer-alta-group"
+   }
+  ]
  },
  "recent": [
   {
@@ -3270,6 +3288,17 @@
     "активы"
    ],
    "title": "Serbia Central Bank revokes licence of Belgrade-based Alta Banka"
+  },
+  "https://n1info.rs/english/news/serbias-central-bank-fines-authorized-exchange-dealer-alta-group": {
+   "first_seen": "2026-11-09T10:01:25+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "НБС отозвал лицензию обменного дилера Alta Group и наложил штраф 250 млн динаров",
+   "title_src": "Serbia’s central bank fines authorized exchange dealer Alta Group",
+   "updated": "2026-11-09T10:01:25+00:00"
   },
   "https://n1info.rs/region/direktor-agencije-za-bankarstvo-rs-alta-srbija-nikakav-uticaj": {
    "first_seen": "2026-11-02T14:41:52+00:00",
