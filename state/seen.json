@@ -180,20 +180,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T15:08:29+00:00",
-    "n": 3584,
+    "n": 3585,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T15:18:15+00:00",
+   "at": "2026-11-09T15:20:26+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T15:18:35+00:00",
-   "elapsed_s": 20,
+   "at": "2026-11-09T15:21:00+00:00",
+   "elapsed_s": 33,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -216,10 +216,10 @@
   "sources": {
    "alta": 0,
    "aod": 48,
-   "nbs": 40
+   "nbs": 41
   },
   "src_fail": {
-   "ALTA": 3586,
+   "ALTA": 3587,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -33326,6 +33326,14 @@
    "reason": "flood",
    "status": "quarantine",
    "updated": "2026-11-07T20:35:58+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21890": {
+   "first_seen": "2026-11-09T15:20:45+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање пореских обавеза Дина картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-09T15:20:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=219&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
