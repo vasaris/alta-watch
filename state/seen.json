@@ -175,20 +175,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3445,
+    "n": 3446,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T10:40:22+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T10:43:09+00:00",
+   "dated": 282,
+   "files": 282,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T10:42:50+00:00",
-   "elapsed_s": 148,
+   "at": "2026-11-09T10:43:44+00:00",
+   "elapsed_s": 34,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -210,13 +210,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3447,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 3448,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -4445,6 +4445,18 @@
    "status": "dup",
    "title": "DS требует ареста губернатора НБС Табаковић и владельца Alta Macury",
    "updated": "2026-10-31T17:32:52+00:00"
+  },
+  "https://nova.rs/vesti/politika/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
+   "first_seen": "2026-11-09T10:43:44+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Idea Marketi: взыскания и переговоры с поставщиками после ареста владельца",
+   "title_src": "Forbs Srbija: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
+   "updated": "2026-11-09T10:43:44+00:00"
   },
   "https://nova.rs/vesti/politika/parandilovic-nls-alta-banka-bila-perionica-novca-za-vrh-sns-tuzilastvo-da-ispita-odgovornost": {
    "first_seen": "2026-10-31T12:53:06+00:00",
