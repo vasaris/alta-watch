@@ -180,20 +180,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3498,
+    "n": 3499,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T12:26:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T12:28:40+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T12:28:27+00:00",
-   "elapsed_s": 134,
+   "at": "2026-11-09T12:29:06+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3500,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 3501,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -33299,6 +33299,14 @@
    ],
    "title": "Обавештење за кориснике кредита Алта банке у стечају и ALTA GROUP DOO Beograd",
    "updated": "2026-11-07T20:36:53+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21888": {
+   "first_seen": "2026-11-09T12:28:55+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Курс динара је стабилан, Банка Поштанска штедионица редовно послује",
+   "updated": "2026-11-09T12:28:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2189&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
