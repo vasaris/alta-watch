@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T15:08:29+00:00",
-    "n": 3690,
+    "n": 3691,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T19:00:46+00:00",
+   "at": "2026-11-09T19:02:18+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T19:01:11+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-09T19:03:11+00:00",
+   "elapsed_s": 53,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 3692,
+   "ALTA": 3693,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -49348,6 +49348,17 @@
    "title": "Идеа Маркет: взыскания и финансовые проблемы владельца ALTA банка",
    "title_src": "Форбс Србија: Покренута прва извршења за наплату дуговања Идеа маркета",
    "updated": "2026-11-09T11:10:57+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6080041/soskic-kurs-ce-biti-fiksan-nacionalizacija-nis-a-nije-opcija-koju-zagovaram--sta-kaze-o-ulasku-u-vladu.html": {
+   "first_seen": "2026-11-09T19:03:11+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Шошкић: пропаст ALTA банки могла быть предотвращена, НБС допустил пропуски в надзоре",
+   "title_src": "Шошкић: Курс ће бити фиксан, национализација НИС-а није опција коју заговарам – шта каже о уласку у Владу",
+   "updated": "2026-11-09T19:03:11+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6080041/soskic-kurs-dinara-ostaje-fiksan-nacionalizacija-nis-a-nije-opcija-koju-zagovaram--sta-kaze-o-ulasku-u-vladu.html": {
    "first_seen": "2026-11-09T18:40:56+00:00",
