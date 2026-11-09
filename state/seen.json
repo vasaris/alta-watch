@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3457,
+    "n": 3458,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T11:04:20+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-09T11:06:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T11:04:51+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-09T11:08:43+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3459,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3460,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4714,6 +4714,18 @@
    "title": "Alta banka до отзыва лицензии подала в суд на бывшую прокурора Паунович за ущерб репутации",
    "updated": "2026-10-31T17:31:30+00:00"
   },
+  "https://novaekonomija.rs/vesti-iz-zemlje/dobavljaci-nastoje-da-sacuvaju-idea-markete-u-opasnosti-zbog-situacije-sa-alta-bankom": {
+   "first_seen": "2026-11-09T11:08:39+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Индекс Beleks15 достиг максимума с 2008 года",
+   "title_src": "Dobavljači nastoje da sačuvaju Idea markete u opasnosti zbog situacije sa Alta bankom",
+   "updated": "2026-11-09T11:08:39+00:00"
+  },
   "https://novaekonomija.rs/vesti-iz-zemlje/eps-u-ostalo-05-odsto-naplacenih-racuna-za-struju-u-alta-banci": {
    "first_seen": "2026-11-03T10:34:51+00:00",
    "kind": "press",
@@ -6684,6 +6696,18 @@
    "title": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
    "title_src": "NBS objavila račune za otplatu kredita Alta banke i upozorila građane na moguće prevare",
    "updated": "2026-11-06T21:51:07+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/460837/nakon-hapsenja-davora-macure-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
+   "first_seen": "2026-11-09T11:08:43+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "После ареста Давора Мацуре: начаты первые взыскания по долгам Idea marketa",
+   "title_src": "Nakon hapšenja Davora Macure: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
+   "updated": "2026-11-09T11:08:43+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
