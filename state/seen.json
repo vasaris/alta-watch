@@ -180,20 +180,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T15:08:29+00:00",
-    "n": 3587,
+    "n": 3588,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T15:24:44+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T15:27:22+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T15:27:07+00:00",
-   "elapsed_s": 142,
+   "at": "2026-11-09T15:27:56+00:00",
+   "elapsed_s": 34,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 3589,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 3590,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -33334,6 +33334,14 @@
    "status": "rejected",
    "title": "Плаћање пореских обавеза Дина картицом на шалтерима Управе за трезор",
    "updated": "2026-11-09T15:20:45+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21892": {
+   "first_seen": "2026-11-09T15:27:43+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Активности учесника у платним системима Народне банке Србије одвијају се на уобичајеном нивоу",
+   "updated": "2026-11-09T15:27:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=219&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
