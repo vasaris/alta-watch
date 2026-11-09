@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3478,
+    "n": 3479,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T11:47:09+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T11:49:33+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T11:49:21+00:00",
-   "elapsed_s": 132,
-   "llm_calls": 0,
+   "at": "2026-11-09T11:50:08+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3480,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 3481,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -10819,6 +10819,18 @@
    "title": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
    "title_src": "Guvernerka Centralne banke Crne Gore: Vršeni pritisci na nas nakon što smo odbili zahtev Alta banke za preuzimanje Adiko banke",
    "updated": "2026-11-06T18:11:16+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/idea-marketi-dobavljaci-poslovanje": {
+   "first_seen": "2026-11-09T11:50:08+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Поставщики Idea marketa контролируют операции сети после ареста владельца",
+   "title_src": "Forbs: Dobavljači nadziru poslovanje Idea marketa, neki pokušavaju da naplate dugovanja",
+   "updated": "2026-11-09T11:50:08+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/informatika-novi-sad-promenila-broj-racuna-za-uplate-nakon-oduzimanje-dozvole-alta-banci": {
    "first_seen": "2026-11-02T09:34:09+00:00",
