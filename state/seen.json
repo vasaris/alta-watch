@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3409,
+    "n": 3410,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T09:28:24+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-09T09:30:35+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T09:28:54+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-09T09:32:59+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3411,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3412,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -11187,6 +11187,18 @@
    "title": "Студенты в блокаде о Alta: капитал банка в июне был выше нормы, требуется расследование",
    "title_src": "Studenti u blokadi o Alta banci: „Očuvanje finansijske stabilnosti je na prvom mestu“",
    "updated": "2026-10-31T18:21:17+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/svaka-novcanica-moze-da-se-prati-finansijski-forenzicar-za-danas-o-parama-iz-alta-banke": {
+   "first_seen": "2026-11-09T09:32:59+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Финансовый форензик о составе имущества Alta банки: кубинские облигации, недвижимость, недостача наличности",
+   "title_src": "„Svaka novčanica može da se prati“: Finansijski forenzičar za Danas o parama iz Alta banke",
+   "updated": "2026-11-09T09:32:59+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/tok-nbs-alta-banka": {
    "attempts": 74,
@@ -49274,6 +49286,12 @@
    "title": "Владелец Alta banka Давор Мацура задержан по подозрению в хищении 45 млрд динаров",
    "ts": "2026-11-08T23:03:15+00:00",
    "url": "https://t.me/Serbia/107654"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Финансовый форензик о составе имущества Alta банки: кубинские облигации, недвижимость, недостача наличности",
+   "ts": "2026-11-09T09:30:35+00:00",
+   "url": "https://www.danas.rs/vesti/ekonomija/svaka-novcanica-moze-da-se-prati-finansijski-forenzicar-za-danas-o-parama-iz-alta-banke"
   }
  ]
 }
