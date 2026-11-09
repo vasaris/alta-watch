@@ -175,21 +175,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3444,
+    "n": 3445,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T10:38:18+00:00",
-   "dated": 282,
-   "files": 282,
-   "pages_ok": 2
+   "at": "2026-11-09T10:40:22+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T10:38:47+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-09T10:42:50+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -210,13 +210,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3446,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3447,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3710,6 +3710,18 @@
    "status": "signal",
    "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
    "updated": "2026-10-31T17:43:56+00:00"
+  },
+  "https://nova.rs/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
+   "first_seen": "2026-11-09T10:42:50+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Idea Marketi: взыскания и переговоры с поставщиками после ареста владельца",
+   "title_src": "Forbs Srbija: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
+   "updated": "2026-11-09T10:42:50+00:00"
   },
   "https://nova.rs/kori-udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor": {
    "first_seen": "2026-11-01T08:49:20+00:00",
