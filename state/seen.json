@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T15:08:29+00:00",
-    "n": 3720,
+    "n": 3721,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T20:00:44+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-09T20:02:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T20:01:16+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 1,
+   "at": "2026-11-09T20:04:40+00:00",
+   "elapsed_s": 145,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 3722,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3723,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -5861,6 +5861,17 @@
    "title_src": "Для кредиторов ALTA Banka опубликован срок подачи требований в банкротстве. 9 ноября Агентство по страхованию депозитов разместило судебное объявление, опубликованное в «Службени гласник» 6 ноября. Суд установил 60 дней…",
    "updated": "2026-11-09T19:42:56+00:00"
   },
+  "https://t.me/Serbia/107691": {
+   "first_seen": "2026-11-09T20:04:40+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Криминалист о возможности отследить движение денег Alta banka",
+   "title_src": "Криминалист: движение денег Alta banka можно проследить Финансовый криминалист Никола Сенеши считает, что наличные, связанные с делом Alta banka, можно попытаться отследить по серийным номерам купюр. По его словам,…",
+   "updated": "2026-11-09T20:04:40+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -7083,6 +7094,17 @@
    "title": "Русские в Сербии в затруднении из-за Alta banke: что они говорят о ситуации",
    "title_src": "Rusi u Srbiji u problemu zbog Alta banke: Evo šta oni kažu o čitavom slučaju",
    "updated": "2026-11-03T09:26:45+00:00"
+  },
+  "https://www.021.rs/novi-sad/vesti/460883/informatika-ce-novac-stambenim-zajednicama-isplatiti-sa-zakasnjenjem-zbog-stecaja-alta-banke": {
+   "first_seen": "2026-11-09T20:04:36+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "«Informatika» задержит выплаты жилищным сообществам из-за банкротства Alta банка",
+   "title_src": "\"Informatika\" će novac stambenim zajednicama isplatiti sa zakašnjenjem zbog stečaja Alta banke",
+   "updated": "2026-11-09T20:04:36+00:00"
   },
   "https://www.aod.rs/clan/stecajlikv/postupci_utoku": {
    "first_seen": "2026-11-04T08:15:56+00:00",
