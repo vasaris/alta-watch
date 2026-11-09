@@ -160,20 +160,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T03:08:23+00:00",
-    "n": 3366,
+    "n": 3367,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T07:58:14+00:00",
-   "dated": 280,
-   "files": 280,
-   "pages_ok": 2
+   "at": "2026-11-09T08:00:46+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
-  "daily_report_date": "2026-11-08",
+  "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T07:58:45+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-09T08:03:07+00:00",
+   "elapsed_s": 141,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3368,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3369,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4080,6 +4080,16 @@
    "status": "rejected",
    "title": "Sindikati: Nakon gašenja Alta banke zaštititi plate njenih službenika i uloge građana",
    "updated": "2026-10-31T17:12:43+00:00"
+  },
+  "https://nova.rs/vesti/biznis/soskic-ne-bi-se-desila-alta-banka-da-je-nbs-postupala-profesionalno-i-samostalno-u-odnosu-na-politicku-vlast": {
+   "first_seen": "2026-11-09T08:03:07+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/dejan-soskic-o-alta-banci",
+   "status": "dup",
+   "title": "Šoškić: Ne bi se desila Alta banka da je NBS postupala profesionalno i samostalno u odnosu na političku vlast",
+   "title_src": "Šoškić: Ne bi se desila Alta banka da je NBS postupala profesionalno i samostalno u odnosu na političku vlast",
+   "updated": "2026-11-09T08:03:07+00:00"
   },
   "https://nova.rs/vesti/biznis/sta-je-nbs-znala-o-trezoru-alta-banke": {
    "first_seen": "2026-11-04T10:01:40+00:00",
