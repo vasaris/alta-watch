@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T15:08:29+00:00",
-    "n": 3669,
+    "n": 3670,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T18:11:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T18:15:10+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T18:13:42+00:00",
-   "elapsed_s": 149,
-   "llm_calls": 0,
+   "at": "2026-11-09T18:15:40+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 3671,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 3672,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -10509,6 +10509,18 @@
    "status": "rejected",
    "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
    "updated": "2026-10-31T16:49:42+00:00"
+  },
+  "https://www.danas.rs/vesti/drustvo/vjt-baka-prase-kidnapovanje": {
+   "first_seen": "2026-11-09T18:15:40+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Прокуратура Белграда: заявления YouTuber'а о задержании и связи с ALTA — ложь",
+   "title_src": "VJT za Nova.rs: Lažni navodi o privođenju Bake Praseta",
+   "updated": "2026-11-09T18:15:40+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/adiko-banka-istice-da-oduzimanje-dozvole-alta-banci-ne-utice-na-njihovo-poslovanje": {
    "first_seen": "2026-11-01T13:24:41+00:00",
