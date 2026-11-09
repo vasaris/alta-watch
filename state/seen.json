@@ -175,23 +175,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3440,
+    "n": 3441,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T10:30:33+00:00",
-   "dated": 282,
-   "files": 282,
-   "pages_ok": 2
+   "at": "2026-11-09T10:32:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T10:30:59+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-09T10:34:30+00:00",
+   "elapsed_s": 135,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -210,43 +210,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3442,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3443,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "09.11.2026 09:59",
-    "first": "НБС отозвал лицензию обменного дилера Alta Group d.o.o. Beograd (отдельно от банка и платёжного учреждения).",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "регулятор",
-     "суд",
-     "активы",
-     "банки"
-    ],
-    "title": "НБС отозвал лицензию обменного дилера Alta Group и наложил штраф 250 млн динаров",
-    "title_src": "Serbia’s central bank fines authorized exchange dealer Alta Group",
-    "ts": 1794218485.1285448,
-    "url": "https://n1info.rs/english/news/serbias-central-bank-fines-authorized-exchange-dealer-alta-group"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "АОД опубликовала детали выплат застрахованных вкладов Alta: документы и процедура — Конкретная дата начала выплат: 13 ноября 2026 — Полный перечень документов, необходимых при подаче заявления на выплату",
-   "ts": 1793975467.1415007,
-   "url": "https://n1info.rs/biznis/objavljeno-kada-pocinje-isplata-depozita-alta-banke-u-stecaju-sta-treba-poneti-od-dokumenata"
-  },
   {
    "text": "АОД: процедура возврата застрахованных средств малых инвесторов Alta банка (лимит 20 000 евро) — Официально подтверждено: лимит защиты для малых инвесторов составляет 20 000 евро (ранее был известен общий лимит 50 000 евро для обычных вкладчиков)",
    "ts": 1793975666.779044,
@@ -441,6 +418,11 @@
    "text": "АОД объявляет конкурс на должность управляющего по банкротству ALTA банка — АОД (Агенција за осигурање депозита) объявляет открытый конкурс на назначение лицензированного управляющего по банкротству для проведения и завершения стечайного производства над ALTA банком а.д. Београд. — Управляющий будет",
    "ts": 1794220191.9952948,
    "url": "https://www.aod.rs/uploads/dokumenti/oglas/243_1_oglas.pdf"
+  },
+  {
+   "text": "НБС отозвал лицензию обменного дилера Alta Group и наложил штраф 250 млн динаров",
+   "ts": 1794220468.521506,
+   "url": "https://n1info.rs/english/news/serbias-central-bank-fines-authorized-exchange-dealer-alta-group"
   }
  ],
  "retry_items": {},
@@ -3307,13 +3289,21 @@
   "https://n1info.rs/english/news/serbias-central-bank-fines-authorized-exchange-dealer-alta-group": {
    "first_seen": "2026-11-09T10:01:25+00:00",
    "kind": "press",
+   "message_id": 263,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-09T10:34:28+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "активы",
+    "банки"
+   ],
    "title": "НБС отозвал лицензию обменного дилера Alta Group и наложил штраф 250 млн динаров",
    "title_src": "Serbia’s central bank fines authorized exchange dealer Alta Group",
-   "updated": "2026-11-09T10:01:25+00:00"
+   "updated": "2026-11-09T10:34:28+00:00"
   },
   "https://n1info.rs/region/direktor-agencije-za-bankarstvo-rs-alta-srbija-nikakav-uticaj": {
    "first_seen": "2026-11-02T14:41:52+00:00",
