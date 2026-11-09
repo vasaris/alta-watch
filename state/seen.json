@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3491,
+    "n": 3492,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T12:12:19+00:00",
+   "at": "2026-11-09T12:14:12+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T12:12:49+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-09T12:14:42+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3493,
+   "ALTA": 3494,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1560,6 +1560,18 @@
    "title": "Alta банка Битолј: повышение лимитов снятия и открытие отделений в Тетове и Струмице",
    "title_src": "Povećava se limit za podizanje novca u Alta banci Bitolj i otvaraju šalteri u Tetovu i Strumici",
    "updated": "2026-11-08T11:29:08+00:00"
+  },
+  "https://beta.rs/content/255616-forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
+   "first_seen": "2026-11-09T12:14:42+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Начаты первые взыскания задолженности Idea marketa",
+   "title_src": "Forbs Srbija: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
+   "updated": "2026-11-09T12:14:42+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
