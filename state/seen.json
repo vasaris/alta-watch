@@ -175,21 +175,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3451,
+    "n": 3452,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T10:52:14+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-09T10:54:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T10:52:45+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-09T10:56:50+00:00",
+   "elapsed_s": 154,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -210,13 +210,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3453,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 3454,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3819,6 +3819,18 @@
    "title": "От обменника к краху: история расширения Alta Banka и владения Давора Макуры",
    "title_src": "Dosije Alta: Od menjačnice u Zemunu do banke na čiji račun plaćamo EPS-u, MUP-u... Kako se širilo poslovanje banke kojoj je NBS oduzela dozvolu za rad",
    "updated": "2026-11-01T17:00:31+00:00"
+  },
+  "https://nova.rs/vesti/biznis/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
+   "first_seen": "2026-11-09T10:56:50+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Idea Marketi: взыскания и переговоры с поставщиками после ареста владельца",
+   "title_src": "Forbs Srbija: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
+   "updated": "2026-11-09T10:56:50+00:00"
   },
   "https://nova.rs/vesti/biznis/grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj": {
    "first_seen": "2026-11-07T16:07:04+00:00",
