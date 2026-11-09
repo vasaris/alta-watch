@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T09:08:27+00:00",
-    "n": 3566,
+    "n": 3567,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T14:42:14+00:00",
+   "at": "2026-11-09T14:44:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-09",
   "last_run": {
-   "at": "2026-11-09T14:42:36+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-09T14:44:48+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3568,
+   "ALTA": 3569,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -49272,6 +49272,18 @@
    "title": "Рост цен на аренду жилья в Сербии; русские вкладчики ALTA без средств на оплату",
    "title_src": "Кирије немају милости - за 300 евра готово нема стана, а луксузни достижу 1.500 евра",
    "updated": "2026-11-09T05:05:55+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6079303/kirije-nemaju-milosti--za-300-evra-gotovo-nema-stana-a-luksuzni-dostizu-1500-evra.html": {
+   "first_seen": "2026-11-09T14:44:48+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Рост цен на аренду жилья в Сербии; проблемы иностранцев с платежами из-за блокировки средств",
+   "title_src": "Кирије немају милости – за 300 евра готово нема стана, а луксузни достижу 1.500 евра",
+   "updated": "2026-11-09T14:44:48+00:00"
   },
   "https://www.rts.rs/vesti/ekonomija/6079739/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa.html": {
    "first_seen": "2026-11-09T11:10:57+00:00",
