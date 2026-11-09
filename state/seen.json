@@ -160,21 +160,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-09T03:08:23+00:00",
-    "n": 3319,
+    "n": 3320,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-09T06:24:39+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-09T06:27:13+00:00",
+   "dated": 280,
+   "files": 280,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-08",
   "last_run": {
-   "at": "2026-11-09T06:26:56+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-09T06:28:01+00:00",
+   "elapsed_s": 48,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -195,13 +195,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 48,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 3321,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 3322,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -4466,6 +4466,17 @@
    "title": "58 транзакций из Черногории в Alta: детали потоков денег и контроль регулятора",
    "title_src": "Milioni iz Crne Gore završavali u Alta banci: Otkriveni detalji 58 transakcija",
    "updated": "2026-11-04T11:02:50+00:00"
+  },
+  "https://nova.rs/vesti/svet/od-ukradene-milijarde-u-moldaviji-preko-sanadera-do-afere-alta-banka-u-srbiji-najveci-bankarski-skandali-u-regionu": {
+   "first_seen": "2026-11-09T06:28:01+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Alta banka в контексте региональных банковских скандалов: сравнительный анализ",
+   "title_src": "Od ukradene milijarde u Moldaviji, preko Sanadera do afere Alta banka u Srbiji: Najveći bankarski skandali u regionu",
+   "updated": "2026-11-09T06:28:01+00:00"
   },
   "https://nova.rs/vesti/svet/opozicija-u-severnoj-makedoniji-trazi-od-narodne-banke-da-uvede-prinudnu-upravu-u-alta-banku-bitolj": {
    "attempts": 68,
