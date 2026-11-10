@@ -180,23 +180,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T09:12:24+00:00",
-    "n": 4256,
+    "n": 4257,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T13:52:17+00:00",
+   "at": "2026-11-10T13:54:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T13:52:48+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-10T13:54:53+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -219,7 +219,7 @@
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 4258,
+   "ALTA": 4259,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -229,11 +229,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД: уведомление малым инвесторам Alta банка о защите средств (лимит 20 000 евро) — Решение Хозяйственного суда Белграда от 3 ноября 2026 года об открытии банкротства Alta банка a.d. Beograd наступило осигуранный случай для малых инвесторов по Закону о рынке капитала — АОД выплачивает защищённые тре",
-   "ts": 1793975954.5517015,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/143"
-  },
   {
    "text": "АОД: процедура выплаты застрахованных вкладов Alta банка начинается 13 ноября 2026 — Выплаты застрахованных вкладов клиентам Alta банка a.d. Beograd начинаются 13 ноября 2026 года через Банку Поштанску штедионицу a.d. Beograd — Лимит застрахованного вклада: до 50 000 евро на вкладчика; динарские вкл",
    "ts": 1793976998.1456351,
@@ -428,6 +423,11 @@
    "text": "Решение Привредного суда Белграда об открытии стечайного производства над ALTA банком (официальное объявление) — Решение Привредного суда Белграда № 10 СТ 275/2026 от 3 ноября 2026 об открытии стечайного производства над ALTA банком a.d. Beograd, Булевар Зорана Ђинђића 121, МБ 07074433 — Управляющий",
    "ts": 1794222153.902352,
    "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.pdf"
+  },
+  {
+   "text": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита — Дата начала выплат: 13 ноября 2026 (пятница) — Банк-выплатчик подтверждён: Банка Поштанска штедионица",
+   "ts": 1794318891.4814413,
+   "url": "https://www.danas.rs/vesti/ekonomija/pocinje-isplata-osiguranih-depozita-alta-banke-rusi-iz-subotice-strahuju-za-ostatak-ustedjevine"
   }
  ],
  "retry_items": {},
@@ -11342,6 +11342,26 @@
     "банки"
    ],
    "title": "Oglasilo se udruženje banaka Srbije u vezi sa uzimanjem dozvole Alta banci"
+  },
+  "https://www.danas.rs/vesti/ekonomija/pocinje-isplata-osiguranih-depozita-alta-banke-rusi-iz-subotice-strahuju-za-ostatak-ustedjevine": {
+   "first_seen": "2026-11-10T13:54:51+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 266,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-10T13:54:51+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки",
+    "требования"
+   ],
+   "title": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита",
+   "title_src": "Počinje isplata osiguranih depozita Alta banke, Rusi iz Subotice strahuju za ostatak ušteđevine",
+   "updated": "2026-11-10T13:54:51+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita": {
    "first_seen": "2026-11-05T19:18:02+00:00",
