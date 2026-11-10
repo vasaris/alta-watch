@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T15:12:25+00:00",
-    "n": 4311,
+    "n": 4312,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T15:42:55+00:00",
+   "at": "2026-11-10T15:44:17+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T15:43:20+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-10T15:44:57+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4313,
+   "ALTA": 4314,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2242,6 +2242,18 @@
    "title": "КК Красная звезда: отзыв лицензии Alta не повлияет на клуб",
    "title_src": "KK Crvena zvezda se oglasila povodom saradnje sa Alta bankom nakon odluke NBS",
    "updated": "2026-11-02T18:22:50+00:00"
+  },
+  "https://insajder.net/prenosimo/klijenti-alta-banke-bitolj-mogu-da-koriste-mobilno-bankarstvo-uz-ogranicenu-potrosnju": {
+   "first_seen": "2026-11-10T15:44:57+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Alta banka Bitolj: мобильный банкинг с ограничениями и новый офис в Скопье",
+   "title_src": "Klijenti Alta banke Bitolj mogu da koriste mobilno bankarstvo, uz ograničenu potrošnju",
+   "updated": "2026-11-10T15:44:57+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-nije-bilo-vecih-transfera-u-i-iz-srbije-preko-alta-banke-bitolj": {
    "first_seen": "2026-11-05T15:09:08+00:00",
