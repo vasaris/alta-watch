@@ -180,23 +180,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T15:12:25+00:00",
-    "n": 4302,
+    "n": 4303,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T15:24:16+00:00",
+   "at": "2026-11-10T15:26:20+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T15:24:39+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-10T15:27:03+00:00",
+   "elapsed_s": 43,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -219,21 +219,34 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4304,
+   "ALTA": 4305,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "10.11.2026 15:24",
+    "first": "Объявлен публичный конкурс на должность повереника АОД в стечае Alta банки с конкретными требованиями к квалификации",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "регулятор",
+     "выплаты",
+     "требования",
+     "сроки"
+    ],
+    "title": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
+    "title_src": "AOD raspisala konkurs za izbor stečajnog upravnika Alta banke",
+    "ts": 1794324423.6799324,
+    "url": "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke"
+   }
+  ]
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. Beograd на проведение обменных операций решением губернатора NBS — Наложены штрафы в общей сумме 250 млн динаров (для юридического лица и ответственног",
-   "ts": 1793981804.9080603,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882"
-  },
   {
    "text": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка) — Наложены штрафы в сумме 250 млн динаров за серьёзные нарушения девизного законодательства и норм по против",
    "ts": 1793982284.2815053,
@@ -428,6 +441,11 @@
    "text": "Банка Поштанска штедионица открывает портал для записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября (среда) — новый организационный инструмент — Специализированная экспозитура в центральной офисе Банки Поштанске штедионице (ул. королевы Марии, 3) с",
    "ts": 1794321182.2744477,
    "url": "https://insajder.net/prenosimo/zakazivanje-termina-za-isplatu-depozita-klijentima-alta-banke-od-1211-na-portalu-banke-postanska-stedionica"
+  },
+  {
+   "text": "Поштанска штедионица открывает портал записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября 2026 года (среда) — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии, 3) с 28 кассами, пр",
+   "ts": 1794324413.9610586,
+   "url": "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke"
   }
  ],
  "retry_items": {},
@@ -3180,6 +3198,26 @@
    "title": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
    "title_src": "Pokrenut stečaj Alta banke: Poštanska štedionica isplaćivaće njene deponente",
    "updated": "2026-11-03T11:44:46+00:00"
+  },
+  "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke": {
+   "first_seen": "2026-11-10T15:26:53+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 268,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-10T15:26:53+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Поштанска штедионица открывает портал записи на выплаты вкладчикам Alta с 12 ноября",
+   "title_src": "Poštanska štedionica: Od 12. novembra dostupan portal za zakazivanje isplata klijentima Alta banke",
+   "updated": "2026-11-10T15:26:53+00:00"
   },
   "https://n1info.rs/biznis/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke": {
    "first_seen": "2026-11-04T13:03:11+00:00",
@@ -10696,6 +10734,17 @@
    "title": "AOD объявила дату начала выплат застрахованных вкладов: 13 ноября 2026",
    "title_src": "AOD objavila kada počinje isplata depozita građana iz Alta banke",
    "updated": "2026-11-06T13:58:48+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke": {
+   "first_seen": "2026-11-10T15:27:03+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
+   "title_src": "AOD raspisala konkurs za izbor stečajnog upravnika Alta banke",
+   "updated": "2026-11-10T15:27:03+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/bajatovic-avion-moskva-vulin-popovic": {
    "first_seen": "2026-11-04T05:44:53+00:00",
