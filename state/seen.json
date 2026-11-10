@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T15:12:25+00:00",
-    "n": 4392,
+    "n": 4393,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T18:24:54+00:00",
+   "at": "2026-11-10T18:26:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T18:25:19+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-10T18:26:47+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4394,
+   "ALTA": 4395,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3976,6 +3976,17 @@
    "title": "Intesa Invest потеряла доход от вкладов в Alta banku; основной капитал инвесторов не под угрозой",
    "title_src": "Intesa Invest ulagala novac u Alta banku, investitori ostaju bez zarade, možda samo privremeno",
    "updated": "2026-11-03T06:36:44+00:00"
+  },
+  "https://nova.rs/vesti/biznis/isplata-novca-klijentima-alta-banke-pocinje-13-novembra": {
+   "first_seen": "2026-11-10T18:26:47+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 9,
+   "status": "dup",
+   "title": "Выплаты вкладчикам Alta начинаются 13 ноября: кто имеет право на возмещение",
+   "title_src": "Isplata novca klijentima Alta banke počinje 13. novembra: Ko ima pravo na obeštećenje",
+   "updated": "2026-11-10T18:26:47+00:00"
   },
   "https://nova.rs/vesti/biznis/kako-do-novca-koji-imate-u-alta-banci-davora-macure-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
