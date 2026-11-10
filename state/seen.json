@@ -180,23 +180,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T09:12:24+00:00",
-    "n": 4274,
+    "n": 4275,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T14:28:39+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-10T14:30:35+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T14:29:04+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-10T14:33:03+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 4276,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 4277,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -229,11 +229,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД: процедура выплаты застрахованных вкладов Alta банка начинается 13 ноября 2026 — Выплаты застрахованных вкладов клиентам Alta банка a.d. Beograd начинаются 13 ноября 2026 года через Банку Поштанску штедионицу a.d. Beograd — Лимит застрахованного вклада: до 50 000 евро на вкладчика; динарские вкл",
-   "ts": 1793976998.1456351,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/145"
-  },
   {
    "text": "NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. Beograd на проведение обменных операций решением губернатора NBS — Наложены штрафы в общей сумме 250 млн динаров (для юридического лица и ответственног",
    "ts": 1793981804.9080603,
@@ -428,6 +423,11 @@
    "text": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита — Дата начала выплат: 13 ноября 2026 (пятница) — Банк-выплатчик подтверждён: Банка Поштанска штедионица",
    "ts": 1794318891.4814413,
    "url": "https://www.danas.rs/vesti/ekonomija/pocinje-isplata-osiguranih-depozita-alta-banke-rusi-iz-subotice-strahuju-za-ostatak-ustedjevine"
+  },
+  {
+   "text": "Банка Поштанска штедионица открывает портал для записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября (среда) — новый организационный инструмент — Специализированная экспозитура в центральной офисе Банки Поштанске штедионице (ул. королевы Марии, 3) с",
+   "ts": 1794321182.2744477,
+   "url": "https://insajder.net/prenosimo/zakazivanje-termina-za-isplatu-depozita-klijentima-alta-banke-od-1211-na-portalu-banke-postanska-stedionica"
   }
  ],
  "retry_items": {},
@@ -2532,6 +2532,26 @@
    "status": "rejected",
    "title": "Viceguverneri NBS traže od tužilaštva da utvrdi okolnosti oduzimanja licence Alta banci i eventualnu krivičnu odgovornos",
    "updated": "2026-10-31T15:06:13+00:00"
+  },
+  "https://insajder.net/prenosimo/zakazivanje-termina-za-isplatu-depozita-klijentima-alta-banke-od-1211-na-portalu-banke-postanska-stedionica": {
+   "first_seen": "2026-11-10T14:33:02+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 267,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-10T14:33:02+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Банка Поштанска штедионица открывает портал для записи на выплаты вкладчикам Alta с 12 ноября",
+   "title_src": "Zakazivanje termina za isplatu depozita klijentima Alta banke od 12. novembra na portalu Banke Poštanska štedionica",
+   "updated": "2026-11-10T14:33:02+00:00"
   },
   "https://insajder.net/region/narodna-banka-severne-makedonije-uvela-privremenu-upravu-nad-alta-bankom-u-bitolju-gradani-ce-moci-da-podizu-10000-denara-nedeljno": {
    "first_seen": "2026-11-01T17:31:14+00:00",
