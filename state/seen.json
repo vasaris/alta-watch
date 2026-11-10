@@ -180,23 +180,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T15:12:25+00:00",
-    "n": 4303,
+    "n": 4304,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T15:26:20+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-10T15:28:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T15:27:03+00:00",
-   "elapsed_s": 43,
-   "llm_calls": 2,
+   "at": "2026-11-10T15:30:44+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -215,13 +215,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4305,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 4306,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -11461,6 +11461,17 @@
    "title": "Почтовая сбербасса и AOD подписали договор о выплате застрахованных вкладов клиентам Alta банке",
    "title_src": "Poštanska štedionica i Agencija za osiguranje depozita potpisale ugovor o isplati osiguranih depozita deponentima Alta banke",
    "updated": "2026-11-05T19:18:02+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-napravila-portal-za-zakazivanje-termina-za-isplate-klijentima-alta-banle": {
+   "first_seen": "2026-11-10T15:30:44+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 8,
+   "status": "dup",
+   "title": "Поштанска штедионица открыла портал для записи на выплаты вкладчикам Alta",
+   "title_src": "Poštanska štedionica napravila portal za zakazivanje termina za isplate klijentima Alta banle",
+   "updated": "2026-11-10T15:30:44+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-pocela-isplatu-penzija-klijentima-alta-banke": {
    "first_seen": "2026-11-04T13:21:03+00:00",
