@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T09:12:24+00:00",
-    "n": 4284,
+    "n": 4285,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T14:48:14+00:00",
+   "at": "2026-11-10T14:50:50+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T14:50:35+00:00",
-   "elapsed_s": 141,
-   "llm_calls": 0,
+   "at": "2026-11-10T14:53:13+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,9 +219,9 @@
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 4286,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 4287,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -7115,6 +7115,17 @@
    "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
    "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
    "updated": "2026-11-07T06:37:21+00:00"
+  },
+  "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
+   "first_seen": "2026-11-10T14:53:13+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Начало выплат застрахованных вкладов Alta банки; опасения русских вкладчиков о сбережениях сверх лимита",
+   "title_src": "Počinje isplata osiguranih depozita Alta banke: Nesiguran ostatak novca Rusa iz Subotice",
+   "updated": "2026-11-10T14:53:13+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
