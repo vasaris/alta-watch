@@ -180,23 +180,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T15:12:25+00:00",
-    "n": 4318,
+    "n": 4319,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T15:56:15+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-10T15:58:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T15:56:44+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-10T16:00:35+00:00",
+   "elapsed_s": 139,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -215,65 +215,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 48,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4320,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 4321,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "10.11.2026 15:24",
-    "first": "Объявлен публичный конкурс на должность повереника АОД в стечае Alta банки с конкретными требованиями к квалификации",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "регулятор",
-     "выплаты",
-     "требования",
-     "сроки"
-    ],
-    "title": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
-    "title_src": "AOD raspisala konkurs za izbor stečajnog upravnika Alta banke",
-    "ts": 1794324423.6799324,
-    "url": "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke"
-   },
-   {
-    "date": "10.11.2026 15:36",
-    "first": "Специализированная экспозитура Поштанской штедионице открыта в центральном офисе (ул. Королевы Марии, 3) с 28 кассами, работающая исключительно для выплат Alta",
-    "important": false,
-    "kind": "press",
-    "outlet": "Forbes Srbija",
-    "tags": [
-     "выплаты",
-     "сроки",
-     "клиенты",
-     "регулятор"
-    ],
-    "title": "Поштанска штедионица открыла портал записи на выплаты вкладчикам Alta; 31 отделение в Белграде и специализированный офис",
-    "title_src": "Poštanska štedionica spremila portal za zakazivanje termina za isplate klijentima Alta banke",
-    "ts": 1794325126.6424327,
-    "url": "https://forbes.n1info.rs/vesti/postanska-stedionica-spremila-portal-za-zakazivanje-termina-za-isplate-klijentima-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию у Alta Group как уполномоченного обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка) — Наложены штрафы в сумме 250 млн динаров за серьёзные нарушения девизного законодательства и норм по против",
-   "ts": 1793982284.2815053,
-   "url": "https://n1info.rs/biznis/nbs-kaznila-ovlascenog-menjaca-alta-group-novcanom-kaznom-od-250-miliona-dinara"
-  },
-  {
-   "text": "NBS отозвала лицензию у Alta Group как обменника и наложила штраф 250 млн динаров — NBS отозвала лицензию у Alta Group d.o.o. как уполномоченного обменника (отдельно от банка Alta banka a.d.) — Штраф 250 млн динаров наложен на обменную компанию Alta Group d.o.o. Beograd",
-   "ts": 1793982877.1980088,
-   "url": "https://nova.rs/vesti/biznis/narodna-banka-srbije-oduzela-dozvolu-za-rad-menjacnici-alta-group-i-izrekla-kaznu-od-250-miliona-dinara"
-  },
   {
    "text": "NBS: уполномоченные обменники должны продать валюту другой банке в течение 15–30 дней — Конкретные сроки продажи валюты: 15 дней или 30 дней в зависимости от условий — Требование предоставить документацию о покупке валюты у Alta банка новой банке",
    "ts": 1793983718.9401793,
@@ -463,6 +418,16 @@
    "text": "Поштанска штедионица открывает портал записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября 2026 года (среда) — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии, 3) с 28 кассами, пр",
    "ts": 1794324413.9610586,
    "url": "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke"
+  },
+  {
+   "text": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
+   "ts": 1794326433.8711364,
+   "url": "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke"
+  },
+  {
+   "text": "Поштанска штедионица открыла портал записи на выплаты вкладчикам Alta; 31 отделение в Белграде и специализированный офис",
+   "ts": 1794326433.8711746,
+   "url": "https://forbes.n1info.rs/vesti/postanska-stedionica-spremila-portal-za-zakazivanje-termina-za-isplate-klijentima-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1934,13 +1899,21 @@
   "https://forbes.n1info.rs/vesti/postanska-stedionica-spremila-portal-za-zakazivanje-termina-za-isplate-klijentima-alta-banke": {
    "first_seen": "2026-11-10T15:38:46+00:00",
    "kind": "press",
+   "message_id": 270,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-10T16:00:33+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
    "title": "Поштанска штедионица открыла портал записи на выплаты вкладчикам Alta; 31 отделение в Белграде и специализированный офис",
    "title_src": "Poštanska štedionica spremila portal za zakazivanje termina za isplate klijentima Alta banke",
-   "updated": "2026-11-10T15:38:46+00:00"
+   "updated": "2026-11-10T16:00:33+00:00"
   },
   "https://forbes.n1info.rs/vesti/postanska-stedionica-stabilni-smo-i-likvidni-pocela-isplata-penzija-iz-alta-banke": {
    "first_seen": "2026-11-04T13:27:53+00:00",
@@ -10778,13 +10751,21 @@
   "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke": {
    "first_seen": "2026-11-10T15:27:03+00:00",
    "kind": "press",
+   "message_id": 270,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-10T16:00:33+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "выплаты",
+    "требования",
+    "сроки"
+   ],
    "title": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
    "title_src": "AOD raspisala konkurs za izbor stečajnog upravnika Alta banke",
-   "updated": "2026-11-10T15:27:03+00:00"
+   "updated": "2026-11-10T16:00:33+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/bajatovic-avion-moskva-vulin-popovic": {
    "first_seen": "2026-11-04T05:44:53+00:00",
