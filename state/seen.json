@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-10T03:10:35+00:00",
-    "n": 4085,
+    "n": 4086,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-10T08:10:34+00:00",
+   "at": "2026-11-10T08:13:06+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-10",
   "last_run": {
-   "at": "2026-11-10T08:12:51+00:00",
-   "elapsed_s": 136,
-   "llm_calls": 0,
+   "at": "2026-11-10T08:15:40+00:00",
+   "elapsed_s": 153,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,9 +219,9 @@
    "nbs": 41
   },
   "src_fail": {
-   "ALTA": 4087,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 4088,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -2784,6 +2784,17 @@
    "title": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября",
    "title_src": "Da li su \"prošle\" uplate građana preko menjačnica koje su radile sa Alta grupom pre oduzimanja dozvola za rad",
    "updated": "2026-11-05T07:01:47+00:00"
+  },
+  "https://n1info.rs/biznis/demostat-sta-sve-pokrece-afera-sa-alta-bankom-a-sta-kazu-ostale-banke": {
+   "first_seen": "2026-11-10T08:15:40+00:00",
+   "kind": "press",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Эксперты: банковская система Сербии стабильна, Alta — исключение; вопросы к надзору NBS",
+   "title_src": "Demostat: Šta sve pokreće afera sa Alta bankom, a šta kažu ostale banke",
+   "updated": "2026-11-10T08:15:40+00:00"
   },
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
