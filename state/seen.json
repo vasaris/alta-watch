@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5164,
+    "n": 5165,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T20:14:18+00:00",
+   "at": "2026-11-11T20:16:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T20:14:41+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-11T20:16:49+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5166,
+   "ALTA": 5167,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — Официальное уточнение NBS о разделении платежей между Alta банком и Alta Group (два разных юридических лица) — Конкретный счёт для платежей по кредитам Alta Group d.o.o.: № 200-3408551901000-45 в Ба",
-   "ts": 1793993596.1468725,
-   "url": "https://insajder.net/prenosimo/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke-i-upozorila-na-moguce-prevare"
-  },
   {
    "text": "NBS опубликовала реквизиты счётов для платежей по кредитам Alta банка и предупредила о мошенничестве",
    "ts": 1794001867.4831083,
@@ -433,6 +428,11 @@
    "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний (новое уточнение масштаба и деталей) — Запрет включает около 35 гектаров ",
    "ts": 1794427853.8141007,
    "url": "https://n1info.rs/vesti/insajder-tok-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom"
+  },
+  {
+   "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде — Запрет распоряжения имуществом издан Прокуратурой по организованной преступности (новое уточнение органа и масштаба). — Конкретные активы: около 35 гектаров IMT на Новом Белграде, недвижимость",
+   "ts": 1794428207.6015701,
+   "url": "https://nova.rs/vesti/hronika/vlasniku-alta-banke-davoru-macuri-i-njegovim-firmama-zabranjeno-raspolaganje-imovinom"
   }
  ],
  "retry_items": {},
@@ -4702,6 +4702,26 @@
    "title": "Арестован Давор Макура, владелец Alta banke",
    "title_src": "Uhapšen Davor Macura, biznismen blizak Srpskoj naprednoj stranci i vlasnik Alta banke",
    "updated": "2026-11-02T10:51:11+00:00"
+  },
+  "https://nova.rs/vesti/hronika/vlasniku-alta-banke-davoru-macuri-i-njegovim-firmama-zabranjeno-raspolaganje-imovinom": {
+   "first_seen": "2026-11-11T20:16:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 281,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-11T20:16:47+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "суд",
+    "требования"
+   ],
+   "title": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде",
+   "title_src": "Vlasniku Alta banke Davoru Macuri i njegovim firmama zabranjeno raspolaganje imovinom",
+   "updated": "2026-11-11T20:16:47+00:00"
   },
   "https://nova.rs/vesti/politika/bajatovic-zasto-su-vulin-i-popovic-putovali-u-rusiju-ne-znam-ja-sam-krenuo-zbog-gasa-i-problema-s-alta-bankom": {
    "first_seen": "2026-11-04T00:28:48+00:00",
