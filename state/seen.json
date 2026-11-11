@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5047,
+    "n": 5048,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T16:14:17+00:00",
+   "at": "2026-11-11T16:16:18+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T16:14:49+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-11T16:16:51+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5049,
+   "ALTA": 5050,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2266,6 +2266,18 @@
    "title": "Alta banka Bitolj: мобильный банкинг с ограничениями и новый офис в Скопье",
    "title_src": "Klijenti Alta banke Bitolj mogu da koriste mobilno bankarstvo, uz ograničenu potrošnju",
    "updated": "2026-11-10T15:44:57+00:00"
+  },
+  "https://insajder.net/prenosimo/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
+   "first_seen": "2026-11-11T16:16:51+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 3,
+   "status": "rejected",
+   "title": "Северная Македония: компании могут возобновить зарплатные платежи через Alta банку Битоль",
+   "title_src": "Kompanije od danas ponovo mogu da isplaćuju plate preko računa u Alta banci Bitolj",
+   "updated": "2026-11-11T16:16:51+00:00"
   },
   "https://insajder.net/prenosimo/narodna-banka-severne-makedonije-nije-bilo-vecih-transfera-u-i-iz-srbije-preko-alta-banke-bitolj": {
    "first_seen": "2026-11-05T15:09:08+00:00",
