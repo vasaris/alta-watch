@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5146,
+    "n": 5147,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T19:36:17+00:00",
+   "at": "2026-11-11T19:39:02+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T19:36:46+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-11T19:39:42+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5148,
+   "ALTA": 5149,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: заёмщики Alta банка и ALTA GROUP платят по разным счётам; инструкция по платежам — Официально подтверждено разделение: Alta banka a.d. Beograd (банкротство, счёт NBS) и ALTA GROUP d.o.o. Beograd (отдельное юридическое лицо, счёт Poštanske štedionica) — разные платежные реквизиты. — Счёт для пла",
-   "ts": 1793987562.7360022,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884"
-  },
   {
    "text": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
    "ts": 1793988676.6888323,
@@ -433,6 +428,11 @@
    "text": "Контакт-центр Alta банки консультирует по кредитным обязательствам — Контакт-центр Alta банки a.d. Beograd в банкротстве с 10 ноября 2026 предоставляет информацию по кредитным обязательствам вкладчиков — Граждане и юридические лица могут звонить операторам по номеру 011/220-5500",
    "ts": 1794417022.0136218,
    "url": "https://www.aod.rs/clan/vest/vest_forma/149"
+  },
+  {
+   "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала нарядное распоряжение о запрете распоряжения имуществом Мацуры и его компаний — Запрет касается ~35 гектаров земли на Новом Белграде (бывший IMT), Alta Holding, Alta ",
+   "ts": 1794425980.726263,
+   "url": "https://insajder.net/teme/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom-sta-je-na-spisku-video"
   }
  ],
  "retry_items": {},
@@ -2758,6 +2758,26 @@
    "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
    "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
    "updated": "2026-11-03T19:07:50+00:00"
+  },
+  "https://insajder.net/teme/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom-sta-je-na-spisku-video": {
+   "first_seen": "2026-11-11T19:39:40+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 277,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-11T19:39:40+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "требования"
+   ],
+   "title": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом",
+   "title_src": "Tužilaštvo vlasniku Alta banke i njegovim firmama zabranilo raspolaganje imovinom: Šta je na spisku (VIDEO)",
+   "updated": "2026-11-11T19:39:40+00:00"
   },
   "https://n1info.rs/biznis/adiko-banka-oduzimanje-licence-alta-banci-nema-uticaja-na-nase-poslovanje": {
    "first_seen": "2026-11-01T12:57:28+00:00",
