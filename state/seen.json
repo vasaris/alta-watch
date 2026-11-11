@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5063,
+    "n": 5064,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T16:50:24+00:00",
+   "at": "2026-11-11T16:52:52+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T16:52:38+00:00",
-   "elapsed_s": 134,
-   "llm_calls": 0,
+   "at": "2026-11-11T16:55:37+00:00",
+   "elapsed_s": 165,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,9 +224,9 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5065,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 5066,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -3052,6 +3052,18 @@
     "регулятор"
    ],
    "title": "Глава Forbes Сербия: заявление НБС указывает на возможное банкротство ALTA"
+  },
+  "https://n1info.rs/biznis/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
+   "first_seen": "2026-11-11T16:55:37+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 3,
+   "status": "rejected",
+   "title": "Северная Македония: компании могут возобновить выплату зарплат через Alta банку Битоль",
+   "title_src": "Kompanije od danas ponovo mogu da isplaćuju plate preko računa u Alta banci Bitolj",
+   "updated": "2026-11-11T16:55:37+00:00"
   },
   "https://n1info.rs/biznis/krik-objavio-delove-dokumenta-tuzilastva-o-alta-banci-tabakovic-svedok-vecina-novca-nije-ni-usla-u-banku": {
    "first_seen": "2026-11-04T18:16:52+00:00",
