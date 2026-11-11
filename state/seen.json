@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5161,
+    "n": 5162,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T20:07:06+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-11T20:08:25+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T20:08:12+00:00",
-   "elapsed_s": 66,
+   "at": "2026-11-11T20:10:55+00:00",
+   "elapsed_s": 149,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5163,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5164,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — NBS официально подтвердила разделение платежей между Alta banka a.d. (счёт NBS 780-282-42) и Alta Group d.o.o. (счёт Банки Поштанске штедионице 200-3408551901000-45) — Официальное предупреждение NBS",
-   "ts": 1793991409.6018023,
-   "url": "https://nova.rs/vesti/biznis/nbs-uputila-obavestenje-o-nacinu-izmirenja-kredita-alta-banke"
-  },
   {
    "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — Официальное уточнение NBS о разделении платежей между Alta банком и Alta Group (два разных юридических лица) — Конкретный счёт для платежей по кредитам Alta Group d.o.o.: № 200-3408551901000-45 в Ба",
    "ts": 1793993596.1468725,
@@ -433,6 +428,11 @@
    "text": "Местные бюджеты застряли в Alta: Владичин Хан потерял 400 млн динаров — Владичин Хан разместил в Alta 400 млн динаров (половина годового бюджета муниципалитета) — Врање потеряло 177 млн динаров в Alta",
    "ts": 1794427691.3745768,
    "url": "https://insajder.net/teme/surova-stvarnost-bajkovitih-kamata-i-jednoj-od-najsiromasnijih-opstina-u-srbiji-zarobljena-budzetska-sredstva-u-alta-banci-video"
+  },
+  {
+   "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний (новое уточнение масштаба и деталей) — Запрет включает около 35 гектаров ",
+   "ts": 1794427853.8141007,
+   "url": "https://n1info.rs/vesti/insajder-tok-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom"
   }
  ],
  "retry_items": {},
@@ -3721,6 +3721,25 @@
    "title": "JKP Informatika Novi Sad: счёт в Alta banci закрыт, платежи на новый номер с 31 октября",
    "title_src": "Informatika Novi Sad: Naš račun u Alta banci nije više aktivan, uplate na novi broj",
    "updated": "2026-11-02T07:58:37+00:00"
+  },
+  "https://n1info.rs/vesti/insajder-tok-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom": {
+   "first_seen": "2026-11-11T20:10:53+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 280,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-11T20:10:53+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "суд"
+   ],
+   "title": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде",
+   "title_src": "Insajder: TOK vlasniku Alta banke i njegovim firmama zabranilo raspolaganje imovinom",
+   "updated": "2026-11-11T20:10:53+00:00"
   },
   "https://n1info.rs/vesti/ivan-ninic-krivicna-prijava-tok-ministarstvo": {
    "first_seen": "2026-10-31T20:59:04+00:00",
