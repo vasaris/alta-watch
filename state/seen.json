@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T09:16:26+00:00",
-    "n": 4895,
+    "n": 4896,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T11:10:23+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-11T11:12:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T11:10:46+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-11T11:14:41+00:00",
+   "elapsed_s": 148,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 49,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4897,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 4898,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -5148,6 +5148,18 @@
    "status": "rejected",
    "title": "Zahtev tužilaštvu da ispita da li je za stečaj Alta banke odgovoran i neko iz NBS",
    "updated": "2026-10-31T15:28:41+00:00"
+  },
+  "https://radar.nova.rs/ekonomija/u-stecaju-alta-banke-nestati-tragovi-novca": {
+   "first_seen": "2026-11-11T11:14:41+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 8,
+   "status": "signal",
+   "title": "Риск потери доказательств о движении денег из Alta банки при открытии банкротства",
+   "title_src": "Hoće li u stečaju Alta banke nestati i tragovi novca",
+   "updated": "2026-11-11T11:14:41+00:00"
   },
   "https://t.me/Serbia/107349": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -49991,6 +50003,12 @@
    "title": "Документы для выплаты застрахованных вкладов Alta: чек-лист и инструкции",
    "ts": "2026-11-11T09:06:13+00:00",
    "url": "https://t.me/novisadaily/20409"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Риск потери доказательств о движении денег из Alta банки при открытии банкротства",
+   "ts": "2026-11-11T11:12:13+00:00",
+   "url": "https://radar.nova.rs/ekonomija/u-stecaju-alta-banke-nestati-tragovi-novca"
   }
  ]
 }
