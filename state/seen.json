@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5084,
+    "n": 5085,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T17:32:14+00:00",
+   "at": "2026-11-11T17:34:14+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T17:32:43+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-11T17:34:47+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5086,
+   "ALTA": 5087,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3562,6 +3562,18 @@
    "title": "Губернатор Национального банка Северной Македонии: из Alta Bitolj в Сербию после 26 октября переведено 180 000 евро, нет",
    "title_src": "Slaveski: Nije bilo milionskih transakcija iz Alta banke Bitolj nakon 26. oktobra",
    "updated": "2026-11-03T19:54:53+00:00"
+  },
+  "https://n1info.rs/region/viceguvernerka-narodna-banka-s-makedonije-ima-pravo-da-proda-akcije-alta-banke-bitolj": {
+   "first_seen": "2026-11-11T17:34:47+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центробанк Северной Македонии имеет право продать акции Alta банки Битоль",
+   "title_src": "Viceguvernerka: Narodna banka S. Makedonije ima pravo da proda akcije Alta banke Bitolj",
+   "updated": "2026-11-11T17:34:47+00:00"
   },
   "https://n1info.rs/sport-klub/fudbal/partizan-alta-banka-maxbet": {
    "first_seen": "2026-11-03T09:05:47+00:00",
