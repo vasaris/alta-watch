@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T21:18:57+00:00",
-    "n": 5230,
+    "n": 5231,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T23:02:16+00:00",
+   "at": "2026-11-11T23:04:14+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T23:02:43+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-11T23:04:54+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5232,
+   "ALTA": 5233,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5264,6 +5264,18 @@
    "title": "Давор Макура арестован; банк рухнул за пять дней после отзыва лицензии",
    "title_src": "Uhapšen Davor Macura: Najbrže rastuća banka pod led otišla za pet dana",
    "updated": "2026-11-02T12:48:53+00:00"
+  },
+  "https://radar.nova.rs/ekonomija/alta-banka-falsifikovane-novcanice": {
+   "first_seen": "2026-11-11T23:04:54+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Прокуратура: в сейфе Alta банки пока не подтверждены поддельные банкноты по 500 евро",
+   "title_src": "Da li su u trezoru Alta banke bile i falsifikovane novčanice od 500 evra",
+   "updated": "2026-11-11T23:04:54+00:00"
   },
   "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
    "attempts": 38,
@@ -50254,6 +50266,12 @@
    "title": "Риск потери доказательств о движении денег из Alta банки при открытии банкротства",
    "ts": "2026-11-11T11:12:13+00:00",
    "url": "https://radar.nova.rs/ekonomija/u-stecaju-alta-banke-nestati-tragovi-novca"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Прокуратура: в сейфе Alta банки пока не подтверждены поддельные банкноты по 500 евро",
+   "ts": "2026-11-11T23:04:14+00:00",
+   "url": "https://radar.nova.rs/ekonomija/alta-banka-falsifikovane-novcanice"
   }
  ]
 }
