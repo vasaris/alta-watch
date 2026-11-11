@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5069,
+    "n": 5070,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T17:02:14+00:00",
+   "at": "2026-11-11T17:04:39+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T17:04:27+00:00",
-   "elapsed_s": 133,
-   "llm_calls": 0,
+   "at": "2026-11-11T17:07:10+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,9 +224,9 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5071,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 5072,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -10839,6 +10839,18 @@
    "title": "Северная Македония: компании могут возобновить зарплатные платежи через Alta банку Битоль",
    "title_src": "Narodna banka Severne Makedonije: Kompanije ponovo mogu da isplaćuju plate preko računa Alta banke Bitolj",
    "updated": "2026-11-11T16:20:46+00:00"
+  },
+  "https://www.danas.rs/svet/region/viceguvernerka-narodne-banke-prodaja-alta-banke-severna-makedonija": {
+   "first_seen": "2026-11-11T17:07:10+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Центробанк Северной Македонии имеет право продать акции Alta банки Битоль",
+   "title_src": "Viceguvernerka Narodne banke Severne Makedonije: „Imamo pravo da prodamo akcije Alta banke Bitolj“",
+   "updated": "2026-11-11T17:07:10+00:00"
   },
   "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija": {
    "first_seen": "2026-11-03T15:03:19+00:00",
