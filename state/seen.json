@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5160,
+    "n": 5161,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T20:04:21+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-11T20:07:06+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T20:06:51+00:00",
-   "elapsed_s": 150,
+   "at": "2026-11-11T20:08:12+00:00",
+   "elapsed_s": 66,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 50,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5162,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 5163,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам; предупреждение о мошенничестве — Официальное разделение платежей: Alta banka a.d. (счёт NBS 780-282-42) и ALTA GROUP d.o.o. (счёт Банке Поштанске штедионице 200-3408551901000-45) — Явное предупреждение NBS о подозрительных сообщ",
-   "ts": 1793990687.1427994,
-   "url": "https://www.danas.rs/vesti/ekonomija/nbs-o-otplati-kredita-alta-banke"
-  },
   {
    "text": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве — NBS официально подтвердила разделение платежей между Alta banka a.d. (счёт NBS 780-282-42) и Alta Group d.o.o. (счёт Банки Поштанске штедионице 200-3408551901000-45) — Официальное предупреждение NBS",
    "ts": 1793991409.6018023,
@@ -433,6 +428,11 @@
    "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний Alta holding, Alta lizing, Campari International, ABL Solvent — Запрет касается около 35 гектаров",
    "ts": 1794427610.1151402,
    "url": "https://www.danas.rs/vesti/ekonomija/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom"
+  },
+  {
+   "text": "Местные бюджеты застряли в Alta: Владичин Хан потерял 400 млн динаров — Владичин Хан разместил в Alta 400 млн динаров (половина годового бюджета муниципалитета) — Врање потеряло 177 млн динаров в Alta",
+   "ts": 1794427691.3745768,
+   "url": "https://insajder.net/teme/surova-stvarnost-bajkovitih-kamata-i-jednoj-od-najsiromasnijih-opstina-u-srbiji-zarobljena-budzetska-sredstva-u-alta-banci-video"
   }
  ],
  "retry_items": {},
@@ -2758,6 +2758,25 @@
    "title": "Банкротство Alta угрожает будущему торговых сетей Idea, Roda и Merkator",
    "title_src": "Stečaj Alta banke doveo u pitanje budućnost Idee, Rode i Merkatora: Koliko im je opstanak zaista ugrožen (VIDEO)",
    "updated": "2026-11-03T19:07:50+00:00"
+  },
+  "https://insajder.net/teme/surova-stvarnost-bajkovitih-kamata-i-jednoj-od-najsiromasnijih-opstina-u-srbiji-zarobljena-budzetska-sredstva-u-alta-banci-video": {
+   "first_seen": "2026-11-11T20:08:11+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 279,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-11T20:08:11+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Местные бюджеты застряли в Alta: Владичин Хан потерял 400 млн динаров",
+   "title_src": "Surova stvarnost bajkovitih kamata: I jednoj od najsiromašnijih opština u Srbiji \"zarobljena\" budžetska sredstva u Alta banci (VIDEO)",
+   "updated": "2026-11-11T20:08:11+00:00"
   },
   "https://insajder.net/teme/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom-sta-je-na-spisku-video": {
    "first_seen": "2026-11-11T19:39:40+00:00",
