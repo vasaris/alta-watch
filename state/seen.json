@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5159,
+    "n": 5160,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T20:02:15+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-11T20:04:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T20:02:39+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-11T20:06:51+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5161,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5162,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Губернатор ЦБ Черногории: на нас давили после отказа Alta в преузимании Adiko банка",
-   "ts": 1793988676.6888323,
-   "url": "https://www.danas.rs/vesti/ekonomija/guvernerka-centralne-banke-crne-gore-vrseni-pritisci-na-nas-nakon-sto-smo-odbili-zahtev-alta-banke-za-preuzimanje-adiko-banke"
-  },
   {
    "text": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам; предупреждение о мошенничестве — Официальное разделение платежей: Alta banka a.d. (счёт NBS 780-282-42) и ALTA GROUP d.o.o. (счёт Банке Поштанске штедионице 200-3408551901000-45) — Явное предупреждение NBS о подозрительных сообщ",
    "ts": 1793990687.1427994,
@@ -433,6 +428,11 @@
    "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала нарядное распоряжение о запрете распоряжения имуществом Мацуры и его компаний — Запрет касается ~35 гектаров земли на Новом Белграде (бывший IMT), Alta Holding, Alta ",
    "ts": 1794425980.726263,
    "url": "https://insajder.net/teme/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom-sta-je-na-spisku-video"
+  },
+  {
+   "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний Alta holding, Alta lizing, Campari International, ABL Solvent — Запрет касается около 35 гектаров",
+   "ts": 1794427610.1151402,
+   "url": "https://www.danas.rs/vesti/ekonomija/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom"
   }
  ],
  "retry_items": {},
@@ -11953,6 +11953,26 @@
    "status": "dup",
    "title": "Прокуратура по организованной преступности запросила у НБС данные о переводах Alta Banka в иностранство",
    "updated": "2026-10-31T17:31:25+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom": {
+   "first_seen": "2026-11-11T20:06:50+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 278,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-11T20:06:50+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "требования"
+   ],
+   "title": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом",
+   "title_src": "Tužilaštvo vlasniku Alta banke i njegovim firmama zabranilo raspolaganje imovinom",
+   "updated": "2026-11-11T20:06:50+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio-nbs-morala-da-pojaca-nadzor": {
    "first_seen": "2026-11-01T09:06:37+00:00",
