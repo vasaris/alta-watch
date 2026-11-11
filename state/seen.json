@@ -180,21 +180,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T03:15:56+00:00",
-    "n": 4828,
+    "n": 4829,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T08:56:12+00:00",
+   "at": "2026-11-11T08:58:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T08:56:38+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-11T08:58:56+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -219,7 +219,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 4830,
+   "ALTA": 4831,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1572,6 +1572,17 @@
    "title": "Начаты первые взыскания задолженности Idea marketa",
    "title_src": "Forbs Srbija: Pokrenuta prva izvršenja za naplatu dugovanja Idea marketa",
    "updated": "2026-11-09T12:14:42+00:00"
+  },
+  "https://beta.rs/content/255720-veliki-problemi-ruske-zajednice-u-srbiji-zbog-gasenja-alta-banke": {
+   "first_seen": "2026-11-11T08:58:56+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Русская община в Сербии столкнулась с трудностями из-за закрытия Alta банки",
+   "title_src": "Veliki problemi ruske zajednice u Srbiji zbog gašenja Alta banke",
+   "updated": "2026-11-11T08:58:56+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
