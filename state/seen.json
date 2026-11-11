@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5165,
+    "n": 5166,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T20:16:13+00:00",
+   "at": "2026-11-11T20:57:19+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T20:16:49+00:00",
-   "elapsed_s": 35,
-   "llm_calls": 1,
+   "at": "2026-11-11T20:57:54+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 1,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5167,
+   "ALTA": 5168,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -6153,6 +6153,17 @@
    "title_src": "Клиенты Alta banka смогут записаться на получение застрахованных вкладов с 12 ноября Банк Poštanska štedionica объявил ⁠ о запуске онлайн-записи для бывших клиентов обанкротившегося Alta banka. Портал откроется в…",
    "updated": "2026-11-10T18:31:13+00:00"
   },
+  "https://t.me/Serbia/107743": {
+   "first_seen": "2026-11-11T20:57:54+00:00",
+   "kind": "telegram",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Поштанска штедионица: онлайн-запись на выплаты вкладчикам ALTA доступна",
+   "title_src": "⭕️ Poštanska štedionica открыла онлайн-запись на выплаты клиентам ALTA Banka На официальном сайте банка появилась возможность выбрать отделение, дату и время посещения для получения застрахованных средств. Сами выплаты…",
+   "updated": "2026-11-11T20:57:54+00:00"
+  },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
    "kind": "telegram",
@@ -7421,6 +7432,17 @@
    "title": "Неделю спустя после закрытия Alta банка: русские в Сербии остались без доступа к деньгам, с трудом открывают новые счета",
    "title_src": "Nedelju dana od gašenja Alta banke: Rusi u Srbiji ostali bez pristupa novcu, teško otvaraju nove račune",
    "updated": "2026-11-07T06:37:21+00:00"
+  },
+  "https://www.021.rs/info/srbija/461054/davoru-macuri-i-njegovim-firmama-tuzilastvo-zabranilo-raspolaganje-imovinom": {
+   "first_seen": "2026-11-11T20:57:49+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом",
+   "title_src": "Davoru Macuri i njegovim firmama tužilaštvo zabranilo raspolaganje imovinom",
+   "updated": "2026-11-11T20:57:49+00:00"
   },
   "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
    "first_seen": "2026-11-10T14:53:13+00:00",
