@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-11T15:18:25+00:00",
-    "n": 5048,
+    "n": 5049,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-11T16:16:18+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-11T16:18:22+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-11T16:16:51+00:00",
-   "elapsed_s": 33,
+   "at": "2026-11-11T16:20:46+00:00",
+   "elapsed_s": 144,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5050,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5051,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -10803,6 +10803,18 @@
    "title": "Премьер Северной Македонии: крах Alta в Сербии угрожает банкротством македонским компаниям",
    "title_src": "Mickoski: Makedonske firme upozoravaju na bankrot partnera u Srbiji zbog Alta banke",
    "updated": "2026-11-05T21:25:26+00:00"
+  },
+  "https://www.danas.rs/svet/region/narodna-banka-severne-makedonije-kompanije-ponovo-mogu-da-isplacuju-plate-preko-racuna-alta-banke-bitolj": {
+   "first_seen": "2026-11-11T16:20:46+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Северная Македония: компании могут возобновить зарплатные платежи через Alta банку Битоль",
+   "title_src": "Narodna banka Severne Makedonije: Kompanije ponovo mogu da isplaćuju plate preko računa Alta banke Bitolj",
+   "updated": "2026-11-11T16:20:46+00:00"
   },
   "https://www.danas.rs/svet/rusi-srbija-alta-banka-novac-bezilzlazna-situacija": {
    "first_seen": "2026-11-03T15:03:19+00:00",
