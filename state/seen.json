@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T09:20:32+00:00",
-    "n": 5672,
+    "n": 5673,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T13:48:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-12T13:50:40+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T13:50:27+00:00",
-   "elapsed_s": 134,
+   "at": "2026-11-12T13:51:10+00:00",
+   "elapsed_s": 29,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 50,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5674,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 5675,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -34176,6 +34176,14 @@
    "status": "rejected",
    "title": "Референтна каматна стопа повећана на 6 %",
    "updated": "2026-11-12T11:16:29+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21898": {
+   "first_seen": "2026-11-12T13:50:57+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у октобру",
+   "updated": "2026-11-12T13:50:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=219&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
