@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T21:24:53+00:00",
-    "n": 5903,
+    "n": 5904,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T21:28:13+00:00",
+   "at": "2026-11-12T21:30:33+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T21:28:35+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-12T21:31:03+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,14 +236,32 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5905,
+   "ALTA": 5906,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "12.11.2026 21:29",
+    "first": "NPS в Бачке Тополе официально потребовал ответственности за бюджетные средства в Alta",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "активы",
+     "клиенты",
+     "требования",
+     "регулятор"
+    ],
+    "title": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
+    "title_src": "NPS Bačke Topole traži odgovornost zbog novca Opštine zarobljenog u Alta banci",
+    "ts": 1794519063.763462,
+    "url": "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci"
+   }
+  ]
  },
  "recent": [
   {
@@ -12105,6 +12123,17 @@
    "title": "Арестован Давор Макура, владелец Alta banke",
    "title_src": "Nova.rs: Uhapšen Davor Macura, vlasnik Alta banke",
    "updated": "2026-11-02T10:33:08+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci": {
+   "first_seen": "2026-11-12T21:31:03+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
+   "title_src": "NPS Bačke Topole traži odgovornost zbog novca Opštine zarobljenog u Alta banci",
+   "updated": "2026-11-12T21:31:03+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/oglasilo-se-udruzenje-banaka-srbije-u-vezi-sa-uzimanjem-dozvole-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
