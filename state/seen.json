@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5482,
+    "n": 5483,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T07:28:17+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-12T07:30:32+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-12T07:28:46+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-12T07:32:57+00:00",
+   "elapsed_s": 145,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5484,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5485,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
-   "ts": 1794068944.4010484,
-   "url": "https://beta.rs/content/255537-grad-leskovac-kod-alta-banke-deponovano-78-miliona-dinara-preduzeti-koraci-za-povracaj"
-  },
   {
    "text": "NBS: реквизиты платежей по кредитам Alta банки и ALTA GROUP; предупреждение о мошенничестве — Официальные реквизиты для платежей по кредитам: динарский счет NBS 780-282-42 (Alta банка) и счет 200-3408551901000-45 в Poštanske štedionica (ALTA GROUP) — NBS официально подтверждает различие статуса двух",
    "ts": 1794083813.8972137,
@@ -433,6 +428,11 @@
    "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии 3) с 28 кассами, п",
    "ts": 1794465047.3932724,
    "url": "https://www.danas.rs/vesti/ekonomija/zakazivanje-termina-isplate-alta-banka-postanska-stedionica"
+  },
+  {
+   "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. королевы Марии, 3) с 28 кассами, ",
+   "ts": 1794468776.0311916,
+   "url": "https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke"
   }
  ],
  "retry_items": {},
@@ -3345,6 +3345,26 @@
    "title": "АОД опубликовала детали выплат застрахованных вкладов Alta: документы и процедура",
    "title_src": "Objavljeno kada počinje isplata depozita Alta banke u stečaju: Šta treba poneti od dokumenata",
    "updated": "2026-11-06T14:31:07+00:00"
+  },
+  "https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke": {
+   "first_seen": "2026-11-12T07:32:56+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 285,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-12T07:32:56+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta",
+   "title_src": "Počelo zakazivanje termina za isplatu osiguranih depozita iz Alta banke",
+   "updated": "2026-11-12T07:32:56+00:00"
   },
   "https://n1info.rs/biznis/pokrenut-stecaj-alta-banke-postanska-stedionica-isplacivace-njene-deponente": {
    "first_seen": "2026-11-03T11:44:46+00:00",
