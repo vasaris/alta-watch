@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5451,
+    "n": 5452,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T06:26:14+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-12T06:28:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-12T06:26:35+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-12T06:30:48+00:00",
+   "elapsed_s": 151,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5453,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5454,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Закрытие Alta банка особенно ударило по русским предпринимателям в Сербии — Русские предприниматели в Сербии испытывают особые трудности с открытием счётов в других банках из-за санкций и строгих проверок происхождения средств. — Alta банк был выбран русскими гражданами именно потому, что другие кру",
-   "ts": 1794044027.9002557,
-   "url": "https://www.danas.rs/vesti/ekonomija/gasenje-alta-banke-posebno-pogodilo-ruse-u-srbiji-kako-ce-naplatiti-depozite-i-nastaviti-poslovanje"
-  },
   {
    "text": "Град Лесковац требует возврата 78 млн динаров, депонированных в Alta банке",
    "ts": 1794068944.4010484,
@@ -433,6 +428,11 @@
    "text": "Поштанска штедионица открыла онлайн-запись на выплаты застрахованных вкладов Alta с 13 ноября — Онлайн-портал для записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — Выплаты начинаются 13 ноября 2026",
    "ts": 1794462979.8249228,
    "url": "https://www.rts.rs/vesti/ekonomija/6081421/alta-banka-isplata-osiguranih-depozita-postanska-stedionica.html"
+  },
+  {
+   "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии 3) с 28 кассами, п",
+   "ts": 1794465047.3932724,
+   "url": "https://www.danas.rs/vesti/ekonomija/zakazivanje-termina-isplate-alta-banka-postanska-stedionica"
   }
  ],
  "retry_items": {},
@@ -12197,6 +12197,25 @@
    "title": "Оппозиция Крагуевца требует объяснений: почему муниципальное жилищное предприятие открыло счёт в Alta в августе",
    "title_src": "Za Kragujevac – Znamo se: Zbog čega je Javno stambeno preduzeće otvorilo u avgustu račun u Alta banci?",
    "updated": "2026-11-03T10:18:55+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/zakazivanje-termina-isplate-alta-banka-postanska-stedionica": {
+   "first_seen": "2026-11-12T06:30:47+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 284,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-12T06:30:47+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta",
+   "title_src": "Počelo zakazivanje termina za isplate klijentima Alta banke",
+   "updated": "2026-11-12T06:30:47+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/zildzovic-studentska-lista-imovina-vlasnika-alta-banke-treba-da-bude-iskoriscena-za-namirenje-stecajne-mase": {
    "first_seen": "2026-11-04T13:40:58+00:00",
