@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T21:24:53+00:00",
-    "n": 5918,
+    "n": 5919,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T21:58:49+00:00",
+   "at": "2026-11-12T22:00:42+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T21:59:20+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-12T22:01:07+00:00",
+   "elapsed_s": 24,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,39 +236,16 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5920,
+   "ALTA": 5921,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "12.11.2026 21:29",
-    "first": "NPS в Бачке Тополе официально потребовал ответственности за бюджетные средства в Alta",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "активы",
-     "клиенты",
-     "требования",
-     "регулятор"
-    ],
-    "title": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
-    "title_src": "NPS Bačke Topole traži odgovornost zbog novca Opštine zarobljenog u Alta banci",
-    "ts": 1794519063.763462,
-    "url": "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию у ALTA GROUP DOO на издачу электронных денег и платежные услуги — Дата решения NBS: 2 ноября 2026 (Исполнительный совет) — Отозвана лицензия на издачу электронных денег и платежные услуги у ALTA GROUP DOO BEOGRAD",
-   "ts": 1794084029.419668,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21858&konverzija=no"
-  },
   {
    "text": "NBS: текущие счета Alta банки — компетенция АОД и Министерства финансий — NBS подтверждает: все вопросы о спровождении банкротства Alta банки и обращении со средствами — в компетенции Агенције за осигурање депозита (АОД) — Физические лица и предприятия с открытыми счетами должны обращаться в АОД за ",
    "ts": 1794084039.6489584,
@@ -463,6 +440,11 @@
    "text": "Выплаты вкладчикам Alta начинаются 13 ноября: Поштанска штедионица готова, средства обеспечены — Все средства для выплаты уже переведены в Поштанскую штедионицу (подтверждение готовности) — Онлайн-портал для записи на выплаты запущен 12 ноября на www.posted.co.rs",
    "ts": 1794506332.357235,
    "url": "https://www.rts.rs/vesti/ekonomija/6082133/pocinje-isplata-novca-stedisama-alta-banke--cortan-sredstva-obezbedjena-nema-razloga-za-zurbu-.html"
+  },
+  {
+   "text": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
+   "ts": 1794520865.4556603,
+   "url": "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -12127,13 +12109,21 @@
   "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci": {
    "first_seen": "2026-11-12T21:31:03+00:00",
    "kind": "press",
+   "message_id": 291,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-12T22:01:05+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "требования",
+    "регулятор"
+   ],
    "title": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
    "title_src": "NPS Bačke Topole traži odgovornost zbog novca Opštine zarobljenog u Alta banci",
-   "updated": "2026-11-12T21:31:03+00:00"
+   "updated": "2026-11-12T22:01:05+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/oglasilo-se-udruzenje-banaka-srbije-u-vezi-sa-uzimanjem-dozvole-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
