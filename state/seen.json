@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T15:22:25+00:00",
-    "n": 5764,
+    "n": 5765,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T16:52:14+00:00",
+   "at": "2026-11-12T16:54:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T16:52:37+00:00",
-   "elapsed_s": 23,
+   "at": "2026-11-12T16:54:47+00:00",
+   "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -224,39 +224,16 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5766,
+   "ALTA": 5767,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "12.11.2026 16:19",
-    "first": "Бачке Топола использовала ночные депозиты (prekonoćne depozite) как инструмент размещения бюджетных средств в Alta",
-    "important": false,
-    "kind": "press",
-    "outlet": "021.rs",
-    "tags": [
-     "активы",
-     "клиенты",
-     "выплаты",
-     "требования"
-    ],
-    "title": "Часть бюджета Бачке Тополе застряла в Alta через ночные депозиты",
-    "title_src": "Deo budžetskih sredstava Bačke Topole ostao zarobljen u Alta banci kroz \"prekonoćne depozite\"",
-    "ts": 1794500572.5826292,
-    "url": "https://www.021.rs/info/vojvodina/461135/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocne-depozite"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS: инструкция для обменных пунктов Alta банка по переводу операций в другие банки — NBS издала специальное уведомление для обменных пунктов о процедуре перевода валютных операций в другие банки после закрытия Alta — Обменные пункты должны продать валюту, купленную у Alta банка, в сроки 15–30 дней ",
-   "ts": 1794083837.4914463,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876&konverzija=no"
-  },
   {
    "text": "NBS отказала ответить на вопросы о надзоре за Alta банкой — ссылается на тайну данных — NBS официально подтвердила, что Alta banka в 2026 году не получала кредитной поддержки или льгот от регулятора — NBS указала, что вопрос о возможности фальшивых отчётов о наличности находится в компетенции прокур",
    "ts": 1794083853.5318975,
@@ -451,6 +428,11 @@
    "text": "Бачка Топола: часть бюджета застряла в Alta через ночные депозиты — Бачка Топола разместила бюджетные средства в Alta через ночные депозиты; сумма не раскрыта — Попытка взыскания через векселя 2 ноября не удалась — NBS их не оплатил",
    "ts": 1794496622.8829112,
    "url": "https://insajder.net/prenosimo/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocno-orocavanje"
+  },
+  {
+   "text": "Часть бюджета Бачке Тополе застряла в Alta через ночные депозиты",
+   "ts": 1794502486.3823767,
+   "url": "https://www.021.rs/info/vojvodina/461135/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocne-depozite"
   }
  ],
  "retry_items": {},
@@ -7673,13 +7655,21 @@
   "https://www.021.rs/info/vojvodina/461135/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocne-depozite": {
    "first_seen": "2026-11-12T16:22:52+00:00",
    "kind": "press",
+   "message_id": 288,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-12T16:54:46+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "выплаты",
+    "требования"
+   ],
    "title": "Часть бюджета Бачке Тополе застряла в Alta через ночные депозиты",
    "title_src": "Deo budžetskih sredstava Bačke Topole ostao zarobljen u Alta banci kroz \"prekonoćne depozite\"",
-   "updated": "2026-11-12T16:22:52+00:00"
+   "updated": "2026-11-12T16:54:46+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
