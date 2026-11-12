@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5511,
+    "n": 5512,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T08:26:17+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-12T08:28:51+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T08:28:39+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-12T08:29:20+00:00",
+   "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 50,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5513,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 5514,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -1600,6 +1600,16 @@
    "title": "Alta banka Bitolj: компании могут возобновить выплату зарплат через счета банка",
    "title_src": "Kompanije od danas ponovo mogu da isplaćuju plate preko računa u Alta banci Bitolj",
    "updated": "2026-11-11T16:06:43+00:00"
+  },
+  "https://beta.rs/content/255768-pocelo-zakazivanje-termina-za-isplate-klijentima-alta-banke": {
+   "first_seen": "2026-11-12T08:29:20+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.danas.rs/vesti/ekonomija/pocelo-zakazivanje-termina-za-isplate-klijentima-alta-banke",
+   "status": "dup",
+   "title": "Počelo zakazivanje termina za isplate klijentima Alta banke",
+   "title_src": "Počelo zakazivanje termina za isplate klijentima Alta banke",
+   "updated": "2026-11-12T08:29:20+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
