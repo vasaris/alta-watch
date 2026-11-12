@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T09:20:32+00:00",
-    "n": 5644,
+    "n": 5645,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T12:52:14+00:00",
+   "at": "2026-11-12T12:54:14+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T12:52:38+00:00",
-   "elapsed_s": 23,
+   "at": "2026-11-12T12:54:47+00:00",
+   "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -224,37 +224,16 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5646,
+   "ALTA": 5647,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "12.11.2026 12:20",
-    "first": "Русские беженцы в Сербии особенно пострадали от краха Alta банки",
-    "important": false,
-    "kind": "press",
-    "outlet": "Beta",
-    "tags": [
-     "клиенты",
-     "выплаты"
-    ],
-    "title": "Крах Alta банки особенно ударил по русским беженцам в Сербии",
-    "title_src": "Slom Alta banke posebno pogodio Ruse izbegle u Srbiju",
-    "ts": 1794486276.050153,
-    "url": "https://beta.rs/content/255790-slom-alta-banke-posebno-pogodio-ruse-izbegle-u-srbiju"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS: реквизиты платежей по кредитам Alta банки и ALTA GROUP; предупреждение о мошенничестве — Официальные реквизиты для платежей по кредитам: динарский счет NBS 780-282-42 (Alta банка) и счет 200-3408551901000-45 в Poštanske štedionica (ALTA GROUP) — NBS официально подтверждает различие статуса двух",
-   "ts": 1794083813.8972137,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884&konverzija=no"
-  },
   {
    "text": "NBS отозвала лицензию у Alta Group d.o.o. Beograd (мењач) и наложила штраф 250 млн динаров — Отзыв лицензии у Alta Group d.o.o. Beograd как мењача (отдельно от банка Alta banka a.d., закрытого 30.10.2026) — Штраф 250 млн динаров за серьёзные нарушения девизного законодательства и норм AML/CFT",
    "ts": 1794083825.7149534,
@@ -449,6 +428,11 @@
    "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. королевы Марии, 3) с 28 кассами, ",
    "ts": 1794468776.0311916,
    "url": "https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke"
+  },
+  {
+   "text": "Крах Alta банки особенно ударил по русским беженцам в Сербии",
+   "ts": 1794488085.8985348,
+   "url": "https://beta.rs/content/255790-slom-alta-banke-posebno-pogodio-ruse-izbegle-u-srbiju"
   }
  ],
  "retry_items": {},
@@ -1630,13 +1614,19 @@
   "https://beta.rs/content/255790-slom-alta-banke-posebno-pogodio-ruse-izbegle-u-srbiju": {
    "first_seen": "2026-11-12T12:24:36+00:00",
    "kind": "press",
+   "message_id": 286,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-12T12:54:45+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "выплаты"
+   ],
    "title": "Крах Alta банки особенно ударил по русским беженцам в Сербии",
    "title_src": "Slom Alta banke posebno pogodio Ruse izbegle u Srbiju",
-   "updated": "2026-11-12T12:24:36+00:00"
+   "updated": "2026-11-12T12:54:45+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
