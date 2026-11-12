@@ -185,21 +185,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5487,
+    "n": 5488,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T07:38:12+00:00",
+   "at": "2026-11-12T07:40:19+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-12T07:38:33+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-12T07:40:51+00:00",
+   "elapsed_s": 31,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5489,
+   "ALTA": 5490,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -7235,6 +7235,17 @@
    "title": "Napravljen portal za zakazivanje termina za isplate klijentima Alta banke, u Novom Sadu isplata na sedam mesta",
    "title_src": "Napravljen portal za zakazivanje termina za isplate klijentima Alta banke, u Novom Sadu isplata na sedam mesta",
    "updated": "2026-11-11T06:06:32+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/461072/pocelo-zakazivanje-termina-u-postanskoj-stedionici-za-isplatu-novca-klijentima-alta-banke": {
+   "first_seen": "2026-11-12T07:40:51+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Поштанска штедионица начала запись на выплаты вкладчикам Alta",
+   "title_src": "Počelo zakazivanje termina u Poštanskoj štedionici za isplatu novca klijentima Alta banke",
+   "updated": "2026-11-12T07:40:51+00:00"
   },
   "https://www.021.rs/info/region-i-svet/461036/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:39:34+00:00",
