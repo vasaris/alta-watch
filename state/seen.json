@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5450,
+    "n": 5451,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T06:24:16+00:00",
+   "at": "2026-11-12T06:26:14+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-12T06:24:43+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-12T06:26:35+00:00",
+   "elapsed_s": 21,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5452,
+   "ALTA": 5453,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -10818,6 +10818,16 @@
    "status": "rejected",
    "title": "Листа поверилаца- табела 1.",
    "updated": "2026-10-31T14:11:42+00:00"
+  },
+  "https://www.danas.rs/?p=4082218": {
+   "first_seen": "2026-11-12T06:26:35+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "no_date",
+   "status": "rejected",
+   "title": "Počelo zakazivanje termina za isplate klijentima Alta banke, na portalu Poštanske štedionice",
+   "title_src": "Počelo zakazivanje termina za isplate klijentima Alta banke, na portalu Poštanske štedionice",
+   "updated": "2026-11-12T06:26:35+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/alta-banka-i-zvanicno-u-stecaju-vlasnik-se-sumnjici-za-proneveru-vise-od-380-miliona-evra": {
    "first_seen": "2026-11-03T14:27:16+00:00",
