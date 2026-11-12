@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T03:19:24+00:00",
-    "n": 5489,
+    "n": 5490,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T07:42:15+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-12T07:44:19+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-11",
   "last_run": {
-   "at": "2026-11-12T07:42:40+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-12T07:46:34+00:00",
+   "elapsed_s": 135,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -220,13 +220,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 50,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5491,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5492,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4376,6 +4376,16 @@
    "title": "ЕПС: отзыв лицензии Alta не повлиял на работу компании, деньги хранились минимально",
    "title_src": "Oglasio se EPS nakon oduzimanja licence za rad Alta banci",
    "updated": "2026-11-03T09:50:52+00:00"
+  },
+  "https://nova.rs/vesti/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke": {
+   "first_seen": "2026-11-12T07:46:34+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke",
+   "status": "dup",
+   "title": "Počelo zakazivanje termina za isplatu osiguranih depozita iz Alta banke",
+   "title_src": "Počelo zakazivanje termina za isplatu osiguranih depozita iz Alta banke",
+   "updated": "2026-11-12T07:46:34+00:00"
   },
   "https://nova.rs/vesti/biznis/pokrece-se-stecaj-alta-banke-nbs-uputila-klijente-kome-da-se-obrate-za-informacije": {
    "first_seen": "2026-11-02T17:48:48+00:00",
