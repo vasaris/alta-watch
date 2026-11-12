@@ -185,23 +185,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T09:20:32+00:00",
-    "n": 5715,
+    "n": 5716,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T15:14:18+00:00",
+   "at": "2026-11-12T15:16:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T15:14:47+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-12T15:17:04+00:00",
+   "elapsed_s": 50,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5717,
+   "ALTA": 5718,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -234,11 +234,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию у Alta Group d.o.o. Beograd (мењач) и наложила штраф 250 млн динаров — Отзыв лицензии у Alta Group d.o.o. Beograd как мењача (отдельно от банка Alta banka a.d., закрытого 30.10.2026) — Штраф 250 млн динаров за серьёзные нарушения девизного законодательства и норм AML/CFT",
-   "ts": 1794083825.7149534,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882&konverzija=no"
-  },
   {
    "text": "NBS: инструкция для обменных пунктов Alta банка по переводу операций в другие банки — NBS издала специальное уведомление для обменных пунктов о процедуре перевода валютных операций в другие банки после закрытия Alta — Обменные пункты должны продать валюту, купленную у Alta банка, в сроки 15–30 дней ",
    "ts": 1794083837.4914463,
@@ -433,6 +428,11 @@
    "text": "Крах Alta банки особенно ударил по русским беженцам в Сербии",
    "ts": 1794488085.8985348,
    "url": "https://beta.rs/content/255790-slom-alta-banke-posebno-pogodio-ruse-izbegle-u-srbiju"
+  },
+  {
+   "text": "Бачка Топола: часть бюджета застряла в Alta через ночные депозиты — Бачка Топола разместила бюджетные средства в Alta через ночные депозиты; сумма не раскрыта — Попытка взыскания через векселя 2 ноября не удалась — NBS их не оплатил",
+   "ts": 1794496622.8829112,
+   "url": "https://insajder.net/prenosimo/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocno-orocavanje"
   }
  ],
  "retry_items": {},
@@ -2197,6 +2197,26 @@
    "title": "Владелец ALTA Давор Макура и двое сотрудников арестованы на 30 дней по подозрению в хищении 45 млрд динаров",
    "title_src": "Davoru Macuri i još dvojici osumnjičenih određen pritvor u slučaju iznošenja 45 milijardi dinara iz Alta banke",
    "updated": "2026-11-04T07:06:45+00:00"
+  },
+  "https://insajder.net/prenosimo/deo-budzetskih-sredstava-backe-topole-ostao-zarobljen-u-alta-banci-kroz-prekonocno-orocavanje": {
+   "first_seen": "2026-11-12T15:17:02+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 287,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-12T15:17:02+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "суд",
+    "регулятор"
+   ],
+   "title": "Бачка Топола: часть бюджета застряла в Alta через ночные депозиты",
+   "title_src": "Opština Bačka Topola: Deo budžetskih sredstava ostao zarobljen u Alta banci kroz prekonoćno oročavanje",
+   "updated": "2026-11-12T15:17:02+00:00"
   },
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
