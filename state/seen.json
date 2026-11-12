@@ -185,19 +185,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T09:20:32+00:00",
-    "n": 5647,
+    "n": 5648,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T12:58:18+00:00",
+   "at": "2026-11-12T13:00:43+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T12:58:47+00:00",
+   "at": "2026-11-12T13:01:11+00:00",
    "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5649,
+   "ALTA": 5650,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1745,6 +1745,16 @@
    "title": "NBS предупреждает о поддельных SMS от «AltaPay» с требованиями погасить кредиты",
    "title_src": "NBS upozorava na prevarne poruke upućene korisnicima kredita Alta banke",
    "updated": "2026-11-04T14:01:31+00:00"
+  },
+  "https://bizlife.rs/pocelo-zakazivanje-termina-za-isplate-klijentima-alta-banke": {
+   "first_seen": "2026-11-12T13:01:11+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255768-pocelo-zakazivanje-termina-za-isplate-klijentima-alta-banke",
+   "status": "dup",
+   "title": "Počelo zakazivanje termina za isplate klijentima Alta banke",
+   "title_src": "Počelo zakazivanje termina za isplate klijentima Alta banke",
+   "updated": "2026-11-12T13:01:11+00:00"
   },
   "https://bizlife.rs/posle-alta-banke-bez-dozvole-ostala-i-alta-group-nbs-objasnjava-sta-to-znaci-za-korisnike": {
    "first_seen": "2026-11-03T08:00:41+00:00",
