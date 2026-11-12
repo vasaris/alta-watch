@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T15:22:25+00:00",
-    "n": 5879,
+    "n": 5880,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T20:40:21+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-12T20:42:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T20:40:47+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-12T20:44:35+00:00",
+   "elapsed_s": 141,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 51,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5881,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5882,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -7383,6 +7383,18 @@
    "title": "Компании снова могут выплачивать зарплаты через счета в Alta banci Bitolj",
    "title_src": "Kompanije od danas ponovo mogu da isplaćuju plate preko računa u Alta banci Bitolj",
    "updated": "2026-11-11T16:39:34+00:00"
+  },
+  "https://www.021.rs/info/region-i-svet/461155/tuzillastvo-severne-makedonije-za-organzivani-kriminal-pratimo-sta-se-desava-s-alta-bankom": {
+   "first_seen": "2026-11-12T20:44:35+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 3,
+   "status": "rejected",
+   "title": "Прокуратура Северной Македонии по организованной преступности следит за ситуацией с Alta банком",
+   "title_src": "Tužillaštvo Severne Makedonije za organzivani kriminal: Pratimo šta se dešava s Alta bankom",
+   "updated": "2026-11-12T20:44:35+00:00"
   },
   "https://www.021.rs/info/srbija/459863/alta-banka-se-zahvalila-klijentima-nakon-oduzimanje-dozvole-za-rad": {
    "attempts": 6,
