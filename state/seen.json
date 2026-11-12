@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T15:22:25+00:00",
-    "n": 5893,
+    "n": 5894,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T21:08:13+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-12T21:10:23+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T21:08:43+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-12T21:12:46+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 51,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5895,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 5896,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3200,6 +3200,18 @@
    "title": "Intesa Invest потеряла доход от вкладов в Alta банке; основной капитал инвесторов не под угрозой",
    "title_src": "Intesa Invest ulagala novac u Alta banku, investitori ostaju bez zarade, možda samo privremeno",
    "updated": "2026-11-03T06:15:32+00:00"
+  },
+  "https://n1info.rs/biznis/isplata-depozita-alta-banke-u-stecaju-ko-ce-ostati-bez-50000-evra-i-da-li-ce-deo-stete-pasti-na-gradjane": {
+   "first_seen": "2026-11-12T21:12:46+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Поштанска штедионица начинает выплаты вкладов Alta: кто останется без 50 000 евро и кто несёт ответственность",
+   "title_src": "Isplata depozita Alta banke u stečaju: Ko će ostati bez 50.000 evra i da li će deo štete pasti na građane?",
+   "updated": "2026-11-12T21:12:46+00:00"
   },
   "https://n1info.rs/biznis/ivan-radak-forbes-alta-banka-oduzimanje-dozvole": {
    "first_seen": "2026-10-31T11:50:20+00:00",
@@ -50645,6 +50657,12 @@
    "title": "Почти 8 тысяч вкладчиков Alta записались на выплаты за первые 12 часов",
    "ts": "2026-11-12T12:16:16+00:00",
    "url": "https://t.me/Serbia/107758"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Поштанска штедионица начинает выплаты вкладов Alta: кто останется без 50 000 евро и кто несёт ответственность",
+   "ts": "2026-11-12T21:10:23+00:00",
+   "url": "https://n1info.rs/biznis/isplata-depozita-alta-banke-u-stecaju-ko-ce-ostati-bez-50000-evra-i-da-li-ce-deo-stete-pasti-na-gradjane"
   }
  ]
 }
