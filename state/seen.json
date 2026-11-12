@@ -185,20 +185,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-12T09:20:32+00:00",
-    "n": 5595,
+    "n": 5596,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-12T11:14:16+00:00",
+   "at": "2026-11-12T11:16:16+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-12T11:14:44+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-12T11:16:39+00:00",
+   "elapsed_s": 23,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -224,7 +224,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 5597,
+   "ALTA": 5598,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -34118,6 +34118,14 @@
    "status": "rejected",
    "title": "Активности учесника у платним системима Народне банке Србије одвијају се на уобичајеном нивоу",
    "updated": "2026-11-09T15:27:43+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21896": {
+   "first_seen": "2026-11-12T11:16:29+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 6 %",
+   "updated": "2026-11-12T11:16:29+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=219&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
