@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6331,
+    "n": 6332,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T11:46:14+00:00",
+   "at": "2026-11-13T11:48:24+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T11:46:42+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-13T11:49:20+00:00",
+   "elapsed_s": 55,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6333,
+   "ALTA": 6334,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию у ALTA banka a.d. Beograd — официальное сообщение — Исполнительный совет NBS принял решение об отзыве лицензии у ALTA banka a.d. Beograd 30 октября 2026 — Отзыву лицензии предшествовали контрольные мероприятия, направленные на повышение уровня ликвидности банка",
-   "ts": 1794084080.1928756,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21849&konverzija=no"
-  },
   {
    "text": "NBS: рост платежей в системе IPS НБС в 2024 году — В 2024 году в системе IPS НБС обработано 87,2 млн мгновенных платежей — на 30,2% больше, чем в 2023, и на 247,9% больше, чем в 2020 — Впервые превышена сумма в 1 трлн динаров за год; рост стоимости платежей на 45,5% к 2023 году",
    "ts": 1794091966.8417792,
@@ -445,6 +440,11 @@
    "text": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta — Фактическое начало выплат 13 ноября 2026 в отделении на улице Королевы Марии подтверждено; наблюдаются очереди и задержки несмотря на систему онлайн-записи — Русские граждане составляют значительную часть вкл",
    "ts": 1794569706.711272,
    "url": "https://n1info.rs/biznis/postaska-stedionica-alta-banka-rusi-podizanje-novca"
+  },
+  {
+   "text": "Град Пирот потерял доступ к 400 млн динаров в Alta: мэр угрожает судом против NBS — Град Пирот подал исключительный иск 4 ноября 2026 в Хозяйственный суд Белграда и АОД с требованием вернуть 400 млн динаров на счёт города — Мэр Пирота ожидает решения суда до конца ноября (сроки 20–25 дней с момента ",
+   "ts": 1794570551.1403668,
+   "url": "https://n1info.rs/biznis/pirotu-400-miliona-dinara-ostalo-u-alta-banci-gradonacelnik-najavljuje-mogucu-tuzbu-i-protiv-nbs"
   }
  ],
  "retry_items": {},
@@ -3458,6 +3458,26 @@
    "title": "АОД опубликовала детали выплат застрахованных вкладов Alta: документы и процедура",
    "title_src": "Objavljeno kada počinje isplata depozita Alta banke u stečaju: Šta treba poneti od dokumenata",
    "updated": "2026-11-06T14:31:07+00:00"
+  },
+  "https://n1info.rs/biznis/pirotu-400-miliona-dinara-ostalo-u-alta-banci-gradonacelnik-najavljuje-mogucu-tuzbu-i-protiv-nbs": {
+   "first_seen": "2026-11-13T11:49:11+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 297,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-13T11:49:11+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "требования",
+    "активы",
+    "сроки"
+   ],
+   "title": "Град Пирот потерял доступ к 400 млн динаров в Alta: мэр угрожает судом против NBS",
+   "title_src": "Pirotu 400 miliona dinara ostalo u Alta banci: Gradonačelnik najavljuje moguću tužbu i protiv NBS",
+   "updated": "2026-11-13T11:49:11+00:00"
   },
   "https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke": {
    "first_seen": "2026-11-12T07:32:56+00:00",
@@ -12140,6 +12160,18 @@
    "title": "Центробанк Северной Македонии: крупных переводов из Сербии и России через Alta Bitolj не было",
    "title_src": "Narodna banka S. Makedonije: Nema velikih transfera novca iz Alta banke Beograd u Alta banku Bitolj",
    "updated": "2026-11-05T15:11:06+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/narodna-banka-s-makedonije-od-ponedeljka-ce-raditi-i-ekspozitura-alta-banke-u-prilepu": {
+   "first_seen": "2026-11-13T11:49:20+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии: с понедельника откроется экспозитура Alta банки в Прилепе",
+   "title_src": "Narodna banka S. Makedonije: Od ponedeljka će raditi i ekspozitura Alta banke u Prilepu",
+   "updated": "2026-11-13T11:49:20+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-severne-makedonije-navodi-o-transferima-novca-iz-srbije-su-neproverene-tvrdnje": {
    "first_seen": "2026-10-31T11:20:40+00:00",
