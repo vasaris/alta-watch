@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6337,
+    "n": 6338,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T11:58:15+00:00",
+   "at": "2026-11-13T12:00:47+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T11:58:52+00:00",
-   "elapsed_s": 37,
+   "at": "2026-11-13T12:01:33+00:00",
+   "elapsed_s": 46,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6339,
+   "ALTA": 6340,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: рост платежей в системе IPS НБС в 2024 году — В 2024 году в системе IPS НБС обработано 87,2 млн мгновенных платежей — на 30,2% больше, чем в 2023, и на 247,9% больше, чем в 2020 — Впервые превышена сумма в 1 трлн динаров за год; рост стоимости платежей на 45,5% к 2023 году",
-   "ts": 1794091966.8417792,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20496&konverzija=no"
-  },
   {
    "text": "NBS: более 3 млн пользователей мобильного банкинга могут переводить деньги услугой «Пренеси» — NBS напоминает о сервисе «Пренеси» для переводов между счётами по номеру телефона получателя — Более 3 млн пользователей мобильного банкинга в Сербии могут выполнять такие транзакции",
    "ts": 1794092984.1619642,
@@ -445,6 +440,11 @@
    "text": "Град Пирот потерял доступ к 400 млн динаров в Alta: мэр угрожает судом против NBS — Град Пирот подал исключительный иск 4 ноября 2026 в Хозяйственный суд Белграда и АОД с требованием вернуть 400 млн динаров на счёт города — Мэр Пирота ожидает решения суда до конца ноября (сроки 20–25 дней с момента ",
    "ts": 1794570551.1403668,
    "url": "https://n1info.rs/biznis/pirotu-400-miliona-dinara-ostalo-u-alta-banci-gradonacelnik-najavljuje-mogucu-tuzbu-i-protiv-nbs"
+  },
+  {
+   "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине за месяцы до краха банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
+   "ts": 1794571292.1722782,
+   "url": "https://nova.rs/vesti/biznis/firma-macurinog-brata-kupila-vilu-na-dedinju-kreditom-alta-banke-od-tri-miliona-evra"
   }
  ],
  "retry_items": {},
@@ -4353,6 +4353,26 @@
    "title": "От обменника к краху: история расширения Alta Banka и владения Давора Макуры",
    "title_src": "Dosije Alta: Od menjačnice u Zemunu do banke na čiji račun plaćamo EPS-u, MUP-u... Kako se širilo poslovanje banke kojoj je NBS oduzela dozvolu za rad",
    "updated": "2026-11-01T17:00:31+00:00"
+  },
+  "https://nova.rs/vesti/biznis/firma-macurinog-brata-kupila-vilu-na-dedinju-kreditom-alta-banke-od-tri-miliona-evra": {
+   "first_seen": "2026-11-13T12:01:32+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 298,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-13T12:01:32+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "регулятор",
+    "банки"
+   ],
+   "title": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине за месяцы до краха банка",
+   "title_src": "Firma Macurinog brata kupila vilu na Dedinju kreditom Alta banke od tri miliona evra",
+   "updated": "2026-11-13T12:01:32+00:00"
   },
   "https://nova.rs/vesti/biznis/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
    "first_seen": "2026-11-09T10:56:50+00:00",
