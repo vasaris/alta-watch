@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6224,
+    "n": 6225,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T08:10:25+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-13T08:12:48+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T08:12:37+00:00",
-   "elapsed_s": 132,
+   "at": "2026-11-13T08:13:10+00:00",
+   "elapsed_s": 21,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 51,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6226,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6227,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -4173,6 +4173,16 @@
    "status": "signal",
    "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
    "updated": "2026-10-31T17:43:56+00:00"
+  },
+  "https://nova.rs/djakovic-namirivanje-gradjana-koji-su-imali-preko-50000-evra-u-alta-banci-ne-bi-trebalo-da-ide-preko-budzeta-drzave": {
+   "first_seen": "2026-11-13T08:13:10+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/djakovic-alta-banka-stednja-isplata-depozita-gradjanima",
+   "status": "dup",
+   "title": "Đaković: Namirivanje građana koji su imali preko 50.000 evra u Alta banci ne bi trebalo da ide preko budžeta države",
+   "title_src": "Đaković: Namirivanje građana koji su imali preko 50.000 evra u Alta banci ne bi trebalo da ide preko budžeta države",
+   "updated": "2026-11-13T08:13:10+00:00"
   },
   "https://nova.rs/forbs-srbija-pokrenuta-prva-izvrsenja-za-naplatu-dugovanja-idea-marketa": {
    "first_seen": "2026-11-09T10:42:50+00:00",
