@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6336,
+    "n": 6337,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T11:56:16+00:00",
+   "at": "2026-11-13T11:58:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T11:56:45+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-13T11:58:52+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6338,
+   "ALTA": 6339,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5316,6 +5316,17 @@
    "title": "Intesa Invest потеряла доход из-за депозитов в Alta banke",
    "title_src": "EPS-u ostalo 0,5 odsto naplaćenih računa za struju u Alta banci",
    "updated": "2026-11-03T10:34:51+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/intervju-branimir-jovanovic-nemoguce-da-nbs-nije-ranije-primetila-da-u-alta-banci-fali-novac": {
+   "first_seen": "2026-11-13T11:58:52+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Интервью: NBS не могла не заметить дефицит средств в Alta раньше",
+   "title_src": "Intervju Branimir Jovanović: Nemoguće da NBS nije ranije primetila da u Alta banci fali novac",
+   "updated": "2026-11-13T11:58:52+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/intesa-invest-ulagala-novac-u-alta-banku-investitori-ostaju-bez-zarade-mozda-samo-privremeno": {
    "first_seen": "2026-11-03T08:48:54+00:00",
