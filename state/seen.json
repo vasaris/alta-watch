@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6324,
+    "n": 6325,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T11:32:12+00:00",
+   "at": "2026-11-13T11:34:24+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T11:32:39+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-13T11:35:08+00:00",
+   "elapsed_s": 43,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6326,
+   "ALTA": 6327,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS подтверждает: права вкладчиков защищены, банк под надзором АОД, финсектор стабилен — 30 октября 2026 NBS отозвала лицензию у Alta banka a.d. Beograd и передала управление Агенцији за осигурање депозита (АОД) для проведения банкротства — Имущество банки остаётся под надзором; запрещено его расхищ",
-   "ts": 1794084071.2758174,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21851&konverzija=no"
-  },
   {
    "text": "NBS отозвала лицензию у ALTA banka a.d. Beograd — официальное сообщение — Исполнительный совет NBS принял решение об отзыве лицензии у ALTA banka a.d. Beograd 30 октября 2026 — Отзыву лицензии предшествовали контрольные мероприятия, направленные на повышение уровня ликвидности банка",
    "ts": 1794084080.1928756,
@@ -445,6 +440,11 @@
    "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
    "ts": 1794568720.3724496,
    "url": "https://www.danas.rs/vesti/ekonomija/brat-davor-macura-vila-dedinje"
+  },
+  {
+   "text": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta — Фактическое начало выплат 13 ноября 2026 в отделении на улице Королевы Марии подтверждено; наблюдаются очереди и задержки несмотря на систему онлайн-записи — Русские граждане составляют значительную часть вкл",
+   "ts": 1794569706.711272,
+   "url": "https://n1info.rs/biznis/postaska-stedionica-alta-banka-rusi-podizanje-novca"
   }
  ],
  "retry_items": {},
@@ -3540,6 +3540,25 @@
    "title_src": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
    "updated": "2026-11-04T13:03:11+00:00"
   },
+  "https://n1info.rs/biznis/postaska-stedionica-alta-banka-rusi-podizanje-novca": {
+   "first_seen": "2026-11-13T11:35:06+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 295,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-13T11:35:06+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta",
+   "title_src": "Ruski državljani u velikom broju došli po svoj novac, gužva ispred Poštanske u Kraljice Marije",
+   "updated": "2026-11-13T11:35:06+00:00"
+  },
   "https://n1info.rs/biznis/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
    "first_seen": "2026-11-08T12:19:20+00:00",
    "kind": "press",
@@ -3747,6 +3766,18 @@
    "title": "Центробанк Северной Македонии ввел административное управление в Alta banku Bitolj",
    "title_src": "Narodna banka Severne Makedonije uvela administrativnu upravu u Alta banku Bitolj",
    "updated": "2026-11-01T18:10:39+00:00"
+  },
+  "https://n1info.rs/region/narodna-banka-severne-makedonije-od-ponedeljka-ce-raditi-i-ekspozitura-alta-banke-u-prilepu": {
+   "first_seen": "2026-11-13T11:34:59+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии: с понедельника откроется экспозитура Alta банки в Прилепе",
+   "title_src": "Narodna banka Severne Makedonije: Od ponedeljka će raditi i ekspozitura Alta banke u Prilepu",
+   "updated": "2026-11-13T11:34:59+00:00"
   },
   "https://n1info.rs/region/opozicija-ostavka-narodna-alta-banka-severna-makedonija": {
    "attempts": 17,
