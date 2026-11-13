@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6169,
+    "n": 6170,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T06:20:23+00:00",
+   "at": "2026-11-13T06:22:16+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-13T06:20:57+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-13T06:22:59+00:00",
+   "elapsed_s": 42,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6171,
+   "ALTA": 6172,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: текущие счета Alta банки — компетенция АОД и Министерства финансий — NBS подтверждает: все вопросы о спровождении банкротства Alta банки и обращении со средствами — в компетенции Агенције за осигурање депозита (АОД) — Физические лица и предприятия с открытыми счетами должны обращаться в АОД за ",
-   "ts": 1794084039.6489584,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859&konverzija=no"
-  },
   {
    "text": "NBS: банковский сектор Сербии стабилен, вклады защищены, динар стабилен — NBS подтверждает стабильность банковского сектора Сербии, его хорошую капитализацию и ликвидность; проблемы отдельной банки не отражают состояние сектора в целом — Все вклады, охваченные законной системой страхования депозитов",
    "ts": 1794084049.7388113,
@@ -445,6 +440,11 @@
    "text": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
    "ts": 1794520865.4556603,
    "url": "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci"
+  },
+  {
+   "text": "Выплаты вкладчикам Alta начались 13 ноября в отделениях Поштанской штедионице — Выплаты фактически начались 13 ноября 2026 (подтверждение факта начала) — В Белграде открыта новая специализированная экспозитура в центральном офисе Поштанской штедионице (ул. королевы Марии, 3) с 28 кассами, предназнач",
+   "ts": 1794550972.4435163,
+   "url": "https://n1info.rs/biznis/pocinje-isplata-depozita-alta-banke-u-postanskoj-stedionici"
   }
  ],
  "retry_items": {},
@@ -3468,6 +3468,26 @@
    "title": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta",
    "title_src": "Počelo zakazivanje termina za isplatu osiguranih depozita iz Alta banke",
    "updated": "2026-11-12T07:32:56+00:00"
+  },
+  "https://n1info.rs/biznis/pocinje-isplata-depozita-alta-banke-u-postanskoj-stedionici": {
+   "first_seen": "2026-11-13T06:22:52+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 292,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-13T06:22:52+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Выплаты вкладчикам Alta начались 13 ноября в отделениях Поштанской штедионице",
+   "title_src": "U Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "updated": "2026-11-13T06:22:52+00:00"
   },
   "https://n1info.rs/biznis/pokrenut-stecaj-alta-banke-postanska-stedionica-isplacivace-njene-deponente": {
    "first_seen": "2026-11-03T11:44:46+00:00",
@@ -7395,6 +7415,17 @@
    "title": "Поштанска штедионица начала запись на выплаты вкладчикам Alta",
    "title_src": "Počelo zakazivanje termina u Poštanskoj štedionici za isplatu novca klijentima Alta banke",
    "updated": "2026-11-12T07:40:51+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/461162/u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-alta-banke-u-novom-sadu-na-sedam-mesta": {
+   "first_seen": "2026-11-13T06:22:59+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 8,
+   "status": "dup",
+   "title": "Выплаты застрахованных вкладов Alta начались в Поштанской штедионице; в Новом Саде — семь мест выплаты",
+   "title_src": "U Poštanskoj štedionici počinje isplata osiguranih depozita Alta banke, u Novom Sadu na sedam mesta",
+   "updated": "2026-11-13T06:22:59+00:00"
   },
   "https://www.021.rs/info/region-i-svet/461036/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:39:34+00:00",
