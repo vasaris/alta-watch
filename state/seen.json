@@ -197,23 +197,33 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T15:29:59+00:00",
-    "n": 6495,
+    "n": 6496,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "источник AOD новости": {
+    "last_sent": "2026-11-13T17:23:07+00:00",
+    "n": 1,
+    "since": "2026-11-13T17:21:26+00:00"
+   },
+   "источник AOD объявления": {
+    "last_sent": "2026-11-13T17:23:08+00:00",
+    "n": 1,
+    "since": "2026-11-13T17:21:26+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T17:18:53+00:00",
+   "at": "2026-11-13T17:21:26+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T17:21:10+00:00",
-   "elapsed_s": 136,
-   "llm_calls": 0,
+   "at": "2026-11-13T17:23:56+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,9 +246,9 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6497,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 6498,
+   "AOD новости": 3,
+   "AOD объявления": 3,
    "NBS": 0
   }
  },
@@ -263,11 +273,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Erste Bank подключила услугу «Prenesi» для мгновенных платежей — Erste Bank a.d. Novi Sad получила одобрение NBS и подключила услугу «Prenesi» для мгновенных платежей по номеру мобильного телефона получателя — Услуга доступна через мобильное приложение банка, работает круглосуточно и ежедневно",
-   "ts": 1794094722.4713101,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=19938&konverzija=no"
-  },
   {
    "text": "Alta банка запустила услугу мгновенных платежей «Prenesi» (декабрь 2022) — По одобрению NBS Alta banka a.d. Beograd включила услугу «Prenesi» для мгновенных платежей между счётами по номеру мобильного телефона получателя — Услуга доступна через мобильное приложение банка; переводы возможны в любой д",
    "ts": 1794101508.2704852,
@@ -462,6 +467,11 @@
    "text": "С 16 ноября Alta в банкротстве выдаёт справки вместо оригинальных документов — Начиная с 16 ноября 2026 Alta в банкротстве выдаёт справки вкладчикам без оригинальных документов — Справки выдаются в рабочие дни с 9:00 до 15:00 в помещении Alta (Булевар Зорана Ђинђића 121, Нови Београд)",
    "ts": 1794583355.2986617,
    "url": "https://www.aod.rs/clan/vest/vest_forma/153"
+  },
+  {
+   "text": "Поштанская штедионица продлила работу: 16 450 клиентов Alta записались на выплаты — Глобальные технические проблемы Microsoft затруднили начало выплат в утренние часы 13 ноября 2026. — 16 450 клиентов Alta записались на выплаты через портал BPŠ к моменту публикации (17:07 13 ноября).",
+   "ts": 1794590635.0217922,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-produzen-rad-zbog-isplate-depozita-alta-banke-termin-zakazalo-16450-klijenata"
   }
  ],
  "retry_items": {},
@@ -2209,6 +2219,25 @@
    "title": "Поштанска штедионица: онлайн-запись на выплаты вкладчикам Alta начата, выплаты стартуют 13 ноября",
    "title_src": "Banka Poštanska štedionica: Počelo zakazivanje termina za isplatu osiguranih depozita Alta banke u stečaju",
    "updated": "2026-11-12T07:02:43+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-produzen-rad-zbog-isplate-depozita-alta-banke-termin-zakazalo-16450-klijenata": {
+   "first_seen": "2026-11-13T17:23:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 301,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-13T17:23:55+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "Поштанская штедионица продлила работу: 16 450 клиентов Alta записались на выплаты",
+   "title_src": "Banka Poštanska štedionica: Produžen rad zbog isplate depozita Alta banke, termin zakazalo 16.450 klijenata",
+   "updated": "2026-11-13T17:23:55+00:00"
   },
   "https://insajder.net/prenosimo/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
    "first_seen": "2026-11-13T06:37:07+00:00",
