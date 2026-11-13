@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6372,
+    "n": 6373,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T13:10:23+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-13T13:12:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T13:10:53+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-13T13:14:36+00:00",
+   "elapsed_s": 141,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 51,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6374,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 6375,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -5343,6 +5343,18 @@
    "status": "dup",
    "title": "Alta banka до отзыва лицензии подала в суд на бывшую прокурора Паунович за ущерб репутации",
    "updated": "2026-10-31T17:31:30+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/birn-firma-brata-vlasnika-alta-banke-kupila-vilu-na-dedinju-kreditom-te-banke": {
+   "first_seen": "2026-11-13T13:14:36+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Завершение канализационной сети в Баймоке и на Палиће",
+   "title_src": "BIRN: Firma brata vlasnika Alta banke kupila vilu na Dedinju kreditom te banke",
+   "updated": "2026-11-13T13:14:36+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/dobavljaci-nastoje-da-sacuvaju-idea-markete-u-opasnosti-zbog-situacije-sa-alta-bankom": {
    "first_seen": "2026-11-09T11:08:39+00:00",
