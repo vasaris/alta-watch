@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T15:29:59+00:00",
-    "n": 6484,
+    "n": 6485,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T16:56:14+00:00",
+   "at": "2026-11-13T16:58:50+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T16:58:36+00:00",
-   "elapsed_s": 141,
-   "llm_calls": 0,
+   "at": "2026-11-13T17:01:13+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,14 +236,31 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6486,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6487,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "13.11.2026 16:59",
+    "first": "С 16 ноября 2026 Alta выдаёт справки о наличии счётов как альтернативу оригинальным документам",
+    "important": false,
+    "kind": "press",
+    "outlet": "021.rs",
+    "tags": [
+     "выплаты",
+     "клиенты",
+     "сроки"
+    ],
+    "title": "С 16 ноября Alta выдаёт справки о наличии счётов вместо оригинальных документов",
+    "title_src": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+    "ts": 1794589273.292974,
+    "url": "https://www.021.rs/info/srbija/461246/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra"
+   }
+  ]
  },
  "recent": [
   {
@@ -8072,6 +8089,17 @@
    "title": "Мэр Пирота угрожает судом против NBS из-за застрявших денег в Alta",
    "title_src": "Gradonačelnik Pirota najavljuje tužbu protiv NBS zbog zarobljenog novca u Alta banci",
    "updated": "2026-11-13T14:24:40+00:00"
+  },
+  "https://www.021.rs/info/srbija/461246/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra": {
+   "first_seen": "2026-11-13T17:01:13+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "С 16 ноября Alta выдаёт справки о наличии счётов вместо оригинальных документов",
+   "title_src": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+   "updated": "2026-11-13T17:01:13+00:00"
   },
   "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
    "first_seen": "2026-11-10T14:53:13+00:00",
