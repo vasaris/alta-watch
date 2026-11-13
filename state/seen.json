@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6373,
+    "n": 6374,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T13:12:15+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-13T13:15:06+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T13:14:36+00:00",
-   "elapsed_s": 141,
+   "at": "2026-11-13T13:15:45+00:00",
+   "elapsed_s": 39,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 51,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6375,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6376,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -5255,6 +5255,18 @@
     "сроки"
    ],
    "title": "Zaposleni u Alta banci: Do ponedeljka bilo sve regularno, od utorka krenulo masovno prebacivanje novca"
+  },
+  "https://novaekonomija.rs/price-i-analize/da-li-je-alta-banka-drzala-u-trezoru-falsifikovane-novcanice": {
+   "first_seen": "2026-11-13T13:15:45+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Конкурс на рыболовные лицензии в Сербии",
+   "title_src": "Da li je Alta banka držala u trezoru falsifikovane novčanice?",
+   "updated": "2026-11-13T13:15:45+00:00"
   },
   "https://novaekonomija.rs/price-i-analize/domace-banke-prednost-ili-potencijalni-problem-kako-smo-pisali-letos": {
    "first_seen": "2026-10-31T18:14:48+00:00",
