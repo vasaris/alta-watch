@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6176,
+    "n": 6177,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T06:34:14+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-13T06:36:44+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-13T06:36:31+00:00",
-   "elapsed_s": 137,
+   "at": "2026-11-13T06:37:07+00:00",
+   "elapsed_s": 23,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 51,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6178,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6179,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -2171,6 +2171,16 @@
    "title": "Поштанска штедионица: онлайн-запись на выплаты вкладчикам Alta начата, выплаты стартуют 13 ноября",
    "title_src": "Banka Poštanska štedionica: Počelo zakazivanje termina za isplatu osiguranih depozita Alta banke u stečaju",
    "updated": "2026-11-12T07:02:43+00:00"
+  },
+  "https://insajder.net/prenosimo/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-13T06:37:07+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/pocinje-isplata-depozita-alta-banke-u-postanskoj-stedionici",
+   "status": "dup",
+   "title": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "title_src": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "updated": "2026-11-13T06:37:07+00:00"
   },
   "https://insajder.net/prenosimo/davor-macura-saslusan-pred-tuzilastvom-advokat-kaze-da-je-negirao-navode-prijave-i-da-je-tuzilac-zatrazio-pritvor-do-30-dana": {
    "first_seen": "2026-11-04T00:35:01+00:00",
