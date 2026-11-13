@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6204,
+    "n": 6205,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T07:30:36+00:00",
+   "at": "2026-11-13T07:32:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-13T07:31:05+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-13T07:32:43+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6206,
+   "ALTA": 6207,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3852,6 +3852,17 @@
    "title": "Экс-чиновник НБС: Alta banka не произошла бы при профессиональной работе регулятора",
    "title_src": "Šoškić: Ne bi se desila Alta banka da je NBS postupala profesionalno i samostalno u odnosu na političku vlast",
    "updated": "2026-11-09T07:04:50+00:00"
+  },
+  "https://n1info.rs/vesti/djakovic-alta-banka-stednja-isplata-depozita-gradjanima": {
+   "first_seen": "2026-11-13T07:32:43+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "Эксперт: возмещение вкладов свыше 50 000 евро не должно идти из бюджета государства",
+   "title_src": "Đaković: Namirivanje građana koji su imali preko 50.000 evra u Alta banci ne bi trebalo da ide preko budžeta države",
+   "updated": "2026-11-13T07:32:43+00:00"
   },
   "https://n1info.rs/vesti/dugalic-alta-banke-mrlja-bankarski-sektor": {
    "first_seen": "2026-11-01T17:13:15+00:00",
