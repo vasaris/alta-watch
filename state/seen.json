@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6225,
+    "n": 6226,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T08:12:48+00:00",
+   "at": "2026-11-13T08:14:17+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T08:13:10+00:00",
-   "elapsed_s": 21,
+   "at": "2026-11-13T08:14:48+00:00",
+   "elapsed_s": 31,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6227,
+   "ALTA": 6228,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4273,6 +4273,16 @@
    "title": "АОД объявила банк-выплатчик и сроки начала выплат вкладчикам Alta",
    "title_src": "Deponenti Alta banke će biti isplaćeni preko banke Poštanska štedionica",
    "updated": "2026-11-03T17:48:50+00:00"
+  },
+  "https://nova.rs/vesti/biznis/djakovic-namirivanje-gradjana-koji-su-imali-preko-50000-evra-u-alta-banci-ne-bi-trebalo-da-ide-preko-budzeta-drzave": {
+   "first_seen": "2026-11-13T08:14:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/djakovic-alta-banka-stednja-isplata-depozita-gradjanima",
+   "status": "dup",
+   "title": "Đaković: Namirivanje građana koji su imali preko 50.000 evra u Alta banci ne bi trebalo da ide preko budžeta države",
+   "title_src": "Đaković: Namirivanje građana koji su imali preko 50.000 evra u Alta banci ne bi trebalo da ide preko budžeta države",
+   "updated": "2026-11-13T08:14:48+00:00"
   },
   "https://nova.rs/vesti/biznis/dosije-alta-od-menjacnice-u-zemunu-do-banke-na-ciji-racun-placamo-eps-u-mup-u-kako-se-sirilo-poslovanje-banke-kojoj-je-nbs-oduzela-dozvolu-za-rad": {
    "first_seen": "2026-11-01T16:28:45+00:00",
