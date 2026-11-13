@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6385,
+    "n": 6386,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T13:36:13+00:00",
+   "at": "2026-11-13T13:38:12+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T13:36:38+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-13T13:38:46+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6387,
+   "ALTA": 6388,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1882,6 +1882,17 @@
    "title": "«Белград на воде»: нет риска для ликвидности и финстабильности компании после отзыва лицензии Alta",
    "title_src": "Beograd na vodi: Nema rizika po likvidnost i finansijsku stabilnost kompanije nakon oduzimanja licence Alta banci",
    "updated": "2026-11-03T12:28:44+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/birn-firma-brata-vlasnika-alta-banke-kupila-vilu-na-dedinju-kreditom-te-banke": {
+   "first_seen": "2026-11-13T13:38:46+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка",
+   "title_src": "BIRN: Firma brata vlasnika Alta banke kupila vilu na Dedinju kreditom te banke",
+   "updated": "2026-11-13T13:38:46+00:00"
   },
   "https://forbes.n1info.rs/vesti/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
    "first_seen": "2026-11-13T12:42:47+00:00",
