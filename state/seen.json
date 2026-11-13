@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T15:29:59+00:00",
-    "n": 6489,
+    "n": 6490,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T17:06:26+00:00",
+   "at": "2026-11-13T17:08:17+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T17:06:53+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-13T17:08:48+00:00",
+   "elapsed_s": 31,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6491,
+   "ALTA": 6492,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4466,6 +4466,16 @@
    "title": "Выплаты вкладчикам Alta начинаются 13 ноября: кто имеет право на возмещение",
    "title_src": "Isplata novca klijentima Alta banke počinje 13. novembra: Ko ima pravo na obeštećenje",
    "updated": "2026-11-10T18:26:47+00:00"
+  },
+  "https://nova.rs/vesti/biznis/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra": {
+   "first_seen": "2026-11-13T17:08:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.021.rs/info/srbija/461246/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra",
+   "status": "dup",
+   "title": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+   "title_src": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+   "updated": "2026-11-13T17:08:48+00:00"
   },
   "https://nova.rs/vesti/biznis/kako-do-novca-koji-imate-u-alta-banci-davora-macure-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
