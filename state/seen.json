@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6346,
+    "n": 6347,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T12:16:14+00:00",
+   "at": "2026-11-13T12:18:15+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T12:16:40+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-13T12:18:43+00:00",
+   "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6348,
+   "ALTA": 6349,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -3046,6 +3046,16 @@
    "title": "Платежи через мены́чницы ALTA group: большинство счетов исполнены до 4 ноября",
    "title_src": "Da li su \"prošle\" uplate građana preko menjačnica koje su radile sa Alta grupom pre oduzimanja dozvola za rad",
    "updated": "2026-11-05T07:01:47+00:00"
+  },
+  "https://n1info.rs/biznis/davor-macura-alta-banka-birn-kredit-vila-na-dedinju": {
+   "first_seen": "2026-11-13T12:18:43+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/vesti/biznis/firma-macurinog-brata-kupila-vilu-na-dedinju-kreditom-alta-banke-od-tri-miliona-evra",
+   "status": "dup",
+   "title": "BIRN: Firma Macurinog brata kupila vilu na Dedinju kreditom Alta banke od tri miliona evra",
+   "title_src": "BIRN: Firma Macurinog brata kupila vilu na Dedinju kreditom Alta banke od tri miliona evra",
+   "updated": "2026-11-13T12:18:43+00:00"
   },
   "https://n1info.rs/biznis/demostat-sta-sve-pokrece-afera-sa-alta-bankom-a-sta-kazu-ostale-banke": {
    "first_seen": "2026-11-10T08:15:40+00:00",
