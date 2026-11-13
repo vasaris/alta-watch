@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6316,
+    "n": 6317,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T11:14:13+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-13T11:16:12+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T11:14:40+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-13T11:18:41+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 51,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6318,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 6319,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: уведомление для обменных пунктов Alta банки о переводе операций — NBS издала уведомление для авторизованных обменных пунктов (мењачей), работавших с Alta банкой a.d. Beograd после отзыва лицензии 30 октября 2026 — Обменные пункты, заключившие договор исключительно с Alta банкой, обязаны в кратч",
-   "ts": 1794084061.2885458,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21853&konverzija=no"
-  },
   {
    "text": "NBS подтверждает: права вкладчиков защищены, банк под надзором АОД, финсектор стабилен — 30 октября 2026 NBS отозвала лицензию у Alta banka a.d. Beograd и передала управление Агенцији за осигурање депозита (АОД) для проведения банкротства — Имущество банки остаётся под надзором; запрещено его расхищ",
    "ts": 1794084071.2758174,
@@ -445,6 +440,11 @@
    "text": "Выплаты застрахованных вкладов Alta начались 13 ноября через Поштанскую штедионицу — Выплаты фактически начались 13 ноября 2026 в 07:55 (подтверждение факта начала операций) — Вклады сверх 50 000 евро: остаток требований подаётся в стечайном поступке (уточнение процедуры для сверхлимитных сумм)",
    "ts": 1794554082.7480123,
    "url": "https://www.rts.rs/vesti/ekonomija/6082476/alta-banka-postanska-stedionica-isplata-depoziti.html"
+  },
+  {
+   "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
+   "ts": 1794568720.3724496,
+   "url": "https://www.danas.rs/vesti/ekonomija/brat-davor-macura-vila-dedinje"
   }
  ],
  "retry_items": {},
@@ -11626,6 +11626,26 @@
    "title": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью",
    "title_src": "Birn: Alta banka držala 60 milijardi dinara u kešu, imala problem sa likvidnošću",
    "updated": "2026-11-04T10:38:59+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/brat-davor-macura-vila-dedinje": {
+   "first_seen": "2026-11-13T11:18:40+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 294,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-13T11:18:40+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "требования",
+    "банки",
+    "регулятор"
+   ],
+   "title": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка",
+   "title_src": "BIRN: Firma brata Davora Macure kupila vilu na Dedinju kreditom Alta banke od tri miliona evra",
+   "updated": "2026-11-13T11:18:40+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/centralna-banka-cg-iz-crne-gore-ka-alta-banci-poslato-najmanje-29-miliona-evra-od-pocetka-godine": {
    "first_seen": "2026-11-04T13:26:56+00:00",
