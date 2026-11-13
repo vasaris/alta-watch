@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T03:27:57+00:00",
-    "n": 6172,
+    "n": 6173,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T06:26:13+00:00",
+   "at": "2026-11-13T06:28:14+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-12",
   "last_run": {
-   "at": "2026-11-13T06:26:35+00:00",
-   "elapsed_s": 22,
+   "at": "2026-11-13T06:28:41+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6174,
+   "ALTA": 6175,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4631,6 +4631,16 @@
    "title": "Полмиллиарда евро в сейфе Alta: что знала NBS и был ли деньги вообще",
    "title_src": "Pola milijarde evra u trezoru Alta banke: Šta je NBS znala – i da li je novca uopšte bilo",
    "updated": "2026-11-04T10:01:40+00:00"
+  },
+  "https://nova.rs/vesti/biznis/u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-13T06:28:41+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/pocinje-isplata-depozita-alta-banke-u-postanskoj-stedionici",
+   "status": "dup",
+   "title": "U Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "title_src": "U Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "updated": "2026-11-13T06:28:41+00:00"
   },
   "https://nova.rs/vesti/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:17:01+00:00",
