@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T15:29:59+00:00",
-    "n": 6589,
+    "n": 6590,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T20:28:13+00:00",
+   "at": "2026-11-13T20:30:34+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T20:28:36+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-13T20:31:07+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6591,
+   "ALTA": 6592,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2392,6 +2392,17 @@
    "title": "JTOK: арестованы владелец Alta banke и двое сотрудников по подозрению в хищении ~45 млрд динаров из тrezora",
    "title_src": "JTOK o slučaju Alta banke: Uhapšene tri osobe, sumnja se da je iz trezora neovlašćeno izneto 45 milijardi dinara",
    "updated": "2026-11-02T13:23:01+00:00"
+  },
+  "https://insajder.net/prenosimo/kekic-pokazatelji-poslovanja-banke-postanska-stedionica-govore-da-je-ona-stabilna-i-likvidna": {
+   "first_seen": "2026-11-13T20:31:07+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Председатель Поштанской штедионице: банк стабилен и ликвиден, отличается от Alta",
+   "title_src": "Kekić: Pokazatelji poslovanja Banke Poštanska štedionica govore da je ona stabilna i likvidna",
+   "updated": "2026-11-13T20:31:07+00:00"
   },
   "https://insajder.net/prenosimo/kk-crvena-zvezda-ukidanje-dozvole-alta-banci-nece-uticati-na-poslovanje-kluba": {
    "first_seen": "2026-11-02T18:22:50+00:00",
