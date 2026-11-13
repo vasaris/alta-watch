@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6409,
+    "n": 6410,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T14:24:13+00:00",
+   "at": "2026-11-13T14:26:18+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T14:24:40+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-13T14:26:52+00:00",
+   "elapsed_s": 34,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6411,
+   "ALTA": 6412,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS: более 3 млн пользователей мобильного банкинга могут переводить деньги услугой «Пренеси» — NBS напоминает о сервисе «Пренеси» для переводов между счётами по номеру телефона получателя — Более 3 млн пользователей мобильного банкинга в Сербии могут выполнять такие транзакции",
-   "ts": 1794092984.1619642,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=20282&konverzija=no"
-  },
   {
    "text": "Alta Pay Group подключилась к системе мгновенных платежей NBS (07.11.2024) — Alta Pay Group d.o.o. Beograd (институция электронного денег) подключилась к системе IPS НБС для мгновенных платежей — Alta Pay Group получила статус косвенного участника системы через ALTA banka a.d. Beograd как прямого уч",
    "ts": 1794093765.4048874,
@@ -445,6 +440,11 @@
    "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине за месяцы до краха банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
    "ts": 1794571292.1722782,
    "url": "https://nova.rs/vesti/biznis/firma-macurinog-brata-kupila-vilu-na-dedinju-kreditom-alta-banke-od-tri-miliona-evra"
+  },
+  {
+   "text": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta — Подтверждение фактического начала выплат 13 ноября 2026 в отделении на улице Королевы Марии — Наблюдаются очереди и задержки несмотря на предварительное онлайн-бронирование; время ожидания до двух часов",
+   "ts": 1794580011.0845435,
+   "url": "https://nova.rs/vesti/biznis/ruski-drzavljani-dosli-po-svoj-novac-velika-guzva-ispred-postanske-stedionice"
   }
  ],
  "retry_items": {},
@@ -4705,6 +4705,25 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/ruski-drzavljani-dosli-po-svoj-novac-velika-guzva-ispred-postanske-stedionice": {
+   "first_seen": "2026-11-13T14:26:51+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 299,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-13T14:26:51+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta",
+   "title_src": "Ruski državljani došli po svoj novac, velika gužva ispred Poštanske štedionice",
+   "updated": "2026-11-13T14:26:51+00:00"
   },
   "https://nova.rs/vesti/biznis/savet-centralne-banke-crne-gore-oduzeo-odobrenje-za-pruzanje-platnih-usluga-alta-pay-group-podgorica": {
    "first_seen": "2026-11-01T20:14:45+00:00",
