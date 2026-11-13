@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T15:29:59+00:00",
-    "n": 6499,
+    "n": 6500,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T17:26:16+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-13T17:28:55+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T17:28:42+00:00",
-   "elapsed_s": 145,
+   "at": "2026-11-13T17:29:26+00:00",
+   "elapsed_s": 31,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6501,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6502,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -263,11 +263,6 @@
   ]
  },
  "recent": [
-  {
-   "text": "Alta банка запустила услугу мгновенных платежей «Prenesi» (декабрь 2022) — По одобрению NBS Alta banka a.d. Beograd включила услугу «Prenesi» для мгновенных платежей между счётами по номеру мобильного телефона получателя — Услуга доступна через мобильное приложение банка; переводы возможны в любой д",
-   "ts": 1794101508.2704852,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=18621&konverzija=no"
-  },
   {
    "text": "Alta banka запустила мгновенные платежи через NBS IPS QR-код (сентябрь 2021) — По одобрению NBS Alta banka a.d. Beograd включила услугу мгновенных платежей на точках продажи через мобильное приложение — Клиенты могут оплачивать счета с NBS IPS QR-кодом",
    "ts": 1794108052.886928,
@@ -462,6 +457,11 @@
    "text": "Поштанская штедионица продлила работу: 16 450 клиентов Alta записались на выплаты — Глобальные технические проблемы Microsoft затруднили начало выплат в утренние часы 13 ноября 2026. — 16 450 клиентов Alta записались на выплаты через портал BPŠ к моменту публикации (17:07 13 ноября).",
    "ts": 1794590635.0217922,
    "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-produzen-rad-zbog-isplate-depozita-alta-banke-termin-zakazalo-16450-klijenata"
+  },
+  {
+   "text": "С 16 ноября Alta выдаёт справки вместо оригинальных документов для получения выплат — С 16 ноября 2026 Alta в стечае выдаёт справки вкладчикам без оригинальных документов — Справки выдаются в рабочие дни с 9:00 до 15:00 часов по адресу Булевар Зорана Ђинђића 121, Нови Белград",
+   "ts": 1794590965.3076,
+   "url": "https://n1info.rs/biznis/u-alta-banku-po-potvrdu-sta-da-rade-gradjani-koji-nemaju-originalnu-dokumentaciju-o-depozitu-u-banci-u-stecaju"
   }
  ],
  "retry_items": {},
@@ -3733,6 +3733,25 @@
    "title": "Редактор N1: Alta не была классической банкой; NBS должна объяснить критерии лицензирования",
    "title_src": "Stepanović o slučaju \"Alta\": Banka ne može da posluje ako toliki novac drži u trezoru, i fond Vista Rica ulagao u nju",
    "updated": "2026-11-04T13:08:49+00:00"
+  },
+  "https://n1info.rs/biznis/u-alta-banku-po-potvrdu-sta-da-rade-gradjani-koji-nemaju-originalnu-dokumentaciju-o-depozitu-u-banci-u-stecaju": {
+   "first_seen": "2026-11-13T17:29:25+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 302,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-13T17:29:25+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "С 16 ноября Alta выдаёт справки вместо оригинальных документов для получения выплат",
+   "title_src": "U Alta banku po potvrdu: Šta da rade građani koji nemaju originalnu dokumentaciju o depozitu u banci u stečaju",
+   "updated": "2026-11-13T17:29:25+00:00"
   },
   "https://n1info.rs/biznis/udruzenje-banaka-srbije-slucaj-alta-banke-ne-utice-na-poslovanje-ostalih-banaka-u-srbiji": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -12708,6 +12727,16 @@
    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
    "updated": "2026-11-04T13:51:05+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/potvrda-o-posedovanju-racuna-alta": {
+   "first_seen": "2026-11-13T17:29:26+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/vesti/biznis/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra",
+   "status": "dup",
+   "title": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+   "title_src": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
+   "updated": "2026-11-13T17:29:26+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
    "first_seen": "2026-11-08T12:11:08+00:00",
