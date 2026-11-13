@@ -197,30 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-13T09:29:56+00:00",
-    "n": 6357,
+    "n": 6358,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "источник AOD новости": {
-    "last_sent": "2026-11-13T12:39:00+00:00",
-    "n": 2,
-    "since": "2026-11-13T12:37:19+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-13T12:39:00+00:00",
-    "n": 2,
-    "since": "2026-11-13T12:37:19+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-13T12:39:52+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-13T12:42:24+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-13T12:42:11+00:00",
-   "elapsed_s": 138,
+   "at": "2026-11-13T12:42:47+00:00",
+   "elapsed_s": 23,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -242,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 51,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6359,
-   "AOD новости": 4,
-   "AOD объявления": 4,
+   "ALTA": 6360,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -1892,6 +1882,16 @@
    "title": "«Белград на воде»: нет риска для ликвидности и финстабильности компании после отзыва лицензии Alta",
    "title_src": "Beograd na vodi: Nema rizika po likvidnost i finansijsku stabilnost kompanije nakon oduzimanja licence Alta banci",
    "updated": "2026-11-03T12:28:44+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-13T12:42:47+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://insajder.net/prenosimo/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju",
+   "status": "dup",
+   "title": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "title_src": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
+   "updated": "2026-11-13T12:42:47+00:00"
   },
   "https://forbes.n1info.rs/vesti/eps-zbog-oduzimanja-licence-alta-banci-nisu-ugrozeni-poslovanje-i-finansijska-stabilnost": {
    "first_seen": "2026-11-03T10:47:31+00:00",
