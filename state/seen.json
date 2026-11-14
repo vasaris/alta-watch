@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T03:33:55+00:00",
-    "n": 6921,
+    "n": 6922,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T07:32:13+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T07:34:42+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-13",
   "last_run": {
-   "at": "2026-11-14T07:34:31+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-14T07:35:16+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6923,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6924,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -12767,6 +12767,18 @@
    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
    "updated": "2026-11-04T13:51:05+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-stabilna": {
+   "first_seen": "2026-11-14T07:35:16+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other_bank",
+   "relevance": 1,
+   "status": "rejected",
+   "title": "Глава Поштанской штедионице: банка стабильна, государство может её докапитализировать",
+   "title_src": "Predsednik IO Poštanske štedionice: Banka je stabilna, država kao vlasnik uvek može da je dokapitalizuje",
+   "updated": "2026-11-14T07:35:16+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/potvrda-o-posedovanju-racuna-alta": {
    "first_seen": "2026-11-13T17:29:26+00:00",
