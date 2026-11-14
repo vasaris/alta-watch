@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T03:33:55+00:00",
-    "n": 6955,
+    "n": 6956,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T08:40:20+00:00",
+   "at": "2026-11-14T08:42:11+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T08:40:53+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 1,
+   "at": "2026-11-14T08:42:37+00:00",
+   "elapsed_s": 25,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6957,
+   "ALTA": 6958,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -8263,6 +8263,16 @@
    "title": "С 16 ноября Alta выдаёт справки о наличии счётов вместо оригинальных документов",
    "title_src": "Izdavanje potvrda o posedovanju računa u Alta banci u stečaju od 16. novembra",
    "updated": "2026-11-13T17:33:02+00:00"
+  },
+  "https://www.021.rs/info/srbija/461333/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima-danas-nastavak": {
+   "first_seen": "2026-11-14T08:42:37+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.danas.rs/vesti/ekonomija/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima",
+   "status": "dup",
+   "title": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima, danas nastavak",
+   "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima, danas nastavak",
+   "updated": "2026-11-14T08:42:37+00:00"
   },
   "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
    "first_seen": "2026-11-10T14:53:13+00:00",
