@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T09:35:51+00:00",
-    "n": 7007,
+    "n": 7008,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T10:24:14+00:00",
+   "at": "2026-11-14T10:26:25+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T10:24:45+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-14T10:26:52+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7009,
+   "ALTA": 7010,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5716,6 +5716,16 @@
    "title": "Банка Поштанске штедионице начинает выплаты депозитов Alta; в пятницу — детали о времени и местах",
    "title_src": "Poštanska štedionica isplaćuje depozite Alta banke, u petak detalji o vremenu i mestima za isplatu",
    "updated": "2026-11-04T11:12:57+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima": {
+   "first_seen": "2026-11-14T10:26:52+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255900-postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima",
+   "status": "dup",
+   "title": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
+   "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
+   "updated": "2026-11-14T10:26:52+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/sta-gasenje-alta-banke-znaci-za-klijente-depoziti-tekuci-i-stedni-racuni-do-50-000-evra-bezbedni-kredite-preuzima-aod": {
    "first_seen": "2026-10-31T11:17:01+00:00",
