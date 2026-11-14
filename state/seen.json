@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T03:33:55+00:00",
-    "n": 6948,
+    "n": 6949,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T08:26:43+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T08:29:17+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T08:29:04+00:00",
-   "elapsed_s": 141,
-   "llm_calls": 1,
+   "at": "2026-11-14T08:29:43+00:00",
+   "elapsed_s": 26,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6950,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 6951,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -3657,6 +3657,16 @@
    "title": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
    "title_src": "Poštanska štedionica: Stabilni smo i likvidni, počela isplata penzija iz Alta banke",
    "updated": "2026-11-04T13:03:11+00:00"
+  },
+  "https://n1info.rs/biznis/postanska-stedionica-u-petak-isplaceni-svi-zakazani-klijenti-poslednji-dobio-novac-oko-ponoci": {
+   "first_seen": "2026-11-14T08:29:43+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/postanska-stedionica-u-petak-isplaceni-svi-zakazani-klijenti-poslednji-dobio-novac-oko-ponoci",
+   "status": "dup",
+   "title": "Poštanska štedionica: U petak isplaćeni svi zakazani klijenti, poslednji dobio novac oko ponoći",
+   "title_src": "Poštanska štedionica: U petak isplaćeni svi zakazani klijenti, poslednji dobio novac oko ponoći",
+   "updated": "2026-11-14T08:29:43+00:00"
   },
   "https://n1info.rs/biznis/postaska-stedionica-alta-banka-rusi-podizanje-novca": {
    "first_seen": "2026-11-13T11:35:06+00:00",
