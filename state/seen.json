@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T15:37:52+00:00",
-    "n": 7279,
+    "n": 7280,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T19:30:31+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T19:32:56+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T19:32:46+00:00",
-   "elapsed_s": 134,
-   "llm_calls": 0,
+   "at": "2026-11-14T19:33:32+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7281,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 7282,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита — Дата начала выплат: 13 ноября 2026 (пятница) — Банк-выплатчик подтверждён: Банка Поштанска штедионица",
-   "ts": 1794318891.4814413,
-   "url": "https://www.danas.rs/vesti/ekonomija/pocinje-isplata-osiguranih-depozita-alta-banke-rusi-iz-subotice-strahuju-za-ostatak-ustedjevine"
-  },
   {
    "text": "Банка Поштанска штедионица открывает портал для записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября (среда) — новый организационный инструмент — Специализированная экспозитура в центральной офисе Банки Поштанске штедионице (ул. королевы Марии, 3) с",
    "ts": 1794321182.2744477,
@@ -445,6 +440,11 @@
    "text": "Поштанская штедионица выплатила всех записанных клиентов Alta в первый день, несмотря на сбои Microsoft — Все записанные на 13 ноября клиенты получили выплаты несмотря на технические сбои. — Последний клиент выплачен в 23:47 из-за продления рабочего времени.",
    "ts": 1794644611.1116061,
    "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima"
+  },
+  {
+   "text": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня — Уточненное число записанных сроков: 17 789 (предыдущие сообщения указывали менее 17 000). — Процент выплаченных средств за два дня: 7,27% в динарах и 7,74% в евро.",
+   "ts": 1794684810.5648186,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceno-vise-od-sedam-odsto-sredstava-klijentima-alta-banke"
   }
  ],
  "retry_items": {},
@@ -2190,6 +2190,25 @@
    "title": "Поштанская штедионица: в пятницу выплачены все записанные клиенты, сегодня — только субботние сроки",
    "title_src": "BPŠ: U petak isplaćeni svi zakazani klijenti Alta banke u stečaju, danas nastavak isključivo za termine zakazane za subotu",
    "updated": "2026-11-14T08:10:38+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceno-vise-od-sedam-odsto-sredstava-klijentima-alta-banke": {
+   "first_seen": "2026-11-14T19:33:30+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 309,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-14T19:33:30+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня",
+   "title_src": "Banka Poštanska štedionica: Isplaćeno više od sedam odsto sredstava klijentima Alta banke",
+   "updated": "2026-11-14T19:33:30+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-pocela-isplata-penzija-korisnicima-alta-banke": {
    "first_seen": "2026-11-03T15:33:18+00:00",
