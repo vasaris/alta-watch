@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T09:35:51+00:00",
-    "n": 7005,
+    "n": 7006,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T10:20:18+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T10:22:49+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T10:22:37+00:00",
-   "elapsed_s": 138,
+   "at": "2026-11-14T10:23:12+00:00",
+   "elapsed_s": 23,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7007,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 7008,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -4814,6 +4814,16 @@
    "title": "Активист требует проверки судей в деле о банкротстве Alta: конфликт интересов и миллиарды в стечае",
    "title_src": "Pokret \"Beograd ostaje\": Ko će odlučivati o stečaju Alta banke",
    "updated": "2026-11-01T22:22:53+00:00"
+  },
+  "https://nova.rs/vesti/biznis/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima": {
+   "first_seen": "2026-11-14T10:23:12+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/255900-postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima",
+   "status": "dup",
+   "title": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
+   "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
+   "updated": "2026-11-14T10:23:12+00:00"
   },
   "https://nova.rs/vesti/biznis/privredni-sud-doneo-reenje-o-steaju-u-alta-banci": {
    "first_seen": "2026-11-03T11:40:42+00:00",
