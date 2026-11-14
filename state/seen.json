@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T03:33:55+00:00",
-    "n": 6945,
+    "n": 6946,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T08:20:20+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T08:22:52+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T08:22:38+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-14T08:23:32+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6947,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 6948,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Решение Привредного суда Белграда об открытии стечайного производства над ALTA банком (официальное объявление) — Решение Привредного суда Белграда № 10 СТ 275/2026 от 3 ноября 2026 об открытии стечайного производства над ALTA банком a.d. Beograd, Булевар Зорана Ђинђића 121, МБ 07074433 — Управляющий",
-   "ts": 1794222153.902352,
-   "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.pdf"
-  },
   {
    "text": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита — Дата начала выплат: 13 ноября 2026 (пятница) — Банк-выплатчик подтверждён: Банка Поштанска штедионица",
    "ts": 1794318891.4814413,
@@ -445,6 +440,11 @@
    "text": "Поштанская штедионица: в пятницу выплачены все записанные клиенты, сегодня — только субботние сроки — Конкретное число записанных клиентов: 17 193 (уточнение от предыдущих сообщений о менее 17 000). — Последний клиент выплачен в 23:47 в специализированном отделении банки в пятницу.",
    "ts": 1794643838.4014633,
    "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceni-u-petak-svi-zakazani-klijenti-alta-banke-poslednja-isplata-u-2347-sati"
+  },
+  {
+   "text": "Поштанская штедионица выплатила всех записанных клиентов Alta в первый день, несмотря на сбои Microsoft — Все записанные на 13 ноября клиенты получили выплаты несмотря на технические сбои. — Последний клиент выплачен в 23:47 из-за продления рабочего времени.",
+   "ts": 1794644611.1116061,
+   "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima"
   }
  ],
  "retry_items": {},
@@ -12798,6 +12798,26 @@
    "title": "Банка Поштанске штедионице: график выплаты пенсий и депозитов клиентам Alta",
    "title_src": "Poštanska štedionica počela isplatu penzija klijentima Alta banke",
    "updated": "2026-11-04T13:51:05+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima": {
+   "first_seen": "2026-11-14T08:23:31+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 308,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-14T08:23:31+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Поштанская штедионица выплатила всех записанных клиентов Alta в первый день, несмотря на сбои Microsoft",
+   "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
+   "updated": "2026-11-14T08:23:31+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-stabilna": {
    "first_seen": "2026-11-14T07:35:16+00:00",
