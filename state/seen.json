@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T09:35:51+00:00",
-    "n": 7121,
+    "n": 7122,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T14:14:15+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-14T14:16:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T14:14:43+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-14T14:18:41+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7123,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 7124,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4793,6 +4793,18 @@
    "title": "ЕПС: отзыв лицензии Alta не повлиял на работу компании, деньги хранились минимально",
    "title_src": "Oglasio se EPS nakon oduzimanja licence za rad Alta banci",
    "updated": "2026-11-03T09:50:52+00:00"
+  },
+  "https://nova.rs/vesti/biznis/petrovi-inflatorni-pritisci-vremenom-e-biti-vei-trezor-alta-banke-bio-prazan-macura-prikazivao-fiktivne-uplate": {
+   "first_seen": "2026-11-14T14:18:41+00:00",
+   "kind": "press",
+   "novelty": 6,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Экономист Петрович: сейф Alta был пуст, Мачура показывал фиктивные взносы",
+   "title_src": "Petrović: Trezor Alta banke bio prazan, Macura prikazivao fiktivne uplate",
+   "updated": "2026-11-14T14:18:41+00:00"
   },
   "https://nova.rs/vesti/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke": {
    "first_seen": "2026-11-12T07:46:34+00:00",
@@ -51544,6 +51556,12 @@
    "title": "Экономист Петрович: сейф Alta был пуст, Мачура показывал фиктивные взносы",
    "ts": "2026-11-14T13:36:12+00:00",
    "url": "https://n1info.rs/biznis/petrovic-inflatorni-pritisci-alta-banka-macura"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Экономист Петрович: сейф Alta был пуст, Мачура показывал фиктивные взносы",
+   "ts": "2026-11-14T14:16:14+00:00",
+   "url": "https://nova.rs/vesti/biznis/petrovi-inflatorni-pritisci-vremenom-e-biti-vei-trezor-alta-banke-bio-prazan-macura-prikazivao-fiktivne-uplate"
   }
  ]
 }
