@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T03:33:55+00:00",
-    "n": 6938,
+    "n": 6939,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T08:06:13+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-14T08:08:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T08:06:36+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-14T08:10:39+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 6940,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 6941,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД: форма согласия на обработку персональных данных кандидатов в конкурсе на должность управляющего по банкротству ALTA — Документ — приложение к объявлению конкурса АОД на назначение управляющего по банкротству ALTA банка (дата: 09.11.2026) — АОД собирает персональные данные кандидатов: ФИО, ЕГН, ",
-   "ts": 1794221204.125702,
-   "url": "https://www.aod.rs/uploads/dokumenti/oglas/243_2_oglas.docx"
-  },
   {
    "text": "Решение Привредного суда Белграда об открытии стечайного производства над ALTA банком (официальное объявление) — Решение Привредного суда Белграда № 10 СТ 275/2026 от 3 ноября 2026 об открытии стечайного производства над ALTA банком a.d. Beograd, Булевар Зорана Ђинђића 121, МБ 07074433 — Управляющий",
    "ts": 1794222153.902352,
@@ -445,6 +440,11 @@
    "text": "Поштанская штедионица выплатила менее 1300 вкладчиков Alta в первый день — Конкретное число выплаченных вкладчиков в первый день: менее 1300 (около 2% от всех) — Конкретное число зарегистрировавшихся на выплаты: менее 17 000 (более четверти имеющих право)",
    "ts": 1794643519.798724,
    "url": "https://www.rts.rs/vesti/ekonomija/6083574/postanska-stedionica-u-petak-isplatila-nesto-manje-od-1300-deponenata-alta-banke.html"
+  },
+  {
+   "text": "Поштанская штедионица: в пятницу выплачены все записанные клиенты, сегодня — только субботние сроки — Конкретное число записанных клиентов: 17 193 (уточнение от предыдущих сообщений о менее 17 000). — Последний клиент выплачен в 23:47 в специализированном отделении банки в пятницу.",
+   "ts": 1794643838.4014633,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceni-u-petak-svi-zakazani-klijenti-alta-banke-poslednja-isplata-u-2347-sati"
   }
  ],
  "retry_items": {},
@@ -2161,6 +2161,25 @@
    "status": "rejected",
    "title": "Alta banka potvrdila pokretanje stečaja: Obustavljen platni promet, isplata osiguranih depozita od ponedeljka",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceni-u-petak-svi-zakazani-klijenti-alta-banke-poslednja-isplata-u-2347-sati": {
+   "first_seen": "2026-11-14T08:10:38+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 307,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-14T08:10:38+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты"
+   ],
+   "title": "Поштанская штедионица: в пятницу выплачены все записанные клиенты, сегодня — только субботние сроки",
+   "title_src": "BPŠ: U petak isplaćeni svi zakazani klijenti Alta banke u stečaju, danas nastavak isključivo za termine zakazane za subotu",
+   "updated": "2026-11-14T08:10:38+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-pocela-isplata-penzija-korisnicima-alta-banke": {
    "first_seen": "2026-11-03T15:33:18+00:00",
