@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-14T09:35:51+00:00",
-    "n": 7078,
+    "n": 7079,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-14T12:48:39+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-14T12:51:11+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-14",
   "last_run": {
-   "at": "2026-11-14T12:50:58+00:00",
-   "elapsed_s": 138,
-   "llm_calls": 0,
+   "at": "2026-11-14T12:51:35+00:00",
+   "elapsed_s": 23,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7080,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 7081,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -5779,6 +5779,18 @@
    "status": "dup",
    "title": "Владелец Alta Banka подал иск к бывшей прокурору за ущерб репутации",
    "updated": "2026-10-31T17:31:35+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/u-alta-banci-nije-nestalo-400-miliona-evra-tog-novca-mozda-nikada-nije-ni-bilo": {
+   "first_seen": "2026-11-14T12:51:35+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "Имущество сахарного завода «Зренянин» выставлено на продажу",
+   "title_src": "„U Alta banci nije nestalo 400 miliona evra – tog novca možda nikada nije ni bilo“",
+   "updated": "2026-11-14T12:51:35+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/udovicki-o-alta-banci-ovo-se-ne-bi-desilo-da-je-neko-posteno-radio": {
    "first_seen": "2026-11-01T09:11:11+00:00",
