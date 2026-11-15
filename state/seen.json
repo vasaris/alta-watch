@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-15T09:40:29+00:00",
-    "n": 7779,
+    "n": 7780,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-15T12:12:24+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-15T12:14:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-15",
   "last_run": {
-   "at": "2026-11-15T12:12:50+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-15T12:16:51+00:00",
+   "elapsed_s": 154,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 7781,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 7782,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3977,6 +3977,18 @@
    "title": "Народный банк Северной Македонии: с понедельника откроется экспозитура Alta банки в Прилепе",
    "title_src": "Narodna banka Severne Makedonije: Od ponedeljka će raditi i ekspozitura Alta banke u Prilepu",
    "updated": "2026-11-13T11:34:59+00:00"
+  },
+  "https://n1info.rs/region/od-sutra-ce-raditi-i-ekspozitura-alta-banke-u-prilepu": {
+   "first_seen": "2026-11-15T12:16:51+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии открыл экспозитуру Alta Bitolj в Прилепе",
+   "title_src": "Od sutra će raditi i ekspozitura Alta banke u Prilepu",
+   "updated": "2026-11-15T12:16:51+00:00"
   },
   "https://n1info.rs/region/opozicija-ostavka-narodna-alta-banka-severna-makedonija": {
    "attempts": 17,
