@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8543,
+    "n": 8544,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T13:52:17+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-16T13:54:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T13:52:43+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-16T13:56:42+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,18 +232,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8545,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 8546,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "16.11.2026 13:55",
+    "first": "Секретариат финансов Города Белград был единственным, кто активировал принудительную блокировку счёта ALTA banka в NBS (30 октября).",
+    "important": false,
+    "kind": "press",
+    "outlet": "Forbes Srbija",
+    "tags": [
+     "активы",
+     "суд",
+     "требования",
+     "регулятор"
+    ],
+    "title": "Град Белград заблокировал счёт ALTA banka на сумму ~1 млрд динаров в день отзыва лицензии",
+    "title_src": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
+    "ts": 1794837402.6318893,
+    "url": "https://forbes.n1info.rs/vesti/nova-rs-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena"
+   }
+  ]
  },
  "recent": [
   {
@@ -2017,6 +2035,17 @@
    "title": "NBS предупредила о поддельных SMS от «AltaPay» с требованиями погасить кредиты Alta",
    "title_src": "NBS upozorila na prevaru SMS poruka za korisnike kredita Alta banke",
    "updated": "2026-11-04T12:34:56+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/nova-rs-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena": {
+   "first_seen": "2026-11-16T13:56:42+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Град Белград заблокировал счёт ALTA banka на сумму ~1 млрд динаров в день отзыва лицензии",
+   "title_src": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
+   "updated": "2026-11-16T13:56:42+00:00"
   },
   "https://forbes.n1info.rs/vesti/objavljeno-uputstvo-korisnicima-kredita-u-alta-banci-o-izmirenju-obaveza": {
    "first_seen": "2026-11-06T10:32:52+00:00",
