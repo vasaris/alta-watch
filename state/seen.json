@@ -196,26 +196,26 @@
  "health": {
   "alerts": {
    "источник ALTA": {
-    "last_sent": "2026-11-16T03:45:52+00:00",
-    "n": 8421,
+    "last_sent": "2026-11-16T09:47:58+00:00",
+    "n": 8422,
     "since": "2026-11-04T14:42:29+00:00"
    },
    "модель": {
     "last_sent": "2026-11-16T08:40:48+00:00",
-    "n": 33,
+    "n": 34,
     "since": "2026-11-16T08:38:14+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T09:44:13+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-16T09:46:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T09:44:36+00:00",
-   "elapsed_s": 23,
+   "at": "2026-11-16T09:48:34+00:00",
+   "elapsed_s": 139,
    "llm_calls": 1,
    "llm_down": "billing (HTTP 400)",
    "msgs": 0,
@@ -237,13 +237,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8423,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 8424,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -12515,7 +12515,7 @@
    "reason": "llm_down",
    "status": "retry",
    "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
-   "updated": "2026-11-16T09:44:36+00:00"
+   "updated": "2026-11-16T09:48:34+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
