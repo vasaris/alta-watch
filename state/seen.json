@@ -197,22 +197,27 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T03:45:52+00:00",
-    "n": 8388,
+    "n": 8389,
     "since": "2026-11-04T14:42:29+00:00"
+   },
+   "модель": {
+    "last_sent": "2026-11-16T08:40:48+00:00",
+    "n": 1,
+    "since": "2026-11-16T08:38:14+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T08:36:12+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-16T08:38:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T08:36:33+00:00",
-   "elapsed_s": 20,
-   "llm_calls": 0,
-   "llm_down": null,
+   "at": "2026-11-16T08:40:48+00:00",
+   "elapsed_s": 154,
+   "llm_calls": 1,
+   "llm_down": "billing (HTTP 400)",
    "msgs": 0,
    "version": "2.1"
   },
@@ -232,13 +237,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8390,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 8391,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -447,7 +452,26 @@
    "url": "https://nova.rs/vesti/biznis/direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci"
   }
  ],
- "retry_items": {},
+ "retry_items": {
+  "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija": {
+   "date": "16.11.2026 08:40",
+   "kind": "press",
+   "outlet": "Danas",
+   "source": "danas",
+   "tags": [
+    "выплаты",
+    "суд",
+    "регулятор",
+    "клиенты",
+    "активы"
+   ],
+   "tier": "press",
+   "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
+   "title_src": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
+   "ts": 1794818415,
+   "url": "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija"
+  }
+ },
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -12482,6 +12506,16 @@
    "title": "Инвестфонды Vista Rica и Intesa Invest: убытки от депозитов в Alta банке и переводы средств",
    "title_src": "Koliko su izgubili fondovi Vista Rika zbog držanja novca u Alta banci?",
    "updated": "2026-11-03T18:23:01+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija": {
+   "attempts": 0,
+   "first_seen": "2026-11-16T08:40:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "llm_down",
+   "status": "retry",
+   "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
+   "updated": "2026-11-16T08:40:48+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
