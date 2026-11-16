@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T03:45:52+00:00",
-    "n": 8330,
+    "n": 8331,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T06:40:24+00:00",
+   "at": "2026-11-16T06:42:56+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-15",
   "last_run": {
-   "at": "2026-11-16T06:40:55+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-16T06:43:35+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8332,
+   "ALTA": 8333,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица открывает портал записи на выплаты вкладчикам Alta с 12 ноября — Портал для онлайн-записи на выплату откроется 12 ноября 2026 года (среда) — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии, 3) с 28 кассами, пр",
-   "ts": 1794324413.9610586,
-   "url": "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke"
-  },
   {
    "text": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
    "ts": 1794326433.8711364,
@@ -445,6 +440,11 @@
    "text": "Поштанская штедионица выплатила около 7% средств вкладчикам Alta за два дня — Уточнённый процент выплаченных средств: около 7% за два дня (13–14 ноября 2026)",
    "ts": 1794686193.4561076,
    "url": "https://www.021.rs/info/biznis-i-ekonomija/461393/postanska-stedionica-za-dva-dana-isplaceno-oko-sedam-odsto-sredstava-klijentima-alta-banke"
+  },
+  {
+   "text": "Директор AOD связана семейными кредитами на 1,6 млн евро в ALTA banka — Директор AOD Любица Панtelić имеет супруга, который является гарантом трёх кредитов (1,6 млн евро) в ALTA banka, полученных членом семьи (девером) на имя бутика. — Три ипотеки зарегистрированы на квартиру супруга директора в Бел",
+   "ts": 1794811413.548887,
+   "url": "https://nova.rs/vesti/biznis/direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -4527,6 +4527,25 @@
    "title": "АОД объявила банк-выплатчик и сроки начала выплат вкладчикам Alta",
    "title_src": "Deponenti Alta banke će biti isplaćeni preko banke Poštanska štedionica",
    "updated": "2026-11-03T17:48:50+00:00"
+  },
+  "https://nova.rs/vesti/biznis/direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci": {
+   "first_seen": "2026-11-16T06:43:33+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 311,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-16T06:43:33+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "требования"
+   ],
+   "title": "Директор AOD связана семейными кредитами на 1,6 млн евро в ALTA banka",
+   "title_src": "Direktorka Agencije za osiguranje depozita porodično povezana sa kreditima od 1,6 miliona evra u Alta banci",
+   "updated": "2026-11-16T06:43:33+00:00"
   },
   "https://nova.rs/vesti/biznis/djakovic-namirivanje-gradjana-koji-su-imali-preko-50000-evra-u-alta-banci-ne-bi-trebalo-da-ide-preko-budzeta-drzave": {
    "first_seen": "2026-11-13T08:14:48+00:00",
