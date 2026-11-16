@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8452,
+    "n": 8453,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T10:48:14+00:00",
-   "dated": 283,
-   "files": 283,
-   "pages_ok": 2
+   "at": "2026-11-16T10:50:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T10:48:36+00:00",
-   "elapsed_s": 22,
-   "llm_calls": 0,
+   "at": "2026-11-16T10:52:44+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8454,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 8455,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -13239,6 +13239,18 @@
    "title": "Владелец ALTA Макура купил страховую компанию в Северной Македонии на 1,7 млн евро",
    "title_src": "SDSM: Vlasnik Alta banke Davor Macura u Severnoj Makeodniji poseduje i osiguravajuću kuću",
    "updated": "2026-11-04T08:59:13+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/severna-makedonija-prva-aukcija-za-prodaju-alta-banke-bitolj-30-novembra": {
+   "first_seen": "2026-11-16T10:52:44+00:00",
+   "kind": "press",
+   "novelty": 9,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Первый аукцион по продаже Alta banke Bitolj назначен на 30 ноября 2026",
+   "title_src": "Severna Makedonija: Prva aukcija za prodaju Alta banke Bitolj 30. novembra",
+   "updated": "2026-11-16T10:52:44+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/sindikati-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradjana": {
    "attempts": 9,
