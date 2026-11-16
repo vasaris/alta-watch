@@ -197,28 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8425,
+    "n": 8426,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "модель": {
-    "last_sent": "2026-11-16T08:40:48+00:00",
-    "n": 37,
-    "since": "2026-11-16T08:38:14+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T09:52:15+00:00",
+   "at": "2026-11-16T09:56:12+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T09:52:44+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-16T09:56:43+00:00",
+   "elapsed_s": 31,
    "llm_calls": 1,
-   "llm_down": "billing (HTTP 400)",
-   "msgs": 0,
+   "llm_down": null,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -241,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8427,
+   "ALTA": 8428,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -251,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД объявила конкурс на должность управляющего банкротством Alta банки",
-   "ts": 1794326433.8711364,
-   "url": "https://www.danas.rs/vesti/ekonomija/aod-raspisala-konkurs-za-izbor-stecajnog-upravnika-alta-banke"
-  },
   {
    "text": "Поштанска штедионица открыла портал записи на выплаты вкладчикам Alta; 31 отделение в Белграде и специализированный офис",
    "ts": 1794326433.8711746,
@@ -450,28 +440,14 @@
    "text": "Директор AOD связана семейными кредитами на 1,6 млн евро в ALTA banka — Директор AOD Любица Панtelić имеет супруга, который является гарантом трёх кредитов (1,6 млн евро) в ALTA banka, полученных членом семьи (девером) на имя бутика. — Три ипотеки зарегистрированы на квартиру супруга директора в Бел",
    "ts": 1794811413.548887,
    "url": "https://nova.rs/vesti/biznis/direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci"
-  }
- ],
- "retry_items": {
-  "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija": {
-   "date": "16.11.2026 08:40",
-   "kind": "press",
-   "outlet": "Danas",
-   "source": "danas",
-   "tags": [
-    "выплаты",
-    "суд",
-    "регулятор",
-    "клиенты",
-    "активы"
-   ],
-   "tier": "press",
-   "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
-   "title_src": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
-   "ts": 1794818415,
+  },
+  {
+   "text": "Супруг директора AOD — гарант кредитов на 1,6 млн евро в ALTA banka; возможен конфликт интересов — Супруг директора AOD Панtelić является гарантом трёх кредитов (250 000, 440 000, ~905 000 евро) в ALTA banka, выданных его брату в 2024–2026 годах. — Ипотеки на квартиру супруга в Белграде служат обесп",
+   "ts": 1794823001.4517362,
    "url": "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija"
   }
- },
+ ],
+ "retry_items": {},
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -12510,12 +12486,24 @@
   "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija": {
    "attempts": 0,
    "first_seen": "2026-11-16T08:40:48+00:00",
+   "hash": "",
    "kind": "press",
-   "posted": false,
+   "message_id": 312,
+   "novelty": 10,
+   "posted": true,
    "reason": "llm_down",
-   "status": "retry",
-   "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
-   "updated": "2026-11-16T09:52:44+00:00"
+   "relevance": 8,
+   "sent_at": "2026-11-16T09:56:41+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "требования",
+    "активы",
+    "суд"
+   ],
+   "title": "Супруг директора AOD — гарант кредитов на 1,6 млн евро в ALTA banka; возможен конфликт интересов",
+   "title_src": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
+   "updated": "2026-11-16T09:56:41+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
