@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T03:45:52+00:00",
-    "n": 8309,
+    "n": 8310,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T05:58:12+00:00",
+   "at": "2026-11-16T06:00:59+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-15",
   "last_run": {
-   "at": "2026-11-16T05:58:39+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-16T06:01:34+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8311,
+   "ALTA": 8312,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1844,6 +1844,18 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://forbes.n1info.rs/biznis/propisi/otkrivamo-direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci-sukob-interesa-ili-ne": {
+   "first_seen": "2026-11-16T06:01:34+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "low_relevance",
+   "relevance": 3,
+   "status": "rejected",
+   "title": "Директор АОД имеет семейные связи с заёмщиком кредитов на 1,6 млн евро в Alta banci",
+   "title_src": "OTKRIVAMO Direktorka Agencije za osiguranje depozita porodično povezana sa kreditima od 1,6 miliona evra u Alta banci: Sukob interesa ili ne?",
+   "updated": "2026-11-16T06:01:34+00:00"
   },
   "https://forbes.n1info.rs/biznis/vlasniku-alta-banke-preti-kazna-zatvora-od-dve-do-10-godina-da-li-je-nbs-oslobodena-odgovornosti": {
    "first_seen": "2026-11-05T06:01:22+00:00",
