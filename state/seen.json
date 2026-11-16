@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8462,
+    "n": 8463,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T11:12:46+00:00",
+   "at": "2026-11-16T11:14:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T11:13:08+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-16T11:14:52+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8464,
+   "ALTA": 8465,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5478,6 +5478,18 @@
    "status": "rejected",
    "title": "Opozicija u Severnoj Makedoniji traži od Narodne banke da uvede prinudnu upravu u Alta banku Bitolj",
    "updated": "2026-10-31T16:33:46+00:00"
+  },
+  "https://nova.rs/vesti/svet/posle-kraha-u-srbiji-krece-rasprodaja-alta-banke-u-severnoj-makedoniji-poznata-pocetna-cena": {
+   "first_seen": "2026-11-16T11:14:52+00:00",
+   "kind": "press",
+   "novelty": 9,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "Народный банк Северной Македонии объявил аукцион по продаже Alta banke Bitolj: первая торги 30 ноября",
+   "title_src": "Posle kraha u Srbiji, kreće rasprodaja Alta banke u Severnoj Makedoniji: Poznata početna cena",
+   "updated": "2026-11-16T11:14:52+00:00"
   },
   "https://nova.rs/vesti/svet/pratimo-sve-okolnosti-koje-mogu-uticati-na-rad-alta-banke-bitolj": {
    "first_seen": "2026-10-31T19:44:45+00:00",
