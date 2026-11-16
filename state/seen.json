@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8554,
+    "n": 8555,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T14:16:13+00:00",
+   "at": "2026-11-16T14:18:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T14:16:34+00:00",
-   "elapsed_s": 20,
+   "at": "2026-11-16T14:18:38+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8556,
+   "ALTA": 8557,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1667,6 +1667,16 @@
    "title": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
    "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima",
    "updated": "2026-11-14T09:36:24+00:00"
+  },
+  "https://beta.rs/content/256007-nova-rs-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena": {
+   "first_seen": "2026-11-16T14:18:38+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://forbes.n1info.rs/vesti/nova-rs-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena",
+   "status": "dup",
+   "title": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
+   "title_src": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
+   "updated": "2026-11-16T14:18:38+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
