@@ -197,35 +197,25 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T03:45:52+00:00",
-    "n": 8417,
+    "n": 8418,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "источник AOD новости": {
-    "last_sent": "2026-11-16T09:38:45+00:00",
-    "n": 1,
-    "since": "2026-11-16T09:37:04+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-16T09:38:45+00:00",
-    "n": 1,
-    "since": "2026-11-16T09:37:04+00:00"
    },
    "модель": {
     "last_sent": "2026-11-16T08:40:48+00:00",
-    "n": 29,
+    "n": 30,
     "since": "2026-11-16T08:38:14+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T09:37:04+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-16T09:39:32+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T09:39:21+00:00",
-   "elapsed_s": 136,
+   "at": "2026-11-16T09:40:10+00:00",
+   "elapsed_s": 38,
    "llm_calls": 1,
    "llm_down": "billing (HTTP 400)",
    "msgs": 0,
@@ -247,13 +237,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8419,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 8420,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -12525,7 +12515,7 @@
    "reason": "llm_down",
    "status": "retry",
    "title": "Forbs: Suprug direktorke AOD garant za kredite od 1,6 miliona evra u Alta banci, čiji stečaj vodi njena agencija",
-   "updated": "2026-11-16T09:39:21+00:00"
+   "updated": "2026-11-16T09:40:10+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/ft-ecb-proveravala-srpsku-alta-banku-zbog-sumnje-na-pranje-novca-zatvaranje-pogodilo-ruse-u-srbiji": {
    "first_seen": "2026-11-02T10:57:06+00:00",
