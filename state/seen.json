@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8516,
+    "n": 8517,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T12:58:38+00:00",
+   "at": "2026-11-16T13:00:46+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T12:59:04+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-16T13:01:32+00:00",
+   "elapsed_s": 45,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8518,
+   "ALTA": 8519,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица открыла портал записи на выплаты вкладчикам Alta; 31 отделение в Белграде и специализированный офис",
-   "ts": 1794326433.8711746,
-   "url": "https://forbes.n1info.rs/vesti/postanska-stedionica-spremila-portal-za-zakazivanje-termina-za-isplate-klijentima-alta-banke"
-  },
   {
    "text": "Поштанска штедионица: онлайн-портал для записи на выплаты вкладчикам Alta доступен с 12 ноября — Банка Поштанска штедионица подготовила онлайн-портал для записи на получение застрахованных вкладов вкладчиков Alta банки — Портал будет доступен с четверга, 12 ноября 2026 года",
    "ts": 1794395365.3251848,
@@ -445,6 +440,11 @@
    "text": "Супруг директора AOD — гарант кредитов на 1,6 млн евро в ALTA banka; возможен конфликт интересов — Супруг директора AOD Панtelić является гарантом трёх кредитов (250 000, 440 000, ~905 000 евро) в ALTA banka, выданных его брату в 2024–2026 годах. — Ипотеки на квартиру супруга в Белграде служат обесп",
    "ts": 1794823001.4517362,
    "url": "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija"
+  },
+  {
+   "text": "Град Белград заблокировал счёт ALTA banka в день отзыва лицензии — Секретариат финансов Города Белград активировал принудительную блокировку счёта ALTA banka 30 октября 2026 (день отзыва лицензии). — Блокировка была единственной, активированной против банки в системе НБС.",
+   "ts": 1794834090.83148,
+   "url": "https://nova.rs/vesti/biznis/saznajemo-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena"
   }
  ],
  "retry_items": {},
@@ -4988,6 +4988,26 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://nova.rs/vesti/biznis/saznajemo-racun-alta-banke-blokirao-grad-beograd-na-dan-kada-je-banka-ugasena": {
+   "first_seen": "2026-11-16T13:01:30+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 313,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-16T13:01:30+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "требования",
+    "активы",
+    "сроки"
+   ],
+   "title": "Град Белград заблокировал счёт ALTA banka в день отзыва лицензии",
+   "title_src": "SAZNAJEMO Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
+   "updated": "2026-11-16T13:01:30+00:00"
   },
   "https://nova.rs/vesti/biznis/severna-makedonija-uvela-privremenu-upravu-nad-alta-bankom-bitolj": {
    "first_seen": "2026-11-01T17:56:53+00:00",
