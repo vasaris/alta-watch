@@ -197,31 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8487,
+    "n": 8488,
     "since": "2026-11-04T14:42:29+00:00"
-   },
-   "источник AOD новости": {
-    "last_sent": "2026-11-16T12:03:04+00:00",
-    "n": 1,
-    "since": "2026-11-16T12:01:23+00:00"
-   },
-   "источник AOD объявления": {
-    "last_sent": "2026-11-16T12:03:05+00:00",
-    "n": 1,
-    "since": "2026-11-16T12:01:23+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T12:01:23+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-16T12:03:52+00:00",
+   "dated": 283,
+   "files": 283,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T12:03:39+00:00",
-   "elapsed_s": 135,
-   "llm_calls": 0,
+   "at": "2026-11-16T12:04:37+00:00",
+   "elapsed_s": 44,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -242,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 52,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8489,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 8490,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -2764,6 +2754,18 @@
    "status": "rejected",
    "title": "SDSM traži od Narodne banke Severne Makedonije da uvede prinudnu upravu u Alta banku Bitolj",
    "updated": "2026-10-31T16:55:07+00:00"
+  },
+  "https://insajder.net/prenosimo/severna-makedonija-prva-aukcija-za-prodaju-alta-banke-bitolj-30-novembra": {
+   "first_seen": "2026-11-16T12:04:37+00:00",
+   "kind": "press",
+   "novelty": 9,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Первый аукцион по продаже Alta banke Bitolj назначен на 30 ноября 2026",
+   "title_src": "Severna Makedonija: Prva aukcija za prodaju Alta banke Bitolj 30. novembra",
+   "updated": "2026-11-16T12:04:37+00:00"
   },
   "https://insajder.net/prenosimo/sindikati-sloga-nakon-gasenja-alta-banke-zastititi-plate-njenih-sluzbenika-i-uloge-gradana": {
    "attempts": 74,
