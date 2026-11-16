@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-16T09:47:58+00:00",
-    "n": 8497,
+    "n": 8498,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-16T12:20:26+00:00",
+   "at": "2026-11-16T12:22:13+00:00",
    "dated": 283,
    "files": 283,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-16",
   "last_run": {
-   "at": "2026-11-16T12:20:52+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-16T12:22:41+00:00",
+   "elapsed_s": 28,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 8499,
+   "ALTA": 8500,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -35364,6 +35364,14 @@
    "status": "rejected",
    "title": "Кретање инфлације у октобру",
    "updated": "2026-11-12T15:01:06+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21903": {
+   "first_seen": "2026-11-16T12:22:28+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије продужила меру ради обезбеђења довољне количине страног ефективног новца",
+   "updated": "2026-11-16T12:22:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2192&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
