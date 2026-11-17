@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T09:52:04+00:00",
-    "n": 9139,
+    "n": 9140,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T09:54:21+00:00",
+   "at": "2026-11-17T09:56:12+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T09:54:39+00:00",
-   "elapsed_s": 17,
-   "llm_calls": 0,
+   "at": "2026-11-17T09:56:41+00:00",
+   "elapsed_s": 29,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 9141,
+   "ALTA": 9142,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1945,6 +1945,17 @@
    "title": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
    "title_src": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
    "updated": "2026-11-13T12:42:47+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/deponentima-alta-banke-isplaceno-328-miliona-evra-i-198-milijardi-dinara": {
+   "first_seen": "2026-11-17T09:56:41+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 8,
+   "status": "dup",
+   "title": "Поштанская сбербанка выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров",
+   "title_src": "Deponentima Alta banke isplaćeno 32,8 miliona evra i 1,98 milijardi dinara",
+   "updated": "2026-11-17T09:56:41+00:00"
   },
   "https://forbes.n1info.rs/vesti/eps-zbog-oduzimanja-licence-alta-banci-nisu-ugrozeni-poslovanje-i-finansijska-stabilnost": {
    "first_seen": "2026-11-03T10:47:31+00:00",
