@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T15:52:22+00:00",
-    "n": 9360,
+    "n": 9361,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T17:16:43+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-17T17:18:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T17:17:11+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 0,
+   "at": "2026-11-17T17:20:39+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 9362,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9363,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -8755,6 +8755,17 @@
    "title": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima, danas nastavak",
    "title_src": "Poštanska štedionica: Prvog dana isplaćeni svi klijenti Alta banke sa zakazanim terminima, danas nastavak",
    "updated": "2026-11-14T08:42:37+00:00"
+  },
+  "https://www.021.rs/info/srbija/461640/prijave-na-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra": {
+   "first_seen": "2026-11-17T17:20:39+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Конкурс на должность управляющего в банкротстве ALTA: приём заявок до 20 ноября",
+   "title_src": "Prijave na konkurs za poverenika u postupku stečaja nad Alta bankom do 20. novembra",
+   "updated": "2026-11-17T17:20:39+00:00"
   },
   "https://www.021.rs/info/srbija/461640/prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra": {
    "first_seen": "2026-11-17T16:18:50+00:00",
