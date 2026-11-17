@@ -197,21 +197,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T15:52:22+00:00",
-    "n": 9338,
+    "n": 9339,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T16:32:24+00:00",
+   "at": "2026-11-17T16:34:14+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T16:32:52+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-17T16:34:47+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -236,14 +236,31 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 9340,
+   "ALTA": 9341,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "17.11.2026 16:30",
+    "first": "Коррекция срока подачи заявок: вместо семи дней с публикации в «Политике» — до 20 ноября 2026 включительно",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "суд",
+     "регулятор",
+     "сроки"
+    ],
+    "title": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
+    "title_src": "Agencija za osiguranje depozita: Prijave ne konkurs za poverenika u postupku stečaja nad Alta bankom do 20. novembra",
+    "ts": 1794933287.5207703,
+    "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra"
+   }
+  ]
  },
  "recent": [
   {
@@ -2224,6 +2241,17 @@
    "status": "rejected",
    "title": "Agencija za osiguranje depozita objavila rokove za isplatu novca klijentima Alta banke",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra": {
+   "first_seen": "2026-11-17T16:34:47+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 5,
+   "status": "pending",
+   "title": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
+   "title_src": "Agencija za osiguranje depozita: Prijave ne konkurs za poverenika u postupku stečaja nad Alta bankom do 20. novembra",
+   "updated": "2026-11-17T16:34:47+00:00"
   },
   "https://insajder.net/prenosimo/alta-banka-potvrdila-pokretanje-stecaja-obustavljen-platni-promet-isplata-osiguranih-depozita-od-ponedeljka": {
    "first_seen": "2026-10-31T14:11:00+00:00",
