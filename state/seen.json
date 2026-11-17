@@ -196,21 +196,21 @@
  "health": {
   "alerts": {
    "источник ALTA": {
-    "last_sent": "2026-11-17T03:50:30+00:00",
-    "n": 9136,
+    "last_sent": "2026-11-17T09:52:04+00:00",
+    "n": 9137,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T09:48:12+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-17T09:50:23+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T09:48:37+00:00",
-   "elapsed_s": 24,
+   "at": "2026-11-17T09:52:38+00:00",
+   "elapsed_s": 135,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 9138,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9139,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1659,6 +1659,16 @@
    "title": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
    "title_src": "Nova.rs: Račun Alta banke blokirao Grad Beograd na dan kada je banka ugašena",
    "updated": "2026-11-16T14:18:38+00:00"
+  },
+  "https://beta.rs/content/256054-postanska-stedionica-deponentima-alta-banke-isplaceno-32-84-miliona-evra-i-1-98-milijardi-dinara": {
+   "first_seen": "2026-11-17T09:52:38+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/postanska-stedionica-deponentima-alta-banke-isplaceno-3284-miliona-evra-i-198-milijardi-dinara",
+   "status": "dup",
+   "title": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
+   "title_src": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
+   "updated": "2026-11-17T09:52:38+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
