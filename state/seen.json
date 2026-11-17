@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T15:52:22+00:00",
-    "n": 9353,
+    "n": 9354,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T17:02:16+00:00",
+   "at": "2026-11-17T17:04:30+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T17:02:45+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-17T17:05:03+00:00",
+   "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,38 +236,16 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 9355,
+   "ALTA": 9356,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "17.11.2026 16:30",
-    "first": "Коррекция срока подачи заявок: вместо семи дней с публикации в «Политике» — до 20 ноября 2026 включительно",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "суд",
-     "регулятор",
-     "сроки"
-    ],
-    "title": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
-    "title_src": "Agencija za osiguranje depozita: Prijave ne konkurs za poverenika u postupku stečaja nad Alta bankom do 20. novembra",
-    "ts": 1794933287.5207703,
-    "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Местные бюджеты застряли в Alta: Владичин Хан потерял 400 млн динаров — Владичин Хан разместил в Alta 400 млн динаров (половина годового бюджета муниципалитета) — Врање потеряло 177 млн динаров в Alta",
-   "ts": 1794427691.3745768,
-   "url": "https://insajder.net/teme/surova-stvarnost-bajkovitih-kamata-i-jednoj-od-najsiromasnijih-opstina-u-srbiji-zarobljena-budzetska-sredstva-u-alta-banci-video"
-  },
   {
    "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний (новое уточнение масштаба и деталей) — Запрет включает около 35 гектаров ",
    "ts": 1794427853.8141007,
@@ -462,6 +440,11 @@
    "text": "Поштанская сбербанка выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров; всего выплатит ~340 млн евро — Конкретные суммы выплат на 17.11.2026: 32,84 млн евро и 1,98 млрд динаров — Процент выплат: 14,71% в евро, 14,41% в динарах от предусмотренной суммы",
    "ts": 1794908803.3538291,
    "url": "https://www.danas.rs/vesti/ekonomija/prva-cena-propasti-alta-banke-postanska-stedionica-ce-deponentima-alte-isplatiti-ukupno-oko-340-miliona-evra"
+  },
+  {
+   "text": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
+   "ts": 1794935101.6553822,
+   "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra"
   }
  ],
  "retry_items": {},
@@ -2245,13 +2228,20 @@
   "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra": {
    "first_seen": "2026-11-17T16:34:47+00:00",
    "kind": "press",
+   "message_id": 320,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 5,
-   "status": "pending",
+   "sent_at": "2026-11-17T17:05:01+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "сроки"
+   ],
    "title": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
    "title_src": "Agencija za osiguranje depozita: Prijave ne konkurs za poverenika u postupku stečaja nad Alta bankom do 20. novembra",
-   "updated": "2026-11-17T16:34:47+00:00"
+   "updated": "2026-11-17T17:05:01+00:00"
   },
   "https://insajder.net/prenosimo/alta-banka-potvrdila-pokretanje-stecaja-obustavljen-platni-promet-isplata-osiguranih-depozita-od-ponedeljka": {
    "first_seen": "2026-10-31T14:11:00+00:00",
