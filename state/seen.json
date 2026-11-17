@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T03:50:30+00:00",
-    "n": 9094,
+    "n": 9095,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T08:24:13+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-17T08:26:13+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T08:24:37+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-17T08:28:57+00:00",
+   "elapsed_s": 164,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -232,13 +232,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
-   "nbs": 16
+   "aod": 0,
+   "nbs": 40
   },
   "src_fail": {
-   "ALTA": 9096,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9097,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Контакт-центр Alta банки консультирует по кредитным обязательствам — Контакт-центр Alta банки a.d. Beograd в банкротстве с 10 ноября 2026 предоставляет информацию по кредитным обязательствам вкладчиков — Граждане и юридические лица могут звонить операторам по номеру 011/220-5500",
-   "ts": 1794417022.0136218,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/149"
-  },
   {
    "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала нарядное распоряжение о запрете распоряжения имуществом Мацуры и его компаний — Запрет касается ~35 гектаров земли на Новом Белграде (бывший IMT), Alta Holding, Alta ",
    "ts": 1794425980.726263,
@@ -445,6 +440,11 @@
    "text": "Коррекция: сроки и адрес подачи заявок на конкурс управляющего по банкротству ALTA — AOD опубликовала уточнение к объявлению о публичном конкурсе на должность управляющего (повереника) в процедуре банкротства ALTA banka a.d. Beograd — Заявки и документы о соответствии условиям конкурса должны быть п",
    "ts": 1794848224.7014627,
    "url": "https://www.aod.rs/uploads/dokumenti/oglas/244_1_oglas.pdf"
+  },
+  {
+   "text": "Банка Поштанска штедионица продолжает выплаты застрахованных вкладов вкладчикам ALTA в банкротстве — На 17 ноября 2026 выплачено 32,84 млн евро и 1,97 млрд динаров (14,71% в евро, 14,41% в динарах от предусмотренной суммы). — Заказано 20 758 терминов на выплату; выплаты только для клиентов с заказан",
+   "ts": 1794904136.1773329,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-nastavlja-se-isplata-osiguranih-depozita-deponentima-alta-banke-u-stecaju"
   }
  ],
  "retry_items": {},
@@ -2250,6 +2250,26 @@
    "title": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня",
    "title_src": "Banka Poštanska štedionica: Isplaćeno više od sedam odsto sredstava klijentima Alta banke",
    "updated": "2026-11-14T19:33:30+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-nastavlja-se-isplata-osiguranih-depozita-deponentima-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-17T08:28:56+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 317,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-17T08:28:56+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "требования",
+    "клиенты"
+   ],
+   "title": "Банка Поштанска штедионица продолжает выплаты застрахованных вкладов вкладчикам ALTA в банкротстве",
+   "title_src": "Banka Poštanska štedionica: Nastavlja se isplata osiguranih depozita deponentima Alta banke u stečaju",
+   "updated": "2026-11-17T08:28:56+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-pocela-isplata-penzija-korisnicima-alta-banke": {
    "first_seen": "2026-11-03T15:33:18+00:00",
