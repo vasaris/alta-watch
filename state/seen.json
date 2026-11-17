@@ -197,23 +197,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T03:50:30+00:00",
-    "n": 9123,
+    "n": 9124,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T09:22:13+00:00",
+   "at": "2026-11-17T09:24:27+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T09:22:38+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-17T09:25:18+00:00",
+   "elapsed_s": 50,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -236,7 +236,7 @@
    "nbs": 40
   },
   "src_fail": {
-   "ALTA": 9125,
+   "ALTA": 9126,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -246,11 +246,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала нарядное распоряжение о запрете распоряжения имуществом Мацуры и его компаний — Запрет касается ~35 гектаров земли на Новом Белграде (бывший IMT), Alta Holding, Alta ",
-   "ts": 1794425980.726263,
-   "url": "https://insajder.net/teme/tuzilastvo-vlasniku-alta-banke-i-njegovim-firmama-zabranilo-raspolaganje-imovinom-sta-je-na-spisku-video"
-  },
   {
    "text": "Прокуратура запретила владельцу Alta банки Давору Мацуре распоряжаться имуществом — Прокуратура по организованной преступности издала распоряжение о запрете распоряжения имуществом Мацуры и его компаний Alta holding, Alta lizing, Campari International, ABL Solvent — Запрет касается около 35 гектаров",
    "ts": 1794427610.1151402,
@@ -445,6 +440,11 @@
    "text": "Банка Поштанска штедионица продолжает выплаты застрахованных вкладов вкладчикам ALTA в банкротстве — На 17 ноября 2026 выплачено 32,84 млн евро и 1,97 млрд динаров (14,71% в евро, 14,41% в динарах от предусмотренной суммы). — Заказано 20 758 терминов на выплату; выплаты только для клиентов с заказан",
    "ts": 1794904136.1773329,
    "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-nastavlja-se-isplata-osiguranih-depozita-deponentima-alta-banke-u-stecaju"
+  },
+  {
+   "text": "Поштанска штедионица выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров — Конкретные суммы выплат на 17.11.2026: 32,84 млн евро и 1,98 млрд динаров — Процент выплат: 14,71% в евро, 14,41% в динарах от предусмотренной суммы",
+   "ts": 1794907516.8311474,
+   "url": "https://n1info.rs/biznis/postanska-stedionica-deponentima-alta-banke-isplaceno-3284-miliona-evra-i-198-milijardi-dinara"
   }
  ],
  "retry_items": {},
@@ -3741,6 +3741,26 @@
    "title": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
    "title_src": "Pokrenut stečaj Alta banke: Poštanska štedionica isplaćivaće njene deponente",
    "updated": "2026-11-03T11:44:46+00:00"
+  },
+  "https://n1info.rs/biznis/postanska-stedionica-deponentima-alta-banke-isplaceno-3284-miliona-evra-i-198-milijardi-dinara": {
+   "first_seen": "2026-11-17T09:25:16+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 318,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-17T09:25:16+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Поштанска штедионица выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров",
+   "title_src": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
+   "updated": "2026-11-17T09:25:16+00:00"
   },
   "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke": {
    "first_seen": "2026-11-10T15:26:53+00:00",
