@@ -197,20 +197,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-17T09:52:04+00:00",
-    "n": 9305,
+    "n": 9306,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-17T15:26:22+00:00",
+   "at": "2026-11-17T15:28:15+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-17",
   "last_run": {
-   "at": "2026-11-17T15:26:45+00:00",
-   "elapsed_s": 23,
+   "at": "2026-11-17T15:28:37+00:00",
+   "elapsed_s": 22,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -236,7 +236,7 @@
    "nbs": 39
   },
   "src_fail": {
-   "ALTA": 9307,
+   "ALTA": 9308,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5937,6 +5937,16 @@
    "title": "Idea marketi и судьба торговых сетей после ареста Макуры и банкротства Alta",
    "title_src": "Oglasili se Idea marketi o svojoj sudbini posle hapšenja Davora Macure i stečaja Alta banke",
    "updated": "2026-11-04T10:16:48+00:00"
+  },
+  "https://novaekonomija.rs/vesti-iz-zemlje/postanska-stedionica-deponentima-alta-banke-isplaceno-3284-miliona-evra-i-198-milijardi-dinara": {
+   "first_seen": "2026-11-17T15:28:37+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/256054-postanska-stedionica-deponentima-alta-banke-isplaceno-32-84-miliona-evra-i-1-98-milijardi-dinara",
+   "status": "dup",
+   "title": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
+   "title_src": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
+   "updated": "2026-11-17T15:28:37+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/postanska-stedionica-isplacuje-depozite-alta-banke-u-petak-detalji-o-vremenu-i-mestima-za-isplatu": {
    "first_seen": "2026-11-04T11:12:57+00:00",
