@@ -203,20 +203,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9878,
+    "n": 9879,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:28:13+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T10:30:34+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:28:44+00:00",
-   "elapsed_s": 30,
+   "at": "2026-11-18T10:32:48+00:00",
+   "elapsed_s": 134,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -238,13 +238,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9880,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9881,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1989,6 +1989,16 @@
    "title": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка",
    "title_src": "BIRN: Firma brata vlasnika Alta banke kupila vilu na Dedinju kreditom te banke",
    "updated": "2026-11-13T13:38:46+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/blokirani-racuni-kompanije-alta-group-davora-macure": {
+   "first_seen": "2026-11-18T10:32:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/blokirani-racuni-alta-group-davora-macure",
+   "status": "dup",
+   "title": "Blokirani računi kompanije Alta Group Davora Macure",
+   "title_src": "Blokirani računi kompanije Alta Group Davora Macure",
+   "updated": "2026-11-18T10:32:48+00:00"
   },
   "https://forbes.n1info.rs/vesti/danas-u-postanskoj-stedionici-pocinje-isplata-osiguranih-depozita-klijentima-alta-banke-u-stecaju": {
    "first_seen": "2026-11-13T12:42:47+00:00",
@@ -12789,6 +12799,16 @@
    "title": "BIRN: в сейфе Alta было 60 млрд динаров наличью; NBS знала о проблемах с ликвидностью",
    "title_src": "Birn: Alta banka držala 60 milijardi dinara u kešu, imala problem sa likvidnošću",
    "updated": "2026-11-04T10:38:59+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/blokirani-racuni-kompanije-alta-pej-group-davora-macure": {
+   "first_seen": "2026-11-18T10:32:48+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure",
+   "status": "dup",
+   "title": "Blokirani računi kompanije Alta pej group Davora Macure",
+   "title_src": "Blokirani računi kompanije Alta pej group Davora Macure",
+   "updated": "2026-11-18T10:32:48+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/brat-davor-macura-vila-dedinje": {
    "first_seen": "2026-11-13T11:18:40+00:00",
