@@ -217,23 +217,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9883,
+    "n": 9884,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:38:15+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T10:40:20+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:38:44+00:00",
-   "elapsed_s": 28,
-   "llm_calls": 1,
+   "at": "2026-11-18T10:42:44+00:00",
+   "elapsed_s": 143,
+   "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -252,43 +252,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 53,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9885,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9886,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "18.11.2026 10:10",
-    "first": "Счета Alta Group заблокированы с 13 ноября по решению о принудительном взыскании",
-    "important": false,
-    "kind": "press",
-    "outlet": "Nova.rs",
-    "tags": [
-     "активы",
-     "регулятор",
-     "суд",
-     "требования"
-    ],
-    "title": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
-    "title_src": "Blokirani računi kompanije Alta Group Davora Macure",
-    "ts": 1794996666.1740615,
-    "url": "https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. королевы Марии, 3) с 28 кассами, ",
-   "ts": 1794468776.0311916,
-   "url": "https://n1info.rs/biznis/pocelo-zakazivanje-termina-za-isplatu-osiguranih-depozita-iz-alta-banke"
-  },
   {
    "text": "Крах Alta банки особенно ударил по русским беженцам в Сербии",
    "ts": 1794488085.8985348,
@@ -483,6 +460,11 @@
    "text": "АОД: процедура получения подтверждений для выплаты застрахованных вкладов ALTA — Процедура получения подтверждений для выплаты: три типа подтверждений (основательность требования, раздужение чеков, валидность полномочий). — Способы подачи заявления: лично в ALTA (Булевар Зорана Ђинђића 121), рекомен",
    "ts": 1794998006.5440593,
    "url": "https://www.aod.rs/clan/vest/vest_forma/155"
+  },
+  {
+   "text": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
+   "ts": 1794998563.1699564,
+   "url": "https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure"
   }
  ],
  "retry_items": {},
@@ -4693,13 +4675,21 @@
   "https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure": {
    "first_seen": "2026-11-18T10:11:06+00:00",
    "kind": "press",
+   "message_id": 326,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-18T10:42:43+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "регулятор",
+    "суд",
+    "требования"
+   ],
    "title": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
    "title_src": "Blokirani računi kompanije Alta Group Davora Macure",
-   "updated": "2026-11-18T10:11:06+00:00"
+   "updated": "2026-11-18T10:42:43+00:00"
   },
   "https://nova.rs/djakovic-namirivanje-gradjana-koji-su-imali-preko-50000-evra-u-alta-banci-ne-bi-trebalo-da-ide-preko-budzeta-drzave": {
    "first_seen": "2026-11-13T08:13:10+00:00",
