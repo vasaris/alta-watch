@@ -203,20 +203,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T03:52:28+00:00",
-    "n": 9843,
+    "n": 9844,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T09:20:28+00:00",
+   "at": "2026-11-18T09:23:07+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T09:22:52+00:00",
-   "elapsed_s": 143,
+   "at": "2026-11-18T09:25:27+00:00",
+   "elapsed_s": 139,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -242,9 +242,9 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9845,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 9846,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -3671,6 +3671,17 @@
    "title": "NBS уточнила: заёмщики Alta банка и ALTA GROUP платят по разным счётам",
    "title_src": "NBS o izmirenju rata kredita: Jedan račun za Alta banku, drugi račun za Alta Group",
    "updated": "2026-11-06T19:10:46+00:00"
+  },
+  "https://n1info.rs/biznis/nbs-oduzela-dozvolu-alta-lizingu": {
+   "first_seen": "2026-11-18T09:25:27+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
+   "title_src": "NBS oduzela dozvolu za rad Alta lizingu",
+   "updated": "2026-11-18T09:25:27+00:00"
   },
   "https://n1info.rs/biznis/nbs-oduzela-dozvolu-i-platnoj-instituciji-alta-group-doo-sredstva-korisnika-platnih-usluga-su-zasticena": {
    "first_seen": "2026-11-02T16:54:45+00:00",
