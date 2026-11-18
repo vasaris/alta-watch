@@ -203,20 +203,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9872,
+    "n": 9873,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:18:39+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T10:20:22+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:19:17+00:00",
-   "elapsed_s": 37,
+   "at": "2026-11-18T10:22:44+00:00",
+   "elapsed_s": 142,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -238,13 +238,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9874,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9875,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -3270,6 +3270,16 @@
    "title": "Бывшая главная инспектор НБС: крах Alta произошёл из-за нечестной работы, надзор нужно было усилить раньше",
    "title_src": "Bivša guvernerka NBS o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, morao da se pojača nadzor",
    "updated": "2026-11-01T08:58:42+00:00"
+  },
+  "https://n1info.rs/biznis/blokirani-racuni-alta-group-davora-macure": {
+   "first_seen": "2026-11-18T10:22:44+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/blokirani-racuni-alta-group-davora-macure",
+   "status": "dup",
+   "title": "Blokirani računi Alta Group Davora Macure",
+   "title_src": "Blokirani računi Alta Group Davora Macure",
+   "updated": "2026-11-18T10:22:44+00:00"
   },
   "https://n1info.rs/biznis/bozo-draskovic-crvene-lampice-u-poslovanju-alta-banke-svetlele-i-pre-godinu-dana-odgovornost-je-na-nbs": {
    "first_seen": "2026-11-03T09:41:07+00:00",
