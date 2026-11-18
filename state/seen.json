@@ -203,21 +203,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T03:52:28+00:00",
-    "n": 9841,
+    "n": 9842,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T09:16:13+00:00",
+   "at": "2026-11-18T09:18:23+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T09:16:40+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-18T09:18:58+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -242,14 +242,32 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9843,
+   "ALTA": 9844,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "18.11.2026 09:17",
+    "first": "Решение об отзыве лицензии на финансовый лизинг у Alta Leasing принято 17 ноября 2026 на заседании Исполнительного совета NBS",
+    "important": false,
+    "kind": "press",
+    "outlet": "Danas",
+    "tags": [
+     "регулятор",
+     "активы",
+     "суд",
+     "сроки"
+    ],
+    "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
+    "title_src": "Narodna banka Srbije oduzela dozvolu rad Alta lizingu – sledi likvidacija",
+    "ts": 1794993538.46811,
+    "url": "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija"
+   }
+  ]
  },
  "recent": [
   {
@@ -13170,6 +13188,17 @@
     "активы"
    ],
    "title": "Narodna banka Severne Makedonije: Navodi o transferima novca iz Srbije su neproverene tvrdnje"
+  },
+  "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija": {
+   "first_seen": "2026-11-18T09:18:58+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
+   "title_src": "Narodna banka Srbije oduzela dozvolu rad Alta lizingu – sledi likvidacija",
+   "updated": "2026-11-18T09:18:58+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
