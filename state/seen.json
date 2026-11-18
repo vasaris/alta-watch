@@ -203,20 +203,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9869,
+    "n": 9870,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:12:24+00:00",
+   "at": "2026-11-18T10:14:12+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:13:06+00:00",
-   "elapsed_s": 42,
+   "at": "2026-11-18T10:14:38+00:00",
+   "elapsed_s": 25,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -242,7 +242,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9871,
+   "ALTA": 9872,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -471,23 +471,7 @@
    "url": "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija"
   }
  ],
- "retry_items": {
-  "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-dozvolu-kompaniji-alta-leasing-ispunjeni-uslovi-za-likvidaciju-preduzeca": {
-   "date": "18.11.2026 09:27",
-   "kind": "press",
-   "outlet": "Nova ekonomija",
-   "source": "novaekonomija",
-   "tags": [
-    "суд",
-    "регулятор"
-   ],
-   "tier": "press",
-   "title": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "title_src": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "ts": 1794994049,
-   "url": "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-dozvolu-kompaniji-alta-leasing-ispunjeni-uslovi-za-likvidaciju-preduzeca"
-  }
- },
+ "retry_items": {},
  "seeded": true,
  "seen": {
   "https://altabanka.rs/92-medjunarodnom-sajmu-poljoprivrede-u-novom-sadu/": {
@@ -6029,11 +6013,14 @@
    "first_seen": "2026-11-18T09:28:48+00:00",
    "kind": "press",
    "last_reason": "llm",
+   "novelty": 0,
    "posted": false,
-   "reason": "retry_exhausted:llm",
-   "status": "quarantine",
-   "title": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "updated": "2026-11-18T10:13:06+00:00"
+   "reason": "subject:other",
+   "relevance": 0,
+   "status": "rejected",
+   "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing",
+   "title_src": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
+   "updated": "2026-11-18T10:14:38+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-izrekla-kazne-od-250-miliona-dinara": {
    "first_seen": "2026-11-07T09:44:31+00:00",
