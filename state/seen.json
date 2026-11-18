@@ -203,21 +203,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9867,
+    "n": 9868,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:08:44+00:00",
+   "at": "2026-11-18T10:10:22+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:09:10+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 1,
+   "at": "2026-11-18T10:11:06+00:00",
+   "elapsed_s": 43,
+   "llm_calls": 2,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -242,14 +242,32 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9869,
+   "ALTA": 9870,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "18.11.2026 10:10",
+    "first": "Счета Alta Group заблокированы с 13 ноября по решению о принудительном взыскании",
+    "important": false,
+    "kind": "press",
+    "outlet": "Nova.rs",
+    "tags": [
+     "активы",
+     "регулятор",
+     "суд",
+     "требования"
+    ],
+    "title": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
+    "title_src": "Blokirani računi kompanije Alta Group Davora Macure",
+    "ts": 1794996666.1740615,
+    "url": "https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure"
+   }
+  ]
  },
  "recent": [
   {
@@ -4644,6 +4662,17 @@
    "title": "Сотрудники Alta подтвердили: массовое снятие средств началось во вторник 27 октября",
    "updated": "2026-10-31T17:43:56+00:00"
   },
+  "https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure": {
+   "first_seen": "2026-11-18T10:11:06+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
+   "title_src": "Blokirani računi kompanije Alta Group Davora Macure",
+   "updated": "2026-11-18T10:11:06+00:00"
+  },
   "https://nova.rs/djakovic-namirivanje-gradjana-koji-su-imali-preko-50000-evra-u-alta-banci-ne-bi-trebalo-da-ide-preko-budzeta-drzave": {
    "first_seen": "2026-11-13T08:13:10+00:00",
    "kind": "press",
@@ -5986,7 +6015,7 @@
    "updated": "2026-11-06T10:18:31+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-dozvolu-kompaniji-alta-leasing-ispunjeni-uslovi-za-likvidaciju-preduzeca": {
-   "attempts": 21,
+   "attempts": 22,
    "first_seen": "2026-11-18T09:28:48+00:00",
    "kind": "press",
    "last_reason": "llm",
@@ -5994,7 +6023,7 @@
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "updated": "2026-11-18T10:09:10+00:00"
+   "updated": "2026-11-18T10:10:58+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-izrekla-kazne-od-250-miliona-dinara": {
    "first_seen": "2026-11-07T09:44:31+00:00",
