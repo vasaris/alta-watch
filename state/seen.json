@@ -203,20 +203,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T03:52:28+00:00",
-    "n": 9853,
+    "n": 9854,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T09:40:21+00:00",
+   "at": "2026-11-18T09:42:14+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T09:40:47+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-18T09:42:41+00:00",
+   "elapsed_s": 27,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -242,7 +242,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9855,
+   "ALTA": 9856,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5983,7 +5983,7 @@
    "updated": "2026-11-06T10:18:31+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-dozvolu-kompaniji-alta-leasing-ispunjeni-uslovi-za-likvidaciju-preduzeca": {
-   "attempts": 7,
+   "attempts": 8,
    "first_seen": "2026-11-18T09:28:48+00:00",
    "kind": "press",
    "last_reason": "llm",
@@ -5991,7 +5991,7 @@
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "updated": "2026-11-18T09:40:47+00:00"
+   "updated": "2026-11-18T09:42:41+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-izrekla-kazne-od-250-miliona-dinara": {
    "first_seen": "2026-11-07T09:44:31+00:00",
