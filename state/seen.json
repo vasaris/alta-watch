@@ -217,20 +217,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 10030,
+    "n": 10031,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T15:36:19+00:00",
+   "at": "2026-11-18T15:38:15+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T15:36:52+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-18T15:38:52+00:00",
+   "elapsed_s": 36,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -256,7 +256,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 10032,
+   "ALTA": 10033,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -35996,6 +35996,14 @@
    ],
    "title": "Објављено новембарско издање Извештаја о инфлацији",
    "updated": "2026-11-18T09:26:08+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21916": {
+   "first_seen": "2026-11-18T15:38:39+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-18T15:38:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2192&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
