@@ -217,21 +217,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9920,
+    "n": 9921,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T11:52:26+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T11:54:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T11:52:52+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-18T11:56:36+00:00",
+   "elapsed_s": 141,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -252,13 +252,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 53,
+   "aod": 0,
    "nbs": 37
   },
   "src_fail": {
-   "ALTA": 9922,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9923,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1699,6 +1699,17 @@
    "title": "NBS oduzela dozvolu za rad Alta lizingu",
    "title_src": "NBS oduzela dozvolu za rad Alta lizingu",
    "updated": "2026-11-18T10:08:32+00:00"
+  },
+  "https://beta.rs/content/256131-jorgovanka-tabakovic-guvernerka-nbs-odbila-da-drzi-konferenciju-za-novinare": {
+   "first_seen": "2026-11-18T11:56:36+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Губернатор NBS отменила пресс-конференцию по инфляции из-за скандала с Alta banka",
+   "title_src": "Jorgovanka Tabaković odbila konferenciju NBS o inflaciji zbog afere Alta banka",
+   "updated": "2026-11-18T11:56:36+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
