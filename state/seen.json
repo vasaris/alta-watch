@@ -203,21 +203,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T09:54:31+00:00",
-    "n": 9870,
+    "n": 9871,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T10:14:12+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T10:16:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T10:14:38+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 1,
+   "at": "2026-11-18T10:18:29+00:00",
+   "elapsed_s": 134,
+   "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -238,13 +238,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9872,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9873,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4097,6 +4097,16 @@
     "клиенты"
    ],
    "title": "(VIDEO) Redovi ispred ekspoziture Alta banke u Novom Sadu"
+  },
+  "https://n1info.rs/blokirani-racuni-alta-group-davora-macure": {
+   "first_seen": "2026-11-18T10:18:29+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/blokirani-racuni-kompanije-alta-group-davora-macure",
+   "status": "dup",
+   "title": "Blokirani računi Alta Group Davora Macure",
+   "title_src": "Blokirani računi Alta Group Davora Macure",
+   "updated": "2026-11-18T10:18:29+00:00"
   },
   "https://n1info.rs/english/news/organised-crime-prosecution-office-investigating-money-transfers-from-alta-banka": {
    "attempts": 24,
