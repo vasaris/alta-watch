@@ -203,23 +203,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T03:52:28+00:00",
-    "n": 9837,
+    "n": 9838,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T09:08:15+00:00",
+   "at": "2026-11-18T09:10:22+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T09:08:49+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-18T09:10:56+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -242,7 +242,7 @@
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9839,
+   "ALTA": 9840,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -252,11 +252,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом, включая земли IMT на Новом Белграде — Запрет распоряжения имуществом издан Прокуратурой по организованной преступности (новое уточнение органа и масштаба). — Конкретные активы: около 35 гектаров IMT на Новом Белграде, недвижимость",
-   "ts": 1794428207.6015701,
-   "url": "https://nova.rs/vesti/hronika/vlasniku-alta-banke-davoru-macuri-i-njegovim-firmama-zabranjeno-raspolaganje-imovinom"
-  },
   {
    "text": "Прокуратура запретила владельцу Alta Мацуре распоряжаться имуществом — Запрет распоряжения имуществом издан Прокуратурой по организованной преступности (уточнение органа) — Запрет распространяется на около 35 гектаров земли IMT на Новом Белграде, Alta holding и Alta leasing",
    "ts": 1794459279.1323383,
@@ -451,6 +446,11 @@
    "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing d.o.o. Beograd — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing d.o.o. Beograd принято 17 ноября 2026 — Имущество Alta Leasing превышает её обязательства, что позволяет провести ликвидацию вместо банкротства",
    "ts": 1794992484.907407,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906"
+  },
+  {
+   "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; ликвидация вместо банкротства — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing принято 17 ноября 2026. — Выбран процесс ликвидации (а не банкротства) на основе анализа, показавшего превышение имущества над обязательствами.",
+   "ts": 1794993055.164791,
+   "url": "https://bizlife.rs/nbs-oduzela-dozvolu-i-alta-leasing-u"
   }
  ],
  "retry_items": {},
@@ -1762,6 +1762,26 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://bizlife.rs/nbs-oduzela-dozvolu-i-alta-leasing-u": {
+   "first_seen": "2026-11-18T09:10:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 322,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-18T09:10:55+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "банки"
+   ],
+   "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; ликвидация вместо банкротства",
+   "title_src": "NBS oduzela dozvolu i ALTA LEASING-u",
+   "updated": "2026-11-18T09:10:55+00:00"
   },
   "https://bizlife.rs/nbs-pokusava-da-umiri-privredu-i-gradjane-depoziti-su-zasticeni-a-stabilnost-dinara-ostaje-prioritet": {
    "first_seen": "2026-11-02T13:31:29+00:00",
