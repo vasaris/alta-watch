@@ -203,23 +203,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-18T03:52:28+00:00",
-    "n": 9857,
+    "n": 9858,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-18T09:48:18+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-18T09:50:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-18T09:48:52+00:00",
-   "elapsed_s": 33,
+   "at": "2026-11-18T09:52:40+00:00",
+   "elapsed_s": 139,
    "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -238,43 +238,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 52,
+   "aod": 0,
    "nbs": 38
   },
   "src_fail": {
-   "ALTA": 9859,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 9860,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "18.11.2026 09:17",
-    "first": "Решение об отзыве лицензии на финансовый лизинг у Alta Leasing принято 17 ноября 2026 на заседании Исполнительного совета NBS",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "регулятор",
-     "активы",
-     "суд",
-     "сроки"
-    ],
-    "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
-    "title_src": "Narodna banka Srbije oduzela dozvolu rad Alta lizingu – sledi likvidacija",
-    "ts": 1794993538.46811,
-    "url": "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица открыла онлайн-запись на выплаты застрахованных вкладов Alta с 13 ноября — Онлайн-портал для записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — Выплаты начинаются 13 ноября 2026",
-   "ts": 1794462979.8249228,
-   "url": "https://www.rts.rs/vesti/ekonomija/6081421/alta-banka-isplata-osiguranih-depozita-postanska-stedionica.html"
-  },
   {
    "text": "Поштанска штедионица открыла онлайн-портал для записи на выплаты вкладчикам Alta — Портал для онлайн-записи на выплаты запущен 12 ноября 2026 на www.posted.co.rs — В Белграде открыта новая специализированная экспозитура Поштанской штедионице в центральном офисе (ул. Королевы Марии 3) с 28 кассами, п",
    "ts": 1794465047.3932724,
@@ -469,6 +446,11 @@
    "text": "NBS опубликовала Отчёт об инфляции за ноябрь 2026 — NBS опубликовала Отчёт об инфляции за ноябрь 2026 с анализом макроэкономических тенденций и прогнозов монетарной политики — Международное окружение остаётся напряжённым из-за геополитических конфликтов; мировые цены на энергоносители выросли вопрек",
    "ts": 1794993968.2809138,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21908"
+  },
+  {
+   "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
+   "ts": 1794995558.982364,
+   "url": "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija"
   }
  ],
  "retry_items": {
@@ -5983,7 +5965,7 @@
    "updated": "2026-11-06T10:18:31+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-dozvolu-kompaniji-alta-leasing-ispunjeni-uslovi-za-likvidaciju-preduzeca": {
-   "attempts": 11,
+   "attempts": 12,
    "first_seen": "2026-11-18T09:28:48+00:00",
    "kind": "press",
    "last_reason": "llm",
@@ -5991,7 +5973,7 @@
    "reason": "retry_exhausted:llm",
    "status": "quarantine",
    "title": "NBS oduzela dozvolu kompaniji Alta Leasing: Ispunjeni uslovi za likvidaciju preduzeća",
-   "updated": "2026-11-18T09:48:52+00:00"
+   "updated": "2026-11-18T09:52:38+00:00"
   },
   "https://novaekonomija.rs/vesti-iz-zemlje/nbs-oduzela-ovlascenje-za-rad-menjacnici-alta-group-izrekla-kazne-od-250-miliona-dinara": {
    "first_seen": "2026-11-07T09:44:31+00:00",
@@ -13272,13 +13254,21 @@
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija": {
    "first_seen": "2026-11-18T09:18:58+00:00",
    "kind": "press",
+   "message_id": 324,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-18T09:52:38+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "сроки"
+   ],
    "title": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
    "title_src": "Narodna banka Srbije oduzela dozvolu rad Alta lizingu – sledi likvidacija",
-   "updated": "2026-11-18T09:18:58+00:00"
+   "updated": "2026-11-18T09:52:38+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-za-rad-alta-banci": {
    "first_seen": "2026-10-31T11:20:40+00:00",
