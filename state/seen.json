@@ -229,20 +229,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10907,
+    "n": 10908,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T21:00:46+00:00",
+   "at": "2026-11-19T21:03:32+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T21:03:19+00:00",
-   "elapsed_s": 152,
+   "at": "2026-11-19T21:05:59+00:00",
+   "elapsed_s": 147,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -268,9 +268,9 @@
    "nbs": 4784
   },
   "src_fail": {
-   "ALTA": 10909,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 10910,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -41114,9 +41114,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4016&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала на девизном тржишту 20 милиона евра",
+   "updated": "2026-11-19T21:05:47+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=402&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41128,30 +41129,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4021&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора Народне банке Србије",
+   "updated": "2026-11-19T21:05:46+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4024&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала 20 милиона евра на девизном тржишту",
+   "updated": "2026-11-19T21:05:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4027&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у фебруару",
+   "updated": "2026-11-19T21:05:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4028&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора Народне банке Србије",
+   "updated": "2026-11-19T21:05:43+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=403&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41163,9 +41168,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4032&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала на девизном тржишту 20 милиона евра",
+   "updated": "2026-11-19T21:05:42+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=404&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41177,30 +41183,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4040&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала на девизном тржишту 10 милиона евра",
+   "updated": "2026-11-19T21:05:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4043&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа снижена на девет одсто",
+   "updated": "2026-11-19T21:05:40+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4048&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Гувернер поднео писмену оставку председнику Савета Народне банке Србије",
+   "updated": "2026-11-19T21:05:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4049&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала на девизном тржишту 40 милиона евра",
+   "updated": "2026-11-19T21:05:39+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=405&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
