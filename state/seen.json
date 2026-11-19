@@ -229,23 +229,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10905,
+    "n": 10906,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T20:54:48+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-19T20:58:52+00:00",
+   "dated": 284,
+   "files": 284,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T20:58:27+00:00",
-   "elapsed_s": 219,
-   "llm_calls": 2,
+   "at": "2026-11-19T20:59:43+00:00",
+   "elapsed_s": 50,
+   "llm_calls": 0,
    "llm_down": null,
-   "msgs": 2,
+   "msgs": 0,
    "version": "2.1"
   },
   "press": {
@@ -264,13 +264,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 54,
    "nbs": 4784
   },
   "src_fail": {
-   "ALTA": 10907,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 10908,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -41303,16 +41303,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4086&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије покренула сервис на информационом систему Ројтерс",
+   "updated": "2026-11-19T20:59:30+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4087&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Трајна продаја обвезница које је Република Србија издала ради измирења обавеза према Народној банци Србије",
+   "updated": "2026-11-19T20:59:28+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=409&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41324,16 +41326,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4094&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа снижена на 8,5 одсто",
+   "updated": "2026-11-19T20:59:27+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4097&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање рачуна за фиксни телефон преко DinaCard картице SMS поруком",
+   "updated": "2026-11-19T20:59:26+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=41&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41352,23 +41356,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4100&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије продала на девизном тржишту пет милиона евра",
+   "updated": "2026-11-19T20:59:25+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4102&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-19T20:59:23+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4108&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора Народне банке Србије",
+   "updated": "2026-11-19T20:59:22+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=411&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41380,23 +41387,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4112&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви и кретања на међубанкарском девизном тржишту у марту",
+   "updated": "2026-11-19T20:59:21+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4114&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Полагање стручног испита испита за обављање послова информисања о чланству у добровољном пензијском фонду",
+   "updated": "2026-11-19T20:59:20+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4115&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "По основу смањења стопе обавезне резерве банкама је враћено 21,3 милијарде динара",
+   "updated": "2026-11-19T20:59:18+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4116&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
