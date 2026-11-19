@@ -217,21 +217,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T10:00:47+00:00",
-    "n": 10614,
+    "n": 10615,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T11:10:31+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-19T11:12:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T11:11:09+00:00",
-   "elapsed_s": 38,
-   "llm_calls": 0,
+   "at": "2026-11-19T11:14:44+00:00",
+   "elapsed_s": 149,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -252,18 +252,36 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 54,
+   "aod": 0,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 10616,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 10617,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "19.11.2026 10:42",
+    "first": "Уточнены все три канала подачи рекламаций с конкретными адресами и электронными адресами",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "выплаты",
+     "требования",
+     "регулятор",
+     "клиенты"
+    ],
+    "title": "Вкладчики ALTA могут подать рекламацию по выплатам через три канала",
+    "title_src": "Deponenti Alta banke u stečaju mogu da podnesu reklamaciju u vezi sa isplatom osiguranih depozita",
+    "ts": 1795086884.4819894,
+    "url": "https://insajder.net/prenosimo/deponenti-alta-banke-u-stecaju-mogu-da-podnesu-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita"
+   }
+  ]
  },
  "recent": [
   {
@@ -2529,6 +2547,17 @@
    "title": "Бачка Топола: часть бюджета застряла в Alta через ночные депозиты",
    "title_src": "Opština Bačka Topola: Deo budžetskih sredstava ostao zarobljen u Alta banci kroz prekonoćno oročavanje",
    "updated": "2026-11-12T15:17:02+00:00"
+  },
+  "https://insajder.net/prenosimo/deponenti-alta-banke-u-stecaju-mogu-da-podnesu-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita": {
+   "first_seen": "2026-11-19T11:14:44+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "Вкладчики ALTA могут подать рекламацию по выплатам через три канала",
+   "title_src": "Deponenti Alta banke u stečaju mogu da podnesu reklamaciju u vezi sa isplatom osiguranih depozita",
+   "updated": "2026-11-19T11:14:44+00:00"
   },
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
