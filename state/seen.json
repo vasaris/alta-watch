@@ -217,21 +217,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T03:58:29+00:00",
-    "n": 10512,
+    "n": 10513,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T07:48:12+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-19T07:50:56+00:00",
+   "dated": 284,
+   "files": 284,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-18",
   "last_run": {
-   "at": "2026-11-19T07:50:30+00:00",
-   "elapsed_s": 137,
-   "llm_calls": 0,
+   "at": "2026-11-19T07:51:26+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -252,13 +252,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 54,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 10514,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 10515,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -7410,6 +7410,18 @@
    "title": "NBS отозвала лицензию у Alta Leasing; счета Alta Group заблокированы",
    "title_src": "Нацбанк Сербии отобрал лицензию у \"ALTA-Lizing\". Счета \"ALTA Group\" также были заблокированы .",
    "updated": "2026-11-18T10:38:44+00:00"
+  },
+  "https://t.me/Serbia/108006": {
+   "first_seen": "2026-11-19T07:51:26+00:00",
+   "kind": "telegram",
+   "novelty": 6,
+   "posted": false,
+   "reason": "Telegram-канал",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Заблокированы 105 счетов Alta Group на 676,7 млн динаров",
+   "title_src": "В Сербии заблокированы 105 банковских счетов компании Alta Group на 677 млн динаров Счета компании Alta Group, владеющей обанкротившимся Alta banka, находятся под блокировкой с 13 ноября. По данным реестра…",
+   "updated": "2026-11-19T07:51:26+00:00"
   },
   "https://t.me/novisadaily/20237": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -52180,12 +52192,6 @@
  "signals": [
   {
    "reason": "непроверенные утверждения",
-   "title": "Сотрудники Alta Banka: снятие денег начнётся уже во вторник",
-   "ts": "2026-10-31T17:48:13+00:00",
-   "url": "https://www.021.rs/info/srbija/459937/zaposleni-u-alta-banci-povlacenje-novca-pocelo-vec-u-utorak"
-  },
-  {
-   "reason": "непроверенные утверждения",
    "title": "NBS под вопросом: критика надзора перед крахом Alta Banka",
    "ts": "2026-10-31T18:20:23+00:00",
    "url": "https://n1info.rs/vesti/kolika-je-odgovornost-nbs-za-slucaj-alta-banke"
@@ -52477,6 +52483,12 @@
    "title": "Poštanska štedionica требует предварительную запись для выплаты застрахованных вкладов ALTA",
    "ts": "2026-11-18T07:10:25+00:00",
    "url": "https://t.me/Serbia/107963"
+  },
+  {
+   "reason": "Telegram-канал",
+   "title": "Заблокированы 105 счетов Alta Group на 676,7 млн динаров",
+   "ts": "2026-11-19T07:50:56+00:00",
+   "url": "https://t.me/Serbia/108006"
   }
  ]
 }
