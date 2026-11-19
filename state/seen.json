@@ -1,13 +1,8 @@
 {
  "facts": {
   "bankruptcy_manager": {
-   "at": "2026-11-18T09:01:24+00:00",
+   "at": "2026-11-19T20:57:38+00:00",
    "history": [
-    {
-     "at": "2026-11-06T14:34:26+00:00",
-     "url": "https://www.aod.rs/clan/vest/vest_forma/143",
-     "value": "Агенција за осигурање депозита (АОД)"
-    },
     {
      "at": "2026-11-07T20:40:39+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859&konverzija=no",
@@ -32,11 +27,16 @@
      "at": "2026-11-09T10:29:51+00:00",
      "url": "https://www.aod.rs/uploads/dokumenti/oglas/243_1_oglas.pdf",
      "value": "Агенција за осигурање депозита, Масарикова 5, Белград"
+    },
+    {
+     "at": "2026-11-18T09:01:24+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
+     "value": "Агенција за осигурање депозита"
     }
    ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
-   "value": "Агенција за осигурање депозита"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no",
+   "value": "Агенција за осигурање депозита (AOD)"
   },
   "claims_deadline": {
    "at": "2026-11-09T11:02:33+00:00",
@@ -141,10 +141,17 @@
    "value": "17 ноября 2026 (решение Исполнительного совета NBS)"
   },
   "other": {
-   "at": "2026-11-18T09:01:24+00:00",
+   "at": "2026-11-19T20:57:38+00:00",
+   "history": [
+    {
+     "at": "2026-11-18T09:01:24+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
+     "value": "Alta Leasing d.o.o. Beograd — финансовая лизинговая компания (не банк), единственный владелец — Alta banka a.d. Beograd (в банкротстве); имущество превышает обязательства; ликвидация вместо банкротств"
+    }
+   ],
    "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
-   "value": "Alta Leasing d.o.o. Beograd — финансовая лизинговая компания (не банк), единственный владелец — Alta banka a.d. Beograd (в банкротстве); имущество превышает обязательства; ликвидация вместо банкротств"
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no",
+   "value": "Alta Leasing d.o.o. Beograd — финансовая лизинговая компания (не банк), не принимает депозиты; единственный владелец — Alta banka a.d. Beograd; имущество превышает обязательства; открывается ликвидаци"
   },
   "payout_bank": {
    "at": "2026-11-19T13:14:40+00:00",
@@ -222,23 +229,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10904,
+    "n": 10905,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T20:52:14+00:00",
+   "at": "2026-11-19T20:54:48+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T20:54:35+00:00",
-   "elapsed_s": 140,
-   "llm_calls": 0,
+   "at": "2026-11-19T20:58:27+00:00",
+   "elapsed_s": 219,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 2,
    "version": "2.1"
   },
   "press": {
@@ -258,12 +265,12 @@
   "sources": {
    "alta": 0,
    "aod": 0,
-   "nbs": 35
+   "nbs": 4784
   },
   "src_fail": {
-   "ALTA": 10906,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 10907,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -271,16 +278,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NPS Бачке Тополе требует ответственности за бюджетные средства, застрявшие в Alta",
-   "ts": 1794520865.4556603,
-   "url": "https://www.danas.rs/vesti/ekonomija/nps-backe-topole-trazi-odgovornost-zbog-novca-opstine-zarobljenog-u-alta-banci"
-  },
-  {
-   "text": "Выплаты вкладчикам Alta начались 13 ноября в отделениях Поштанской штедионице — Выплаты фактически начались 13 ноября 2026 (подтверждение факта начала) — В Белграде открыта новая специализированная экспозитура в центральном офисе Поштанской штедионице (ул. королевы Марии, 3) с 28 кассами, предназнач",
-   "ts": 1794550972.4435163,
-   "url": "https://n1info.rs/biznis/pocinje-isplata-depozita-alta-banke-u-postanskoj-stedionici"
-  },
   {
    "text": "Выплаты застрахованных вкладов Alta начались 13 ноября через Поштанскую штедионицу — Выплаты фактически начались 13 ноября 2026 в 07:55 (подтверждение факта начала операций) — Вклады сверх 50 000 евро: остаток требований подаётся в стечайном поступке (уточнение процедуры для сверхлимитных сумм)",
    "ts": 1794554082.7480123,
@@ -470,6 +467,16 @@
    "text": "АОД: как подать требование на выплату застрахованного вклада ALTA — три способа — Требования подаются тремя способами: лично в ALTA банке (Булевар Зорана Ђинђића 121, Нови Белград, рабочие дни 9–15 часов); рекомендованной почтой (только для вкладчиков вне Белграда); электронно на potvrde@altabanka.r",
    "ts": 1795094080.813522,
    "url": "https://www.aod.rs/clan/vest/vest_forma/155"
+  },
+  {
+   "text": "Народный банк Сербии опубликовал Отчёт об инфляции за ноябрь 2026 — NBS опубликовал Отчёт об инфляции за ноябрь 2026 с анализом макроэкономических тенденций и прогнозов монетарной политики — Инфляция в Сербии в октябре 2026 достигла 4,4% в годовом выражении; ожидается, что в большей части 2027 года ",
+   "ts": 1795121845.8078184,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21908&konverzija=no"
+  },
+  {
+   "text": "NBS отозвала лицензию Alta Leasing d.o.o. на финансовый лизинг; открывается ликвидация — Отзыв лицензии Alta Leasing — 17 ноября 2026 (решение Исполнительного совета NBS). — Выбран процесс ликвидации вместо банкротства (имущество превышает обязательства).",
+   "ts": 1795121858.930069,
+   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no"
   }
  ],
  "retry_items": {},
@@ -36064,6 +36071,14 @@
    "title": "Курс динара је стабилан, Банка Поштанска штедионица редовно послује",
    "updated": "2026-11-09T12:28:55+00:00"
   },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21888&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:47+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Курс динара је стабилан, Банка Поштанска штедионица редовно послује",
+   "updated": "2026-11-19T20:57:47+00:00"
+  },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2189&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
@@ -36079,6 +36094,14 @@
    "title": "Плаћање пореских обавеза Дина картицом на шалтерима Управе за трезор",
    "updated": "2026-11-09T15:20:45+00:00"
   },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21890&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:46+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Плаћање пореских обавеза Дина картицом на шалтерима Управе за трезор",
+   "updated": "2026-11-19T20:57:46+00:00"
+  },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21892": {
    "first_seen": "2026-11-09T15:27:43+00:00",
    "posted": false,
@@ -36086,6 +36109,14 @@
    "status": "rejected",
    "title": "Активности учесника у платним системима Народне банке Србије одвијају се на уобичајеном нивоу",
    "updated": "2026-11-09T15:27:43+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21892&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:45+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Активности учесника у платним системима Народне банке Србије одвијају се на уобичајеном нивоу",
+   "updated": "2026-11-19T20:57:45+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21896": {
    "first_seen": "2026-11-12T11:16:29+00:00",
@@ -36095,6 +36126,14 @@
    "title": "Референтна каматна стопа повећана на 6 %",
    "updated": "2026-11-12T11:16:29+00:00"
   },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21896&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:43+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа повећана на 6%",
+   "updated": "2026-11-19T20:57:43+00:00"
+  },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21898": {
    "first_seen": "2026-11-12T13:50:57+00:00",
    "posted": false,
@@ -36102,6 +36141,14 @@
    "status": "rejected",
    "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у октобру",
    "updated": "2026-11-12T13:50:57+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21898&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:44+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Стање девизних резерви Народне банке Србије и кретања на међубанкарском девизном тржишту у октобру",
+   "updated": "2026-11-19T20:57:44+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=219&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -36118,6 +36165,14 @@
    "title": "Кретање инфлације у октобру",
    "updated": "2026-11-12T15:01:06+00:00"
   },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21900&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:42+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Кретање инфлације у октобру",
+   "updated": "2026-11-19T20:57:42+00:00"
+  },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21903": {
    "first_seen": "2026-11-16T12:22:28+00:00",
    "posted": false,
@@ -36125,6 +36180,14 @@
    "status": "rejected",
    "title": "Народна банка Србије продужила меру ради обезбеђења довољне количине страног ефективног новца",
    "updated": "2026-11-16T12:22:28+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21903&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:41+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије продужила меру ради обезбеђења довољне количине страног ефективног новца",
+   "updated": "2026-11-19T20:57:41+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906": {
    "first_seen": "2026-11-18T09:01:24+00:00",
@@ -36156,6 +36219,37 @@
    ],
    "title": "Народна банка Србије одузела дозволу за обављање послова финансијског лизинга друштву Алта лизинг д.о.о. Београд",
    "updated": "2026-11-18T09:01:24+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:38+00:00",
+   "hash": "1fa8b1a731b6b7fe",
+   "kind": "news",
+   "message_id": 334,
+   "novelty": 8,
+   "paras": [
+    "a17083d684",
+    "69c316f78e",
+    "40b49a65cf",
+    "818a015873",
+    "d7c34fb0e4",
+    "271a0c5840",
+    "40c46cc20a",
+    "75c301f1a2",
+    "e67875651f",
+    "ddc3365d97"
+   ],
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-19T20:57:38+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "сроки"
+   ],
+   "title": "Народна банка Србије одузела дозволу за обављање послова финансијског лизинга друштву Алта лизинг д.о.о. Београд",
+   "updated": "2026-11-19T20:57:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21908": {
    "first_seen": "2026-11-18T09:26:08+00:00",
@@ -36192,6 +36286,41 @@
    "title": "Објављено новембарско издање Извештаја о инфлацији",
    "updated": "2026-11-18T09:26:08+00:00"
   },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21908&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:25+00:00",
+   "hash": "16d44103fb988a0a",
+   "kind": "news",
+   "message_id": 333,
+   "novelty": 0,
+   "paras": [
+    "a17083d684",
+    "57c4646743",
+    "158093c459",
+    "79aedc7f24",
+    "b5a483b52c",
+    "ed33787e8b",
+    "1df93e78b8",
+    "debed42770",
+    "57b060bbdd",
+    "9f87fac09d",
+    "b7db56b2a7",
+    "ba7aadc325",
+    "a786a3db0e",
+    "6803ee1922",
+    "ea5d8d17c3",
+    "dfc5dd9684",
+    "c9913d07fe"
+   ],
+   "posted": true,
+   "relevance": 1,
+   "sent_at": "2026-11-19T20:57:25+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор"
+   ],
+   "title": "Објављено новембарско издање Извештаја о инфлацији",
+   "updated": "2026-11-19T20:57:25+00:00"
+  },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21916": {
    "first_seen": "2026-11-18T15:38:39+00:00",
    "posted": false,
@@ -36199,6 +36328,14 @@
    "status": "rejected",
    "title": "Резултати анкете о инфлационим очекивањима",
    "updated": "2026-11-18T15:38:39+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21916&konverzija=no": {
+   "first_seen": "2026-11-19T20:57:16+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Резултати анкете о инфлационим очекивањима",
+   "updated": "2026-11-19T20:57:16+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2192&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41264,16 +41401,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4116&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Трајна продаја хартија од вредности  на аукцији 19. априла",
+   "updated": "2026-11-19T20:57:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4119&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Референтна каматна стопа задржана на нивоу од 8,5 одсто",
+   "updated": "2026-11-19T20:57:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=412&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41285,16 +41424,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4123&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-19T20:57:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4127&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Сто милиона DinaCard трансакција",
+   "updated": "2026-11-19T20:57:55+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=413&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41306,9 +41447,10 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4130&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Секундарно трговање државним хартијама од вредности",
+   "updated": "2026-11-19T20:57:54+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=414&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41320,23 +41462,26 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4140&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-19T20:57:52+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4141&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Говор вицегувернера Бојанa Марковићa на конференцији Блумберга у Хајату",
+   "updated": "2026-11-19T20:57:51+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4148&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Тромесечне своп аукције девиза",
+   "updated": "2026-11-19T20:57:50+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=415&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41348,16 +41493,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4153&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора",
+   "updated": "2026-11-19T20:57:49+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4158&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Измена Одлуке о класификацији билансне активе и ванбилансних ставки банке",
+   "updated": "2026-11-19T20:57:48+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=416&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
