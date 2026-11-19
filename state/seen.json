@@ -222,21 +222,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10856,
+    "n": 10857,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T19:14:13+00:00",
+   "at": "2026-11-19T19:16:18+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T19:14:34+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-19T19:16:55+00:00",
+   "elapsed_s": 36,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -261,7 +261,7 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 10858,
+   "ALTA": 10859,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4265,6 +4265,18 @@
    "title": "Премьер Северной Македонии: крах Alta в Сербии грозит банкротствами македонских компаний",
    "title_src": "Mickoski: Makedonske firme upozoravaju na bankrot partnera u Srbiji zbog Alta banke",
    "updated": "2026-11-05T22:04:43+00:00"
+  },
+  "https://n1info.rs/region/komercijalna-banka-skoplje-se-prijavila-za-aukciju-paketa-akcija-alta-banke-bitolj": {
+   "first_seen": "2026-11-19T19:16:55+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Komercijalna banka Skoplje подала заявку на аукцион пакета акций Alta banke Bitolj",
+   "title_src": "Komercijalna banka Skoplje se prijavila za aukciju paketa akcija Alta banke Bitolj",
+   "updated": "2026-11-19T19:16:55+00:00"
   },
   "https://n1info.rs/region/narodna-banka-severne-makedonije-administrativna-uprava-bitolj": {
    "first_seen": "2026-11-01T18:10:39+00:00",
