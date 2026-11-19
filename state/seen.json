@@ -217,23 +217,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T10:00:47+00:00",
-    "n": 10630,
+    "n": 10631,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T11:42:19+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-19T11:44:56+00:00",
+   "dated": 284,
+   "files": 284,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T11:44:43+00:00",
-   "elapsed_s": 144,
+   "at": "2026-11-19T11:45:28+00:00",
+   "elapsed_s": 32,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -252,43 +252,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 54,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 10632,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 10633,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "19.11.2026 10:42",
-    "first": "Уточнены все три канала подачи рекламаций с конкретными адресами и электронными адресами",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "выплаты",
-     "требования",
-     "регулятор",
-     "клиенты"
-    ],
-    "title": "Вкладчики ALTA могут подать рекламацию по выплатам через три канала",
-    "title_src": "Deponenti Alta banke u stečaju mogu da podnesu reklamaciju u vezi sa isplatom osiguranih depozita",
-    "ts": 1795086884.4819894,
-    "url": "https://insajder.net/prenosimo/deponenti-alta-banke-u-stecaju-mogu-da-podnesu-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "АОД напоминает: выплаты застрахованных вкладов Alta начинаются 13 ноября 2026 — Агенция по страхованию вкладов (АОД) напоминает вкладчикам Alta о начале выплат застрахованных сумм — Выплаты начинаются в пятницу, 13 ноября 2026 года",
-   "ts": 1794505142.8982973,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/151"
-  },
   {
    "text": "Выплаты вкладчикам Alta начинаются 13 ноября: Поштанска штедионица готова, средства обеспечены — Все средства для выплаты уже переведены в Поштанскую штедионицу (подтверждение готовности) — Онлайн-портал для записи на выплаты запущен 12 ноября на www.posted.co.rs",
    "ts": 1794506332.357235,
@@ -483,6 +460,11 @@
    "text": "АОД: процедура подачи рекламаций по выплатам застрахованных вкладов ALTA — Электронный адрес для рекламаций в ALTA банку: potvrde@altabanka.rs — Электронный адрес для рекламаций в АОД: reklamacijealta@aod.rs",
    "ts": 1795038977.1927755,
    "url": "https://www.aod.rs/clan/vest/vest_forma/156"
+  },
+  {
+   "text": "Вкладчики ALTA могут подать рекламацию по выплатам через три канала",
+   "ts": 1795088727.3499067,
+   "url": "https://insajder.net/prenosimo/deponenti-alta-banke-u-stecaju-mogu-da-podnesu-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita"
   }
  ],
  "retry_items": {},
@@ -2551,13 +2533,21 @@
   "https://insajder.net/prenosimo/deponenti-alta-banke-u-stecaju-mogu-da-podnesu-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita": {
    "first_seen": "2026-11-19T11:14:44+00:00",
    "kind": "press",
+   "message_id": 331,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-19T11:45:27+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "требования",
+    "регулятор",
+    "клиенты"
+   ],
    "title": "Вкладчики ALTA могут подать рекламацию по выплатам через три канала",
    "title_src": "Deponenti Alta banke u stečaju mogu da podnesu reklamaciju u vezi sa isplatom osiguranih depozita",
-   "updated": "2026-11-19T11:14:44+00:00"
+   "updated": "2026-11-19T11:45:27+00:00"
   },
   "https://insajder.net/prenosimo/direktorka-agencije-za-osiguranje-depozita-u-ponedeljak-ocekujemo-zvanicno-otvaranje-stecaja-nad-alta-bankom": {
    "attempts": 4,
