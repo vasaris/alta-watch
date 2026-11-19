@@ -217,20 +217,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T10:00:47+00:00",
-    "n": 10608,
+    "n": 10609,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T10:58:57+00:00",
+   "at": "2026-11-19T11:00:58+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T10:59:22+00:00",
-   "elapsed_s": 24,
+   "at": "2026-11-19T11:01:25+00:00",
+   "elapsed_s": 27,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -256,7 +256,7 @@
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 10610,
+   "ALTA": 10611,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2016,6 +2016,16 @@
    "title": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
    "title_src": "Danas u Poštanskoj štedionici počinje isplata osiguranih depozita klijentima Alta banke u stečaju",
    "updated": "2026-11-13T12:42:47+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/deponenti-alta-banke-u-stecaju-mogu-podneti-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita": {
+   "first_seen": "2026-11-19T11:01:25+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/vesti/deponenti-alta-banke-u-stecaju-mogu-podneti-reklamaciju-u-vezi-sa-isplatom-osiguranih-depozita",
+   "status": "dup",
+   "title": "Deponenti Alta banke u stečaju mogu podneti reklamaciju u vezi sa isplatom osiguranih depozita",
+   "title_src": "Deponenti Alta banke u stečaju mogu podneti reklamaciju u vezi sa isplatom osiguranih depozita",
+   "updated": "2026-11-19T11:01:25+00:00"
   },
   "https://forbes.n1info.rs/vesti/deponentima-alta-banke-isplaceno-328-miliona-evra-i-198-milijardi-dinara": {
    "first_seen": "2026-11-17T09:56:41+00:00",
