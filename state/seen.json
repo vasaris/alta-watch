@@ -229,20 +229,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10906,
+    "n": 10907,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T20:58:52+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-19T21:00:46+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T20:59:43+00:00",
-   "elapsed_s": 50,
+   "at": "2026-11-19T21:03:19+00:00",
+   "elapsed_s": 152,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -264,13 +264,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 54,
+   "aod": 0,
    "nbs": 4784
   },
   "src_fail": {
-   "ALTA": 10908,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 10909,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -41212,16 +41212,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4054&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка продала на девизном тржишту 10 милиона евра",
+   "updated": "2026-11-19T21:03:06+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4058&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка припремила измене прописа о мењачком пословању",
+   "updated": "2026-11-19T21:03:05+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=406&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41233,16 +41235,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4061&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Одлука о условима и начину обављања своп трансакција између Народне банке Србије и банака",
+   "updated": "2026-11-19T21:03:04+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4068&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Народна банка Србије продала десет милиона евра",
+   "updated": "2026-11-19T21:03:03+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=407&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41254,30 +41258,34 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4070&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Савет Народне банке Србије не разматра  нацрт Закона о Народној банци Србије",
+   "updated": "2026-11-19T21:03:02+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4071&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "ММФ одобрио повлачење треће транше у оквиру стенд-бај аранжмана",
+   "updated": "2026-11-19T21:03:00+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4075&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Наредна седница Монетарног одбора Народне банке Србије",
+   "updated": "2026-11-19T21:02:59+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4079&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Организованe прве тромесечне своп аукције девиза",
+   "updated": "2026-11-19T21:02:58+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=408&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
@@ -41289,16 +41297,18 @@
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4081&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Вредност промета и број плаћања у RTGS  и клиринг систему и међубанкарском клирингу за плаћања у девизама за март 2010.",
+   "updated": "2026-11-19T21:02:57+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4083&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
    "posted": false,
-   "reason": "flood",
-   "status": "quarantine",
-   "updated": "2026-11-07T20:35:58+00:00"
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Савет Народне банке Србије утврдио да је испуњен услов да Радовану Јелашићу престане функција гувернера",
+   "updated": "2026-11-19T21:02:56+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=4086&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
