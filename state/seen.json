@@ -217,21 +217,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T10:00:47+00:00",
-    "n": 10594,
+    "n": 10595,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T10:30:34+00:00",
-   "dated": 284,
-   "files": 284,
-   "pages_ok": 2
+   "at": "2026-11-19T10:32:16+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T10:31:00+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-19T10:34:47+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -252,13 +252,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 54,
+   "aod": 0,
    "nbs": 36
   },
   "src_fail": {
-   "ALTA": 10596,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 10597,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2257,6 +2257,17 @@
    "title": "Владелец Alta banke Давор Макура задержан на 48 часов; обыск в банке длился два дня",
    "title_src": "Advokat Davora Macure: Određeno mu zadržavanje do 48 sati, pretres banke trajao dva dana",
    "updated": "2026-11-02T12:19:06+00:00"
+  },
+  "https://insajder.net/prenosimo/agencija-primedbe-u-vezi-sa-isplatom-depozita-alta-banke-mogu-se-podneti-toj-banci-banci-postanska-stedionica-i-u-agenciji-za-osiguranje-depozita": {
+   "first_seen": "2026-11-19T10:34:47+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 6,
+   "status": "dup",
+   "title": "АОД уточнила процедуру подачи рекламаций по выплатам вкладчикам ALTA",
+   "title_src": "Agencija za osiguranje depozita objavila gde se mogu podneti primedbe u vezi sa isplatom depozita Alta banke",
+   "updated": "2026-11-19T10:34:47+00:00"
   },
   "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-dala-uputstvo-o-izmirenju-obaveza-korisnicima-kredita-u-alta-banci": {
    "first_seen": "2026-11-06T10:46:40+00:00",
