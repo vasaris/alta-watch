@@ -222,21 +222,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-19T16:02:31+00:00",
-    "n": 10873,
+    "n": 10874,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-19T19:50:31+00:00",
+   "at": "2026-11-19T19:52:12+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-19T19:50:48+00:00",
-   "elapsed_s": 17,
-   "llm_calls": 0,
+   "at": "2026-11-19T19:52:47+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -261,7 +261,7 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 10875,
+   "ALTA": 10876,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2701,6 +2701,18 @@
    "title": "Alta banka Bitolj: мобильный банкинг с ограничениями и новый офис в Скопье",
    "title_src": "Klijenti Alta banke Bitolj mogu da koriste mobilno bankarstvo, uz ograničenu potrošnju",
    "updated": "2026-11-10T15:44:57+00:00"
+  },
+  "https://insajder.net/prenosimo/komercijalna-banka-skoplje-prijavila-se-za-aukciju-paketa-akcija-alta-banke-bitolj": {
+   "first_seen": "2026-11-19T19:52:47+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "Komercijalna banka Skoplje подала заявку на аукцион пакета акций Alta banke Bitolj",
+   "title_src": "Komercijalna banka Skoplje prijavila se za aukciju paketa akcija Alta banke Bitolj",
+   "updated": "2026-11-19T19:52:47+00:00"
   },
   "https://insajder.net/prenosimo/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:16:51+00:00",
