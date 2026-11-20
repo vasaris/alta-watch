@@ -1,13 +1,8 @@
 {
  "facts": {
   "bankruptcy_manager": {
-   "at": "2026-11-19T20:57:38+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
-    {
-     "at": "2026-11-07T20:40:39+00:00",
-     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21859&konverzija=no",
-     "value": "Агенција за осигурање депозита (АОД) — после решения суда о назначении"
-    },
     {
      "at": "2026-11-07T20:41:11+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21851&konverzija=no",
@@ -32,14 +27,19 @@
      "at": "2026-11-18T09:01:24+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
      "value": "Агенција за осигурање депозита"
+    },
+    {
+     "at": "2026-11-19T20:57:38+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no",
+     "value": "Агенција за осигурање депозита (AOD)"
     }
    ],
-   "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no",
-   "value": "Агенција за осигурање депозита (AOD)"
+   "source": "aod_notice",
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "Агенција за осигурање депозита (AOD), Масарикова 5, Белград"
   },
   "claims_deadline": {
-   "at": "2026-11-09T11:02:33+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
     {
      "at": "2026-11-06T14:34:26+00:00",
@@ -55,11 +55,16 @@
      "at": "2026-11-06T14:56:38+00:00",
      "url": "https://www.aod.rs/clan/vest/vest_forma/145",
      "value": "3 ноября 2029 (3 года с момента решения суда от 3 ноября 2026)"
+    },
+    {
+     "at": "2026-11-09T11:02:33+00:00",
+     "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.pdf",
+     "value": "90 дней с момента объявления в Службеном гласнику РС"
     }
    ],
    "source": "aod_notice",
-   "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.pdf",
-   "value": "90 дней с момента объявления в Службеном гласнику РС"
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "90 дней с момента объявления решения в Службеном гласнику РС"
   },
   "claims_procedure": {
    "at": "2026-11-06T14:39:14+00:00",
@@ -75,7 +80,7 @@
    "value": "Заявление с документами (оригинал/оверенная копия договоров, удостоверение личности) в АОД (Масарикова 5, Белград) или по почте, или в помещениях банка (Булевар Зорана Ђинђића 121, Белград)"
   },
   "court_decision_date": {
-   "at": "2026-11-09T10:05:08+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
     {
      "at": "2026-11-04T14:38:42+00:00",
@@ -96,20 +101,20 @@
      "at": "2026-11-06T17:52:42+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21884",
      "value": "3 ноября 2026 (решение Привредного суда Белграда № 10 СТ 275/2026)"
+    },
+    {
+     "at": "2026-11-09T10:05:08+00:00",
+     "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.docx",
+     "value": "3 ноября 2026"
     }
    ],
    "source": "aod_notice",
-   "url": "https://www.aod.rs/uploads/dokumenti/oglas/242_1_oglas.docx",
-   "value": "3 ноября 2026"
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "20.11.2026"
   },
   "license_revoked_date": {
-   "at": "2026-11-18T09:01:24+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
-    {
-     "at": "2026-11-06T13:12:33+00:00",
-     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21876",
-     "value": "30 октября 2026"
-    },
     {
      "at": "2026-11-07T20:37:05+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21882&konverzija=no",
@@ -134,11 +139,16 @@
      "at": "2026-11-07T20:41:11+00:00",
      "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21851&konverzija=no",
      "value": "30 октября 2026"
+    },
+    {
+     "at": "2026-11-18T09:01:24+00:00",
+     "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
+     "value": "17 ноября 2026 (решение Исполнительного совета NBS)"
     }
    ],
-   "source": "news",
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906",
-   "value": "17 ноября 2026 (решение Исполнительного совета NBS)"
+   "source": "aod_notice",
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "17.11.2026 (решение Исполнительного совета NBS)"
   },
   "other": {
    "at": "2026-11-19T20:57:38+00:00",
@@ -182,43 +192,58 @@
    "value": "Банка Поштанска штедионица"
   },
   "payout_documents": {
-   "at": "2026-11-18T10:33:26+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
     {
      "at": "2026-11-06T14:56:38+00:00",
      "url": "https://www.aod.rs/clan/vest/vest_forma/145",
      "value": "действительное удостоверение личности; оригинальный договор депозита, договор сбережений, договор текущего счёта, сберегательная книжка, карта счёта или иной документ; для юридических лиц — довереннос"
+    },
+    {
+     "at": "2026-11-18T10:33:26+00:00",
+     "url": "https://www.aod.rs/clan/vest/vest_forma/155",
+     "value": "Подтверждение об основательности требования (если нет оригинальной документации), подтверждение о раздужении неиспользованных чеков, подтверждение о валидности полномочий (для полномочий до 3 ноября 2"
     }
    ],
-   "source": "news",
-   "url": "https://www.aod.rs/clan/vest/vest_forma/155",
-   "value": "Подтверждение об основательности требования (если нет оригинальной документации), подтверждение о раздужении неиспользованных чеков, подтверждение о валидности полномочий (для полномочий до 3 ноября 2"
+   "source": "aod_notice",
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "Оригинал или оверенная копия договора, удостоверение личности, подтверждение об основательности требования (если нет оригиналов)"
   },
   "payout_locations": {
-   "at": "2026-11-18T10:33:26+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
     {
      "at": "2026-11-06T14:56:38+00:00",
      "url": "https://www.aod.rs/clan/vest/vest_forma/145",
      "value": "отделения Банки Поштанске штедионице, указанные на www.aod.rs и www.posted.co.rs"
+    },
+    {
+     "at": "2026-11-18T10:33:26+00:00",
+     "url": "https://www.aod.rs/clan/vest/vest_forma/155",
+     "value": "ALTA банка (Булевар Зорана Ђинђића 121, Нови Белград) — подача заявлений; Банка Поштанска штедионица — получение выплаты"
     }
    ],
-   "source": "news",
-   "url": "https://www.aod.rs/clan/vest/vest_forma/155",
-   "value": "ALTA банка (Булевар Зорана Ђинђића 121, Нови Белград) — подача заявлений; Банка Поштанска штедионица — получение выплаты"
+   "source": "aod_notice",
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "AOD (Масарикова 5, Белград); ALTA банка (Булевар Зорана Ђинђића 121, Нови Белград) — подача заявлений; Банка Поштанска штедионица — получение выплаты"
   },
   "payout_start": {
-   "at": "2026-11-12T17:39:02+00:00",
+   "at": "2026-11-20T15:23:34+00:00",
    "history": [
     {
      "at": "2026-11-06T14:56:38+00:00",
      "url": "https://www.aod.rs/clan/vest/vest_forma/145",
      "value": "13 ноября 2026"
+    },
+    {
+     "at": "2026-11-12T17:39:02+00:00",
+     "url": "https://www.aod.rs/clan/vest/vest_forma/151",
+     "value": "13 ноября 2026 (пятница)"
     }
    ],
-   "source": "news",
-   "url": "https://www.aod.rs/clan/vest/vest_forma/151",
-   "value": "13 ноября 2026 (пятница)"
+   "source": "aod_notice",
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf",
+   "value": "13.11.2026"
   }
  },
  "flags": {
@@ -229,23 +254,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T10:06:25+00:00",
-    "n": 11456,
+    "n": 11457,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T15:20:32+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-20T15:23:06+00:00",
+   "dated": 285,
+   "files": 285,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-20",
   "last_run": {
-   "at": "2026-11-20T15:22:51+00:00",
-   "elapsed_s": 138,
-   "llm_calls": 0,
+   "at": "2026-11-20T15:24:09+00:00",
+   "elapsed_s": 62,
+   "llm_calls": 2,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -264,13 +289,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 55,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11458,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 11459,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -278,11 +303,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
-   "ts": 1794568720.3724496,
-   "url": "https://www.danas.rs/vesti/ekonomija/brat-davor-macura-vila-dedinje"
-  },
   {
    "text": "Очереди русских граждан в Поштанской штедионице при получении застрахованных вкладов Alta — Фактическое начало выплат 13 ноября 2026 в отделении на улице Королевы Марии подтверждено; наблюдаются очереди и задержки несмотря на систему онлайн-записи — Русские граждане составляют значительную часть вкл",
    "ts": 1794569706.711272,
@@ -477,6 +497,11 @@
    "text": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
    "ts": 1795156357.1426022,
    "url": "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati"
+  },
+  {
+   "text": "Решение Привредного суда о ликвидации Alta Leasing d.o.o. Beograd от 20.11.2026 — Решение Привредного суда об открытии ликвидации Alta Leasing d.o.o. — 20.11.2026 — Банк-выплатчик назван: Банка Поштанска штедионица",
+   "ts": 1795188214.6439502,
+   "url": "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf"
   }
  ],
  "retry_items": {},
@@ -9776,13 +9801,14 @@
    "updated": "2026-11-18T21:56:17+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/159": {
-   "attempts": 4,
+   "attempts": 5,
+   "exhausted_signal": "2026-11-20T15:23:53+00:00",
    "first_seen": "2026-11-20T15:08:58+00:00",
    "posted": false,
-   "reason": "llm",
-   "status": "retry",
+   "reason": "retry_exhausted:llm",
+   "status": "quarantine",
    "title": "АОД | Агенција за осигурање депозита",
-   "updated": "2026-11-20T15:18:43+00:00"
+   "updated": "2026-11-20T15:23:52+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/53": {
    "first_seen": "2026-10-31T11:38:15+00:00",
@@ -11837,6 +11863,25 @@
    ],
    "title": "Јавни конкурс за именовање повереника Агенције у поступку стечаја над Алта банком у стечају",
    "updated": "2026-11-16T16:57:04+00:00"
+  },
+  "https://www.aod.rs/uploads/dokumenti/oglas/245_1_oglas.pdf": {
+   "first_seen": "2026-11-20T15:23:34+00:00",
+   "hash": "",
+   "kind": "aod_notice",
+   "message_id": 336,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-20T15:23:34+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "требования",
+    "выплаты",
+    "сроки"
+   ],
+   "title": "Решење Привредног суда у Београду о покретању ликвидационог поступка над друштвом Alta Leasing",
+   "updated": "2026-11-20T15:23:34+00:00"
   },
   "https://www.aod.rs/uploads/dokumenti/oglas/24_1_oglas.pdf": {
    "date": "16.07.2020",
@@ -52601,12 +52646,6 @@
  },
  "signals": [
   {
-   "reason": "Telegram-канал",
-   "title": "Страхование вкладов ALTA: кто получит выплаты и в какие сроки",
-   "ts": "2026-11-01T20:04:13+00:00",
-   "url": "https://t.me/Serbia/107427"
-  },
-  {
    "reason": "непроверенные утверждения",
    "title": "Активист требует проверки судей в деле о банкротстве Alta: конфликт интересов и миллиарды в стечае",
    "ts": "2026-11-01T22:22:14+00:00",
@@ -52899,6 +52938,12 @@
    "title": "Порядок оспаривания страховой выплаты ALTA: сроки и каналы рекламации",
    "ts": "2026-11-19T22:02:12+00:00",
    "url": "https://t.me/Serbia/108060"
+  },
+  {
+   "reason": "официальный материал не обработан после 5 попыток (llm); проверьте вручную",
+   "title": "АОД | Агенција за осигурање депозита",
+   "ts": "2026-11-20T15:23:06+00:00",
+   "url": "https://www.aod.rs/clan/vest/vest_forma/159"
   }
  ]
 }
