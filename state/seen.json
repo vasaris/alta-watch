@@ -229,23 +229,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T04:05:58+00:00",
-    "n": 11191,
+    "n": 11192,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T06:30:34+00:00",
+   "at": "2026-11-20T06:32:13+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-20T06:31:06+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-20T06:32:38+00:00",
+   "elapsed_s": 25,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -268,38 +268,16 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11193,
+   "ALTA": 11194,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "20.11.2026 06:00",
-    "first": "Forbes Srbija публикует расследование о процедуре банкротства Alta banka a.d. Beograd и механизме возврата средств вкладчикам",
-    "important": false,
-    "kind": "press",
-    "outlet": "Forbes Srbija",
-    "tags": [
-     "выплаты",
-     "активы",
-     "требования"
-    ],
-    "title": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
-    "title_src": "ISTRAŽUJEMO Novac u Alta banci tek treba pronaći: Ko će se naplatiti kroz stečaj i koliko će sve trajati",
-    "ts": 1795154469.9333477,
-    "url": "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Выплаты застрахованных вкладов Alta начались 13 ноября через Поштанскую штедионицу — Выплаты фактически начались 13 ноября 2026 в 07:55 (подтверждение факта начала операций) — Вклады сверх 50 000 евро: остаток требований подаётся в стечайном поступке (уточнение процедуры для сверхлимитных сумм)",
-   "ts": 1794554082.7480123,
-   "url": "https://www.rts.rs/vesti/ekonomija/6082476/alta-banka-postanska-stedionica-isplata-depoziti.html"
-  },
   {
    "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине перед крахом банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
    "ts": 1794568720.3724496,
@@ -494,6 +472,11 @@
    "text": "NBS отозвала лицензию Alta Leasing d.o.o. на финансовый лизинг; открывается ликвидация — Отзыв лицензии Alta Leasing — 17 ноября 2026 (решение Исполнительного совета NBS). — Выбран процесс ликвидации вместо банкротства (имущество превышает обязательства).",
    "ts": 1795121858.930069,
    "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906&konverzija=no"
+  },
+  {
+   "text": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
+   "ts": 1795156357.1426022,
+   "url": "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati"
   }
  ],
  "retry_items": {},
@@ -1989,13 +1972,20 @@
   "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati": {
    "first_seen": "2026-11-20T06:01:09+00:00",
    "kind": "press",
+   "message_id": 335,
    "novelty": 4,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-20T06:32:37+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "активы",
+    "требования"
+   ],
    "title": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
    "title_src": "ISTRAŽUJEMO Novac u Alta banci tek treba pronaći: Ko će se naplatiti kroz stečaj i koliko će sve trajati",
-   "updated": "2026-11-20T06:01:09+00:00"
+   "updated": "2026-11-20T06:32:37+00:00"
   },
   "https://forbes.n1info.rs/novac/licne-finansije/kako-do-novca-koji-imate-u-alta-banci-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
