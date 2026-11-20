@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T16:06:39+00:00",
-    "n": 11552,
+    "n": 11553,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T18:32:19+00:00",
+   "at": "2026-11-20T18:34:47+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-20",
   "last_run": {
-   "at": "2026-11-20T18:34:34+00:00",
-   "elapsed_s": 135,
+   "at": "2026-11-20T18:37:10+00:00",
+   "elapsed_s": 142,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,38 +303,16 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11554,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 11555,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "20.11.2026 17:55",
-    "first": "Налоговая служба Сербии опубликовала специальное обведомление для клиентов Alta banka с инструкциями по уплате налогов и сборов в условиях банкротства банка.",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "регулятор",
-     "клиенты",
-     "сроки"
-    ],
-    "title": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
-    "title_src": "Poreska uprava objavila obaveštenje za obveznike koji su u Alta banci imali račune",
-    "ts": 1795197932.5365708,
-    "url": "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Град Пирот потерял доступ к 400 млн динаров в Alta: мэр угрожает судом против NBS — Град Пирот подал исключительный иск 4 ноября 2026 в Хозяйственный суд Белграда и АОД с требованием вернуть 400 млн динаров на счёт города — Мэр Пирота ожидает решения суда до конца ноября (сроки 20–25 дней с момента ",
-   "ts": 1794570551.1403668,
-   "url": "https://n1info.rs/biznis/pirotu-400-miliona-dinara-ostalo-u-alta-banci-gradonacelnik-najavljuje-mogucu-tuzbu-i-protiv-nbs"
-  },
   {
    "text": "Фирма брата владельца Alta получила кредит 3 млн евро на виллу на Дедине за месяцы до краха банка — Конкретная сумма кредита: 3 млн евро; дата договора: 14 июля 2026; срок: 60 месяцев; ставка: EURIBOR 3М + 4,10%. — Дата регистрации ипотеки: 8 сентября 2026; дата залоговой расписки: 15 июля 2026.",
    "ts": 1794571292.1722782,
@@ -529,6 +507,11 @@
    "text": "Решение суда об открытии ликвидации Alta Leasing d.o.o. Beograd от 20.11.2026 — Решение Привредного суда об открытии ликвидации Alta Leasing d.o.o. Beograd: пос. бр. 7. Л 2/2026 от 20.11.2026 — Счёт для платежей по лизингу: AИК банка № 105-0000003084086-19",
    "ts": 1795188674.0244544,
    "url": "https://www.aod.rs/clan/vest/vest_forma/159"
+  },
+  {
+   "text": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
+   "ts": 1795199828.4703484,
+   "url": "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune"
   }
  ],
  "retry_items": {},
@@ -3009,13 +2992,20 @@
   "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune": {
    "first_seen": "2026-11-20T18:05:32+00:00",
    "kind": "press",
+   "message_id": 338,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-20T18:37:08+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "клиенты",
+    "сроки"
+   ],
    "title": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
    "title_src": "Poreska uprava objavila obaveštenje za obveznike koji su u Alta banci imali račune",
-   "updated": "2026-11-20T18:05:32+00:00"
+   "updated": "2026-11-20T18:37:08+00:00"
   },
   "https://insajder.net/prenosimo/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
    "first_seen": "2026-11-08T12:41:41+00:00",
