@@ -229,21 +229,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T04:05:58+00:00",
-    "n": 11175,
+    "n": 11176,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T05:58:13+00:00",
+   "at": "2026-11-20T06:00:43+00:00",
    "dated": 284,
    "files": 284,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-19",
   "last_run": {
-   "at": "2026-11-20T05:58:38+00:00",
-   "elapsed_s": 25,
-   "llm_calls": 0,
+   "at": "2026-11-20T06:01:09+00:00",
+   "elapsed_s": 26,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -268,14 +268,31 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11177,
+   "ALTA": 11178,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "20.11.2026 06:00",
+    "first": "Forbes Srbija публикует расследование о процедуре банкротства Alta banka a.d. Beograd и механизме возврата средств вкладчикам",
+    "important": false,
+    "kind": "press",
+    "outlet": "Forbes Srbija",
+    "tags": [
+     "выплаты",
+     "активы",
+     "требования"
+    ],
+    "title": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
+    "title_src": "ISTRAŽUJEMO Novac u Alta banci tek treba pronaći: Ko će se naplatiti kroz stečaj i koliko će sve trajati",
+    "ts": 1795154469.9333477,
+    "url": "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati"
+   }
+  ]
  },
  "recent": [
   {
@@ -1968,6 +1985,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://forbes.n1info.rs/novac/istrazujemo-novac-u-alta-banci-tek-treba-pronaci-ko-ce-se-naplatiti-kroz-stecaj-i-koliko-ce-sve-trajati": {
+   "first_seen": "2026-11-20T06:01:09+00:00",
+   "kind": "press",
+   "novelty": 4,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "Расследование Forbes: поиск денег в Alta banci, очередность выплат и сроки стечая",
+   "title_src": "ISTRAŽUJEMO Novac u Alta banci tek treba pronaći: Ko će se naplatiti kroz stečaj i koliko će sve trajati",
+   "updated": "2026-11-20T06:01:09+00:00"
   },
   "https://forbes.n1info.rs/novac/licne-finansije/kako-do-novca-koji-imate-u-alta-banci-sta-kazu-propisi-o-stecaju-banaka-i-redosledu-isplate-sredstava": {
    "first_seen": "2026-10-31T11:17:01+00:00",
