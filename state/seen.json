@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T16:06:39+00:00",
-    "n": 11537,
+    "n": 11538,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T18:02:20+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-20T18:04:59+00:00",
+   "dated": 285,
+   "files": 285,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-20",
   "last_run": {
-   "at": "2026-11-20T18:04:38+00:00",
-   "elapsed_s": 138,
-   "llm_calls": 0,
+   "at": "2026-11-20T18:05:32+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,18 +299,35 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 55,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11539,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 11540,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "20.11.2026 17:55",
+    "first": "Налоговая служба Сербии опубликовала специальное обведомление для клиентов Alta banka с инструкциями по уплате налогов и сборов в условиях банкротства банка.",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "регулятор",
+     "клиенты",
+     "сроки"
+    ],
+    "title": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
+    "title_src": "Poreska uprava objavila obaveštenje za obveznike koji su u Alta banci imali račune",
+    "ts": 1795197932.5365708,
+    "url": "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune"
+   }
+  ]
  },
  "recent": [
   {
@@ -2988,6 +3005,17 @@
    "title": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве",
    "title_src": "NBS uputila obaveštenje o načinu izmirenja kredita Alta banke i upozorila na moguće prevare",
    "updated": "2026-11-06T19:33:16+00:00"
+  },
+  "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune": {
+   "first_seen": "2026-11-20T18:05:32+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
+   "title_src": "Poreska uprava objavila obaveštenje za obveznike koji su u Alta banci imali račune",
+   "updated": "2026-11-20T18:05:32+00:00"
   },
   "https://insajder.net/prenosimo/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
    "first_seen": "2026-11-08T12:41:41+00:00",
