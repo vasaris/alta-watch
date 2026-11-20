@@ -229,21 +229,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-20T10:06:25+00:00",
-    "n": 11453,
+    "n": 11454,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-20T15:14:53+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-20T15:17:21+00:00",
+   "dated": 284,
+   "files": 284,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-20",
   "last_run": {
-   "at": "2026-11-20T15:17:07+00:00",
-   "elapsed_s": 134,
-   "llm_calls": 0,
+   "at": "2026-11-20T15:18:01+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -264,13 +264,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 55,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 11455,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 11456,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -9776,13 +9776,13 @@
    "updated": "2026-11-18T21:56:17+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/159": {
-   "attempts": 2,
+   "attempts": 3,
    "first_seen": "2026-11-20T15:08:58+00:00",
    "posted": false,
    "reason": "llm",
    "status": "retry",
    "title": "АОД | Агенција за осигурање депозита",
-   "updated": "2026-11-20T15:11:07+00:00"
+   "updated": "2026-11-20T15:17:49+00:00"
   },
   "https://www.aod.rs/clan/vest/vest_forma/53": {
    "first_seen": "2026-10-31T11:38:15+00:00",
