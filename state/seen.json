@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-21T10:12:08+00:00",
-    "n": 12137,
+    "n": 12138,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-21T14:02:22+00:00",
+   "at": "2026-11-21T14:04:15+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-21",
   "last_run": {
-   "at": "2026-11-21T14:02:39+00:00",
-   "elapsed_s": 16,
-   "llm_calls": 0,
+   "at": "2026-11-21T14:04:57+00:00",
+   "elapsed_s": 41,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12139,
+   "ALTA": 12140,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4912,6 +4912,18 @@
    "title": "Бывший губернатор НБС: крах Alta вызван нечестной работой и недостаточным надзором",
    "title_src": "Kori Udovički o Alta banci: Ovo se ne bi desilo da je neko pošteno radio, NBS morala da pojača nadzor",
    "updated": "2026-11-01T08:49:20+00:00"
+  },
+  "https://nova.rs/psg-agencija-za-osiguranje-depozita-da-zastiti-interese-gradjana-srbije-u-slucaju-prodaje-alta-banke-bitolj": {
+   "first_seen": "2026-11-21T14:04:57+00:00",
+   "kind": "press",
+   "novelty": 8,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 7,
+   "status": "rejected",
+   "title": "PSG требует защиты интересов при продаже Alta банки Битоль; опасения по цене и конфликту интересов",
+   "title_src": "PSG: Agencija za osiguranje depozita da zaštiti interese građana Srbije u slučaju prodaje Alta banke Bitolj",
+   "updated": "2026-11-21T14:04:57+00:00"
   },
   "https://nova.rs/sport/kosarka/zvezda-obrisala-alta-banku-sa-dresa-a-onda-ovako-objasnila-taj-potez": {
    "first_seen": "2026-11-03T11:53:43+00:00",
