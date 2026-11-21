@@ -264,19 +264,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-21T16:12:27+00:00",
-    "n": 12309,
+    "n": 12310,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-21T19:44:16+00:00",
+   "at": "2026-11-21T19:46:27+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-21",
   "last_run": {
-   "at": "2026-11-21T19:44:43+00:00",
+   "at": "2026-11-21T19:46:53+00:00",
    "elapsed_s": 26,
    "llm_calls": 0,
    "llm_down": null,
@@ -303,7 +303,7 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12311,
+   "ALTA": 12312,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -52872,6 +52872,16 @@
    "title": "Alta Leasing вступила в ликвидацию: контракты действуют, кредиторы подают требования в течение 90 дней",
    "title_src": "Алта лизинг у ликвидацији, уговори остају - шта то значи за клијенте",
    "updated": "2026-11-21T19:21:12+00:00"
+  },
+  "https://www.rts.rs/vesti/ekonomija/6089340/alta-lizing-u-likvidaciji-ugovori-ostaju--sta-to-znaci-za-klijente.html": {
+   "first_seen": "2026-11-21T19:46:53+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.rts.rs/vesti/ekonomija/6089340/alta-lizing-u-likvidaciji-ugovori-ostaju---sta-to-znaci-za-klijente.html",
+   "status": "dup",
+   "title": "Алта лизинг у ликвидацији, уговори остају – шта то значи за клијенте",
+   "title_src": "Алта лизинг у ликвидацији, уговори остају – шта то значи за клијенте",
+   "updated": "2026-11-21T19:46:53+00:00"
   },
   "https://www.rts.rs/vesti/region/6074056/makedonija-srbija-alta-banka-guverner.html": {
    "first_seen": "2026-11-01T18:13:27+00:00",
