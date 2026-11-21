@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-21T04:08:32+00:00",
-    "n": 12000,
+    "n": 12001,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-21T09:28:26+00:00",
+   "at": "2026-11-21T09:30:38+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-21",
   "last_run": {
-   "at": "2026-11-21T09:28:52+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-21T09:31:16+00:00",
+   "elapsed_s": 38,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12002,
+   "ALTA": 12003,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанская штедионица продлила работу: 16 450 клиентов Alta записались на выплаты — Глобальные технические проблемы Microsoft затруднили начало выплат в утренние часы 13 ноября 2026. — 16 450 клиентов Alta записались на выплаты через портал BPŠ к моменту публикации (17:07 13 ноября).",
-   "ts": 1794590635.0217922,
-   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-produzen-rad-zbog-isplate-depozita-alta-banke-termin-zakazalo-16450-klijenata"
-  },
   {
    "text": "С 16 ноября Alta выдаёт справки вместо оригинальных документов для получения выплат — С 16 ноября 2026 Alta в стечае выдаёт справки вкладчикам без оригинальных документов — Справки выдаются в рабочие дни с 9:00 до 15:00 часов по адресу Булевар Зорана Ђинђића 121, Нови Белград",
    "ts": 1794590965.3076,
@@ -512,6 +507,11 @@
    "text": "NBS отозвала лицензию у Alta Leasing; начинается ликвидация; клиенты должны продолжать платежи — Решение NBS об отзыве лицензии у Alta Leasing: 17.11.2026 — Решение Привредного суда об открытии ликвидации Alta Leasing: 20.11.2026, пос. бр. 7. Л 2/2026",
    "ts": 1795251681.8127787,
    "url": "https://nova.rs/vesti/biznis/pokrenuta-likvidacija-alta-lizinga-nbs-oduzela-dozvolu-zbog-alta-banke-oglasila-se-agencija-za-osiguranje-depozita"
+  },
+  {
+   "text": "Банка Поштанска штедионица выплатила 42,71% застрахованных депозитов Alta банки — Конкретный процент выплаты застрахованных депозитов: 42,71% — Выплаты уже начались и идут через Банка Поштанска штедионица",
+   "ts": 1795253475.362334,
+   "url": "https://www.021.rs/info/biznis-i-ekonomija/462059/banka-postanska-stedionica-isplaceno-4271-odsto-osiguranih-depozita-alta-banke-u-stecaju"
   }
  ],
  "retry_items": {},
@@ -8975,6 +8975,26 @@
    "title": "Уточнены каналы подачи рекламаций по выплатам вкладов ALTA",
    "title_src": "Objavljeno gde se podnose primedbe u vezi sa isplatom depozita Alta banke",
    "updated": "2026-11-19T11:18:44+00:00"
+  },
+  "https://www.021.rs/info/biznis-i-ekonomija/462059/banka-postanska-stedionica-isplaceno-4271-odsto-osiguranih-depozita-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-21T09:31:15+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 342,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-21T09:31:15+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "банки",
+    "клиенты",
+    "активы"
+   ],
+   "title": "Банка Поштанска штедионица выплатила 42,71% застрахованных депозитов Alta банки",
+   "title_src": "Banka Poštanska štedionica: Isplaćeno 42,71 odsto osiguranih depozita Alta banke u stečaju",
+   "updated": "2026-11-21T09:31:15+00:00"
   },
   "https://www.021.rs/info/region-i-svet/461036/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:39:34+00:00",
