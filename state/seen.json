@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-21T10:12:08+00:00",
-    "n": 12138,
+    "n": 12139,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-21T14:04:15+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-21T14:06:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-21",
   "last_run": {
-   "at": "2026-11-21T14:04:57+00:00",
-   "elapsed_s": 41,
+   "at": "2026-11-21T14:08:46+00:00",
+   "elapsed_s": 148,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12140,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 12141,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -5426,6 +5426,18 @@
    "title": "Хозяйственный суд открыл банкротство ALTA; банк-выплатчик — Банка Поштанске штедионице",
    "title_src": "Privredni sud doneo rešenje o stečaju Alta banke: Poštanska štedionica isplaćivaće osigurane iznose deponentima",
    "updated": "2026-11-03T11:40:42+00:00"
+  },
+  "https://nova.rs/vesti/biznis/psg-agencija-za-osiguranje-depozita-da-zastiti-interese-gradjana-srbije-u-slucaju-prodaje-alta-banke-bitolj": {
+   "first_seen": "2026-11-21T14:08:46+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 6,
+   "status": "rejected",
+   "title": "PSG требует защиты интересов при продаже Alta банки Битоль; опасения о занижении цены и конфликте интересов",
+   "title_src": "PSG: Agencija za osiguranje depozita da zaštiti interese građana Srbije u slučaju prodaje Alta banke Bitolj",
+   "updated": "2026-11-21T14:08:46+00:00"
   },
   "https://nova.rs/vesti/biznis/redovi-ispred-ekspoziture-alta-banke-u-novom-sadu-na-desetine-gradjana-ceka-da-podigne-novac-nakon-oduzimanja-dozvole-banci-video": {
    "first_seen": "2026-10-31T11:17:01+00:00",
