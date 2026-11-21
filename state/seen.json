@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-21T04:08:32+00:00",
-    "n": 12007,
+    "n": 12008,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-21T09:43:03+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-21T09:44:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-21",
   "last_run": {
-   "at": "2026-11-21T09:43:35+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-21T09:46:50+00:00",
+   "elapsed_s": 153,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12009,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 12010,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "С 16 ноября Alta выдаёт справки вместо оригинальных документов для получения выплат — С 16 ноября 2026 Alta в стечае выдаёт справки вкладчикам без оригинальных документов — Справки выдаются в рабочие дни с 9:00 до 15:00 часов по адресу Булевар Зорана Ђинђића 121, Нови Белград",
-   "ts": 1794590965.3076,
-   "url": "https://n1info.rs/biznis/u-alta-banku-po-potvrdu-sta-da-rade-gradjani-koji-nemaju-originalnu-dokumentaciju-o-depozitu-u-banci-u-stecaju"
-  },
   {
    "text": "С 16 ноября Alta выдаёт справки о счётах вместо оригинальных документов — С 16 ноября 2026 Alta выдаёт справки о наличии счётов как альтернативу оригинальным документам для получения выплат — Справки выдаются в рабочие дни с 9:00 до 15:00 в помещении Alta (Булевар Зорана Ђинђића 121, Нови Београд)",
    "ts": 1794591180.6286957,
@@ -512,6 +507,11 @@
    "text": "Банка Поштанска штедионица выплатила 42,71% застрахованных депозитов Alta банки — Конкретный процент выплаты застрахованных депозитов: 42,71% — Выплаты уже начались и идут через Банка Поштанска штедионица",
    "ts": 1795253475.362334,
    "url": "https://www.021.rs/info/biznis-i-ekonomija/462059/banka-postanska-stedionica-isplaceno-4271-odsto-osiguranih-depozita-alta-banke-u-stecaju"
+  },
+  {
+   "text": "Банка Поштанска штедионица выплатила 42,71% застрахованных депозитов Alta в динарах и 40,86% в евро — Конкретные проценты выплаты по состоянию на 20.11.2026: 42,71% в динарах (5,87 млрд), 40,86% в евро (91,23 млн) — Количество и расположение отделений выплаты: 57 по Сербии, 31 в Белграде, специализи",
+   "ts": 1795254409.1182716,
+   "url": "https://insajder.net/prenosimo/postanska-stedionica-isplaceno-vise-od-40-odsto-osiguranih-depozita-alta-banke-u-dinarima-i-evrima"
   }
  ],
  "retry_items": {},
@@ -3006,6 +3006,26 @@
    "title": "Налоговая служба Сербии опубликовала инструкции для клиентов Alta banka по уплате налогов",
    "title_src": "Poreska uprava objavila obaveštenje za obveznike koji su u Alta banci imali račune",
    "updated": "2026-11-20T18:37:08+00:00"
+  },
+  "https://insajder.net/prenosimo/postanska-stedionica-isplaceno-vise-od-40-odsto-osiguranih-depozita-alta-banke-u-dinarima-i-evrima": {
+   "first_seen": "2026-11-21T09:46:49+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 343,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-21T09:46:49+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "Банка Поштанска штедионица выплатила 42,71% застрахованных депозитов Alta в динарах и 40,86% в евро",
+   "title_src": "Poštanska štedionica: Isplaćeno više od 40 odsto osiguranih depozita Alta banke u dinarima i evrima",
+   "updated": "2026-11-21T09:46:49+00:00"
   },
   "https://insajder.net/prenosimo/povecava-se-limit-za-podizanje-novca-u-alta-banci-bitolj-i-otvaraju-salteri-u-tetovu-i-strumici": {
    "first_seen": "2026-11-08T12:41:41+00:00",
