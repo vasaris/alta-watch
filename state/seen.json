@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-22T10:16:02+00:00",
-    "n": 12882,
+    "n": 12883,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-22T14:46:43+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-22T14:49:14+00:00",
+   "dated": 285,
+   "files": 285,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-22",
   "last_run": {
-   "at": "2026-11-22T14:49:02+00:00",
-   "elapsed_s": 139,
-   "llm_calls": 0,
+   "at": "2026-11-22T14:49:49+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 55,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 12884,
-   "AOD новости": 2,
-   "AOD объявления": 2,
+   "ALTA": 12885,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "С 16 ноября Alta выдаёт справки о наличии счётов вместо оригинальных документов",
-   "ts": 1794591182.7009914,
-   "url": "https://www.021.rs/info/srbija/461246/izdavanje-potvrda-o-posedovanju-racuna-u-alta-banci-u-stecaju-od-16-novembra"
-  },
   {
    "text": "Начало выплат застрахованных вкладов Alta: очереди в центре Белграда, онлайн-запись работает",
    "ts": 1794598231.2281754,
@@ -512,6 +507,11 @@
    "text": "Alta Leasing вступила в ликвидацию: контракты действуют, кредиторы подают требования в течение 90 дней — Привредный суд Белграда открыл ликвидацию Alta Leasing (дата: 21.11.2026, время: 20:00–20:19). — NBS оценила, что у Alta Leasing достаточно имущества для погашения всех обязательств, поэтому откр",
    "ts": 1795288872.9370356,
    "url": "https://www.rts.rs/vesti/ekonomija/6089340/alta-lizing-u-likvidaciji-ugovori-ostaju---sta-to-znaci-za-klijente.html"
+  },
+  {
+   "text": "Банка Поштанска штедионица выплатила вкладчикам ALTA 43,58% застрахованных средств — Конкретный размер выплат на 21.11.2026: 148,19 млн евро (43,58% от общей суммы) — Разбивка по валютам: 6,1 млрд динаров (44,63%) и 96 млн евро (43,03%)",
+   "ts": 1795358988.2545679,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-deponentima-alta-banke-isplaceno-4358-odsto-od-ukupnog-iznosa"
   }
  ],
  "retry_items": {},
@@ -2418,6 +2418,26 @@
    "status": "rejected",
    "title": "Alta banka potvrdila pokretanje stečaja: Obustavljen platni promet, isplata osiguranih depozita od ponedeljka",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-deponentima-alta-banke-isplaceno-4358-odsto-od-ukupnog-iznosa": {
+   "first_seen": "2026-11-22T14:49:48+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 346,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-22T14:49:48+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "банки",
+    "клиенты",
+    "сроки"
+   ],
+   "title": "Банка Поштанска штедионица выплатила вкладчикам ALTA 43,58% застрахованных средств",
+   "title_src": "Banka Poštanska štedionica: Deponentima Alta banke isplaćeno 43,58 odsto od ukupnog iznosa",
+   "updated": "2026-11-22T14:49:48+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceni-u-petak-svi-zakazani-klijenti-alta-banke-poslednja-isplata-u-2347-sati": {
    "first_seen": "2026-11-14T08:10:38+00:00",
