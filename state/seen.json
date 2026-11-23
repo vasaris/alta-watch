@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-23T10:21:09+00:00",
-    "n": 13472,
+    "n": 13473,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-23T10:30:35+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-23T10:32:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-23",
   "last_run": {
-   "at": "2026-11-23T10:31:15+00:00",
-   "elapsed_s": 39,
-   "llm_calls": 0,
+   "at": "2026-11-23T10:34:54+00:00",
+   "elapsed_s": 157,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 35
   },
   "src_fail": {
-   "ALTA": 13474,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 13475,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1757,6 +1757,17 @@
    "title": "Губернатор NBS отменила пресс-конференцию по инфляции из-за скандала с Alta banka",
    "title_src": "Jorgovanka Tabaković odbila konferenciju NBS o inflaciji zbog afere Alta banka",
    "updated": "2026-11-18T11:56:36+00:00"
+  },
+  "https://beta.rs/content/256394-skupstina-beograda-pocela-sednicu-o-rebalansu-budzeta-i-inicijativi-za-razresenje-sapica": {
+   "first_seen": "2026-11-23T10:34:54+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Белградская Скупщина отказалась обсуждать контракты с Alta банком",
+   "title_src": "Odbornici vladajuće večine u Skupštini Beograda odbili da razgovaraju o ugovorima sa Alta bankom",
+   "updated": "2026-11-23T10:34:54+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
