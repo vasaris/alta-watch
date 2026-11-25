@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T16:29:06+00:00",
-    "n": 15213,
+    "n": 15214,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T20:58:21+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T21:00:47+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T20:58:54+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-25T21:03:12+00:00",
+   "elapsed_s": 144,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15215,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15216,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -4682,6 +4682,18 @@
    "title": "Belgrade Waterfront: депозиты в Alta не угрожают ликвидности компании",
    "title_src": "BW o oduzimanju licence Alta banci: Nema rizika po likvidnost",
    "updated": "2026-11-03T10:47:31+00:00"
+  },
+  "https://n1info.rs/vesti/da-li-je-ugrozen-celokupni-javni-prevoz-u-nisu-direkcija-za-saobracaj-ostala-bez-170-miliona-u-alta-banci": {
+   "first_seen": "2026-11-25T21:03:12+00:00",
+   "kind": "press",
+   "novelty": 0,
+   "posted": false,
+   "reason": "subject:other",
+   "relevance": 2,
+   "status": "rejected",
+   "title": "Направление общественного транспорта Ниша потеряло 170 млн динаров в Alta банке",
+   "title_src": "Da li je ugrožen celokupni javni prevoz u Nišu: Direkcija za saobraćaj ostala bez 170 miliona u Alta banci",
+   "updated": "2026-11-25T21:03:12+00:00"
   },
   "https://n1info.rs/vesti/dejan-soskic-o-alta-banci": {
    "first_seen": "2026-11-09T07:04:50+00:00",
