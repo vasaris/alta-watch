@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T04:28:00+00:00",
-    "n": 14838,
+    "n": 14839,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T08:10:27+00:00",
+   "at": "2026-11-25T08:12:17+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T08:10:51+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-25T08:12:57+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14840,
+   "ALTA": 14841,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Начало выплат застрахованных вкладов Alta: очереди в центре Белграда, онлайн-запись работает",
-   "ts": 1794598231.2281754,
-   "url": "https://n1info.rs/biznis/alta-banka-pocetak-isplate-osiguranih-depozita"
-  },
   {
    "text": "Поштанская штедионица выплатила менее 1300 вкладчиков Alta в первый день — Конкретное число выплаченных вкладчиков в первый день: менее 1300 (около 2% от всех) — Конкретное число зарегистрировавшихся на выплаты: менее 17 000 (более четверти имеющих право)",
    "ts": 1794643519.798724,
@@ -512,6 +507,11 @@
    "text": "Банка Поштанска штедионица выплатила вкладчикам ALTA 43,58% застрахованных средств — Конкретный размер выплат на 21.11.2026: 148,19 млн евро (43,58% от общей суммы) — Разбивка по валютам: 6,1 млрд динаров (44,63%) и 96 млн евро (43,03%)",
    "ts": 1795358988.2545679,
    "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-deponentima-alta-banke-isplaceno-4358-odsto-od-ukupnog-iznosa"
+  },
+  {
+   "text": "Банка Поштанска штедионица выплатила более половины застрахованных депозитов Alta — Выплачено 185,384 млн евро (54,52% от всех застрахованных средств) по состоянию на 24.11.2026 20:15 — По евро: 119,73 млн евро (53,63%); по динарам: 7,72 млрд динаров (56,22%)",
+   "ts": 1795594375.718606,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplatila-vise-od-polovine-osiguranih-depozita-alta-banke"
   }
  ],
  "retry_items": {},
@@ -2487,6 +2487,26 @@
    "title": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня",
    "title_src": "Banka Poštanska štedionica: Isplaćeno više od sedam odsto sredstava klijentima Alta banke",
    "updated": "2026-11-14T19:33:30+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-isplatila-vise-od-polovine-osiguranih-depozita-alta-banke": {
+   "first_seen": "2026-11-25T08:12:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 347,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-25T08:12:55+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "клиенты",
+    "сроки",
+    "регулятор"
+   ],
+   "title": "Банка Поштанска штедионица выплатила более половины застрахованных депозитов Alta",
+   "title_src": "Banka Poštanska štedionica isplatila više od polovine osiguranih depozita Alta banke",
+   "updated": "2026-11-25T08:12:55+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-nastavlja-se-isplata-osiguranih-depozita-deponentima-alta-banke-u-stecaju": {
    "first_seen": "2026-11-17T08:28:56+00:00",
