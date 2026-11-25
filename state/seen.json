@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 15021,
+    "n": 15022,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T14:16:17+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T14:18:21+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T14:16:52+00:00",
-   "elapsed_s": 35,
+   "at": "2026-11-25T14:20:56+00:00",
+   "elapsed_s": 155,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15023,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15024,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня — Уточненное число записанных сроков: 17 789 (предыдущие сообщения указывали менее 17 000). — Процент выплаченных средств за два дня: 7,27% в динарах и 7,74% в евро.",
-   "ts": 1794684810.5648186,
-   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceno-vise-od-sedam-odsto-sredstava-klijentima-alta-banke"
-  },
   {
    "text": "Поштанская штедионица выплатила около 7% средств вкладчикам Alta за два дня — Уточнённый процент выплаченных средств: около 7% за два дня (13–14 ноября 2026)",
    "ts": 1794686193.4561076,
@@ -512,6 +507,11 @@
    "text": "Арестованы брат владельца и директор Alta Group; следствие о хищении 390 млн евро из сейфа — Арест Дубравко Макуры и Татьяны Бундало (25.11.2026) — Полицейское задержание на 48 часов; допрос Дубравко Макуры в Прокуратуре по организованной преступности",
    "ts": 1795616211.0768492,
    "url": "https://n1info.rs/vesti/krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-grupe"
+  },
+  {
+   "text": "Арестованы брат владельца Alta и директор Alta Pay Group по делу о хищении 390 млн евро — Арест Дубравко Макуры и Татьяны Бундало 25.11.2026; полицейское задержание на 48 часов — Дубравко Макура допрашивается в Прокуратуре по организованной преступности; решение о мере пресечения ожидается после доп",
+   "ts": 1795616455.3848634,
+   "url": "https://nova.rs/vesti/hronika/uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group"
   }
  ],
  "retry_items": {},
@@ -5978,6 +5978,26 @@
    "title": "Арестован Давор Макура, владелец Alta banke",
    "title_src": "Uhapšen Davor Macura, biznismen blizak Srpskoj naprednoj stranci i vlasnik Alta banke",
    "updated": "2026-11-02T10:51:11+00:00"
+  },
+  "https://nova.rs/vesti/hronika/uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group": {
+   "first_seen": "2026-11-25T14:20:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 351,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-25T14:20:55+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
+   "title": "Арестованы брат владельца Alta и директор Alta Pay Group по делу о хищении 390 млн евро",
+   "title_src": "Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
+   "updated": "2026-11-25T14:20:55+00:00"
   },
   "https://nova.rs/vesti/hronika/vlasniku-alta-banke-davoru-macuri-i-njegovim-firmama-zabranjeno-raspolaganje-imovinom": {
    "first_seen": "2026-11-11T20:16:47+00:00",
