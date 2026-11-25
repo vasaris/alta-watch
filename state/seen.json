@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T16:29:06+00:00",
-    "n": 15126,
+    "n": 15127,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T18:06:41+00:00",
+   "at": "2026-11-25T18:08:14+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T18:07:08+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-25T18:08:51+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15128,
+   "ALTA": 15129,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -13546,6 +13546,18 @@
    "title": "АОД: заёмщики Alta банка должны продолжать платежи по кредитам на счёт NBS",
    "title_src": "Agencija za osigranje depozita objavila kako korisnici kredita Alta banke mogu da izmire svoje obaveze",
    "updated": "2026-11-06T09:01:30+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/alta-banka-bankrot-namerno-tragovi": {
+   "first_seen": "2026-11-25T18:08:51+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 7,
+   "status": "signal",
+   "title": "Были ли закрытие Alta банки намеренным? Вопросы о скорости банкротства и сохранности документов",
+   "title_src": "Da li je Alta banka naprečac gurnuta u bankrot da bi se zameli tragovi?",
+   "updated": "2026-11-25T18:08:51+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/alta-banka-isplata-osiguranih-depozita-pocinje-u-ponedeljak": {
    "first_seen": "2026-10-31T11:20:40+00:00",
@@ -53235,12 +53247,6 @@
  },
  "signals": [
   {
-   "reason": "Telegram-канал",
-   "title": "Взаимопомощь вкладчиков Alta: продукты, волонтёры, поддержка бизнеса",
-   "ts": "2026-11-02T07:58:52+00:00",
-   "url": "https://t.me/volna_srbjia/3311"
-  },
-  {
    "reason": "непроверенные утверждения",
    "title": "Дугалић и Стевановић: почему НБС не реагировала раньше на Alta banka, нужно расследование",
    "ts": "2026-11-02T09:14:22+00:00",
@@ -53533,6 +53539,12 @@
    "title": "Сбор подписей под обращениями вкладчиков ALTA к АОД и НБС",
    "ts": "2026-11-23T09:50:48+00:00",
    "url": "https://t.me/novisadaily/20601"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Были ли закрытие Alta банки намеренным? Вопросы о скорости банкротства и сохранности документов",
+   "ts": "2026-11-25T18:08:14+00:00",
+   "url": "https://www.danas.rs/vesti/ekonomija/alta-banka-bankrot-namerno-tragovi"
   }
  ]
 }
