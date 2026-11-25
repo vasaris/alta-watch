@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 15071,
+    "n": 15072,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T16:12:19+00:00",
+   "at": "2026-11-25T16:14:16+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T16:12:45+00:00",
-   "elapsed_s": 25,
+   "at": "2026-11-25T16:14:37+00:00",
+   "elapsed_s": 21,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15073,
+   "ALTA": 15074,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -9727,6 +9727,16 @@
    "title": "Арестованы брат Давора Мацуре и директор Alta Pay Group",
    "title_src": "Uhapšeni brat Davora Macure i direktorka Alta Pay Group",
    "updated": "2026-11-25T14:13:45+00:00"
+  },
+  "https://www.021.rs/info/srbija/462546/studentski-pokret-institucije-da-odgovore-sta-se-dogodilo-sa-dokumentacijom-alta-banke": {
+   "first_seen": "2026-11-25T16:14:37+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/256558-studentski-pokret-trazi-da-institucije-odgovore-sta-se-dogodilo-sa-dokumentacijom-alta-banke",
+   "status": "dup",
+   "title": "Studentski pokret: Institucije da odgovore šta se dogodilo sa dokumentacijom Alta banke",
+   "title_src": "Studentski pokret: Institucije da odgovore šta se dogodilo sa dokumentacijom Alta banke",
+   "updated": "2026-11-25T16:14:37+00:00"
   },
   "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
    "first_seen": "2026-11-10T14:53:13+00:00",
