@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 15020,
+    "n": 15021,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T14:14:16+00:00",
+   "at": "2026-11-25T14:16:17+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T14:14:40+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-25T14:16:52+00:00",
+   "elapsed_s": 35,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15022,
+   "ALTA": 15023,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанская штедионица выплатила всех записанных клиентов Alta в первый день, несмотря на сбои Microsoft — Все записанные на 13 ноября клиенты получили выплаты несмотря на технические сбои. — Последний клиент выплачен в 23:47 из-за продления рабочего времени.",
-   "ts": 1794644611.1116061,
-   "url": "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-prvog-dana-isplaceni-svi-klijenti-alta-banke-sa-zakazanim-terminima"
-  },
   {
    "text": "Поштанская штедионица выплатила более 7% средств вкладчикам Alta за два дня — Уточненное число записанных сроков: 17 789 (предыдущие сообщения указывали менее 17 000). — Процент выплаченных средств за два дня: 7,27% в динарах и 7,74% в евро.",
    "ts": 1794684810.5648186,
@@ -512,6 +507,11 @@
    "text": "Студенческое движение требует от регуляторов отчёта о сохранности документации Alta банки",
    "ts": 1795608662.0657866,
    "url": "https://www.rts.rs/vesti/ekonomija/6092173/studenti-pokret-alta-banka-.html"
+  },
+  {
+   "text": "Арестованы брат владельца и директор Alta Group; следствие о хищении 390 млн евро из сейфа — Арест Дубравко Макуры и Татьяны Бундало (25.11.2026) — Полицейское задержание на 48 часов; допрос Дубравко Макуры в Прокуратуре по организованной преступности",
+   "ts": 1795616211.0768492,
+   "url": "https://n1info.rs/vesti/krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-grupe"
   }
  ],
  "retry_items": {},
@@ -4750,6 +4750,26 @@
    "title": "NBS под вопросом: критика надзора перед крахом Alta Banka",
    "title_src": "Od sve je pod kontrolom do oduzimanja dozvole u nekoliko dana: Kolika je odgovornost NBS za slučaj Alta banke?",
    "updated": "2026-10-31T18:21:11+00:00"
+  },
+  "https://n1info.rs/vesti/krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-grupe": {
+   "first_seen": "2026-11-25T14:16:51+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 350,
+   "novelty": 9,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-25T14:16:51+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "регулятор",
+    "активы",
+    "требования"
+   ],
+   "title": "Арестованы брат владельца и директор Alta Group; следствие о хищении 390 млн евро из сейфа",
+   "title_src": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta grupe",
+   "updated": "2026-11-25T14:16:51+00:00"
   },
   "https://n1info.rs/vesti/macura-saslusan-pred-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor": {
    "first_seen": "2026-11-03T23:56:53+00:00",
