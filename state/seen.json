@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 15047,
+    "n": 15048,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T15:08:31+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T15:10:26+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T15:09:02+00:00",
-   "elapsed_s": 31,
+   "at": "2026-11-25T15:12:38+00:00",
+   "elapsed_s": 131,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15049,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15050,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2186,6 +2186,16 @@
    "title": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
    "title_src": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
    "updated": "2026-11-06T14:46:35+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group": {
+   "first_seen": "2026-11-25T15:12:38+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/256570-krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group",
+   "status": "dup",
+   "title": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
+   "title_src": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
+   "updated": "2026-11-25T15:12:38+00:00"
   },
   "https://forbes.n1info.rs/vesti/malim-investitorima-klijentima-alta-banke-isplata-najvise-do-20-000-evra": {
    "first_seen": "2026-11-06T15:10:47+00:00",
