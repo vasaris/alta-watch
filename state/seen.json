@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T04:28:00+00:00",
-    "n": 14857,
+    "n": 14858,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T08:46:16+00:00",
+   "at": "2026-11-25T08:48:17+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T08:46:35+00:00",
-   "elapsed_s": 19,
-   "llm_calls": 0,
+   "at": "2026-11-25T08:48:46+00:00",
+   "elapsed_s": 28,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14859,
+   "ALTA": 14860,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -5719,6 +5719,17 @@
    "title": "Nova: владелец Alta banke арестован по подозрению в хищении 45 млрд динаров; адвокат Нинич подал иск против 63 лиц",
    "title_src": "\"Nova\" i u utorak na kioscima:  O Davoru Macuri, kapilarnim glasovima u zatvorima, spisku pomilovanih...",
    "updated": "2026-11-02T20:03:11+00:00"
+  },
+  "https://nova.rs/vesti/drustvo/studenti-o-alta-banci-trazimo-informacije-o-cuvanju-dokumentacije-nadzornim-kontrolama-i-postupanju-institucija": {
+   "first_seen": "2026-11-25T08:48:46+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Студенты требуют информацию о сохранении документации Alta банка",
+   "title_src": "Studenti o Alta banci: Tražimo informacije o čuvanju dokumentacije, nadzornim kontrolama i postupanju institucija",
+   "updated": "2026-11-25T08:48:46+00:00"
   },
   "https://nova.rs/vesti/drustvo/studenti-o-oduzimanju-dozvole-za-rad-alta-banci-nema-razloga-za-paniku-trazimo-istragu-poslovanja-i-odgovornost-nadleznih": {
    "first_seen": "2026-10-31T18:28:40+00:00",
