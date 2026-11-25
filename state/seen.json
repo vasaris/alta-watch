@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 14981,
+    "n": 14982,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T12:56:18+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T12:58:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T12:56:49+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-25T13:00:37+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14983,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 14984,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1780,6 +1780,17 @@
    "title": "Alta банка Битола: компании могут использовать новые поступления без ограничений",
    "title_src": "Firme klijenti Alta banke Bitolj mogu da koriste nove prilive bez ograničenja",
    "updated": "2026-11-25T10:42:45+00:00"
+  },
+  "https://beta.rs/content/256558-studentski-pokret-trazi-da-institucije-odgovore-sta-se-dogodilo-sa-dokumentacijom-alta-banke": {
+   "first_seen": "2026-11-25T13:00:37+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Студенческое движение требует от регуляторов отчёта о сохранности документации Alta банки",
+   "title_src": "Studentski pokret traži da institucije odgovore šta se dogodilo sa dokumentacijom Alta banke",
+   "updated": "2026-11-25T13:00:37+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
