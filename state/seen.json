@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T16:29:06+00:00",
-    "n": 15184,
+    "n": 15185,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T20:00:47+00:00",
+   "at": "2026-11-25T20:02:18+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T20:01:16+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-25T20:03:05+00:00",
+   "elapsed_s": 46,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15186,
+   "ALTA": 15187,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Директор AOD связана семейными кредитами на 1,6 млн евро в ALTA banka — Директор AOD Любица Панtelić имеет супруга, который является гарантом трёх кредитов (1,6 млн евро) в ALTA banka, полученных членом семьи (девером) на имя бутика. — Три ипотеки зарегистрированы на квартиру супруга директора в Бел",
-   "ts": 1794811413.548887,
-   "url": "https://nova.rs/vesti/biznis/direktorka-agencije-za-osiguranje-depozita-porodicno-povezana-sa-kreditima-od-16-miliona-evra-u-alta-banci"
-  },
   {
    "text": "Супруг директора AOD — гарант кредитов на 1,6 млн евро в ALTA banka; возможен конфликт интересов — Супруг директора AOD Панtelić является гарантом трёх кредитов (250 000, 440 000, ~905 000 евро) в ALTA banka, выданных его брату в 2024–2026 годах. — Ипотеки на квартиру супруга в Белграде служат обесп",
    "ts": 1794823001.4517362,
@@ -512,6 +507,11 @@
    "text": "Арестованы брат владельца Alta и директор Alta Group; запрет на распоряжение имуществом — Запрет на распоряжение имуществом распространён на Дубравко Макуру (брата владельца) — жилые и деловые здания в Белграде. — Уточнение: запрет на имущество Давора Макуры касается также земли в Земун Поле и Сопот",
    "ts": 1795620825.1205957,
    "url": "https://insajder.net/teme/uhapseni-brat-vlasnika-alta-banke-i-direktorka-alta-grupe-dubravku-macuri-zabranjeno-raspoalganje-imovinom"
+  },
+  {
+   "text": "Прокуратура запретила распоряжение имуществом брата владельца Alta и расширила следствие о хищении 380 млн евро — Запрет на распоряжение имуществом распространён на Дубравко Макуру лично (не только на компании) — Конкретный перечень имущества Дубравко Макуры под запретом: пространство 300 кв.м на Вр",
+   "ts": 1795636983.6320946,
+   "url": "https://insajder.net/teme/dubravku-macuri-zabranjeno-raspolaganje-imovinom-poslovni-prostor-od-300-kvadrata-na-vracaru-zgrada-od-925-kvadrata-u-zelezniku-i-stambeno-poslovni-objekat-u-zemunu"
   }
  ],
  "retry_items": {},
@@ -3328,6 +3328,26 @@
    "title": "Анализ Insajdera: какие государственные и общественные предприятия имели счета в Alta и сколько денег заблокировано",
    "title_src": "Analiza Insajdera: Koja državna i javna preduzeća imaju račune u Alta banci i da li im je deo novca zarobljen",
    "updated": "2026-11-03T16:36:52+00:00"
+  },
+  "https://insajder.net/teme/dubravku-macuri-zabranjeno-raspolaganje-imovinom-poslovni-prostor-od-300-kvadrata-na-vracaru-zgrada-od-925-kvadrata-u-zelezniku-i-stambeno-poslovni-objekat-u-zemunu": {
+   "first_seen": "2026-11-25T20:03:03+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 353,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-25T20:03:03+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "регулятор",
+    "требования"
+   ],
+   "title": "Прокуратура запретила распоряжение имуществом брата владельца Alta и расширила следствие о хищении 380 млн евро",
+   "title_src": "Dubravku Macuri zabranjeno raspolaganje imovinom: Poslovni prostor od 300 kvadrata na Vračaru, zgrada od 925 kvadrata u Železniku i stambeno-poslovni objekat u Zemunu (VIDEO)",
+   "updated": "2026-11-25T20:03:03+00:00"
   },
   "https://insajder.net/teme/ekonomista-o-makedonskoj-alta-banci-u-bitolju-nadamo-se-da-nece-biti-srpskog-scenarija-video": {
    "first_seen": "2026-11-03T16:55:52+00:00",
