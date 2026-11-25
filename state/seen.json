@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 14913,
+    "n": 14914,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T10:40:27+00:00",
+   "at": "2026-11-25T10:42:18+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T10:40:51+00:00",
-   "elapsed_s": 23,
-   "llm_calls": 0,
+   "at": "2026-11-25T10:42:45+00:00",
+   "elapsed_s": 26,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14915,
+   "ALTA": 14916,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -1786,6 +1786,18 @@
    "title": "Белградская Скупщина отказалась обсуждать контракты с Alta банком",
    "title_src": "Odbornici vladajuće večine u Skupštini Beograda odbili da razgovaraju o ugovorima sa Alta bankom",
    "updated": "2026-11-23T10:34:54+00:00"
+  },
+  "https://beta.rs/content/256546-firme-klijenti-alta-banke-bitolj-mogu-da-koriste-nove-prilive-bez-ogranicenja": {
+   "first_seen": "2026-11-25T10:42:45+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "reason": "subject:alta_bitola",
+   "relevance": 3,
+   "status": "rejected",
+   "title": "Alta банка Битола: компании могут использовать новые поступления без ограничений",
+   "title_src": "Firme klijenti Alta banke Bitolj mogu da koriste nove prilive bez ograničenja",
+   "updated": "2026-11-25T10:42:45+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
