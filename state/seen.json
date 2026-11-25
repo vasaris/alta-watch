@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T04:28:00+00:00",
-    "n": 14901,
+    "n": 14902,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T10:16:29+00:00",
+   "at": "2026-11-25T10:18:28+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T10:16:56+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-25T10:19:02+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,14 +303,32 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14903,
+   "ALTA": 14904,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "25.11.2026 10:16",
+    "first": "Конкретный клиент Alta банки (Направление общественного транспорта Ниша) потерял 150 млн динаров на счёте.",
+    "important": false,
+    "kind": "press",
+    "outlet": "N1",
+    "tags": [
+     "клиенты",
+     "активы",
+     "требования",
+     "суд"
+    ],
+    "title": "Направление общественного транспорта Ниша потеряло 150 млн динаров на счёте в Alta банке",
+    "title_src": "Direkcija za javni prevoz Niša imala 150 miliona dinara na računu Alta banke u trenutku proglašenja stečaja",
+    "ts": 1795601942.0730898,
+    "url": "https://n1info.rs/biznis/direkcija-javni-prevoz-nis-150-miliona-dinara-alta-banka"
+   }
+  ]
  },
  "recent": [
   {
@@ -3604,6 +3622,17 @@
    "title": "Эксперты: банковская система Сербии стабильна, Alta — исключение; вопросы к надзору NBS",
    "title_src": "Demostat: Šta sve pokreće afera sa Alta bankom, a šta kažu ostale banke",
    "updated": "2026-11-10T08:15:40+00:00"
+  },
+  "https://n1info.rs/biznis/direkcija-javni-prevoz-nis-150-miliona-dinara-alta-banka": {
+   "first_seen": "2026-11-25T10:19:02+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Направление общественного транспорта Ниша потеряло 150 млн динаров на счёте в Alta банке",
+   "title_src": "Direkcija za javni prevoz Niša imala 150 miliona dinara na računu Alta banke u trenutku proglašenja stečaja",
+   "updated": "2026-11-25T10:19:02+00:00"
   },
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
