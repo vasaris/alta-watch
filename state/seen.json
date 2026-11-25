@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 15035,
+    "n": 15036,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T14:44:18+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T14:46:20+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T14:44:45+00:00",
-   "elapsed_s": 27,
+   "at": "2026-11-25T14:48:44+00:00",
+   "elapsed_s": 143,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15037,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15038,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -1791,6 +1791,16 @@
    "title": "Студенческое движение требует от регуляторов отчёта о сохранности документации Alta банки",
    "title_src": "Studentski pokret traži da institucije odgovore šta se dogodilo sa dokumentacijom Alta banke",
    "updated": "2026-11-25T13:00:37+00:00"
+  },
+  "https://beta.rs/content/256570-krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group": {
+   "first_seen": "2026-11-25T14:48:44+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://nova.rs/vesti/hronika/uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group",
+   "status": "dup",
+   "title": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
+   "title_src": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
+   "updated": "2026-11-25T14:48:44+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
