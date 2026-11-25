@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T16:29:06+00:00",
-    "n": 15134,
+    "n": 15135,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T18:22:16+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T18:24:19+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T18:22:43+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-25T18:26:46+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15136,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15137,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -6725,6 +6725,17 @@
    "posted": false,
    "seeded": true,
    "status": "seeded"
+  },
+  "https://radar.nova.rs/drustvo/novi-radar-nbs-sns-alta-mup-eu-ekonomija": {
+   "first_seen": "2026-11-25T18:26:46+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Radar: анализ конфиденциального решения NBS об отзыве лицензии Alta — слабости банка и вопросы к регулятору",
+   "title_src": "Novi Radar: Šta piše u poverljivom rešenju NBS o oduzimanju dozvole za rad Alta banci",
+   "updated": "2026-11-25T18:26:46+00:00"
   },
   "https://radar.nova.rs/drustvo/uhapsen-davor-macura-najbrze-rastuca-banka-pod-led-otisla-za-pet-dana": {
    "first_seen": "2026-11-02T12:48:53+00:00",
