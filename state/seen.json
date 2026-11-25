@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 14916,
+    "n": 14917,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T10:46:16+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T10:48:20+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T10:46:38+00:00",
-   "elapsed_s": 21,
+   "at": "2026-11-25T10:50:40+00:00",
+   "elapsed_s": 140,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -299,43 +299,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14918,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 14919,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "25.11.2026 10:16",
-    "first": "Конкретный клиент Alta банки (Направление общественного транспорта Ниша) потерял 150 млн динаров на счёте.",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "клиенты",
-     "активы",
-     "требования",
-     "суд"
-    ],
-    "title": "Направление общественного транспорта Ниша потеряло 150 млн динаров на счёте в Alta банке",
-    "title_src": "Direkcija za javni prevoz Niša imala 150 miliona dinara na računu Alta banke u trenutku proglašenja stečaja",
-    "ts": 1795601942.0730898,
-    "url": "https://n1info.rs/biznis/direkcija-javni-prevoz-nis-150-miliona-dinara-alta-banka"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Поштанская штедионица выплатила менее 1300 вкладчиков Alta в первый день — Конкретное число выплаченных вкладчиков в первый день: менее 1300 (около 2% от всех) — Конкретное число зарегистрировавшихся на выплаты: менее 17 000 (более четверти имеющих право)",
-   "ts": 1794643519.798724,
-   "url": "https://www.rts.rs/vesti/ekonomija/6083574/postanska-stedionica-u-petak-isplatila-nesto-manje-od-1300-deponenata-alta-banke.html"
-  },
   {
    "text": "Поштанская штедионица: в пятницу выплачены все записанные клиенты, сегодня — только субботние сроки — Конкретное число записанных клиентов: 17 193 (уточнение от предыдущих сообщений о менее 17 000). — Последний клиент выплачен в 23:47 в специализированном отделении банки в пятницу.",
    "ts": 1794643838.4014633,
@@ -530,6 +507,11 @@
    "text": "Банка Поштанска штедионица выплатила более половины застрахованных депозитов Alta — Выплачено 185,384 млн евро (54,52% от всех застрахованных средств) по состоянию на 24.11.2026 20:15 — По евро: 119,73 млн евро (53,63%); по динарам: 7,72 млрд динаров (56,22%)",
    "ts": 1795594375.718606,
    "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-isplatila-vise-od-polovine-osiguranih-depozita-alta-banke"
+  },
+  {
+   "text": "Направление общественного транспорта Ниша потеряло 150 млн динаров на счёте в Alta банке",
+   "ts": 1795603839.2531729,
+   "url": "https://n1info.rs/biznis/direkcija-javni-prevoz-nis-150-miliona-dinara-alta-banka"
   }
  ],
  "retry_items": {},
@@ -3638,13 +3620,21 @@
   "https://n1info.rs/biznis/direkcija-javni-prevoz-nis-150-miliona-dinara-alta-banka": {
    "first_seen": "2026-11-25T10:19:02+00:00",
    "kind": "press",
+   "message_id": 348,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-25T10:50:39+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "активы",
+    "требования",
+    "суд"
+   ],
    "title": "Направление общественного транспорта Ниша потеряло 150 млн динаров на счёте в Alta банке",
    "title_src": "Direkcija za javni prevoz Niša imala 150 miliona dinara na računu Alta banke u trenutku proglašenja stečaja",
-   "updated": "2026-11-25T10:19:02+00:00"
+   "updated": "2026-11-25T10:50:39+00:00"
   },
   "https://n1info.rs/biznis/draft-zvanicna": {
    "first_seen": "2026-11-03T14:37:00+00:00",
