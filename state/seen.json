@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T10:28:01+00:00",
-    "n": 14948,
+    "n": 14949,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-25T11:50:26+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-25T11:52:18+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-25T11:50:54+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-25T11:54:40+00:00",
+   "elapsed_s": 142,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 14950,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 14951,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -14612,6 +14612,17 @@
    "title": "Судьба Идеи, Роды и Меркатора после отзыва лицензии Alta banke: эксперт исключает банкротство розничных сетей",
    "title_src": "Šta će biti sa Ideom, Rodom i Merkatorom nakon oduzimanja dozvole Alta banci?",
    "updated": "2026-11-02T17:11:51+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/sta-se-dogodilo-sa-dokumentacijom-alta-banke-studenti-u-blokadi-traze-odgovore-od-nadleznih": {
+   "first_seen": "2026-11-25T11:54:40+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Студенческое движение требует отчёта о сохранности документации Alta банки",
+   "title_src": "„Šta se dogodilo sa dokumentacijom Alta banke?“: Studenti u blokadi traže odgovore od nadležnih",
+   "updated": "2026-11-25T11:54:40+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/studenti-u-blokadi-o-alta-banci-ocuvanje-finansijske-stabilnosti-je-na-prvom-mestu": {
    "first_seen": "2026-10-31T18:21:17+00:00",
