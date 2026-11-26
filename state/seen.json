@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T10:33:56+00:00",
-    "n": 15676,
+    "n": 15677,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T12:28:19+00:00",
+   "at": "2026-11-26T12:30:37+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T12:28:50+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-26T12:31:18+00:00",
+   "elapsed_s": 40,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15678,
+   "ALTA": 15679,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Коррекция: сроки и адрес подачи заявок на конкурс управляющего по банкротству ALTA — AOD опубликовала уточнение к объявлению о публичном конкурсе на должность управляющего (повереника) в процедуре банкротства ALTA banka a.d. Beograd — Заявки и документы о соответствии условиям конкурса должны быть п",
-   "ts": 1794848224.7014627,
-   "url": "https://www.aod.rs/uploads/dokumenti/oglas/244_1_oglas.pdf"
-  },
   {
    "text": "Банка Поштанска штедионица продолжает выплаты застрахованных вкладов вкладчикам ALTA в банкротстве — На 17 ноября 2026 выплачено 32,84 млн евро и 1,97 млрд динаров (14,71% в евро, 14,41% в динарах от предусмотренной суммы). — Заказано 20 758 терминов на выплату; выплаты только для клиентов с заказан",
    "ts": 1794904136.1773329,
@@ -512,6 +507,11 @@
    "text": "Прокуратура: арестована третья лица в деле о хищении из Alta; уточнены обвинения — Третья арестованная лица — сотрудница J.P., кассир Alta банки (ранее упоминались только Макура и Бундало) — Уточнены конкретные обвинения: Макура — неовлашённый доступ в депо сейфа и вывоз наличности; Бундало — состав",
    "ts": 1795694828.4518075,
    "url": "https://insajder.net/prenosimo/oglasio-se-tok-pored-brata-davora-macure-i-direktorke-alta-grupe-uhapsena-jos-jedna-osoba-poznato-sta-im-se-stavlja-na-teret"
+  },
+  {
+   "text": "Арестован брат владельца Alta; следствие о хищении 380 млн евро из сейфа банка — Арест Дубравко Макуры (26.11.2026) — брата владельца, спецсоветника по операционно-техническим работам, логистике, имуществу и безопасности Alta банки — Арест Татьяны Бундало — директора Alta Group (компания, не банк)",
+   "ts": 1795696276.622288,
+   "url": "https://www.danas.rs/bbc-news-serbian/slucaj-alta-banke-i-sumnja-u-proneveru-380-miliona-evra-uhapsen-brat-vlasnika"
   }
  ],
  "retry_items": {},
@@ -13410,6 +13410,26 @@
    "title": "Владелец Alta banke Давор Макура арестован; обыск завершён",
    "title_src": "Likvidacija Alta banke: Vlasnik Macura priveden, potvrdio advokat za BBC",
    "updated": "2026-11-02T12:30:48+00:00"
+  },
+  "https://www.danas.rs/bbc-news-serbian/slucaj-alta-banke-i-sumnja-u-proneveru-380-miliona-evra-uhapsen-brat-vlasnika": {
+   "first_seen": "2026-11-26T12:31:16+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 358,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-26T12:31:16+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "выплаты",
+    "регулятор"
+   ],
+   "title": "Арестован брат владельца Alta; следствие о хищении 380 млн евро из сейфа банка",
+   "title_src": "Slučaj Alta banke i sumnja u proneveru 380 miliona evra: Uhapšen brat vlasnika",
+   "updated": "2026-11-26T12:31:16+00:00"
   },
   "https://www.danas.rs/bbc-news-serbian/sta-znaci-likvidacija-alta-banke": {
    "attempts": 66,
