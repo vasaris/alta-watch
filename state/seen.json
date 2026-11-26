@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T10:33:56+00:00",
-    "n": 15680,
+    "n": 15681,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T12:36:17+00:00",
+   "at": "2026-11-26T12:38:18+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T12:36:46+00:00",
-   "elapsed_s": 29,
-   "llm_calls": 0,
+   "at": "2026-11-26T12:38:55+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15682,
+   "ALTA": 15683,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4840,6 +4840,17 @@
    "title": "Адвокат Нинич объявил о подаче уголовного заявления против министерства в понедельник",
    "title_src": "Ninić najavio krivičnu prijavu - na 238 strana - protiv jedne državne institucije",
    "updated": "2026-10-31T20:59:04+00:00"
+  },
+  "https://n1info.rs/vesti/ivan-todorovic-hapsenja-sns": {
+   "first_seen": "2026-11-26T12:38:55+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 2,
+   "status": "dup",
+   "title": "Адвокат Тодорович: аресты в Alta — «восьмой, девятый, десятый эшелон» правящей партии",
+   "title_src": "Advokat Todorović: Svedočimo hiperprodukciji hapšenja - ali sve je to 10. ešalon SNS-a",
+   "updated": "2026-11-26T12:38:55+00:00"
   },
   "https://n1info.rs/vesti/kolika-je-odgovornost-nbs-za-slucaj-alta-banke": {
    "first_seen": "2026-10-31T18:21:11+00:00",
