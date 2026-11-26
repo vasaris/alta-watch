@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T22:35:59+00:00",
-    "n": 15992,
+    "n": 15993,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T23:02:14+00:00",
+   "at": "2026-11-26T23:04:25+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T23:02:39+00:00",
-   "elapsed_s": 24,
-   "llm_calls": 0,
+   "at": "2026-11-26T23:04:59+00:00",
+   "elapsed_s": 34,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,14 +303,32 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15994,
+   "ALTA": 15995,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "26.11.2026 21:16",
+    "first": "Уточнена схема хищения: T.B. приказывала J.P. проводить фиктивные платежи без покрытия наличностью, деньги переводились на личный счёт Макуры",
+    "important": false,
+    "kind": "press",
+    "outlet": "Insajder",
+    "tags": [
+     "активы",
+     "клиенты",
+     "суд",
+     "регулятор"
+    ],
+    "title": "Арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Макуре в хищении 45 млрд динаров",
+    "title_src": "Uhapšeno još troje odgovronih u Alta Banci zbog sumnje da su pomagali vlasniku Davoru Macuri",
+    "ts": 1795734299.1964605,
+    "url": "https://insajder.net/prenosimo/uhapseno-jos-troje-odgovronih-u-alta-banci-zbog-sumnje-da-su-pomagali-vlasniku-davoru-macuri"
+   }
+  ]
  },
  "recent": [
   {
@@ -3296,6 +3314,17 @@
    "status": "rejected",
    "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji",
    "updated": "2026-10-31T14:11:00+00:00"
+  },
+  "https://insajder.net/prenosimo/uhapseno-jos-troje-odgovronih-u-alta-banci-zbog-sumnje-da-su-pomagali-vlasniku-davoru-macuri": {
+   "first_seen": "2026-11-26T23:04:59+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 7,
+   "status": "pending",
+   "title": "Арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Макуре в хищении 45 млрд динаров",
+   "title_src": "Uhapšeno još troje odgovronih u Alta Banci zbog sumnje da su pomagali vlasniku Davoru Macuri",
+   "updated": "2026-11-26T23:04:59+00:00"
   },
   "https://insajder.net/prenosimo/viceguverneri-nbs-traze-od-tuzilastva-da-utvrdi-okolnosti-oduzimanja-licence-alta-banci-i-eventualnu-krivicnu-odgovornost-u-nbs-tvrde-da-su-za-stanje-u-banci-saznali-tek-u-petak": {
    "attempts": 26,
