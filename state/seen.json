@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T10:33:56+00:00",
-    "n": 15670,
+    "n": 15671,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T12:16:18+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-26T12:18:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T12:16:45+00:00",
-   "elapsed_s": 27,
-   "llm_calls": 0,
+   "at": "2026-11-26T12:20:41+00:00",
+   "elapsed_s": 146,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15672,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15673,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -13619,6 +13619,17 @@
    "status": "rejected",
    "title": "Savović: Tužilaštvo odranije ima formiran predmet u odnosu na vlasnika Alta banke",
    "updated": "2026-10-31T16:49:42+00:00"
+  },
+  "https://www.danas.rs/vesti/drustvo/tuzilstvo-uhapseno-vise-osoba-koje-su-pomagale-davoru-macuri-u-nezakonitim-radnjama": {
+   "first_seen": "2026-11-26T12:20:41+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Прокуратура: арестованы ещё три лица в деле о хищении из Alta; уточнены обвинения",
+   "title_src": "Tužilštvo: Uhapšeno više osoba koje su pomagale Davoru Macuri u nezakonitim radnjama",
+   "updated": "2026-11-26T12:20:41+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/vjt-baka-prase-kidnapovanje": {
    "first_seen": "2026-11-09T18:15:40+00:00",
