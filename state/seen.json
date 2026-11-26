@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T10:33:56+00:00",
-    "n": 15770,
+    "n": 15771,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T15:38:19+00:00",
+   "at": "2026-11-26T15:40:29+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T15:38:46+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-26T15:40:53+00:00",
+   "elapsed_s": 24,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15772,
+   "ALTA": 15773,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -9875,6 +9875,17 @@
    "title": "Studentski pokret: Institucije da odgovore šta se dogodilo sa dokumentacijom Alta banke",
    "title_src": "Studentski pokret: Institucije da odgovore šta se dogodilo sa dokumentacijom Alta banke",
    "updated": "2026-11-25T16:14:37+00:00"
+  },
+  "https://www.021.rs/info/srbija/462653/tuzilastvo-brat-davora-macure-osumnjicen-da-je-iznosio-evre-iz-trezora-alta-banke": {
+   "first_seen": "2026-11-26T15:40:53+00:00",
+   "kind": "press",
+   "novelty": 1,
+   "posted": false,
+   "relevance": 3,
+   "status": "dup",
+   "title": "Прокуратура: брат владельца Alta подозревается в хищении евро из сейфа банка",
+   "title_src": "Tužilaštvo: Brat Davora Macure osumnjičen da je iznosio evre iz trezora Alta banke",
+   "updated": "2026-11-26T15:40:53+00:00"
   },
   "https://www.021.rs/info/vojvodina/460943/pocinje-isplata-osiguranih-depozita-alta-banke-nesiguran-ostatak-novca-rusa-iz-subotice": {
    "first_seen": "2026-11-10T14:53:13+00:00",
