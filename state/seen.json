@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T16:34:57+00:00",
-    "n": 15938,
+    "n": 15939,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T21:14:15+00:00",
+   "at": "2026-11-26T21:16:39+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T21:16:26+00:00",
-   "elapsed_s": 130,
-   "llm_calls": 0,
+   "at": "2026-11-26T21:19:09+00:00",
+   "elapsed_s": 150,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,9 +303,9 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15940,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 15941,
+   "AOD новости": 2,
+   "AOD объявления": 2,
    "NBS": 0
   }
  },
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров — Конкретные суммы выплат на 17.11.2026: 32,84 млн евро и 1,98 млрд динаров — Процент выплат: 14,71% в евро, 14,41% в динарах от предусмотренной суммы",
-   "ts": 1794907516.8311474,
-   "url": "https://n1info.rs/biznis/postanska-stedionica-deponentima-alta-banke-isplaceno-3284-miliona-evra-i-198-milijardi-dinara"
-  },
   {
    "text": "Поштанская сбербанка выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров; всего выплатит ~340 млн евро — Конкретные суммы выплат на 17.11.2026: 32,84 млн евро и 1,98 млрд динаров — Процент выплат: 14,71% в евро, 14,41% в динарах от предусмотренной суммы",
    "ts": 1794908803.3538291,
@@ -512,6 +507,11 @@
    "text": "Арестован брат владельца Alta Дубравко Макура; подозрение в хищении свыше 45 млрд динаров из сейфа банка — Арест Дубравко Макуры (брата владельца) 26.11.2026 — новое лицо в деле о хищении — Уточнена роль Татьяны Бундало (директор Alta group) — устные приказы о фиктивных платежах без денежного покрыт",
    "ts": 1795727444.3114507,
    "url": "https://nova.rs/vesti/hronika/oglasio-se-mup-o-hapsenju-dubravka-macure-brata-vlasnika-alta-banke-sumnjici-se-da-je-iz-trezora-iznosio-novac-steta-veca-od-45-milijardi-dinara"
+  },
+  {
+   "text": "МВД: арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Давору Макуре — Арестована третья лица — J.P., кассир тезаврерии Alta банки (46 лет); ранее упоминались только Макура и Бундало — Уточнена схема: T.B. отдавала устные приказы J.P. проводить записи платежей без покрытия нали",
+   "ts": 1795727948.3928616,
+   "url": "https://www.danas.rs/vesti/ekonomija/mup-uhapseno-troje-u-alta-banci"
   }
  ],
  "retry_items": {},
@@ -14447,6 +14447,26 @@
     "сроки"
    ],
    "title": "Manojlović (Kreni-Promeni): Povraćaj uloga većih od 50.000 evra nije zagarantovan, zavisi od stečaja"
+  },
+  "https://www.danas.rs/vesti/ekonomija/mup-uhapseno-troje-u-alta-banci": {
+   "first_seen": "2026-11-26T21:19:08+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 360,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-26T21:19:08+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "клиенты",
+    "регулятор"
+   ],
+   "title": "МВД: арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Давору Макуре",
+   "title_src": "MUP: Uhapšeno još troje odgovornih u Alta Banci zbog sumnje da su pomagali vlasniku Davoru Macuri",
+   "updated": "2026-11-26T21:19:08+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/narodna-banka-s-makedonije-nema-velikih-transfera-novca-iz-alta-banke-beograd-u-alta-banku-bitolj": {
    "first_seen": "2026-11-05T15:11:06+00:00",
