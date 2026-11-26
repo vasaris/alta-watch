@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T22:35:59+00:00",
-    "n": 16007,
+    "n": 16008,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T23:32:16+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-26T23:34:14+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T23:32:46+00:00",
-   "elapsed_s": 30,
-   "llm_calls": 0,
+   "at": "2026-11-26T23:36:46+00:00",
+   "elapsed_s": 151,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -299,48 +299,20 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16009,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 16010,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "26.11.2026 21:16",
-    "first": "Уточнена схема хищения: T.B. приказывала J.P. проводить фиктивные платежи без покрытия наличностью, деньги переводились на личный счёт Макуры",
-    "important": false,
-    "kind": "press",
-    "outlet": "Insajder",
-    "tags": [
-     "активы",
-     "клиенты",
-     "суд",
-     "регулятор"
-    ],
-    "title": "Арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Макуре в хищении 45 млрд динаров",
-    "title_src": "Uhapšeno još troje odgovronih u Alta Banci zbog sumnje da su pomagali vlasniku Davoru Macuri",
-    "ts": 1795734299.1964605,
-    "url": "https://insajder.net/prenosimo/uhapseno-jos-troje-odgovronih-u-alta-banci-zbog-sumnje-da-su-pomagali-vlasniku-davoru-macuri"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Поштанская сбербанка выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров; всего выплатит ~340 млн евро — Конкретные суммы выплат на 17.11.2026: 32,84 млн евро и 1,98 млрд динаров — Процент выплат: 14,71% в евро, 14,41% в динарах от предусмотренной суммы",
-   "ts": 1794908803.3538291,
-   "url": "https://www.danas.rs/vesti/ekonomija/prva-cena-propasti-alta-banke-postanska-stedionica-ce-deponentima-alte-isplatiti-ukupno-oko-340-miliona-evra"
-  },
-  {
-   "text": "АОД продлила срок подачи заявок на конкурс управляющего по банкротству ALTA до 20 ноября",
-   "ts": 1794935101.6553822,
-   "url": "https://insajder.net/prenosimo/agencija-za-osiguranje-depozita-prijave-ne-konkurs-za-poverenika-u-postupku-stecaja-nad-alta-bankom-do-20-novembra"
-  },
   {
    "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing d.o.o. Beograd — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing d.o.o. Beograd принято 17 ноября 2026 — Имущество Alta Leasing превышает её обязательства, что позволяет провести ликвидацию вместо банкротства",
    "ts": 1794992484.907407,
@@ -530,6 +502,16 @@
    "text": "МВД: арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Давору Макуре — Арестована третья лица — J.P., кассир тезаврерии Alta банки (46 лет); ранее упоминались только Макура и Бундало — Уточнена схема: T.B. отдавала устные приказы J.P. проводить записи платежей без покрытия нали",
    "ts": 1795727948.3928616,
    "url": "https://www.danas.rs/vesti/ekonomija/mup-uhapseno-troje-u-alta-banci"
+  },
+  {
+   "text": "Арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Макуре в хищении 45 млрд динаров",
+   "ts": 1795736205.0429726,
+   "url": "https://insajder.net/prenosimo/uhapseno-jos-troje-odgovronih-u-alta-banci-zbog-sumnje-da-su-pomagali-vlasniku-davoru-macuri"
+  },
+  {
+   "text": "Почему отклонено реструктурирование Alta банки: критика решения NBS",
+   "ts": 1795736205.0430083,
+   "url": "https://radar.nova.rs/ekonomija/zasto-je-odbaceno-restrukturiranje-macurine-banke"
   }
  ],
  "retry_items": {},
@@ -3318,13 +3300,21 @@
   "https://insajder.net/prenosimo/uhapseno-jos-troje-odgovronih-u-alta-banci-zbog-sumnje-da-su-pomagali-vlasniku-davoru-macuri": {
    "first_seen": "2026-11-26T23:04:59+00:00",
    "kind": "press",
+   "message_id": 361,
    "novelty": 5,
-   "posted": false,
+   "posted": true,
    "relevance": 7,
-   "status": "pending",
+   "sent_at": "2026-11-26T23:36:45+00:00",
+   "status": "sent",
+   "tags": [
+    "активы",
+    "клиенты",
+    "суд",
+    "регулятор"
+   ],
    "title": "Арестованы трое сотрудников Alta банки по подозрению в помощи владельцу Макуре в хищении 45 млрд динаров",
    "title_src": "Uhapšeno još troje odgovronih u Alta Banci zbog sumnje da su pomagali vlasniku Davoru Macuri",
-   "updated": "2026-11-26T23:04:59+00:00"
+   "updated": "2026-11-26T23:36:45+00:00"
   },
   "https://insajder.net/prenosimo/viceguverneri-nbs-traze-od-tuzilastva-da-utvrdi-okolnosti-oduzimanja-licence-alta-banci-i-eventualnu-krivicnu-odgovornost-u-nbs-tvrde-da-su-za-stanje-u-banci-saznali-tek-u-petak": {
    "attempts": 26,
@@ -6967,6 +6957,25 @@
    "title": "Риск потери доказательств о движении денег из Alta банки при открытии банкротства",
    "title_src": "Hoće li u stečaju Alta banke nestati i tragovi novca",
    "updated": "2026-11-11T11:14:41+00:00"
+  },
+  "https://radar.nova.rs/ekonomija/zasto-je-odbaceno-restrukturiranje-macurine-banke": {
+   "first_seen": "2026-11-26T23:36:44+00:00",
+   "kind": "press",
+   "message_id": 361,
+   "novelty": 7,
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-26T23:36:45+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "выплаты",
+    "активы"
+   ],
+   "title": "Почему отклонено реструктурирование Alta банки: критика решения NBS",
+   "title_src": "Zašto je odbačeno restrukturiranje Macurine banke",
+   "updated": "2026-11-26T23:36:45+00:00"
   },
   "https://t.me/Serbia/107349": {
    "first_seen": "2026-10-31T11:20:40+00:00",
