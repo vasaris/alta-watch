@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T04:32:27+00:00",
-    "n": 15504,
+    "n": 15505,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T06:44:21+00:00",
+   "at": "2026-11-26T06:46:25+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-26T06:44:54+00:00",
+   "at": "2026-11-26T06:46:58+00:00",
    "elapsed_s": 32,
-   "llm_calls": 0,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15506,
+   "ALTA": 15507,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Супруг директора AOD — гарант кредитов на 1,6 млн евро в ALTA banka; возможен конфликт интересов — Супруг директора AOD Панtelić является гарантом трёх кредитов (250 000, 440 000, ~905 000 евро) в ALTA banka, выданных его брату в 2024–2026 годах. — Ипотеки на квартиру супруга в Белграде служат обесп",
-   "ts": 1794823001.4517362,
-   "url": "https://www.danas.rs/vesti/ekonomija/forbs-suprug-direktorke-aod-garant-za-kredite-od-16-miliona-evra-u-alta-banci-ciji-stecaj-vodi-njena-agencija"
-  },
   {
    "text": "Град Белград заблокировал счёт ALTA banka в день отзыва лицензии — Секретариат финансов Города Белград активировал принудительную блокировку счёта ALTA banka 30 октября 2026 (день отзыва лицензии). — Блокировка была единственной, активированной против банки в системе НБС.",
    "ts": 1794834090.83148,
@@ -512,6 +507,11 @@
    "text": "Прокуратура запретила распоряжение имуществом брата владельца Alta и расширила следствие о хищении 380 млн евро — Запрет на распоряжение имуществом распространён на Дубравко Макуру лично (не только на компании) — Конкретный перечень имущества Дубравко Макуры под запретом: пространство 300 кв.м на Вр",
    "ts": 1795636983.6320946,
    "url": "https://insajder.net/teme/dubravku-macuri-zabranjeno-raspolaganje-imovinom-poslovni-prostor-od-300-kvadrata-na-vracaru-zgrada-od-925-kvadrata-u-zelezniku-i-stambeno-poslovni-objekat-u-zemunu"
+  },
+  {
+   "text": "NBS наложила проверку наличности за 3 дня до отзыва лицензии Alta; документ раскрывает хронологию надзора — NBS приказала Alta проверить наличность за 3 дня до отзыва лицензии (17 октября) и снизить её в два этапа (12 и 17 рабочих дней). — Решение об отзыве лицензии (30 октября) основано исключитель",
+   "ts": 1795675616.7440836,
+   "url": "https://www.danas.rs/vesti/ekonomija/davor-macura-alta-banka-nbs-poverljivo-resenje"
   }
  ],
  "retry_items": {},
@@ -13798,6 +13798,26 @@
    "title": "Центральный банк Черногории: из страны в Alta отправлено минимум 2,9 млн евро с начала года",
    "title_src": "Centralna banka CG: Iz Crne Gore ka Alta banci poslato najmanje 2,9 miliona evra od početka godine",
    "updated": "2026-11-04T13:26:56+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/davor-macura-alta-banka-nbs-poverljivo-resenje": {
+   "first_seen": "2026-11-26T06:46:56+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 354,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-26T06:46:56+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "суд",
+    "активы",
+    "сроки"
+   ],
+   "title": "NBS наложила проверку наличности за 3 дня до отзыва лицензии Alta; документ раскрывает хронологию надзора",
+   "title_src": "Radar objavio poverljivo rešenje NBS o oduzimanju dozvole za rad Alta banci: Ko je i zašto Davoru Macuri čuvao leđa?",
+   "updated": "2026-11-26T06:46:56+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/davor-macura-saslusan-u-jtok-negirao-krivicu-tuzilastvo-trazi-pritvor-do-30-dana": {
    "first_seen": "2026-11-04T00:03:16+00:00",
