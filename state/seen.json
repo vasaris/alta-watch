@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-25T22:30:51+00:00",
-    "n": 15308,
+    "n": 15309,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T00:12:53+00:00",
-   "dated": 285,
-   "files": 285,
-   "pages_ok": 2
+   "at": "2026-11-26T00:14:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-25",
   "last_run": {
-   "at": "2026-11-26T00:13:13+00:00",
-   "elapsed_s": 20,
-   "llm_calls": 0,
+   "at": "2026-11-26T00:16:47+00:00",
+   "elapsed_s": 151,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15310,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15311,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -6811,6 +6811,18 @@
    "title": "Расследование: как структура баланса Alta банка указывала на проблемы, которые регулятор пропустил",
    "title_src": "Nemar koji bi mogao da košta 740 miliona evra",
    "updated": "2026-11-20T23:05:04+00:00"
+  },
+  "https://radar.nova.rs/ekonomija/ko-je-i-zasto-davoru-macuri-cuvao-ledja": {
+   "first_seen": "2026-11-26T00:16:47+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "reason": "непроверенные утверждения",
+   "relevance": 6,
+   "status": "signal",
+   "title": "Почему NBS поспешила отозвать лицензию Alta: критика надзора и вопросы к регулятору",
+   "title_src": "Ko je i zašto Davoru Macuri čuvao leđa",
+   "updated": "2026-11-26T00:16:47+00:00"
   },
   "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
    "attempts": 38,
@@ -53302,12 +53314,6 @@
  },
  "signals": [
   {
-   "reason": "непроверенные утверждения",
-   "title": "Дугалић и Стевановић: почему НБС не реагировала раньше на Alta banka, нужно расследование",
-   "ts": "2026-11-02T09:14:22+00:00",
-   "url": "https://www.rts.rs/vesti/ekonomija/6074156/alta-banka-stecaj-novac-krediti-nbs.html"
-  },
-  {
    "reason": "Telegram-канал",
    "title": "Нацбанк отозвал лицензию Alta banka ночью 31 октября; выплаты вкладчикам до €50 000 начнутся в течение 7 рабочих дней после решения суда",
    "ts": "2026-11-02T10:00:44+00:00",
@@ -53600,6 +53606,12 @@
    "title": "Были ли закрытие Alta банки намеренным? Вопросы о скорости банкротства и сохранности документов",
    "ts": "2026-11-25T18:08:14+00:00",
    "url": "https://www.danas.rs/vesti/ekonomija/alta-banka-bankrot-namerno-tragovi"
+  },
+  {
+   "reason": "непроверенные утверждения",
+   "title": "Почему NBS поспешила отозвать лицензию Alta: критика надзора и вопросы к регулятору",
+   "ts": "2026-11-26T00:14:15+00:00",
+   "url": "https://radar.nova.rs/ekonomija/ko-je-i-zasto-davoru-macuri-cuvao-ledja"
   }
  ]
 }
