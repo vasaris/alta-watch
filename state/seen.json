@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T16:34:57+00:00",
-    "n": 15799,
+    "n": 15800,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T16:38:17+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-26T16:40:29+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T16:38:46+00:00",
-   "elapsed_s": 29,
+   "at": "2026-11-26T16:42:52+00:00",
+   "elapsed_s": 142,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -287,7 +287,7 @@
    "021": "ok:10",
    "beta": "ok:10",
    "bizlife": "ok:10",
-   "danas": "ok:50",
+   "danas": "network_error",
    "forbes": "ok:50",
    "insajder": "ok:100",
    "n1": "ok:50",
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15801,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 15802,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
