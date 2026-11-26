@@ -264,19 +264,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T04:32:27+00:00",
-    "n": 15576,
+    "n": 15577,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T09:10:27+00:00",
+   "at": "2026-11-26T09:12:17+00:00",
    "dated": 285,
    "files": 285,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T09:10:53+00:00",
+   "at": "2026-11-26T09:12:43+00:00",
    "elapsed_s": 26,
    "llm_calls": 0,
    "llm_down": null,
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15578,
+   "ALTA": 15579,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -2366,6 +2366,16 @@
     "банки"
    ],
    "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
+  },
+  "https://insajder.net/marker/marker-cela-emisija-za-25-novembar-2026": {
+   "first_seen": "2026-11-26T09:12:43+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "stale",
+   "status": "rejected",
+   "title": "MARKER - CELA EMISIJA za 25. novembar 2026.",
+   "title_src": "MARKER - CELA EMISIJA za 25. novembar 2026.",
+   "updated": "2026-11-26T09:12:43+00:00"
   },
   "https://insajder.net/prenosimo/advokat-davora-macure-odredeno-mu-zadrzavanje-do-48-sati-pretres-banke-trajao-dva-dana": {
    "first_seen": "2026-11-02T12:19:06+00:00",
