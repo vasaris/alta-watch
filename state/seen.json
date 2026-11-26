@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-26T10:33:56+00:00",
-    "n": 15664,
+    "n": 15665,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-26T12:04:24+00:00",
+   "at": "2026-11-26T12:06:30+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-26",
   "last_run": {
-   "at": "2026-11-26T12:04:43+00:00",
-   "elapsed_s": 19,
-   "llm_calls": 0,
+   "at": "2026-11-26T12:07:09+00:00",
+   "elapsed_s": 39,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 15666,
+   "ALTA": 15667,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "Грубишић: банкротство ALTA может длиться более 10 лет, убытки в итоге понесут все граждане",
-   "ts": 1794846301.246727,
-   "url": "https://www.rts.rs/vesti/ekonomija/6084524/alta-banka-inflacija-ekonomija.html"
-  },
   {
    "text": "Коррекция: сроки и адрес подачи заявок на конкурс управляющего по банкротству ALTA — AOD опубликовала уточнение к объявлению о публичном конкурсе на должность управляющего (повереника) в процедуре банкротства ALTA banka a.d. Beograd — Заявки и документы о соответствии условиям конкурса должны быть п",
    "ts": 1794848224.7014627,
@@ -512,6 +507,11 @@
    "text": "Прокуратура: арестованы сотрудник Alta и директор Alta Group за хищение наличности из сейфа — Дубравко Макура — спецсоветник по операционно-техническим работам, логистике, имуществу и безопасности Alta банки (уточнение должности). — J.P. — кассир Alta банки (новое лицо в деле).",
    "ts": 1795692637.3097825,
    "url": "https://nova.rs/vesti/hronika/oglasilo-se-tuzilastvo-o-hapsenju-dubravka-macure-ulazio-u-depo-trezora-i-iznosio-novac-u-evrima-pa-ga-predavao-vlasniku-alta-banke"
+  },
+  {
+   "text": "Прокуратура: арестована третья лица в деле о хищении из Alta; уточнены обвинения — Третья арестованная лица — сотрудница J.P., кассир Alta банки (ранее упоминались только Макура и Бундало) — Уточнены конкретные обвинения: Макура — неовлашённый доступ в депо сейфа и вывоз наличности; Бундало — состав",
+   "ts": 1795694828.4518075,
+   "url": "https://insajder.net/prenosimo/oglasio-se-tok-pored-brata-davora-macure-i-direktorke-alta-grupe-uhapsena-jos-jedna-osoba-poznato-sta-im-se-stavlja-na-teret"
   }
  ],
  "retry_items": {},
@@ -3092,6 +3092,26 @@
    "title": "NBS уточнила процедуру платежей по кредитам Alta банка и Alta Group; предупреждение о мошенничестве",
    "title_src": "NBS uputila obaveštenje o načinu izmirenja kredita Alta banke i upozorila na moguće prevare",
    "updated": "2026-11-06T19:33:16+00:00"
+  },
+  "https://insajder.net/prenosimo/oglasio-se-tok-pored-brata-davora-macure-i-direktorke-alta-grupe-uhapsena-jos-jedna-osoba-poznato-sta-im-se-stavlja-na-teret": {
+   "first_seen": "2026-11-26T12:07:08+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 357,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 8,
+   "sent_at": "2026-11-26T12:07:08+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "требования",
+    "активы",
+    "клиенты"
+   ],
+   "title": "Прокуратура: арестована третья лица в деле о хищении из Alta; уточнены обвинения",
+   "title_src": "Oglasio se TOK: Pored brata Davora Macure i direktorke Alta grupe uhapšena još jedna osoba, poznato šta im se stavlja na teret",
+   "updated": "2026-11-26T12:07:08+00:00"
   },
   "https://insajder.net/prenosimo/poreska-uprava-objavila-obavestenje-za-obveznike-koji-su-u-alta-banci-imali-racune": {
    "first_seen": "2026-11-20T18:05:32+00:00",
