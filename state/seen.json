@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T04:36:26+00:00",
-    "n": 16311,
+    "n": 16312,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T09:52:15+00:00",
+   "at": "2026-11-27T09:54:15+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T09:52:44+00:00",
-   "elapsed_s": 28,
+   "at": "2026-11-27T09:54:57+00:00",
+   "elapsed_s": 41,
    "llm_calls": 1,
    "llm_down": null,
    "msgs": 1,
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16313,
+   "ALTA": 16314,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "АОД: процедура получения подтверждений для выплаты застрахованных вкладов ALTA — Процедура получения подтверждений для выплаты: три типа подтверждений (основательность требования, раздужение чеков, валидность полномочий). — Способы подачи заявления: лично в ALTA (Булевар Зорана Ђинђића 121), рекомен",
-   "ts": 1794998006.5440593,
-   "url": "https://www.aod.rs/clan/vest/vest_forma/155"
-  },
   {
    "text": "Счета Alta Group заблокированы на 676,7 млн динаров; владелец Давор Мацура в аресте",
    "ts": 1794998563.1699564,
@@ -512,6 +507,11 @@
    "text": "AOD объявляет конкурс на независимый аудит финансового состояния Alta банки",
    "ts": 1795773162.7873383,
    "url": "https://beta.rs/content/256687-agencija-za-osiguranje-depozita-trazi-revizora-za-proveru-finansijskog-stanja-alta-banke"
+  },
+  {
+   "text": "Банка Поштанска штедионица выплатила вкладчикам Alta 63,2% застрахованных депозитов — Конкретные суммы выплат по состоянию на 26.11.2026 20:00: 214,96 млн евро (63,21% от застрахованных депозитов) — Разбивка по валютам: 139,421 млн евро (62,45%) и 8,886 млрд динаров (64,68%)",
+   "ts": 1795773295.7771654,
+   "url": "https://insajder.net/prenosimo/banka-postanska-stedionica-deponentima-alta-banke-u-stecaju-isplaceno-632-odsto-osiguranih-depozita"
   }
  ],
  "retry_items": {},
@@ -2521,6 +2521,26 @@
    "title": "Банка Поштанска штедионица выплатила вкладчикам ALTA 43,58% застрахованных средств",
    "title_src": "Banka Poštanska štedionica: Deponentima Alta banke isplaćeno 43,58 odsto od ukupnog iznosa",
    "updated": "2026-11-22T14:49:48+00:00"
+  },
+  "https://insajder.net/prenosimo/banka-postanska-stedionica-deponentima-alta-banke-u-stecaju-isplaceno-632-odsto-osiguranih-depozita": {
+   "first_seen": "2026-11-27T09:54:55+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 364,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 9,
+   "sent_at": "2026-11-27T09:54:55+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "сроки",
+    "регулятор",
+    "клиенты"
+   ],
+   "title": "Банка Поштанска штедионица выплатила вкладчикам Alta 63,2% застрахованных депозитов",
+   "title_src": "Banka poštanska štedionica: Deponentima Alta banke u stečaju isplaćeno 63,2 odsto osiguranih depozita",
+   "updated": "2026-11-27T09:54:55+00:00"
   },
   "https://insajder.net/prenosimo/banka-postanska-stedionica-isplaceni-u-petak-svi-zakazani-klijenti-alta-banke-poslednja-isplata-u-2347-sati": {
    "first_seen": "2026-11-14T08:10:38+00:00",
