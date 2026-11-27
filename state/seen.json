@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T04:36:26+00:00",
-    "n": 16283,
+    "n": 16284,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T08:56:17+00:00",
+   "at": "2026-11-27T08:58:17+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T08:56:50+00:00",
-   "elapsed_s": 32,
-   "llm_calls": 0,
+   "at": "2026-11-27T08:58:48+00:00",
+   "elapsed_s": 30,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16285,
+   "ALTA": 16286,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -13761,6 +13761,17 @@
    "title": "Эпидемия алчности: психологический анализ коррупции в Сербии",
    "title_src": "Skandal Alta banke, direktor RHMZ..: Epidemija pohlepe završava se hapšenjima",
    "updated": "2026-11-14T15:04:58+00:00"
+  },
+  "https://www.danas.rs/vesti/drustvo/pritvor-za-direktorku-privrednog-drustva-alta-grup": {
+   "first_seen": "2026-11-27T08:58:48+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Апелляционный суд Белграда арестовал директора Alta Group; кассиру запретили покидать дом",
+   "title_src": "Pritvor za direktorku privrednog društva Alta grup",
+   "updated": "2026-11-27T08:58:48+00:00"
   },
   "https://www.danas.rs/vesti/drustvo/savovic-tuzilastvo-alta-banka": {
    "attempts": 77,
