@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T10:37:58+00:00",
-    "n": 16432,
+    "n": 16433,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T13:56:18+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-27T13:58:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T13:56:51+00:00",
-   "elapsed_s": 32,
+   "at": "2026-11-27T14:00:34+00:00",
+   "elapsed_s": 137,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16434,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 16435,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2205,6 +2205,16 @@
    "title": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
    "title_src": "Isplata osiguranih depozita Alta banke u stečaju počinje 13. novembra",
    "updated": "2026-11-06T14:46:35+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit": {
+   "first_seen": "2026-11-27T14:00:34+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit",
+   "status": "dup",
+   "title": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
+   "title_src": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
+   "updated": "2026-11-27T14:00:34+00:00"
   },
   "https://forbes.n1info.rs/vesti/krik-uhapseni-brat-davora-macure-i-direktorka-firme-alta-pay-group": {
    "first_seen": "2026-11-25T15:12:38+00:00",
