@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T04:36:26+00:00",
-    "n": 16310,
+    "n": 16311,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T09:50:47+00:00",
+   "at": "2026-11-27T09:52:15+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T09:51:08+00:00",
-   "elapsed_s": 21,
-   "llm_calls": 0,
+   "at": "2026-11-27T09:52:44+00:00",
+   "elapsed_s": 28,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -303,66 +303,16 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16312,
+   "ALTA": 16313,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "27.11.2026 09:20",
-    "first": "Конкретная сумма застрявших муниципальных средств: 190 млн динаров",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "выплаты",
-     "активы",
-     "требования",
-     "регулятор"
-    ],
-    "title": "В Alta банке застряло 190 млн динаров муниципального бюджета Бачка-Топола на ночном депозите",
-    "title_src": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
-    "ts": 1795771381.6209776,
-    "url": "https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit"
-   },
-   {
-    "date": "27.11.2026 09:31",
-    "first": "AOD объявила конкурс на услуги независимого аудита финансового состояния Alta банки (27.11.2026)",
-    "important": false,
-    "kind": "press",
-    "outlet": "Danas",
-    "tags": [
-     "регулятор",
-     "активы",
-     "суд",
-     "требования"
-    ],
-    "title": "AOD нанимает аудитора для проверки финансового состояния Alta банки",
-    "title_src": "AOD angažuje revizora za proveru finansijskog stanja Alta banke",
-    "ts": 1795771977.9465501,
-    "url": "https://www.danas.rs/vesti/ekonomija/aod-angazuje-revizora-za-proveru-finansijskog-stanja-alta-banke"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; ликвидация вместо банкротства — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing принято 17 ноября 2026. — Выбран процесс ликвидации (а не банкротства) на основе анализа, показавшего превышение имущества над обязательствами.",
-   "ts": 1794993055.164791,
-   "url": "https://bizlife.rs/nbs-oduzela-dozvolu-i-alta-leasing-u"
-  },
-  {
-   "text": "NBS опубликовала Отчёт об инфляции за ноябрь 2026 — NBS опубликовала Отчёт об инфляции за ноябрь 2026 с анализом макроэкономических тенденций и прогнозов монетарной политики — Международное окружение остаётся напряжённым из-за геополитических конфликтов; мировые цены на энергоносители выросли вопрек",
-   "ts": 1794993968.2809138,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21908"
-  },
-  {
-   "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; начинается ликвидация",
-   "ts": 1794995558.982364,
-   "url": "https://www.danas.rs/vesti/ekonomija/narodna-banka-srbije-oduzela-dozvolu-rad-alta-lizingu-sledi-likvidacija"
-  },
   {
    "text": "АОД: процедура получения подтверждений для выплаты застрахованных вкладов ALTA — Процедура получения подтверждений для выплаты: три типа подтверждений (основательность требования, раздужение чеков, валидность полномочий). — Способы подачи заявления: лично в ALTA (Булевар Зорана Ђинђића 121), рекомен",
    "ts": 1794998006.5440593,
@@ -547,6 +497,21 @@
    "text": "Апелляционный суд Белграда арестовал директора Alta Group; кассиру запретили покидать дом — Апелляционный суд определил арест директору Alta Group Т.Б. на срок до 30 дней (27.11.2026) — Кассиру J.P. определена мера запрета покидать жилище с электронным надзором вместо ареста",
    "ts": 1795767406.792949,
    "url": "https://nova.rs/vesti/hronika/visi-sud-u-beogradu-odredio-pritvor-direktorki-alta-grup"
+  },
+  {
+   "text": "В Alta банке застряло 190 млн динаров муниципального бюджета Бачка-Топола на ночном депозите",
+   "ts": 1795773162.7872872,
+   "url": "https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit"
+  },
+  {
+   "text": "AOD нанимает аудитора для проверки финансового состояния Alta банки",
+   "ts": 1795773162.7873256,
+   "url": "https://www.danas.rs/vesti/ekonomija/aod-angazuje-revizora-za-proveru-finansijskog-stanja-alta-banke"
+  },
+  {
+   "text": "AOD объявляет конкурс на независимый аудит финансового состояния Alta банки",
+   "ts": 1795773162.7873383,
+   "url": "https://beta.rs/content/256687-agencija-za-osiguranje-depozita-trazi-revizora-za-proveru-finansijskog-stanja-alta-banke"
   }
  ],
  "retry_items": {},
@@ -1836,6 +1801,25 @@
    "title": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
    "title_src": "KRIK: Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
    "updated": "2026-11-25T14:48:44+00:00"
+  },
+  "https://beta.rs/content/256687-agencija-za-osiguranje-depozita-trazi-revizora-za-proveru-finansijskog-stanja-alta-banke": {
+   "first_seen": "2026-11-27T09:52:42+00:00",
+   "kind": "press",
+   "message_id": 363,
+   "novelty": 8,
+   "posted": true,
+   "relevance": 6,
+   "sent_at": "2026-11-27T09:52:42+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "выплаты"
+   ],
+   "title": "AOD объявляет конкурс на независимый аудит финансового состояния Alta банки",
+   "title_src": "Agencija za osiguranje depozita traži revizora za proveru finansijskog stanja Alta banke",
+   "updated": "2026-11-27T09:52:42+00:00"
   },
   "https://bizlife.rs/18-banaka-milijarde-na-racunima-ovako-izgleda-domace-bankarsko-trziste": {
    "first_seen": "2026-11-03T09:33:07+00:00",
@@ -3972,13 +3956,21 @@
   "https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit": {
    "first_seen": "2026-11-27T09:23:01+00:00",
    "kind": "press",
+   "message_id": 363,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-27T09:52:42+00:00",
+   "status": "sent",
+   "tags": [
+    "выплаты",
+    "активы",
+    "требования",
+    "регулятор"
+   ],
    "title": "В Alta банке застряло 190 млн динаров муниципального бюджета Бачка-Топола на ночном депозите",
    "title_src": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
-   "updated": "2026-11-27T09:23:01+00:00"
+   "updated": "2026-11-27T09:52:42+00:00"
   },
   "https://n1info.rs/biznis/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:55:37+00:00",
@@ -13943,13 +13935,21 @@
   "https://www.danas.rs/vesti/ekonomija/aod-angazuje-revizora-za-proveru-finansijskog-stanja-alta-banke": {
    "first_seen": "2026-11-27T09:32:57+00:00",
    "kind": "press",
+   "message_id": 363,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-27T09:52:42+00:00",
+   "status": "sent",
+   "tags": [
+    "регулятор",
+    "активы",
+    "суд",
+    "требования"
+   ],
    "title": "AOD нанимает аудитора для проверки финансового состояния Alta банки",
    "title_src": "AOD angažuje revizora za proveru finansijskog stanja Alta banke",
-   "updated": "2026-11-27T09:32:57+00:00"
+   "updated": "2026-11-27T09:52:42+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/aod-objavila-kada-pocinje-isplata-depozita-gradjana-iz-alta-banke": {
    "first_seen": "2026-11-06T13:58:48+00:00",
