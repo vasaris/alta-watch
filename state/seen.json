@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T10:37:58+00:00",
-    "n": 16458,
+    "n": 16459,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T14:48:24+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-27T14:50:27+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T14:48:51+00:00",
-   "elapsed_s": 26,
-   "llm_calls": 0,
+   "at": "2026-11-27T14:52:46+00:00",
+   "elapsed_s": 138,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16460,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 16461,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -10115,6 +10115,17 @@
    "title": "Часть бюджета Бачке Тополе застряла в Alta через ночные депозиты",
    "title_src": "Deo budžetskih sredstava Bačke Topole ostao zarobljen u Alta banci kroz \"prekonoćne depozite\"",
    "updated": "2026-11-12T16:54:46+00:00"
+  },
+  "https://www.021.rs/info/vojvodina/462747/backa-topola-ostala-bez-190-miliona-dinara-u-alta-banci": {
+   "first_seen": "2026-11-27T14:52:46+00:00",
+   "kind": "press",
+   "novelty": 2,
+   "posted": false,
+   "relevance": 7,
+   "status": "dup",
+   "title": "Бачка-Топола потеряла 190 млн динаров в Alta банке",
+   "title_src": "Bačka Topola ostala bez 190 miliona dinara u Alta banci",
+   "updated": "2026-11-27T14:52:46+00:00"
   },
   "https://www.021.rs/novi-sad/vesti/460047/novosadjani-da-znate-zbog-zatvaranja-alta-banke-promenio-se-ziro-racun-informatike": {
    "first_seen": "2026-11-02T07:08:55+00:00",
