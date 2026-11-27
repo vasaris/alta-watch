@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T04:36:26+00:00",
-    "n": 16295,
+    "n": 16296,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T09:20:49+00:00",
+   "at": "2026-11-27T09:22:28+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T09:21:20+00:00",
-   "elapsed_s": 31,
-   "llm_calls": 0,
+   "at": "2026-11-27T09:23:01+00:00",
+   "elapsed_s": 33,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,14 +303,32 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16297,
+   "ALTA": 16298,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "27.11.2026 09:20",
+    "first": "Конкретная сумма застрявших муниципальных средств: 190 млн динаров",
+    "important": false,
+    "kind": "press",
+    "outlet": "N1",
+    "tags": [
+     "выплаты",
+     "активы",
+     "требования",
+     "регулятор"
+    ],
+    "title": "В Alta банке застряло 190 млн динаров муниципального бюджета Бачка-Топола на ночном депозите",
+    "title_src": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
+    "ts": 1795771381.6209776,
+    "url": "https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit"
+   }
+  ]
  },
  "recent": [
   {
@@ -3933,6 +3951,17 @@
     "регулятор"
    ],
    "title": "Глава Forbes Сербия: заявление НБС указывает на возможное банкротство ALTA"
+  },
+  "https://n1info.rs/biznis/iz-budzeta-opstine-backa-topola-u-alta-banci-ostalo-190-miliona-dinara-kroz-prekonocni-depozit": {
+   "first_seen": "2026-11-27T09:23:01+00:00",
+   "kind": "press",
+   "novelty": 7,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "В Alta банке застряло 190 млн динаров муниципального бюджета Бачка-Топола на ночном депозите",
+   "title_src": "Iz budžeta Opštine Bačka Topola u Alta banci ostalo 190 miliona dinara kroz prekonoćni depozit",
+   "updated": "2026-11-27T09:23:01+00:00"
   },
   "https://n1info.rs/biznis/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:55:37+00:00",
