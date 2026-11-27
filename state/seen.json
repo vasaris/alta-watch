@@ -264,19 +264,19 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T10:37:58+00:00",
-    "n": 16427,
+    "n": 16428,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T13:46:18+00:00",
+   "at": "2026-11-27T13:48:20+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T13:46:49+00:00",
+   "at": "2026-11-27T13:48:50+00:00",
    "elapsed_s": 30,
    "llm_calls": 0,
    "llm_down": null,
@@ -300,10 +300,10 @@
   "sources": {
    "alta": 0,
    "aod": 55,
-   "nbs": 33
+   "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16429,
+   "ALTA": 16430,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -37454,6 +37454,14 @@
    ],
    "title": "Агенција Fitch још једном потврдила позитивне изгледе Србије за добијање кредитног рејтинга инвестиционог ранга",
    "updated": "2026-11-20T22:12:45+00:00"
+  },
+  "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21930": {
+   "first_seen": "2026-11-27T13:48:38+00:00",
+   "posted": false,
+   "reason": "offtopic",
+   "status": "rejected",
+   "title": "Статистика каматних стопа на кредите и депозите банака, октобар 2026. године",
+   "updated": "2026-11-27T13:48:38+00:00"
   },
   "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=2194&konverzija=no": {
    "first_seen": "2026-11-07T20:35:58+00:00",
