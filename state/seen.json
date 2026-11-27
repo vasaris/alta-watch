@@ -264,23 +264,23 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T04:36:26+00:00",
-    "n": 16261,
+    "n": 16262,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T08:12:16+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-27T08:14:20+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T08:12:50+00:00",
-   "elapsed_s": 33,
-   "llm_calls": 0,
+   "at": "2026-11-27T08:16:48+00:00",
+   "elapsed_s": 147,
+   "llm_calls": 1,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16263,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 16264,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -313,11 +313,6 @@
   "press": []
  },
  "recent": [
-  {
-   "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing d.o.o. Beograd — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing d.o.o. Beograd принято 17 ноября 2026 — Имущество Alta Leasing превышает её обязательства, что позволяет провести ликвидацию вместо банкротства",
-   "ts": 1794992484.907407,
-   "url": "https://www.nbs.rs/sr_RS/scripts/showcontent/index.html?id=21906"
-  },
   {
    "text": "NBS отозвала лицензию на финансовый лизинг у Alta Leasing; ликвидация вместо банкротства — Решение об отзыве лицензии на финансовый лизинг у Alta Leasing принято 17 ноября 2026. — Выбран процесс ликвидации (а не банкротства) на основе анализа, показавшего превышение имущества над обязательствами.",
    "ts": 1794993055.164791,
@@ -512,6 +507,11 @@
    "text": "Почему отклонено реструктурирование Alta банки: критика решения NBS",
    "ts": 1795736205.0430083,
    "url": "https://radar.nova.rs/ekonomija/zasto-je-odbaceno-restrukturiranje-macurine-banke"
+  },
+  {
+   "text": "Апелляционный суд Белграда арестовал директора Alta Group; кассиру запретили покидать дом — Апелляционный суд определил арест директору Alta Group Т.Б. на срок до 30 дней (27.11.2026) — Кассиру J.P. определена мера запрета покидать жилище с электронным надзором вместо ареста",
+   "ts": 1795767406.792949,
+   "url": "https://nova.rs/vesti/hronika/visi-sud-u-beogradu-odredio-pritvor-direktorki-alta-grup"
   }
  ],
  "retry_items": {},
@@ -6182,6 +6182,25 @@
    "title": "Арестованы брат владельца Alta и директор Alta Pay Group по делу о хищении 390 млн евро",
    "title_src": "Uhapšeni brat Davora Macure i direktorka firme Alta Pay Group",
    "updated": "2026-11-25T14:20:55+00:00"
+  },
+  "https://nova.rs/vesti/hronika/visi-sud-u-beogradu-odredio-pritvor-direktorki-alta-grup": {
+   "first_seen": "2026-11-27T08:16:46+00:00",
+   "hash": "",
+   "kind": "press",
+   "message_id": 362,
+   "novelty": 6,
+   "posted": true,
+   "relevance": 7,
+   "sent_at": "2026-11-27T08:16:46+00:00",
+   "status": "sent",
+   "tags": [
+    "суд",
+    "активы",
+    "клиенты"
+   ],
+   "title": "Апелляционный суд Белграда арестовал директора Alta Group; кассиру запретили покидать дом",
+   "title_src": "Viši sud u Beogradu odredio pritvor direktorki Alta grup",
+   "updated": "2026-11-27T08:16:46+00:00"
   },
   "https://nova.rs/vesti/hronika/vlasniku-alta-banke-davoru-macuri-i-njegovim-firmama-zabranjeno-raspolaganje-imovinom": {
    "first_seen": "2026-11-11T20:16:47+00:00",
