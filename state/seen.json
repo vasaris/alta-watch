@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T22:40:33+00:00",
-    "n": 16704,
+    "n": 16705,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T23:02:22+00:00",
+   "at": "2026-11-27T23:04:16+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T23:02:58+00:00",
-   "elapsed_s": 36,
-   "llm_calls": 0,
+   "at": "2026-11-27T23:04:53+00:00",
+   "elapsed_s": 37,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -303,14 +303,32 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16706,
+   "ALTA": 16707,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
   }
  },
  "pending": {
-  "press": []
+  "press": [
+   {
+    "date": "27.11.2026 23:03",
+    "first": "Viceguverneri заявили, что узнали о расхождениях в отчётах Alta банки только на заседании 30 октября, где была отозвана лицензия",
+    "important": false,
+    "kind": "press",
+    "outlet": "Radar",
+    "tags": [
+     "регулятор",
+     "суд",
+     "выплаты",
+     "активы"
+    ],
+    "title": "Radar: 18 вопросов к Народному банку Сербии о надзоре за Alta банкой",
+    "title_src": "Osamnaest pitanja za Narodnu banku Srbije",
+    "ts": 1795820693.7262065,
+    "url": "https://radar.nova.rs/ekonomija/osamnaest-pitanja-za-nbs"
+   }
+  ]
  },
  "recent": [
   {
@@ -7042,6 +7060,17 @@
    "title": "Почему NBS поспешила отозвать лицензию Alta: критика надзора и вопросы к регулятору",
    "title_src": "Ko je i zašto Davoru Macuri čuvao leđa",
    "updated": "2026-11-26T00:16:47+00:00"
+  },
+  "https://radar.nova.rs/ekonomija/osamnaest-pitanja-za-nbs": {
+   "first_seen": "2026-11-27T23:04:53+00:00",
+   "kind": "press",
+   "novelty": 5,
+   "posted": false,
+   "relevance": 6,
+   "status": "pending",
+   "title": "Radar: 18 вопросов к Народному банку Сербии о надзоре за Alta банкой",
+   "title_src": "Osamnaest pitanja za Narodnu banku Srbije",
+   "updated": "2026-11-27T23:04:53+00:00"
   },
   "https://radar.nova.rs/ekonomija/stecaj-alta-banka-nbs-viceguverneri": {
    "attempts": 38,
