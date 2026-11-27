@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-27T10:37:58+00:00",
-    "n": 16434,
+    "n": 16435,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-27T14:00:46+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-27T14:02:15+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-27",
   "last_run": {
-   "at": "2026-11-27T14:01:11+00:00",
-   "elapsed_s": 24,
+   "at": "2026-11-27T14:04:28+00:00",
+   "elapsed_s": 132,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16436,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 16437,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -2102,6 +2102,16 @@
    "title": "Forbes: закулисье заседания NBS при отзыве лицензии Alta",
    "title_src": "OTKRIVAMO Šta se dešavalo na sednici Izvršnog odbora NBS kada je oduzeta dozvola za rad Alta banci Davora Macure",
    "updated": "2026-11-04T06:03:16+00:00"
+  },
+  "https://forbes.n1info.rs/vesti/agencija-za-osiguranje-depozita-trazi-revizora-za-proveru-finansijskog-stanja-alta-banke": {
+   "first_seen": "2026-11-27T14:04:28+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://beta.rs/content/256687-agencija-za-osiguranje-depozita-trazi-revizora-za-proveru-finansijskog-stanja-alta-banke",
+   "status": "dup",
+   "title": "Agencija za osiguranje depozita traži revizora za proveru finansijskog stanja Alta banke",
+   "title_src": "Agencija za osiguranje depozita traži revizora za proveru finansijskog stanja Alta banke",
+   "updated": "2026-11-27T14:04:28+00:00"
   },
   "https://forbes.n1info.rs/vesti/beograd-na-vodi-nema-rizika-po-likvidnost-i-finansijsku-stabilnost-kompanije-nakon-oduzimanja-licence-alta-banci": {
    "first_seen": "2026-11-03T12:28:44+00:00",
