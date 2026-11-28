@@ -264,33 +264,33 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-28T04:40:35+00:00",
-    "n": 16973,
+    "n": 16974,
     "since": "2026-11-04T14:42:29+00:00"
    },
    "источник AOD новости": {
     "last_sent": "2026-11-28T08:03:00+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-28T08:01:19+00:00"
    },
    "источник AOD объявления": {
     "last_sent": "2026-11-28T08:03:01+00:00",
-    "n": 1,
+    "n": 2,
     "since": "2026-11-28T08:01:19+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-28T08:01:19+00:00",
+   "at": "2026-11-28T08:03:54+00:00",
    "dated": 0,
    "files": 0,
    "pages_ok": 0
   },
   "daily_report_date": "2026-11-28",
   "last_run": {
-   "at": "2026-11-28T08:03:41+00:00",
-   "elapsed_s": 142,
+   "at": "2026-11-28T08:06:12+00:00",
+   "elapsed_s": 138,
    "llm_calls": 0,
    "llm_down": null,
-   "msgs": 0,
+   "msgs": 1,
    "version": "2.1"
   },
   "press": {
@@ -313,37 +313,16 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 16975,
-   "AOD новости": 3,
-   "AOD объявления": 3,
+   "ALTA": 16976,
+   "AOD новости": 4,
+   "AOD объявления": 4,
    "NBS": 0
   }
  },
  "pending": {
-  "press": [
-   {
-    "date": "28.11.2026 07:33",
-    "first": "Вкладчики Alta, оплатившие покупки картой банка, сталкиваются с проблемой возврата денег за товары, так как торговцы требуют вернуть средства на заблокированные счета",
-    "important": false,
-    "kind": "press",
-    "outlet": "N1",
-    "tags": [
-     "клиенты",
-     "активы"
-    ],
-    "title": "Проблемы вкладчиков Alta с возвратом денег за товары: торговцы требуют вернуть средства на заблокированные счета",
-    "title_src": "Kako je stečaj Alta banke napravio problem korisnicima njihovih kartica: Ne mogu da refundiraju novac za robu koju hoće da vrate",
-    "ts": 1795851303.1239166,
-    "url": "https://n1info.rs/biznis/kako-je-stecaj-alta-banke-napravio-problem-korisnicima-njihovih-kartica-"
-   }
-  ]
+  "press": []
  },
  "recent": [
-  {
-   "text": "Поштанска штедионица выплатила пятую часть средств вкладчикам ALTA — К 18 ноября 2026 выплачено 20% от общей суммы застрахованных вкладов — Конкретный темп и объём выплат подтверждают функционирование механизма страхования вкладов",
-   "ts": 1795002528.5764658,
-   "url": "https://www.021.rs/info/biznis-i-ekonomija/461734/postanska-stedionica-do-sada-isplatila-petinu-novca-gradjanima-koji-su-imali-racune-u-alta-banci"
-  },
   {
    "text": "АОД: процедура подачи рекламаций по выплатам застрахованных вкладов ALTA — Процедура подачи рекламаций: три канала (ALTA банка, АОД, Поштанска штедионица) с указанием адресов, электронных адресов и способов подачи — Электронный адрес для рекламаций в АОД: reklamacijealta@aod.rs",
    "ts": 1795038211.3405044,
@@ -538,6 +517,11 @@
    "text": "Radar: 18 вопросов к Народному банку Сербии о надзоре за Alta банкой",
    "ts": 1795822603.6743796,
    "url": "https://radar.nova.rs/ekonomija/osamnaest-pitanja-za-nbs"
+  },
+  {
+   "text": "Проблемы вкладчиков Alta с возвратом денег за товары: торговцы требуют вернуть средства на заблокированные счета",
+   "ts": 1795853170.9008517,
+   "url": "https://n1info.rs/biznis/kako-je-stecaj-alta-banke-napravio-problem-korisnicima-njihovih-kartica-"
   }
  ],
  "retry_items": {},
@@ -4041,13 +4025,19 @@
   "https://n1info.rs/biznis/kako-je-stecaj-alta-banke-napravio-problem-korisnicima-njihovih-kartica-": {
    "first_seen": "2026-11-28T07:35:03+00:00",
    "kind": "press",
+   "message_id": 366,
    "novelty": 7,
-   "posted": false,
+   "posted": true,
    "relevance": 6,
-   "status": "pending",
+   "sent_at": "2026-11-28T08:06:10+00:00",
+   "status": "sent",
+   "tags": [
+    "клиенты",
+    "активы"
+   ],
    "title": "Проблемы вкладчиков Alta с возвратом денег за товары: торговцы требуют вернуть средства на заблокированные счета",
    "title_src": "Kako je stečaj Alta banke napravio problem korisnicima njihovih kartica: Ne mogu da refundiraju novac za robu koju hoće da vrate",
-   "updated": "2026-11-28T07:35:03+00:00"
+   "updated": "2026-11-28T08:06:10+00:00"
   },
   "https://n1info.rs/biznis/kompanije-od-danas-ponovo-mogu-da-isplacuju-plate-preko-racuna-u-alta-banci-bitolj": {
    "first_seen": "2026-11-11T16:55:37+00:00",
