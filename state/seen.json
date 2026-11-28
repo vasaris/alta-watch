@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-28T10:41:05+00:00",
-    "n": 17185,
+    "n": 17186,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-28T15:06:28+00:00",
+   "at": "2026-11-28T15:08:14+00:00",
    "dated": 286,
    "files": 286,
    "pages_ok": 2
   },
   "daily_report_date": "2026-11-28",
   "last_run": {
-   "at": "2026-11-28T15:06:54+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-28T15:08:37+00:00",
+   "elapsed_s": 22,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -303,7 +303,7 @@
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 17187,
+   "ALTA": 17188,
    "AOD новости": 0,
    "AOD объявления": 0,
    "NBS": 0
@@ -4365,6 +4365,16 @@
    "title": "Поштанска штедионица выплатила вкладчикам ALTA 32,84 млн евро и 1,98 млрд динаров",
    "title_src": "Poštanska štedionica: Deponentima Alta banke isplaćeno 32,84 miliona evra i 1,98 milijardi dinara",
    "updated": "2026-11-17T09:25:16+00:00"
+  },
+  "https://n1info.rs/biznis/postanska-stedionica-isplatila-229-miliona-evra-deponentima-alta-banke-u-stecaju": {
+   "first_seen": "2026-11-28T15:08:37+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://www.021.rs/info/biznis-i-ekonomija/462827/postanska-stedionica-isplatila-229-miliona-evra-deponentima-alta-banke-u-stecaju",
+   "status": "dup",
+   "title": "Poštanska štedionica isplatila 229 miliona evra deponentima Alta banke u stečaju",
+   "title_src": "Poštanska štedionica isplatila 229 miliona evra deponentima Alta banke u stečaju",
+   "updated": "2026-11-28T15:08:37+00:00"
   },
   "https://n1info.rs/biznis/postanska-stedionica-od-12-novembra-dostupan-portal-za-zakazivanje-isplata-klijentima-alta-banke": {
    "first_seen": "2026-11-10T15:26:53+00:00",
