@@ -264,21 +264,21 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-28T16:43:55+00:00",
-    "n": 17242,
+    "n": 17243,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-28T17:00:53+00:00",
-   "dated": 0,
-   "files": 0,
-   "pages_ok": 0
+   "at": "2026-11-28T17:03:25+00:00",
+   "dated": 286,
+   "files": 286,
+   "pages_ok": 2
   },
   "daily_report_date": "2026-11-28",
   "last_run": {
-   "at": "2026-11-28T17:03:12+00:00",
-   "elapsed_s": 139,
-   "llm_calls": 0,
+   "at": "2026-11-28T17:03:58+00:00",
+   "elapsed_s": 32,
+   "llm_calls": 1,
    "llm_down": null,
    "msgs": 0,
    "version": "2.1"
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 0,
+   "aod": 55,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 17244,
-   "AOD новости": 1,
-   "AOD объявления": 1,
+   "ALTA": 17245,
+   "AOD новости": 0,
+   "AOD объявления": 0,
    "NBS": 0
   }
  },
@@ -2405,6 +2405,17 @@
     "банки"
    ],
    "title": "Udruženje banaka Srbije: Slučaj Alta banke ne utiče na poslovanje ostalih banaka u Srbiji"
+  },
+  "https://insajder.net/ekonomija/finansijski-forenzicar-za-insajder-sve-ce-biti-jasno-kada-utvrdimo-sta-se-desavalo-u-dva-sata-i-14-minuta-ujutru-kada-je-nbs-oduzela-licencu-alta-banci-video": {
+   "first_seen": "2026-11-28T17:03:58+00:00",
+   "kind": "press",
+   "novelty": 3,
+   "posted": false,
+   "relevance": 5,
+   "status": "dup",
+   "title": "Финансовый форензик: картина Alta банки неполна, рынок недвижимости ждут «тектонические сдвиги»",
+   "title_src": "Finansijski forenzičar za Insajder: Slika o Alta banci još nije potpuna, tržište nekretnina će doživeti tektonske poremećaje (VIDEO)",
+   "updated": "2026-11-28T17:03:58+00:00"
   },
   "https://insajder.net/marker/marker-cela-emisija-za-25-novembar-2026": {
    "first_seen": "2026-11-26T09:12:43+00:00",
