@@ -264,20 +264,20 @@
   "alerts": {
    "источник ALTA": {
     "last_sent": "2026-11-28T10:41:05+00:00",
-    "n": 17204,
+    "n": 17205,
     "since": "2026-11-04T14:42:29+00:00"
    }
   },
   "aod_notices": {
-   "at": "2026-11-28T15:44:23+00:00",
-   "dated": 286,
-   "files": 286,
-   "pages_ok": 2
+   "at": "2026-11-28T15:46:17+00:00",
+   "dated": 0,
+   "files": 0,
+   "pages_ok": 0
   },
   "daily_report_date": "2026-11-28",
   "last_run": {
-   "at": "2026-11-28T15:44:50+00:00",
-   "elapsed_s": 26,
+   "at": "2026-11-28T15:48:39+00:00",
+   "elapsed_s": 141,
    "llm_calls": 0,
    "llm_down": null,
    "msgs": 0,
@@ -299,13 +299,13 @@
   },
   "sources": {
    "alta": 0,
-   "aod": 55,
+   "aod": 0,
    "nbs": 34
   },
   "src_fail": {
-   "ALTA": 17206,
-   "AOD новости": 0,
-   "AOD объявления": 0,
+   "ALTA": 17207,
+   "AOD новости": 1,
+   "AOD объявления": 1,
    "NBS": 0
   }
  },
@@ -15058,6 +15058,16 @@
    "title": "Начало выплат застрахованных вкладов Alta банки; русские граждане опасаются потерять сбережения сверх лимита",
    "title_src": "Počinje isplata osiguranih depozita Alta banke, Rusi iz Subotice strahuju za ostatak ušteđevine",
    "updated": "2026-11-10T13:54:51+00:00"
+  },
+  "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-alta-banka": {
+   "first_seen": "2026-11-28T15:48:39+00:00",
+   "kind": "press",
+   "posted": false,
+   "reason": "near_dup:https://n1info.rs/biznis/postanska-stedionica-isplatila-229-miliona-evra-deponentima-alta-banke-u-stecaju",
+   "status": "dup",
+   "title": "Poštanska štedionica isplatila 229 miliona evra deponentima Alta banke u stečaju",
+   "title_src": "Poštanska štedionica isplatila 229 miliona evra deponentima Alta banke u stečaju",
+   "updated": "2026-11-28T15:48:39+00:00"
   },
   "https://www.danas.rs/vesti/ekonomija/postanska-stedionica-isplata-depozita": {
    "first_seen": "2026-11-05T19:18:02+00:00",
